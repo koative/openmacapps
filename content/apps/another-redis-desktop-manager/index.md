@@ -12,6 +12,7 @@ website: "https://github.com/qishibo/AnotherRedisDesktopManager"
 license: "MIT"
 licenseUrl: "https://github.com/qishibo/AnotherRedisDesktopManager/blob/master/LICENSE"
 download: "https://github.com/qishibo/AnotherRedisDesktopManager/releases"
+homebrew: "another-redis-desktop-manager"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

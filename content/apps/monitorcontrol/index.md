@@ -8,6 +8,7 @@ website: "https://monitorcontrol.app"
 license: "MIT"
 licenseUrl: "https://github.com/MonitorControl/MonitorControl/blob/main/License.txt"
 download: "https://github.com/MonitorControl/MonitorControl/releases"
+homebrew: "monitorcontrol"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

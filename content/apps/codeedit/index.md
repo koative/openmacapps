@@ -8,6 +8,7 @@ website: "https://www.codeedit.app"
 license: "MIT"
 licenseUrl: "https://github.com/CodeEditApp/CodeEdit/blob/main/LICENSE.md"
 download: "https://github.com/CodeEditApp/CodeEdit/releases"
+homebrew: "codeedit"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

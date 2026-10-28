@@ -12,6 +12,7 @@ website: "https://responsively.app"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/responsively-org/responsively-app/blob/main/LICENSE"
 download: "https://responsively.app/download"
+homebrew: "responsively"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

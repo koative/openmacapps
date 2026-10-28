@@ -13,6 +13,7 @@ website: https://www.wesnoth.org
 license: "GPL-2.0-or-later"
 licenseUrl: https://github.com/wesnoth/wesnoth/blob/master/COPYING
 download: https://wiki.wesnoth.org/Download
+homebrew: "the-battle-for-wesnoth"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

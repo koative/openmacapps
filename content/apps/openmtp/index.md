@@ -12,6 +12,7 @@ website: https://openmtp.ganeshrvel.com
 license: "MIT"
 licenseUrl: https://github.com/ganeshrvel/openmtp/blob/master/LICENSE
 download: https://github.com/ganeshrvel/openmtp/releases/latest
+homebrew: "openmtp"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

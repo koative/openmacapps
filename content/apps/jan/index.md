@@ -8,6 +8,7 @@ website: "https://jan.ai"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/janhq/jan/blob/main/LICENSE"
 download: "https://jan.ai/download"
+homebrew: "jan"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

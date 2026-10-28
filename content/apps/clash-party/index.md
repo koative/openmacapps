@@ -12,6 +12,7 @@ website: https://clashparty.org/
 license: GPL-3.0
 licenseUrl: https://github.com/mihomo-party-org/clash-party/blob/smart_core/LICENSE
 download: https://github.com/mihomo-party-org/clash-party/releases
+homebrew: "clash-party"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

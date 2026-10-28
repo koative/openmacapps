@@ -12,6 +12,7 @@ website: https://handy.computer
 license: "MIT"
 licenseUrl: https://github.com/cjpais/Handy/blob/main/LICENSE
 download: https://github.com/cjpais/Handy/releases/latest
+homebrew: "handy"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

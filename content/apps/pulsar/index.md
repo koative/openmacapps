@@ -8,6 +8,7 @@ website: "https://pulsar-edit.dev"
 license: "MIT"
 licenseUrl: "https://github.com/pulsar-edit/pulsar/blob/master/LICENSE.md"
 download: "https://github.com/pulsar-edit/pulsar/releases"
+homebrew: "pulsar"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

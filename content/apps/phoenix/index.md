@@ -12,6 +12,7 @@ website: https://kasper.github.io/phoenix/
 license: "MIT"
 licenseUrl: https://github.com/kasper/phoenix/blob/master/LICENSE.md
 download: https://github.com/kasper/phoenix/releases
+homebrew: "phoenix"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

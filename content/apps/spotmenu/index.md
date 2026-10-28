@@ -11,6 +11,7 @@ website: https://kmikiy.github.io/SpotMenu/
 license: "MIT"
 licenseUrl: https://github.com/kmikiy/SpotMenu/blob/master/LICENSE
 download: https://github.com/kmikiy/SpotMenu/releases
+homebrew: "spotmenu"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -12,6 +12,7 @@ website: https://purgemac.com/
 license: MIT
 licenseUrl: https://github.com/jithin-sabu/purge-app/blob/main/LICENSE
 download: https://github.com/jithin-sabu/purge-app/releases
+homebrew: "purge"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

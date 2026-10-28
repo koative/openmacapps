@@ -8,6 +8,7 @@ website: "https://petrichor.page"
 license: "MIT"
 licenseUrl: "https://github.com/kushalpandya/Petrichor/blob/main/LICENSE"
 download: "https://github.com/kushalpandya/Petrichor/releases"
+homebrew: "petrichor"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

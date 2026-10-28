@@ -8,6 +8,7 @@ website: "https://www.blender.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/blender/blender/blob/main/doc/license/GPL3-license.txt"
 download: "https://www.blender.org/download/"
+homebrew: "blender"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

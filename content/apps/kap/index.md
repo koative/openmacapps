@@ -8,6 +8,7 @@ website: "https://getkap.co"
 license: "MIT"
 licenseUrl: "https://github.com/wulkano/Kap/blob/main/LICENSE.md"
 download: "https://github.com/wulkano/Kap/releases"
+homebrew: "kap"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

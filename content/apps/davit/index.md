@@ -11,6 +11,7 @@ website: https://github.com/wouterdebie/davit
 license: MIT
 licenseUrl: https://github.com/wouterdebie/davit/blob/main/LICENSE
 download: https://github.com/wouterdebie/davit/releases
+homebrew: "davit"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

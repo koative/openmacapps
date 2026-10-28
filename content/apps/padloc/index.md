@@ -13,6 +13,7 @@ website: https://padloc.app
 license: AGPL-3.0
 licenseUrl: https://github.com/padloc/padloc/blob/main/LICENSE
 download: https://github.com/padloc/padloc/releases
+homebrew: "padloc"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

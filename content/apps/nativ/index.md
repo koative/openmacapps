@@ -12,6 +12,7 @@ website: https://blaizzy.github.io/nativ/
 license: "MIT"
 licenseUrl: https://github.com/Blaizzy/nativ/blob/main/LICENSE
 download: https://github.com/Blaizzy/nativ/releases
+homebrew: "nativ"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

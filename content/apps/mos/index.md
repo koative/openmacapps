@@ -11,6 +11,7 @@ website: https://github.com/Caldis/Mos
 license: CC-BY-NC-4.0
 licenseUrl: https://github.com/Caldis/Mos/blob/master/LICENSE
 download: https://github.com/Caldis/Mos/releases
+homebrew: "mos"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

@@ -8,6 +8,7 @@ website: "https://fsnot.es"
 license: "MIT"
 licenseUrl: "https://github.com/glushchenko/fsnotes/blob/master/LICENSE"
 download: "https://github.com/glushchenko/fsnotes/releases"
+homebrew: "fsnotes"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

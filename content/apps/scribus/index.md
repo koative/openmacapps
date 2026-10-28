@@ -8,6 +8,7 @@ website: "https://www.scribus.net/"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/scribusproject/scribus/blob/master/COPYING"
 download: "https://sourceforge.net/projects/scribus/files/scribus/"
+homebrew: "scribus"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

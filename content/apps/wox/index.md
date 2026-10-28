@@ -12,6 +12,7 @@ website: https://www.woxlauncher.com
 license: "GPL-3.0"
 licenseUrl: https://github.com/Wox-launcher/Wox/blob/master/LICENSE
 download: https://github.com/Wox-launcher/Wox/releases
+homebrew: "wox"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

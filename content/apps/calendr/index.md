@@ -10,6 +10,7 @@ website: https://github.com/pakerwreah/Calendr
 license: 'MIT'
 licenseUrl: https://github.com/pakerwreah/Calendr/blob/master/LICENSE
 download: https://github.com/pakerwreah/Calendr/releases
+homebrew: "calendr"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

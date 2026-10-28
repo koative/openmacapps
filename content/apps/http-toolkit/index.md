@@ -13,6 +13,7 @@ website: https://httptoolkit.com
 license: "AGPL-3.0"
 licenseUrl: https://github.com/httptoolkit/httptoolkit-desktop/blob/main/LICENSE
 download: https://github.com/httptoolkit/httptoolkit-desktop/releases
+homebrew: "http-toolkit"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

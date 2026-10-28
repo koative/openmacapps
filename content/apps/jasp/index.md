@@ -8,6 +8,7 @@ website: "https://jasp-stats.org/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/jasp-stats/jasp-desktop/blob/development/COPYING.txt"
 download: "https://github.com/jasp-stats/jasp-desktop/releases"
+homebrew: "jasp"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

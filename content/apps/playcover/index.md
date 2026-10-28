@@ -8,6 +8,7 @@ website: "https://playcover.io"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/PlayCover/PlayCover/blob/develop/LICENSE"
 download: "https://github.com/PlayCover/PlayCover/releases"
+homebrew: "playcover-community"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

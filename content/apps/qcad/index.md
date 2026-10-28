@@ -8,6 +8,7 @@ website: "https://www.qcad.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/qcad/qcad/blob/master/LICENSE.txt"
 download: "https://www.qcad.org/en/download/"
+homebrew: "qcad"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

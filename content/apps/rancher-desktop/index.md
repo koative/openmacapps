@@ -8,6 +8,7 @@ website: "https://rancherdesktop.io"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/rancher-sandbox/rancher-desktop/blob/main/LICENSE"
 download: "https://rancherdesktop.io"
+homebrew: "rancher"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

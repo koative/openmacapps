@@ -12,6 +12,7 @@ website: https://github.com/cardisoft/cardinal
 license: "MIT"
 licenseUrl: https://github.com/cardisoft/cardinal/blob/master/LICENSE
 download: https://github.com/cardisoft/cardinal/releases
+homebrew: "cardinal-search"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

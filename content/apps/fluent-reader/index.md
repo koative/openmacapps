@@ -8,6 +8,7 @@ website: "https://hyliu.me/fluent-reader/"
 license: "BSD-3-Clause"
 licenseUrl: "https://github.com/yang991178/fluent-reader/blob/master/LICENSE"
 download: "https://github.com/yang991178/fluent-reader/releases"
+homebrew: "fluent-reader"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

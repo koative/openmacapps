@@ -8,6 +8,7 @@ website: "https://pdfsam.org/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/torakiki/pdfsam/blob/master/LICENSE"
 download: "https://github.com/torakiki/pdfsam/releases"
+homebrew: "pdfsam-basic"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

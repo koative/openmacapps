@@ -8,6 +8,7 @@ website: "https://diffusionbee.com"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui/blob/master/LICENSE"
 download: "https://diffusionbee.com/download"
+homebrew: "diffusionbee"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

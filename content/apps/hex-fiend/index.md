@@ -11,6 +11,7 @@ website: https://hexfiend.com/
 license: "BSD-2-Clause"
 licenseUrl: https://github.com/HexFiend/HexFiend/blob/master/License.txt
 download: https://github.com/HexFiend/HexFiend/releases
+homebrew: "hex-fiend"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

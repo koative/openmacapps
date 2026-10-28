@@ -8,6 +8,7 @@ website: "https://github.com/syncthing/syncthing-macos"
 license: "MIT"
 licenseUrl: "https://github.com/syncthing/syncthing-macos/blob/v2/LICENSE"
 download: "https://github.com/syncthing/syncthing-macos/releases"
+homebrew: "syncthing-app"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

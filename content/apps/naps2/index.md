@@ -8,6 +8,7 @@ website: "https://www.naps2.com/"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/cyanfish/naps2/blob/master/LICENSE"
 download: "https://github.com/cyanfish/naps2/releases"
+homebrew: "naps2"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

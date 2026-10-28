@@ -11,6 +11,7 @@ website: https://github.com/objective-see/Netiquette
 license: GPL-3.0
 licenseUrl: https://github.com/objective-see/Netiquette/blob/master/LICENSE.md
 download: https://github.com/objective-see/Netiquette/releases
+homebrew: "netiquette"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

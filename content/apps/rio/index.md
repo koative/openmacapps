@@ -8,6 +8,7 @@ website: "https://rioterm.com"
 license: "MIT"
 licenseUrl: "https://github.com/raphamorim/rio/blob/main/LICENSE"
 download: "https://github.com/raphamorim/rio/releases"
+homebrew: "rio"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

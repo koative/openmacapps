@@ -12,6 +12,7 @@ website: "https://www.tadviewer.com"
 license: "MIT"
 licenseUrl: "https://github.com/antonycourtney/tad/blob/master/LICENSE"
 download: "https://github.com/antonycourtney/tad/releases"
+homebrew: "tad"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

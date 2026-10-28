@@ -11,6 +11,7 @@ website: https://netnewswire.com/
 license: MIT
 licenseUrl: https://github.com/Ranchero-Software/NetNewsWire/blob/main/LICENSE
 download: https://github.com/Ranchero-Software/NetNewsWire/releases
+homebrew: "netnewswire"
 featured: true
 added: 2026-10-17
 verified: 2026-10-17

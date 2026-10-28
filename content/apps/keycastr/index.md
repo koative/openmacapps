@@ -11,6 +11,7 @@ website: https://github.com/keycastr/keycastr
 license: BSD-3-Clause
 licenseUrl: https://github.com/keycastr/keycastr/blob/main/LICENSE.md
 download: https://github.com/keycastr/keycastr/releases
+homebrew: "keycastr"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

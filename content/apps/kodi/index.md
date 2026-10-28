@@ -8,6 +8,7 @@ website: "https://kodi.tv"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/xbmc/xbmc/blob/master/LICENSE.md"
 download: "https://kodi.tv/download/macos"
+homebrew: "kodi"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

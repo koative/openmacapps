@@ -8,6 +8,7 @@ website: "https://xcodes.app"
 license: "MIT"
 licenseUrl: "https://github.com/XcodesOrg/XcodesApp/blob/main/LICENSE"
 download: "https://github.com/XcodesOrg/XcodesApp/releases"
+homebrew: "xcodes-app"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

@@ -8,6 +8,7 @@ website: "https://coteditor.com"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/coteditor/CotEditor/blob/main/LICENSE"
 download: "https://github.com/coteditor/CotEditor/releases"
+homebrew: "coteditor"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

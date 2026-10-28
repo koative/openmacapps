@@ -8,6 +8,7 @@ website: "https://www.openshot.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/OpenShot/openshot-qt/blob/develop/COPYING"
 download: "https://github.com/OpenShot/openshot-qt/releases"
+homebrew: "openshot-video-editor"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

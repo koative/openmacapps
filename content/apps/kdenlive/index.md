@@ -8,6 +8,7 @@ website: "https://kdenlive.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/KDE/kdenlive/blob/master/COPYING"
 download: "https://kdenlive.org/download/"
+homebrew: "kdenlive"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

@@ -8,6 +8,7 @@ website: "https://www.gimp.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/GNOME/gimp/blob/master/COPYING"
 download: "https://www.gimp.org/downloads/"
+homebrew: "gimp"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

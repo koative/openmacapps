@@ -13,6 +13,7 @@ website: https://mangodisk.app
 license: "GPL-3.0"
 licenseUrl: https://github.com/harry0703/MangoDisk/blob/main/LICENSE
 download: https://github.com/harry0703/MangoDisk/releases
+homebrew: "mangodisk"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

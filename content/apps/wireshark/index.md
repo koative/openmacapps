@@ -8,6 +8,7 @@ website: "https://www.wireshark.org"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/wireshark/wireshark/blob/master/COPYING"
 download: "https://www.wireshark.org/download.html"
+homebrew: "wireshark-app"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

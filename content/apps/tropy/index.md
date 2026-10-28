@@ -8,6 +8,7 @@ website: "https://tropy.org/"
 license: "AGPL-3.0-only"
 licenseUrl: "https://github.com/tropy/tropy/blob/main/LICENSE"
 download: "https://github.com/tropy/tropy/releases"
+homebrew: "tropy"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

@@ -11,6 +11,7 @@ website: https://gaphor.org
 license: "Apache-2.0"
 licenseUrl: https://github.com/gaphor/gaphor/blob/main/LICENSES/Apache-2.0.txt
 download: https://gaphor.org/download/
+homebrew: "gaphor"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -8,6 +8,7 @@ website: "https://qgis.org/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/qgis/QGIS/blob/master/COPYING"
 download: "https://www.qgis.org/download/"
+homebrew: "qgis"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

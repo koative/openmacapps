@@ -8,6 +8,7 @@ website: "https://appflowy.com/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/AppFlowy-IO/AppFlowy/blob/main/LICENSE"
 download: "https://github.com/AppFlowy-IO/AppFlowy/releases"
+homebrew: "appflowy"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

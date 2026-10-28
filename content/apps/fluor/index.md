@@ -10,6 +10,7 @@ website: https://github.com/Pyroh/Fluor
 license: "MIT"
 licenseUrl: https://github.com/Pyroh/Fluor/blob/main/LICENSE
 download: https://github.com/Pyroh/Fluor/releases
+homebrew: "fluor"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

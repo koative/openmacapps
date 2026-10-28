@@ -11,6 +11,7 @@ website: https://github.com/gao-sun/eul
 license: MIT
 licenseUrl: https://github.com/gao-sun/eul/blob/master/LICENSE
 download: https://github.com/gao-sun/eul/releases
+homebrew: "eul"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

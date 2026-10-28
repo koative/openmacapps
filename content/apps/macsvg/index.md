@@ -12,6 +12,7 @@ website: "https://macsvg.org"
 license: "MIT"
 licenseUrl: "https://github.com/dsward2/macSVG/blob/master/LICENSE"
 download: "https://github.com/dsward2/macSVG/releases"
+homebrew: "macsvg"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

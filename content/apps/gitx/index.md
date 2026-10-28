@@ -10,6 +10,7 @@ website: "https://github.com/gitx/gitx"
 license: "GPL-2.0-only"
 licenseUrl: "https://github.com/gitx/gitx/blob/master/COPYING"
 download: "https://github.com/gitx/gitx/releases"
+homebrew: "gitx"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

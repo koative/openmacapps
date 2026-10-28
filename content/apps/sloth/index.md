@@ -12,6 +12,7 @@ website: https://sveinbjorn.org/sloth
 license: "BSD-3-Clause"
 licenseUrl: https://github.com/sveinbjornt/Sloth/blob/master/LICENSE.txt
 download: https://sveinbjorn.org/sloth
+homebrew: "sloth"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

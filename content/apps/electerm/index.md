@@ -13,6 +13,7 @@ website: "https://electerm.org"
 license: "MIT"
 licenseUrl: "https://github.com/electerm/electerm/blob/master/LICENSE"
 download: "https://github.com/electerm/electerm/releases"
+homebrew: "electerm"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

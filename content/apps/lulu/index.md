@@ -8,6 +8,7 @@ website: "https://objective-see.org/products/lulu.html"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/objective-see/LuLu/blob/master/LICENSE.md"
 download: "https://github.com/objective-see/LuLu/releases"
+homebrew: "lulu"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

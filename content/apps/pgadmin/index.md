@@ -8,6 +8,7 @@ website: "https://www.pgadmin.org"
 license: "PostgreSQL"
 licenseUrl: "https://github.com/pgadmin-org/pgadmin4/blob/master/LICENSE"
 download: "https://www.pgadmin.org/download/pgadmin-4-macos/"
+homebrew: "pgadmin4"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

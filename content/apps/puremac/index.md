@@ -11,6 +11,7 @@ website: https://www.moamenbasel.com/PureMac/
 license: MIT
 licenseUrl: https://github.com/momenbasel/PureMac/blob/main/LICENSE
 download: https://github.com/momenbasel/PureMac/releases
+homebrew: "puremac"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

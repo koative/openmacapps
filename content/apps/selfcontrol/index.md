@@ -11,6 +11,7 @@ website: https://selfcontrolapp.com/
 license: GPL-3.0
 licenseUrl: https://github.com/SelfControlApp/selfcontrol/blob/master/COPYING
 download: https://selfcontrolapp.com/
+homebrew: "selfcontrol"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

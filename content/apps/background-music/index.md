@@ -11,6 +11,7 @@ website: https://github.com/kyleneideck/BackgroundMusic
 license: GPL-2.0
 licenseUrl: https://github.com/kyleneideck/BackgroundMusic/blob/master/LICENSE
 download: https://github.com/kyleneideck/BackgroundMusic/releases
+homebrew: "background-music"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

@@ -8,6 +8,7 @@ website: "https://chidiwilliams.github.io/buzz"
 license: "MIT"
 licenseUrl: "https://github.com/chidiwilliams/buzz/blob/main/LICENSE"
 download: "https://github.com/chidiwilliams/buzz/releases"
+homebrew: "buzz"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

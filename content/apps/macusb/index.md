@@ -11,6 +11,7 @@ website: https://macusb.app
 license: "MIT"
 licenseUrl: https://github.com/Kruszoneq/macUSB/blob/main/LICENSE.txt
 download: https://github.com/Kruszoneq/macUSB/releases
+homebrew: "macusb"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

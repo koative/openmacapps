@@ -8,6 +8,7 @@ website: "https://maccy.app"
 license: "MIT"
 licenseUrl: "https://github.com/p0deje/Maccy/blob/master/LICENSE"
 download: "https://github.com/p0deje/Maccy/releases"
+homebrew: "maccy"
 featured: true
 added: "2026-10-17"
 verified: "2026-10-17"

@@ -11,6 +11,7 @@ website: https://getcalyx.app
 license: "MIT"
 licenseUrl: https://github.com/yuuichieguchi/Calyx/blob/main/LICENSE
 download: https://github.com/yuuichieguchi/Calyx/releases
+homebrew: "calyx"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

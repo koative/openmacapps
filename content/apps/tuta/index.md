@@ -8,6 +8,7 @@ website: "https://tuta.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/tutao/tutanota/blob/master/LICENSE.txt"
 download: "https://github.com/tutao/tutanota/releases"
+homebrew: "tuta-mail"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

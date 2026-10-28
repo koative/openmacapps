@@ -8,6 +8,7 @@ website: "https://macos.telegram.org"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/overtake/TelegramSwift/blob/master/LICENSE"
 download: "https://macos.telegram.org"
+homebrew: "telegram"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

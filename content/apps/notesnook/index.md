@@ -8,6 +8,7 @@ website: "https://notesnook.com/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/streetwriters/notesnook/blob/master/LICENSE"
 download: "https://github.com/streetwriters/notesnook/releases"
+homebrew: "notesnook"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

@@ -12,6 +12,7 @@ website: https://www.freecad.org/
 license: LGPL-2.1
 licenseUrl: https://github.com/FreeCAD/FreeCAD/blob/main/LICENSE
 download: https://github.com/FreeCAD/FreeCAD/releases
+homebrew: "freecad"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

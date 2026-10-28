@@ -8,6 +8,7 @@ website: "https://shotcut.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/mltframework/shotcut/blob/master/COPYING"
 download: "https://github.com/mltframework/shotcut/releases"
+homebrew: "shotcut"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

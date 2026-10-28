@@ -11,6 +11,7 @@ website: https://github.com/tombonez/noTunes
 license: MIT
 licenseUrl: https://github.com/tombonez/noTunes/blob/master/LICENSE
 download: https://github.com/tombonez/noTunes/releases
+homebrew: "notunes"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

@@ -11,6 +11,7 @@ website: "https://netbeans.apache.org"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/apache/netbeans/blob/master/LICENSE"
 download: "https://netbeans.apache.org/front/main/download/"
+homebrew: "netbeans"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

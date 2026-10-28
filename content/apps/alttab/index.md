@@ -8,6 +8,7 @@ website: "https://alt-tab.app"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/lwouis/alt-tab-macos/blob/master/LICENCE.md"
 download: "https://github.com/lwouis/alt-tab-macos/releases"
+homebrew: "alt-tab"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

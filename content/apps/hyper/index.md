@@ -8,6 +8,7 @@ website: "https://hyper.is"
 license: "MIT"
 licenseUrl: "https://github.com/vercel/hyper/blob/canary/LICENSE"
 download: "https://github.com/vercel/hyper/releases"
+homebrew: "hyper"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

@@ -8,6 +8,7 @@ website: "https://mac-stats.com"
 license: "MIT"
 licenseUrl: "https://github.com/exelban/stats/blob/master/LICENSE"
 download: "https://github.com/exelban/stats/releases"
+homebrew: "stats"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

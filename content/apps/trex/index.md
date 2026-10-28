@@ -11,6 +11,7 @@ website: https://github.com/amebalabs/TRex
 license: MIT
 licenseUrl: https://github.com/amebalabs/TRex/blob/main/LICENSE
 download: https://github.com/amebalabs/TRex/releases
+homebrew: "trex"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

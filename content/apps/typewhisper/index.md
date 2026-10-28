@@ -11,6 +11,7 @@ website: https://www.typewhisper.com
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/TypeWhisper/typewhisper-mac/blob/main/LICENSE
 download: https://github.com/TypeWhisper/typewhisper-mac/releases/latest
+homebrew: "typewhisper"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

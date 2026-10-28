@@ -11,6 +11,7 @@ website: "https://adium.im"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/adium/adium/blob/master/License.txt"
 download: "https://adium.im"
+homebrew: "adium"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

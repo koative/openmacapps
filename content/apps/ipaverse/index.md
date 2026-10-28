@@ -13,6 +13,7 @@ website: https://github.com/bahattinkoc/ipaverse
 license: "MIT AND GPL-2.0 AND LGPL-2.1-or-later"
 licenseUrl: https://github.com/bahattinkoc/ipaverse/blob/main/LICENSE
 download: https://github.com/bahattinkoc/ipaverse/releases
+homebrew: "ipaverse"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

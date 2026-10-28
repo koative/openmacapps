@@ -8,6 +8,7 @@ website: "https://museeks.io"
 license: "MIT"
 licenseUrl: "https://github.com/martpie/museeks/blob/master/LICENSE"
 download: "https://github.com/martpie/museeks/releases"
+homebrew: "museeks"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

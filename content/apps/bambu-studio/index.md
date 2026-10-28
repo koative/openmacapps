@@ -12,6 +12,7 @@ website: https://bambulab.com/en/download/studio
 license: AGPL-3.0
 licenseUrl: https://github.com/bambulab/BambuStudio/blob/master/LICENSE
 download: https://github.com/bambulab/BambuStudio/releases
+homebrew: "bambu-studio"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

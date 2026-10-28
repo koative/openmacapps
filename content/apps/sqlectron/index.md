@@ -11,6 +11,7 @@ website: https://sqlectron.github.io/
 license: MIT
 licenseUrl: https://github.com/sqlectron/sqlectron/blob/main/LICENSE
 download: https://github.com/sqlectron/sqlectron/releases
+homebrew: "sqlectron"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

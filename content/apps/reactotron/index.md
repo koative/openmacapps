@@ -11,6 +11,7 @@ website: https://docs.infinite.red/reactotron/
 license: MIT
 licenseUrl: https://github.com/infinitered/reactotron/blob/master/LICENSE
 download: https://github.com/infinitered/reactotron/releases?q=reactotron-app&expanded=true
+homebrew: "reactotron"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

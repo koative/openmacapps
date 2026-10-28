@@ -8,6 +8,7 @@ website: "https://gitup.co"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/git-up/GitUp/blob/master/LICENSE"
 download: "https://github.com/git-up/GitUp/releases"
+homebrew: "gitup-app"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

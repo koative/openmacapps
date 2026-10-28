@@ -12,6 +12,7 @@ website: "https://github.com/alichtman/deadbolt"
 license: "MIT"
 licenseUrl: "https://github.com/alichtman/deadbolt/blob/main/LICENSE"
 download: "https://github.com/alichtman/deadbolt/releases"
+homebrew: "deadbolt"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -8,6 +8,7 @@ website: "https://brave.com"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/brave/brave-browser/blob/master/LICENSE"
 download: "https://brave.com/download"
+homebrew: "brave-browser"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

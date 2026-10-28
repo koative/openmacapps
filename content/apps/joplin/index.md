@@ -8,6 +8,7 @@ website: "https://joplinapp.org/"
 license: "AGPL-3.0-or-later"
 licenseUrl: "https://github.com/laurent22/joplin/blob/dev/LICENSE"
 download: "https://github.com/laurent22/joplin/releases"
+homebrew: "joplin"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

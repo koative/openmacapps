@@ -8,6 +8,7 @@ website: "https://jami.net"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/savoirfairelinux/jami-client-qt/blob/master/COPYING"
 download: "https://jami.net/download-jami-macos"
+homebrew: "jami"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

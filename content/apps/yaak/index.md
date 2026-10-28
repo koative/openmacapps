@@ -8,6 +8,7 @@ website: "https://yaak.app"
 license: "MIT"
 licenseUrl: "https://github.com/mountain-loop/yaak/blob/main/LICENSE"
 download: "https://yaak.app/download"
+homebrew: "yaak"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

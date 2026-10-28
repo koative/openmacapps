@@ -8,6 +8,7 @@ website: "https://sparrowwallet.com"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/sparrowwallet/sparrow/blob/master/LICENSE"
 download: "https://sparrowwallet.com/download"
+homebrew: "sparrow"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

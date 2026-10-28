@@ -11,6 +11,7 @@ website: https://motrix.app
 license: MIT
 licenseUrl: https://github.com/agalwood/Motrix/blob/main/LICENSE
 download: https://github.com/agalwood/Motrix/releases
+homebrew: "motrix"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

@@ -11,6 +11,7 @@ website: https://middledrag.app/
 license: MIT
 licenseUrl: https://github.com/NullPointerDepressiveDisorder/MiddleDrag/blob/main/LICENSE
 download: https://github.com/NullPointerDepressiveDisorder/MiddleDrag/releases
+homebrew: "middledrag"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

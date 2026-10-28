@@ -8,6 +8,7 @@ website: "https://zed.dev"
 license: "GPL-3.0-or-later AND Apache-2.0"
 licenseUrl: "https://github.com/zed-industries/zed/blob/main/LICENSE-GPL"
 download: "https://zed.dev/download"
+homebrew: "zed"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

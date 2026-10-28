@@ -12,6 +12,7 @@ website: https://github.com/qvacua/vimr
 license: "MIT"
 licenseUrl: https://github.com/qvacua/vimr/blob/master/LICENSE
 download: https://github.com/qvacua/vimr/releases
+homebrew: "vimr"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

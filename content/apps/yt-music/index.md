@@ -11,6 +11,7 @@ website: https://ytmusic.app
 license: "MIT"
 licenseUrl: https://github.com/steve228uk/YouTube-Music/blob/master/LICENSE
 download: https://github.com/steve228uk/YouTube-Music/releases
+homebrew: "yt-music"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

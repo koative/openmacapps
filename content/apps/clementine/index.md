@@ -8,6 +8,7 @@ website: "https://www.clementine-player.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/clementine-player/Clementine/blob/master/COPYING"
 download: "https://github.com/clementine-player/Clementine/releases"
+homebrew: "clementine"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

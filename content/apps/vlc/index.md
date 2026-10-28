@@ -8,6 +8,7 @@ website: "https://www.videolan.org/vlc/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/videolan/vlc/blob/master/COPYING"
 download: "https://www.videolan.org/vlc/download-macosx.html"
+homebrew: "vlc"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

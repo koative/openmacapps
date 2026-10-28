@@ -11,6 +11,7 @@ website: "https://itsytv.app"
 license: "MIT"
 licenseUrl: "https://github.com/nickustinov/itsytv-macos/blob/main/LICENSE"
 download: "https://github.com/nickustinov/itsytv-macos/releases"
+homebrew: "itsytv"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

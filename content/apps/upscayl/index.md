@@ -8,6 +8,7 @@ website: "https://upscayl.org"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/upscayl/upscayl/blob/main/LICENSE"
 download: "https://upscayl.org/download"
+homebrew: "upscayl"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

@@ -8,6 +8,7 @@ website: "https://handbrake.fr"
 license: "GPL-2.0-only"
 licenseUrl: "https://github.com/HandBrake/HandBrake/blob/master/LICENSE"
 download: "https://handbrake.fr/downloads.php"
+homebrew: "handbrake-app"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

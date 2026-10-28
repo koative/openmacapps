@@ -12,6 +12,7 @@ website: https://studio.zerobrane.com
 license: "MIT"
 licenseUrl: https://github.com/pkulchenko/ZeroBraneStudio/blob/master/LICENSE
 download: https://studio.zerobrane.com/download
+homebrew: "zerobranestudio"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

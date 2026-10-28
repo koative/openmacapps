@@ -12,6 +12,7 @@ website: https://rocket.chat
 license: "MIT"
 licenseUrl: https://github.com/RocketChat/Rocket.Chat.Electron/blob/dev/LICENSE
 download: https://github.com/RocketChat/Rocket.Chat.Electron/releases
+homebrew: "rocket-chat"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

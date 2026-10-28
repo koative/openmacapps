@@ -8,6 +8,7 @@ website: "https://mac.getutm.app"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/utmapp/UTM/blob/main/LICENSE"
 download: "https://github.com/utmapp/UTM/releases"
+homebrew: "utm"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

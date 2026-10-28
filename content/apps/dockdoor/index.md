@@ -11,6 +11,7 @@ website: https://dockdoor.net
 license: GPL-3.0-or-later
 licenseUrl: https://github.com/ejbills/DockDoor/blob/main/LICENSE
 download: https://github.com/ejbills/DockDoor/releases
+homebrew: "dockdoor"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

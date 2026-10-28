@@ -11,6 +11,7 @@ website: https://homielab.com/en/page/mountmate
 license: MIT
 licenseUrl: https://github.com/homielab/mountmate/blob/main/LICENSE
 download: https://github.com/homielab/mountmate/releases
+homebrew: "mountmate"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

@@ -13,6 +13,7 @@ website: https://piclist.cn
 license: "MIT"
 licenseUrl: https://github.com/Kuingsmile/PicList/blob/dev/LICENSE
 download: https://github.com/Kuingsmile/PicList/releases
+homebrew: "piclist"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -8,6 +8,7 @@ website: "https://rectangleapp.com"
 license: "MIT"
 licenseUrl: "https://github.com/rxhanson/Rectangle/blob/main/LICENSE"
 download: "https://github.com/rxhanson/Rectangle/releases"
+homebrew: "rectangle"
 featured: true
 added: "2026-10-17"
 verified: "2026-10-17"

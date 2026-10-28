@@ -1,5 +1,9 @@
 # Release verification
 
+## Homebrew install commands — 2026-10-28
+
+415 of 878 listings now show a `brew install --cask` command with a copy button. `bun run homebrew` matched them against Homebrew's cask index (7,814 casks) and records a cask only when its download URL or homepage is the app's own repository or website; deprecated, disabled and `@` variant casks are skipped. Of the 104 listings whose sources already cited a cask page, 87 agree and none conflict; the other 17 were held back for clear reasons: 9 casks are disabled for failing Gatekeeper, `abyssoft-teleport` is a fork of a different repository, 5 casks point at a renamed or separate repository, and Warp and Turbo Boost Switcher use a different homepage. BlackHole (three channel variants) and Jellyfin Desktop (server or old client) match several casks and wait for a hand-picked token. `bun run validate`, `bun test` (16 tests), `bun run check`, `bun run check:links` and `bun run check:homebrew` pass; the copy button was exercised in a browser in light, dark, desktop, mobile and no-JavaScript states.
+
 ## OpenBucket added — 2026-10-18
 
 Koative's own OpenBucket (MIT, native S3 browser) joined the catalog with its icon and three real screenshots: **878 apps, 864 open source and 14 source available**. `bun run validate`, `bun run check:generated` and `bun run check:links` (62,054 links across 898 pages) pass.

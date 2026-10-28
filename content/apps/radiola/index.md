@@ -12,6 +12,7 @@ website: https://github.com/SokoloffA/radiola
 license: MIT
 licenseUrl: https://github.com/SokoloffA/radiola/blob/main/LICENSE
 download: https://github.com/SokoloffA/radiola/releases
+homebrew: "radiola"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

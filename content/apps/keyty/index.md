@@ -8,6 +8,7 @@ website: "https://keyty.app"
 license: "BSD-3-Clause"
 licenseUrl: "https://github.com/keytyapp/Keyty/blob/main/LICENSE"
 download: "https://github.com/keytyapp/Keyty/releases"
+homebrew: "keyty"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

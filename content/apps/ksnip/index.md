@@ -11,6 +11,7 @@ website: https://github.com/ksnip/ksnip
 license: "GPL-3.0"
 licenseUrl: https://github.com/ksnip/ksnip/blob/master/LICENSE.txt
 download: https://github.com/ksnip/ksnip/releases
+homebrew: "ksnip"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -13,6 +13,7 @@ website: https://flowvision.app
 license: GPL-3.0
 licenseUrl: https://github.com/netdcy/FlowVision/blob/main/LICENSE
 download: https://github.com/netdcy/FlowVision/releases
+homebrew: "flowvision"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -8,6 +8,7 @@ website: "https://iterm2.com"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/gnachman/iTerm2/blob/master/LICENSE"
 download: "https://iterm2.com/downloads.html"
+homebrew: "iterm2"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

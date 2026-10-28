@@ -12,6 +12,7 @@ website: https://opendisk.app
 license: "MIT"
 licenseUrl: https://github.com/137137137/OpenDisk/blob/main/LICENSE
 download: https://opendisk.app
+homebrew: "opendisk"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

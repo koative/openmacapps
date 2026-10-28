@@ -8,6 +8,7 @@ website: "https://devtoys.app"
 license: "MIT"
 licenseUrl: "https://github.com/DevToys-app/DevToys/blob/main/LICENSE.md"
 download: "https://devtoys.app/download"
+homebrew: "devtoys"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

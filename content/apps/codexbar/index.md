@@ -11,6 +11,7 @@ website: https://codexbar.app
 license: 'MIT'
 licenseUrl: https://github.com/steipete/CodexBar/blob/main/LICENSE
 download: https://github.com/steipete/CodexBar/releases
+homebrew: "codexbar"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

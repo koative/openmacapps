@@ -12,6 +12,7 @@ website: https://ultimaker.com/software/ultimaker-cura/
 license: LGPL-3.0
 licenseUrl: https://github.com/Ultimaker/Cura/blob/main/LICENSE
 download: https://github.com/Ultimaker/Cura/releases
+homebrew: "ultimaker-cura"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

@@ -11,6 +11,7 @@ website: https://xbarapp.com
 license: MIT
 licenseUrl: https://github.com/matryer/xbar/blob/main/LICENSE.txt
 download: https://github.com/matryer/xbar/releases
+homebrew: "xbar"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

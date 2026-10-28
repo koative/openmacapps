@@ -8,6 +8,7 @@ website: "https://www.pencil2d.org/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/pencil2d/pencil/blob/master/LICENSE.TXT"
 download: "https://github.com/pencil2d/pencil/releases"
+homebrew: "pencil2d"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

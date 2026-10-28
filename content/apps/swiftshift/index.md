@@ -11,6 +11,7 @@ website: https://swiftshift.app
 license: MIT
 licenseUrl: https://github.com/pablopunk/SwiftShift/blob/main/LICENSE
 download: https://github.com/pablopunk/SwiftShift/releases
+homebrew: "swift-shift"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

@@ -8,6 +8,7 @@ website: "https://airstats.app"
 license: "MIT"
 licenseUrl: "https://github.com/byrencheema/airstats/blob/main/LICENSE"
 download: "https://github.com/byrencheema/airstats/releases"
+homebrew: "airstats"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

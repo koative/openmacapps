@@ -10,6 +10,7 @@ website: https://github.com/yujitach/MenuMeters
 license: GPL-2.0
 licenseUrl: https://github.com/yujitach/MenuMeters/blob/main/LICENSE
 download: https://github.com/yujitach/MenuMeters/releases
+homebrew: "menumeters"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

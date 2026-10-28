@@ -8,6 +8,7 @@ website: "https://www.paraview.org/"
 license: "BSD-3-Clause"
 licenseUrl: "https://github.com/Kitware/ParaView/blob/master/Copyright.txt"
 download: "https://www.paraview.org/download/"
+homebrew: "paraview"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

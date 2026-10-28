@@ -8,6 +8,7 @@ website: "https://celestiaproject.space/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/CelestiaProject/Celestia/blob/master/COPYING"
 download: "https://github.com/CelestiaProject/Celestia/releases"
+homebrew: "celestia"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

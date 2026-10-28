@@ -8,6 +8,7 @@ website: "https://etcher.balena.io"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/balena-io/etcher/blob/master/LICENSE"
 download: "https://github.com/balena-io/etcher/releases"
+homebrew: "balenaetcher"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

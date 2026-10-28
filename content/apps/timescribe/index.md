@@ -11,6 +11,7 @@ website: https://timescribe.app
 license: "GPL-3.0"
 licenseUrl: https://github.com/WINBIGFOX/TimeScribe/blob/main/LICENSE
 download: https://github.com/WINBIGFOX/TimeScribe/releases
+homebrew: "timescribe"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

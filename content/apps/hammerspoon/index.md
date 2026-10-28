@@ -11,6 +11,7 @@ website: https://github.com/Hammerspoon/hammerspoon
 license: MIT
 licenseUrl: https://github.com/Hammerspoon/hammerspoon/blob/master/LICENSE
 download: https://github.com/Hammerspoon/hammerspoon/releases
+homebrew: "hammerspoon"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

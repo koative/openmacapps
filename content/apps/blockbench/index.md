@@ -8,6 +8,7 @@ website: "https://www.blockbench.net/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/JannisX11/blockbench/blob/master/LICENSE.MD"
 download: "https://github.com/JannisX11/blockbench/releases"
+homebrew: "blockbench"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

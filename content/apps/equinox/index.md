@@ -11,6 +11,7 @@ website: "https://equinoxmac.com"
 license: "MIT"
 licenseUrl: "https://github.com/rlxone/Equinox/blob/main/LICENSE"
 download: "https://github.com/rlxone/Equinox/releases"
+homebrew: "equinox"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

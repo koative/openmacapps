@@ -11,6 +11,7 @@ website: https://mikkelmalmberg.com/apps
 license: MIT
 licenseUrl: https://github.com/mikker/LeaderKey/blob/main/LICENSE
 download: https://github.com/mikker/LeaderKey/releases
+homebrew: "leader-key"
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

@@ -11,6 +11,7 @@ website: https://mqttx.app
 license: "Apache-2.0"
 licenseUrl: https://github.com/emqx/MQTTX/blob/main/LICENSE
 download: https://mqttx.app/downloads
+homebrew: "mqttx"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

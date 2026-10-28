@@ -8,6 +8,7 @@ website: "https://www.nomic.ai/gpt4all"
 license: "MIT"
 licenseUrl: "https://github.com/nomic-ai/gpt4all/blob/main/LICENSE.txt"
 download: "https://www.nomic.ai/gpt4all"
+homebrew: "gpt4all"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

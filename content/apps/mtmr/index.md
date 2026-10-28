@@ -11,6 +11,7 @@ website: https://mtmr.app/
 license: MIT
 licenseUrl: https://github.com/Toxblh/MTMR/blob/master/LICENSE
 download: https://github.com/Toxblh/MTMR/releases
+homebrew: "mtmr"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

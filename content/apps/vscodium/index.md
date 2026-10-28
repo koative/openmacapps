@@ -8,6 +8,7 @@ website: "https://vscodium.com"
 license: "MIT"
 licenseUrl: "https://github.com/VSCodium/vscodium/blob/master/LICENSE"
 download: "https://github.com/VSCodium/vscodium/releases"
+homebrew: "vscodium"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

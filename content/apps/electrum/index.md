@@ -8,6 +8,7 @@ website: "https://electrum.org"
 license: "MIT"
 licenseUrl: "https://github.com/spesmilo/electrum/blob/master/LICENCE"
 download: "https://electrum.org/#download"
+homebrew: "electrum"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

@@ -12,6 +12,7 @@ website: https://sabaki.yichuanshen.de/
 license: "MIT"
 licenseUrl: https://github.com/SabakiHQ/Sabaki/blob/master/LICENSE.md
 download: https://github.com/SabakiHQ/Sabaki/releases
+homebrew: "sabaki"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -12,6 +12,7 @@ website: https://flyenv.com
 license: "BSD-3-Clause"
 licenseUrl: https://github.com/xpf0000/FlyEnv/blob/master/LICENSE
 download: https://flyenv.com/download
+homebrew: "flyenv"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

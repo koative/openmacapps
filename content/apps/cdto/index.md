@@ -11,6 +11,7 @@ website: "https://github.com/jbtule/cdto"
 license: "MIT"
 licenseUrl: "https://github.com/jbtule/cdto/blob/master/LICENSE"
 download: "https://github.com/jbtule/cdto/releases/latest"
+homebrew: "cd-to"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

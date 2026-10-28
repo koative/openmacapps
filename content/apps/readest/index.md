@@ -13,6 +13,7 @@ website: "https://readest.com"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/readest/readest/blob/main/LICENSE"
 download: "https://github.com/readest/readest/releases"
+homebrew: "readest"
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

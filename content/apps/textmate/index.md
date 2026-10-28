@@ -8,6 +8,7 @@ website: "https://macromates.com"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/textmate/textmate/blob/master/LICENSE"
 download: "https://macromates.com/download"
+homebrew: "textmate"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

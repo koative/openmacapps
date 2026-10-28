@@ -8,6 +8,7 @@ website: "https://snapzy.app"
 license: "BSD-3-Clause"
 licenseUrl: "https://github.com/duongductrong/Snapzy/blob/master/LICENSE"
 download: "https://github.com/duongductrong/Snapzy/releases"
+homebrew: "snapzy"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"
