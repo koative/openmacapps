@@ -37,6 +37,7 @@ website: https://example.org
 license: MIT
 licenseUrl: https://github.com/example/example-app/blob/main/LICENSE
 download: https://github.com/example/example-app/releases
+homebrew: example-app
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'
@@ -102,6 +103,8 @@ bun run check:generated
 ```
 
 `bun run sync` validates records, copies catalog assets, writes the public `catalog.json` feed, and updates the README between `<!-- catalog:start -->` and `<!-- catalog:end -->`. Both development and production builds run sync automatically. Commit the updated README alongside app records. Generated `public/catalog/`, `public/catalog.json`, and `dist/` stay out of Git.
+
+`homebrew` is optional and names a Homebrew cask; the product page shows `brew install --cask <token>` with a copy button. Run `bun run homebrew` instead of guessing a token: it reads Homebrew's cask index and records a cask only when its download or homepage is the app's own repository or website, skipping deprecated, disabled and `@` variant casks. When several casks match (for example BlackHole's channel variants), it lists them and leaves the choice to you; a hand-set token must still pass that rule. CI runs `bun run check:homebrew`, which fails if a recorded cask disappears, is deprecated or no longer points at the app.
 
 The site is served at the root of `https://maco.koative.com/`. Keep internal links and image URLs aware of Astro's `BASE_URL`; the catalog loader already resolves image paths. Preview production output with `bun run preview` after building.
 

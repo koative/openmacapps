@@ -1180,6 +1180,64 @@ main {
   margin-top: 16px;
 }
 
+/* Homebrew command: a secondary pill that reads as text and copies in one click.
+   A long token wraps instead of hiding. */
+.brew {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 36px;
+  padding-left: 16px;
+  border-radius: 999px;
+  background: var(--fill);
+}
+
+.brew:has(.brew-copy[hidden]) {
+  padding-right: 16px;
+}
+
+.brew code {
+  min-width: 0;
+  padding-block: 8px;
+  color: var(--label);
+  font:
+    13px/1.4 ui-monospace,
+    'SF Mono',
+    Menlo,
+    monospace;
+  overflow-wrap: anywhere;
+  user-select: all;
+}
+
+.brew-copy {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  margin-left: 2px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: none;
+  color: var(--get-ink);
+  cursor: pointer;
+}
+
+.brew-copy:hover {
+  background: var(--fill-hover);
+}
+
+.brew-copy-done,
+.brew-copy.copied .brew-copy-idle {
+  display: none;
+}
+
+.brew-copy.copied .brew-copy-done {
+  display: block;
+}
+
 .product-title .fine-print {
   max-width: none;
   margin-top: 8px;

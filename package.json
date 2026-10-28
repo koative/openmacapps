@@ -18,7 +18,9 @@
     "test": "bun test",
     "format": "bun --bun prettier --write src scripts tests astro.config.mjs",
     "check:links": "bun scripts/check-links.ts",
-    "discover": "bun scripts/discover.ts"
+    "discover": "bun scripts/discover.ts",
+    "homebrew": "bun scripts/homebrew.ts sync",
+    "check:homebrew": "bun scripts/homebrew.ts check"
   },
   "dependencies": {
     "@lucide/astro": "^1.16.0",

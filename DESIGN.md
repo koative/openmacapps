@@ -410,7 +410,7 @@ An Apple system palette in two appearances: neutral greys that step from canvas 
 
 **Display Font:** system-ui (SF Pro on Apple devices), falling back through -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif.
 **Body Font:** the same system stack; no web fonts are loaded.
-**Label/Mono Font:** ui-monospace, SF Mono, Menlo, monospace, inside Markdown code only.
+**Label/Mono Font:** ui-monospace, SF Mono, Menlo, monospace, inside Markdown code and the Homebrew command only.
 
 **Character:** The platform's own face, set the way the store sets it: heavy, tightly tracked titles over plain, slightly tight body text. Hierarchy comes from size and weight, never from a second family.
 
@@ -487,6 +487,10 @@ Pill-shaped, filled, quiet.
 ### Get Pill and Fine Print
 
 The store's signature action. A 28px pill, 68px minimum, 16px side padding, on grey fill with a 14px/700 Get Blue label; hover deepens the fill. It always links to the project's official download page and names the app in its accessible label. Beneath it, centred fine print (caption-2, 96px max) states the license short form (`-only` dropped, `-or-later` as `+`) or "Source available" in 600-weight orange. On spotlight stages the pill turns translucent white (`get-on-stage`) with white text.
+
+### Homebrew Command
+
+When a listing has a verified cask, a third pill follows View Source in the product actions: grey fill, 36px tall, 16px left padding, the full `brew install --cask <token>` command in 13px system monospace (selectable as one unit), and a 36px round copy button that swaps to a check for 1.6s and announces "Copied". On narrow screens a long token wraps inside the pill rather than truncating. Without JavaScript or the Clipboard API the button stays hidden and the text remains selectable. The Information list adds a Homebrew row linking to the cask's formulae.brew.sh page.
 
 ### Lockup
 

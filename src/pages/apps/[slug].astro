@@ -9,7 +9,7 @@ import { getApps } from '../../lib/catalog';
 import { categorySlug, licenseLabel } from '../../lib/collections';
 import { renderMarkdown } from '../../lib/markdown';
 import { absoluteUrl, site } from '../../lib/site';
-import { ArrowUpRight, ChevronLeft } from '@lucide/astro';
+import { ArrowUpRight, Check, ChevronLeft, Copy } from '@lucide/astro';
 export function getStaticPaths() {
   return getApps().map((app) => ({
     params: { slug: app.slug },
@@ -53,6 +53,7 @@ const host =
   hosts[repository.hostname] ?? repository.hostname.replace(/^www\./, '');
 const websiteHost = new URL(app.website).hostname.replace(/^www\./, '');
 const downloadHost = new URL(app.download).hostname.replace(/^www\./, '');
+const brewCommand = app.homebrew && `brew install --cask ${app.homebrew}`;
 ---
 
 <Layout
@@ -125,6 +126,22 @@ const downloadHost = new URL(app.download).hostname.replace(/^www\./, '');
           <Github size={16} />
           View Source
         </a>
+        {brewCommand && (
+          <div class="brew">
+            <code title={brewCommand}>{brewCommand}</code>
+            <button
+              class="brew-copy"
+              type="button"
+              data-copy={brewCommand}
+              aria-label="Copy Homebrew command"
+              hidden
+            >
+              <Copy class="brew-copy-idle" size={15} />
+              <Check class="brew-copy-done" size={15} />
+            </button>
+            <span class="sr-only" role="status" />
+          </div>
+        )}
       </div>
       <p class:list={['fine-print', { restricted }]}>
         {licenseLabel(app)} · Downloads from {downloadHost}
@@ -248,6 +265,17 @@ const downloadHost = new URL(app.download).hostname.replace(/^www\./, '');
           </a>
         </dd>
       </div>
+      {app.homebrew && (
+        <div>
+          <dt>Homebrew</dt>
+          <dd>
+            <a href={`https://formulae.brew.sh/cask/${app.homebrew}`}>
+              {app.homebrew}
+              <ArrowUpRight size={13} />
+            </a>
+          </dd>
+        </div>
+      )}
       <div>
         <dt>Category</dt>
         <dd>
@@ -327,3 +355,24 @@ const downloadHost = new URL(app.download).hostname.replace(/^www\./, '');
     </Shelf>
   )}
 </Layout>
+<script>
+  // Without JavaScript the command stays selectable; the copy button needs the Clipboard API.
+  for (const button of document.querySelectorAll<HTMLButtonElement>(
+    '.brew-copy',
+  )) {
+    if (!navigator.clipboard) continue;
+    const status = button.nextElementSibling!;
+    let reset: ReturnType<typeof setTimeout>;
+    button.hidden = false;
+    button.addEventListener('click', async () => {
+      await navigator.clipboard.writeText(button.dataset.copy!);
+      button.classList.add('copied');
+      status.textContent = 'Copied';
+      clearTimeout(reset);
+      reset = setTimeout(() => {
+        button.classList.remove('copied');
+        status.textContent = '';
+      }, 1600);
+    });
+  }
+</script>

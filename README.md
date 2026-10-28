@@ -19,7 +19,7 @@ content/apps/
       screenshot.png
 ```
 
-YAML frontmatter describes the app: name, summary, category, tags, repository, official website, download page, source classification, reviewed license, license evidence, verification date, and asset attribution. The Markdown body explains what it does. Screenshots are optional; invented screenshots and unverified compatibility claims are not accepted.
+YAML frontmatter describes the app: name, summary, category, tags, repository, official website, download page, optional Homebrew cask, source classification, reviewed license, license evidence, verification date, and asset attribution. The Markdown body explains what it does. Screenshots are optional; invented screenshots and unverified compatibility claims are not accepted.
 
 This structure keeps assets beside the app, makes pull requests understandable, and avoids one giant JSON file becoming a merge-conflict bottleneck. Generated output is never the editing surface.
 
@@ -39,7 +39,7 @@ bun run check:links
 
 Open the address printed by the dev server (normally `http://localhost:4321/`). `bun run sync` copies catalog assets for the site and refreshes the generated catalog below. CI checks the data, TypeScript, tests, and production build. Changes pushed to `main` deploy to GitHub Pages.
 
-The [discovery queue](research/README.md) tracks repository leads from ten directories. Refresh it with `bun run discover`; only independently reviewed app folders enter the store.
+The [discovery queue](research/README.md) tracks repository leads from ten directories. Refresh it with `bun run discover`; only independently reviewed app folders enter the store. `bun run homebrew` records Homebrew casks whose download or homepage is the app's own repository or website; see [CONTRIBUTING.md](CONTRIBUTING.md#local-workflow) for the matching rules.
 
 See [publishing and SEO](docs/PUBLISHING.md) for the shared site configuration, social card, custom domain setup, and sitemap submission.
 

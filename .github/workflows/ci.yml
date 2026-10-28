@@ -23,3 +23,5 @@ jobs:
       - run: bun run check
       - run: bun run build
       - run: bun run check:links
+      # Network check against Homebrew's cask index; deploys do not wait on it.
+      - run: bun run check:homebrew

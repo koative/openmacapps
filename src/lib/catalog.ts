@@ -115,6 +115,11 @@ export const appSchema = z
     licenseNotes: z.string().trim().min(20).optional(),
     licenseUrl: httpsUrl,
     download: httpsUrl,
+    // Kept by `bun run homebrew`: only casks pointing at this app's repository or website.
+    homebrew: z
+      .string()
+      .regex(/^[a-z0-9][a-z0-9.+-]*$/, 'Use a Homebrew cask token, e.g. iina')
+      .optional(),
     featured: z.boolean().default(false),
     added: isoDate,
     verified: isoDate,
