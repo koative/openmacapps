@@ -447,6 +447,9 @@ main {
 }
 
 .shelf-track {
+  /* Contains absolutely positioned children (such as .sr-only labels) so items
+     scrolled out of view cannot widen the page. */
+  position: relative;
   display: grid;
   grid-auto-flow: column;
   column-gap: var(--gap);
