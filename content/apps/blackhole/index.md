@@ -8,6 +8,7 @@ website: "https://existential.audio/blackhole/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/ExistentialAudio/BlackHole/blob/master/LICENSE"
 download: "https://existential.audio/blackhole/"
+homebrew: "blackhole-2ch"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

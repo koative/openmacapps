@@ -8,6 +8,7 @@ website: "https://jellyfin.org"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/jellyfin/jellyfin-desktop/blob/master/LICENSE"
 download: "https://github.com/jellyfin/jellyfin-desktop/releases"
+homebrew: "jellyfin-media-player"
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"
