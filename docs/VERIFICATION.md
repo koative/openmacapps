@@ -1,5 +1,9 @@
 # Release verification
 
+## OpenBucket Homebrew tap — 2026-10-29
+
+OpenBucket is installed from Koative's own tap, so its listing shows `brew trust koative/tap && brew install --cask koative/tap/openbucket`; Homebrew 7 loads non-official taps only after `brew trust` (checked against the installed Homebrew's `trust` command, where a one-slash name trusts the tap). `bun run check:homebrew` now reads tap casks from their `homebrew-<tap>` repository and applies the same rule: 418 casks verified, and an unrelated tap cask set on the listing as a test was rejected. Three screenshots on OpenBucket's page had also made the mobile page scroll sideways by 296 px, because each screenshot link's screen-reader label is absolutely positioned and escaped the scrolling shelf; shelf tracks are now positioned, and Discover, Search, a category, a collection and two product pages show no horizontal overflow at 390 and 1440 px.
+
 ## OpenBucket listing refreshed — 2026-10-28
 
 OpenBucket's repository replaced its JPEG screenshots with PNG captures of a new demo, so the listing's three image sources had started returning 404. The listing now uses the new captures (resized to 1600 px and stored as WebP with their transparent window corners) and states the providers its compatibility notes record as live-tested: Amazon S3, MinIO, RustFS, SeaweedFS, Garage and S3Mock. All four cited upstream URLs return 200.
