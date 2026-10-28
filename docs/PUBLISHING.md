@@ -10,6 +10,8 @@ Each page has a canonical URL without filter parameters, Open Graph and Twitter 
 
 `public/social-card.png` is the 1200 × 630 default sharing image. Its editable source is `design/social-card.html`, which shows real catalog icons from `content/apps/`. Serve the repository root over HTTP, open the file in a browser on macOS so `system-ui` resolves to SF Pro, and capture a 1200 × 630 screenshot. `docs/preview.png` is a 1440 × 1050 screenshot of the actual Discover page in light appearance.
 
+`src/layouts/Layout.astro` loads [Simple Analytics](https://www.simpleanalytics.com/) on every page with the script from `scripts.simpleanalyticscdn.com`. Page views are stored only for hostnames added to the Simple Analytics account, so `maco.koative.com` must be listed there; local previews send hits that the service does not record.
+
 ## Custom domain
 
 The site is served at the root of the `maco.koative.com` subdomain:
