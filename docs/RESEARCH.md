@@ -199,7 +199,9 @@ the catalog to 877 (863 open source, 14 source available).
   and Drive services are proprietary and say so). Several apps sell optional paid tiers built from
   the same open code (Rclone UI, FlyEnv, Starcat, Dayflow); each description says so.
 
-The repeatable [discovery queue](../research/README.md) contains 1,724 deduplicated repository
-leads from the ten directories, 766 of which match published apps. Every lead has now been
-reviewed once; the rest were held out for the reasons above and remain `needs-review` only
-because the queue does not record rejections.
+The repeatable [discovery queue](../research/README.md) contained 1,724 deduplicated repository
+leads from the ten directories on 2026-10-17, and every one of them has been reviewed once; the
+rest were held out for the reasons above and remain `needs-review` only because the queue does not
+record rejections. The 2026-10-28 refresh holds 1,901 leads, 768 of which match published apps:
+185 repositories were first listed after 2026-10-17 (13 of them by two or more directories) and
+have not been reviewed yet.
