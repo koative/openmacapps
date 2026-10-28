@@ -116,9 +116,13 @@ export const appSchema = z
     licenseUrl: httpsUrl,
     download: httpsUrl,
     // Kept by `bun run homebrew`: only casks pointing at this app's repository or website.
+    // Third-party tap casks are written in full: owner/tap/token.
     homebrew: z
       .string()
-      .regex(/^[a-z0-9][a-z0-9.+-]*$/, 'Use a Homebrew cask token, e.g. iina')
+      .regex(
+        /^(?:[a-z0-9-]+\/[a-z0-9-]+\/)?[a-z0-9][a-z0-9.+-]*$/,
+        'Use a Homebrew cask token (iina) or a tap cask (owner/tap/token)',
+      )
       .optional(),
     featured: z.boolean().default(false),
     added: isoDate,

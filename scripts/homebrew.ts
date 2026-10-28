@@ -100,6 +100,33 @@ function setHomebrew(slug: string, token: string | undefined): void {
   fs.writeFileSync(file, frontmatter + text.slice(end));
 }
 
+/**
+ * A cask from a third-party tap (`owner/tap/token`), read from the tap
+ * repository so it passes the same repository-or-website rule.
+ */
+async function tapCask(name: string): Promise<Cask | undefined> {
+  const [owner, tap, token] = name.split('/');
+  for (const file of [`Casks/${token}.rb`, `Casks/${token[0]}/${token}.rb`]) {
+    const response = await fetch(
+      `https://raw.githubusercontent.com/${owner}/homebrew-${tap}/HEAD/${file}`,
+      { signal: AbortSignal.timeout(30_000) },
+    );
+    if (response.status === 404) continue;
+    if (!response.ok) throw new Error(`${name}: HTTP ${response.status}`);
+    const ruby = await response.text();
+    const stanza = (key: string) =>
+      ruby.match(new RegExp(`^\\s*${key}\\s+"([^"]+)"`, 'm'))?.[1] ?? null;
+    return {
+      token: name,
+      homepage: stanza('homepage'),
+      url: stanza('url') ?? '',
+      deprecated: /^\s*deprecate!/m.test(ruby),
+      disabled: /^\s*disable!/m.test(ruby),
+      artifacts: [],
+    };
+  }
+}
+
 if (import.meta.main) {
   const write = process.argv[2] === 'sync';
   const response = await fetch('https://formulae.brew.sh/api/cask.json', {
@@ -113,7 +140,10 @@ if (import.meta.main) {
   const owners = new Map<string, string>();
   let verified = 0;
   for (const app of getApps()) {
-    const matches = matchingCasks(app, casks);
+    const tapped = app.homebrew?.includes('/')
+      ? await tapCask(app.homebrew)
+      : undefined;
+    const matches = matchingCasks(app, tapped ? [tapped, ...casks] : casks);
     const recordedIsValid = matches.some(
       (match) => match.cask.token === app.homebrew,
     );

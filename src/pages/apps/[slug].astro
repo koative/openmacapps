@@ -53,7 +53,16 @@ const host =
   hosts[repository.hostname] ?? repository.hostname.replace(/^www\./, '');
 const websiteHost = new URL(app.website).hostname.replace(/^www\./, '');
 const downloadHost = new URL(app.download).hostname.replace(/^www\./, '');
-const brewCommand = app.homebrew && `brew install --cask ${app.homebrew}`;
+// Third-party taps (owner/tap/token) must be trusted before Homebrew will load them.
+const [brewOwner, brewTap] = app.homebrew?.includes('/')
+  ? app.homebrew.split('/')
+  : [];
+const brewCommand =
+  app.homebrew &&
+  `${brewTap ? `brew trust ${brewOwner}/${brewTap} && ` : ''}brew install --cask ${app.homebrew}`;
+const brewPage = brewTap
+  ? `https://github.com/${brewOwner}/homebrew-${brewTap}`
+  : `https://formulae.brew.sh/cask/${app.homebrew}`;
 ---
 
 <Layout
@@ -269,7 +278,7 @@ const brewCommand = app.homebrew && `brew install --cask ${app.homebrew}`;
         <div>
           <dt>Homebrew</dt>
           <dd>
-            <a href={`https://formulae.brew.sh/cask/${app.homebrew}`}>
+            <a href={brewPage}>
               {app.homebrew}
               <ArrowUpRight size={13} />
             </a>

@@ -490,7 +490,7 @@ The store's signature action. A 28px pill, 68px minimum, 16px side padding, on g
 
 ### Homebrew Command
 
-When a listing has a verified cask, a third pill follows View Source in the product actions: grey fill, 36px tall, 16px left padding, the full `brew install --cask <token>` command in 13px system monospace (selectable as one unit), and a 36px round copy button that swaps to a check for 1.6s and announces "Copied". On narrow screens a long token wraps inside the pill rather than truncating. Without JavaScript or the Clipboard API the button stays hidden and the text remains selectable. The Information list adds a Homebrew row linking to the cask's formulae.brew.sh page.
+When a listing has a verified cask, a third pill follows View Source in the product actions: grey fill, 36px tall, 16px left padding, the full `brew install --cask <token>` command in 13px system monospace (selectable as one unit), and a 36px round copy button that swaps to a check for 1.6s and announces "Copied". A cask from a third-party tap is preceded by `brew trust <owner/tap> &&`, since Homebrew loads such taps only once trusted. On narrow screens the command wraps inside the pill rather than truncating. Without JavaScript or the Clipboard API the button stays hidden and the text remains selectable. The Information list adds a Homebrew row linking to the cask's formulae.brew.sh page, or to the tap repository.
 
 ### Lockup
 
@@ -498,7 +498,7 @@ An app row: 64px icon, single-line name, two-line clamped summary in Secondary L
 
 ### Shelves and Pager
 
-A section with a hairline-topped header, heading, optional subtitle, See All link (with a screen-reader suffix naming the shelf) and two 30px circular pagers. Pagers appear only when the track overflows, disable at either end (opacity 0.35), and page by one track width, smoothly unless reduced motion is set. Hidden at 900px and below.
+A section with a hairline-topped header, heading, optional subtitle, See All link (with a screen-reader suffix naming the shelf) and two 30px circular pagers. Pagers appear only when the track overflows, disable at either end (opacity 0.35), and page by one track width, smoothly unless reduced motion is set. Hidden at 900px and below. The track is positioned so absolutely positioned children (screen-reader labels) stay clipped with their item and never widen the page.
 
 ### Spotlight Card
 

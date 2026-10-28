@@ -106,6 +106,8 @@ bun run check:generated
 
 `homebrew` is optional and names a Homebrew cask; the product page shows `brew install --cask <token>` with a copy button. Run `bun run homebrew` instead of guessing a token: it reads Homebrew's cask index and records a cask only when its download or homepage is the app's own repository or website, skipping deprecated, disabled and `@` variant casks. When several casks match (for example BlackHole's channel variants), it lists them and leaves the choice to you; a hand-set token must still pass that rule. CI runs `bun run check:homebrew`, which fails if a recorded cask disappears, is deprecated or no longer points at the app.
 
+A cask from a third-party tap is written in full, `owner/tap/token` (for example `koative/tap/openbucket`); `bun run homebrew` never adds one, so set it by hand. The check reads the cask file from `github.com/owner/homebrew-tap` and applies the same repository-or-website rule. Because Homebrew only loads non-official taps that the user has trusted, the product page shows `brew trust owner/tap && brew install --cask owner/tap/token` and links the tap repository instead of formulae.brew.sh.
+
 The site is served at the root of `https://maco.koative.com/`. Keep internal links and image URLs aware of Astro's `BASE_URL`; the catalog loader already resolves image paths. Preview production output with `bun run preview` after building.
 
 ## Pull requests
