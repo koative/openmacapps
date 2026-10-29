@@ -205,3 +205,22 @@ rest were held out for the reasons above and remain `needs-review` only because 
 record rejections. The 2026-10-28 refresh holds 1,901 leads, 768 of which match published apps:
 185 repositories were first listed after 2026-10-17 (13 of them by two or more directories) and
 have not been reviewed yet.
+
+## Fourth expansion (2026-10-29)
+
+25 apps were added, chosen by search demand rather than by directory listings alone.
+
+- **Leads.** Semrush showed which alternatives and "for Mac" pages people search for but which listed only two apps. GitHub data (stars, license, latest release, macOS assets) then filtered the 182 discovery leads first listed after 2026-10-17 (a release in the last year, an OSI license and a macOS asset).
+- **Apps that strengthen searched pages:** Pinta, Netcatty, FileZilla, Nextcloud Desktop, Seafile, Mattermost Desktop, Proton Pass, Skim, Friction, AndroidFileSync, Mac Android Subsystem, ntfsmac, Peel, Apache OpenOffice and AFFiNE.
+- **Other well-maintained apps:** Arroxy, Prism Download Manager, TagStudio, Textus, KeyEcho, RuSwitcher, SpreadPaper, FolderForge, Shiyin and magpie.
+- **New alternatives pages** these apps made possible: Transmit, Dropbox, After Effects, Android File Transfer, Punto Switcher and 4K Video Downloader.
+- **Judgement calls:**
+  - **AFFiNE:** listed as open source, because its Enterprise Edition license places the code distributed in the Community Edition under MPL-2.0.
+  - **ntfsmac:** writes NTFS through a small Linux virtual machine. Its record describes the privileged helper, the unnotarized builds and the single maintainer.
+  - **Apache OpenOffice:** is Intel-only on the Mac and cannot save Office formats, which its record says.
+- **Held out:**
+  - **No longer maintained:** Piskel, MyPaint, Avidemux, Allusion and Revolt.
+  - **Still in alpha:** Olive.
+  - **No clear license:** Keka, Zrythm and Tenacity.
+  - **Not Mac apps:** AI gateways and agent infrastructure (OmniRoute and others).
+  - **Command-line tools:** Colima and similar, until the catalog decides how to list them.

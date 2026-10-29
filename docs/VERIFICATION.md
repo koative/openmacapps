@@ -1,5 +1,14 @@
 # Release verification
 
+## 25 apps added for searched pages — 2026-10-29
+
+**Catalog.** The catalog now holds 903 apps, with 111 alternatives pages and 49 topic pages.
+- Each new record passed the inclusion gates: a macOS GUI, an official macOS download, an allowlisted license and a release within about a year. Each also has an official icon with provenance and the upstream license text, a checked `freeDownload` and original copy. Seafile's icon is 128 px, the largest the project publishes.
+- Existing records changed only in their `tags`, `alternativeTo` and `homebrew` lines.
+- `bun run homebrew` found casks for 12 of the new apps, for 430 apps in total.
+
+**Checks.** `bun run validate`, `bun test` (19 tests), `bun run check`, `bun run build` (1,086 pages), `bun run check:links` (86,339 links) and `bun run check:homebrew` pass. The discovery queue now matches 783 published apps.
+
 ## Search-data pass: verified "free" wording and Windows-only products — 2026-10-29
 
 **Why.** Semrush US data (kept locally in the ignored `research/semrush/`) showed that "free" searches far outnumber "open source" ones: 7,620 against 610 for Lightroom alternatives, and 37,340 against 1,010 for Photoshop. It also showed high demand for Windows-only tools on the Mac, such as "notepad++ for mac" (3,600) and "rufus mac" (1,300).
