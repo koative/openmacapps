@@ -528,7 +528,7 @@ When an app has no icon artwork, a squircle (22.5% radius) in one of the categor
 
 ### Product Header
 
-Breadcrumb (chevron + category, Link Blue) above a two-column header: a 128px icon (96px / 72px on smaller screens) and a title block with product title, subhead summary (60ch), primary Get and secondary View Source, then left-aligned 12px fine print stating the license and the download host.
+Breadcrumb (chevron + category, Link Blue) above a two-column header: a 128px icon (96px / 72px on smaller screens) and a title block with product title, subhead summary (60ch), primary Get and secondary View Source, then left-aligned 12px fine print stating the license, "Free download" or "Paid download" when that has been checked, and the download host. Listing pages and their titles say "free, open-source" only when every app they show has a checked free download.
 
 ### Info Strip
 

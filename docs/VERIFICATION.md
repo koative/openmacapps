@@ -1,5 +1,22 @@
 # Release verification
 
+## Search-data pass: verified "free" wording and Windows-only products — 2026-10-29
+
+**Why.** Semrush US data (kept locally in the ignored `research/semrush/`) showed that "free" searches far outnumber "open source" ones: 7,620 against 610 for Lightroom alternatives, and 37,340 against 1,010 for Photoshop. It also showed high demand for Windows-only tools on the Mac, such as "notepad++ for mac" (3,600) and "rufus mac" (1,300).
+
+**Free downloads.** Every app record now has `freeDownload`, set from evidence: 869 are free and 9 paid.
+- **GitHub release assets (694 apps):** a script found a macOS installer in each app's official GitHub releases.
+- **Agents (184 apps):** checked each official download page or App Store listing.
+- **Paid:** Ardour, Fritzing, Automute, AI Dictation, Mac Mouse Fix, Pi Stats, QCAD, Textual and Zettel. Paid binaries, paid store-only builds and trials that must be bought all count as paid.
+- **Wording:** product pages say "Free download" or "Paid download". 130 of 154 guide pages qualify for "Free, open-source" in their titles, because every app they list is free.
+
+**Windows-only products.**
+- **13 new "X for Mac" pages** (`onMac: false`): Notepad++, Rufus, PuTTY, WinSCP, Task Manager, AutoHotkey, Paint.NET, Microsoft Paint, MobaXterm, PotPlayer, Voicemeeter, PDF-XChange Editor and Ventoy. The official site of each confirms there is no macOS version.
+- **Skipped:** TinyTask, Microsoft Publisher, UltraViewer, Radmin VPN and PaintTool SAI, which have fewer than two genuine Mac replacements in the catalog.
+- **Reworded topics:** the file manager and app uninstaller topics now cover "Finder replacement" and "app cleaner" searches.
+
+**Checks.** `bun run validate` (105 alternatives and 49 topic pages), `bun test` (19 tests), `bun run check`, `bun run build` (1,055 pages) and `bun run check:links` (83,226 links) pass. No title exceeds 70 characters and none is duplicated.
+
 ## AlternativeTo-led expansion — 2026-10-29
 
 **Leads.** The 347 most popular paid and freemium Mac products on AlternativeTo were crawled with a headless browser, respecting its robots rules. For each of the 289 products not already in the catalog, the crawl also collected its open-source Mac alternatives. These were leads only: an agent checked each product against its official site and each app against its own README and record, and no AlternativeTo text was copied.
