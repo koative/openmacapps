@@ -24,7 +24,7 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
   <header class="page-head">
     <h1>Search</h1>
   </header>
-  <form class="search-controls" id="search-controls" role="search" hidden>
+  <form class="search-controls" id="search-controls" role="search">
     <div class="search-field">
       <Search size={18} stroke-width={2.2} aria-hidden="true" />
       <label class="sr-only" for="search">
@@ -92,6 +92,12 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
     </div>
   </form>
   <noscript>
+    <!-- The controls need JavaScript; showing them from the first paint avoids a layout shift. -->
+    <style>
+      #search-controls {
+        display: none;
+      }
+    </style>
     <p class="note">
       All {apps.length} apps are listed below. Turn on JavaScript to search and
       filter.
@@ -122,7 +128,6 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
 </Layout>
 <script>
   const form = document.querySelector<HTMLFormElement>('#search-controls')!;
-  form.hidden = false;
   const search = document.querySelector<HTMLInputElement>('#search')!;
   const sidebarSearch =
     document.querySelector<HTMLInputElement>('#sidebar-search')!;

@@ -1,6 +1,7 @@
 ---
 import { categories, type CatalogApp } from '../lib/catalog';
 import { categorySlug } from '../lib/collections';
+import { appImage } from '../lib/images';
 interface Props {
   app: CatalogApp;
   size?: number;
@@ -18,12 +19,17 @@ const tint = categorySlug(
       categories.length
   ],
 );
+// Twice the displayed size for sharp edges on Retina screens; two widths keep the build small.
+const icon =
+  app.icon && app.iconUrl
+    ? await appImage(app.slug, app.icon, app.iconUrl, [size > 64 ? 256 : 128])
+    : null;
 ---
 
-{app.iconUrl ? (
+{icon ? (
   <img
     class="app-icon"
-    src={app.iconUrl}
+    src={icon.src}
     alt=""
     width={size}
     height={size}

@@ -8,6 +8,7 @@ import Github from '../../components/GithubIcon.astro';
 import { getApps } from '../../lib/catalog';
 import { getAlternatives, getTopics } from '../../lib/guides';
 import { categorySlug, licenseLabel } from '../../lib/collections';
+import { appImage } from '../../lib/images';
 import { renderMarkdown } from '../../lib/markdown';
 import { absoluteUrl, site } from '../../lib/site';
 import { ArrowUpRight, Check, ChevronLeft, Copy } from '@lucide/astro';
@@ -68,6 +69,13 @@ const host =
   hosts[repository.hostname] ?? repository.hostname.replace(/^www\./, '');
 const websiteHost = new URL(app.website).hostname.replace(/^www\./, '');
 const downloadHost = new URL(app.download).hostname.replace(/^www\./, '');
+// The figure shows a resized copy; its link still opens the full-size original.
+const shots = await Promise.all(
+  app.screenshots.map(async (shot) => ({
+    ...shot,
+    image: await appImage(app.slug, shot.src, shot.url, [800, 1600]),
+  })),
+);
 // Third-party taps (owner/tap/token) must be trusted before Homebrew will load them.
 const [brewOwner, brewTap] = app.homebrew?.includes('/')
   ? app.homebrew.split('/')
@@ -217,11 +225,13 @@ const brewPage = brewTap
 
   {app.screenshots.length > 0 && (
     <Shelf id="screenshots" title="Screenshots" variant="shots">
-      {app.screenshots.map((shot) => (
+      {shots.map((shot) => (
         <figure class="screenshot">
           <a href={shot.url}>
             <img
-              src={shot.url}
+              src={shot.image.src}
+              srcset={shot.image.srcset}
+              sizes="(max-width: 900px) 90vw, 780px"
               alt={shot.alt}
               loading="lazy"
               decoding="async"

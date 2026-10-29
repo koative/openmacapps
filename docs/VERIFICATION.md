@@ -1,5 +1,24 @@
 # Release verification
 
+## Image weight and layout shift — 2026-10-29
+
+**Problem.** Pages used the original files: 256 px PNG icons averaging 38 KB each, and screenshots of up to 2.3 MB.
+
+**Before.** Measured on the live site with Chromium, mobile profile (4× CPU slowdown, 1.6 Mbps, 150 ms latency).
+- Discover: 3.4 MB of images and an 18.2 s Largest Contentful Paint (LCP). On desktop it loaded 10.7 MB of images.
+- Product pages: an LCP of 7.5 s.
+- Search: the controls appeared only after JavaScript ran, which moved the results (Cumulative Layout Shift, CLS, 0.19).
+
+**After.** Icons and screenshots are now resized WebP copies built by Astro (1,854 files, 6.9 KB average). The search controls render from the first paint, and only no-JavaScript visitors hide them. Same profile, against the production build:
+
+| Page | Images | LCP | CLS |
+|---|---|---|---|
+| Discover | 0.2 MB | 0.8 s | 0 |
+| Product page | 16 KB | 0.8 s | 0 |
+| Search | no change | — | 0 |
+
+The build takes about 10 s. `bun run check:links` passes (86,533 links).
+
 ## 25 apps added for searched pages — 2026-10-29
 
 **Catalog.** The catalog now holds 903 apps, with 111 alternatives pages and 49 topic pages.

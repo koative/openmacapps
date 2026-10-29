@@ -1,6 +1,7 @@
 ---
 import AppIcon from './AppIcon.astro';
 import type { CatalogApp } from '../lib/catalog';
+import { appImage } from '../lib/images';
 interface Props {
   app: CatalogApp;
   headline: string;
@@ -10,6 +11,7 @@ interface Props {
 const { app, headline, stage, eager = false } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const shot = app.screenshots[0];
+const image = await appImage(app.slug, shot.src, shot.url, [600, 1200]);
 ---
 
 <article class="spotlight" style={`--stage:${stage}`}>
@@ -17,9 +19,12 @@ const shot = app.screenshots[0];
     <div class="spotlight-headline">{headline}</div>
     <div class="spotlight-stage">
       <img
-        src={shot.url}
+        src={image.src}
+        srcset={image.srcset}
+        sizes="(max-width: 900px) 82vw, 560px"
         alt={shot.alt}
         loading={eager ? 'eager' : 'lazy'}
+        fetchpriority={eager ? 'high' : undefined}
         decoding="async"
         width="960"
         height="600"

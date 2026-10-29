@@ -973,10 +973,6 @@ main {
 
 /* Search */
 
-.search-controls[hidden] {
-  display: none;
-}
-
 .search-field {
   position: relative;
   display: flex;

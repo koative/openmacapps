@@ -6,6 +6,8 @@
 
 `content/alternatives/<id>.md` describes a proprietary product and `content/topics/<slug>.md` a kind of tool; neither lists apps. `src/lib/guides.ts` builds their pages from the app records: an alternatives page gathers the apps whose `alternativeTo` names it, a topic page the apps carrying any of its tags. Validation rejects unknown ids, missing tags, and pages too thin to publish (fewer than two alternatives or three topic apps).
 
+Pages never show the original image files. `src/lib/images.ts` hands every catalog icon and screenshot to Astro's image service at build time, which writes resized WebP copies to `_astro/`: icons at twice their displayed size (128 or 256 px), screenshots as `srcset` pairs. The originals are still copied to `public/catalog/` for `catalog.json`, social cards and the full-size screenshot links.
+
 Astro builds a static store: Discover (`/`), Search (`/search/`), a page per category (`/categories/<slug>/`) and editorial collection (`/collections/<id>/`, defined in `src/lib/collections.ts`), and a product page per app (`/apps/<slug>/`). Search filters run in the browser over the already-rendered list of every app; its query, category, tag, license, and sort state live in the URL, and older `/?category=…` style links redirect there. Every page, source link, and the full app list remain available without JavaScript. There is no database, authentication, remote search service, or runtime GitHub API dependency.
 
 ## Why folders instead of a database or one JSON file?
