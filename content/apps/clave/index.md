@@ -13,6 +13,7 @@ website: https://github.com/antasphere/clave
 license: MIT
 licenseUrl: https://github.com/antasphere/clave/blob/prod/LICENSE
 download: https://github.com/antasphere/clave/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

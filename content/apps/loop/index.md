@@ -13,6 +13,7 @@ website: https://github.com/mrkai77/Loop
 license: GPL-3.0
 licenseUrl: https://github.com/mrkai77/Loop/blob/develop/LICENSE
 download: https://github.com/mrkai77/Loop/releases
+freeDownload: true
 homebrew: "loop"
 featured: false
 added: 2026-10-17

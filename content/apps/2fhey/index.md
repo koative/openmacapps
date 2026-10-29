@@ -12,6 +12,7 @@ website: https://2fhey.com
 license: CC0-1.0
 licenseUrl: https://github.com/SoFriendly/2fhey/blob/main/LICENSE
 download: https://2fhey.com
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

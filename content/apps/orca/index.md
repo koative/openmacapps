@@ -12,6 +12,7 @@ website: https://www.onorca.dev
 license: MIT
 licenseUrl: https://github.com/stablyai/orca/blob/main/LICENSE
 download: https://github.com/stablyai/orca/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

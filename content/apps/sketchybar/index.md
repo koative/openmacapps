@@ -8,6 +8,7 @@ website: "https://felixkratz.github.io/SketchyBar/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/FelixKratz/SketchyBar/blob/master/LICENSE.md"
 download: "https://felixkratz.github.io/SketchyBar/setup"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

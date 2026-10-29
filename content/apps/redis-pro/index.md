@@ -11,6 +11,7 @@ website: https://github.com/cmushroom/redis-pro
 license: "GPL-3.0"
 licenseUrl: https://github.com/cmushroom/redis-pro/blob/main/LICENSE
 download: https://github.com/cmushroom/redis-pro/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

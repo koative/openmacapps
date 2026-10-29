@@ -13,6 +13,7 @@ website: https://www.quotio.dev
 license: "MIT"
 licenseUrl: https://github.com/nguyenphutrong/quotio/blob/master/LICENSE
 download: https://github.com/nguyenphutrong/quotio/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

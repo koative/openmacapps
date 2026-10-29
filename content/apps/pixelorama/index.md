@@ -9,6 +9,7 @@ website: "https://orama-interactive.itch.io/pixelorama"
 license: "MIT"
 licenseUrl: "https://github.com/Orama-Interactive/Pixelorama/blob/master/LICENSE"
 download: "https://github.com/Orama-Interactive/Pixelorama/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

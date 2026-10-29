@@ -11,6 +11,7 @@ website: https://juwan-hwang.github.io/Zephyr/
 license: "MIT"
 licenseUrl: https://github.com/Juwan-Hwang/Zephyr/blob/main/LICENSE
 download: https://github.com/Juwan-Hwang/Zephyr/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -9,6 +9,7 @@ website: "https://insomnia.rest"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/Kong/insomnia/blob/develop/LICENSE"
 download: "https://github.com/Kong/insomnia/releases"
+freeDownload: true
 homebrew: "insomnia"
 featured: false
 added: "2026-10-17"

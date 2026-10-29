@@ -7,11 +7,14 @@ tags:
   - ssh
   - cross-platform
   - terminal-emulator
+alternativeTo:
+  - putty
 repository: https://github.com/wavetermdev/waveterm
 website: https://www.waveterm.dev
 license: "Apache-2.0"
 licenseUrl: https://github.com/wavetermdev/waveterm/blob/main/LICENSE
 download: https://www.waveterm.dev/download
+freeDownload: true
 homebrew: "wave"
 featured: false
 added: '2026-10-17'

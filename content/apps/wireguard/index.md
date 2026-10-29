@@ -13,6 +13,7 @@ website: https://www.wireguard.com
 license: "MIT"
 licenseUrl: https://git.zx2c4.com/wireguard-apple/tree/COPYING
 download: https://apps.apple.com/us/app/wireguard/id1451685025
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

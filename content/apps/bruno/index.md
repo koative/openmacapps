@@ -9,6 +9,7 @@ website: "https://www.usebruno.com/"
 license: "MIT"
 licenseUrl: "https://github.com/usebruno/bruno/blob/main/license.md"
 download: "https://github.com/usebruno/bruno/releases"
+freeDownload: true
 homebrew: "bruno"
 featured: true
 added: "2026-10-17"

@@ -8,6 +8,7 @@ website: "https://heroicgameslauncher.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/blob/main/COPYING"
 download: "https://heroicgameslauncher.com/downloads"
+freeDownload: true
 homebrew: "heroic"
 featured: false
 added: "2026-10-17"

@@ -11,6 +11,7 @@ website: https://doublecmd.sourceforge.io/
 license: GPL-2.0
 licenseUrl: https://github.com/doublecmd/doublecmd/blob/master/LICENSE.md
 download: https://github.com/doublecmd/doublecmd/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

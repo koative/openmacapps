@@ -14,6 +14,7 @@ website: https://github.com/maoyama/Changes
 license: "MIT"
 licenseUrl: https://github.com/maoyama/Changes/blob/main/LICENSE
 download: https://github.com/maoyama/Changes/releases
+freeDownload: true
 homebrew: "changes"
 featured: false
 added: '2026-10-17'

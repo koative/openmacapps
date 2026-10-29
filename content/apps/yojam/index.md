@@ -13,6 +13,7 @@ website: https://yoj.am
 license: "BSD-3-Clause"
 licenseUrl: https://github.com/fluffypony/yojam/blob/main/LICENSE
 download: https://github.com/fluffypony/yojam/releases
+freeDownload: true
 homebrew: "yojam"
 featured: false
 added: '2026-10-17'

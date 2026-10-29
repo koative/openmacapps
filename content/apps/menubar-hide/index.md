@@ -13,6 +13,7 @@ website: https://www.sparrow.tec.br/menubar-hide/
 license: "MIT"
 licenseUrl: https://github.com/junior-rj/menubar-hide/blob/main/LICENSE
 download: https://github.com/junior-rj/menubar-hide/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

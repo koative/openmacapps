@@ -16,6 +16,7 @@ website: https://sol.ospfranco.com
 license: MIT
 licenseUrl: https://github.com/ospfranco/sol/blob/main/LICENSE
 download: https://github.com/ospfranco/sol/releases
+freeDownload: true
 homebrew: "sol"
 featured: false
 added: '2026-10-17'

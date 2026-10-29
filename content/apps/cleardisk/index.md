@@ -13,6 +13,7 @@ website: https://bysiber.github.io/cleardisk/
 license: "MIT"
 licenseUrl: https://github.com/bysiber/cleardisk/blob/main/LICENSE
 download: https://github.com/bysiber/cleardisk/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

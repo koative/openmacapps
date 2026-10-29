@@ -18,6 +18,7 @@ website: https://supercmd.sh
 license: MIT
 licenseUrl: https://github.com/SuperCmdLabs/SuperCmd/blob/main/LICENSE
 download: https://github.com/SuperCmdLabs/SuperCmd/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -13,6 +13,7 @@ website: https://qwenaudio.github.io/qwen-audio-agent/
 license: "Apache-2.0"
 licenseUrl: https://github.com/QwenAudio/qwen-audio-agent/blob/main/LICENSE
 download: https://github.com/QwenAudio/qwen-audio-agent/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

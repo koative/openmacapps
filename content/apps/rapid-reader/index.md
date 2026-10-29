@@ -13,6 +13,7 @@ website: https://github.com/Zer0codestuff/Rapid-Reader
 license: MIT
 licenseUrl: https://github.com/Zer0codestuff/Rapid-Reader/blob/main/LICENSE
 download: https://github.com/Zer0codestuff/Rapid-Reader/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

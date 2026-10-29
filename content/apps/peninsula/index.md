@@ -8,6 +8,7 @@ website: "https://github.com/celve/Peninsula"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/celve/Peninsula/blob/main/LICENSE"
 download: "https://github.com/celve/Peninsula/releases"
+freeDownload: true
 homebrew: "peninsula"
 featured: false
 added: "2026-10-17"

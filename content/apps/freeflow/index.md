@@ -12,6 +12,7 @@ website: https://freeflow.zachlatta.com
 license: "MIT"
 licenseUrl: https://github.com/zachlatta/freeflow/blob/main/LICENSE
 download: https://github.com/zachlatta/freeflow/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -12,6 +12,7 @@ website: https://caskhub.app
 license: MIT
 licenseUrl: https://github.com/alielsokary/CaskHub/blob/master/LICENSE
 download: https://github.com/alielsokary/CaskHub/releases
+freeDownload: true
 homebrew: "caskhub"
 featured: false
 added: '2026-10-17'

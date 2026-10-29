@@ -8,6 +8,7 @@ website: "https://rustdesk.com"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/rustdesk/rustdesk/blob/master/LICENCE"
 download: "https://github.com/rustdesk/rustdesk/releases"
+freeDownload: true
 homebrew: "rustdesk"
 featured: false
 added: "2026-10-17"

@@ -14,6 +14,7 @@ website: https://joexk1.github.io/joebro/
 license: GPL-3.0
 licenseUrl: https://github.com/joexk1/JoeBro/blob/main/LICENSE
 download: https://github.com/joexk1/JoeBro/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

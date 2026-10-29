@@ -13,6 +13,7 @@ website: https://awalterminal.github.io/Awal-terminal/
 license: MIT
 licenseUrl: https://github.com/AwalTerminal/Awal-terminal/blob/main/LICENSE
 download: https://github.com/AwalTerminal/Awal-terminal/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

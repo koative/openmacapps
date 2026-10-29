@@ -8,6 +8,7 @@ website: "https://github.com/cyrus-cai/notchi"
 license: "MIT"
 licenseUrl: "https://github.com/cyrus-cai/notchi/blob/master/LICENSE"
 download: "https://github.com/cyrus-cai/notchi/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

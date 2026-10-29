@@ -11,6 +11,7 @@ website: https://gfx.io
 license: "BSD-3-Clause"
 licenseUrl: https://github.com/codykrieger/gfxCardStatus/blob/master/LICENSE
 download: https://github.com/codykrieger/gfxCardStatus/releases
+freeDownload: true
 homebrew: "gfxcardstatus"
 featured: false
 added: '2026-10-17'

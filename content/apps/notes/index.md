@@ -14,6 +14,7 @@ website: https://www.notes-foss.com/
 license: "MPL-2.0"
 licenseUrl: https://github.com/nuttyartist/notes/blob/master/LICENSE
 download: https://github.com/nuttyartist/notes/releases
+freeDownload: true
 homebrew: "notes-better"
 featured: false
 added: '2026-10-17'

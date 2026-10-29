@@ -13,6 +13,7 @@ website: https://yudaotor.github.io/lyrimuse/
 license: GPL-3.0
 licenseUrl: https://github.com/Yudaotor/lyrimuse/blob/main/LICENSE
 download: https://github.com/Yudaotor/lyrimuse/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

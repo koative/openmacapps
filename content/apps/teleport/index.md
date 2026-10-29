@@ -13,6 +13,7 @@ website: https://github.com/johndbritton/teleport
 license: GPL-2.0
 licenseUrl: https://github.com/johndbritton/teleport/blob/main/LICENSE
 download: https://github.com/johndbritton/teleport/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

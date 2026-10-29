@@ -13,6 +13,7 @@ website: https://abendrot.app
 license: "MIT"
 licenseUrl: https://github.com/matthewrball/abendrot/blob/main/LICENSE
 download: https://abendrot.app/download/
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -8,6 +8,7 @@ website: "https://gitemre.github.io/device-hub-pro/"
 license: "MIT"
 licenseUrl: "https://github.com/gitemre/device-hub-pro/blob/main/LICENSE"
 download: "https://github.com/gitemre/device-hub-pro/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

@@ -13,6 +13,7 @@ website: https://openhabittracker.net
 license: "GPL-3.0"
 licenseUrl: https://github.com/Jinjinov/OpenHabitTracker/blob/main/LICENSE
 download: https://apps.apple.com/us/app/openhabittracker/id6654885470?platform=mac
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

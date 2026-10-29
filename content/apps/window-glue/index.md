@@ -10,6 +10,7 @@ website: https://github.com/Conxt/WindowGlue
 license: "MIT"
 licenseUrl: https://github.com/Conxt/WindowGlue/blob/main/LICENSE
 download: https://github.com/Conxt/WindowGlue/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

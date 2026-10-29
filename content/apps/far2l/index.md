@@ -12,6 +12,7 @@ website: https://github.com/elfmz/far2l
 license: "GPL-2.0"
 licenseUrl: https://github.com/elfmz/far2l/blob/master/LICENSE.txt
 download: https://github.com/elfmz/far2l/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

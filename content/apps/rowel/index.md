@@ -17,6 +17,7 @@ website: https://rowel.app
 license: GPL-3.0
 licenseUrl: https://github.com/fwdai/rowel/blob/main/LICENSE
 download: https://github.com/fwdai/rowel/releases
+freeDownload: true
 homebrew: "rowel"
 featured: false
 added: '2026-10-17'

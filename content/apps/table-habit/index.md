@@ -12,6 +12,7 @@ website: https://github.com/FriesI23/mhabit
 license: Apache-2.0
 licenseUrl: https://github.com/FriesI23/mhabit/blob/main/LICENSE
 download: https://github.com/FriesI23/mhabit/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

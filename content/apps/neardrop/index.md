@@ -11,6 +11,7 @@ website: https://github.com/grishka/NearDrop
 license: Unlicense
 licenseUrl: https://github.com/grishka/NearDrop/blob/master/UNLICENSE
 download: https://github.com/grishka/NearDrop/releases
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

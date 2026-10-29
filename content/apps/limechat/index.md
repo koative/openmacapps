@@ -11,6 +11,7 @@ website: "https://github.com/psychs/limechat"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/psychs/limechat/blob/master/GPL.txt"
 download: "https://apps.apple.com/app/limechat/id414030210"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

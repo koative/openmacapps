@@ -3,12 +3,13 @@ name: "TextMate"
 summary: "A Mac text editor with language bundles, snippets, commands, and project navigation."
 category: "Developer tools"
 tags: ["code-editor", "text-editor", "native"]
-alternativeTo: ["sublime-text"]
+alternativeTo: ["sublime-text", "notepad-plus-plus"]
 repository: "https://github.com/textmate/textmate"
 website: "https://macromates.com"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/textmate/textmate/blob/master/LICENSE"
 download: "https://macromates.com/download"
+freeDownload: true
 homebrew: "textmate"
 featured: false
 added: "2026-10-17"

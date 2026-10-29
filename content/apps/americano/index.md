@@ -9,6 +9,7 @@ website: "https://github.com/LZhenHong/Americano"
 license: "MIT"
 licenseUrl: "https://github.com/LZhenHong/Americano/blob/main/LICENSE"
 download: "https://github.com/LZhenHong/Americano/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

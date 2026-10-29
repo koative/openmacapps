@@ -8,6 +8,7 @@ website: "https://dolphin-emu.org"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/dolphin-emu/dolphin/blob/master/COPYING"
 download: "https://dolphin-emu.org/download"
+freeDownload: true
 homebrew: "dolphin"
 featured: false
 added: "2026-10-17"

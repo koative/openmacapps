@@ -11,6 +11,7 @@ website: "https://github.com/ddddxxx/LyricsX"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/ddddxxx/LyricsX/blob/master/LICENSE"
 download: "https://github.com/ddddxxx/LyricsX/releases"
+freeDownload: true
 homebrew: "lyricsx"
 featured: false
 added: '2026-10-17'

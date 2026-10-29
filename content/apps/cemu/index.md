@@ -8,6 +8,7 @@ website: "https://cemu.info"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/cemu-project/Cemu/blob/main/LICENSE.txt"
 download: "https://github.com/cemu-project/Cemu/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

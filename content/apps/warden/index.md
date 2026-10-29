@@ -12,6 +12,7 @@ website: https://github.com/SidhuK/WardenApp
 license: "Apache-2.0"
 licenseUrl: https://github.com/SidhuK/WardenApp/blob/main/LICENSE
 download: https://github.com/SidhuK/WardenApp/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

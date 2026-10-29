@@ -12,6 +12,7 @@ website: https://doughnutapp.com
 license: GPL-3.0
 licenseUrl: https://github.com/dyerc/Doughnut/blob/master/LICENSE
 download: https://github.com/dyerc/Doughnut/releases
+freeDownload: true
 homebrew: "doughnut"
 featured: false
 added: '2026-10-17'

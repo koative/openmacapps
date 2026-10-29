@@ -12,6 +12,7 @@ website: "https://baahaus.github.io/flock/"
 license: "MIT"
 licenseUrl: "https://github.com/baahaus/flock/blob/main/LICENSE"
 download: "https://github.com/baahaus/flock/releases/latest"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

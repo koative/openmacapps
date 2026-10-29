@@ -11,6 +11,7 @@ website: https://appports.shimoko.com
 license: Apache-2.0
 licenseUrl: https://github.com/wzh4869/AppPorts/blob/main/LICENSE
 download: https://github.com/wzh4869/AppPorts/releases
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

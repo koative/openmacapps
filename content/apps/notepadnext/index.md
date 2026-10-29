@@ -6,11 +6,14 @@ tags:
 - text-editor
 - code-editor
 - cross-platform
+alternativeTo:
+- notepad-plus-plus
 repository: https://github.com/dail8859/NotepadNext
 website: https://github.com/dail8859/NotepadNext
 license: GPL-3.0
 licenseUrl: https://github.com/dail8859/NotepadNext/blob/master/LICENSE
 download: https://github.com/dail8859/NotepadNext/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

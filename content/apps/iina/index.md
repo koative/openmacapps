@@ -3,11 +3,13 @@ name: "IINA"
 summary: "A considered video player with the controls and shortcuts Mac users expect."
 category: "Media"
 tags: ["video", "audio", "native", "video-player"]
+alternativeTo: ["potplayer"]
 repository: "https://github.com/iina/iina"
 website: "https://iina.io"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/iina/iina/blob/develop/LICENSE"
 download: "https://github.com/iina/iina/releases"
+freeDownload: true
 homebrew: "iina"
 featured: true
 added: "2026-10-17"

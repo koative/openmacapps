@@ -3,11 +3,13 @@ name: "VLC"
 summary: "A familiar media player for a wide range of files and streams."
 category: "Media"
 tags: ["video", "audio", "cross-platform", "video-player"]
+alternativeTo: ["potplayer"]
 repository: "https://github.com/videolan/vlc"
 website: "https://www.videolan.org/vlc/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/videolan/vlc/blob/master/COPYING"
 download: "https://www.videolan.org/vlc/download-macosx.html"
+freeDownload: true
 homebrew: "vlc"
 featured: false
 added: "2026-10-17"

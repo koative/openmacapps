@@ -11,6 +11,7 @@ website: "https://uselinked.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/lostdesign/linked/blob/master/LICENSE"
 download: "https://github.com/lostdesign/linked/releases"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

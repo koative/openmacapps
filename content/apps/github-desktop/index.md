@@ -9,6 +9,7 @@ website: "https://github.com/apps/desktop"
 license: "MIT"
 licenseUrl: "https://github.com/desktop/desktop/blob/development/LICENSE"
 download: "https://desktop.github.com/download"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

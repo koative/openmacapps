@@ -11,6 +11,7 @@ website: https://onlyswitch.click/
 license: MIT
 licenseUrl: https://github.com/jacklandrin/OnlySwitch/blob/main/LICENSE
 download: https://github.com/jacklandrin/OnlySwitch/releases
+freeDownload: true
 homebrew: "only-switch"
 featured: false
 added: 2026-10-17

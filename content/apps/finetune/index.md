@@ -8,6 +8,7 @@ website: "https://github.com/ronitsingh10/FineTune"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/ronitsingh10/FineTune/blob/main/LICENSE"
 download: "https://github.com/ronitsingh10/FineTune/releases"
+freeDownload: true
 homebrew: "finetune"
 featured: false
 added: "2026-10-17"

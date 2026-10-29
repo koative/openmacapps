@@ -8,6 +8,7 @@ website: "https://www.dosbox-staging.org"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/dosbox-staging/dosbox-staging/blob/main/LICENSE"
 download: "https://www.dosbox-staging.org/download/macos/"
+freeDownload: true
 homebrew: "dosbox-staging-app"
 featured: false
 added: "2026-10-17"

@@ -13,6 +13,7 @@ website: https://thinkwat.ch/lite/
 license: "MIT"
 licenseUrl: https://github.com/ThinkWatchProject/ThinkWatch-Lite/blob/main/LICENSE
 download: https://github.com/ThinkWatchProject/ThinkWatch-Lite/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

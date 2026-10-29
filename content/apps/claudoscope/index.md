@@ -12,6 +12,7 @@ website: "https://claudoscope.com"
 license: "MIT"
 licenseUrl: "https://github.com/cordwainersmith/Claudoscope/blob/master/LICENSE"
 download: "https://github.com/cordwainersmith/Claudoscope/releases"
+freeDownload: true
 homebrew: "claudoscope"
 featured: false
 added: '2026-10-17'

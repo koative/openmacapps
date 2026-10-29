@@ -13,6 +13,7 @@ website: https://voxt.actnow.dev/
 license: "Apache-2.0"
 licenseUrl: https://github.com/sgl-project/sglang-omni/blob/main/Voxt/LICENSE
 download: https://github.com/hehehai/voxt/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

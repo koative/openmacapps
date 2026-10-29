@@ -13,6 +13,7 @@ website: https://notenik.app
 license: MIT
 licenseUrl: https://github.com/hbowie/Notenik-25/blob/main/LICENSE.md
 download: https://apps.apple.com/us/app/notenik/id1465997984
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -12,6 +12,7 @@ website: https://claudexor.ai/
 license: MIT
 licenseUrl: https://github.com/razzant/claudexor/blob/main/LICENSE
 download: https://github.com/razzant/claudexor/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -15,6 +15,7 @@ website: https://macdown.uranusjr.com
 license: MIT
 licenseUrl: https://github.com/MacDownApp/macdown/blob/master/LICENSE/macdown.txt
 download: https://github.com/MacDownApp/macdown/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -16,6 +16,7 @@ website: https://strongboxsafe.com
 license: AGPL-3.0
 licenseUrl: https://github.com/strongbox-password-safe/Strongbox/blob/master/LICENSE.md
 download: https://apps.apple.com/app/strongbox-password-safe/id897283731
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

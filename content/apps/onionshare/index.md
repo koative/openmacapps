@@ -12,6 +12,7 @@ website: https://onionshare.org/
 license: GPL-3.0
 licenseUrl: https://github.com/onionshare/onionshare/blob/main/LICENSE.txt
 download: https://onionshare.org/
+freeDownload: true
 homebrew: "onionshare"
 featured: false
 added: '2026-10-17'

@@ -9,6 +9,7 @@ website: "https://libresprite.github.io/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/LibreSprite/LibreSprite/blob/master/LICENSE.txt"
 download: "https://github.com/LibreSprite/LibreSprite/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

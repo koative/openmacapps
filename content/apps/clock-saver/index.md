@@ -11,6 +11,7 @@ website: https://github.com/soffes/Clock.saver
 license: "MIT"
 licenseUrl: https://github.com/soffes/Clock.saver/blob/main/LICENSE
 download: https://github.com/soffes/Clock.saver/releases
+freeDownload: true
 homebrew: "clocksaver"
 featured: false
 added: '2026-10-17'

@@ -14,6 +14,7 @@ sourceAvailability: source-available
 licenseNotes: "MioIsland's LICENSE.md applies Creative Commons Attribution-NonCommercial 4.0, which allows sharing and adapting the code with attribution but not for commercial purposes, so it is source available rather than open source. The project is a fork of Claude Island, whose original code was published under Apache 2.0."
 licenseUrl: https://github.com/MioMioOS/MioIsland/blob/main/LICENSE.md
 download: https://github.com/MioMioOS/MioIsland/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

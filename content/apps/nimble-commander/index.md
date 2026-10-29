@@ -11,6 +11,7 @@ website: https://magnumbytes.com
 license: "GPL-3.0"
 licenseUrl: https://github.com/mikekazakov/nimble-commander/blob/main/LICENSE.md
 download: https://github.com/mikekazakov/nimble-commander/releases
+freeDownload: true
 homebrew: "nimble-commander"
 featured: false
 added: '2026-10-17'

@@ -13,6 +13,7 @@ website: https://github.com/pear-devs/pear-desktop
 license: MIT
 licenseUrl: https://github.com/pear-devs/pear-desktop/blob/master/license
 download: https://github.com/pear-devs/pear-desktop/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

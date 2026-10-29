@@ -14,6 +14,7 @@ website: https://element.io
 license: AGPL-3.0-or-later OR GPL-3.0-or-later
 licenseUrl: https://github.com/element-hq/element-web/blob/develop/LICENSE-AGPL-3.0
 download: https://element.io/download
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

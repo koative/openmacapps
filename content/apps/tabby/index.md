@@ -3,12 +3,13 @@ name: "Tabby"
 summary: "A terminal workspace for local shells, SSH connections, and serial devices."
 category: "Developer tools"
 tags: ["terminal", "ssh", "serial", "terminal-emulator"]
-alternativeTo: ["termius"]
+alternativeTo: ["termius", "putty", "mobaxterm"]
 repository: "https://github.com/Eugeny/tabby"
 website: "https://tabby.sh"
 license: "MIT"
 licenseUrl: "https://github.com/Eugeny/tabby/blob/master/LICENSE"
 download: "https://github.com/Eugeny/tabby/releases"
+freeDownload: true
 homebrew: "tabby"
 featured: false
 added: "2026-10-17"

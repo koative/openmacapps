@@ -9,6 +9,7 @@ website: "https://activitywatch.net"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/ActivityWatch/activitywatch/blob/master/LICENSE.txt"
 download: "https://github.com/ActivityWatch/activitywatch/releases"
+freeDownload: true
 homebrew: "activitywatch"
 featured: false
 added: "2026-10-17"

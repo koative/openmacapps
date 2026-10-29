@@ -15,6 +15,7 @@ website: https://www.dayflow.so/
 license: MIT
 licenseUrl: https://github.com/JerryZLiu/Dayflow/blob/main/LICENSE
 download: https://github.com/JerryZLiu/Dayflow/releases
+freeDownload: true
 homebrew: "dayflow"
 featured: false
 added: '2026-10-17'

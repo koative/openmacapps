@@ -8,6 +8,7 @@ website: "https://www.sonicvisualiser.org/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/sonic-visualiser/sonic-visualiser/blob/default/COPYING"
 download: "https://github.com/sonic-visualiser/sonic-visualiser/releases"
+freeDownload: true
 homebrew: "sonic-visualiser"
 featured: false
 added: "2026-10-17"

@@ -8,6 +8,7 @@ website: "https://melonds.kuribo64.net"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/melonDS-emu/melonDS/blob/master/LICENSE"
 download: "https://github.com/melonDS-emu/melonDS/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

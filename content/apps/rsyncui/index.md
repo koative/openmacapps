@@ -11,6 +11,7 @@ website: https://rsyncui.netlify.app/docs/
 license: MIT
 licenseUrl: https://github.com/rsyncOSX/RsyncUI/blob/main/Licence.MD
 download: https://github.com/rsyncOSX/RsyncUI/releases
+freeDownload: true
 homebrew: "rsyncui"
 featured: false
 added: 2026-10-17

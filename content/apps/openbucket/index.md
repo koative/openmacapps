@@ -12,6 +12,7 @@ website: https://openbucket.koative.com
 license: MIT
 licenseUrl: https://github.com/koative/openbucket/blob/main/LICENSE
 download: https://github.com/koative/openbucket/releases/latest
+freeDownload: true
 homebrew: "koative/tap/openbucket"
 featured: false
 added: '2026-10-18'

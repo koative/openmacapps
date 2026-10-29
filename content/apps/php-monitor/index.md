@@ -11,6 +11,7 @@ website: https://phpmon.app/
 license: MIT
 licenseUrl: https://github.com/nicoverbruggen/phpmon/blob/main/LICENSE
 download: https://github.com/nicoverbruggen/phpmon/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

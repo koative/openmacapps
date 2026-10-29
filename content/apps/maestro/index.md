@@ -12,6 +12,7 @@ website: https://runmaestro.ai
 license: "AGPL-3.0"
 licenseUrl: https://github.com/RunMaestro/Maestro/blob/main/LICENSE
 download: https://github.com/RunMaestro/Maestro/releases
+freeDownload: true
 homebrew: "maestro"
 featured: false
 added: '2026-10-17'

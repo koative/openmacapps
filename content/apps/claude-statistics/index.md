@@ -12,6 +12,7 @@ website: https://claudestatistics.vercel.app/
 license: "MIT"
 licenseUrl: https://github.com/sj719045032/claude-statistics/blob/main/LICENSE
 download: https://github.com/sj719045032/claude-statistics/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

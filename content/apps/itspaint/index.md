@@ -6,11 +6,14 @@ tags:
   - drawing
   - annotation
   - screenshots
+alternativeTo:
+  - microsoft-paint
 repository: https://github.com/joshlin2201/itspaint
 website: https://itspaintmac.com/
 license: "MIT"
 licenseUrl: https://github.com/joshlin2201/itspaint/blob/main/LICENSE
 download: https://github.com/joshlin2201/itspaint/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

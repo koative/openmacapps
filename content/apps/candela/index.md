@@ -12,6 +12,7 @@ website: https://candela.fyi
 license: "MIT"
 licenseUrl: https://github.com/Rydersel/Candela/blob/main/LICENSE
 download: https://github.com/Rydersel/Candela/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

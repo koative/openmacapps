@@ -8,6 +8,7 @@ website: "https://dorothyai.app"
 license: "MIT"
 licenseUrl: "https://github.com/Charlie85270/Dorothy/blob/main/LICENSE"
 download: "https://github.com/Charlie85270/Dorothy/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

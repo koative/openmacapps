@@ -12,6 +12,7 @@ website: https://esrlabs.github.io/chipmunk/
 license: 'Apache-2.0'
 licenseUrl: https://github.com/esrlabs/chipmunk/blob/master/LICENSE.txt
 download: https://github.com/esrlabs/chipmunk/releases
+freeDownload: true
 homebrew: "chipmunk"
 featured: false
 added: '2026-10-17'

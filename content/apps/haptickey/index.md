@@ -8,6 +8,7 @@ website: "https://github.com/niw/HapticKey"
 license: "MIT"
 licenseUrl: "https://github.com/niw/HapticKey/blob/master/LICENSE"
 download: "https://github.com/niw/HapticKey/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

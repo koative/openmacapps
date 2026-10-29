@@ -11,6 +11,7 @@ website: "https://www.textualapp.com"
 license: "BSD-3-Clause AND BSD-2-Clause"
 licenseUrl: "https://github.com/blendbyte/Textual/blob/main/LICENSE"
 download: "https://www.textualapp.com"
+freeDownload: false
 homebrew: "textual"
 featured: false
 added: '2026-10-17'

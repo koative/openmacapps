@@ -9,6 +9,7 @@ website: "https://dbeaver.io"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/dbeaver/dbeaver/blob/devel/LICENSE.md"
 download: "https://dbeaver.io/download"
+freeDownload: true
 homebrew: "dbeaver-community"
 featured: false
 added: "2026-10-17"

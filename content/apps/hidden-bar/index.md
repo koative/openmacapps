@@ -9,6 +9,7 @@ website: "https://github.com/dwarvesf/hidden"
 license: "MIT"
 licenseUrl: "https://github.com/dwarvesf/hidden/blob/develop/LICENSE"
 download: "https://github.com/dwarvesf/hidden/releases"
+freeDownload: true
 homebrew: "hiddenbar"
 featured: false
 added: "2026-10-17"

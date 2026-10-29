@@ -11,6 +11,7 @@ website: https://github.com/tisfeng/Easydict
 license: "GPL-3.0"
 licenseUrl: https://github.com/tisfeng/Easydict/blob/dev/LICENSE
 download: https://github.com/tisfeng/Easydict/releases
+freeDownload: true
 homebrew: "easydict"
 featured: false
 added: '2026-10-17'

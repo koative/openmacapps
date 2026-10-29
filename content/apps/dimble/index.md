@@ -12,6 +12,7 @@ website: https://dimble.fif7y.com
 license: GPL-3.0
 licenseUrl: https://github.com/fif7y/dimble/blob/main/LICENSE
 download: https://github.com/fif7y/dimble/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

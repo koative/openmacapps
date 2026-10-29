@@ -8,6 +8,7 @@ website: "https://www.openttd.org"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/OpenTTD/OpenTTD/blob/master/COPYING.md"
 download: "https://www.openttd.org/downloads/openttd-releases/latest"
+freeDownload: true
 homebrew: "openttd"
 featured: false
 added: "2026-10-17"

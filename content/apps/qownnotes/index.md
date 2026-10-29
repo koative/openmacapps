@@ -9,6 +9,7 @@ website: "https://www.qownnotes.org/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/pbek/QOwnNotes/blob/main/LICENSE"
 download: "https://github.com/pbek/QOwnNotes/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

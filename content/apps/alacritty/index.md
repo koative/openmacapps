@@ -8,6 +8,7 @@ website: "https://alacritty.org"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/alacritty/alacritty/blob/master/LICENSE-APACHE"
 download: "https://github.com/alacritty/alacritty/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

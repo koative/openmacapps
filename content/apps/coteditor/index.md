@@ -3,11 +3,13 @@ name: "CotEditor"
 summary: "A focused native editor for plain text, scripts and everyday notes."
 category: "Writing"
 tags: ["text-editor", "plain-text", "native"]
+alternativeTo: ["notepad-plus-plus"]
 repository: "https://github.com/coteditor/CotEditor"
 website: "https://coteditor.com"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/coteditor/CotEditor/blob/main/LICENSE"
 download: "https://github.com/coteditor/CotEditor/releases"
+freeDownload: true
 homebrew: "coteditor"
 featured: false
 added: "2026-10-17"

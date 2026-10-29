@@ -13,6 +13,7 @@ website: https://github.com/l0ng-ai/papr
 license: "MIT"
 licenseUrl: https://github.com/l0ng-ai/papr/blob/main/LICENSE
 download: https://github.com/l0ng-ai/papr/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -8,6 +8,7 @@ website: "https://exifcleaner.com"
 license: "MIT"
 licenseUrl: "https://github.com/szTheory/exifcleaner/blob/master/LICENSE"
 download: "https://github.com/szTheory/exifcleaner/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

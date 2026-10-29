@@ -11,6 +11,7 @@ website: https://github.com/SAP/macOS-icon-generator
 license: "Apache-2.0"
 licenseUrl: https://github.com/SAP/macOS-icon-generator/blob/main/LICENSE
 download: https://github.com/SAP/macOS-icon-generator/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

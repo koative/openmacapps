@@ -14,6 +14,7 @@ website: https://github.com/Uncommon/Xit
 license: 'Apache-2.0'
 licenseUrl: https://github.com/Uncommon/Xit/blob/main/COPYING
 download: https://github.com/Uncommon/Xit/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

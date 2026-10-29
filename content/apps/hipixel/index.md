@@ -12,6 +12,7 @@ website: "https://hipixel.5km.tech"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/okooo5km/HiPixel/blob/main/LICENSE"
 download: "https://github.com/okooo5km/HiPixel/releases/latest"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

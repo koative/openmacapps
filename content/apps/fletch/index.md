@@ -12,6 +12,7 @@ website: https://fletch.sh
 license: AGPL-3.0
 licenseUrl: https://github.com/fwdai/fletch/blob/main/LICENSE
 download: https://github.com/fwdai/fletch/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

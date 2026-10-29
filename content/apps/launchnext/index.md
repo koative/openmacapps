@@ -10,6 +10,7 @@ website: https://closex.org/launchnext/
 license: "GPL-3.0"
 licenseUrl: https://github.com/RoversX/LaunchNext/blob/main/LICENSE
 download: https://github.com/RoversX/LaunchNext/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

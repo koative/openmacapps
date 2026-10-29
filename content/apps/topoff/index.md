@@ -12,6 +12,7 @@ website: "https://github.com/ihazgithub/TopOff"
 license: "MIT"
 licenseUrl: "https://github.com/ihazgithub/TopOff/blob/main/LICENSE"
 download: "https://github.com/ihazgithub/TopOff/releases"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

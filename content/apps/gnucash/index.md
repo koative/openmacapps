@@ -8,6 +8,7 @@ website: "https://www.gnucash.org/"
 license: "GPL-2.0-only OR GPL-3.0-only"
 licenseUrl: "https://github.com/Gnucash/gnucash/blob/stable/LICENSE"
 download: "https://github.com/Gnucash/gnucash/releases"
+freeDownload: true
 homebrew: "gnucash"
 featured: false
 added: "2026-10-17"

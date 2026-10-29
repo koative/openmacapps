@@ -13,6 +13,7 @@ website: https://github.com/evanrolfe/trayce_gui
 license: "GPL-3.0"
 licenseUrl: https://github.com/evanrolfe/trayce_gui/blob/main/LICENSE.txt
 download: https://github.com/evanrolfe/trayce_gui/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

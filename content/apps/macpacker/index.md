@@ -13,6 +13,7 @@ website: https://macpacker.app
 license: GPL-3.0
 licenseUrl: https://github.com/sarensw/MacPacker/blob/main/LICENSE
 download: https://github.com/sarensw/MacPacker/releases
+freeDownload: true
 homebrew: "macpacker"
 featured: false
 added: 2026-10-17

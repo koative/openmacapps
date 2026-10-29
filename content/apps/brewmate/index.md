@@ -11,6 +11,7 @@ website: https://brewmate-macos.web.app
 license: "MIT"
 licenseUrl: https://github.com/romankurnovskii/BrewMate/blob/main/LICENSE.md
 download: https://github.com/romankurnovskii/BrewMate/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

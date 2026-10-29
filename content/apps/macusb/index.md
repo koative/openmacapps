@@ -6,11 +6,15 @@ tags:
   - external-drives
   - downloads
   - linux
+alternativeTo:
+  - rufus
+  - ventoy
 repository: https://github.com/Kruszoneq/macUSB
 website: https://macusb.app
 license: "MIT"
 licenseUrl: https://github.com/Kruszoneq/macUSB/blob/main/LICENSE.txt
 download: https://github.com/Kruszoneq/macUSB/releases
+freeDownload: true
 homebrew: "macusb"
 featured: false
 added: '2026-10-17'

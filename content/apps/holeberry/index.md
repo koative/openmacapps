@@ -8,6 +8,7 @@ website: "https://github.com/pedrovieira/Holeberry"
 license: "MIT"
 licenseUrl: "https://github.com/pedrovieira/Holeberry/blob/main/LICENSE"
 download: "https://github.com/pedrovieira/Holeberry/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

@@ -14,6 +14,7 @@ website: https://www.qbittorrent.org
 license: GPL-2.0-or-later
 licenseUrl: https://github.com/qbittorrent/qBittorrent/blob/master/COPYING
 download: https://www.qbittorrent.org/download
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

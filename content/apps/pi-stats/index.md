@@ -12,6 +12,7 @@ website: https://github.com/Bunn/PiStats
 license: "BSD-2-Clause"
 licenseUrl: https://github.com/Bunn/PiStats/blob/master/LICENSE
 download: https://apps.apple.com/us/app/pi-stats/id1514075262
+freeDownload: false
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -8,6 +8,7 @@ website: "https://markerdata.theacharya.co"
 license: "MIT"
 licenseUrl: "https://github.com/TheAcharya/MarkerData/blob/main/LICENSE"
 download: "https://github.com/TheAcharya/MarkerData/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

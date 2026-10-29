@@ -13,6 +13,7 @@ website: https://homielab.com/en/page/timemate
 license: 'MIT'
 licenseUrl: https://github.com/homielab/timemate/blob/main/LICENSE
 download: https://apps.apple.com/us/app/timemate-pomodoro-timer/id6754137356
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

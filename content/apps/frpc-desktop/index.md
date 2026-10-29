@@ -12,6 +12,7 @@ website: https://jwinks.com/p/frp/
 license: "MIT"
 licenseUrl: https://github.com/luckjiawei/frpc-desktop/blob/main/LICENSE
 download: https://github.com/luckjiawei/frpc-desktop/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

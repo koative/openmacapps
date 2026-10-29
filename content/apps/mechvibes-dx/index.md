@@ -12,6 +12,7 @@ website: https://github.com/hainguyents13/mechvibes-dx
 license: "MIT"
 licenseUrl: https://github.com/hainguyents13/mechvibes-dx/blob/main/LICENSE
 download: https://github.com/hainguyents13/mechvibes-dx/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

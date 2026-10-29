@@ -8,6 +8,7 @@ website: "https://github.com/yep/app-downloader"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/yep/app-downloader/blob/master/LICENSE"
 download: "https://github.com/yep/app-downloader/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

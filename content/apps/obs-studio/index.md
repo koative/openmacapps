@@ -8,6 +8,7 @@ website: "https://obsproject.com"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/obsproject/obs-studio/blob/master/COPYING"
 download: "https://github.com/obsproject/obs-studio/releases"
+freeDownload: true
 homebrew: "obs"
 featured: false
 added: "2026-10-17"

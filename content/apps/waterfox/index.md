@@ -9,6 +9,7 @@ website: "https://www.waterfox.com"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/BrowserWorks/waterfox/blob/current/toolkit/content/license.html"
 download: "https://www.waterfox.com/download/"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

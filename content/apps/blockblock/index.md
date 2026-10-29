@@ -11,6 +11,7 @@ website: https://github.com/objective-see/BlockBlock
 license: GPL-3.0
 licenseUrl: https://github.com/objective-see/BlockBlock/blob/master/LICENSE.md
 download: https://github.com/objective-see/BlockBlock/releases
+freeDownload: true
 homebrew: "blockblock"
 featured: false
 added: 2026-10-17

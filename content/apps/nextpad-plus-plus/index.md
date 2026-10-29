@@ -6,11 +6,14 @@ tags:
   - code-editor
   - text-editor
   - plugins
+alternativeTo:
+  - notepad-plus-plus
 repository: https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos
 website: https://nextpad.org
 license: "GPL-3.0"
 licenseUrl: https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/blob/main/LICENSE
 download: https://nextpad.org/download/
+freeDownload: true
 homebrew: "nextpad++"
 featured: false
 added: '2026-10-17'

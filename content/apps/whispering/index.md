@@ -13,6 +13,7 @@ website: https://whispering.epicenter.so/
 license: "AGPL-3.0-or-later"
 licenseUrl: https://github.com/EpicenterHQ/epicenter/blob/main/apps/whispering/LICENSE
 download: https://github.com/EpicenterHQ/epicenter/releases/tag/v7.11.0
+freeDownload: true
 homebrew: "whispering"
 featured: false
 added: '2026-10-17'

@@ -12,6 +12,7 @@ website: https://orcaslicer.com/
 license: AGPL-3.0
 licenseUrl: https://github.com/OrcaSlicer/OrcaSlicer/blob/main/LICENSE.txt
 download: https://github.com/OrcaSlicer/OrcaSlicer/releases
+freeDownload: true
 homebrew: "orcaslicer"
 featured: false
 added: 2026-10-17

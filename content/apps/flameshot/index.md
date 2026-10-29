@@ -14,6 +14,7 @@ website: https://flameshot.org
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/flameshot-org/flameshot/blob/master/LICENSE
 download: https://github.com/flameshot-org/flameshot/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -12,6 +12,7 @@ website: https://mmattozzi.github.io/cocoa-rest-client/
 license: "BSD-3-Clause"
 licenseUrl: https://github.com/mmattozzi/cocoa-rest-client/blob/master/LICENSE.txt
 download: https://github.com/mmattozzi/cocoa-rest-client/releases
+freeDownload: true
 homebrew: "cocoarestclient"
 featured: false
 added: '2026-10-17'

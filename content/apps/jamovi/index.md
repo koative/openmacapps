@@ -8,6 +8,7 @@ website: "https://www.jamovi.org/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/jamovi/jamovi/blob/main/LICENSE.md"
 download: "https://www.jamovi.org/download.html"
+freeDownload: true
 homebrew: "jamovi"
 featured: false
 added: "2026-10-17"

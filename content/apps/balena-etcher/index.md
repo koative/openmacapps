@@ -3,11 +3,13 @@ name: "balenaEtcher"
 summary: "Write operating system images to SD cards and USB drives, with drive selection safeguards and post-write checks."
 category: "Utilities"
 tags: ["disk-images", "usb", "cross-platform"]
+alternativeTo: ["rufus", "ventoy"]
 repository: "https://github.com/balena-io/etcher"
 website: "https://etcher.balena.io"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/balena-io/etcher/blob/master/LICENSE"
 download: "https://github.com/balena-io/etcher/releases"
+freeDownload: true
 homebrew: "balenaetcher"
 featured: false
 added: "2026-10-17"

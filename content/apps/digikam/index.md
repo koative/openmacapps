@@ -15,6 +15,7 @@ website: https://www.digikam.org/
 license: GPL-2.0-or-later
 licenseUrl: https://invent.kde.org/graphics/digikam/-/blob/master/LICENSES/GPL-2.0-or-later.txt
 download: https://www.digikam.org/download/
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

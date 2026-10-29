@@ -11,6 +11,7 @@ website: https://dutkiewiczmaciej.github.io/MakLock/
 license: "MIT"
 licenseUrl: https://github.com/dutkiewiczmaciej/MakLock/blob/main/LICENSE
 download: https://github.com/dutkiewiczmaciej/MakLock/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

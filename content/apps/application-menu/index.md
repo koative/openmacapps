@@ -10,6 +10,7 @@ website: https://github.com/barseghyanartur/app-menu
 license: "MIT"
 licenseUrl: https://github.com/barseghyanartur/app-menu/blob/main/LICENSE
 download: https://github.com/barseghyanartur/app-menu/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

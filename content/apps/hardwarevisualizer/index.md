@@ -12,6 +12,7 @@ website: https://hardviz.com
 license: GPL-3.0-or-later
 licenseUrl: https://github.com/shm11C3/HardwareVisualizer/blob/develop/LICENSE
 download: https://github.com/shm11C3/HardwareVisualizer/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

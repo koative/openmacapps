@@ -3,11 +3,13 @@ name: "BlackHole"
 summary: "A virtual audio loopback driver for routing sound from one Mac application into another."
 category: "Media"
 tags: ["audio", "recording", "streaming", "routing"]
+alternativeTo: ["voicemeeter"]
 repository: "https://github.com/ExistentialAudio/BlackHole"
 website: "https://existential.audio/blackhole/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/ExistentialAudio/BlackHole/blob/master/LICENSE"
 download: "https://existential.audio/blackhole/"
+freeDownload: true
 homebrew: "blackhole-2ch"
 featured: false
 added: "2026-10-17"

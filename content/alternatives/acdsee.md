@@ -1,5 +1,5 @@
 ---
-name: ACDSee Photo Studio for Mac
+name: ACDSee Photo Studio
 vendor: ACD Systems
 website: https://www.acdsee.com/en/products/photo-studio-mac/
 category: Design

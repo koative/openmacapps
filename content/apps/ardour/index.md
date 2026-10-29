@@ -9,6 +9,7 @@ website: "https://ardour.org"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/Ardour/ardour/blob/master/COPYING"
 download: "https://community.ardour.org/download"
+freeDownload: false
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

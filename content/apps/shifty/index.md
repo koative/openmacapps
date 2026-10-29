@@ -13,6 +13,7 @@ website: https://github.com/thompsonate/Shifty
 license: GPL-3.0
 licenseUrl: https://github.com/thompsonate/Shifty/blob/master/LICENSE
 download: https://github.com/thompsonate/Shifty/releases
+freeDownload: true
 homebrew: "shifty"
 featured: false
 added: 2026-10-17

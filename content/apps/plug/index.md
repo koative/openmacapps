@@ -8,6 +8,7 @@ website: "https://plugformac.com"
 license: "MIT"
 licenseUrl: "https://github.com/wulkano/Plug/blob/main/license"
 download: "https://apps.apple.com/app/id1514182074"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

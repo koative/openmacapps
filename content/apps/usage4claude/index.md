@@ -8,6 +8,7 @@ website: "https://u4c.fi5h.xyz/"
 license: "MIT"
 licenseUrl: "https://github.com/f-is-h/Usage4Claude/blob/main/LICENSE"
 download: "https://github.com/f-is-h/Usage4Claude/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

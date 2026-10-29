@@ -8,6 +8,7 @@ website: "https://mifi.no/losslesscut/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/mifi/lossless-cut/blob/master/LICENSE"
 download: "https://github.com/mifi/lossless-cut/releases"
+freeDownload: true
 homebrew: "losslesscut"
 featured: false
 added: "2026-10-17"

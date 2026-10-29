@@ -8,6 +8,7 @@ website: "https://bdash-app.github.io/"
 license: "MIT"
 licenseUrl: "https://github.com/bdash-app/bdash/blob/master/LICENSE"
 download: "https://github.com/bdash-app/bdash/releases"
+freeDownload: true
 homebrew: "bdash"
 featured: false
 added: "2026-10-17"

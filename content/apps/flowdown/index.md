@@ -13,6 +13,7 @@ website: https://flowdown.ai/
 license: AGPL-3.0
 licenseUrl: https://github.com/Lakr233/FlowDown/blob/main/LICENSE
 download: https://apps.apple.com/us/app/flowdown-open-fast-ai/id6740553198
+freeDownload: true
 homebrew: "flowdown"
 featured: false
 added: '2026-10-17'

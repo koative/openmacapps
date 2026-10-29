@@ -10,6 +10,7 @@ sourceAvailability: "source-available"
 licenseNotes: "PolyForm Shield prohibits using the software to provide a competing product or service, including free competitors."
 licenseUrl: "https://github.com/sane-apps/SaneClick/blob/main/LICENSE"
 download: "https://github.com/sane-apps/SaneClick/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

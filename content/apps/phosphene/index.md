@@ -12,6 +12,7 @@ website: https://kagerou.glass/phosphene/
 license: "MIT"
 licenseUrl: https://github.com/kageroumado/phosphene/blob/main/LICENSE
 download: https://github.com/kageroumado/phosphene/releases
+freeDownload: true
 homebrew: "phosphene"
 featured: false
 added: '2026-10-17'

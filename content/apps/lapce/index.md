@@ -9,6 +9,7 @@ website: "https://lap.dev/lapce/"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/lapce/lapce/blob/master/LICENSE"
 download: "https://github.com/lapce/lapce/releases"
+freeDownload: true
 homebrew: "lapce"
 featured: false
 added: "2026-10-17"

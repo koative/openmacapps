@@ -11,6 +11,7 @@ website: https://tracesof.net/uebersicht/
 license: GPL-3.0-or-later
 licenseUrl: https://github.com/felixhageloh/uebersicht/blob/master/LICENSE
 download: https://tracesof.net/uebersicht/
+freeDownload: true
 homebrew: "ubersicht"
 featured: false
 added: 2026-10-17

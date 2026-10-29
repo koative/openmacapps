@@ -16,6 +16,7 @@ website: https://rawtherapee.com/
 license: GPL-3.0
 licenseUrl: https://github.com/RawTherapee/RawTherapee/blob/dev/LICENSE
 download: https://rawtherapee.com/downloads/
+freeDownload: true
 homebrew: "rawtherapee"
 featured: false
 added: 2026-10-17

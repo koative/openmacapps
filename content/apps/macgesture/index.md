@@ -11,6 +11,7 @@ website: https://github.com/MacGesture/MacGesture
 license: "GPL-3.0"
 licenseUrl: https://github.com/MacGesture/MacGesture/blob/develop/LICENSE
 download: https://github.com/MacGesture/MacGesture/releases
+freeDownload: true
 homebrew: "macgesture"
 featured: false
 added: '2026-10-17'

@@ -11,6 +11,7 @@ website: https://github.com/objective-see/OverSight
 license: GPL-3.0
 licenseUrl: https://github.com/objective-see/OverSight/blob/main/LICENSE.md
 download: https://github.com/objective-see/OverSight/releases
+freeDownload: true
 homebrew: "oversight"
 featured: false
 added: 2026-10-17

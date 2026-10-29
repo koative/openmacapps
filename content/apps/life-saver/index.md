@@ -10,6 +10,7 @@ website: https://github.com/amiantos/lifesaver
 license: "MPL-2.0"
 licenseUrl: https://github.com/amiantos/lifesaver/blob/master/LICENSE
 download: https://amiantos.s3.amazonaws.com/lifesaver-1.2.zip
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

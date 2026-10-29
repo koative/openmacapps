@@ -11,6 +11,7 @@ website: https://github.com/yefga/Switzy
 license: MIT
 licenseUrl: https://github.com/yefga/Switzy/blob/main/LICENSE
 download: https://github.com/yefga/Switzy/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -12,6 +12,7 @@ website: https://invesalius.github.io
 license: "GPL-2.0"
 licenseUrl: https://github.com/invesalius/invesalius3/blob/master/LICENSE.txt
 download: https://invesalius.github.io/download.html
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

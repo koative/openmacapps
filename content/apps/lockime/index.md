@@ -12,6 +12,7 @@ website: https://github.com/oomol-lab/LockIME
 license: GPL-3.0
 licenseUrl: https://github.com/oomol-lab/LockIME/blob/main/LICENSE
 download: https://github.com/oomol-lab/LockIME/releases
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

@@ -11,6 +11,7 @@ website: https://github.com/archagon/sensible-side-buttons
 license: GPL-2.0
 licenseUrl: https://github.com/archagon/sensible-side-buttons/blob/master/LICENSE
 download: https://github.com/archagon/sensible-side-buttons/releases
+freeDownload: true
 homebrew: "sensiblesidebuttons"
 featured: false
 added: 2026-10-17

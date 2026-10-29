@@ -12,6 +12,7 @@ website: https://openless.top
 license: "AGPL-3.0-only"
 licenseUrl: https://github.com/Open-Less/openless/blob/beta/LICENSE
 download: https://github.com/Open-Less/openless/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

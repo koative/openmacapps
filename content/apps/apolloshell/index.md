@@ -8,6 +8,7 @@ website: "https://silvertree2010.github.io/ApolloShell/"
 license: "MIT"
 licenseUrl: "https://github.com/Silvertree2010/ApolloShell/blob/main/LICENSE"
 download: "https://github.com/Silvertree2010/ApolloShell/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

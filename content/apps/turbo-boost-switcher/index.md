@@ -12,6 +12,7 @@ website: https://tbswitcher.rugarciap.com
 license: "GPL-2.0-or-later"
 licenseUrl: https://github.com/rugarciap/Turbo-Boost-Switcher/blob/master/LICENSE
 download: https://tbswitcher.rugarciap.com
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

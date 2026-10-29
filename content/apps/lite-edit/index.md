@@ -8,6 +8,7 @@ website: "https://arietan.github.io/lite-edit/"
 license: "MIT"
 licenseUrl: "https://github.com/arietan/lite-edit/blob/main/LICENSE"
 download: "https://github.com/arietan/lite-edit/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

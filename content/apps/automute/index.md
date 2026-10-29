@@ -11,6 +11,7 @@ website: https://github.com/yonilevy/automute
 license: "MIT"
 licenseUrl: https://github.com/yonilevy/automute/blob/master/LICENSE
 download: https://apps.apple.com/app/id1118136179
+freeDownload: false
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

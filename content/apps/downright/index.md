@@ -16,6 +16,7 @@ website: https://downright.cc
 license: "MIT"
 licenseUrl: https://github.com/ezzy1630/Downright/blob/main/LICENSE
 download: https://downright.cc/download/
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

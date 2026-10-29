@@ -12,6 +12,7 @@ website: https://vestaterm.github.io/vesta-site/
 license: MIT
 licenseUrl: https://github.com/vestaterm/Vesta/blob/main/LICENSE
 download: https://github.com/vestaterm/Vesta/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

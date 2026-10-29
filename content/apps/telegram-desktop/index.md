@@ -12,6 +12,7 @@ website: https://desktop.telegram.org
 license: GPL-3.0
 licenseUrl: https://github.com/telegramdesktop/tdesktop/blob/dev/LICENSE
 download: https://desktop.telegram.org
+freeDownload: true
 homebrew: "telegram-desktop"
 featured: false
 added: 2026-10-17

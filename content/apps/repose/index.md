@@ -12,6 +12,7 @@ website: "https://github.com/fikrikarim/repose"
 license: "MIT"
 licenseUrl: "https://github.com/fikrikarim/repose/blob/main/LICENSE"
 download: "https://github.com/fikrikarim/repose/releases"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

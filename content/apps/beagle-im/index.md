@@ -11,6 +11,7 @@ website: https://beagle.im
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/tigase/beagle-im/blob/master/LICENSE
 download: https://github.com/tigase/beagle-im/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -12,6 +12,7 @@ website: https://github.com/insidegui/AssetCatalogTinkerer
 license: "BSD-2-Clause"
 licenseUrl: https://github.com/insidegui/AssetCatalogTinkerer/blob/main/LICENSE
 download: https://github.com/insidegui/AssetCatalogTinkerer/releases
+freeDownload: true
 homebrew: "asset-catalog-tinkerer"
 featured: false
 added: '2026-10-17'

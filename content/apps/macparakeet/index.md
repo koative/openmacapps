@@ -13,6 +13,7 @@ website: https://macparakeet.com
 license: "GPL-3.0"
 licenseUrl: https://github.com/moona3k/macparakeet/blob/main/LICENSE
 download: https://github.com/moona3k/macparakeet/releases
+freeDownload: true
 homebrew: "macparakeet"
 featured: false
 added: '2026-10-17'

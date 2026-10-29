@@ -12,6 +12,7 @@ website: https://github.com/shaojiankui/ProfilesManager
 license: "MIT"
 licenseUrl: https://github.com/shaojiankui/ProfilesManager/blob/master/LICENSE
 download: https://github.com/shaojiankui/ProfilesManager/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

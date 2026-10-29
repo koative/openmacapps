@@ -10,6 +10,7 @@ website: https://stockfishchess.org/mac/
 license: "GPL-3.0"
 licenseUrl: https://github.com/daylen/stockfish-mac/blob/master/license.txt
 download: https://apps.apple.com/us/app/stockfish-chess/id801463932?mt=12
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

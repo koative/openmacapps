@@ -8,6 +8,7 @@ website: "https://supercollider.github.io/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/supercollider/supercollider/blob/develop/COPYING"
 download: "https://github.com/supercollider/supercollider/releases"
+freeDownload: true
 homebrew: "supercollider"
 featured: false
 added: "2026-10-17"

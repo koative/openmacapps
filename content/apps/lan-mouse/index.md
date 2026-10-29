@@ -12,6 +12,7 @@ website: https://github.com/feschber/lan-mouse
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/feschber/lan-mouse/blob/main/LICENSE
 download: https://github.com/feschber/lan-mouse/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

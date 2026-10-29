@@ -11,6 +11,7 @@ website: https://notchprompt.vercel.app
 license: MIT
 licenseUrl: https://github.com/saif0200/notchprompt/blob/main/LICENSE
 download: https://github.com/saif0200/notchprompt/releases
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

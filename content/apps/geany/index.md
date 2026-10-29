@@ -9,6 +9,7 @@ website: "https://www.geany.org"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/geany/geany/blob/master/COPYING"
 download: "https://www.geany.org/download/releases"
+freeDownload: true
 homebrew: "geany"
 featured: false
 added: "2026-10-17"

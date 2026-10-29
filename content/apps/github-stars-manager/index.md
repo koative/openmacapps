@@ -12,6 +12,7 @@ website: https://gsm.aminta.top
 license: "MIT"
 licenseUrl: https://github.com/AmintaCCCP/GithubStarsManager/blob/main/LICENSE
 download: https://github.com/AmintaCCCP/GithubStarsManager/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

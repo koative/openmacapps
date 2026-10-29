@@ -14,6 +14,7 @@ website: https://folo.is
 license: "AGPL-3.0"
 licenseUrl: https://github.com/RSSNext/Folo/blob/dev/LICENSE
 download: https://folo.is/download
+freeDownload: true
 homebrew: "folo"
 featured: false
 added: '2026-10-17'

@@ -8,6 +8,7 @@ website: "https://tunnelblick.net"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/Tunnelblick/Tunnelblick/blob/main/COPYING"
 download: "https://tunnelblick.net/downloads.html"
+freeDownload: true
 homebrew: "tunnelblick"
 featured: false
 added: "2026-10-17"

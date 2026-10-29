@@ -11,6 +11,7 @@ website: https://interversehq.com/qview/
 license: "GPL-3.0"
 licenseUrl: https://github.com/jurplel/qView/blob/main/LICENSE
 download: https://github.com/jurplel/qView/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

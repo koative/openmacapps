@@ -9,6 +9,7 @@ website: "https://librecad.org/"
 license: "GPL-2.0-only"
 licenseUrl: "https://github.com/LibreCAD/LibreCAD/blob/master/LICENSE"
 download: "https://github.com/LibreCAD/LibreCAD/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

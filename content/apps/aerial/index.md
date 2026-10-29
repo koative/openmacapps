@@ -11,6 +11,7 @@ website: "https://aerialscreensaver.github.io"
 license: "MIT"
 licenseUrl: "https://github.com/AerialScreensaver/Aerial/blob/main/LICENSE"
 download: "https://github.com/AerialScreensaver/Aerial/releases"
+freeDownload: true
 homebrew: "aerial"
 featured: false
 added: '2026-10-17'

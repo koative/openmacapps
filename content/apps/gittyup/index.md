@@ -9,6 +9,7 @@ website: "https://murmele.github.io/Gittyup"
 license: "MIT"
 licenseUrl: "https://github.com/Murmele/Gittyup/blob/master/LICENSE.md"
 download: "https://github.com/Murmele/Gittyup/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

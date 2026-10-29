@@ -11,6 +11,7 @@ website: https://runnersh.dev
 license: "MIT"
 licenseUrl: https://github.com/yicheng47/runner/blob/main/LICENSE
 download: https://github.com/yicheng47/runner/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

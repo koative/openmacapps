@@ -14,6 +14,7 @@ website: https://www.warp.dev
 license: AGPL-3.0-only AND MIT
 licenseUrl: https://github.com/warpdotdev/warp/blob/master/LICENSE-AGPL
 download: https://www.warp.dev/download
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

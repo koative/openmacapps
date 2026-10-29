@@ -12,6 +12,7 @@ website: https://github.com/Brkgng/ScrollSnap
 license: "MIT"
 licenseUrl: https://github.com/Brkgng/ScrollSnap/blob/main/LICENSE
 download: https://github.com/Brkgng/ScrollSnap/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -12,6 +12,7 @@ website: https://itsyhome.app
 license: MIT
 licenseUrl: https://github.com/nickustinov/itsyhome-macos/blob/main/LICENSE
 download: https://apps.apple.com/app/itsyhome/id6758070650
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

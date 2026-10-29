@@ -11,11 +11,15 @@ tags:
   - terminal-emulator
 alternativeTo:
   - termius
+  - putty
+  - mobaxterm
+  - winscp
 repository: "https://github.com/electerm/electerm"
 website: "https://electerm.org"
 license: "MIT"
 licenseUrl: "https://github.com/electerm/electerm/blob/master/LICENSE"
 download: "https://github.com/electerm/electerm/releases"
+freeDownload: true
 homebrew: "electerm"
 featured: false
 added: '2026-10-17'

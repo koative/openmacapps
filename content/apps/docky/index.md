@@ -13,6 +13,7 @@ website: https://getdocky.com
 license: "GPL-3.0"
 licenseUrl: https://github.com/josejuanqm/docky/blob/main/LICENSE
 download: https://getdocky.com
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

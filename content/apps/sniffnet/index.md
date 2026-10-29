@@ -13,6 +13,7 @@ website: https://sniffnet.app
 license: MIT OR Apache-2.0
 licenseUrl: https://github.com/GyulyVGC/sniffnet/blob/main/LICENSE-MIT
 download: https://github.com/GyulyVGC/sniffnet/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

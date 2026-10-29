@@ -14,6 +14,7 @@ website: https://github.com/IvyGain/Pasty/releases
 license: MIT
 licenseUrl: https://github.com/IvyGain/Pasty/blob/main/LICENSE
 download: https://github.com/IvyGain/Pasty/releases
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

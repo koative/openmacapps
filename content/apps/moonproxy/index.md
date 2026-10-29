@@ -11,6 +11,7 @@ website: https://moonproxy.app
 license: "MIT"
 licenseUrl: https://github.com/MoonProxyHQ/moonproxy-desktop/blob/main/LICENSE
 download: https://github.com/MoonProxyHQ/moonproxy-desktop/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

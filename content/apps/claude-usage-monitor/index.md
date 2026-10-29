@@ -10,6 +10,7 @@ website: https://github.com/theDanButuc/Claude-Usage-Monitor
 license: "MIT"
 licenseUrl: https://github.com/theDanButuc/Claude-Usage-Monitor/blob/v2.2.1/LICENSE
 download: https://github.com/theDanButuc/Claude-Usage-Monitor/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

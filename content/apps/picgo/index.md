@@ -8,6 +8,7 @@ website: "https://picgo.app"
 license: "MIT"
 licenseUrl: "https://github.com/Molunerfinn/PicGo/blob/dev/LICENSE"
 download: "https://github.com/Molunerfinn/PicGo/releases"
+freeDownload: true
 homebrew: "picgo"
 featured: false
 added: "2026-10-17"

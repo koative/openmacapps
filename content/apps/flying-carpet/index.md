@@ -12,6 +12,7 @@ website: https://github.com/spieglt/FlyingCarpet
 license: "GPL-3.0"
 licenseUrl: https://github.com/spieglt/FlyingCarpet/blob/main/LICENSE.txt
 download: https://github.com/spieglt/FlyingCarpet/releases
+freeDownload: true
 homebrew: "flying-carpet"
 featured: false
 added: '2026-10-17'

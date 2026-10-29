@@ -11,6 +11,7 @@ website: https://swiftbar.app
 license: MIT
 licenseUrl: https://github.com/swiftbar/SwiftBar/blob/main/LICENSE
 download: https://github.com/swiftbar/SwiftBar/releases
+freeDownload: true
 homebrew: "swiftbar"
 featured: false
 added: 2026-10-17

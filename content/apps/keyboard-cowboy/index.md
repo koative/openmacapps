@@ -8,11 +8,13 @@ tags:
   - workflows
 alternativeTo:
   - keyboard-maestro
+  - autohotkey
 repository: https://github.com/zenangst/KeyboardCowboy
 website: https://github.com/zenangst/KeyboardCowboy
 license: MIT
 licenseUrl: https://github.com/zenangst/KeyboardCowboy/blob/main/LICENSE.md
 download: https://github.com/zenangst/KeyboardCowboy/releases
+freeDownload: true
 homebrew: "keyboard-cowboy"
 featured: false
 added: 2026-10-17

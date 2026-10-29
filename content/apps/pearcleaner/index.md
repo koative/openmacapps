@@ -19,6 +19,7 @@ licenseNotes: Pearcleaner adds Commons Clause to Apache 2.0. Its license
   terms mean it is source available rather than open source.
 licenseUrl: https://github.com/alienator88/Pearcleaner/blob/main/LICENSE.md
 download: https://github.com/alienator88/Pearcleaner/releases
+freeDownload: true
 homebrew: "pearcleaner"
 icon: ./assets/icon.png
 sources:

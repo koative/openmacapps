@@ -12,6 +12,7 @@ website: https://www.kiwix.org
 license: GPL-3.0-or-later
 licenseUrl: https://github.com/kiwix/kiwix-apple/blob/main/LICENSE
 download: https://apps.apple.com/us/app/kiwix/id997079563
+freeDownload: true
 homebrew: "kiwix"
 featured: false
 added: '2026-10-17'

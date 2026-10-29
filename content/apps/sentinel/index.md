@@ -14,6 +14,7 @@ sourceAvailability: source-available
 licenseNotes: "Sentinel's license combines Apache 2.0 with the Commons Clause, which withholds the right to sell the software, including hosting or support services whose value comes substantially from it. That restriction makes it source available rather than open source."
 licenseUrl: https://github.com/alienator88/Sentinel/blob/main/LICENSE.md
 download: https://github.com/alienator88/Sentinel/releases
+freeDownload: true
 homebrew: "alienator88-sentinel"
 featured: false
 added: '2026-10-17'

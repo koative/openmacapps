@@ -8,6 +8,7 @@ website: "https://cryptomator.org"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/cryptomator/cryptomator/blob/develop/LICENSE.txt"
 download: "https://cryptomator.org/downloads"
+freeDownload: true
 homebrew: "cryptomator"
 featured: false
 added: "2026-10-17"

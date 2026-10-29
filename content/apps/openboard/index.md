@@ -12,6 +12,7 @@ website: https://openboard.ch/
 license: GPL-3.0
 licenseUrl: https://github.com/OpenBoard-org/OpenBoard/blob/master/LICENSE
 download: https://github.com/OpenBoard-org/OpenBoard/releases
+freeDownload: true
 homebrew: "openboard"
 featured: false
 added: 2026-10-17

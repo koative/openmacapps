@@ -8,6 +8,7 @@ website: "https://github.com/alishansnsn/mysa"
 license: "MIT"
 licenseUrl: "https://github.com/alishansnsn/mysa/blob/main/LICENSE"
 download: "https://github.com/alishansnsn/mysa/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

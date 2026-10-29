@@ -8,6 +8,7 @@ website: "https://www.minisim.app"
 license: "MIT"
 licenseUrl: "https://github.com/okwasniewski/MiniSim/blob/main/LICENSE"
 download: "https://github.com/okwasniewski/MiniSim/releases"
+freeDownload: true
 homebrew: "minisim"
 featured: false
 added: "2026-10-17"

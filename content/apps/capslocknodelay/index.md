@@ -11,6 +11,7 @@ website: https://github.com/gkpln3/CapsLockNoDelay
 license: MIT
 licenseUrl: https://github.com/gkpln3/CapsLockNoDelay/blob/main/LICENSE
 download: https://github.com/gkpln3/CapsLockNoDelay/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -8,6 +8,7 @@ website: "https://tty7.io"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/l0ng-ai/tty7/blob/main/LICENSE"
 download: "https://github.com/l0ng-ai/tty7/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

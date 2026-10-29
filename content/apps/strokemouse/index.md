@@ -13,6 +13,7 @@ website: https://strokemouse.com
 license: AGPL-3.0
 licenseUrl: https://github.com/Licoy/StrokeMouse/blob/main/LICENSE
 download: https://strokemouse.com/en/download
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

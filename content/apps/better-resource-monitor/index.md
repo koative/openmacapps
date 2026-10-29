@@ -14,6 +14,7 @@ website: https://better-resource-monitor.alexpedersen.dev/
 license: "MIT"
 licenseUrl: https://github.com/alexx855/better-resource-monitor/blob/main/LICENSE
 download: https://github.com/alexx855/better-resource-monitor/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

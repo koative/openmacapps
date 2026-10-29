@@ -13,6 +13,7 @@ website: https://farol.sh
 license: "MIT"
 licenseUrl: https://github.com/snowztech/farol/blob/main/LICENSE
 download: https://github.com/snowztech/farol/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

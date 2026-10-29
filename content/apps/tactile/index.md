@@ -12,6 +12,7 @@ website: https://tactile.masn.studio
 license: MIT
 licenseUrl: https://github.com/Mason363/Tactile/blob/main/LICENSE
 download: https://github.com/Mason363/Tactile/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

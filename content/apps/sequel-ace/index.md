@@ -8,6 +8,7 @@ website: "https://sequel-ace.com"
 license: "MIT"
 licenseUrl: "https://github.com/Sequel-Ace/Sequel-Ace/blob/main/LICENSE"
 download: "https://github.com/Sequel-Ace/Sequel-Ace/releases"
+freeDownload: true
 homebrew: "sequel-ace"
 featured: false
 added: "2026-10-17"

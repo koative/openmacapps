@@ -11,6 +11,7 @@ website: https://subler.org/
 license: GPL-2.0
 licenseUrl: https://github.com/SublerApp/Subler/blob/main/LICENSE
 download: https://github.com/SublerApp/Subler/releases
+freeDownload: true
 homebrew: "subler"
 featured: false
 added: '2026-10-17'

@@ -11,6 +11,7 @@ website: https://sindresorhus.com/gifski
 license: MIT
 licenseUrl: https://github.com/sindresorhus/Gifski/blob/main/license
 download: https://apps.apple.com/app/id1351639930
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

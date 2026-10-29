@@ -12,6 +12,7 @@ website: https://aqua5230.github.io/usage/
 license: "AGPL-3.0"
 licenseUrl: https://github.com/aqua5230/usage/blob/main/LICENSE
 download: https://github.com/aqua5230/usage/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

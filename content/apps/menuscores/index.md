@@ -11,6 +11,7 @@ website: https://menuscores.vercel.app
 license: 'GPL-3.0'
 licenseUrl: https://github.com/daniyalmaster693/MenuScores/blob/main/LICENSE
 download: https://github.com/daniyalmaster693/MenuScores/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

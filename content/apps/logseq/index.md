@@ -9,6 +9,7 @@ website: "https://logseq.com/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/logseq/logseq/blob/master/LICENSE.md"
 download: "https://github.com/logseq/logseq/releases"
+freeDownload: true
 homebrew: "logseq"
 featured: false
 added: "2026-10-17"

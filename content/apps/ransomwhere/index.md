@@ -11,6 +11,7 @@ website: https://github.com/objective-see/RansomWhere
 license: GPL-3.0
 licenseUrl: https://github.com/objective-see/RansomWhere/blob/main/LICENSE.md
 download: https://github.com/objective-see/RansomWhere/releases
+freeDownload: true
 homebrew: "ransomwhere"
 featured: false
 added: 2026-10-17

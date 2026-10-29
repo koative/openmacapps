@@ -18,6 +18,7 @@ website: https://shotnix.com
 license: "MIT"
 licenseUrl: https://github.com/OMARVII/Shotnix/blob/main/LICENSE
 download: https://github.com/OMARVII/Shotnix/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

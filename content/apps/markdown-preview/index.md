@@ -11,6 +11,7 @@ website: https://markdownpreview.app
 license: MIT
 licenseUrl: https://github.com/pluk-inc/markdown-preview/blob/main/LICENSE
 download: https://github.com/pluk-inc/markdown-preview/releases
+freeDownload: true
 homebrew: "markdown-preview"
 featured: false
 added: '2026-10-17'

@@ -11,6 +11,7 @@ website: https://wifi-lens.shiinalabs.com
 license: 'Apache-2.0'
 licenseUrl: https://github.com/ShiinaLabs/wifi-lens/blob/master/LICENSE
 download: https://github.com/ShiinaLabs/wifi-lens/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -12,6 +12,7 @@ website: https://github.com/TadelUnso/mole-widget
 license: "MIT"
 licenseUrl: https://github.com/TadelUnso/mole-widget/blob/main/LICENSE
 download: https://github.com/TadelUnso/mole-widget/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

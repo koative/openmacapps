@@ -13,6 +13,7 @@ website: https://breaktimer.app
 license: "GPL-3.0"
 licenseUrl: https://github.com/tom-james-watson/breaktimer-app/blob/master/LICENSE.md
 download: https://github.com/tom-james-watson/breaktimer-app/releases
+freeDownload: true
 homebrew: "breaktimer"
 featured: false
 added: '2026-10-17'

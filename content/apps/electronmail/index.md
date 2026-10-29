@@ -8,6 +8,7 @@ website: "https://github.com/vladimiry/ElectronMail"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/vladimiry/ElectronMail/blob/master/LICENSE"
 download: "https://github.com/vladimiry/ElectronMail/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

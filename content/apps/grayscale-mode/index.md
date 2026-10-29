@@ -8,6 +8,7 @@ website: "https://github.com/rkbhochalya/grayscale-mode"
 license: "MIT"
 licenseUrl: "https://github.com/rkbhochalya/grayscale-mode/blob/master/LICENSE"
 download: "https://github.com/rkbhochalya/grayscale-mode/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

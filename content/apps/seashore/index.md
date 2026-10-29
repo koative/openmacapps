@@ -12,11 +12,14 @@ alternativeTo:
   - photoshop
   - pixelmator-pro
   - photoshop-elements
+  - paint-net
+  - microsoft-paint
 repository: https://github.com/robaho/seashore
 website: https://github.com/robaho/seashore
 license: "GPL-2.0"
 licenseUrl: https://github.com/robaho/seashore/blob/master/LICENSE
 download: https://apps.apple.com/us/app/seashore/id1448648921?mt=12
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

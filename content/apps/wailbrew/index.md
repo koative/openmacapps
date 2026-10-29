@@ -11,6 +11,7 @@ website: https://wailbrew.app
 license: "MIT"
 licenseUrl: https://github.com/wickenico/WailBrew/blob/main/LICENSE
 download: https://formulae.brew.sh/cask/wailbrew
+freeDownload: true
 homebrew: "wailbrew"
 featured: false
 added: '2026-10-17'

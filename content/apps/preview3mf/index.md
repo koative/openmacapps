@@ -12,6 +12,7 @@ website: https://cavoco.github.io/Preview3MF/
 license: "MIT"
 licenseUrl: https://github.com/cavoco/Preview3MF/blob/main/LICENSE
 download: https://github.com/cavoco/Preview3MF/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

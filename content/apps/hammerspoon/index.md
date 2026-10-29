@@ -8,11 +8,13 @@ tags:
   - keyboard-shortcuts
 alternativeTo:
   - keyboard-maestro
+  - autohotkey
 repository: https://github.com/Hammerspoon/hammerspoon
 website: https://github.com/Hammerspoon/hammerspoon
 license: MIT
 licenseUrl: https://github.com/Hammerspoon/hammerspoon/blob/master/LICENSE
 download: https://github.com/Hammerspoon/hammerspoon/releases
+freeDownload: true
 homebrew: "hammerspoon"
 featured: false
 added: 2026-10-17

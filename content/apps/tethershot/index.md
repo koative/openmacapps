@@ -12,6 +12,7 @@ website: https://tethershot.apoorvdarshan.com
 license: MIT
 licenseUrl: https://github.com/apoorvdarshan/TetherShot/blob/main/LICENSE
 download: https://github.com/apoorvdarshan/TetherShot/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

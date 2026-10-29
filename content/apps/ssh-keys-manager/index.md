@@ -8,6 +8,7 @@ website: "https://github.com/Stmol/ssh-keys-manager-macos-app"
 license: "MIT"
 licenseUrl: "https://github.com/Stmol/ssh-keys-manager-macos-app/blob/master/LICENSE"
 download: "https://github.com/Stmol/ssh-keys-manager-macos-app/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

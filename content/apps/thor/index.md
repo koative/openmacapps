@@ -11,6 +11,7 @@ website: https://github.com/gbammc/Thor
 license: "MIT"
 licenseUrl: https://github.com/gbammc/Thor/blob/master/LICENSE
 download: https://github.com/gbammc/Thor/releases/latest
+freeDownload: true
 homebrew: "thor"
 featured: false
 added: '2026-10-17'

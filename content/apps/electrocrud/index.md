@@ -12,6 +12,7 @@ website: https://garrylachman.github.io/ElectroCRUD/
 license: MIT
 licenseUrl: https://github.com/garrylachman/ElectroCRUD/blob/master/LICENSE
 download: https://github.com/garrylachman/ElectroCRUD/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

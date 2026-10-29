@@ -10,6 +10,7 @@ website: https://www.64characters.com/telephone/
 license: "GPL-3.0"
 licenseUrl: https://github.com/64characters/Telephone/blob/master/LICENSE
 download: https://apps.apple.com/us/app/telephone/id406825478
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

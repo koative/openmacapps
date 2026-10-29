@@ -11,6 +11,7 @@ website: https://github.com/zqqf16/SYM
 license: "MIT"
 licenseUrl: https://github.com/zqqf16/SYM/blob/master/LICENSE
 download: https://github.com/zqqf16/SYM/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

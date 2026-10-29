@@ -12,6 +12,7 @@ website: https://github.com/KnuffApp/Knuff
 license: MIT
 licenseUrl: https://github.com/KnuffApp/Knuff/blob/master/LICENSE
 download: https://github.com/KnuffApp/Knuff/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

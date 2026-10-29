@@ -8,6 +8,7 @@ website: "https://sindresorhus.com/pasteboard-viewer"
 license: "MIT"
 licenseUrl: "https://github.com/sindresorhus/Pasteboard-Viewer/blob/main/license"
 download: "https://apps.apple.com/app/id1499215709"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

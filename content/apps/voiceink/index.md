@@ -8,6 +8,7 @@ website: "https://tryvoiceink.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Beingpax/VoiceInk/blob/main/LICENSE"
 download: "https://github.com/Beingpax/VoiceInk/releases"
+freeDownload: true
 homebrew: "voiceink"
 featured: false
 added: "2026-10-17"

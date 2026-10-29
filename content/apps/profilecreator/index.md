@@ -11,6 +11,7 @@ website: https://github.com/ProfileCreator/ProfileCreator
 license: "MIT"
 licenseUrl: https://github.com/ProfileCreator/ProfileCreator/blob/master/LICENSE
 download: https://github.com/ProfileCreator/ProfileCreator/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

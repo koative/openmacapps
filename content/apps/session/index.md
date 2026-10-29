@@ -8,6 +8,7 @@ website: "https://getsession.org"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/session-foundation/session-desktop/blob/dev/LICENSE"
 download: "https://getsession.org/download"
+freeDownload: true
 homebrew: "session"
 featured: false
 added: "2026-10-17"

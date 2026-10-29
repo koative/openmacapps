@@ -11,6 +11,7 @@ website: https://hotkeyclash.com
 license: GPL-2.0
 licenseUrl: https://github.com/Wunderlandmedia/HotkeyClash/blob/main/LICENSE
 download: https://github.com/Wunderlandmedia/HotkeyClash/releases
+freeDownload: true
 homebrew: "hotkeyclash"
 featured: false
 added: 2026-10-17

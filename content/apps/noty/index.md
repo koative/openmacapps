@@ -13,6 +13,7 @@ website: https://noty-sepia.vercel.app
 license: "MIT"
 licenseUrl: https://github.com/aimen08/noty/blob/main/LICENSE
 download: https://github.com/aimen08/noty/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

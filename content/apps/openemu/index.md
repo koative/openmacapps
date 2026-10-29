@@ -8,6 +8,7 @@ website: "https://openemu.org"
 license: "BSD-3-Clause"
 licenseUrl: "https://github.com/OpenEmu/OpenEmu/blob/master/OpenEmu/OpenEmuApplication.swift"
 download: "https://openemu.org"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

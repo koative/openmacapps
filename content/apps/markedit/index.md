@@ -9,6 +9,7 @@ website: "https://github.com/MarkEdit-app/MarkEdit"
 license: "MIT"
 licenseUrl: "https://github.com/MarkEdit-app/MarkEdit/blob/main/LICENSE"
 download: "https://github.com/MarkEdit-app/MarkEdit/releases"
+freeDownload: true
 homebrew: "markedit"
 featured: false
 added: "2026-10-17"

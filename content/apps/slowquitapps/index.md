@@ -8,6 +8,7 @@ website: "https://github.com/dteoh/SlowQuitApps"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/dteoh/SlowQuitApps/blob/master/LICENSE"
 download: "https://github.com/dteoh/SlowQuitApps/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

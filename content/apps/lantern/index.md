@@ -8,6 +8,7 @@ website: "https://lantern.io"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/getlantern/lantern/blob/main/LICENSE"
 download: "https://github.com/getlantern/lantern/releases"
+freeDownload: true
 homebrew: "lantern"
 featured: false
 added: "2026-10-17"

@@ -13,6 +13,7 @@ website: https://github.com/qier222/YesPlayMusic
 license: MIT
 licenseUrl: https://github.com/qier222/YesPlayMusic/blob/master/LICENSE
 download: https://github.com/qier222/YesPlayMusic/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

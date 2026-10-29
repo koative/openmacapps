@@ -11,6 +11,7 @@ website: https://meetingbar.app
 license: Apache-2.0
 licenseUrl: https://github.com/leits/MeetingBar/blob/master/LICENSE
 download: https://github.com/leits/MeetingBar/releases
+freeDownload: true
 homebrew: "meetingbar"
 featured: false
 added: 2026-10-17

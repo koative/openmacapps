@@ -11,6 +11,7 @@ website: https://opendisplay.app/
 license: "GPL-3.0"
 licenseUrl: https://github.com/peetzweg/opendisplay/blob/main/LICENSE
 download: https://github.com/peetzweg/opendisplay/releases
+freeDownload: true
 homebrew: "opendisplay"
 featured: false
 added: '2026-10-17'

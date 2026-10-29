@@ -12,6 +12,7 @@ website: https://getgantry.github.io/
 license: "MIT"
 licenseUrl: https://github.com/getgantry/gantry/blob/main/LICENSE
 download: https://github.com/getgantry/gantry/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -15,6 +15,7 @@ website: https://krita.org/
 license: GPL-3.0
 licenseUrl: https://github.com/KDE/krita/blob/master/COPYING
 download: https://krita.org/en/download/
+freeDownload: true
 homebrew: "krita"
 featured: false
 added: 2026-10-17

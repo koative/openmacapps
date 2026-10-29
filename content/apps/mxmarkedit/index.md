@@ -13,6 +13,7 @@ website: https://github.com/maxnd/mxMarkEdit
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/maxnd/mxMarkEdit/blob/main/LICENSE
 download: https://github.com/maxnd/mxMarkEdit/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

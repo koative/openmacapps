@@ -11,6 +11,7 @@ website: https://opensurge.pages.dev
 license: GPL-3.0-only
 licenseUrl: https://github.com/YTwsy/OpenSurge-for-Mac/blob/master/LICENSE
 download: https://github.com/YTwsy/OpenSurge-for-Mac/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

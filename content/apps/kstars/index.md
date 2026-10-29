@@ -8,6 +8,7 @@ website: "https://kstars.kde.org/"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/KDE/kstars/blob/master/LICENSES/GPL-2.0-or-later.txt"
 download: "https://kstars.kde.org/download/macos/"
+freeDownload: true
 homebrew: "kstars"
 featured: false
 added: "2026-10-17"

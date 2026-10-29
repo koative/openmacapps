@@ -8,6 +8,7 @@ website: "https://localsend.org"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/localsend/localsend/blob/main/LICENSE"
 download: "https://github.com/localsend/localsend/releases"
+freeDownload: true
 homebrew: "localsend"
 featured: true
 added: "2026-10-17"

@@ -12,6 +12,7 @@ website: https://ariso.ai/oats
 license: "MIT"
 licenseUrl: https://github.com/ariso-ai/oats/blob/main/LICENSE
 download: https://ariso.ai/oats
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

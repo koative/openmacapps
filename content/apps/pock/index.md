@@ -13,6 +13,7 @@ website: https://pock.app
 license: MIT
 licenseUrl: https://github.com/pock/pock/blob/main/LICENSE.md
 download: https://pock.app
+freeDownload: true
 homebrew: "pock"
 featured: false
 added: '2026-10-17'

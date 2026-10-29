@@ -13,6 +13,7 @@ website: https://www.vienna-rss.com
 license: "Apache-2.0"
 licenseUrl: https://github.com/ViennaRSS/vienna-rss/blob/master/LICENCE.md
 download: https://github.com/ViennaRSS/vienna-rss/releases
+freeDownload: true
 homebrew: "vienna"
 featured: false
 added: '2026-10-17'

@@ -11,6 +11,7 @@ website: "https://fader.pantafive.dev"
 license: "MIT"
 licenseUrl: "https://github.com/pantafive/fader/blob/main/LICENSE"
 download: "https://github.com/pantafive/fader/releases"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

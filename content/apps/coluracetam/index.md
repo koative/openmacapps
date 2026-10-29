@@ -12,6 +12,7 @@ website: https://kagerou.glass/coluracetam/
 license: "MIT"
 licenseUrl: https://github.com/kageroumado/coluracetam/blob/main/LICENSE
 download: https://github.com/kageroumado/coluracetam/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

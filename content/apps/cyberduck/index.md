@@ -6,11 +6,14 @@ tags:
   - file-transfer
   - cloud
   - sftp
+alternativeTo:
+  - winscp
 repository: https://github.com/iterate-ch/cyberduck
 website: https://cyberduck.io
 license: GPL-3.0
 licenseUrl: https://github.com/iterate-ch/cyberduck/blob/master/LICENSE.txt
 download: https://github.com/iterate-ch/cyberduck/releases
+freeDownload: true
 homebrew: "cyberduck"
 featured: false
 added: 2026-10-17

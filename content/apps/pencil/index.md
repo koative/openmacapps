@@ -11,6 +11,7 @@ website: https://pencil.evolus.vn/
 license: GPL-2.0
 licenseUrl: https://github.com/evolus/pencil/blob/master/LICENSE.md
 download: https://pencil.evolus.vn/Downloads.html
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

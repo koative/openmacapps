@@ -10,6 +10,7 @@ website: https://github.com/lostjared/Acid.Cam.v2.OSX
 license: "BSD-2-Clause"
 licenseUrl: https://github.com/lostjared/Acid.Cam.v2.OSX/blob/master/LICENSE
 download: https://github.com/lostjared/Acid.Cam.v2.OSX/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -24,6 +24,7 @@ website: "https://github.com/stargatedaw/stargate"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/stargatedaw/stargate/blob/main/LICENSE"
 download: "https://github.com/stargatedaw/stargate/releases"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

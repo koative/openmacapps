@@ -13,6 +13,7 @@ website: https://github.com/Marginal/QuickLookVideo
 license: "GPL-2.0-or-later"
 licenseUrl: https://github.com/Marginal/QuickLookVideo/blob/master/LICENSE.txt
 download: https://github.com/Marginal/QuickLookVideo/releases
+freeDownload: true
 homebrew: "quicklook-video"
 featured: false
 added: '2026-10-17'

@@ -12,6 +12,7 @@ website: https://kando.menu
 license: MIT
 licenseUrl: https://github.com/kando-menu/kando/blob/main/LICENSE.md
 download: https://github.com/kando-menu/kando/releases
+freeDownload: true
 homebrew: "kando"
 featured: false
 added: '2026-10-17'

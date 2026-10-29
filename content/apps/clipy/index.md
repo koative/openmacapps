@@ -14,6 +14,7 @@ website: https://clipy-app.com
 license: MIT
 licenseUrl: https://github.com/Clipy/Clipy/blob/develop/LICENSE
 download: https://github.com/Clipy/Clipy/releases
+freeDownload: true
 homebrew: "clipy"
 featured: false
 added: 2026-10-17

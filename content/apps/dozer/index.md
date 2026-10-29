@@ -12,6 +12,7 @@ website: https://github.com/Mortennn/Dozer
 license: MPL-2.0
 licenseUrl: https://github.com/Mortennn/Dozer/blob/master/LICENSE
 download: https://github.com/Mortennn/Dozer/releases
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

@@ -12,6 +12,7 @@ website: https://starcat.ink
 license: "MIT"
 licenseUrl: https://github.com/starcat-app/Starcat/blob/main/LICENSE
 download: https://apps.apple.com/app/starcat-for-github/id6788809803
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

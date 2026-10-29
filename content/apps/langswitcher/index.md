@@ -12,6 +12,7 @@ website: "https://reg2005.github.io/langSwitcher/"
 license: "MIT"
 licenseUrl: "https://github.com/reg2005/langSwitcher/blob/main/LICENSE"
 download: "https://github.com/reg2005/langSwitcher/releases"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

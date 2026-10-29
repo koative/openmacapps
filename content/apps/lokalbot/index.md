@@ -14,6 +14,7 @@ website: https://www.lokalbot.com
 license: "GPL-3.0"
 licenseUrl: https://github.com/stevyhacker/LokalBot/blob/master/LICENSE
 download: https://github.com/stevyhacker/LokalBot/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

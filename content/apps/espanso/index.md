@@ -14,6 +14,7 @@ website: https://espanso.org
 license: "GPL-3.0"
 licenseUrl: https://github.com/espanso/espanso/blob/dev/LICENSE
 download: https://espanso.org/install/
+freeDownload: true
 homebrew: "espanso"
 featured: false
 added: '2026-10-17'

@@ -14,6 +14,7 @@ website: https://www.squirreldisk.com
 license: "AGPL-3.0"
 licenseUrl: https://github.com/adileo/squirreldisk/blob/main/LICENSE
 download: https://github.com/adileo/squirreldisk/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

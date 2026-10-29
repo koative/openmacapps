@@ -11,6 +11,7 @@ website: https://bettercmdtab.app
 license: GPL-3.0
 licenseUrl: https://github.com/rokartur/BetterCmdTab/blob/main/LICENSE
 download: https://github.com/rokartur/BetterCmdTab/releases
+freeDownload: true
 homebrew: "bettercmdtab"
 featured: false
 added: 2026-10-17

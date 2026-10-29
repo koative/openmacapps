@@ -9,6 +9,7 @@ website: "https://www.recordly.dev"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/webadderallorg/Recordly/blob/main/LICENSE.md"
 download: "https://github.com/webadderallorg/Recordly/releases"
+freeDownload: true
 homebrew: "recordly"
 featured: false
 added: "2026-10-17"

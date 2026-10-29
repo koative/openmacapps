@@ -11,6 +11,7 @@ website: https://getatoll.app
 license: GPL-3.0
 licenseUrl: https://github.com/Ebullioscopic/Atoll/blob/dev/LICENSE
 download: https://github.com/Ebullioscopic/Atoll/releases
+freeDownload: true
 homebrew: "atoll"
 featured: false
 added: 2026-10-17

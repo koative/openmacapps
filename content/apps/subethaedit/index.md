@@ -8,6 +8,7 @@ website: "https://subethaedit.net"
 license: "MIT"
 licenseUrl: "https://github.com/subethaedit/SubEthaEdit/blob/develop/LICENSE.txt"
 download: "https://github.com/subethaedit/SubEthaEdit/releases"
+freeDownload: true
 homebrew: "subethaedit"
 featured: false
 added: "2026-10-17"

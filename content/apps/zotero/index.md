@@ -12,6 +12,7 @@ website: https://www.zotero.org/
 license: AGPL-3.0-only
 licenseUrl: https://github.com/zotero/zotero/blob/main/COPYING
 download: https://www.zotero.org/download/
+freeDownload: true
 homebrew: "zotero"
 featured: false
 added: 2026-10-17

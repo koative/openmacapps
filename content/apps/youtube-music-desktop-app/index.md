@@ -13,6 +13,7 @@ website: https://ytmdesktop.github.io
 license: GPL-3.0
 licenseUrl: https://github.com/ytmdesktop/ytmdesktop/blob/development/LICENSE
 download: https://github.com/ytmdesktop/ytmdesktop/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

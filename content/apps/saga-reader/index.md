@@ -13,6 +13,7 @@ website: https://aiqino.netlify.app
 license: MIT
 licenseUrl: https://github.com/sopaco/saga-reader/blob/main/LICENSE
 download: https://github.com/sopaco/saga-reader/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

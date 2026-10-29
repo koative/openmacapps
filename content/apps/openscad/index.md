@@ -11,6 +11,7 @@ website: https://openscad.org/
 license: GPL-2.0
 licenseUrl: https://github.com/openscad/openscad/blob/master/COPYING
 download: https://openscad.org/downloads.html
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

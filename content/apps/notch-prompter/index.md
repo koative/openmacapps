@@ -11,6 +11,7 @@ website: https://notchprompter.com
 license: LicenseRef-NotchPrompter
 licenseUrl: https://github.com/jpomykala/NotchPrompter/blob/main/LICENSE
 download: https://github.com/jpomykala/NotchPrompter/releases
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

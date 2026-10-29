@@ -15,6 +15,7 @@ website: https://github.com/ZToolsCenter/ZTools
 license: "MIT"
 licenseUrl: https://github.com/ZToolsCenter/ZTools/blob/main/LICENSE
 download: https://github.com/ZToolsCenter/ZTools/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

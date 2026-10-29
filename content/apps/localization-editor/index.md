@@ -11,6 +11,7 @@ website: https://github.com/igorkulman/iOSLocalizationEditor
 license: MIT
 licenseUrl: https://github.com/igorkulman/iOSLocalizationEditor/blob/master/LICENSE
 download: https://github.com/igorkulman/iOSLocalizationEditor/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -13,6 +13,7 @@ website: https://codeburn.app
 license: "MIT"
 licenseUrl: https://github.com/getagentseal/codeburn/blob/main/LICENSE
 download: https://github.com/getagentseal/codeburn/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

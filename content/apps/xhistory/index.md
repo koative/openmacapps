@@ -12,6 +12,7 @@ website: https://lihaoyun6.github.io/xhistory/
 license: "AGPL-3.0"
 licenseUrl: https://github.com/lihaoyun6/xHistory/blob/main/LICENSE
 download: https://github.com/lihaoyun6/xHistory/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -15,6 +15,7 @@ website: https://alper-han.github.io/CrossMacro/
 license: GPL-3.0-only
 licenseUrl: https://github.com/alper-han/CrossMacro/blob/dev/LICENSE
 download: https://github.com/alper-han/CrossMacro/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

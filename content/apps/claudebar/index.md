@@ -12,6 +12,7 @@ website: https://claudebar.tddworks.com
 license: "Apache-2.0"
 licenseUrl: https://github.com/tddworks/ClaudeBar/blob/main/LICENSE
 download: https://github.com/tddworks/ClaudeBar/releases
+freeDownload: true
 homebrew: "claudebar"
 featured: false
 added: '2026-10-17'

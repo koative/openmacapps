@@ -12,6 +12,7 @@ website: https://omniwm.app
 license: GPL-2.0
 licenseUrl: https://github.com/OmniNull/OmniWM/blob/main/LICENSE
 download: https://github.com/OmniNull/OmniWM/releases
+freeDownload: true
 homebrew: "omniwm"
 featured: false
 added: 2026-10-17

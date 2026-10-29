@@ -12,6 +12,7 @@ website: "https://sigil-ebook.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Sigil-Ebook/Sigil/blob/master/COPYING.txt"
 download: "https://github.com/Sigil-Ebook/Sigil/releases"
+freeDownload: true
 homebrew: "sigil"
 featured: false
 added: '2026-10-17'

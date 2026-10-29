@@ -12,6 +12,7 @@ website: https://omartelo.github.io/lich/
 license: "AGPL-3.0-only"
 licenseUrl: https://github.com/omartelo/lich/blob/main/LICENSE
 download: https://github.com/omartelo/lich/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

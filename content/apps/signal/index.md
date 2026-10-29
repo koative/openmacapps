@@ -11,6 +11,7 @@ website: https://signal.org
 license: AGPL-3.0
 licenseUrl: https://github.com/signalapp/Signal-Desktop/blob/main/LICENSE
 download: https://signal.org/download
+freeDownload: true
 homebrew: "signal"
 featured: false
 added: 2026-10-17

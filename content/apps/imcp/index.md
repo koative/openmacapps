@@ -13,6 +13,7 @@ website: https://github.com/mattt/iMCP
 license: MIT
 licenseUrl: https://github.com/mattt/iMCP/blob/main/LICENSE.md
 download: https://github.com/mattt/iMCP/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

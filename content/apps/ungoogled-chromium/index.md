@@ -16,6 +16,7 @@ website: https://github.com/ungoogled-software/ungoogled-chromium
 license: BSD-3-Clause
 licenseUrl: https://github.com/ungoogled-software/ungoogled-chromium/blob/master/LICENSE
 download: https://github.com/ungoogled-software/ungoogled-chromium-macos/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

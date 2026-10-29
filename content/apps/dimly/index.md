@@ -13,6 +13,7 @@ website: https://feuerbacher.me/projects/dimly
 license: AGPL-3.0
 licenseUrl: https://github.com/Punshnut/macos-dimly/blob/dev/LICENSE
 download: https://github.com/Punshnut/macos-dimly/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

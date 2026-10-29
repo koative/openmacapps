@@ -11,6 +11,7 @@ website: https://sveinbjorn.org/platypus
 license: "BSD-3-Clause"
 licenseUrl: https://github.com/sveinbjornt/Platypus/blob/master/LICENSE.txt
 download: https://sveinbjorn.org/platypus
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

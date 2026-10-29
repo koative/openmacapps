@@ -13,6 +13,7 @@ website: https://aidictation.com/
 license: "MIT"
 licenseUrl: https://github.com/writingmate/aidictation/blob/main/LICENSE
 download: https://aidictation.com/download
+freeDownload: false
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

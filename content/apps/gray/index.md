@@ -12,6 +12,7 @@ website: https://github.com/zenangst/Gray
 license: MIT
 licenseUrl: https://github.com/zenangst/Gray/blob/master/LICENSE.md
 download: https://github.com/zenangst/Gray/releases
+freeDownload: true
 homebrew: "gray"
 featured: false
 added: '2026-10-17'

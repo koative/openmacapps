@@ -11,6 +11,7 @@ website: https://minbrowser.org
 license: Apache-2.0
 licenseUrl: https://github.com/minbrowser/min/blob/master/LICENSE.txt
 download: https://github.com/minbrowser/min/releases
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

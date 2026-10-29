@@ -9,6 +9,7 @@ website: "https://standardnotes.com/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/standardnotes/app/blob/main/LICENSE"
 download: "https://github.com/standardnotes/app/releases"
+freeDownload: true
 homebrew: "standard-notes"
 featured: false
 added: "2026-10-17"

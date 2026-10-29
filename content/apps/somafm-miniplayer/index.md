@@ -13,6 +13,7 @@ website: https://github.com/ealeksandrov/SomaFM-miniplayer
 license: MIT
 licenseUrl: https://github.com/ealeksandrov/SomaFM-miniplayer/blob/master/LICENSE.md
 download: https://github.com/ealeksandrov/SomaFM-miniplayer/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

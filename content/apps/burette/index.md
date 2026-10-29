@@ -12,6 +12,7 @@ website: https://burette-landing.vercel.app
 license: "MIT"
 licenseUrl: https://github.com/SergeiNikolenko/Burette/blob/main/LICENSE
 download: https://github.com/SergeiNikolenko/Burette/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

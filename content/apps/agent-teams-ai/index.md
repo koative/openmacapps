@@ -8,6 +8,7 @@ website: "https://agentteams.live"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/777genius/agent-teams-ai/blob/main/LICENSE"
 download: "https://github.com/777genius/agent-teams-ai/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

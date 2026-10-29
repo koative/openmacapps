@@ -14,6 +14,7 @@ website: https://ueli.app
 license: "MIT"
 licenseUrl: https://github.com/oliverschwendener/ueli/blob/main/LICENSE
 download: https://github.com/oliverschwendener/ueli/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

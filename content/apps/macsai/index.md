@@ -9,6 +9,7 @@ website: "https://github.com/iliyami/MacSai"
 license: "BSD-3-Clause"
 licenseUrl: "https://github.com/iliyami/MacSai/blob/main/LICENSE"
 download: "https://github.com/iliyami/MacSai/releases"
+freeDownload: true
 homebrew: "mac-sai"
 featured: false
 added: "2026-10-17"

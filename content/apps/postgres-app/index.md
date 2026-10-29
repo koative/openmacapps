@@ -13,6 +13,7 @@ website: https://postgresapp.com
 license: PostgreSQL
 licenseUrl: https://github.com/PostgresApp/PostgresApp/blob/master/LICENSE
 download: https://postgresapp.com/downloads.html
+freeDownload: true
 homebrew: "postgres-app"
 featured: false
 added: '2026-10-17'

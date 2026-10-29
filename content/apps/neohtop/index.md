@@ -7,11 +7,14 @@ tags:
   - processes
   - cpu
   - system-monitor
+alternativeTo:
+  - task-manager
 repository: https://github.com/Abdenasser/neohtop
 website: https://abdenasser.github.io/neohtop/
 license: MIT
 licenseUrl: https://github.com/Abdenasser/neohtop/blob/main/LICENSE
 download: https://github.com/Abdenasser/neohtop/releases
+freeDownload: true
 homebrew: "neohtop"
 featured: false
 added: 2026-10-17

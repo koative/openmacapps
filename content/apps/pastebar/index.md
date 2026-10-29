@@ -14,6 +14,7 @@ website: https://github.com/PasteBar/PasteBarApp
 license: LicenseRef-PasteBar
 licenseUrl: https://github.com/PasteBar/PasteBarApp/blob/main/CC-LICENSE
 download: https://github.com/PasteBar/PasteBarApp/releases
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

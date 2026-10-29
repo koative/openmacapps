@@ -9,6 +9,7 @@ website: https://github.com/lihaoyun6/Topit
 license: "AGPL-3.0"
 licenseUrl: https://github.com/lihaoyun6/Topit/blob/main/LICENSE
 download: https://github.com/lihaoyun6/Topit/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

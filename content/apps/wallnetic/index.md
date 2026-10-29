@@ -12,6 +12,7 @@ website: https://apps.apple.com/app/id6760347328
 license: MIT
 licenseUrl: https://github.com/fatihkan/wallnetic/blob/main/LICENSE
 download: https://github.com/fatihkan/wallnetic/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

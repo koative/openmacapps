@@ -12,6 +12,7 @@ website: https://winmux.dev
 license: "MIT"
 licenseUrl: https://github.com/ZimengXiong/WinMux/blob/main/LICENSE.txt
 download: https://github.com/ZimengXiong/WinMux/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

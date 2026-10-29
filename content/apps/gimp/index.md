@@ -3,12 +3,13 @@ name: "GIMP"
 summary: "Retouch photographs and build layered images with selection, painting, and editing tools."
 category: "Design"
 tags: ["image-editor", "photography", "graphics"]
-alternativeTo: ["photoshop", "pixelmator-pro", "affinity", "photoshop-elements"]
+alternativeTo: ["photoshop", "pixelmator-pro", "affinity", "photoshop-elements", "paint-net"]
 repository: "https://github.com/GNOME/gimp"
 website: "https://www.gimp.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/GNOME/gimp/blob/master/COPYING"
 download: "https://www.gimp.org/downloads/"
+freeDownload: true
 homebrew: "gimp"
 featured: false
 added: "2026-10-17"

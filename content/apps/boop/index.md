@@ -12,6 +12,7 @@ website: https://boop.okat.best/
 license: "MIT"
 licenseUrl: https://github.com/IvanMathy/Boop/blob/main/LICENSE
 download: https://github.com/IvanMathy/Boop/releases
+freeDownload: true
 homebrew: "boop"
 featured: false
 added: '2026-10-17'

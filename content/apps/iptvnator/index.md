@@ -12,6 +12,7 @@ website: https://4gray.github.io/iptvnator/
 license: "MIT"
 licenseUrl: https://github.com/4gray/iptvnator/blob/master/LICENSE.md
 download: https://github.com/4gray/iptvnator/releases
+freeDownload: true
 homebrew: "iptvnator"
 featured: false
 added: '2026-10-17'

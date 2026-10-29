@@ -12,6 +12,7 @@ website: https://claudetracker.com
 license: "MIT"
 licenseUrl: https://github.com/hamed-elfayome/Claude-Usage-Tracker/blob/main/LICENSE
 download: https://github.com/hamed-elfayome/Claude-Usage-Tracker/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

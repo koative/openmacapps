@@ -12,6 +12,7 @@ website: "https://lihaoyun6.github.io/airbattery/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/lihaoyun6/AirBattery/blob/main/LICENSE"
 download: "https://github.com/lihaoyun6/AirBattery/releases"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

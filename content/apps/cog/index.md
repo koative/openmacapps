@@ -12,6 +12,7 @@ website: https://cog.losno.co
 license: "GPL-2.0"
 licenseUrl: https://github.com/losnoco/Cog/blob/main/COPYING
 download: https://cog.losno.co
+freeDownload: true
 homebrew: "cog-app"
 featured: false
 added: '2026-10-17'

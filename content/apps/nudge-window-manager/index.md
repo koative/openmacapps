@@ -14,6 +14,7 @@ website: "https://github.com/mikusnuz/nudge"
 license: "MIT"
 licenseUrl: "https://github.com/mikusnuz/nudge/blob/master/LICENSE"
 download: "https://github.com/mikusnuz/nudge/releases"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

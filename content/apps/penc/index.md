@@ -14,6 +14,7 @@ website: https://deniz.co/penc/
 license: MIT
 licenseUrl: https://github.com/dgurkaynak/Penc/blob/master/LICENSE
 download: https://github.com/dgurkaynak/Penc/releases
+freeDownload: true
 homebrew: "penc"
 featured: false
 added: 2026-10-17

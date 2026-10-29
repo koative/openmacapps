@@ -13,6 +13,7 @@ website: https://www.cockos.com/licecap/
 license: "GPL-2.0-or-later"
 licenseUrl: https://github.com/justinfrankel/licecap/blob/main/licecap/license.txt
 download: https://www.cockos.com/licecap/
+freeDownload: true
 homebrew: "licecap"
 featured: false
 added: '2026-10-17'

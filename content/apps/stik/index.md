@@ -12,6 +12,7 @@ website: https://www.stik.ink/
 license: "MIT"
 licenseUrl: https://github.com/0xMassi/stik_app/blob/main/LICENSE
 download: https://www.stik.ink/download
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

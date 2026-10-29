@@ -11,6 +11,7 @@ website: "https://github.com/Bread-bang/claude-usage"
 license: "MIT"
 licenseUrl: "https://github.com/Bread-bang/claude-usage/blob/main/LICENSE"
 download: "https://github.com/Bread-bang/claude-usage/releases"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

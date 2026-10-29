@@ -11,6 +11,7 @@ website: https://runcat-dev.github.io/RunCatNeo/
 license: "Apache-2.0"
 licenseUrl: https://github.com/runcat-dev/RunCatNeo/blob/main/LICENSE
 download: https://apps.apple.com/us/app/runcat-neo/id6757801838
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

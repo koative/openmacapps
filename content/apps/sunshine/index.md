@@ -8,6 +8,7 @@ website: "https://app.lizardbyte.dev/Sunshine/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/LizardByte/Sunshine/blob/master/LICENSE"
 download: "https://github.com/LizardByte/Sunshine/releases"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

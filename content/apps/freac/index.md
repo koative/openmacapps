@@ -12,6 +12,7 @@ website: https://www.freac.org
 license: "GPL-2.0-or-later"
 licenseUrl: https://github.com/enzo1982/freac/blob/master/COPYING
 download: https://github.com/enzo1982/freac/releases/latest
+freeDownload: true
 homebrew: "freac"
 featured: false
 added: '2026-10-17'

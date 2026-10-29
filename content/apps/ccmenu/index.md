@@ -12,6 +12,7 @@ website: https://ccmenu.org
 license: "Apache-2.0"
 licenseUrl: https://github.com/ccmenu/ccmenu2/blob/main/LICENSE
 download: https://apps.apple.com/us/app/ccmenu/id603117688
+freeDownload: true
 homebrew: "ccmenu"
 featured: false
 added: '2026-10-17'

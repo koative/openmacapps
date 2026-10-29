@@ -12,6 +12,7 @@ website: https://screentranslate.filient.ai/
 license: "GPL-3.0"
 licenseUrl: https://github.com/hcmhcs/screenTranslate/blob/main/LICENSE
 download: https://github.com/hcmhcs/screenTranslate/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

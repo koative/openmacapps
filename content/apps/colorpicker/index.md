@@ -10,6 +10,7 @@ website: "https://github.com/Toinane/colorpicker"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Toinane/colorpicker/blob/master/LICENSE"
 download: "https://github.com/Toinane/colorpicker/releases"
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

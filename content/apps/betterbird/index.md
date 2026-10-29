@@ -9,6 +9,7 @@ website: "https://www.betterbird.eu"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/Betterbird/thunderbird-patches/blob/main/LICENSE"
 download: "https://www.betterbird.eu/downloads/"
+freeDownload: true
 featured: false
 added: "2026-10-17"
 verified: "2026-10-17"

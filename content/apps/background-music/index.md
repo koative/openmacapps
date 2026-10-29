@@ -6,11 +6,14 @@ tags:
   - audio
   - menu-bar
   - volume
+alternativeTo:
+  - voicemeeter
 repository: https://github.com/kyleneideck/BackgroundMusic
 website: https://github.com/kyleneideck/BackgroundMusic
 license: GPL-2.0
 licenseUrl: https://github.com/kyleneideck/BackgroundMusic/blob/master/LICENSE
 download: https://github.com/kyleneideck/BackgroundMusic/releases
+freeDownload: true
 homebrew: "background-music"
 featured: false
 added: 2026-10-17

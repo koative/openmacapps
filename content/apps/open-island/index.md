@@ -12,6 +12,7 @@ website: https://github.com/Octane0411/open-vibe-island
 license: "GPL-3.0"
 licenseUrl: https://github.com/Octane0411/open-vibe-island/blob/main/LICENSE
 download: https://github.com/Octane0411/open-vibe-island/releases
+freeDownload: true
 homebrew: "open-island"
 featured: false
 added: '2026-10-17'

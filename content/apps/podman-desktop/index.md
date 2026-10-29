@@ -9,6 +9,7 @@ website: "https://podman-desktop.io"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/podman-desktop/podman-desktop/blob/main/LICENSE"
 download: "https://podman-desktop.io/downloads"
+freeDownload: true
 homebrew: "podman-desktop"
 featured: false
 added: "2026-10-17"

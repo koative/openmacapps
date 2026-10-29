@@ -16,6 +16,7 @@ website: https://getopenscreen.com
 license: MIT
 licenseUrl: https://github.com/getopenscreen/openscreen/blob/main/LICENSE
 download: https://github.com/getopenscreen/openscreen/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

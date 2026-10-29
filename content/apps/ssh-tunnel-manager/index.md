@@ -12,6 +12,7 @@ website: https://github.com/0fuz/ssh-tunnel-manager
 license: 'MIT'
 licenseUrl: https://github.com/0fuz/ssh-tunnel-manager/blob/main/LICENSE
 download: https://github.com/0fuz/ssh-tunnel-manager/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

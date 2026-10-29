@@ -12,6 +12,7 @@ website: https://github.com/altic-dev/PeekX
 license: 'MIT'
 licenseUrl: https://github.com/altic-dev/PeekX/blob/main/LICENSE
 download: https://github.com/altic-dev/PeekX/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

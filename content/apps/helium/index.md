@@ -16,6 +16,7 @@ website: https://helium.computer
 license: "GPL-3.0 AND BSD-3-Clause"
 licenseUrl: https://github.com/imputnet/helium/blob/main/LICENSE
 download: https://helium.computer
+freeDownload: true
 homebrew: "helium-browser"
 featured: false
 added: '2026-10-17'

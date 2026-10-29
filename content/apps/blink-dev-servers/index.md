@@ -12,6 +12,7 @@ website: https://mo.software/apps
 license: "MIT"
 licenseUrl: https://github.com/megootronic/Blink/blob/main/LICENSE
 download: https://github.com/megootronic/Blink/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -14,6 +14,7 @@ website: https://github.com/mattDavo/Yippy
 license: MIT
 licenseUrl: https://github.com/mattDavo/Yippy/blob/master/LICENSE
 download: https://github.com/mattDavo/Yippy/releases
+freeDownload: true
 featured: false
 added: 2026-10-17
 verified: 2026-10-17

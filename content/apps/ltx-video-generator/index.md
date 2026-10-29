@@ -11,6 +11,7 @@ website: https://james-see.github.io/ltx-video-mac/
 license: "MIT"
 licenseUrl: https://github.com/james-see/ltx-video-mac/blob/main/LICENSE
 download: https://github.com/james-see/ltx-video-mac/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

@@ -9,6 +9,7 @@ website: "https://www.audacityteam.org/"
 license: "GPL-3.0-only"
 licenseUrl: "https://github.com/audacity/audacity/blob/master/LICENSE.txt"
 download: "https://github.com/audacity/audacity/releases"
+freeDownload: true
 homebrew: "audacity"
 featured: false
 added: "2026-10-17"

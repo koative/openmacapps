@@ -11,11 +11,13 @@ tags:
   - pdf-tools
 alternativeTo:
   - adobe-acrobat
+  - pdf-xchange-editor
 repository: https://github.com/McanKul/offpdf
 website: https://offpdf.com
 license: MIT
 licenseUrl: https://github.com/McanKul/offpdf/blob/main/LICENSE
 download: https://github.com/McanKul/offpdf/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

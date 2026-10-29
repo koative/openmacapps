@@ -12,6 +12,7 @@ website: https://github.com/kzaremski/apple-notes-exporter
 license: "GPL-3.0"
 licenseUrl: https://github.com/kzaremski/apple-notes-exporter/blob/main/LICENSE
 download: https://github.com/kzaremski/apple-notes-exporter/releases/latest
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

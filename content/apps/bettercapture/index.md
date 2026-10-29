@@ -12,6 +12,7 @@ website: https://bettercapture.app/
 license: MIT
 licenseUrl: https://github.com/jsattler/BetterCapture/blob/main/LICENSE
 download: https://github.com/jsattler/BetterCapture/releases
+freeDownload: true
 homebrew: "bettercapture"
 featured: false
 added: '2026-10-17'

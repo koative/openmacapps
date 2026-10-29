@@ -13,6 +13,7 @@ website: "https://masscode.io"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/massCodeIO/massCode/blob/main/LICENSE"
 download: "https://github.com/massCodeIO/massCode/releases"
+freeDownload: true
 homebrew: "masscode"
 featured: false
 added: '2026-10-17'

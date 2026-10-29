@@ -13,6 +13,7 @@ website: https://sapphire-app.tech
 license: AGPL-3.0
 licenseUrl: https://github.com/cshariq/Sapphire/blob/main/LICENSE
 download: https://github.com/cshariq/Sapphire/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

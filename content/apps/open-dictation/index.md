@@ -13,6 +13,7 @@ website: https://github.com/kdcokenny/OpenDictation
 license: MIT
 licenseUrl: https://github.com/kdcokenny/OpenDictation/blob/main/LICENSE
 download: https://github.com/kdcokenny/OpenDictation/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

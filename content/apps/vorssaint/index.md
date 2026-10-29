@@ -9,6 +9,7 @@ website: "https://vorssaint.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/vorssaint/vorssaint-utils/blob/main/LICENSE"
 download: "https://github.com/vorssaint/vorssaint-utils/releases"
+freeDownload: true
 homebrew: "vorssaint"
 featured: false
 added: "2026-10-17"

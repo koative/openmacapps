@@ -11,6 +11,7 @@ website: https://pilotmoon.com/scrollreverser/
 license: Apache-2.0
 licenseUrl: https://github.com/pilotmoon/Scroll-Reverser/blob/master/LICENSE
 download: https://github.com/pilotmoon/Scroll-Reverser/releases
+freeDownload: true
 homebrew: "scroll-reverser"
 featured: false
 added: 2026-10-17

@@ -12,6 +12,7 @@ website: https://osaurus.ai
 license: "MIT"
 licenseUrl: https://github.com/osaurus-ai/osaurus/blob/main/LICENSE
 download: https://github.com/osaurus-ai/osaurus/releases
+freeDownload: true
 homebrew: "osaurus"
 featured: false
 added: '2026-10-17'

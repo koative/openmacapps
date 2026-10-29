@@ -11,6 +11,7 @@ website: https://cctop.app
 license: "MIT"
 licenseUrl: https://github.com/st0012/cctop/blob/master/LICENSE
 download: https://github.com/st0012/cctop/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'

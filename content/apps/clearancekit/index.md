@@ -11,6 +11,7 @@ website: https://craigjbass.github.io/clearancekit/
 license: "MIT"
 licenseUrl: https://github.com/craigjbass/clearancekit/blob/main/LICENSE.md
 download: https://github.com/craigjbass/clearancekit/releases
+freeDownload: true
 featured: false
 added: '2026-10-17'
 verified: '2026-10-17'
