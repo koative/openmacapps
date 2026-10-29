@@ -361,7 +361,7 @@ The surface is quiet and bright in light mode, graphite in dark: white or #1e1e1
 **Key Characteristics:**
 
 - System light and dark, every role a `light-dark()` pair; no manual theme switch.
-- 260px opaque sidebar on desktop; compact top bar and four-tab bottom bar at 900px and below.
+- 260px opaque sidebar on desktop; compact top bar and five-tab bottom bar at 900px and below.
 - Platform system type (SF on Apple devices), bold large titles, 13–15px UI labels.
 - Horizontally paged shelves of lockups, spotlights and screenshot cards.
 - Real app icons and screenshots carry the visual interest; nothing is invented.
@@ -444,12 +444,12 @@ An Apple system palette in two appearances: neutral greys that step from canvas 
 
 A two-column shell: a 260px sticky sidebar, one viewport tall and independently scrollable, beside a main column whose content caps at 1320px. The cap is applied as growing horizontal padding (`max(pad, (100% − 1320px) / 2)`), so every child of main shares one column edge. Main padding is 30px top and 40px bottom on desktop.
 
-Shelves stack with 40px between them; each shelf after the first opens with an 18px-padded hairline above its header. A shelf header holds the heading and optional subtitle on the left, See All and the paired pagers on the right. Tracks are horizontal, snap to start, and use the 24px gap; they show a thin native scrollbar until the pager script runs, then hide it. Lockup shelves show three columns of three rows; spotlight shelves show two-and-a-bit cards; screenshot shelves show four cards (or a 78% / 780px max figure on product pages). Search and category results use a three-column lockup grid. The category grid auto-fills 230px-minimum tiles (280px on the Categories page). The Information list is three columns.
+Shelves stack with 40px between them; each shelf after the first opens with an 18px-padded hairline above its header. A shelf or section that directly follows the page head sits flush under it, with no hairline. A shelf header holds the heading and optional subtitle on the left, See All and the paired pagers on the right. Tracks are horizontal, snap to start, and use the 24px gap; they show a thin native scrollbar until the pager script runs, then hide it. Lockup shelves show three columns of three rows; spotlight shelves show two-and-a-bit cards; screenshot shelves show four cards (or a 78% / 780px max figure on product pages). Search, category, alternatives and topic results use a three-column lockup grid. The category grid auto-fills 230px-minimum tiles (280px on the Categories page). The Information list is three columns.
 
 ### Responsive behaviour
 
 - **At or below 1180px:** lockup shelves go to two columns, spotlights to 82% width, screenshot shelves to three; lockup grids and Information to two columns; the contribute band stacks.
-- **At or below 900px:** pad and gap become 20px and 16px. The sidebar disappears; a sticky 52px top bar (brand, GitHub icon) and a fixed four-tab bar (Discover, Categories, Search, About) replace it, both honouring safe-area insets. Main gains bottom padding for the tab bar. Shelf tracks bleed to the screen edge with matching scroll padding; pagers hide in favour of touch scrolling. Spotlights are 360px tall; product icons are 96px; the info strip becomes a horizontally scrolling row of 118px-minimum cells.
+- **At or below 900px:** pad and gap become 20px and 16px. The sidebar disappears; a sticky 52px top bar (brand, GitHub icon) and a fixed five-tab bar (Discover, Categories, Alternatives, Search, About) replace it, both honouring safe-area insets. Main gains bottom padding for the tab bar. Shelf tracks bleed to the screen edge with matching scroll padding; pagers hide in favour of touch scrolling. Spotlights are 360px tall; product icons are 96px; the info strip becomes a horizontally scrolling row of 118px-minimum cells.
 - **At or below 620px:** lockup grids, Information, About principles, the source list and the category grid go to one column. Product icons are 72px. The segmented control fills the row and the selects flex to share it.
 
 ## Elevation & Depth
@@ -514,7 +514,13 @@ A rounded square in the category's system colour with a white Lucide glyph at 58
 
 ### Category Tile and Collection Link
 
-Category tile: Elevated Grey, tile radius, glyph, 15px/600 name, right-aligned tabular count in Secondary Label; hover moves to Fill. The Categories page uses the large variant (17px, 16–18px padding). Collection links share the surface and add a row of 36px app icons, a 16px/600 name and a footnote description.
+Category tile: Elevated Grey, tile radius, glyph, 15px/600 name, right-aligned tabular count in Secondary Label; hover moves to Fill. The Categories page uses the large variant (17px, 16–18px padding). Collection links (`CollectionLink`) share the surface and add a row of 36px app icons, a 16px/600 name and a footnote description. The same link stands for every grouped page: collections, alternatives pages (product name, "N open-source alternatives") and topics (topic title, "N apps"), always showing the icons of the group's own apps.
+
+### Guide Pages: Alternatives and Topics
+
+Rule-based landing pages built from `content/alternatives` and `content/topics`; an app joins through its `alternativeTo` ids or its tags, never by hand. Both reuse the category page anatomy: Link Blue breadcrumb (Alternatives or Topics), large-title page head with a Secondary Label line (the product summary or the topic description), the original Markdown intro in Markdown body type, then a section with a three-column lockup grid, featured picks first. An alternatives page adds a plain text link to the product's own website after the intro and a "More {category} Alternatives" row of collection links; a topic page adds the other topics of its category. Proprietary products appear as text only: no logos, ratings or prices.
+
+The Alternatives index groups collection links under category section headings. Topics are reached through Categories: the Categories page and each category page show a Browse by Topic row (a topic belongs to its declared category, else to the category holding more than half its apps), and Discover shows the eight most populated alternatives pages after Browse by Category. Product pages link back through Alternative to and Topics rows in the Information list.
 
 ### Letter-Tile Icon Fallback
 
@@ -546,9 +552,9 @@ A three-column definition list of hairline-ruled rows: footnote term in Secondar
 
 ### Navigation
 
-- **Sidebar:** brand (28px Action Blue mark with white glyph, 19px/700 wordmark), search, then rows for Discover, Search and Categories, a Collections group and a Categories group (12px/600 Secondary Label group labels), and a hairline-topped foot with About, Contribute and GitHub (external rows end in a small up-right arrow). Rows are 32px, field radius, Link Blue 20px glyphs (category rows use glyph tiles); hover and current page share the Selected fill, current adds weight 600. A row stays selected for pages beneath it (an app page selects its category).
+- **Sidebar:** brand (28px Action Blue mark with white glyph, 19px/700 wordmark from `site.name`), search, then rows for Discover, Search, Categories and Alternatives (Lucide `ArrowRightLeft`), a Collections group and a Categories group (12px/600 Secondary Label group labels), and a hairline-topped foot with About, Contribute and GitHub (external rows end in a small up-right arrow). Rows are 32px, field radius, Link Blue 20px glyphs (category rows use glyph tiles); hover and current page share the Selected fill, current adds weight 600. A row stays selected for pages beneath it (an app page selects its category, an alternatives page selects Alternatives, a topic page selects its category or, without one, Categories).
 - **Top bar (≤900px):** sticky, 52px plus safe area, Bar Glass with blur, brand at 17px and a 44px GitHub target.
-- **Tab bar (≤900px):** fixed bottom, four equal tabs with 22px icons and 10px labels in Secondary Label; the current tab turns Link Blue.
+- **Tab bar (≤900px):** fixed bottom, five equal tabs (Discover, Categories, Alternatives, Search, About) with 22px icons and 10px labels in Secondary Label; the current tab turns Link Blue. Five is the ceiling: Topics are reached through Categories rather than a sixth tab.
 
 ### Contribute Band
 

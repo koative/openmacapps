@@ -4,6 +4,8 @@
 
 `content/apps/<slug>/index.md` owns an application. Its YAML frontmatter carries facts and provenance; its body carries original editorial copy. Assets live in the same folder, never at a hotlinked third-party URL at runtime. Git history provides review and rollback.
 
+`content/alternatives/<id>.md` describes a proprietary product and `content/topics/<slug>.md` a kind of tool; neither lists apps. `src/lib/guides.ts` builds their pages from the app records: an alternatives page gathers the apps whose `alternativeTo` names it, a topic page the apps carrying any of its tags. Validation rejects unknown ids, missing tags, and pages too thin to publish (fewer than two alternatives or three topic apps).
+
 Astro builds a static store: Discover (`/`), Search (`/search/`), a page per category (`/categories/<slug>/`) and editorial collection (`/collections/<id>/`, defined in `src/lib/collections.ts`), and a product page per app (`/apps/<slug>/`). Search filters run in the browser over the already-rendered list of every app; its query, category, tag, license, and sort state live in the URL, and older `/?category=…` style links redirect there. Every page, source link, and the full app list remain available without JavaScript. There is no database, authentication, remote search service, or runtime GitHub API dependency.
 
 ## Why folders instead of a database or one JSON file?

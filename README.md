@@ -19,7 +19,7 @@ content/apps/
       screenshot.png
 ```
 
-YAML frontmatter describes the app: name, summary, category, tags, repository, official website, download page, optional Homebrew cask, source classification, reviewed license, license evidence, verification date, and asset attribution. The Markdown body explains what it does. Screenshots are optional; invented screenshots and unverified compatibility claims are not accepted.
+YAML frontmatter describes the app: name, summary, category, tags, the proprietary products it replaces, repository, official website, download page, optional Homebrew cask, source classification, reviewed license, license evidence, verification date, and asset attribution. The Markdown body explains what it does. Screenshots are optional; invented screenshots and unverified compatibility claims are not accepted. Alternatives pages (`content/alternatives/`) and topic pages (`content/topics/`) list apps by those fields and tags, so a new folder appears on them automatically.
 
 This structure keeps assets beside the app, makes pull requests understandable, and avoids one giant JSON file becoming a merge-conflict bottleneck. Generated output is never the editing surface.
 

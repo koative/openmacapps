@@ -72,6 +72,13 @@ Categories are `Productivity`, `Developer tools`, `Utilities`, `Media`, `Privacy
 
 `sourceAvailability` defaults to `open-source`. Restricted source licenses require `sourceAvailability: source-available` and an original `licenseNotes` paragraph explaining the material restrictions. The reviewed restricted identifiers live separately in `sourceAvailableLicenses`; they cannot pass validation as open source. The catalog currently recognizes `Apache-2.0 WITH Commons-Clause` (an editorial combined label, not a standard SPDX expression), `LicenseRef-Mac-Mouse-Fix`, `FSL-1.1-MIT`, `CC-BY-NC-4.0`, `CC-BY-NC-ND-4.0`, `LicenseRef-PasteBar`, `LicenseRef-NotchPrompter`, and `PolyForm-Shield-1.0.0`. Do not strip extra terms or classify missing licenses as source available. Closed-source apps remain out of scope.
 
+## Alternatives and topics
+
+Two kinds of landing pages fill themselves from app records, so a new app appears on them as soon as its folder is merged.
+
+- **Alternatives** (`/alternatives/<id>/`). An app lists the proprietary products it genuinely replaces in `alternativeTo`, for example `alternativeTo: ["bartender"]`, placed after `tags`. Each id needs `content/alternatives/<id>.md`: frontmatter with the product's `name`, `vendor`, official `website`, `category`, a 15–160 character `summary` of what it does in your own words, `sources` (the official page) and a quoted `verified` date, then a short original introduction. List an app only when it does the same core job, not a related one. A page is published once at least two apps list it; validation rejects unknown ids and pages with fewer apps. Never include prices, ratings or logos of the proprietary product.
+- **Topics** (`/topics/<slug>/`). `content/topics/<slug>.md` has a plural `title` (for example "Clipboard managers"), a 50–160 character meta `description`, the `tags` that place an app in the topic (any one is enough) and an optional `category` to narrow it, followed by an original introduction. Give a new app the topic's precise tag (such as `clipboard-manager`) and it joins the page. A topic needs at least three matching apps, and every tag it names must exist.
+
 ## Images and attribution
 
 Use clear upstream app icons and screenshots, with readable screenshots and descriptive alt text. Keep assets local, sized for their actual use, and preferably PNG or WebP. Avoid oversized retina originals when a smaller image remains sharp. Never fabricate a screenshot or use a discovery list's image without tracing its origin.

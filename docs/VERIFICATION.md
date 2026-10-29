@@ -1,5 +1,14 @@
 # Release verification
 
+## Alternatives, topics, SEO and installable app — 2026-10-29
+
+- **New pages:** 58 alternatives pages (`/alternatives/<id>/`, proprietary products with at least two genuine replacements) and 34 topic pages (`/topics/<slug>/`, built from precise tags). They are generated from `alternativeTo` on 171 app records and tags on the rest, so new app folders join them automatically. 304 app records changed, and an audit against the previous commit confirmed that only their `tags` and `alternativeTo` lines differ; one tag was removed on purpose (`code-editor` from Open in Code, which is a Finder button rather than an editor).
+- **Rejected products:** those without two apps doing the same core job (Illustrator, Sketch, Things, Todoist, BetterTouchTool, Hazel, Transmit, Dash, Dropbox, TeamViewer, Discord) have no page.
+- **Source-available apps:** pages that include them say so in their counts (for example "14 alternatives, 2 source available").
+- **Search, links and metadata:** searching for a proprietary product's name finds its alternatives. Every page has a unique title of 70 characters or fewer and a meta description of 165 or fewer. Alternatives, topic, category and collection pages carry ItemList and BreadcrumbList structured data. The sitemap lists 991 URLs, 936 with `lastmod`.
+- **Installable app:** a web app manifest, icons, an RSS feed of the 50 newest apps (`/feed.xml`) and a service worker were added. Chromium's `Page.getInstallabilityErrors` returned none against the production build, and the worker activated with the offline page cached. With the server stopped, a visited page loaded from cache and an unvisited one showed the offline page.
+- **Checks:** `bun run validate`, `bun test` (18 tests), `bun run check`, `bun run build` (993 pages), `bun run check:links` (75,498 links), `bun run check:generated` and `bun run check:homebrew` pass. Desktop, 390 px and 320 px layouts show no horizontal overflow, and the five-tab mobile bar fits at 320 px.
+
 ## OpenBucket Homebrew tap — 2026-10-29
 
 OpenBucket is installed from Koative's own tap, so its listing shows `brew trust koative/tap && brew install --cask koative/tap/openbucket`; Homebrew 7 loads non-official taps only after `brew trust` (checked against the installed Homebrew's `trust` command, where a one-slash name trusts the tap). `bun run check:homebrew` now reads tap casks from their `homebrew-<tap>` repository and applies the same rule: 418 casks verified, and an unrelated tap cask set on the listing as a test was rejected. Three screenshots on OpenBucket's page had also made the mobile page scroll sideways by 296 px, because each screenshot link's screen-reader label is absolutely positioned and escaped the scrolling shelf; shelf tracks are now positioned, and Discover, Search, a category, a collection and two product pages show no horizontal overflow at 390 and 1440 px.
