@@ -11,6 +11,7 @@ tags:
 alternativeTo:
   - cleanmymac
   - appcleaner
+  - ccleaner
 repository: https://github.com/momenbasel/PureMac
 website: https://www.moamenbasel.com/PureMac/
 license: MIT

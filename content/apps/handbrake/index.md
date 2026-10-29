@@ -2,7 +2,7 @@
 name: "HandBrake"
 summary: "Convert video files with useful presets and detailed encoding controls."
 category: "Media"
-tags: ["video", "conversion", "cross-platform"]
+tags: ["video", "conversion", "cross-platform", "video-converter"]
 repository: "https://github.com/HandBrake/HandBrake"
 website: "https://handbrake.fr"
 license: "GPL-2.0-only"

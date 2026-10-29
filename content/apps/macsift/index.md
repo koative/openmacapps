@@ -9,6 +9,7 @@ tags:
 - disk-cleaner
 alternativeTo:
 - cleanmymac
+- ccleaner
 repository: https://github.com/Lcharvol/MacSift
 website: https://lcharvol.github.io/MacSift/
 license: MIT

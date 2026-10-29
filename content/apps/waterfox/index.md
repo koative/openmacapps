@@ -3,7 +3,7 @@ name: "Waterfox"
 summary: "An independent Firefox-based browser with its own defaults and release choices."
 category: "Internet"
 tags: ["browser", "extensions", "web"]
-alternativeTo: ["google-chrome"]
+alternativeTo: ["google-chrome", "opera", "vivaldi"]
 repository: "https://github.com/BrowserWorks/waterfox"
 website: "https://www.waterfox.com"
 license: "MPL-2.0"

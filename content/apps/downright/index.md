@@ -9,6 +9,8 @@ tags:
   - quick-look
   - offline
   - markdown-editor
+alternativeTo:
+  - typora
 repository: https://github.com/ezzy1630/Downright
 website: https://downright.cc
 license: "MIT"

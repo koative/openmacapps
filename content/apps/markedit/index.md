@@ -3,7 +3,7 @@ name: "MarkEdit"
 summary: "A clean Mac workspace for writing Markdown."
 category: "Writing"
 tags: ["markdown", "text-editor", "native", "markdown-editor"]
-alternativeTo: ["typora"]
+alternativeTo: ["typora", "ia-writer"]
 repository: "https://github.com/MarkEdit-app/MarkEdit"
 website: "https://github.com/MarkEdit-app/MarkEdit"
 license: "MIT"

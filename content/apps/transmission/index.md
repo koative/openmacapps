@@ -6,6 +6,8 @@ tags:
   - bittorrent
   - downloads
   - native
+alternativeTo:
+  - utorrent
 repository: https://github.com/transmission/transmission
 website: https://transmissionbt.com
 license: GPL-2.0-only OR GPL-3.0-only

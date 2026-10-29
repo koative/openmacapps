@@ -3,6 +3,7 @@ name: "RelaGit"
 summary: "A cross-platform graphical Git client with a commit graph and submodule support, still in early beta."
 category: "Developer tools"
 tags: ["git", "version-control", "cross-platform", "git-client"]
+alternativeTo: ["fork", "tower"]
 repository: "https://github.com/relagit/relagit"
 website: "https://github.com/relagit/relagit"
 license: "LGPL-3.0"

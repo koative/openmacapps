@@ -3,7 +3,7 @@ name: "Zed"
 summary: "A fast code editor with project navigation, collaboration, and integrated development tools."
 category: "Developer tools"
 tags: ["code-editor", "collaboration", "development"]
-alternativeTo: ["sublime-text", "visual-studio-code"]
+alternativeTo: ["sublime-text", "visual-studio-code", "ultraedit"]
 repository: "https://github.com/zed-industries/zed"
 website: "https://zed.dev"
 license: "GPL-3.0-or-later AND Apache-2.0"

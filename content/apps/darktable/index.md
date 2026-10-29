@@ -7,9 +7,12 @@ tags:
   - photography
   - raw-editor
   - color
+  - photo-library
 alternativeTo:
   - lightroom
   - capture-one
+  - luminar-neo
+  - acdsee
 repository: https://github.com/darktable-org/darktable
 website: https://www.darktable.org/
 license: GPL-3.0

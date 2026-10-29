@@ -7,6 +7,8 @@ tags:
 - coding-agents
 - model-providers
 - cross-platform
+alternativeTo:
+- claude-code
 repository: https://github.com/GCWing/OpenBitFun
 website: https://openbitfun.com
 license: MIT

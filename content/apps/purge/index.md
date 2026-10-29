@@ -10,6 +10,7 @@ tags:
   - disk-cleaner
 alternativeTo:
   - cleanmymac
+  - ccleaner
 repository: https://github.com/jithin-sabu/purge-app
 website: https://purgemac.com/
 license: MIT

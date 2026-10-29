@@ -8,6 +8,7 @@ tags:
   - local-first
   - local-ai
   - cross-platform
+  - photo-library
 repository: https://github.com/julyx10/lap
 website: https://julyx10.github.io/lap/
 license: "GPL-3.0-or-later"

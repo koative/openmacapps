@@ -3,6 +3,7 @@ name: "Scribus"
 summary: "Lay out brochures, magazines, and other print documents with precise page controls."
 category: "Design"
 tags: ["publishing", "page-layout", "print"]
+alternativeTo: ["affinity"]
 repository: "https://github.com/scribusproject/scribus"
 website: "https://www.scribus.net/"
 license: "GPL-2.0-or-later"

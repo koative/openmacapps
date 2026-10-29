@@ -3,7 +3,7 @@ name: "Firefox"
 summary: "Mozilla's web browser with extensions, tab tools, and privacy controls."
 category: "Internet"
 tags: ["browser", "extensions", "web"]
-alternativeTo: ["google-chrome"]
+alternativeTo: ["google-chrome", "opera", "vivaldi"]
 repository: "https://github.com/mozilla-firefox/firefox"
 website: "https://www.firefox.com"
 license: "MPL-2.0"

@@ -3,6 +3,7 @@ name: "Inkscape"
 summary: "Draw scalable illustrations, diagrams, and graphics with a full-featured vector editor."
 category: "Design"
 tags: ["vector", "illustration", "svg"]
+alternativeTo: ["affinity"]
 repository: "https://gitlab.com/inkscape/inkscape"
 website: "https://inkscape.org/"
 license: "GPL-2.0-or-later"

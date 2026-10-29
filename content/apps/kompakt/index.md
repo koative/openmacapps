@@ -7,6 +7,7 @@ tags:
   - images
   - video
   - menu-bar
+  - video-converter
 repository: https://github.com/edinabazi/Kompakt
 website: https://kompaktapp.com
 license: MIT

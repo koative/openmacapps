@@ -2,7 +2,7 @@
 name: "Device Hub Pro"
 summary: "Mirror, control and configure Android devices and iOS simulators side by side for app testing."
 category: "Developer tools"
-tags: ["android", "ios", "testing", "screen-recording"]
+tags: ["android", "ios", "testing", "screen-recording", "screen-mirroring"]
 repository: "https://github.com/gitemre/device-hub-pro"
 website: "https://gitemre.github.io/device-hub-pro/"
 license: "MIT"

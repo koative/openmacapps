@@ -3,7 +3,7 @@ name: "Standard Notes"
 summary: "Write and organize notes with encrypted synchronization across desktop and mobile clients."
 category: "Writing"
 tags: ["notes", "encryption", "sync", "note-taking"]
-alternativeTo: ["evernote"]
+alternativeTo: ["evernote", "google-keep"]
 repository: "https://github.com/standardnotes/app"
 website: "https://standardnotes.com/"
 license: "AGPL-3.0"

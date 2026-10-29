@@ -6,6 +6,8 @@ tags:
   - virtual-machines
   - virtualization
   - testing
+alternativeTo:
+  - parallels-desktop
 repository: "https://github.com/insidegui/VirtualBuddy"
 website: "https://github.com/insidegui/VirtualBuddy"
 license: "BSD-2-Clause"

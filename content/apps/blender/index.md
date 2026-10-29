@@ -3,6 +3,7 @@ name: "Blender"
 summary: "Model, animate, render, and composite 3D scenes in a complete creation suite."
 category: "Design"
 tags: ["3d-modeling", "animation", "rendering"]
+alternativeTo: ["sketchup"]
 repository: "https://github.com/blender/blender"
 website: "https://www.blender.org/"
 license: "GPL-3.0"

@@ -9,6 +9,8 @@ tags:
   - parametric
 alternativeTo:
   - autodesk-fusion
+  - autocad
+  - sketchup
 repository: https://github.com/FreeCAD/FreeCAD
 website: https://www.freecad.org/
 license: LGPL-2.1

@@ -2,7 +2,7 @@
 name: "Applite"
 summary: "Browse, install, update and remove Homebrew Cask apps through a store-like Mac interface."
 category: "Utilities"
-tags: ["app-management", "updates", "uninstaller", "homebrew"]
+tags: ["app-management", "updates", "uninstaller", "homebrew", "package-manager"]
 repository: "https://github.com/milanvarady/Applite"
 website: "https://applite.app"
 license: "MIT"

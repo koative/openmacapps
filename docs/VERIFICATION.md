@@ -1,5 +1,21 @@
 # Release verification
 
+## AlternativeTo-led expansion — 2026-10-29
+
+**Leads.** The 347 most popular paid and freemium Mac products on AlternativeTo were crawled with a headless browser, respecting its robots rules. For each of the 289 products not already in the catalog, the crawl also collected its open-source Mac alternatives. These were leads only: an agent checked each product against its official site and each app against its own README and record, and no AlternativeTo text was copied.
+
+**Result.**
+- 34 new alternatives pages, for 92 in total, among them Microsoft Word, Excel, PowerPoint and Outlook, REAPER, FL Studio, Ableton Live, Pro Tools, Claude Code, Fork, Opera, Vivaldi, NordVPN, f.lux, Affinity and SketchUp.
+- 15 new topic pages, for 49 in total, among them digital audio workstations, time trackers, torrent clients, Homebrew apps, Android mirroring, 3D modeling and CAD, and notch apps.
+- Additional apps on 13 existing pages.
+
+**Rejected.**
+- Products that are themselves open source or source-available: VLC, 7-Zip, KeePass, the Codex CLI, Proton Pass, Dashlane and others.
+- Products with fewer than two apps doing the same core job: Clip Studio Paint, After Effects, Proxyman, Transmit, BetterTouchTool, DEVONthink, Trello and others.
+- Many loose AlternativeTo pairings, such as Wireshark for Little Snitch, Karabiner-Elements for TextExpander, and Joplin for Notion.
+
+**Audit.** 85 app records changed, and only their `tags` and `alternativeTo` lines differ. Two apps named Pulse now get distinct page titles. `bun run validate`, `bun test`, `bun run check`, `bun run build` (1,042 pages) and `bun run check:links` (81,300 links) pass, and no page lacks a description or has a duplicate title.
+
 ## Alternatives, topics, SEO and installable app — 2026-10-29
 
 - **New pages:** 58 alternatives pages (`/alternatives/<id>/`, proprietary products with at least two genuine replacements) and 34 topic pages (`/topics/<slug>/`, built from precise tags). They are generated from `alternativeTo` on 171 app records and tags on the rest, so new app folders join them automatically. 304 app records changed, and an audit against the previous commit confirmed that only their `tags` and `alternativeTo` lines differ; one tag was removed on purpose (`code-editor` from Open in Code, which is a Finder button rather than an editor).

@@ -10,6 +10,7 @@ tags:
 alternativeTo:
   - lightroom
   - capture-one
+  - luminar-neo
 repository: https://github.com/RawTherapee/RawTherapee
 website: https://rawtherapee.com/
 license: GPL-3.0

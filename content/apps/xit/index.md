@@ -8,6 +8,7 @@ tags:
   - git-client
 alternativeTo:
   - tower
+  - fork
 repository: https://github.com/Uncommon/Xit
 website: https://github.com/Uncommon/Xit
 license: 'Apache-2.0'

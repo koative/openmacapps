@@ -3,6 +3,7 @@ name: "Geany"
 summary: "A compact editor and IDE with syntax highlighting, project tools, and build commands."
 category: "Developer tools"
 tags: ["code-editor", "ide", "cross-platform"]
+alternativeTo: ["ultraedit", "sublime-text"]
 repository: "https://github.com/geany/geany"
 website: "https://www.geany.org"
 license: "GPL-2.0"

@@ -7,6 +7,8 @@ tags:
   - trackpad
   - gestures
   - window-manager
+alternativeTo:
+  - magnet
 repository: https://github.com/dgurkaynak/Penc
 website: https://deniz.co/penc/
 license: MIT

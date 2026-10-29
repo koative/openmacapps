@@ -7,6 +7,9 @@ tags:
   - photography
   - photo-library
   - metadata
+alternativeTo:
+  - lightroom
+  - acdsee
 repository: https://invent.kde.org/graphics/digikam
 website: https://www.digikam.org/
 license: GPL-2.0-or-later

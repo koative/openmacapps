@@ -6,6 +6,8 @@ tags:
   - display
   - night-shift
   - menu-bar
+alternativeTo:
+  - f-lux
 repository: https://github.com/thompsonate/Shifty
 website: https://github.com/thompsonate/Shifty
 license: GPL-3.0

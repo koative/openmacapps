@@ -3,7 +3,7 @@ name: "Floorp"
 summary: "A Firefox-based browser with additional workspace and interface customization tools."
 category: "Internet"
 tags: ["browser", "customization", "workspaces"]
-alternativeTo: ["google-chrome", "arc"]
+alternativeTo: ["google-chrome", "arc", "opera", "vivaldi"]
 repository: "https://github.com/Floorp-Projects/Floorp"
 website: "https://floorp.app"
 license: "MPL-2.0"

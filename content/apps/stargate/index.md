@@ -8,9 +8,17 @@ tags:
   - sequencer
   - plugins
   - audio-editor
+  - daw
 alternativeTo:
   - garageband
   - logic-pro
+  - reaper
+  - fl-studio
+  - ableton-live
+  - bitwig-studio
+  - cubase
+  - pro-tools
+  - fender-studio-pro
 repository: "https://github.com/stargatedaw/stargate"
 website: "https://github.com/stargatedaw/stargate"
 license: "GPL-3.0"

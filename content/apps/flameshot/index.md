@@ -7,6 +7,8 @@ tags:
   - annotation
   - cross-platform
   - screenshot-tool
+alternativeTo:
+  - snagit
 repository: https://github.com/flameshot-org/flameshot
 website: https://flameshot.org
 license: "GPL-3.0-or-later"

@@ -3,7 +3,7 @@ name: "Brave"
 summary: "A Chromium-based browser with built-in controls for advertisements and trackers."
 category: "Internet"
 tags: ["browser", "privacy", "web"]
-alternativeTo: ["google-chrome"]
+alternativeTo: ["google-chrome", "opera", "vivaldi"]
 repository: "https://github.com/brave/brave-browser"
 website: "https://brave.com"
 license: "MPL-2.0"

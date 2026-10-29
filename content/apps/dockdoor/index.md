@@ -6,6 +6,7 @@ tags:
   - dock
   - window-management
   - previews
+  - app-switcher
 repository: https://github.com/ejbills/DockDoor
 website: https://dockdoor.net
 license: GPL-3.0-or-later

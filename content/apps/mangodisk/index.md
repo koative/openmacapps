@@ -13,6 +13,7 @@ alternativeTo:
   - cleanmymac
   - appcleaner
   - daisydisk
+  - ccleaner
 repository: https://github.com/harry0703/MangoDisk
 website: https://mangodisk.app
 license: "GPL-3.0"

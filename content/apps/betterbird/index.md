@@ -3,6 +3,7 @@ name: "Betterbird"
 summary: "A Thunderbird-based email client with an additional set of fixes and usability changes."
 category: "Internet"
 tags: ["email", "calendar", "contacts"]
+alternativeTo: ["microsoft-outlook"]
 repository: "https://github.com/Betterbird/thunderbird-patches"
 website: "https://www.betterbird.eu"
 license: "MPL-2.0"

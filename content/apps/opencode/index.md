@@ -7,6 +7,8 @@ tags:
   - agents
   - terminal
   - cross-platform
+alternativeTo:
+  - claude-code
 repository: https://github.com/anomalyco/opencode
 website: https://opencode.ai
 license: "MIT"

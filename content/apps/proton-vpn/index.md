@@ -3,6 +3,7 @@ name: "Proton VPN"
 summary: "The open-source macOS client for connecting to Proton VPN."
 category: "Privacy & security"
 tags: ["vpn", "network", "privacy", "vpn-client"]
+alternativeTo: ["nordvpn", "cyberghost"]
 repository: "https://github.com/ProtonVPN/ios-mac-app"
 website: "https://protonvpn.com"
 license: "GPL-3.0"

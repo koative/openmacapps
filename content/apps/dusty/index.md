@@ -10,6 +10,7 @@ tags:
   - disk-cleaner
 alternativeTo:
   - cleanmymac
+  - ccleaner
 repository: "https://github.com/yagcioglutoprak/dusty"
 website: "https://toprak.sh/dusty"
 license: "MIT"

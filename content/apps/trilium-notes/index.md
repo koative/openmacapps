@@ -3,7 +3,7 @@ name: "Trilium Notes"
 summary: "Build a hierarchical personal knowledge base with rich notes, links, and attachments."
 category: "Writing"
 tags: ["notes", "knowledge-base", "self-hosted", "note-taking"]
-alternativeTo: ["obsidian"]
+alternativeTo: ["obsidian", "evernote"]
 repository: "https://github.com/TriliumNext/Trilium"
 website: "https://triliumnotes.org/"
 license: "AGPL-3.0"

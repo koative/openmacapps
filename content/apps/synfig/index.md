@@ -3,6 +3,7 @@ name: "Synfig Studio"
 summary: "Animate vector artwork with keyframes, interpolation, layers, and a timeline."
 category: "Design"
 tags: ["animation", "vector", "2d"]
+alternativeTo: ["adobe-animate", "moho"]
 repository: "https://github.com/synfig/synfig"
 website: "https://www.synfig.org/"
 license: "GPL-3.0"

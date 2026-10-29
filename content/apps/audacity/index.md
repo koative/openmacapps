@@ -3,6 +3,7 @@ name: "Audacity"
 summary: "Record, trim, mix, and process audio in a multitrack desktop editor."
 category: "Media"
 tags: ["audio", "recording", "audio-editor"]
+alternativeTo: ["adobe-audition"]
 repository: "https://github.com/audacity/audacity"
 website: "https://www.audacityteam.org/"
 license: "GPL-3.0-only"

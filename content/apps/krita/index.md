@@ -8,6 +8,8 @@ tags:
   - painting
   - animation
   - image-editor
+alternativeTo:
+  - photoshop
 repository: https://github.com/KDE/krita
 website: https://krita.org/
 license: GPL-3.0

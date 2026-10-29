@@ -7,6 +7,8 @@ tags:
   - downloads
   - bittorrent
   - cross-platform
+alternativeTo:
+  - utorrent
 repository: https://github.com/qbittorrent/qBittorrent
 website: https://www.qbittorrent.org
 license: GPL-2.0-or-later

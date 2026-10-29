@@ -6,6 +6,9 @@ tags:
   - time-tracking
   - privacy
   - cross-platform
+alternativeTo:
+  - rescuetime
+  - manictime
 repository: https://github.com/WINBIGFOX/TimeScribe
 website: https://timescribe.app
 license: "GPL-3.0"

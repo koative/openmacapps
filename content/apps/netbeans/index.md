@@ -6,6 +6,8 @@ tags:
   - ide
   - code-editor
   - cross-platform
+alternativeTo:
+  - phpstorm
 repository: "https://github.com/apache/netbeans"
 website: "https://netbeans.apache.org"
 license: "Apache-2.0"

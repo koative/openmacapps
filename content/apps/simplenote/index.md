@@ -8,6 +8,9 @@ tags:
   - plain-text
   - sync
   - note-taking
+alternativeTo:
+  - evernote
+  - google-keep
 repository: https://github.com/Automattic/simplenote-macos
 website: https://simplenote.com
 license: "GPL-2.0"

@@ -3,6 +3,7 @@ name: "OpenToonz"
 summary: "Produce 2D animation with drawing tools, an exposure sheet, and compositing controls."
 category: "Design"
 tags: ["animation", "2d", "compositing"]
+alternativeTo: ["adobe-animate", "moho"]
 repository: "https://github.com/opentoonz/opentoonz"
 website: "https://opentoonz.github.io/e/"
 license: "BSD-3-Clause"

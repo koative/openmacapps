@@ -3,7 +3,7 @@ name: "GitHub Desktop"
 summary: "A desktop Git workflow for reviewing diffs, committing changes, and working with branches."
 category: "Developer tools"
 tags: ["git", "github", "version-control", "git-client"]
-alternativeTo: ["tower"]
+alternativeTo: ["tower", "fork"]
 repository: "https://github.com/desktop/desktop"
 website: "https://github.com/apps/desktop"
 license: "MIT"

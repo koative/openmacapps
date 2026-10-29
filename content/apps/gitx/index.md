@@ -8,6 +8,7 @@ tags:
   - git-client
 alternativeTo:
   - tower
+  - fork
 repository: "https://github.com/gitx/gitx"
 website: "https://github.com/gitx/gitx"
 license: "GPL-2.0-only"

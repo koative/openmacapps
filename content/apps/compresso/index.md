@@ -8,6 +8,7 @@ tags:
   - images
   - offline
   - cross-platform
+  - video-converter
 repository: https://github.com/codeforreal1/compressO
 website: https://compresso.codeforreal.com
 license: "AGPL-3.0"

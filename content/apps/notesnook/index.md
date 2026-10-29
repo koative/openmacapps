@@ -3,7 +3,7 @@ name: "Notesnook"
 summary: "Keep notes and notebooks in a writing app built around encrypted synchronization."
 category: "Writing"
 tags: ["notes", "privacy", "encryption", "note-taking"]
-alternativeTo: ["evernote"]
+alternativeTo: ["evernote", "google-keep"]
 repository: "https://github.com/streetwriters/notesnook"
 website: "https://notesnook.com/"
 license: "GPL-3.0"

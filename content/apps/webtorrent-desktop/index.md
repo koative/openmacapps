@@ -7,6 +7,8 @@ tags:
   - streaming
   - video
   - cross-platform
+alternativeTo:
+  - utorrent
 repository: https://github.com/webtorrent/webtorrent-desktop
 website: https://webtorrent.io/desktop/
 license: "MIT"

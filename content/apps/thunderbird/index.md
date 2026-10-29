@@ -3,6 +3,7 @@ name: "Thunderbird"
 summary: "Manage email accounts, calendars, and contacts in Mozilla's desktop mail application."
 category: "Internet"
 tags: ["email", "calendar", "contacts"]
+alternativeTo: ["microsoft-outlook"]
 repository: "https://github.com/thunderbird/thunderbird-desktop"
 website: "https://www.thunderbird.net"
 license: "MPL-2.0"

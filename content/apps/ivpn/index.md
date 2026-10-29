@@ -3,6 +3,7 @@ name: "IVPN"
 summary: "The open-source desktop client for connecting to the IVPN service."
 category: "Privacy & security"
 tags: ["vpn", "network", "privacy", "vpn-client"]
+alternativeTo: ["nordvpn", "cyberghost"]
 repository: "https://github.com/ivpn/desktop-app"
 website: "https://www.ivpn.net"
 license: "GPL-3.0"

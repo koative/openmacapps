@@ -3,6 +3,7 @@ name: "Pencil2D"
 summary: "Make hand-drawn animation with bitmap and vector layers on a straightforward timeline."
 category: "Design"
 tags: ["animation", "drawing", "2d"]
+alternativeTo: ["adobe-animate"]
 repository: "https://github.com/pencil2d/pencil"
 website: "https://www.pencil2d.org/"
 license: "GPL-2.0"

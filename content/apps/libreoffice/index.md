@@ -3,7 +3,7 @@ name: "LibreOffice"
 summary: "Create documents, spreadsheets, presentations, and drawings in an open desktop office suite."
 category: "Productivity"
 tags: ["office", "documents", "spreadsheets"]
-alternativeTo: ["microsoft-office"]
+alternativeTo: ["microsoft-office", "microsoft-word", "microsoft-excel", "microsoft-powerpoint"]
 repository: "https://github.com/LibreOffice/core"
 website: "https://www.libreoffice.org/"
 license: "MPL-2.0"

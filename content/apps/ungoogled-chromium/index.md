@@ -9,6 +9,8 @@ tags:
 - chromium
 alternativeTo:
 - google-chrome
+- opera
+- vivaldi
 repository: https://github.com/ungoogled-software/ungoogled-chromium
 website: https://github.com/ungoogled-software/ungoogled-chromium
 license: BSD-3-Clause

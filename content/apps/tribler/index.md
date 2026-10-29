@@ -3,6 +3,7 @@ name: "Tribler"
 summary: "A BitTorrent client that routes downloads through its own onion-style relay network to keep peers anonymous."
 category: "Internet"
 tags: ["bittorrent", "privacy", "peer-to-peer", "downloads", "cross-platform"]
+alternativeTo: ["utorrent"]
 repository: "https://github.com/Tribler/tribler"
 website: "https://www.tribler.org"
 license: "GPL-3.0"

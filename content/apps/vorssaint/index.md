@@ -3,6 +3,7 @@ name: "Vorssaint"
 summary: "A modular menu bar toolkit with audio mixing, system stats, window tools, clipboard history and more."
 category: "Utilities"
 tags: ["menu-bar", "window-management", "system-monitoring", "clipboard", "audio"]
+alternativeTo: ["cleanshot"]
 repository: "https://github.com/vorssaint/vorssaint-utils"
 website: "https://vorssaint.com"
 license: "GPL-3.0"

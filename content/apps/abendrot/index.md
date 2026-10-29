@@ -6,6 +6,8 @@ tags:
   - display
   - night-shift
   - menu-bar
+alternativeTo:
+  - f-lux
 repository: https://github.com/matthewrball/abendrot
 website: https://abendrot.app
 license: "MIT"

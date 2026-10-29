@@ -3,6 +3,7 @@ name: "ActivityWatch"
 summary: "Track which apps, windows and sites you use, with the activity data kept on your own computer."
 category: "Productivity"
 tags: ["time-tracking", "privacy", "local-first", "cross-platform"]
+alternativeTo: ["rescuetime", "manictime"]
 repository: "https://github.com/ActivityWatch/activitywatch"
 website: "https://activitywatch.net"
 license: "MPL-2.0"

@@ -5,6 +5,8 @@ category: "Internet"
 tags:
   - email
   - cross-platform
+alternativeTo:
+  - microsoft-outlook
 repository: "https://github.com/Foundry376/Mailspring"
 website: "https://www.getmailspring.com"
 license: "GPL-3.0"

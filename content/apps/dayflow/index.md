@@ -7,6 +7,9 @@ tags:
 - journaling
 - local-ai
 - privacy
+alternativeTo:
+- rescuetime
+- manictime
 repository: https://github.com/JerryZLiu/Dayflow
 website: https://www.dayflow.so/
 license: MIT

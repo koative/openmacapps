@@ -8,6 +8,7 @@ tags:
   - git-client
 alternativeTo:
   - tower
+  - fork
 repository: https://github.com/maoyama/Changes
 website: https://github.com/maoyama/Changes
 license: "MIT"

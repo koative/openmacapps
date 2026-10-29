@@ -2,7 +2,7 @@
 name: "AltTab"
 summary: "Switch between individual windows with visual previews."
 category: "Productivity"
-tags: ["window-management", "keyboard", "native"]
+tags: ["window-management", "keyboard", "native", "app-switcher"]
 repository: "https://github.com/lwouis/alt-tab-macos"
 website: "https://alt-tab.app"
 license: "GPL-3.0"

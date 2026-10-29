@@ -11,6 +11,7 @@ tags:
 alternativeTo:
   - photoshop
   - pixelmator-pro
+  - photoshop-elements
 repository: https://github.com/robaho/seashore
 website: https://github.com/robaho/seashore
 license: "GPL-2.0"

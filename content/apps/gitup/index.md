@@ -3,7 +3,7 @@ name: "GitUp"
 summary: "A Mac Git client built around an interactive history graph and reversible operations."
 category: "Developer tools"
 tags: ["git", "version-control", "native", "git-client"]
-alternativeTo: ["tower"]
+alternativeTo: ["tower", "fork"]
 repository: "https://github.com/git-up/GitUp"
 website: "https://gitup.co"
 license: "GPL-3.0"

@@ -6,6 +6,7 @@ tags:
   - desktop
   - customization
   - images
+  - wallpaper
 repository: "https://github.com/rlxone/Equinox"
 website: "https://equinoxmac.com"
 license: "MIT"

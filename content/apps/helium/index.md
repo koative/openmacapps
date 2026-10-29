@@ -9,6 +9,8 @@ tags:
   - cross-platform
 alternativeTo:
   - google-chrome
+  - opera
+  - vivaldi
 repository: https://github.com/imputnet/helium
 website: https://helium.computer
 license: "GPL-3.0 AND BSD-3-Clause"

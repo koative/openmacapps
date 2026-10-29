@@ -3,7 +3,7 @@ name: "Joplin"
 summary: "Organize notes, to-do lists, and attachments in notebooks with optional synchronization."
 category: "Writing"
 tags: ["notes", "markdown", "sync", "note-taking"]
-alternativeTo: ["evernote"]
+alternativeTo: ["evernote", "google-keep"]
 repository: "https://github.com/laurent22/joplin"
 website: "https://joplinapp.org/"
 license: "AGPL-3.0-or-later"
