@@ -7,6 +7,7 @@ tags:
   - speech-to-text
   - keyboard-shortcuts
   - local-ai
+  - voice-typing
 repository: https://github.com/mylxsw/typeflux
 website: https://typeflux.app
 license: "AGPL-3.0"

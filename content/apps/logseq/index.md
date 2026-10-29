@@ -2,7 +2,8 @@
 name: "Logseq"
 summary: "Connect daily notes and ideas through an outliner with backlinks and linked references."
 category: "Writing"
-tags: ["notes", "outliner", "knowledge-base"]
+tags: ["notes", "outliner", "knowledge-base", "note-taking"]
+alternativeTo: ["obsidian"]
 repository: "https://github.com/logseq/logseq"
 website: "https://logseq.com/"
 license: "AGPL-3.0"

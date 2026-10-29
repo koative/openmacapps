@@ -6,6 +6,8 @@ tags:
   - menu-bar
   - organization
   - profiles
+alternativeTo:
+  - bartender
 repository: https://github.com/thaw-app/Thaw
 website: https://www.getthaw.app
 license: GPL-3.0

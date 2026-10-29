@@ -7,6 +7,7 @@ tags:
 - music
 - streaming
 - cross-platform
+- music-player
 repository: https://github.com/ytmdesktop/ytmdesktop
 website: https://ytmdesktop.github.io
 license: GPL-3.0

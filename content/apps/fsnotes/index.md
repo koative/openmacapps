@@ -2,7 +2,8 @@
 name: "FSNotes"
 summary: "Keep searchable notes in plain-text files."
 category: "Writing"
-tags: ["notes", "markdown", "native"]
+tags: ["notes", "markdown", "native", "note-taking"]
+alternativeTo: ["bear"]
 repository: "https://github.com/glushchenko/fsnotes"
 website: "https://fsnot.es"
 license: "MIT"

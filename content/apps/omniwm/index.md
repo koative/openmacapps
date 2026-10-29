@@ -6,6 +6,7 @@ tags:
   - window-management
   - tiling
   - workspaces
+  - window-manager
 repository: https://github.com/OmniNull/OmniWM
 website: https://omniwm.app
 license: GPL-2.0

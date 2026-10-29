@@ -5,6 +5,8 @@ category: Utilities
 tags:
   - menu-bar
   - organization
+alternativeTo:
+  - bartender
 repository: https://github.com/Mortennn/Dozer
 website: https://github.com/Mortennn/Dozer
 license: MPL-2.0

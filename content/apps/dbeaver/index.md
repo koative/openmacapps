@@ -2,7 +2,8 @@
 name: "DBeaver Community"
 summary: "A database workbench for browsing tables, writing SQL, and managing many database engines."
 category: "Developer tools"
-tags: ["database", "sql", "cross-platform"]
+tags: ["database", "sql", "cross-platform", "database-client"]
+alternativeTo: ["tableplus"]
 repository: "https://github.com/dbeaver/dbeaver"
 website: "https://dbeaver.io"
 license: "Apache-2.0"

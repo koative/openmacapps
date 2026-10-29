@@ -8,6 +8,9 @@ tags:
   - encryption
   - self-hosted
   - cross-platform
+alternativeTo:
+  - 1password
+  - lastpass
 repository: https://github.com/padloc/padloc
 website: https://padloc.app
 license: AGPL-3.0

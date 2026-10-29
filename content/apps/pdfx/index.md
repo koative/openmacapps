@@ -6,6 +6,7 @@ tags:
   - pdf
   - drag-and-drop
   - cross-platform
+  - pdf-tools
 repository: https://github.com/AlexandrosGounis/pdfx
 website: https://pdfx.zip
 license: "MIT"

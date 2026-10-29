@@ -7,6 +7,7 @@ tags:
   - markdown
   - keyboard-shortcuts
   - local-first
+  - note-taking
 repository: https://github.com/Ender-Wang/EdgeMark
 website: https://github.com/Ender-Wang/EdgeMark
 license: GPL-3.0

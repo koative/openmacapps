@@ -7,6 +7,9 @@ tags:
   - storage
   - menu-bar
   - disk-usage
+  - disk-cleaner
+alternativeTo:
+  - cleanmymac
 repository: "https://github.com/yagcioglutoprak/dusty"
 website: "https://toprak.sh/dusty"
 license: "MIT"

@@ -7,6 +7,7 @@ tags:
   - speech-to-text
   - local-ai
   - privacy
+  - voice-typing
 repository: https://github.com/saurabhav88/EnviousWispr
 website: https://enviouswispr.com
 license: "GPL-3.0"

@@ -7,6 +7,7 @@ tags:
   - screen-recording
   - screenshots
   - cross-platform
+  - screen-recorder
 repository: https://github.com/justinfrankel/licecap
 website: https://www.cockos.com/licecap/
 license: "GPL-2.0-or-later"

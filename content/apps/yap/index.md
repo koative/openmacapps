@@ -8,6 +8,7 @@ tags:
 - menu-bar
 - keyboard-shortcuts
 - privacy
+- voice-typing
 repository: https://github.com/FrigadeHQ/yap
 website: https://frigade.com/yap
 license: MIT

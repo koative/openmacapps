@@ -6,6 +6,9 @@ tags:
   - clipboard
   - pinboards
   - search
+  - clipboard-manager
+alternativeTo:
+  - paste
 repository: https://github.com/IvyGain/Pasty
 website: https://github.com/IvyGain/Pasty/releases
 license: MIT

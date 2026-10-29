@@ -8,6 +8,7 @@ tags:
   - menu-bar
   - privacy
   - input
+  - voice-typing
 repository: "https://github.com/larryxiao/openquack"
 website: "https://larryxiao.github.io/openquack/"
 license: "MIT"

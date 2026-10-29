@@ -2,7 +2,8 @@
 name: "AppFlowy"
 summary: "Arrange documents, tasks, and structured information in a customizable desktop workspace."
 category: "Productivity"
-tags: ["notes", "workspace", "databases"]
+tags: ["notes", "workspace", "databases", "note-taking"]
+alternativeTo: ["notion"]
 repository: "https://github.com/AppFlowy-IO/AppFlowy"
 website: "https://appflowy.com/"
 license: "AGPL-3.0"

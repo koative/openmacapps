@@ -6,6 +6,7 @@ tags:
   - http
   - api
   - testing
+  - api-client
 repository: https://github.com/mmattozzi/cocoa-rest-client
 website: https://mmattozzi.github.io/cocoa-rest-client/
 license: "BSD-3-Clause"

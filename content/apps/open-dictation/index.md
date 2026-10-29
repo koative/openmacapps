@@ -7,6 +7,7 @@ tags:
   - speech-to-text
   - local-ai
   - notch
+  - voice-typing
 repository: https://github.com/kdcokenny/OpenDictation
 website: https://github.com/kdcokenny/OpenDictation
 license: MIT

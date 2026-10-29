@@ -8,6 +8,7 @@ tags:
 - input
 - languages
 - remapping
+- keyboard-customization
 repository: https://github.com/Serpentiel/betterglobekey
 website: https://github.com/Serpentiel/betterglobekey
 license: MIT

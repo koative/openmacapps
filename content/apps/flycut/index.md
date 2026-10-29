@@ -6,6 +6,9 @@ tags:
   - clipboard
   - keyboard-shortcuts
   - history
+  - clipboard-manager
+alternativeTo:
+  - paste
 repository: https://github.com/TermiT/Flycut
 website: https://github.com/TermiT/Flycut
 license: MIT

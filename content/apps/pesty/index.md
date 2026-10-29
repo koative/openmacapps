@@ -6,6 +6,9 @@ tags:
   - clipboard
   - pinboards
   - search
+  - clipboard-manager
+alternativeTo:
+  - paste
 repository: https://github.com/momenbasel/pesty
 website: https://www.moamenbasel.com/pesty/
 license: MIT

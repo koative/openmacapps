@@ -3,6 +3,7 @@ name: "Lite XL"
 summary: "A lightweight text editor extended with Lua plugins and a deliberately compact interface."
 category: "Developer tools"
 tags: ["code-editor", "lightweight", "lua"]
+alternativeTo: ["sublime-text"]
 repository: "https://github.com/lite-xl/lite-xl"
 website: "https://lite-xl.com"
 license: "MIT"

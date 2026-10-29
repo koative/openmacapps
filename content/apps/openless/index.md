@@ -6,6 +6,7 @@ tags:
   - dictation
   - speech-to-text
   - cross-platform
+  - voice-typing
 repository: https://github.com/Open-Less/openless
 website: https://openless.top
 license: "AGPL-3.0-only"

@@ -2,7 +2,7 @@
 name: "Plug"
 summary: "A Mac client for discovering and listening to music blogs through Hype Machine."
 category: "Media"
-tags: ["music", "streaming", "native"]
+tags: ["music", "streaming", "native", "music-player"]
 repository: "https://github.com/wulkano/Plug"
 website: "https://plugformac.com"
 license: "MIT"

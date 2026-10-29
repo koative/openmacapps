@@ -2,7 +2,7 @@
 name: "Petrichor"
 summary: "An offline music player for local libraries, with smart playlists, synced lyrics and internet radio."
 category: "Media"
-tags: ["music", "audio-player", "library", "native"]
+tags: ["music", "audio-player", "library", "native", "music-player"]
 repository: "https://github.com/kushalpandya/Petrichor"
 website: "https://petrichor.page"
 license: "MIT"

@@ -3,6 +3,7 @@ name: "Lapce"
 summary: "A code editor built around responsive editing, language tools, and a modern interface."
 category: "Developer tools"
 tags: ["code-editor", "development", "cross-platform"]
+alternativeTo: ["sublime-text", "visual-studio-code"]
 repository: "https://github.com/lapce/lapce"
 website: "https://lap.dev/lapce/"
 license: "Apache-2.0"

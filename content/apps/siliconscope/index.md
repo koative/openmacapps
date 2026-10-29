@@ -2,7 +2,7 @@
 name: "SiliconScope"
 summary: "A system monitor for Apple silicon Macs that charts CPU, GPU, Neural Engine, media engine and memory bandwidth."
 category: "Utilities"
-tags: ["system-monitoring", "menu-bar", "monitoring", "processes"]
+tags: ["system-monitoring", "menu-bar", "monitoring", "processes", "system-monitor"]
 repository: "https://github.com/kennss/SiliconScope"
 website: "https://siliconscope.calidalab.ai"
 license: "MIT"

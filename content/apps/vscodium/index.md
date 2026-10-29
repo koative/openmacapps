@@ -3,6 +3,7 @@ name: "VSCodium"
 summary: "Community builds of the VS Code source with a different default distribution setup."
 category: "Developer tools"
 tags: ["code-editor", "extensions", "cross-platform"]
+alternativeTo: ["visual-studio-code"]
 repository: "https://github.com/VSCodium/vscodium"
 website: "https://vscodium.com"
 license: "MIT"

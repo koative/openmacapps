@@ -2,7 +2,7 @@
 name: "Museeks"
 summary: "A simple, clean music player for local libraries, with playlists, a queue and cover art."
 category: "Media"
-tags: ["music", "audio-player", "cross-platform"]
+tags: ["music", "audio-player", "cross-platform", "music-player"]
 repository: "https://github.com/martpie/museeks"
 website: "https://museeks.io"
 license: "MIT"

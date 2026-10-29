@@ -8,6 +8,11 @@ tags:
   - annotation
   - ocr
   - video-editor
+  - screenshot-tool
+  - screen-recorder
+alternativeTo:
+  - cleanshot
+  - snagit
 repository: "https://github.com/KartikLabhshetwar/better-shot"
 website: "https://www.bettershot.site"
 license: "BSD-3-Clause"

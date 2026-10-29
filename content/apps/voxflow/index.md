@@ -8,6 +8,7 @@ tags:
   - clipboard
   - screenshots
   - coding-agents
+  - voice-typing
 repository: https://github.com/xingbofeng/VoxFlow
 website: https://github.com/xingbofeng/VoxFlow
 license: "GPL-3.0-or-later"

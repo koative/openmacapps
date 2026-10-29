@@ -2,7 +2,7 @@
 name: "NAPS2"
 summary: "Scan documents, arrange pages, and create searchable PDFs with a focused desktop scanning app."
 category: "Utilities"
-tags: ["scanner", "pdf", "ocr"]
+tags: ["scanner", "pdf", "ocr", "pdf-tools"]
 repository: "https://github.com/cyanfish/naps2"
 website: "https://www.naps2.com/"
 license: "GPL-2.0-or-later"

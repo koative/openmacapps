@@ -2,7 +2,8 @@
 name: "Rectangle"
 summary: "Arrange your windows with keyboard shortcuts and simple edge snapping."
 category: "Productivity"
-tags: ["window-management", "keyboard", "native"]
+tags: ["window-management", "keyboard", "native", "window-manager"]
+alternativeTo: ["magnet"]
 repository: "https://github.com/rxhanson/Rectangle"
 website: "https://rectangleapp.com"
 license: "MIT"

@@ -7,6 +7,8 @@ tags:
   - storage
   - cleanup
   - cross-platform
+alternativeTo:
+  - daisydisk
 repository: https://github.com/adileo/squirreldisk
 website: https://www.squirreldisk.com
 license: "AGPL-3.0"

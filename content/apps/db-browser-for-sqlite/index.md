@@ -2,7 +2,7 @@
 name: "DB Browser for SQLite"
 summary: "Browse SQLite files, edit tables, and run SQL through a desktop interface."
 category: "Developer tools"
-tags: ["database", "sqlite", "sql"]
+tags: ["database", "sqlite", "sql", "database-client"]
 repository: "https://github.com/sqlitebrowser/sqlitebrowser"
 website: "https://sqlitebrowser.org"
 license: "MPL-2.0 OR GPL-3.0-or-later"

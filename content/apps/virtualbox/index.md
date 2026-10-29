@@ -6,6 +6,9 @@ tags:
   - virtual-machines
   - cross-platform
   - linux
+alternativeTo:
+  - parallels-desktop
+  - vmware-fusion
 repository: https://github.com/VirtualBox/virtualbox
 website: https://www.virtualbox.org
 license: "GPL-3.0-only"

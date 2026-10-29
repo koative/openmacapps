@@ -9,6 +9,10 @@ tags:
   - snippets
   - dictation
   - window-management
+alternativeTo:
+  - alfred
+  - raycast
+  - textexpander
 repository: https://github.com/SuperCmdLabs/SuperCmd
 website: https://supercmd.sh
 license: MIT

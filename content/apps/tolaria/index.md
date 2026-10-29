@@ -8,6 +8,9 @@ tags:
   - knowledge-base
   - git
   - cross-platform
+  - note-taking
+alternativeTo:
+  - obsidian
 repository: https://github.com/refactoringhq/tolaria
 website: https://tolaria.md
 license: "AGPL-3.0"

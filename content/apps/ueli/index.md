@@ -7,6 +7,8 @@ tags:
   - search
   - keyboard-shortcuts
   - cross-platform
+alternativeTo:
+  - alfred
 repository: https://github.com/oliverschwendener/ueli
 website: https://ueli.app
 license: "MIT"

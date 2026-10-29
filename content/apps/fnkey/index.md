@@ -6,6 +6,7 @@ tags:
   - dictation
   - speech-to-text
   - menu-bar
+  - voice-typing
 repository: https://github.com/evoleinik/fnkey
 website: https://github.com/evoleinik/fnkey
 license: GPL-3.0

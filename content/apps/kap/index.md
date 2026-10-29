@@ -2,7 +2,7 @@
 name: "Kap"
 summary: "Capture a small moment on your screen and share it as a clip."
 category: "Media"
-tags: ["screen-recording", "video", "sharing"]
+tags: ["screen-recording", "video", "sharing", "screen-recorder"]
 repository: "https://github.com/wulkano/Kap"
 website: "https://getkap.co"
 license: "MIT"

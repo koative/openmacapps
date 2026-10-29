@@ -6,6 +6,7 @@ tags:
 - terminal
 - shell
 - coding-agents
+- terminal-emulator
 repository: https://github.com/tw93/Kaku
 website: https://kaku.fun
 license: MIT

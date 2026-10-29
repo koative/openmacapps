@@ -7,6 +7,7 @@ tags:
   - markdown
   - plain-text
   - publishing
+  - note-taking
 repository: https://github.com/hbowie/Notenik-25
 website: https://notenik.app
 license: MIT

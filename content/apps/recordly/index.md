@@ -2,7 +2,8 @@
 name: "Recordly"
 summary: "Record your screen and edit it into polished demos with automatic zooms, cursor smoothing and styled frames."
 category: "Media"
-tags: ["screen-recording", "video", "video-editor", "cross-platform"]
+tags: ["screen-recording", "video", "video-editor", "cross-platform", "screen-recorder"]
+alternativeTo: ["screenflow", "camtasia", "screen-studio"]
 repository: "https://github.com/webadderallorg/Recordly"
 website: "https://www.recordly.dev"
 license: "AGPL-3.0"

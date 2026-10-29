@@ -7,6 +7,7 @@ tags:
 - streaming
 - menu-bar
 - audio-player
+- music-player
 repository: https://github.com/ealeksandrov/SomaFM-miniplayer
 website: https://github.com/ealeksandrov/SomaFM-miniplayer
 license: MIT

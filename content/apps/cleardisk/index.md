@@ -7,6 +7,7 @@ tags:
   - storage
   - menu-bar
   - development
+  - disk-cleaner
 repository: https://github.com/bysiber/cleardisk
 website: https://bysiber.github.io/cleardisk/
 license: "MIT"

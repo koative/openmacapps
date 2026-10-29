@@ -5,6 +5,9 @@ category: Utilities
 tags:
   - menu-bar
   - system-monitoring
+  - system-monitor
+alternativeTo:
+  - istat-menus
 repository: https://github.com/yujitach/MenuMeters
 website: https://github.com/yujitach/MenuMeters
 license: GPL-2.0

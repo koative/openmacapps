@@ -8,6 +8,7 @@ tags:
   - transcription
   - dictation
   - search
+  - voice-typing
 repository: https://github.com/stevyhacker/LokalBot
 website: https://www.lokalbot.com
 license: "GPL-3.0"

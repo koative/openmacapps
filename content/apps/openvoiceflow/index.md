@@ -7,6 +7,7 @@ tags:
   - speech-to-text
   - local-ai
   - menu-bar
+  - voice-typing
 repository: https://github.com/shimoverse/openvoiceflow
 website: https://openvoiceflow.com
 license: "AGPL-3.0-or-later"

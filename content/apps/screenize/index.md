@@ -6,6 +6,11 @@ tags:
 - screen-recording
 - video-editing
 - presentations
+- screen-recorder
+alternativeTo:
+- screenflow
+- camtasia
+- screen-studio
 repository: https://github.com/syi0808/screenize
 website: https://syi0808.github.io/screenize/
 license: Apache-2.0

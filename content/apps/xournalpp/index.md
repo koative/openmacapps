@@ -2,7 +2,7 @@
 name: "Xournal++"
 summary: "Take handwritten notes, sketch diagrams, and annotate PDF documents with pen-based tools."
 category: "Writing"
-tags: ["handwriting", "pdf", "annotation"]
+tags: ["handwriting", "pdf", "annotation", "note-taking", "pdf-tools"]
 repository: "https://github.com/xournalpp/xournalpp"
 website: "https://xournalpp.github.io/"
 license: "GPL-2.0"

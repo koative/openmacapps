@@ -2,7 +2,8 @@
 name: "Ardour"
 summary: "A professional digital audio workstation for recording, editing and mixing audio and MIDI."
 category: "Media"
-tags: ["audio", "music", "recording", "cross-platform"]
+tags: ["audio", "music", "recording", "cross-platform", "audio-editor"]
+alternativeTo: ["garageband", "logic-pro"]
 repository: "https://github.com/Ardour/ardour"
 website: "https://ardour.org"
 license: "GPL-2.0-or-later"

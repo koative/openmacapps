@@ -7,6 +7,8 @@ tags:
   - uninstaller
   - cleanup
   - storage
+alternativeTo:
+  - appcleaner
 repository: https://github.com/alienator88/Pearcleaner
 website: https://github.com/alienator88/Pearcleaner
 license: Apache-2.0 WITH Commons-Clause

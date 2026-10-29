@@ -7,6 +7,7 @@ tags:
   - coding-agents
   - git
   - dictation
+  - terminal-emulator
 repository: https://github.com/AwalTerminal/Awal-terminal
 website: https://awalterminal.github.io/Awal-terminal/
 license: MIT

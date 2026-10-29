@@ -6,6 +6,8 @@ tags:
   - menu-bar
   - organization
   - customization
+alternativeTo:
+  - bartender
 repository: https://github.com/sane-apps/SaneBar
 website: https://sanebar.com/
 license: "MIT"

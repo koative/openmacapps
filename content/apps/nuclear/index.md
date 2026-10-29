@@ -2,7 +2,7 @@
 name: "Nuclear"
 summary: "Discover and play music through a desktop player that brings multiple online sources together."
 category: "Media"
-tags: ["music", "audio-player", "streaming"]
+tags: ["music", "audio-player", "streaming", "music-player"]
 repository: "https://github.com/nukeop/nuclear"
 website: "https://nuclearplayer.com/"
 license: "AGPL-3.0"

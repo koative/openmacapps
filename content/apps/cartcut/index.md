@@ -7,6 +7,10 @@ tags:
   - video-editing
   - agents
   - cross-platform
+alternativeTo:
+  - final-cut-pro
+  - adobe-premiere-pro
+  - davinci-resolve
 repository: "https://github.com/cartesiancs/cartcut"
 website: "https://cartesiancs.com/cartcut"
 license: "MIT"

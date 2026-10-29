@@ -5,6 +5,8 @@ category: Utilities
 tags:
   - menu-bar
   - sleep
+alternativeTo:
+  - amphetamine
 repository: https://github.com/newmarcel/KeepingYouAwake
 website: https://keepingyouawake.app
 license: MIT

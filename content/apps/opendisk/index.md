@@ -7,6 +7,8 @@ tags:
   - storage
   - cleanup
   - visualization
+alternativeTo:
+  - daisydisk
 repository: https://github.com/137137137/OpenDisk
 website: https://opendisk.app
 license: "MIT"

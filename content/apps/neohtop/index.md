@@ -6,6 +6,7 @@ tags:
   - system-monitoring
   - processes
   - cpu
+  - system-monitor
 repository: https://github.com/Abdenasser/neohtop
 website: https://abdenasser.github.io/neohtop/
 license: MIT

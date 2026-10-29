@@ -8,6 +8,7 @@ tags:
   - reader
   - quick-look
   - offline
+  - markdown-editor
 repository: https://github.com/ezzy1630/Downright
 website: https://downright.cc
 license: "MIT"

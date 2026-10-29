@@ -6,6 +6,9 @@ tags:
   - clipboard
   - history
   - keyboard-shortcuts
+  - clipboard-manager
+alternativeTo:
+  - paste
 repository: https://github.com/mattDavo/Yippy
 website: https://github.com/mattDavo/Yippy
 license: MIT

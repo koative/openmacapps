@@ -2,7 +2,7 @@
 name: "VLC"
 summary: "A familiar media player for a wide range of files and streams."
 category: "Media"
-tags: ["video", "audio", "cross-platform"]
+tags: ["video", "audio", "cross-platform", "video-player"]
 repository: "https://github.com/videolan/vlc"
 website: "https://www.videolan.org/vlc/"
 license: "GPL-2.0"

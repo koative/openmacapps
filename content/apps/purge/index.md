@@ -7,6 +7,9 @@ tags:
   - storage
   - maintenance
   - disk-usage
+  - disk-cleaner
+alternativeTo:
+  - cleanmymac
 repository: https://github.com/jithin-sabu/purge-app
 website: https://purgemac.com/
 license: MIT

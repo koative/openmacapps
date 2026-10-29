@@ -6,6 +6,7 @@ tags:
   - screenshots
   - annotation
   - cross-platform
+  - screenshot-tool
 repository: https://github.com/flameshot-org/flameshot
 website: https://flameshot.org
 license: "GPL-3.0-or-later"

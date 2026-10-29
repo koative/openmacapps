@@ -2,7 +2,8 @@
 name: "Knopo"
 summary: "A block-based outliner for linked notes and journals that stores everything as plain Markdown files."
 category: "Productivity"
-tags: ["outliner", "notes", "markdown", "local-first", "knowledge-base"]
+tags: ["outliner", "notes", "markdown", "local-first", "knowledge-base", "note-taking"]
+alternativeTo: ["obsidian"]
 repository: "https://github.com/alkalim/Knopo"
 website: "https://github.com/alkalim/Knopo"
 license: "AGPL-3.0"

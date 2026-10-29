@@ -6,6 +6,8 @@ tags:
   - storage
   - disk-usage
   - visualization
+alternativeTo:
+  - daisydisk
 repository: https://github.com/tkslucas/Neodisk
 website: https://neodisk.app
 license: GPL-3.0

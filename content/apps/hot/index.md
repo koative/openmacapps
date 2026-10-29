@@ -6,6 +6,7 @@ tags:
   - menu-bar
   - temperature
   - system-monitoring
+  - system-monitor
 repository: https://github.com/macmade/Hot
 website: https://xs-labs.com/en/apps/hot/
 license: MIT

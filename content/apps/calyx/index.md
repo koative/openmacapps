@@ -6,6 +6,7 @@ tags:
   - terminal
   - coding-agents
   - git
+  - terminal-emulator
 repository: https://github.com/yuuichieguchi/Calyx
 website: https://getcalyx.app
 license: "MIT"

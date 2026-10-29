@@ -7,6 +7,8 @@ tags:
   - network
   - privacy
   - security
+alternativeTo:
+  - little-snitch
 repository: https://github.com/momenbasel/puresnitch
 website: https://www.moamenbasel.com/puresnitch/
 license: "MIT"

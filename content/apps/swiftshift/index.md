@@ -6,6 +6,7 @@ tags:
   - window-management
   - mouse
   - keyboard-shortcuts
+  - window-manager
 repository: https://github.com/pablopunk/SwiftShift
 website: https://swiftshift.app
 license: MIT

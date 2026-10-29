@@ -6,6 +6,10 @@ tags:
   - launcher
   - clipboard
   - shortcuts
+alternativeTo:
+  - alfred
+  - raycast
+  - textexpander
 repository: https://github.com/abue-ammar/tinycast
 website: https://tinycast.dev
 license: AGPL-3.0-or-later

@@ -2,7 +2,7 @@
 name: "iTerm2"
 summary: "A Mac terminal with split panes, search, profiles, and deep shell integration."
 category: "Developer tools"
-tags: ["terminal", "shell", "automation"]
+tags: ["terminal", "shell", "automation", "terminal-emulator"]
 repository: "https://github.com/gnachman/iTerm2"
 website: "https://iterm2.com"
 license: "GPL-2.0"

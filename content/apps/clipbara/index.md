@@ -7,6 +7,9 @@ tags:
   - history
   - pinboards
   - quick-look
+  - clipboard-manager
+alternativeTo:
+  - paste
 repository: "https://github.com/mobrava/Clipbara"
 website: "https://github.com/mobrava/Clipbara"
 license: "GPL-3.0"

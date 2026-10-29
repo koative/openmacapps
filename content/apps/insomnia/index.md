@@ -2,7 +2,8 @@
 name: "Insomnia"
 summary: "Design and send API requests, inspect responses, and organize collections of endpoints."
 category: "Developer tools"
-tags: ["api", "http", "testing"]
+tags: ["api", "http", "testing", "api-client"]
+alternativeTo: ["postman"]
 repository: "https://github.com/Kong/insomnia"
 website: "https://insomnia.rest"
 license: "Apache-2.0"

@@ -7,6 +7,8 @@ tags:
   - messaging
   - matrix
   - collaboration
+alternativeTo:
+  - slack
 repository: https://github.com/element-hq/element-web
 website: https://element.io
 license: AGPL-3.0-or-later OR GPL-3.0-or-later

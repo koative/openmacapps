@@ -6,6 +6,9 @@ tags:
   - video
   - collections
   - metadata
+  - video-player
+alternativeTo:
+  - infuse
 repository: https://github.com/photangralenphie/MyMedia
 website: https://github.com/photangralenphie/MyMedia
 license: "MIT"

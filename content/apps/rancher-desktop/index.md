@@ -3,6 +3,7 @@ name: "Rancher Desktop"
 summary: "A local container and Kubernetes environment with desktop settings and management tools."
 category: "Developer tools"
 tags: ["containers", "kubernetes", "development"]
+alternativeTo: ["docker-desktop"]
 repository: "https://github.com/rancher-sandbox/rancher-desktop"
 website: "https://rancherdesktop.io"
 license: "Apache-2.0"

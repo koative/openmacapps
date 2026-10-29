@@ -6,6 +6,10 @@ tags:
   - passwords
   - keepass
   - encryption
+  - password-manager
+alternativeTo:
+  - 1password
+  - lastpass
 repository: https://github.com/MacPass/MacPass
 website: https://macpass.app
 license: GPL-3.0-or-later

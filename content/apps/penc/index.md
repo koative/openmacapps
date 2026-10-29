@@ -6,6 +6,7 @@ tags:
   - window-management
   - trackpad
   - gestures
+  - window-manager
 repository: https://github.com/dgurkaynak/Penc
 website: https://deniz.co/penc/
 license: MIT

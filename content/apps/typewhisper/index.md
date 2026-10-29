@@ -6,6 +6,7 @@ tags:
   - dictation
   - transcription
   - local-ai
+  - voice-typing
 repository: https://github.com/TypeWhisper/typewhisper-mac
 website: https://www.typewhisper.com
 license: "GPL-3.0-or-later"

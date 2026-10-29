@@ -7,6 +7,7 @@ tags:
   - transcription
   - speech-to-text
   - cross-platform
+  - voice-typing
 repository: https://github.com/EpicenterHQ/epicenter
 website: https://whispering.epicenter.so/
 license: "AGPL-3.0-or-later"

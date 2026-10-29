@@ -8,6 +8,11 @@ tags:
   - uninstaller
   - storage
   - cross-platform
+  - disk-cleaner
+alternativeTo:
+  - cleanmymac
+  - appcleaner
+  - daisydisk
 repository: https://github.com/harry0703/MangoDisk
 website: https://mangodisk.app
 license: "GPL-3.0"

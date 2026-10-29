@@ -3,6 +3,7 @@ name: "Pulsar"
 summary: "A community-led text and code editor continuing the extensible Atom experience."
 category: "Developer tools"
 tags: ["code-editor", "extensions", "themes"]
+alternativeTo: ["sublime-text", "visual-studio-code"]
 repository: "https://github.com/pulsar-edit/pulsar"
 website: "https://pulsar-edit.dev"
 license: "MIT"

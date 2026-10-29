@@ -3,6 +3,7 @@ name: "Hidden Bar"
 summary: "Hide the menu bar items you rarely need, with a single divider."
 category: "Utilities"
 tags: ["menu-bar", "minimal", "native"]
+alternativeTo: ["bartender"]
 repository: "https://github.com/dwarvesf/hidden"
 website: "https://github.com/dwarvesf/hidden"
 license: "MIT"

@@ -8,6 +8,10 @@ tags:
 - encryption
 - local-first
 - cross-platform
+- password-manager
+alternativeTo:
+- 1password
+- lastpass
 repository: https://github.com/fwdai/rowel
 website: https://rowel.app
 license: GPL-3.0

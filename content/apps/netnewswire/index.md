@@ -6,6 +6,9 @@ tags:
   - rss
   - reading
   - native
+  - feeds
+alternativeTo:
+  - reeder
 repository: https://github.com/Ranchero-Software/NetNewsWire
 website: https://netnewswire.com/
 license: MIT

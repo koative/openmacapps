@@ -6,6 +6,7 @@ tags:
   - system-monitoring
   - widgets
   - desktop
+  - system-monitor
 repository: https://github.com/TadelUnso/mole-widget
 website: https://github.com/TadelUnso/mole-widget
 license: "MIT"

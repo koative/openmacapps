@@ -6,6 +6,9 @@ tags:
   - clipboard
   - snippets
   - collections
+  - clipboard-manager
+alternativeTo:
+  - paste
 repository: https://github.com/PasteBar/PasteBarApp
 website: https://github.com/PasteBar/PasteBarApp
 license: LicenseRef-PasteBar

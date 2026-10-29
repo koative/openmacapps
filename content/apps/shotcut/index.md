@@ -3,6 +3,7 @@ name: "Shotcut"
 summary: "Edit videos with a multitrack timeline, filters, transitions, and flexible export settings."
 category: "Media"
 tags: ["video", "video-editor", "timeline"]
+alternativeTo: ["final-cut-pro", "adobe-premiere-pro", "davinci-resolve"]
 repository: "https://github.com/mltframework/shotcut"
 website: "https://shotcut.org/"
 license: "GPL-3.0"

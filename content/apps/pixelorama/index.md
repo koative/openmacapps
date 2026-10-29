@@ -3,6 +3,7 @@ name: "Pixelorama"
 summary: "Draw pixel art and animated sprites with layers, frames, palettes, and tile-focused tools."
 category: "Design"
 tags: ["pixel-art", "animation", "sprites"]
+alternativeTo: ["aseprite"]
 repository: "https://github.com/Orama-Interactive/Pixelorama"
 website: "https://orama-interactive.itch.io/pixelorama"
 license: "MIT"

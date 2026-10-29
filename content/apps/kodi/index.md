@@ -2,7 +2,8 @@
 name: "Kodi"
 summary: "A media center for playing and organising local and network video, music and photos."
 category: "Media"
-tags: ["video", "music", "media-center", "cross-platform"]
+tags: ["video", "music", "media-center", "cross-platform", "video-player"]
+alternativeTo: ["plex", "infuse"]
 repository: "https://github.com/xbmc/xbmc"
 website: "https://kodi.tv"
 license: "GPL-2.0-or-later"

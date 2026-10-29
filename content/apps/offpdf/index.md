@@ -8,6 +8,9 @@ tags:
   - conversion
   - documents
   - privacy
+  - pdf-tools
+alternativeTo:
+  - adobe-acrobat
 repository: https://github.com/McanKul/offpdf
 website: https://offpdf.com
 license: MIT

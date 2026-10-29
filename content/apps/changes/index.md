@@ -5,6 +5,9 @@ category: "Developer tools"
 tags:
   - git
   - version-control
+  - git-client
+alternativeTo:
+  - tower
 repository: https://github.com/maoyama/Changes
 website: https://github.com/maoyama/Changes
 license: "MIT"

@@ -6,6 +6,7 @@ tags:
 - screen-recording
 - video
 - menu-bar
+- screen-recorder
 repository: https://github.com/jsattler/BetterCapture
 website: https://bettercapture.app/
 license: MIT

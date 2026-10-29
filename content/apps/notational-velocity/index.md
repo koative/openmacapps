@@ -7,6 +7,7 @@ tags:
   - plain-text
   - search
   - keyboard-shortcuts
+  - note-taking
 repository: https://github.com/scrod/nv
 website: https://github.com/scrod/nv
 license: GPL-3.0

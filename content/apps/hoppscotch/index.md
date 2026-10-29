@@ -2,7 +2,8 @@
 name: "Hoppscotch Desktop"
 summary: "The Hoppscotch API development workspace packaged as a desktop app."
 category: "Developer tools"
-tags: ["api", "http", "testing"]
+tags: ["api", "http", "testing", "api-client"]
+alternativeTo: ["postman"]
 repository: "https://github.com/hoppscotch/hoppscotch"
 website: "https://hoppscotch.io"
 license: "MIT"

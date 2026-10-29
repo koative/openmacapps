@@ -6,6 +6,8 @@ tags:
   - disk-usage
   - storage
   - visualization
+alternativeTo:
+  - daisydisk
 repository: https://github.com/phalladar/MacDirStat
 website: https://github.com/phalladar/MacDirStat
 license: "MIT"

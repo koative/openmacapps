@@ -7,6 +7,7 @@ tags:
   - speech-to-text
   - writing
   - cross-platform
+  - voice-typing
 repository: https://github.com/tover0314-w/opentypeless
 website: https://www.opentypeless.com
 license: MIT

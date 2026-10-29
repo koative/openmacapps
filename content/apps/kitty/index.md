@@ -2,7 +2,7 @@
 name: "kitty"
 summary: "A keyboard-driven terminal with GPU rendering, layouts, and extensible helper tools."
 category: "Developer tools"
-tags: ["terminal", "shell", "keyboard"]
+tags: ["terminal", "shell", "keyboard", "terminal-emulator"]
 repository: "https://github.com/kovidgoyal/kitty"
 website: "https://sw.kovidgoyal.net/kitty"
 license: "GPL-3.0"

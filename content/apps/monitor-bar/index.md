@@ -7,6 +7,9 @@ tags:
   - system-monitoring
   - cpu
   - battery
+  - system-monitor
+alternativeTo:
+  - istat-menus
 repository: https://github.com/tidiemme/monitorbar
 website: https://github.com/tidiemme/monitorbar
 license: "MIT"

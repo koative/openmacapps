@@ -6,6 +6,7 @@ tags:
   - dictation
   - speech-to-text
   - keyboard
+  - voice-typing
 repository: https://github.com/AssemblyAI/blurt
 website: https://www.assemblyai.com/blurt
 license: "MIT"

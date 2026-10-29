@@ -6,6 +6,7 @@ tags:
   - video
   - audio-player
   - keyboard-shortcuts
+  - video-player
 repository: https://github.com/piro0919/mac-classic-player
 website: https://mcp.kkweb.io/
 license: "MIT"

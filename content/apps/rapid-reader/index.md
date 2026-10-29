@@ -7,6 +7,7 @@ tags:
   - ebooks
   - pdf
   - focus
+  - ebook-reader
 repository: https://github.com/Zer0codestuff/Rapid-Reader
 website: https://github.com/Zer0codestuff/Rapid-Reader
 license: MIT

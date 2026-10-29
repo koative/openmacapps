@@ -2,7 +2,7 @@
 name: "NoteGen"
 summary: "A local-first Markdown notes app that collects quick captures and uses your chosen AI models to organise them."
 category: "Writing"
-tags: ["notes", "markdown", "sync", "cross-platform"]
+tags: ["notes", "markdown", "sync", "cross-platform", "note-taking"]
 repository: "https://github.com/codexu/note-gen"
 website: "https://notegen.top"
 license: "GPL-3.0"

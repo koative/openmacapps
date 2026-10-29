@@ -6,6 +6,7 @@ tags:
   - video
   - streaming
   - cross-platform
+  - video-player
 repository: https://github.com/4gray/iptvnator
 website: https://4gray.github.io/iptvnator/
 license: "MIT"

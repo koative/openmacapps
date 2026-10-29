@@ -7,6 +7,7 @@ tags:
   - annotation
   - ocr
   - menu-bar
+  - screenshot-tool
 repository: https://github.com/realskyrin/capcap
 website: https://capcap.skyrin.fun
 license: "MIT"

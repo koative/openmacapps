@@ -2,7 +2,7 @@
 name: "Mullvad VPN"
 summary: "The open-source Mac client for managing a Mullvad VPN connection."
 category: "Privacy & security"
-tags: ["vpn", "network", "privacy"]
+tags: ["vpn", "network", "privacy", "vpn-client"]
 repository: "https://github.com/mullvad/mullvadvpn-app"
 website: "https://mullvad.net"
 license: "GPL-3.0"

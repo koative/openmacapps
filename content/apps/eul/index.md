@@ -6,6 +6,9 @@ tags:
   - menu-bar
   - system-monitoring
   - widgets
+  - system-monitor
+alternativeTo:
+  - istat-menus
 repository: https://github.com/gao-sun/eul
 website: https://github.com/gao-sun/eul
 license: MIT

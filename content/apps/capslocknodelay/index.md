@@ -5,6 +5,7 @@ category: 'Utilities'
 tags:
   - keyboard
   - input
+  - keyboard-customization
 repository: https://github.com/gkpln3/CapsLockNoDelay
 website: https://github.com/gkpln3/CapsLockNoDelay
 license: MIT

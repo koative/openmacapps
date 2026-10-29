@@ -7,6 +7,7 @@ tags:
 - window-management
 - tiling
 - keyboard-shortcuts
+- window-manager
 repository: https://github.com/asmvik/yabai
 website: https://github.com/asmvik/yabai
 license: MIT

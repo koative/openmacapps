@@ -6,6 +6,9 @@ tags:
   - clipboard
   - history
   - search
+  - clipboard-manager
+alternativeTo:
+  - paste
 repository: https://github.com/EcoPasteHub/EcoPaste
 website: https://ecopaste.cn
 license: Apache-2.0

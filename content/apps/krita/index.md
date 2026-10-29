@@ -7,6 +7,7 @@ tags:
   - drawing
   - painting
   - animation
+  - image-editor
 repository: https://github.com/KDE/krita
 website: https://krita.org/
 license: GPL-3.0

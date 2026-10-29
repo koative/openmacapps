@@ -2,7 +2,8 @@
 name: "Jellyfin Desktop"
 summary: "A desktop client for browsing and playing media from a Jellyfin server."
 category: "Media"
-tags: ["media-client", "jellyfin", "streaming"]
+tags: ["media-client", "jellyfin", "streaming", "video-player"]
+alternativeTo: ["plex"]
 repository: "https://github.com/jellyfin/jellyfin-desktop"
 website: "https://jellyfin.org"
 license: "GPL-2.0"

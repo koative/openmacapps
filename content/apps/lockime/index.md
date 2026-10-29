@@ -6,6 +6,7 @@ tags:
   - keyboard
   - languages
   - input
+  - keyboard-customization
 repository: https://github.com/oomol-lab/LockIME
 website: https://github.com/oomol-lab/LockIME
 license: GPL-3.0

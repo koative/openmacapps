@@ -3,6 +3,7 @@ name: "LibreSprite"
 summary: "Create pixel art, sprite sheets, and frame-by-frame animations in a focused editor."
 category: "Design"
 tags: ["pixel-art", "sprites", "animation"]
+alternativeTo: ["aseprite"]
 repository: "https://github.com/LibreSprite/LibreSprite"
 website: "https://libresprite.github.io/"
 license: "GPL-2.0"

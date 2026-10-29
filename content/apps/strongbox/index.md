@@ -7,6 +7,10 @@ tags:
 - passwords
 - keepass
 - encryption
+- password-manager
+alternativeTo:
+- 1password
+- lastpass
 repository: https://github.com/strongbox-password-safe/Strongbox
 website: https://strongboxsafe.com
 license: AGPL-3.0

@@ -2,7 +2,7 @@
 name: "Medis"
 summary: "A graphical Redis client for browsing keys and inspecting stored values."
 category: "Developer tools"
-tags: ["database", "redis"]
+tags: ["database", "redis", "database-client"]
 repository: "https://github.com/luin/medis"
 website: "https://getmedis.com"
 license: "MIT"

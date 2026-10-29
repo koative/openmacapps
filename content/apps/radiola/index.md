@@ -7,6 +7,7 @@ tags:
 - streaming
 - music
 - menu-bar
+- music-player
 repository: https://github.com/SokoloffA/radiola
 website: https://github.com/SokoloffA/radiola
 license: MIT

@@ -2,7 +2,8 @@
 name: "QOwnNotes"
 summary: "Manage plain-text Markdown notes with search, scripting, and optional Nextcloud integration."
 category: "Writing"
-tags: ["markdown", "notes", "plain-text"]
+tags: ["markdown", "notes", "plain-text", "note-taking"]
+alternativeTo: ["bear"]
 repository: "https://github.com/pbek/QOwnNotes"
 website: "https://www.qownnotes.org/"
 license: "GPL-2.0"

@@ -2,7 +2,8 @@
 name: "Mac Sai"
 summary: "An all-in-one cleanup and maintenance app covering junk files, large files, app removal and startup items."
 category: "Utilities"
-tags: ["cleanup", "storage", "maintenance", "uninstaller"]
+tags: ["cleanup", "storage", "maintenance", "uninstaller", "disk-cleaner"]
+alternativeTo: ["cleanmymac", "appcleaner"]
 repository: "https://github.com/iliyami/MacSai"
 website: "https://github.com/iliyami/MacSai"
 license: "BSD-3-Clause"

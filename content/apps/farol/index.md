@@ -7,6 +7,7 @@ tags:
   - coding-agents
   - git
   - workspaces
+  - terminal-emulator
 repository: https://github.com/snowztech/farol
 website: https://farol.sh
 license: "MIT"

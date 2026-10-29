@@ -6,6 +6,7 @@ tags:
   - terminal
   - coding-agents
   - cross-platform
+  - terminal-emulator
 repository: https://github.com/warpdotdev/warp
 website: https://www.warp.dev
 license: AGPL-3.0-only AND MIT

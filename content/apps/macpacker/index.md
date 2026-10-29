@@ -6,6 +6,8 @@ tags:
   - archives
   - compression
   - files
+alternativeTo:
+  - the-unarchiver
 repository: https://github.com/sarensw/MacPacker
 website: https://macpacker.app
 license: GPL-3.0

@@ -2,7 +2,7 @@
 name: "LosslessCut"
 summary: "Trim and rearrange video or audio segments without re-encoding supported media."
 category: "Media"
-tags: ["video", "trimming", "conversion"]
+tags: ["video", "trimming", "conversion", "video-editor"]
 repository: "https://github.com/mifi/lossless-cut"
 website: "https://mifi.no/losslesscut/"
 license: "GPL-2.0"

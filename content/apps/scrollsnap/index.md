@@ -6,6 +6,7 @@ tags:
   - screenshots
   - scrolling
   - screen-capture
+  - screenshot-tool
 repository: https://github.com/Brkgng/ScrollSnap
 website: https://github.com/Brkgng/ScrollSnap
 license: "MIT"

@@ -3,6 +3,7 @@ name: "SolveSpace"
 summary: "Create constrained sketches and parametric 3D parts in a compact CAD application."
 category: "Design"
 tags: ["cad", "parametric", "3d-modeling"]
+alternativeTo: ["autodesk-fusion"]
 repository: "https://github.com/solvespace/solvespace"
 website: "https://solvespace.com/"
 license: "GPL-3.0"

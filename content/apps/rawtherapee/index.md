@@ -7,6 +7,9 @@ tags:
   - photography
   - raw-editor
   - batch-processing
+alternativeTo:
+  - lightroom
+  - capture-one
 repository: https://github.com/RawTherapee/RawTherapee
 website: https://rawtherapee.com/
 license: GPL-3.0

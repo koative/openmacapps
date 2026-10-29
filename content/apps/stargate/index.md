@@ -7,6 +7,10 @@ tags:
   - audio
   - sequencer
   - plugins
+  - audio-editor
+alternativeTo:
+  - garageband
+  - logic-pro
 repository: "https://github.com/stargatedaw/stargate"
 website: "https://github.com/stargatedaw/stargate"
 license: "GPL-3.0"

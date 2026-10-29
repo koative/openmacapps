@@ -2,7 +2,8 @@
 name: "Maccy"
 summary: "A quick, searchable clipboard history that stays close to your keyboard."
 category: "Productivity"
-tags: ["clipboard", "keyboard", "native"]
+tags: ["clipboard", "keyboard", "native", "clipboard-manager"]
+alternativeTo: ["paste"]
 repository: "https://github.com/p0deje/Maccy"
 website: "https://maccy.app"
 license: "MIT"

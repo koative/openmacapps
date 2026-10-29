@@ -7,6 +7,10 @@ tags:
   - menu-bar
   - temperature
   - cpu
+  - system-monitor
+alternativeTo:
+  - istat-menus
+  - macs-fan-control
 repository: https://github.com/offyotto/Core-Monitor
 website: https://github.com/offyotto/Core-Monitor
 license: "GPL-3.0"

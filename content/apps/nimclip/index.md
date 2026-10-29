@@ -7,6 +7,9 @@ tags:
   - history
   - ocr
   - menu-bar
+  - clipboard-manager
+alternativeTo:
+  - paste
 repository: https://github.com/hukdoesn/Nimclip
 website: https://hukdoesn.github.io/Nimclip/
 license: "Apache-2.0"

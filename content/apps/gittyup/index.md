@@ -2,7 +2,8 @@
 name: "Gittyup"
 summary: "A graphical Git client for reading history, inspecting changes, and preparing commits."
 category: "Developer tools"
-tags: ["git", "version-control", "cross-platform"]
+tags: ["git", "version-control", "cross-platform", "git-client"]
+alternativeTo: ["tower"]
 repository: "https://github.com/Murmele/Gittyup"
 website: "https://murmele.github.io/Gittyup"
 license: "MIT"

@@ -2,7 +2,8 @@
 name: "Yaak"
 summary: "A desktop API client for organizing requests and examining responses."
 category: "Developer tools"
-tags: ["api", "http", "testing"]
+tags: ["api", "http", "testing", "api-client"]
+alternativeTo: ["postman"]
 repository: "https://github.com/mountain-loop/yaak"
 website: "https://yaak.app"
 license: "MIT"

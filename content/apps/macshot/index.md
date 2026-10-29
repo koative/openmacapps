@@ -7,6 +7,11 @@ tags:
   - annotation
   - screen-recording
   - ocr
+  - screenshot-tool
+  - screen-recorder
+alternativeTo:
+  - cleanshot
+  - snagit
 repository: "https://github.com/sw33tLie/macshot"
 website: "https://macshot.io"
 license: "GPL-3.0"

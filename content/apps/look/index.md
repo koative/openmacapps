@@ -8,6 +8,9 @@ tags:
   - keyboard
   - clipboard
   - cross-platform
+alternativeTo:
+  - alfred
+  - raycast
 repository: https://github.com/kunkka19xx/look
 website: https://noah-code.com/docs/look
 license: "GPL-3.0-or-later"

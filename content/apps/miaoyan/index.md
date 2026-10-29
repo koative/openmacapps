@@ -2,7 +2,8 @@
 name: "MiaoYan"
 summary: "A quiet Markdown note app that keeps notes as files in a folder you choose."
 category: "Writing"
-tags: ["markdown", "notes", "local-first", "distraction-free"]
+tags: ["markdown", "notes", "local-first", "distraction-free", "note-taking"]
+alternativeTo: ["bear"]
 repository: "https://github.com/tw93/MiaoYan"
 website: "https://miaoyan.app"
 license: "MIT"

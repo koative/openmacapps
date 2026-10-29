@@ -8,6 +8,7 @@ tags:
   - coding-agents
   - themes
   - cross-platform
+  - terminal-emulator
 repository: https://github.com/muxy-app/muxy
 website: https://muxy.app
 license: "MIT"

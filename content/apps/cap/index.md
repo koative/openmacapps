@@ -7,6 +7,12 @@ tags:
   - screen-recording
   - video-editing
   - sharing
+  - screen-recorder
+alternativeTo:
+  - screenflow
+  - camtasia
+  - screen-studio
+  - loom
 repository: https://github.com/CapSoftware/Cap
 website: https://cap.so
 license: AGPL-3.0

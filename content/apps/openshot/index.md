@@ -3,6 +3,7 @@ name: "OpenShot"
 summary: "Assemble clips, titles, transitions, and audio in an approachable timeline video editor."
 category: "Media"
 tags: ["video", "video-editor", "animation"]
+alternativeTo: ["final-cut-pro", "adobe-premiere-pro", "davinci-resolve"]
 repository: "https://github.com/OpenShot/openshot-qt"
 website: "https://www.openshot.org/"
 license: "GPL-3.0"

@@ -3,6 +3,7 @@ name: "Zen Browser"
 summary: "A Firefox-based browser organized around vertical tabs and workspaces."
 category: "Internet"
 tags: ["browser", "vertical-tabs", "workspaces"]
+alternativeTo: ["google-chrome", "arc"]
 repository: "https://github.com/zen-browser/desktop"
 website: "https://zen-browser.app"
 license: "MPL-2.0"

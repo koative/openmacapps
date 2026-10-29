@@ -6,6 +6,7 @@ tags:
   - storage
   - languages
   - maintenance
+  - disk-cleaner
 repository: https://github.com/IngmarStein/Monolingual
 website: https://ingmarstein.github.io/Monolingual
 license: GPL-3.0

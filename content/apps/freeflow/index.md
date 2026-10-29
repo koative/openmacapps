@@ -6,6 +6,7 @@ tags:
   - dictation
   - speech-to-text
   - keyboard-shortcuts
+  - voice-typing
 repository: https://github.com/zachlatta/freeflow
 website: https://freeflow.zachlatta.com
 license: "MIT"

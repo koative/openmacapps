@@ -7,6 +7,7 @@ tags:
   - cpu
   - processes
   - temperature
+  - system-monitor
 repository: https://github.com/Nongfsq/ftop
 website: https://github.com/Nongfsq/ftop
 license: "MIT"

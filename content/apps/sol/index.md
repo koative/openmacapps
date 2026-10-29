@@ -8,6 +8,9 @@ tags:
 - clipboard
 - window-management
 - shortcuts
+alternativeTo:
+- alfred
+- raycast
 repository: https://github.com/ospfranco/sol
 website: https://sol.ospfranco.com
 license: MIT

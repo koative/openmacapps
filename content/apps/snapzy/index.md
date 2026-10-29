@@ -2,7 +2,8 @@
 name: "Snapzy"
 summary: "Capture screenshots and screen recordings from the menu bar, then annotate and edit them."
 category: "Media"
-tags: ["screenshots", "screen-recording", "annotation", "menu-bar"]
+tags: ["screenshots", "screen-recording", "annotation", "menu-bar", "screenshot-tool", "screen-recorder"]
+alternativeTo: ["cleanshot", "snagit"]
 repository: "https://github.com/duongductrong/Snapzy"
 website: "https://snapzy.app"
 license: "BSD-3-Clause"

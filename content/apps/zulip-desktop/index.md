@@ -7,6 +7,8 @@ tags:
   - messaging
   - notifications
   - cross-platform
+alternativeTo:
+  - slack
 repository: https://github.com/zulip/zulip-desktop
 website: https://zulip.com/apps/
 license: "Apache-2.0"

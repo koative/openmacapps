@@ -6,6 +6,9 @@ tags:
   - clipboard
   - snippets
   - keyboard-shortcuts
+  - clipboard-manager
+alternativeTo:
+  - paste
 repository: https://github.com/Clipy/Clipy
 website: https://clipy-app.com
 license: MIT

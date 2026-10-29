@@ -2,7 +2,7 @@
 name: "Alacritty"
 summary: "A GPU-accelerated terminal focused on a small, configurable core."
 category: "Developer tools"
-tags: ["terminal", "shell", "cross-platform"]
+tags: ["terminal", "shell", "cross-platform", "terminal-emulator"]
 repository: "https://github.com/alacritty/alacritty"
 website: "https://alacritty.org"
 license: "Apache-2.0"

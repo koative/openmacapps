@@ -6,6 +6,7 @@ tags:
   - screen-recording
   - audio
   - presentations
+  - screen-recorder
 repository: https://github.com/lihaoyun6/QuickRecorder
 website: https://lihaoyun6.github.io/quickrecorder/
 license: AGPL-3.0

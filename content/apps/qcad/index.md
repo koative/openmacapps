@@ -3,6 +3,7 @@ name: "QCAD Community Edition"
 summary: "Create technical 2D drawings with geometric tools, layers, dimensions, and snapping."
 category: "Design"
 tags: ["cad", "2d-drawing", "drafting"]
+alternativeTo: ["autocad"]
 repository: "https://github.com/qcad/qcad"
 website: "https://www.qcad.org/"
 license: "GPL-3.0"

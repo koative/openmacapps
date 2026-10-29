@@ -7,6 +7,7 @@ tags:
   - streaming
   - plugins
   - cross-platform
+  - music-player
 repository: https://github.com/pear-devs/pear-desktop
 website: https://github.com/pear-devs/pear-desktop
 license: MIT

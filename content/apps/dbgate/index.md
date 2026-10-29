@@ -2,7 +2,8 @@
 name: "DbGate"
 summary: "A database manager for querying SQL systems and exploring supported NoSQL stores."
 category: "Developer tools"
-tags: ["database", "sql", "nosql"]
+tags: ["database", "sql", "nosql", "database-client"]
+alternativeTo: ["tableplus"]
 repository: "https://github.com/dbgate/dbgate"
 website: "https://www.dbgate.io"
 license: "GPL-3.0"

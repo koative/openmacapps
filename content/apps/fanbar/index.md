@@ -7,6 +7,8 @@ tags:
   - system-monitoring
   - menu-bar
   - widgets
+alternativeTo:
+  - macs-fan-control
 repository: https://github.com/helson-lin/FanBar
 website: https://getfanbar.com
 license: "GPL-3.0"

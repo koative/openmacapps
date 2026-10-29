@@ -6,6 +6,8 @@ tags:
   - launcher
   - keyboard
   - plugins
+alternativeTo:
+  - alfred
 repository: https://github.com/quicksilver/Quicksilver
 website: https://github.com/quicksilver/Quicksilver
 license: Apache-2.0

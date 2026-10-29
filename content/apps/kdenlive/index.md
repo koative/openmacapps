@@ -3,6 +3,7 @@ name: "Kdenlive"
 summary: "Edit multitrack video with effects, transitions, proxy workflows, and flexible export options."
 category: "Media"
 tags: ["video", "video-editor", "timeline"]
+alternativeTo: ["final-cut-pro", "adobe-premiere-pro", "davinci-resolve"]
 repository: "https://github.com/KDE/kdenlive"
 website: "https://kdenlive.org/"
 license: "GPL-3.0"

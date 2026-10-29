@@ -2,7 +2,7 @@
 name: "Calibre"
 summary: "Organize ebooks, edit their metadata, convert formats, and transfer books to reading devices."
 category: "Productivity"
-tags: ["ebooks", "library", "conversion"]
+tags: ["ebooks", "library", "conversion", "ebook-reader"]
 repository: "https://github.com/kovidgoyal/calibre"
 website: "https://calibre-ebook.com/"
 license: "GPL-3.0"

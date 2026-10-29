@@ -2,7 +2,7 @@
 name: "Rio"
 summary: "A hardware-accelerated terminal with configurable rendering and window layouts."
 category: "Developer tools"
-tags: ["terminal", "shell", "cross-platform"]
+tags: ["terminal", "shell", "cross-platform", "terminal-emulator"]
 repository: "https://github.com/raphamorim/rio"
 website: "https://rioterm.com"
 license: "MIT"

@@ -5,6 +5,7 @@ category: "Utilities"
 tags:
   - keyboard
   - menu-bar
+  - keyboard-customization
 repository: https://github.com/Pyroh/Fluor
 website: https://github.com/Pyroh/Fluor
 license: "MIT"

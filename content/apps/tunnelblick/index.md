@@ -2,7 +2,7 @@
 name: "Tunnelblick"
 summary: "A Mac interface for importing OpenVPN profiles and controlling VPN connections."
 category: "Privacy & security"
-tags: ["vpn", "openvpn", "native"]
+tags: ["vpn", "openvpn", "native", "vpn-client"]
 repository: "https://github.com/Tunnelblick/Tunnelblick"
 website: "https://tunnelblick.net"
 license: "GPL-2.0"

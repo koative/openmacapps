@@ -8,6 +8,7 @@ tags:
   - inspection
   - testing
   - cross-platform
+  - api-client
 repository: https://github.com/httptoolkit/httptoolkit-desktop
 website: https://httptoolkit.com
 license: "AGPL-3.0"

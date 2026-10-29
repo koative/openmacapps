@@ -7,6 +7,8 @@ tags:
   - keyboard
   - automation
   - cross-platform
+alternativeTo:
+  - textexpander
 repository: https://github.com/espanso/espanso
 website: https://espanso.org
 license: "GPL-3.0"

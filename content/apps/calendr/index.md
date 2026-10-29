@@ -5,6 +5,8 @@ category: 'Productivity'
 tags:
   - calendar
   - menu-bar
+alternativeTo:
+  - fantastical
 repository: https://github.com/pakerwreah/Calendr
 website: https://github.com/pakerwreah/Calendr
 license: 'MIT'

@@ -8,6 +8,9 @@ tags:
   - sftp
   - remote-desktop
   - cross-platform
+  - terminal-emulator
+alternativeTo:
+  - termius
 repository: "https://github.com/electerm/electerm"
 website: "https://electerm.org"
 license: "MIT"

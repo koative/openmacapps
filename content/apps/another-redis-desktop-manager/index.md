@@ -7,6 +7,7 @@ tags:
   - database
   - nosql
   - cross-platform
+  - database-client
 repository: "https://github.com/qishibo/AnotherRedisDesktopManager"
 website: "https://github.com/qishibo/AnotherRedisDesktopManager"
 license: "MIT"

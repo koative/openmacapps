@@ -6,6 +6,7 @@ tags:
   - audio-player
   - music
   - audio
+  - music-player
 repository: https://github.com/losnoco/Cog
 website: https://cog.losno.co
 license: "GPL-2.0"

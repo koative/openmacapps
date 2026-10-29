@@ -6,6 +6,7 @@ tags:
   - window-management
   - tiling
   - workspaces
+  - window-manager
 repository: https://github.com/nikitabobko/AeroSpace
 website: https://nikitabobko.github.io/AeroSpace/guide
 license: MIT

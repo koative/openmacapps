@@ -2,7 +2,8 @@
 name: "Zettlr"
 summary: "Write Markdown documents with project organization, references, and research-oriented tools."
 category: "Writing"
-tags: ["markdown", "research", "notes"]
+tags: ["markdown", "research", "notes", "markdown-editor"]
+alternativeTo: ["obsidian"]
 repository: "https://github.com/Zettlr/Zettlr"
 website: "https://www.zettlr.com/"
 license: "GPL-3.0"

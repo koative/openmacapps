@@ -2,7 +2,8 @@
 name: "Tabby"
 summary: "A terminal workspace for local shells, SSH connections, and serial devices."
 category: "Developer tools"
-tags: ["terminal", "ssh", "serial"]
+tags: ["terminal", "ssh", "serial", "terminal-emulator"]
+alternativeTo: ["termius"]
 repository: "https://github.com/Eugeny/tabby"
 website: "https://tabby.sh"
 license: "MIT"

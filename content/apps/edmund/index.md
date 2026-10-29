@@ -5,6 +5,9 @@ category: "Writing"
 tags:
   - markdown
   - text-editor
+  - markdown-editor
+alternativeTo:
+  - typora
 repository: https://github.com/I7T5/Edmund
 website: https://edmund.md
 license: "Apache-2.0"

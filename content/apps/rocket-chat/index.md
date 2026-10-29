@@ -7,6 +7,8 @@ tags:
   - messaging
   - self-hosted
   - cross-platform
+alternativeTo:
+  - slack
 repository: https://github.com/RocketChat/Rocket.Chat.Electron
 website: https://rocket.chat
 license: "MIT"

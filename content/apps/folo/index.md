@@ -7,6 +7,8 @@ tags:
   - feeds
   - reading
   - cross-platform
+alternativeTo:
+  - reeder
 repository: https://github.com/RSSNext/Folo
 website: https://folo.is
 license: "AGPL-3.0"

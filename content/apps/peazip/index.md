@@ -7,6 +7,8 @@ tags:
   - compression
   - encryption
   - cross-platform
+alternativeTo:
+  - the-unarchiver
 repository: "https://github.com/peazip/PeaZip"
 website: "https://peazip.github.io"
 license: "LGPL-3.0"

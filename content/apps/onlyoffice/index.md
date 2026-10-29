@@ -3,6 +3,7 @@ name: "ONLYOFFICE Desktop Editors"
 summary: "Edit documents, spreadsheets, and presentations in a desktop office suite."
 category: "Productivity"
 tags: ["office", "documents", "spreadsheets"]
+alternativeTo: ["microsoft-office"]
 repository: "https://github.com/ONLYOFFICE/DesktopEditors"
 website: "https://www.onlyoffice.com/desktop.aspx"
 license: "AGPL-3.0"

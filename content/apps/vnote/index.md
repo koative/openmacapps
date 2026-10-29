@@ -2,7 +2,7 @@
 name: "VNote"
 summary: "Organize Markdown notebooks in a keyboard-friendly editor with navigation and preview tools."
 category: "Writing"
-tags: ["markdown", "notes", "editor"]
+tags: ["markdown", "notes", "editor", "note-taking"]
 repository: "https://github.com/vnotex/vnote"
 website: "https://github.com/vnotex/vnote"
 license: "LGPL-3.0"

@@ -2,7 +2,7 @@
 name: "Kaset"
 summary: "An unofficial Mac player for YouTube Music and YouTube with media keys, lyrics and a play queue."
 category: "Media"
-tags: ["music", "video", "streaming", "youtube"]
+tags: ["music", "video", "streaming", "youtube", "music-player"]
 repository: "https://github.com/sozercan/kaset"
 website: "https://sozercan.github.io/kaset/"
 license: "MIT"

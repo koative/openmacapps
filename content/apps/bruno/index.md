@@ -2,7 +2,8 @@
 name: "Bruno"
 summary: "Keep API collections in your project, alongside your code."
 category: "Developer tools"
-tags: ["api", "local-first", "git"]
+tags: ["api", "local-first", "git", "api-client"]
+alternativeTo: ["postman"]
 repository: "https://github.com/usebruno/bruno"
 website: "https://www.usebruno.com/"
 license: "MIT"

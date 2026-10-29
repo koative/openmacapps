@@ -3,6 +3,7 @@ name: "Americano"
 summary: "A menu bar switch that keeps your Mac awake for a chosen time, with battery and power-source safeguards."
 category: "Utilities"
 tags: ["keep-awake", "sleep", "power", "battery", "menu-bar"]
+alternativeTo: ["amphetamine"]
 repository: "https://github.com/LZhenHong/Americano"
 website: "https://github.com/LZhenHong/Americano"
 license: "MIT"

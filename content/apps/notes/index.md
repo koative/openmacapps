@@ -6,6 +6,9 @@ tags:
   - notes
   - markdown
   - cross-platform
+  - note-taking
+alternativeTo:
+  - bear
 repository: https://github.com/nuttyartist/notes
 website: https://www.notes-foss.com/
 license: "MPL-2.0"

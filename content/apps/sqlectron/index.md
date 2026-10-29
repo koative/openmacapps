@@ -6,6 +6,9 @@ tags:
   - database
   - sqlite
   - cross-platform
+  - database-client
+alternativeTo:
+  - tableplus
 repository: https://github.com/sqlectron/sqlectron
 website: https://sqlectron.github.io/
 license: MIT

@@ -7,6 +7,9 @@ tags:
 - window-management
 - keyboard-shortcuts
 - dictation
+alternativeTo:
+- alfred
+- raycast
 repository: https://github.com/arjunkomath/trace
 website: https://trace.techulus.xyz/
 license: MIT

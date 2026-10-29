@@ -7,6 +7,9 @@ tags:
   - plugins
   - clipboard
   - cross-platform
+alternativeTo:
+  - alfred
+  - raycast
 repository: https://github.com/ZToolsCenter/ZTools
 website: https://github.com/ZToolsCenter/ZTools
 license: "MIT"

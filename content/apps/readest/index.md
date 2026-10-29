@@ -8,6 +8,7 @@ tags:
   - cross-platform
   - sync
   - annotation
+  - ebook-reader
 repository: "https://github.com/readest/readest"
 website: "https://readest.com"
 license: "AGPL-3.0"

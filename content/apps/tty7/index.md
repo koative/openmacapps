@@ -2,7 +2,7 @@
 name: "tty7"
 summary: "A GPU-rendered terminal whose shells keep running after the window quits, with agent and SSH tools."
 category: "Developer tools"
-tags: ["terminal", "ssh", "persistence", "agents", "cross-platform"]
+tags: ["terminal", "ssh", "persistence", "agents", "cross-platform", "terminal-emulator"]
 repository: "https://github.com/l0ng-ai/tty7"
 website: "https://tty7.io"
 license: "Apache-2.0"

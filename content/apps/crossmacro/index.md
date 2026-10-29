@@ -8,6 +8,8 @@ tags:
   - keyboard
   - snippets
   - cross-platform
+alternativeTo:
+  - keyboard-maestro
 repository: https://github.com/alper-han/CrossMacro
 website: https://alper-han.github.io/CrossMacro/
 license: GPL-3.0-only

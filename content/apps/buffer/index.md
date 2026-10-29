@@ -7,6 +7,9 @@ tags:
   - menu-bar
   - ocr
   - history
+  - clipboard-manager
+alternativeTo:
+  - paste
 repository: https://github.com/samirpatil2000/Buffer
 website: https://samirpatil2000.github.io/products/buffer
 license: "MIT"

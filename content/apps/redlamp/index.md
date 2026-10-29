@@ -6,6 +6,9 @@ tags:
   - photography
   - raw-editor
   - images
+alternativeTo:
+  - lightroom
+  - capture-one
 repository: https://github.com/pdcgomes/redlamp
 website: https://redlamp.app
 license: "MPL-2.0"

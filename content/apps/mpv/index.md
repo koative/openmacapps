@@ -2,7 +2,7 @@
 name: "mpv"
 summary: "A minimal, keyboard-driven media player that handles a very wide range of video, audio and subtitle formats."
 category: "Media"
-tags: ["video", "audio", "cross-platform"]
+tags: ["video", "audio", "cross-platform", "video-player"]
 repository: "https://github.com/mpv-player/mpv"
 website: "https://mpv.io"
 license: "GPL-2.0-or-later"

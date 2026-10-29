@@ -5,6 +5,7 @@ category: "Developer tools"
 tags:
   - redis
   - database
+  - database-client
 repository: https://github.com/cmushroom/redis-pro
 website: https://github.com/cmushroom/redis-pro
 license: "GPL-3.0"

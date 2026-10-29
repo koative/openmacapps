@@ -6,6 +6,7 @@ tags:
   - screenshots
   - annotation
   - cross-platform
+  - screenshot-tool
 repository: https://github.com/ksnip/ksnip
 website: https://github.com/ksnip/ksnip
 license: "GPL-3.0"

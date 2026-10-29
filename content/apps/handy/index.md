@@ -7,6 +7,7 @@ tags:
   - speech-to-text
   - local-ai
   - cross-platform
+  - voice-typing
 repository: https://github.com/cjpais/Handy
 website: https://handy.computer
 license: "MIT"

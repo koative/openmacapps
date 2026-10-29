@@ -6,6 +6,9 @@ tags:
 - window-management
 - workspaces
 - keyboard-shortcuts
+- window-manager
+alternativeTo:
+- magnet
 repository: https://github.com/rohanrhu/MacsyZones
 website: https://macsyzones.com/
 license: GPL-3.0

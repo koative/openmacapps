@@ -3,6 +3,7 @@ name: "RSS Guard"
 summary: "Read and organize feeds in a desktop client with folders, filters, and service integrations."
 category: "Internet"
 tags: ["rss", "feeds", "reading"]
+alternativeTo: ["reeder"]
 repository: "https://github.com/martinrotter/rssguard"
 website: "https://github.com/martinrotter/rssguard"
 license: "GPL-3.0"

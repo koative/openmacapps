@@ -3,6 +3,7 @@ name: "LibreCAD"
 summary: "Draft technical 2D drawings with layers, dimensions, and precision geometry tools."
 category: "Design"
 tags: ["cad", "2d-drawing", "drafting"]
+alternativeTo: ["autocad"]
 repository: "https://github.com/LibreCAD/LibreCAD"
 website: "https://librecad.org/"
 license: "GPL-2.0-only"

@@ -7,6 +7,7 @@ tags:
   - reading
   - reader
   - cross-platform
+  - ebook-reader
 repository: "https://github.com/koodo-reader/koodo-reader"
 website: "https://koodoreader.com"
 license: "AGPL-3.0"

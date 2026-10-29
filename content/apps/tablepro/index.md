@@ -2,7 +2,8 @@
 name: "TablePro"
 summary: "A database client for SQL and NoSQL engines with a query editor, editable data grid and SSH tunnels."
 category: "Developer tools"
-tags: ["database", "sql", "nosql", "ssh"]
+tags: ["database", "sql", "nosql", "ssh", "database-client"]
+alternativeTo: ["tableplus"]
 repository: "https://github.com/TableProApp/TablePro"
 website: "https://tablepro.app"
 license: "AGPL-3.0"

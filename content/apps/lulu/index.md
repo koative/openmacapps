@@ -3,6 +3,7 @@ name: "LuLu"
 summary: "See and control which apps make outgoing network connections."
 category: "Privacy & security"
 tags: ["firewall", "network", "native"]
+alternativeTo: ["little-snitch"]
 repository: "https://github.com/objective-see/LuLu"
 website: "https://objective-see.org/products/lulu.html"
 license: "GPL-3.0"

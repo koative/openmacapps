@@ -2,7 +2,8 @@
 name: "PDFsam Basic"
 summary: "Split, merge, rotate, and reorganize PDF documents with a desktop toolkit."
 category: "Utilities"
-tags: ["pdf", "documents", "organization"]
+tags: ["pdf", "documents", "organization", "pdf-tools"]
+alternativeTo: ["adobe-acrobat"]
 repository: "https://github.com/torakiki/pdfsam"
 website: "https://pdfsam.org/"
 license: "AGPL-3.0"

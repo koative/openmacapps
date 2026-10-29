@@ -6,6 +6,7 @@ tags:
   - notes
   - markdown
   - keyboard-shortcuts
+  - note-taking
 repository: https://github.com/0xMassi/stik_app
 website: https://www.stik.ink/
 license: "MIT"

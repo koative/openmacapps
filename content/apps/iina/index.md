@@ -2,7 +2,7 @@
 name: "IINA"
 summary: "A considered video player with the controls and shortcuts Mac users expect."
 category: "Media"
-tags: ["video", "audio", "native"]
+tags: ["video", "audio", "native", "video-player"]
 repository: "https://github.com/iina/iina"
 website: "https://iina.io"
 license: "GPL-3.0"

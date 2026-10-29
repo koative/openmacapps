@@ -6,6 +6,11 @@ tags:
   - cleanup
   - storage
   - app-management
+  - uninstaller
+  - disk-cleaner
+alternativeTo:
+  - cleanmymac
+  - appcleaner
 repository: https://github.com/momenbasel/PureMac
 website: https://www.moamenbasel.com/PureMac/
 license: MIT

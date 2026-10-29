@@ -2,7 +2,8 @@
 name: "CopyQ"
 summary: "A scriptable clipboard manager that stores text, images and other formats in searchable, editable tabs."
 category: "Productivity"
-tags: ["clipboard", "scripting", "keyboard-shortcuts", "cross-platform"]
+tags: ["clipboard", "scripting", "keyboard-shortcuts", "cross-platform", "clipboard-manager"]
+alternativeTo: ["paste"]
 repository: "https://github.com/hluk/CopyQ"
 website: "https://hluk.github.io/CopyQ/"
 license: "GPL-3.0"

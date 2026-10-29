@@ -2,7 +2,8 @@
 name: "MarkText"
 summary: "Edit Markdown with a live rendered view, tables, code blocks, and a focused writing workspace."
 category: "Writing"
-tags: ["markdown", "editor", "distraction-free"]
+tags: ["markdown", "editor", "distraction-free", "markdown-editor"]
+alternativeTo: ["typora"]
 repository: "https://github.com/marktext/marktext"
 website: "https://github.com/marktext/marktext"
 license: "MIT"

@@ -6,6 +6,7 @@ tags:
   - music
   - streaming
   - audio-player
+  - music-player
 repository: https://github.com/ralph/Spotifly
 website: https://ralph.github.io/Spotifly/
 license: "MIT"

@@ -6,6 +6,9 @@ tags:
   - clipboard
   - history
   - privacy
+  - clipboard-manager
+alternativeTo:
+  - paste
 repository: https://github.com/sane-apps/SaneClip
 website: https://saneclip.com
 license: PolyForm-Shield-1.0.0

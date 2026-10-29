@@ -2,7 +2,7 @@
 name: "Sequel Ace"
 summary: "Explore MySQL and MariaDB databases in a native Mac interface."
 category: "Developer tools"
-tags: ["database", "mysql", "native"]
+tags: ["database", "mysql", "native", "database-client"]
 repository: "https://github.com/Sequel-Ace/Sequel-Ace"
 website: "https://sequel-ace.com"
 license: "MIT"

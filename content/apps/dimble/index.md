@@ -5,6 +5,8 @@ category: Utilities
 tags:
   - menu-bar
   - customization
+alternativeTo:
+  - bartender
 repository: https://github.com/fif7y/dimble
 website: https://dimble.fif7y.com
 license: GPL-3.0

@@ -3,6 +3,7 @@ name: "Cerebro"
 summary: "A keyboard launcher for apps, files, web searches and calculations, extended through community plugins."
 category: "Productivity"
 tags: ["launcher", "search", "plugins", "cross-platform"]
+alternativeTo: ["alfred"]
 repository: "https://github.com/cerebroapp/cerebro"
 website: "https://www.cerebroapp.com"
 license: "MIT"

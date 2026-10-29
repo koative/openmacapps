@@ -7,6 +7,9 @@ tags:
   - keepass
   - passwords
   - cross-platform
+alternativeTo:
+  - 1password
+  - lastpass
 repository: "https://github.com/keeweb/keeweb"
 website: "https://keeweb.info"
 license: "MIT"

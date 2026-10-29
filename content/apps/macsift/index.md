@@ -6,6 +6,9 @@ tags:
 - cleanup
 - storage
 - disk-usage
+- disk-cleaner
+alternativeTo:
+- cleanmymac
 repository: https://github.com/Lcharvol/MacSift
 website: https://lcharvol.github.io/MacSift/
 license: MIT

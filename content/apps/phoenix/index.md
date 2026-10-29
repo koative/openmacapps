@@ -7,6 +7,7 @@ tags:
   - scripting
   - keyboard-shortcuts
   - automation
+  - window-manager
 repository: https://github.com/kasper/phoenix
 website: https://kasper.github.io/phoenix/
 license: "MIT"

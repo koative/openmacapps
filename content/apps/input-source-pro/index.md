@@ -6,6 +6,7 @@ tags:
   - keyboard
   - languages
   - input
+  - keyboard-customization
 repository: https://github.com/runjuu/InputSourcePro
 website: https://inputsource.pro
 license: GPL-3.0

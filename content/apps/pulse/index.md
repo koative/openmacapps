@@ -2,7 +2,8 @@
 name: "Pulse"
 summary: "A menu-bar system monitor for CPU, memory, temperatures, fans, network, disk and power."
 category: "Utilities"
-tags: ["menu-bar", "system-monitoring"]
+tags: ["menu-bar", "system-monitoring", "system-monitor"]
+alternativeTo: ["istat-menus"]
 repository: "https://github.com/emgeorrk/pulse"
 website: "https://github.com/emgeorrk/pulse"
 license: "MIT"

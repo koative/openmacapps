@@ -7,6 +7,7 @@ tags:
   - markdown
   - distraction-free
   - local-first
+  - note-taking
 repository: https://github.com/AlexW00/Zettel
 website: https://github.com/AlexW00/Zettel
 license: GPL-3.0

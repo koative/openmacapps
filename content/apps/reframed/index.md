@@ -6,6 +6,11 @@ tags:
   - screen-recording
   - video-editor
   - video
+  - screen-recorder
+alternativeTo:
+  - screenflow
+  - camtasia
+  - screen-studio
 repository: https://github.com/jkuri/Reframed
 website: https://www.reframed.dev/
 license: "MIT"

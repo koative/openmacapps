@@ -9,6 +9,7 @@ tags:
   - local-ai
   - sync
   - cross-platform
+  - ebook-reader
 repository: "https://github.com/codedogQBY/ReadAny"
 website: "https://codedogqby.github.io/ReadAny/"
 license: "GPL-3.0-or-later"

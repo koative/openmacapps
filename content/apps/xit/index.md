@@ -5,6 +5,9 @@ category: 'Developer tools'
 tags:
   - git
   - version-control
+  - git-client
+alternativeTo:
+  - tower
 repository: https://github.com/Uncommon/Xit
 website: https://github.com/Uncommon/Xit
 license: 'Apache-2.0'

@@ -2,7 +2,7 @@
 name: "Hyper"
 summary: "A terminal built with web technologies and customized through themes and extensions."
 category: "Developer tools"
-tags: ["terminal", "extensions", "themes"]
+tags: ["terminal", "extensions", "themes", "terminal-emulator"]
 repository: "https://github.com/vercel/hyper"
 website: "https://hyper.is"
 license: "MIT"

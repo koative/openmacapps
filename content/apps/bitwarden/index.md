@@ -3,6 +3,7 @@ name: "Bitwarden"
 summary: "A desktop password vault with open-source builds and account synchronization."
 category: "Privacy & security"
 tags: ["password-manager", "passwords", "cross-platform"]
+alternativeTo: ["1password", "lastpass"]
 repository: "https://github.com/bitwarden/clients"
 website: "https://bitwarden.com"
 license: "GPL-3.0"

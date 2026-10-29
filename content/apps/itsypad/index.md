@@ -7,6 +7,7 @@ tags:
   - clipboard
   - text-editor
   - menu-bar
+  - clipboard-manager
 repository: "https://github.com/nickustinov/itsypad-macos"
 website: "https://itsypad.app"
 license: "MIT"

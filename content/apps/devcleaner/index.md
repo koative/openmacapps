@@ -7,6 +7,7 @@ tags:
   - storage
   - disk-usage
   - developer-utilities
+  - disk-cleaner
 repository: https://github.com/vashpan/xcode-dev-cleaner
 website: https://github.com/vashpan/xcode-dev-cleaner
 license: "GPL-3.0"

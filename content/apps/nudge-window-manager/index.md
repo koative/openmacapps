@@ -6,6 +6,9 @@ tags:
   - window-management
   - keyboard-shortcuts
   - menu-bar
+  - window-manager
+alternativeTo:
+  - magnet
 repository: "https://github.com/mikusnuz/nudge"
 website: "https://github.com/mikusnuz/nudge"
 license: "MIT"

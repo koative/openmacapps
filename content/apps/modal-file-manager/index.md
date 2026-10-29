@@ -2,7 +2,7 @@
 name: "Modal File Manager"
 summary: "A keyboard-driven file manager that uses Vim-style modal commands."
 category: "Productivity"
-tags: ["files", "keyboard", "vim"]
+tags: ["files", "keyboard", "vim", "file-manager"]
 repository: "https://github.com/raguay/ModalFileManager"
 website: "https://github.com/raguay/ModalFileManager"
 license: "MIT"

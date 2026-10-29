@@ -4,7 +4,7 @@ summary: "A Finder toolbar button that opens the current folder, or the selected
 category: "Developer tools"
 tags:
   - finder
-  - code-editor
+  - developer-utilities
 repository: https://github.com/sozercan/OpenInCode
 website: https://github.com/sozercan/OpenInCode
 license: "MIT"

@@ -3,6 +3,7 @@ name: "UTM"
 summary: "Run virtual machines and emulate other systems through a Mac desktop interface."
 category: "Developer tools"
 tags: ["virtualization", "emulation", "virtual-machines"]
+alternativeTo: ["parallels-desktop", "vmware-fusion"]
 repository: "https://github.com/utmapp/UTM"
 website: "https://mac.getutm.app"
 license: "Apache-2.0"

@@ -6,6 +6,8 @@ tags:
   - menu-bar
   - notch
   - customization
+alternativeTo:
+  - bartender
 repository: https://github.com/junior-rj/menubar-hide
 website: https://www.sparrow.tec.br/menubar-hide/
 license: "MIT"

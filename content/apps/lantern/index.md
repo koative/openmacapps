@@ -2,7 +2,7 @@
 name: "Lantern"
 summary: "A censorship-circumvention VPN and proxy for reaching blocked sites and services."
 category: "Privacy & security"
-tags: ["vpn", "censorship", "network", "cross-platform"]
+tags: ["vpn", "censorship", "network", "cross-platform", "vpn-client"]
 repository: "https://github.com/getlantern/lantern"
 website: "https://lantern.io"
 license: "GPL-3.0"

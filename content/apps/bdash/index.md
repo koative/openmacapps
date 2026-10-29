@@ -2,7 +2,7 @@
 name: "Bdash"
 summary: "A lightweight SQL client for saving queries, charting results and sharing them as GitHub gists."
 category: "Developer tools"
-tags: ["sql", "database", "data-analysis"]
+tags: ["sql", "database", "data-analysis", "database-client"]
 repository: "https://github.com/bdash-app/bdash"
 website: "https://bdash-app.github.io/"
 license: "MIT"

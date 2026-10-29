@@ -5,6 +5,9 @@ category: Productivity
 tags:
   - window-management
   - keyboard-shortcuts
+  - window-manager
+alternativeTo:
+  - magnet
 repository: https://github.com/mrkai77/Loop
 website: https://github.com/mrkai77/Loop
 license: GPL-3.0

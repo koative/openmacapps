@@ -7,6 +7,10 @@ tags:
   - painting
   - drawing
   - photography
+  - image-editor
+alternativeTo:
+  - photoshop
+  - pixelmator-pro
 repository: https://github.com/robaho/seashore
 website: https://github.com/robaho/seashore
 license: "GPL-2.0"

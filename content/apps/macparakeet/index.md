@@ -7,6 +7,7 @@ tags:
   - transcription
   - speech-to-text
   - local-ai
+  - voice-typing
 repository: https://github.com/moona3k/macparakeet
 website: https://macparakeet.com
 license: "GPL-3.0"

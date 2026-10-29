@@ -7,6 +7,7 @@ tags:
   - finder
   - tabs
   - keyboard-shortcuts
+  - file-manager
 repository: "https://github.com/WizenPainter/shuffle"
 website: "https://shuffleapp.co"
 license: "MIT"

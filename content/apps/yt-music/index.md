@@ -6,6 +6,7 @@ tags:
   - music
   - media-controls
   - notifications
+  - music-player
 repository: https://github.com/steve228uk/YouTube-Music
 website: https://ytmusic.app
 license: "MIT"

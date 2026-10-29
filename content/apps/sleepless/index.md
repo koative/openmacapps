@@ -3,6 +3,7 @@ name: "Sleepless"
 summary: "A menu-bar switch that keeps a closed-lid MacBook awake, with a timer and battery cutoff."
 category: "Utilities"
 tags: ["menu-bar", "power", "sleep"]
+alternativeTo: ["amphetamine"]
 repository: "https://github.com/Aboudjem/Sleepless"
 website: "https://aboudjem.github.io/Sleepless/"
 license: "MIT"

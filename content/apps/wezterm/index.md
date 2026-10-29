@@ -2,7 +2,7 @@
 name: "WezTerm"
 summary: "A configurable terminal and multiplexer with tabs, panes, and Lua-based settings."
 category: "Developer tools"
-tags: ["terminal", "shell", "cross-platform"]
+tags: ["terminal", "shell", "cross-platform", "terminal-emulator"]
 repository: "https://github.com/wezterm/wezterm"
 website: "https://wezterm.org"
 license: "MIT"

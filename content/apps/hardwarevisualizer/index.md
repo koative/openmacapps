@@ -6,6 +6,7 @@ tags:
   - system-monitoring
   - monitoring
   - cross-platform
+  - system-monitor
 repository: https://github.com/shm11C3/HardwareVisualizer
 website: https://hardviz.com
 license: GPL-3.0-or-later

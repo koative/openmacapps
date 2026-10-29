@@ -6,6 +6,7 @@ tags:
   - database
   - sqlite
   - cross-platform
+  - database-client
 repository: https://github.com/garrylachman/ElectroCRUD
 website: https://garrylachman.github.io/ElectroCRUD/
 license: MIT

@@ -3,6 +3,7 @@ name: "Ice"
 summary: "Give your menu bar a little breathing room."
 category: "Utilities"
 tags: ["menu-bar", "organization", "native"]
+alternativeTo: ["bartender"]
 repository: "https://github.com/jordanbaird/Ice"
 website: "https://icemenubar.app"
 license: "GPL-3.0"

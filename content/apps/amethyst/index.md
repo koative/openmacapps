@@ -6,6 +6,7 @@ tags:
   - window-management
   - tiling
   - keyboard-shortcuts
+  - window-manager
 repository: https://github.com/ianyh/Amethyst
 website: https://ianyh.com/amethyst/
 license: MIT

@@ -5,6 +5,9 @@ category: "Developer tools"
 tags:
   - git
   - version-control
+  - git-client
+alternativeTo:
+  - tower
 repository: "https://github.com/gitx/gitx"
 website: "https://github.com/gitx/gitx"
 license: "GPL-2.0-only"

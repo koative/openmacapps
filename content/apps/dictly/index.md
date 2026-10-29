@@ -7,6 +7,7 @@ tags:
   - speech-to-text
   - local-ai
   - menu-bar
+  - voice-typing
 repository: https://github.com/vlr-code/dictly
 website: https://github.com/vlr-code/dictly
 license: "MIT"

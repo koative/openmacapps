@@ -6,6 +6,7 @@ tags:
   - terminal
   - ssh
   - cross-platform
+  - terminal-emulator
 repository: https://github.com/wavetermdev/waveterm
 website: https://www.waveterm.dev
 license: "Apache-2.0"

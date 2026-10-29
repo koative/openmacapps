@@ -8,6 +8,12 @@ tags:
   - annotation
   - ocr
   - menu-bar
+  - screenshot-tool
+  - screen-recorder
+alternativeTo:
+  - cleanshot
+  - snagit
+  - loom
 repository: https://github.com/fayazara/Screendrop
 website: https://github.com/fayazara/Screendrop
 license: CC0-1.0

@@ -6,6 +6,8 @@ tags:
   - automation
   - scripting
   - keyboard-shortcuts
+alternativeTo:
+  - keyboard-maestro
 repository: https://github.com/Hammerspoon/hammerspoon
 website: https://github.com/Hammerspoon/hammerspoon
 license: MIT

@@ -7,6 +7,7 @@ tags:
   - desktop
   - keyboard-shortcuts
   - automation
+  - note-taking
 repository: https://github.com/aimen08/noty
 website: https://noty-sepia.vercel.app
 license: "MIT"

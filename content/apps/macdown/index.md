@@ -7,6 +7,9 @@ tags:
 - markdown
 - text-editor
 - previews
+- markdown-editor
+alternativeTo:
+- typora
 repository: https://github.com/MacDownApp/macdown
 website: https://macdown.uranusjr.com
 license: MIT

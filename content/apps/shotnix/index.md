@@ -8,6 +8,11 @@ tags:
   - annotation
   - ocr
   - video-editor
+  - screenshot-tool
+  - screen-recorder
+alternativeTo:
+  - cleanshot
+  - snagit
 repository: https://github.com/OMARVII/Shotnix
 website: https://shotnix.com
 license: "MIT"

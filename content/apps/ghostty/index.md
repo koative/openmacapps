@@ -2,7 +2,7 @@
 name: "Ghostty"
 summary: "A fast terminal with native Mac windows, tabs, split panes, and extensive keyboard controls."
 category: "Developer tools"
-tags: ["terminal", "shell", "native"]
+tags: ["terminal", "shell", "native", "terminal-emulator"]
 repository: "https://github.com/ghostty-org/ghostty"
 website: "https://ghostty.org"
 license: "MIT"

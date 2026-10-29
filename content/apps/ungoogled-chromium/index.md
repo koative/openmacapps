@@ -7,6 +7,8 @@ tags:
 - browser
 - privacy
 - chromium
+alternativeTo:
+- google-chrome
 repository: https://github.com/ungoogled-software/ungoogled-chromium
 website: https://github.com/ungoogled-software/ungoogled-chromium
 license: BSD-3-Clause

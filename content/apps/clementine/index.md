@@ -2,7 +2,7 @@
 name: "Clementine"
 summary: "Browse a music library, manage playlists, and listen to local tracks or internet radio."
 category: "Media"
-tags: ["music", "audio-player", "library"]
+tags: ["music", "audio-player", "library", "music-player"]
 repository: "https://github.com/clementine-player/Clementine"
 website: "https://www.clementine-player.org/"
 license: "GPL-3.0"

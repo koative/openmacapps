@@ -7,6 +7,7 @@ tags:
   - text-editor
   - tasks
   - presentations
+  - markdown-editor
 repository: https://github.com/maxnd/mxMarkEdit
 website: https://github.com/maxnd/mxMarkEdit
 license: "GPL-3.0-or-later"

@@ -2,7 +2,7 @@
 name: "pgAdmin 4"
 summary: "A PostgreSQL administration app with database navigation, query tools, and server management."
 category: "Developer tools"
-tags: ["database", "postgresql", "sql"]
+tags: ["database", "postgresql", "sql", "database-client"]
 repository: "https://github.com/pgadmin-org/pgadmin4"
 website: "https://www.pgadmin.org"
 license: "PostgreSQL"

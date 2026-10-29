@@ -2,7 +2,8 @@
 name: "AirStats"
 summary: "A low-overhead menu bar monitor for CPU, memory, GPU, network, disk, battery and temperatures."
 category: "Utilities"
-tags: ["system-monitoring", "menu-bar", "widgets", "temperature"]
+tags: ["system-monitoring", "menu-bar", "widgets", "temperature", "system-monitor"]
+alternativeTo: ["istat-menus"]
 repository: "https://github.com/byrencheema/airstats"
 website: "https://airstats.app"
 license: "MIT"

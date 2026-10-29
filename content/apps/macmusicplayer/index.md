@@ -6,6 +6,7 @@ tags:
   - music
   - audio-player
   - menu-bar
+  - music-player
 repository: "https://github.com/samzong/MacMusicPlayer"
 website: "https://samzong.github.io/MacMusicPlayer/"
 license: "MIT"

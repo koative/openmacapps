@@ -6,6 +6,9 @@ tags:
   - menu-bar
   - system-monitoring
   - monitoring
+  - system-monitor
+alternativeTo:
+  - istat-menus
 repository: https://github.com/alexx855/better-resource-monitor
 website: https://better-resource-monitor.alexpedersen.dev/
 license: "MIT"

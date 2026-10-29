@@ -6,6 +6,8 @@ tags:
   - automation
   - keyboard-shortcuts
   - workflows
+alternativeTo:
+  - keyboard-maestro
 repository: https://github.com/zenangst/KeyboardCowboy
 website: https://github.com/zenangst/KeyboardCowboy
 license: MIT

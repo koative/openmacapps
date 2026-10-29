@@ -7,6 +7,7 @@ tags:
   - markdown
   - plain-text
   - sync
+  - note-taking
 repository: https://github.com/Automattic/simplenote-macos
 website: https://simplenote.com
 license: "GPL-2.0"

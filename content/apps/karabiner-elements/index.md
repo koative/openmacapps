@@ -6,6 +6,7 @@ tags:
   - keyboard
   - remapping
   - automation
+  - keyboard-customization
 repository: https://github.com/pqrs-org/Karabiner-Elements
 website: https://karabiner-elements.pqrs.org/
 license: Unlicense

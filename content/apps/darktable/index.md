@@ -7,6 +7,9 @@ tags:
   - photography
   - raw-editor
   - color
+alternativeTo:
+  - lightroom
+  - capture-one
 repository: https://github.com/darktable-org/darktable
 website: https://www.darktable.org/
 license: GPL-3.0

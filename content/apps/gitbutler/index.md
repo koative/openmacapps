@@ -2,7 +2,7 @@
 name: "GitButler"
 summary: "A graphical Git workspace for organizing parallel changes and preparing commits."
 category: "Developer tools"
-tags: ["git", "version-control", "source-available"]
+tags: ["git", "version-control", "source-available", "git-client"]
 repository: "https://github.com/gitbutlerapp/gitbutler"
 website: "https://gitbutler.com"
 license: "FSL-1.1-MIT"

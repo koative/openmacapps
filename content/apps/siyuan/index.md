@@ -2,7 +2,8 @@
 name: "SiYuan"
 summary: "Organize notes with block references, document trees, and a locally stored workspace."
 category: "Writing"
-tags: ["notes", "markdown", "knowledge-base"]
+tags: ["notes", "markdown", "knowledge-base", "note-taking"]
+alternativeTo: ["notion", "obsidian"]
 repository: "https://github.com/siyuan-note/siyuan"
 website: "https://b3log.org/siyuan/en/"
 license: "AGPL-3.0"

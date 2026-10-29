@@ -6,6 +6,8 @@ tags:
   - rss
   - feeds
   - reading
+alternativeTo:
+  - reeder
 repository: https://github.com/ViennaRSS/vienna-rss
 website: https://www.vienna-rss.com
 license: "Apache-2.0"

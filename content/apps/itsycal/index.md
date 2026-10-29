@@ -3,6 +3,7 @@ name: "Itsycal"
 summary: "A small calendar that is always one click away."
 category: "Productivity"
 tags: ["calendar", "menu-bar", "native"]
+alternativeTo: ["fantastical"]
 repository: "https://github.com/sfsam/Itsycal"
 website: "https://www.mowglii.com/itsycal/"
 license: "MIT"

@@ -10,6 +10,8 @@ tags:
   - local-ai
   - local-first
   - knowledge-base
+alternativeTo:
+  - notion
 repository: https://github.com/bitwize-ai/Logue
 website: https://bitwize.ai
 license: "MIT"

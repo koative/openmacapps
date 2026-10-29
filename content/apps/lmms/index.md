@@ -3,6 +3,7 @@ name: "LMMS"
 summary: "Compose electronic music with a piano roll, instruments, patterns, and an effects mixer."
 category: "Media"
 tags: ["music", "synthesizer", "sequencer"]
+alternativeTo: ["garageband"]
 repository: "https://github.com/LMMS/lmms"
 website: "https://lmms.io/"
 license: "GPL-2.0"

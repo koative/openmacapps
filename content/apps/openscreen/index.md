@@ -6,6 +6,11 @@ tags:
   - screen-recording
   - video-editing
   - cross-platform
+  - screen-recorder
+alternativeTo:
+  - screenflow
+  - camtasia
+  - screen-studio
 repository: https://github.com/getopenscreen/openscreen
 website: https://getopenscreen.com
 license: MIT

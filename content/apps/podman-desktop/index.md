@@ -3,6 +3,7 @@ name: "Podman Desktop"
 summary: "Manage containers, images, and local development environments from a desktop app."
 category: "Developer tools"
 tags: ["containers", "kubernetes", "development"]
+alternativeTo: ["docker-desktop"]
 repository: "https://github.com/podman-desktop/podman-desktop"
 website: "https://podman-desktop.io"
 license: "Apache-2.0"

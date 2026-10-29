@@ -6,6 +6,7 @@ tags:
   - music
   - audio-player
   - metadata
+  - music-player
 repository: https://github.com/wandercn/fmusic
 website: https://github.com/wandercn/fmusic
 license: "GPL-3.0"

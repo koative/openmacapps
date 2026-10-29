@@ -2,7 +2,8 @@
 name: "Stats"
 summary: "Keep an eye on CPU, memory, network activity and more from your menu bar."
 category: "Utilities"
-tags: ["monitoring", "menu-bar", "native"]
+tags: ["monitoring", "menu-bar", "native", "system-monitor"]
+alternativeTo: ["istat-menus"]
 repository: "https://github.com/exelban/stats"
 website: "https://mac-stats.com"
 license: "MIT"

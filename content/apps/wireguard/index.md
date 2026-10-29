@@ -7,6 +7,7 @@ tags:
   - network
   - menu-bar
   - tunneling
+  - vpn-client
 repository: https://git.zx2c4.com/wireguard-apple
 website: https://www.wireguard.com
 license: "MIT"

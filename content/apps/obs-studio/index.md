@@ -2,7 +2,7 @@
 name: "OBS Studio"
 summary: "Build scenes, record your screen and broadcast live."
 category: "Media"
-tags: ["streaming", "screen-recording", "cross-platform"]
+tags: ["streaming", "screen-recording", "cross-platform", "screen-recorder"]
 repository: "https://github.com/obsproject/obs-studio"
 website: "https://obsproject.com"
 license: "GPL-2.0"

@@ -2,7 +2,8 @@
 name: "KeePassXC"
 summary: "Manage passwords in an encrypted database you control."
 category: "Privacy & security"
-tags: ["passwords", "offline", "cross-platform"]
+tags: ["passwords", "offline", "cross-platform", "password-manager"]
+alternativeTo: ["1password", "lastpass"]
 repository: "https://github.com/keepassxreboot/keepassxc"
 website: "https://keepassxc.org/"
 license: "GPL-2.0-only OR GPL-3.0-only"

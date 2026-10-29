@@ -6,6 +6,7 @@ tags:
   - terminal
   - coding-agents
   - workspaces
+  - terminal-emulator
 repository: https://github.com/vestaterm/Vesta
 website: https://vestaterm.github.io/vesta-site/
 license: MIT

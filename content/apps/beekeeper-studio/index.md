@@ -2,7 +2,8 @@
 name: "Beekeeper Studio Community"
 summary: "A SQL editor and database browser in the open-source Community edition."
 category: "Developer tools"
-tags: ["database", "sql", "cross-platform"]
+tags: ["database", "sql", "cross-platform", "database-client"]
+alternativeTo: ["tableplus"]
 repository: "https://github.com/beekeeper-studio/beekeeper-studio"
 website: "https://www.beekeeperstudio.io"
 license: "GPL-3.0-or-later"

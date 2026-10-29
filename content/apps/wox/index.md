@@ -7,6 +7,8 @@ tags:
   - search
   - plugins
   - cross-platform
+alternativeTo:
+  - alfred
 repository: https://github.com/Wox-launcher/Wox
 website: https://www.woxlauncher.com
 license: "GPL-3.0"

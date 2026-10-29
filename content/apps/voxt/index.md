@@ -7,6 +7,7 @@ tags:
   - transcription
   - translation
   - meetings
+  - voice-typing
 repository: https://github.com/sgl-project/sglang-omni/tree/main/Voxt
 website: https://voxt.actnow.dev/
 license: "Apache-2.0"

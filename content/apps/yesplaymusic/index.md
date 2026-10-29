@@ -7,6 +7,7 @@ tags:
 - streaming
 - lyrics
 - cross-platform
+- music-player
 repository: https://github.com/qier222/YesPlayMusic
 website: https://github.com/qier222/YesPlayMusic
 license: MIT

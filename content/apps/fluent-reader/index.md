@@ -3,6 +3,7 @@ name: "Fluent Reader"
 summary: "Follow RSS subscriptions in a desktop reader with several article layouts and reading controls."
 category: "Internet"
 tags: ["rss", "feeds", "reading"]
+alternativeTo: ["reeder"]
 repository: "https://github.com/yang991178/fluent-reader"
 website: "https://hyliu.me/fluent-reader/"
 license: "BSD-3-Clause"

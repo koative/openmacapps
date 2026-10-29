@@ -2,7 +2,7 @@
 name: "VoiceInk"
 summary: "Dictate into any app with on-device speech models, push-to-talk shortcuts and per-app modes."
 category: "AI"
-tags: ["dictation", "speech-to-text", "local-ai", "keyboard-shortcuts"]
+tags: ["dictation", "speech-to-text", "local-ai", "keyboard-shortcuts", "voice-typing"]
 repository: "https://github.com/Beingpax/VoiceInk"
 website: "https://tryvoiceink.com"
 license: "GPL-3.0"

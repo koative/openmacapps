@@ -6,6 +6,9 @@ tags:
   - clipboard
   - history
   - keyboard-shortcuts
+  - clipboard-manager
+alternativeTo:
+  - paste
 repository: https://github.com/lifedever/PasteMemo-app
 website: https://www.lifedever.com/PasteMemo/
 license: "GPL-3.0"

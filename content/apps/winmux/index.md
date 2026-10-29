@@ -6,6 +6,7 @@ tags:
   - window-management
   - tiling
   - workspaces
+  - window-manager
 repository: https://github.com/ZimengXiong/WinMux
 website: https://winmux.dev
 license: "MIT"
