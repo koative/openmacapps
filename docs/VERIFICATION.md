@@ -1,5 +1,20 @@
 # Release verification
 
+## Moved to openmacapps.com — 2026-10-29
+
+The catalog is now OpenMacApps, at <https://openmacapps.com/>, built from `koative/openmacapps`.
+
+**What changed.**
+- **DNS:** the A, AAAA and `www` records were created with the Cloudflare CLI.
+- **GitHub Pages:** the custom domain was switched with `gh`. Once the certificate was approved, HTTPS was enforced.
+- **Repository:** renamed. Its old URL answers with a 301.
+
+**Checks.**
+- **New domain:** `https://openmacapps.com/` returns 200. `http://` and `www` 301 to the apex. The canonical, `robots.txt` and the sitemap use the new domain.
+- **Old address:** the former koative.com subdomain now 301s to the same path on openmacapps.com, query string included. This was tried with `/`, `/apps/iina/?ref=x` and plain `http://`.
+- **Pipelines:** the deploy and catalog checks passed.
+- **Other koative sites:** the koative.com project page and OpenBucket's footer link to the new address.
+
 ## Image weight and layout shift — 2026-10-29
 
 **Problem.** Pages used the original files: 256 px PNG icons averaging 38 KB each, and screenshots of up to 2.3 MB.

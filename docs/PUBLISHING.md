@@ -32,7 +32,7 @@ The site is served at the root of `openmacapps.com`, registered at Cloudflare on
 - Repository **Settings → Pages → Custom domain** is `openmacapps.com`. The Actions publishing method uses this setting, not a `CNAME` file.
 - `site.url` in `src/lib/site.ts` is `https://openmacapps.com/`, so the base path is `/`.
 
-Turn on **Enforce HTTPS** once GitHub has issued the certificate, so plain `http://` requests get a 301 redirect to HTTPS.
+**Enforce HTTPS** is on: GitHub's certificate covers `openmacapps.com` and `www.openmacapps.com`, and plain `http://` requests get a 301 redirect to HTTPS (checked 2026-10-29).
 
 The catalog's earlier address, a subdomain in the `koative.com` Cloudflare zone, answers with a permanent redirect so old links and search results carry over: its DNS record is proxied (orange cloud), and a zone **Redirect Rule** sends a 301 to `concat("https://openmacapps.com", http.request.uri.path)` with the query string preserved. GitHub Pages serves one custom domain per repository, so it cannot do this redirect itself. Add `openmacapps.com` in Google Search Console and use the Change of Address tool from the old property.
 
