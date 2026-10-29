@@ -3,6 +3,7 @@ name: "Syncthing for macOS"
 summary: "A Mac app wrapper that starts and manages the Syncthing file synchronization service."
 category: "Utilities"
 tags: ["file-sync", "menu-bar", "peer-to-peer"]
+alternativeTo: ["dropbox"]
 repository: "https://github.com/syncthing/syncthing-macos"
 website: "https://github.com/syncthing/syncthing-macos"
 license: "MIT"

@@ -8,6 +8,7 @@ tags:
   - sftp
 alternativeTo:
   - winscp
+  - transmit
 repository: https://github.com/iterate-ch/cyberduck
 website: https://cyberduck.io
 license: GPL-3.0

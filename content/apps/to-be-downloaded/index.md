@@ -6,6 +6,8 @@ tags:
 - downloads
 - video
 - yt-dlp
+alternativeTo:
+- 4k-video-downloader
 repository: https://github.com/eliorpom-cmd/to-be-downloaded
 website: https://www.tbd.yt/
 license: AGPL-3.0

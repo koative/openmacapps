@@ -11,4 +11,4 @@ verified: '2026-10-29'
 
 Termius is an SSH client for desktop and mobile. It keeps a list of saved hosts with their credentials and keys, opens terminal sessions in tabs, manages port forwarding and transfers files over SFTP, and can sync its vault between devices through a Termius account.
 
-The open-source apps below do the same job of managing and opening remote connections from a Mac. Tabby is a terminal with built-in SSH profiles, serial connections and an SFTP panel, and electerm combines a terminal with SSH, SFTP, Telnet and serial sessions plus remote desktop protocols. Both store connection profiles locally, and sync depends on each app's own options.
+The open-source apps below do the same job of managing and opening remote connections from a Mac. Netcatty is closest in layout, with a vault of hosts, port forwarding and a dual-pane SFTP browser. Tabby is a terminal with built-in SSH profiles, serial connections and an SFTP panel, and electerm combines a terminal with SSH, SFTP, Telnet and serial sessions plus remote desktop protocols. All three store connection profiles locally, and sync depends on each app's own options.

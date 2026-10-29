@@ -7,6 +7,8 @@ tags:
   - file-transfer
   - usb
   - files
+alternativeTo:
+  - android-file-transfer
 repository: https://github.com/ganeshrvel/openmtp
 website: https://openmtp.ganeshrvel.com
 license: "MIT"

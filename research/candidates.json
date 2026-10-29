@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "note": "Discovery leads, not verified apps. Needs-review includes libraries, duplicates, renamed repositories, closed-source distributions and incompatible software. Never auto-publish this queue.",
   "sourceCount": 10,
   "candidates": [
@@ -767,7 +767,7 @@
     },
     {
       "repository": "https://github.com/antonio-orionus/arroxy",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac",
         "https://github.com/serhii-londar/open-source-mac-os-apps"
@@ -1423,7 +1423,7 @@
     },
     {
       "repository": "https://github.com/binaricat/netcatty",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/KiarashS/awesome-macOS-applications"
       ]
@@ -1947,7 +1947,7 @@
     },
     {
       "repository": "https://github.com/catvinci-studio/textus",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
       ]
@@ -3840,7 +3840,7 @@
     },
     {
       "repository": "https://github.com/fortography/prism-download-manager",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
       ]
@@ -4623,7 +4623,7 @@
     },
     {
       "repository": "https://github.com/harkhowalia-1/macsubsystemforandroid",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
       ]
@@ -5861,7 +5861,7 @@
     },
     {
       "repository": "https://github.com/juinwei7/shiyin",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
       ]
@@ -6177,7 +6177,7 @@
     },
     {
       "repository": "https://github.com/keplsiv/folderforge",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
@@ -6233,7 +6233,7 @@
     },
     {
       "repository": "https://github.com/khr898/ntfsmac",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/KiarashS/awesome-macOS-applications"
       ]
@@ -10228,7 +10228,7 @@
     },
     {
       "repository": "https://github.com/rashn/ruswitcher",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/KiarashS/awesome-macOS-applications"
       ]
@@ -10919,7 +10919,7 @@
     },
     {
       "repository": "https://github.com/santosh7017/androidfilesync",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/KiarashS/awesome-macOS-applications"
       ]
@@ -11710,7 +11710,7 @@
     },
     {
       "repository": "https://github.com/spreadpaper/spreadpaper",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
@@ -12562,7 +12562,7 @@
     },
     {
       "repository": "https://github.com/toeverything/affine",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/abordage/awesome-mac",
         "https://github.com/jaywcjlove/awesome-mac"
@@ -12748,7 +12748,7 @@
     },
     {
       "repository": "https://github.com/tuguidragos/peel",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac",
         "https://github.com/jeffreyjackson/mac-apps"
@@ -13873,7 +13873,7 @@
     },
     {
       "repository": "https://github.com/yetone/magpie",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/KiarashS/awesome-macOS-applications"
       ]
@@ -14065,7 +14065,7 @@
     },
     {
       "repository": "https://github.com/zacharyl2/keyecho",
-      "status": "needs-review",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]

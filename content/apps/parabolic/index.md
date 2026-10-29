@@ -7,6 +7,8 @@ tags:
   - downloads
   - youtube
   - cross-platform
+alternativeTo:
+  - 4k-video-downloader
 repository: https://github.com/NickvisionApps/Parabolic
 website: https://github.com/NickvisionApps/Parabolic
 license: "MIT"

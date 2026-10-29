@@ -7,6 +7,8 @@ tags:
   - downloads
   - youtube
   - cross-platform
+alternativeTo:
+  - 4k-video-downloader
 repository: https://github.com/jely2002/youtube-dl-gui
 website: https://jely2002.github.io/youtube-dl-gui/
 license: "AGPL-3.0"

@@ -3,6 +3,7 @@ name: "Natron"
 summary: "Build visual effects and image composites by connecting processing nodes."
 category: "Media"
 tags: ["video", "compositing", "visual-effects"]
+alternativeTo: ["adobe-after-effects"]
 repository: "https://github.com/NatronGitHub/Natron"
 website: "https://natrongithub.github.io/"
 license: "GPL-2.0"

@@ -13,4 +13,4 @@ onMac: false
 
 PDF-XChange Editor opens PDF files for reading, markup and editing: comments, highlights and drawings, text changes, form filling, signatures and OCR for scanned pages. Its system requirements list only Microsoft Windows.
 
-For PDF-XChange Editor for Mac, OffPDF is the broader option, with an editing workspace for text, images, annotations and signatures alongside OCR, merging, splitting and conversion, all offline. Xournal++ focuses on annotation, letting you write, draw and add text on top of PDF pages with pen-based tools. The Preview app that comes with macOS handles highlights, notes and simple form filling on its own.
+For PDF-XChange Editor for Mac, OffPDF is the broader option, with an editing workspace for text, images, annotations and signatures alongside OCR, merging, splitting and conversion, all offline. Xournal++ focuses on annotation, letting you write, draw and add text on top of PDF pages with pen-based tools, and Skim is a reader built around highlights, notes and snapshots for working through long documents. The Preview app that comes with macOS handles highlights, notes and simple form filling on its own.

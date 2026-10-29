@@ -7,6 +7,8 @@ tags:
   - languages
   - input
   - menu-bar
+alternativeTo:
+  - punto-switcher
 repository: "https://github.com/reg2005/langSwitcher"
 website: "https://reg2005.github.io/langSwitcher/"
 license: "MIT"
