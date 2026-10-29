@@ -51,6 +51,12 @@ const verified = verifiedDate.toLocaleDateString('en-US', {
 });
 const repository = new URL(app.repository);
 const [owner, repo] = repository.pathname.split('/').filter(Boolean);
+// Two apps can share a name; the repository owner keeps their titles distinct.
+const titleName = getApps().some(
+  (other) => other.name === app.name && other.slug !== app.slug,
+)
+  ? `${app.name} by ${owner}`
+  : app.name;
 const hosts: Record<string, string> = {
   'github.com': 'GitHub',
   'gitlab.com': 'GitLab',
@@ -75,7 +81,7 @@ const brewPage = brewTap
 ---
 
 <Layout
-  title={`${app.name} for Mac (${kind}) — ${site.name}`}
+  title={`${titleName} for Mac (${kind}) — ${site.name}`}
   description={metaDescription.length <= 160 ? metaDescription : app.summary}
   type="WebPage"
   section={categoryHref}
