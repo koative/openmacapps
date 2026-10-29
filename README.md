@@ -55,7 +55,7 @@ See [publishing and SEO](docs/PUBLISHING.md) for the shared site configuration, 
 
 <!-- catalog:start -->
 
-903 macOS apps: **889 open source** and **14 source available**. Source-available apps have additional restrictions and are labeled separately. Generated from [content/apps](content/apps); edit the app folders to contribute.
+904 macOS apps: **890 open source** and **14 source available**. Source-available apps have additional restrictions and are labeled separately. Generated from [content/apps](content/apps); edit the app folders to contribute.
 
 ### Productivity
 
@@ -107,6 +107,7 @@ See [publishing and SEO](docs/PUBLISHING.md) for the shared site configuration, 
 | [Knopo](https://openmacapps.com/apps/knopo/) · [Source](https://github.com/alkalim/Knopo) | A block-based outliner for linked notes and journals that stores everything as plain Markdown files. | [AGPL-3.0](https://github.com/alkalim/Knopo/blob/main/LICENSE) |
 | [Koodo Reader](https://openmacapps.com/apps/koodo-reader/) · [Source](https://github.com/koodo-reader/koodo-reader) | A cross-platform ebook reader for EPUB, PDF, MOBI, comics and more, with optional cloud sync and backup. | [AGPL-3.0](https://github.com/koodo-reader/koodo-reader/blob/dev/LICENSE) |
 | [Later](https://openmacapps.com/apps/later/) · [Source](https://github.com/alyssaxuu/later) | A menu bar app that hides or closes every open app in one click, then restores the session now or on a schedule. | [MIT](https://github.com/alyssaxuu/later/blob/master/LICENSE) |
+| [LayoutKeeper](https://openmacapps.com/apps/layoutkeeper/) · [Source](https://github.com/tumingke0/LayoutKeeper) | Restores window layouts across displays and Spaces after you reconnect external monitors. | [GPL-3.0](https://github.com/tumingke0/LayoutKeeper/blob/main/LICENSE) |
 | [Leader Key](https://openmacapps.com/apps/leader-key/) · [Source](https://github.com/mikker/LeaderKey) | Launch apps and actions through nested, memorable key sequences. | [MIT](https://github.com/mikker/LeaderKey/blob/main/LICENSE) |
 | [LibreOffice](https://openmacapps.com/apps/libreoffice/) · [Source](https://github.com/LibreOffice/core) | Create documents, spreadsheets, presentations, and drawings in an open desktop office suite. | [MPL-2.0](https://github.com/LibreOffice/core/blob/master/COPYING.MPL) |
 | [Logue](https://openmacapps.com/apps/logue/) · [Source](https://github.com/bitwize-ai/Logue) | A local-first workspace for documents, tasks and recorded meetings, with on-device transcription and an AI agent. | [MIT](https://github.com/bitwize-ai/Logue/blob/main/LICENSE) |
