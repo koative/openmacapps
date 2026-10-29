@@ -3,7 +3,7 @@
   "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "maco",
+      "name": "openmacapps",
       "dependencies": {
         "@lucide/astro": "^1.16.0",
         "astro": "^7.4.0",

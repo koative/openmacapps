@@ -211,9 +211,13 @@ export const picksFirst = (apps: CatalogApp[]) =>
       a.name.localeCompare(b.name, 'en'),
   );
 
-/** "Clipboard managers" → "clipboard managers"; acronyms such as "AI" keep their case. */
+/** "Clipboard managers" → "clipboard managers"; acronyms such as "AI" and proper nouns keep their case. */
+// ponytail: hand-kept proper-noun list; extend it when a new topic title starts with a name.
+const properNoun = /^(Android|Git|Homebrew|Night Shift)\b/;
 export const lowerTitle = (title: string) =>
-  title.replace(/^\p{Lu}(?!\p{Lu})/u, (letter) => letter.toLowerCase());
+  properNoun.test(title)
+    ? title
+    : title.replace(/^\p{Lu}(?!\p{Lu})/u, (letter) => letter.toLowerCase());
 
 /** The topic's own category, else the category holding more than half its apps. */
 export function topicCategory(topic: Topic): Topic['category'] {

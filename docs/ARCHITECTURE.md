@@ -1,4 +1,4 @@
-# How Maco is maintained
+# How OpenMacApps is maintained
 
 ## Source of truth
 

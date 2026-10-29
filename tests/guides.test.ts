@@ -17,7 +17,7 @@ afterEach(() => {
     fs.rmSync(directory, { recursive: true, force: true });
 });
 function directory() {
-  const created = fs.mkdtempSync(path.join(os.tmpdir(), 'maco-guides-'));
+  const created = fs.mkdtempSync(path.join(os.tmpdir(), 'guides-test-'));
   temporaryDirectories.push(created);
   return created;
 }

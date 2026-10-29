@@ -5,9 +5,9 @@ primary_target: "src/pages/index.astro"
 related_targets: ["src/layouts/Layout.astro","src/styles/global.css","src/pages/apps/[slug].astro","src/pages/search.astro"]
 ---
 
-# Maco store shell, Discover, browse, and app pages
+# OpenMacApps store shell, Discover, browse, and app pages
 
-Mode: Operate. Redesign requested 2026-10-17: "move the project to a real App Store experience" with Impeccable. User confirmed: light + dark following the system appearance, Mac App Store sidebar shell. Pinned canon (the user's own words name the category standard); reference product: the macOS App Store (Sonoma/Sequoia) and apps.apple.com. Preserve product truth: Maco name, English UI, license evidence, source-available labelling, URL-backed search filters, no-JS full catalog, provenance of every image.
+Mode: Operate. Redesign requested 2026-10-17: "move the project to a real App Store experience" with Impeccable. User confirmed: light + dark following the system appearance, Mac App Store sidebar shell. Pinned canon (the user's own words name the category standard); reference product: the macOS App Store (Sonoma/Sequoia) and apps.apple.com. Preserve product truth: OpenMacApps name, English UI, license evidence, source-available labelling, URL-backed search filters, no-JS full catalog, provenance of every image.
 
 ## Direction contract
 

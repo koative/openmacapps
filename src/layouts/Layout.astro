@@ -41,6 +41,9 @@ const {
   noindex = false,
   structuredData = [],
 } = Astro.props;
+// Search results cut titles near 70 characters; long page names drop the brand suffix first.
+const pageTitle =
+  title.length > 70 ? title.replace(` — ${site.name}`, '') : title;
 const base = import.meta.env.BASE_URL;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const shareImage = absoluteUrl(image || 'social-card.png');
@@ -63,7 +66,7 @@ const graph = [
     '@type': type,
     '@id': `${canonical.href}#webpage`,
     url: canonical.href,
-    name: title,
+    name: pageTitle,
     description,
     isPartOf: { '@id': `${site.url}#website` },
     inLanguage: 'en',
@@ -118,7 +121,7 @@ const collectionGlyphs = {
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content={title} />
+    <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     {!noindex && <meta property="og:url" content={canonical} />}
     <meta property="og:image" content={shareImage} />
@@ -130,7 +133,7 @@ const collectionGlyphs = {
       </>
     )}
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
+    <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={shareImage} />
     <meta name="twitter:image:alt" content={imageAlt} />
@@ -159,7 +162,7 @@ const collectionGlyphs = {
         })}
       />
     )}
-    <title>{title}</title>
+    <title>{pageTitle}</title>
     <!-- 100% privacy-first analytics -->
     <script
       is:inline
@@ -298,7 +301,8 @@ const collectionGlyphs = {
             {site.name} is an independent directory by{' '}
             <a href="https://github.com/koative">Koative</a>. Downloads come
             from each project’s official source. App names, icons, and
-            screenshots belong to their owners.
+            screenshots belong to their owners. Mac and macOS are trademarks of
+            Apple Inc.; {site.name} is not affiliated with Apple.
           </p>
         </footer>
       </main>

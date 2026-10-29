@@ -1,6 +1,6 @@
-# Contributing to Maco
+# Contributing to OpenMacApps
 
-Maco is a curated collection of open-source macOS apps and separately labeled source-available apps. App records are the source of truth: both the website and the README catalog are generated from `content/apps/`.
+OpenMacApps is a curated collection of open-source macOS apps and separately labeled source-available apps. App records are the source of truth: both the website and the README catalog are generated from `content/apps/`.
 
 ## Before adding an app
 
@@ -87,7 +87,7 @@ Use clear upstream app icons and screenshots, with readable screenshots and desc
 
 Every image file needs an `assets` entry with its original source URL, owner credit, and applicable license. Code and image licenses may differ; verify both. The `icon` field is optional and `screenshots` can be empty. Third-party images retain their upstream license and trademark rights.
 
-An app's official icon may be used even when its logo is reserved as a trademark or carries a non-commercial or no-derivatives license: Maco is non-commercial and shows the icon only to identify the app it links to. Use the official file unmodified (resizing or format conversion only), name the rights holder in `credit`, and state the actual terms in `license`, for example "Trademark of Mozilla Foundation; not covered by the MPL-2.0 code license". Remove the icon if the rights holder asks. For screenshots and every other image, if reuse rights are unclear, omit the image and explain the gap in your pull request.
+An app's official icon may be used even when its logo is reserved as a trademark or carries a non-commercial or no-derivatives license: OpenMacApps is non-commercial and shows the icon only to identify the app it links to. Use the official file unmodified (resizing or format conversion only), name the rights holder in `credit`, and state the actual terms in `license`, for example "Trademark of Mozilla Foundation; not covered by the MPL-2.0 code license". Remove the icon if the rights holder asks. For screenshots and every other image, if reuse rights are unclear, omit the image and explain the gap in your pull request.
 
 Asset paths must begin with `./assets/`, remain inside the app folder, and point to existing files. Symlinks and path traversal are rejected. List provenance even for images not currently shown. Keep the applicable upstream license notices as `.txt` files in `assets/`; the build preserves and links each notice. The build copies these files into `public/catalog/`; do not edit generated copies.
 
@@ -117,7 +117,7 @@ bun run check:generated
 
 A cask from a third-party tap is written in full, `owner/tap/token` (for example `koative/tap/openbucket`); `bun run homebrew` never adds one, so set it by hand. The check reads the cask file from `github.com/owner/homebrew-tap` and applies the same repository-or-website rule. Because Homebrew only loads non-official taps that the user has trusted, the product page shows `brew trust owner/tap && brew install --cask owner/tap/token` and links the tap repository instead of formulae.brew.sh.
 
-The site is served at the root of `https://maco.koative.com/`. Keep internal links and image URLs aware of Astro's `BASE_URL`; the catalog loader already resolves image paths. Preview production output with `bun run preview` after building.
+The site is served at the root of `https://openmacapps.com/`. Keep internal links and image URLs aware of Astro's `BASE_URL`; the catalog loader already resolves image paths. Preview production output with `bun run preview` after building.
 
 ## Pull requests
 

@@ -1,5 +1,5 @@
 ---
-name: Maco
+name: OpenMacApps
 description: A Mac App Store–style directory of open-source Mac software, in light and dark.
 colors:
   bg-light: "#ffffff"
@@ -348,15 +348,15 @@ components:
     typography: "{typography.caption}"
 ---
 
-# Design System: Maco
+# Design System: OpenMacApps
 
 ## Overview
 
 **Creative North Star: "The Store, Straight"**
 
-Maco is a working Mac App Store for open-source software, and it executes that canon without irony: a sidebar shell, Discover shelves, lockups with Get pills, spotlight cards over real screenshots, product pages with an info strip. The world supplies type, palette and density; navigation and controls stay standard web controls. Appearance follows the system (`color-scheme: light dark`), so every colour role ships as a `light-dark()` pair and the page never offers its own toggle.
+OpenMacApps is a working Mac App Store for open-source software, and it executes that canon without irony: a sidebar shell, Discover shelves, lockups with Get pills, spotlight cards over real screenshots, product pages with an info strip. The world supplies type, palette and density; navigation and controls stay standard web controls. Appearance follows the system (`color-scheme: light dark`), so every colour role ships as a `light-dark()` pair and the page never offers its own toggle.
 
-The surface is quiet and bright in light mode, graphite in dark: white or #1e1e1e content beside an opaque sidebar, near-black or near-white labels, secondary grey labels, hairline separators. Colour comes from three places only: Apple link blue for actions, eleven system colours for category tiles and icon fallbacks, and the apps' own icons and screenshots. Orange means one thing: source-available. Maco is an independent directory by Koative and is not affiliated with, endorsed by, or connected to Apple; the store vocabulary is a familiar interface, never a claim.
+The surface is quiet and bright in light mode, graphite in dark: white or #1e1e1e content beside an opaque sidebar, near-black or near-white labels, secondary grey labels, hairline separators. Colour comes from three places only: Apple link blue for actions, eleven system colours for category tiles and icon fallbacks, and the apps' own icons and screenshots. Orange means one thing: source-available. OpenMacApps is an independent directory by Koative and is not affiliated with, endorsed by, or connected to Apple; the store vocabulary is a familiar interface, never a claim.
 
 **Key Characteristics:**
 
@@ -562,7 +562,7 @@ A 16px-radius Elevated Grey band, 48px above the footer: a row of real app icons
 
 ### Footer
 
-A hairline-topped block in Secondary Label: a 13px link row (About Maco, Contribute, Suggest an App, Source Code, Catalog JSON) that brightens to Label on hover, then a 12px statement that Maco is an independent directory by Koative, downloads come from each project's official source, and names, icons and screenshots belong to their owners.
+A hairline-topped block in Secondary Label: a 13px link row (About OpenMacApps, Contribute, Suggest an App, Source Code, Catalog JSON) that brightens to Label on hover, then a 12px statement that OpenMacApps is an independent directory by Koative, downloads come from each project's official source, names, icons and screenshots belong to their owners, and Mac and macOS are Apple trademarks with no affiliation.
 
 ### Signature: Icon View Transition
 
@@ -587,7 +587,7 @@ Cross-document view transitions are on (`@view-transition { navigation: auto }`)
 - **Don't** put vibrancy or backdrop blur on the sticky desktop sidebar; nothing scrolls beneath it.
 - **Don't** invent ratings, reviews, star counts, download counts, prices or compatibility badges; the store shows only verified facts.
 - **Don't** add eyebrows or kickers above headings.
-- **Don't** imply Apple affiliation or endorsement: no Apple logos, no "App Store" branding, no "Download on the App Store" badges. Maco is independent and not affiliated with Apple.
+- **Don't** imply Apple affiliation or endorsement: no Apple logos, no "App Store" branding, no "Download on the App Store" badges. OpenMacApps is independent and not affiliated with Apple.
 - **Don't** use category colours for text, buttons or backgrounds beyond glyph tiles and icon fallbacks.
 - **Don't** use orange for anything other than source-available status.
 - **Don't** load a web font or a second type family.

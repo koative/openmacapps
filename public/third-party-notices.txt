@@ -1,4 +1,4 @@
-Maco — third-party interface assets
+OpenMacApps — third-party interface assets
 
 Application logos and screenshots have separate notices in each catalog entry.
 The following icon library is distributed with the site. Text uses the
