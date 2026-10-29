@@ -6,6 +6,7 @@ import CategoryGlyph from '../../components/CategoryGlyph.astro';
 import Shelf from '../../components/Shelf.astro';
 import Github from '../../components/GithubIcon.astro';
 import { getApps } from '../../lib/catalog';
+import { getAlternatives, getTopics } from '../../lib/guides';
 import { categorySlug, licenseLabel } from '../../lib/collections';
 import { renderMarkdown } from '../../lib/markdown';
 import { absoluteUrl, site } from '../../lib/site';
@@ -20,6 +21,14 @@ const { app } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const categoryHref = `categories/${categorySlug(app.category)}/`;
 const restricted = app.sourceAvailability === 'source-available';
+const kind = restricted ? 'source available' : 'open source';
+const metaDescription = `${app.summary} ${restricted ? 'Source available' : 'Open source'} under ${app.license}.`;
+const replaces = getAlternatives().filter((entry) =>
+  app.alternativeTo.includes(entry.slug),
+);
+const topics = getTopics().filter((topic) =>
+  topic.apps.some((other) => other.slug === app.slug),
+);
 const related = getApps()
   .filter((other) => other.slug !== app.slug)
   .map((other) => ({
@@ -66,8 +75,8 @@ const brewPage = brewTap
 ---
 
 <Layout
-  title={`${app.name} for Mac — Maco`}
-  description={app.summary}
+  title={`${app.name} for Mac (${kind}) — ${site.name}`}
+  description={metaDescription.length <= 160 ? metaDescription : app.summary}
   type="WebPage"
   section={categoryHref}
   image={app.screenshots[0]?.url}
@@ -291,6 +300,32 @@ const brewPage = brewTap
           <a href={`${base}${categoryHref}`}>{app.category}</a>
         </dd>
       </div>
+      {replaces.length > 0 && (
+        <div>
+          <dt>Alternative to</dt>
+          <dd>
+            {replaces.map((entry, index) => (
+              <>
+                {index > 0 && ', '}
+                <a href={`${base}alternatives/${entry.slug}/`}>{entry.name}</a>
+              </>
+            ))}
+          </dd>
+        </div>
+      )}
+      {topics.length > 0 && (
+        <div>
+          <dt>Topics</dt>
+          <dd>
+            {topics.map((topic, index) => (
+              <>
+                {index > 0 && ', '}
+                <a href={`${base}topics/${topic.slug}/`}>{topic.title}</a>
+              </>
+            ))}
+          </dd>
+        </div>
+      )}
       <div>
         <dt>Evidence checked</dt>
         <dd>
@@ -312,9 +347,9 @@ const brewPage = brewTap
       </div>
     </dl>
     <p class="note">
-      Maco links to each project’s official download. Check its release notes
-      for macOS version and Apple silicon support. The verification date records
-      our license and source review, not a security audit.
+      {site.name} links to each project’s official download. Check its release
+      notes for macOS version and Apple silicon support. The verification date
+      records our license and source review, not a security audit.
     </p>
     <details class="evidence">
       <summary>Sources and image credits</summary>

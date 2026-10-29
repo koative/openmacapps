@@ -1,0 +1,95 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AppLockup from '../../components/AppLockup.astro';
+import CollectionLink from '../../components/CollectionLink.astro';
+import { ChevronLeft } from '@lucide/astro';
+import { categorySlug } from '../../lib/collections';
+import {
+  appItemList,
+  breadcrumbList,
+  getTopics,
+  lowerTitle,
+  picksFirst,
+  sourceCount,
+  topicCategory,
+} from '../../lib/guides';
+import { renderMarkdown } from '../../lib/markdown';
+import { site } from '../../lib/site';
+export function getStaticPaths() {
+  return getTopics().map((topic) => ({
+    params: { slug: topic.slug },
+    props: { topic },
+  }));
+}
+const { topic } = Astro.props;
+const apps = picksFirst(topic.apps);
+const category = topicCategory(topic);
+const related = category
+  ? getTopics().filter(
+      (other) => other.slug !== topic.slug && topicCategory(other) === category,
+    )
+  : [];
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout
+  title={`Open-source ${lowerTitle(topic.title)} for Mac — ${site.name}`}
+  description={topic.description}
+  section={category ? `categories/${categorySlug(category)}/` : 'categories/'}
+  structuredData={[
+    appItemList(apps),
+    breadcrumbList([
+      ['Topics', 'topics/'],
+      [topic.title, `topics/${topic.slug}/`],
+    ]),
+  ]}
+>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href={`${base}topics/`}>
+      <ChevronLeft size={16} stroke-width={2.4} />
+      Topics
+    </a>
+  </nav>
+  <header class="page-head">
+    <h1>{topic.title}</h1>
+    <p>{topic.description}</p>
+  </header>
+  <div class="markdown-body" set:html={renderMarkdown(topic.body)} />
+  <section class="section" aria-labelledby="apps-title">
+    <header class="shelf-head">
+      <div>
+        <h2 id="apps-title">All Apps</h2>
+        <p>{sourceCount(apps, 'apps')}</p>
+      </div>
+    </header>
+    <div class="lockup-grid">
+      {apps.map((app) => (
+        <AppLockup app={app} />
+      ))}
+    </div>
+  </section>
+  {related.length > 0 && (
+    <section class="section" aria-labelledby="related-title">
+      <header class="shelf-head">
+        <div>
+          <h2 id="related-title">More {category} Topics</h2>
+        </div>
+        <div class="shelf-actions">
+          <a class="see-all" href={`${base}topics/`}>
+            See All<span class="sr-only"> topics</span>
+          </a>
+        </div>
+      </header>
+      <ul class="collection-links">
+        {related.map((other) => (
+          <CollectionLink
+            href={`${base}topics/${other.slug}/`}
+            name={other.title}
+            description={`${other.apps.length} apps`}
+            apps={picksFirst(other.apps)}
+          />
+        ))}
+      </ul>
+    </section>
+  )}
+</Layout>

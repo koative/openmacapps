@@ -1,0 +1,67 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CollectionLink from '../../components/CollectionLink.astro';
+import { categories } from '../../lib/catalog';
+import { categorySlug } from '../../lib/collections';
+import { breadcrumbList, getAlternatives, sourceCount } from '../../lib/guides';
+import { absoluteUrl, site } from '../../lib/site';
+const alternatives = getAlternatives();
+const groups = categories
+  .map((category) => ({
+    category,
+    entries: alternatives.filter((entry) => entry.category === category),
+  }))
+  .filter((group) => group.entries.length);
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout
+  title={`Open-source alternatives to popular Mac apps — ${site.name}`}
+  description={`Open-source Mac apps that replace ${alternatives.length} proprietary products, grouped by category, with license details and official download links.`}
+  section="alternatives/"
+  structuredData={[
+    {
+      '@type': 'ItemList',
+      numberOfItems: alternatives.length,
+      itemListElement: alternatives.map((entry, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        url: absoluteUrl(`alternatives/${entry.slug}/`),
+        name: `Open-source alternatives to ${entry.name}`,
+      })),
+    },
+    breadcrumbList([['Alternatives', 'alternatives/']]),
+  ]}
+>
+  <header class="page-head">
+    <h1>Alternatives</h1>
+    <p>
+      Open-source Mac apps that do the job of {alternatives.length} proprietary
+      products.
+    </p>
+  </header>
+  {groups.map((group) => (
+    <section
+      class="section"
+      aria-labelledby={`alternatives-${categorySlug(group.category)}`}
+    >
+      <header class="shelf-head">
+        <div>
+          <h2 id={`alternatives-${categorySlug(group.category)}`}>
+            {group.category}
+          </h2>
+        </div>
+      </header>
+      <ul class="collection-links">
+        {group.entries.map((entry) => (
+          <CollectionLink
+            href={`${base}alternatives/${entry.slug}/`}
+            name={entry.name}
+            description={sourceCount(entry.apps, 'alternatives')}
+            apps={entry.apps}
+          />
+        ))}
+      </ul>
+    </section>
+  ))}
+</Layout>

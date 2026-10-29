@@ -57,7 +57,8 @@ const sourceAvailableLicenses = new Set([
   'LicenseRef-NotchPrompter',
   'PolyForm-Shield-1.0.0',
 ]);
-const httpsUrl = z.url().refine((value) => {
+export const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+export const httpsUrl = z.url().refine((value) => {
   try {
     const url = new URL(value);
     return url.protocol === 'https:' && !url.username && !url.password;
@@ -65,7 +66,7 @@ const httpsUrl = z.url().refine((value) => {
     return false;
   }
 }, 'Must be an HTTPS URL without credentials');
-const isoDate = z
+export const isoDate = z
   .string()
   .regex(/^\d{4}-\d{2}-\d{2}$/)
   .refine((value) => {
@@ -99,12 +100,20 @@ export const appSchema = z
     summary: z.string().trim().min(15).max(130),
     category: z.enum(categories),
     tags: z
-      .array(z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/))
+      .array(z.string().regex(slugPattern))
       .min(1)
       .max(10)
       .refine(
         (tags) => new Set(tags).size === tags.length,
         'Tags must be unique',
+      ),
+    // Proprietary products this app replaces; each id is a content/alternatives/<id>.md file.
+    alternativeTo: z
+      .array(z.string().regex(slugPattern))
+      .default([])
+      .refine(
+        (ids) => new Set(ids).size === ids.length,
+        'alternativeTo entries must be unique',
       ),
     repository: httpsUrl,
     website: httpsUrl,
@@ -192,6 +201,16 @@ export function assetUrl(
   return `${base.replace(/\/$/, '')}/catalog/${slug}/${file.replace(/^\.\//, '')}`;
 }
 
+/** Splits a Markdown file into parsed YAML frontmatter and its trimmed body. */
+export function parseMarkdown(source: string): { data: unknown; body: string } {
+  const parts = /^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)([\s\S]*)$/.exec(source);
+  if (!parts) throw new Error('Expected YAML frontmatter between --- lines');
+  return {
+    data: parseYaml(parts[1], { uniqueKeys: true }),
+    body: parts[2].trim(),
+  };
+}
+
 /** Duplicate-check key: ignores case, `www.`, `.git`, trailing slashes, query and hash. */
 export function normalizeRepository(url: string): string {
   const { hostname, pathname } = new URL(url.toLowerCase());
@@ -246,13 +265,8 @@ export function loadCatalog(
         const index = path.join(folder, 'index.md');
         ensureContainedFile(folder, './index.md');
         const source = fs.readFileSync(index, 'utf8');
-        const parts = /^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)([\s\S]*)$/.exec(
-          source,
-        );
-        if (!parts)
-          throw new Error('Expected YAML frontmatter between --- lines');
-        const data = appSchema.parse(parseYaml(parts[1], { uniqueKeys: true }));
-        const body = parts[2].trim();
+        const { data: frontmatter, body } = parseMarkdown(source);
+        const data = appSchema.parse(frontmatter);
         if (!body)
           throw new Error(
             'Write an original description below the frontmatter',

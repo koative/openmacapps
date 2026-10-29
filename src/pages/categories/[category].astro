@@ -2,11 +2,20 @@
 import Layout from '../../layouts/Layout.astro';
 import AppLockup from '../../components/AppLockup.astro';
 import CategoryGlyph from '../../components/CategoryGlyph.astro';
+import CollectionLink from '../../components/CollectionLink.astro';
 import Shelf from '../../components/Shelf.astro';
 import ShotCard from '../../components/ShotCard.astro';
 import { ChevronLeft } from '@lucide/astro';
 import { getApps, categories } from '../../lib/catalog';
 import { categorySlug } from '../../lib/collections';
+import {
+  appItemList,
+  breadcrumbList,
+  getTopics,
+  picksFirst,
+  topicCategory,
+} from '../../lib/guides';
+import { site } from '../../lib/site';
 export function getStaticPaths() {
   return categories.map((category) => ({
     params: { category: categorySlug(category) },
@@ -16,13 +25,25 @@ export function getStaticPaths() {
 const { category } = Astro.props;
 const apps = getApps().filter((app) => app.category === category);
 const withShots = apps.filter((app) => app.screenshots.length);
+const topics = getTopics().filter((topic) => topicCategory(topic) === category);
+const path = `categories/${categorySlug(category)}/`;
+// Acronyms such as AI keep their case; "games apps" reads badly.
+const label = category === 'AI' ? category : category.toLowerCase();
+const noun = category === 'Games' ? 'games' : `${label} apps`;
 const base = import.meta.env.BASE_URL;
 ---
 
 <Layout
-  title={`${category} apps for Mac — Maco`}
-  description={`${apps.length} open-source and source-available ${category.toLowerCase()} apps for macOS, with license details and official download links.`}
-  section={`categories/${categorySlug(category)}/`}
+  title={`Open-source ${noun} for Mac — ${site.name}`}
+  description={`${apps.length} open-source and source-available ${label} apps for macOS, with license details and official download links.`}
+  section={path}
+  structuredData={[
+    appItemList(apps),
+    breadcrumbList([
+      ['Categories', 'categories/'],
+      [category, path],
+    ]),
+  ]}
 >
   <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href={`${base}categories/`}>
@@ -43,6 +64,30 @@ const base = import.meta.env.BASE_URL;
         <ShotCard app={app} />
       ))}
     </Shelf>
+  )}
+  {topics.length > 0 && (
+    <section class="section" aria-labelledby="topics-title">
+      <header class="shelf-head">
+        <div>
+          <h2 id="topics-title">Browse by Topic</h2>
+        </div>
+        <div class="shelf-actions">
+          <a class="see-all" href={`${base}topics/`}>
+            See All<span class="sr-only"> topics</span>
+          </a>
+        </div>
+      </header>
+      <ul class="collection-links">
+        {topics.map((topic) => (
+          <CollectionLink
+            href={`${base}topics/${topic.slug}/`}
+            name={topic.title}
+            description={`${topic.apps.length} apps`}
+            apps={picksFirst(topic.apps)}
+          />
+        ))}
+      </ul>
+    </section>
   )}
   <section class="section" aria-labelledby="all-title">
     <header class="shelf-head">

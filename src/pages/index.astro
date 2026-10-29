@@ -6,11 +6,16 @@ import CategoryGlyph from '../components/CategoryGlyph.astro';
 import Shelf from '../components/Shelf.astro';
 import ShotCard from '../components/ShotCard.astro';
 import SpotlightCard from '../components/SpotlightCard.astro';
+import CollectionLink from '../components/CollectionLink.astro';
 import { ArrowUpRight } from '@lucide/astro';
 import { getApps, categories } from '../lib/catalog';
 import { collections, spotlights, categorySlug } from '../lib/collections';
+import { getAlternatives, picksFirst, sourceCount } from '../lib/guides';
 import { site } from '../lib/site';
 const apps = getApps();
+const topAlternatives = [...getAlternatives()]
+  .sort((a, b) => b.apps.length - a.apps.length)
+  .slice(0, 8);
 const bySlug = new Map(apps.map((app) => [app.slug, app]));
 const openSourceCount = apps.filter(
   (app) => app.sourceAvailability === 'open-source',
@@ -92,6 +97,32 @@ const base = import.meta.env.BASE_URL;
       ))}
     </ul>
   </section>
+
+  {topAlternatives.length > 0 && (
+    <section class="section" aria-labelledby="alternatives-title">
+      <header class="shelf-head">
+        <div>
+          <h2 id="alternatives-title">Open-Source Alternatives</h2>
+          <p>Open-source apps that do the job of familiar proprietary ones.</p>
+        </div>
+        <div class="shelf-actions">
+          <a class="see-all" href={`${base}alternatives/`}>
+            See All<span class="sr-only"> alternatives</span>
+          </a>
+        </div>
+      </header>
+      <ul class="collection-links">
+        {topAlternatives.map((entry) => (
+          <CollectionLink
+            href={`${base}alternatives/${entry.slug}/`}
+            name={entry.name}
+            description={sourceCount(entry.apps, 'alternatives')}
+            apps={picksFirst(entry.apps)}
+          />
+        ))}
+      </ul>
+    </section>
+  )}
 
   <Shelf
     id="in-action"

@@ -6,8 +6,10 @@ interface Props {
   app: CatalogApp;
   /** Adds the data attributes the search page filters on. */
   searchable?: boolean;
+  /** Names of the proprietary products the app replaces; searchable text only. */
+  replaces?: string[];
 }
-const { app, searchable = false } = Astro.props;
+const { app, searchable = false, replaces = [] } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const restricted = app.sourceAvailability === 'source-available';
 const filters = searchable
@@ -15,7 +17,7 @@ const filters = searchable
       'data-app': '',
       'data-name': app.name,
       'data-search':
-        `${app.name} ${app.summary} ${app.category} ${app.tags.join(' ')}`.toLowerCase(),
+        `${app.name} ${app.summary} ${app.category} ${app.tags.join(' ')} ${replaces.join(' ')}`.toLowerCase(),
       'data-category': app.category,
       'data-tags': app.tags.join(','),
       'data-added': app.added,

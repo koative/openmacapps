@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { ArrowUpRight } from '@lucide/astro';
+import { site } from '../lib/site';
 const sources = [
   [
     'serhii-londar/open-source-mac-os-apps',
@@ -28,16 +29,16 @@ const sources = [
 ---
 
 <Layout
-  title="About Maco — An open-source Mac app directory"
-  description="Learn how Maco selects macOS apps, reviews source licenses, credits original creators, and welcomes contributions to its open-source app directory."
+  title={`About ${site.name}: an open-source Mac app directory`}
+  description="How this directory selects macOS apps, reviews source licenses, credits original creators, and welcomes contributions to its open-source catalog."
   type="AboutPage"
 >
   <article class="about-page">
     <header class="page-head">
-      <h1>About Maco</h1>
+      <h1>About {site.name}</h1>
       <p>
-        Great software is being made in the open, every day. Maco is a place to
-        find it, understand it, and support the people behind it.
+        Great software is being made in the open, every day. {site.name} is a
+        place to find it, understand it, and support the people behind it.
       </p>
     </header>
     <section>
@@ -50,7 +51,7 @@ const sources = [
         license.
       </p>
       <p>
-        Maco is a community project by{' '}
+        {site.name} is a community project by{' '}
         <a href="https://github.com/koative">Koative</a>. It’s an independent
         directory, not an app installer or a software marketplace. Official
         project pages handle downloads, support, and any paid distribution
@@ -122,11 +123,8 @@ const sources = [
         Have an app we should know about? Found an outdated link or a better
         screenshot? You don’t need to be the original developer to help.
       </p>
-      <a
-        class="button"
-        href="https://github.com/koative/maco/blob/main/CONTRIBUTING.md"
-      >
-        Contribute to Maco <ArrowUpRight size={16} />
+      <a class="button" href={`${site.repository}/blob/main/CONTRIBUTING.md`}>
+        Contribute to {site.name} <ArrowUpRight size={16} />
       </a>
     </section>
   </article>

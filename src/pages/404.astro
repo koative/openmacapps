@@ -1,9 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { ArrowLeft, PackageOpen } from '@lucide/astro';
+import { site } from '../lib/site';
 ---
 
-<Layout title="Page not found — Maco" type="WebPage" noindex>
+<Layout title={`Page not found — ${site.name}`} type="WebPage" noindex>
   <section class="empty-state not-found">
     <PackageOpen size={44} stroke-width={1.5} />
     <h1>This Page Isn’t Available</h1>

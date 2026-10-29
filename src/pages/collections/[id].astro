@@ -1,9 +1,11 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import AppIcon from '../../components/AppIcon.astro';
 import AppLockup from '../../components/AppLockup.astro';
-import { getApps } from '../../lib/catalog';
+import CollectionLink from '../../components/CollectionLink.astro';
+import { getApps, type CatalogApp } from '../../lib/catalog';
 import { collections } from '../../lib/collections';
+import { appItemList, breadcrumbList } from '../../lib/guides';
+import { site } from '../../lib/site';
 export function getStaticPaths() {
   return collections.map((collection) => ({
     params: { id: collection.id },
@@ -11,19 +13,22 @@ export function getStaticPaths() {
   }));
 }
 const { collection } = Astro.props;
-const all = getApps();
-const apps = collection.apps.flatMap((slug) => {
-  const app = all.find((entry) => entry.slug === slug);
-  return app ? [app] : [];
-});
+const bySlug = new Map(getApps().map((app) => [app.slug, app]));
+const appsOf = (slugs: readonly string[]): CatalogApp[] =>
+  slugs.flatMap((slug) => bySlug.get(slug) ?? []);
+const apps = appsOf(collection.apps);
 const others = collections.filter((entry) => entry.id !== collection.id);
 const base = import.meta.env.BASE_URL;
 ---
 
 <Layout
-  title={`${collection.name} — Maco`}
-  description={`${collection.description} ${apps.length} open-source Mac apps picked by Maco.`}
+  title={`${collection.name}: open-source Mac apps — ${site.name}`}
+  description={`${collection.description} ${apps.length} hand-picked open-source Mac apps, with license details and official download links.`}
   section={`collections/${collection.id}/`}
+  structuredData={[
+    appItemList(apps),
+    breadcrumbList([[collection.name, `collections/${collection.id}/`]]),
+  ]}
 >
   <header class="page-head">
     <h1>{collection.name}</h1>
@@ -42,18 +47,12 @@ const base = import.meta.env.BASE_URL;
     </header>
     <ul class="collection-links">
       {others.map((other) => (
-        <li>
-          <a href={`${base}collections/${other.id}/`}>
-            <span class="collection-icons" aria-hidden="true">
-              {other.apps.slice(0, 3).map((slug) => {
-                const app = all.find((entry) => entry.slug === slug);
-                return app && <AppIcon app={app} size={36} />;
-              })}
-            </span>
-            <span class="collection-name">{other.name}</span>
-            <span class="collection-description">{other.description}</span>
-          </a>
-        </li>
+        <CollectionLink
+          href={`${base}collections/${other.id}/`}
+          name={other.name}
+          description={other.description}
+          apps={appsOf(other.apps)}
+        />
       ))}
     </ul>
   </section>

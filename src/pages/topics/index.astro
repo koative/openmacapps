@@ -1,0 +1,60 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CollectionLink from '../../components/CollectionLink.astro';
+import { ChevronLeft } from '@lucide/astro';
+import {
+  breadcrumbList,
+  getTopics,
+  lowerTitle,
+  picksFirst,
+} from '../../lib/guides';
+import { absoluteUrl, site } from '../../lib/site';
+const topics = getTopics();
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout
+  title={`Open-source Mac apps by topic — ${site.name}`}
+  description={`Open-source Mac apps grouped by what they do: ${topics.length} topics, from ${topics
+    .slice(0, 3)
+    .map((topic) => lowerTitle(topic.title))
+    .join(', ')} and more.`.slice(0, 160)}
+  section="categories/"
+  structuredData={[
+    {
+      '@type': 'ItemList',
+      numberOfItems: topics.length,
+      itemListElement: topics.map((topic, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        url: absoluteUrl(`topics/${topic.slug}/`),
+        name: topic.title,
+      })),
+    },
+    breadcrumbList([
+      ['Categories', 'categories/'],
+      ['Topics', 'topics/'],
+    ]),
+  ]}
+>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href={`${base}categories/`}>
+      <ChevronLeft size={16} stroke-width={2.4} />
+      Categories
+    </a>
+  </nav>
+  <header class="page-head">
+    <h1>Topics</h1>
+    <p>Open-source Mac apps grouped by the job they do.</p>
+  </header>
+  <ul class="collection-links">
+    {topics.map((topic) => (
+      <CollectionLink
+        href={`${base}topics/${topic.slug}/`}
+        name={topic.title}
+        description={`${topic.apps.length} apps`}
+        apps={picksFirst(topic.apps)}
+      />
+    ))}
+  </ul>
+</Layout>

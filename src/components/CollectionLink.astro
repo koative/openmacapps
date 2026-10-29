@@ -1,0 +1,24 @@
+---
+import AppIcon from './AppIcon.astro';
+import type { CatalogApp } from '../lib/catalog';
+interface Props {
+  href: string;
+  name: string;
+  description: string;
+  /** The first three supply the icon row. */
+  apps: CatalogApp[];
+}
+const { href, name, description, apps } = Astro.props;
+---
+
+<li>
+  <a href={href}>
+    <span class="collection-icons" aria-hidden="true">
+      {apps.slice(0, 3).map((app) => (
+        <AppIcon app={app} size={36} />
+      ))}
+    </span>
+    <span class="collection-name">{name}</span>
+    <span class="collection-description">{description}</span>
+  </a>
+</li>

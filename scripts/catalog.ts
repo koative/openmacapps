@@ -7,6 +7,7 @@ import {
   catalogDirectory,
   type CatalogApp,
 } from '../src/lib/catalog.ts';
+import { loadAlternatives, loadTopics } from '../src/lib/guides.ts';
 
 const START = '<!-- catalog:start -->';
 const END = '<!-- catalog:end -->';
@@ -67,6 +68,8 @@ try {
   const apps = getApps();
   if (!apps.length)
     throw new Error('The catalog must contain at least one app');
+  const alternatives = loadAlternatives(apps);
+  const topics = loadTopics(apps);
   if (command === 'sync') {
     const readme = expectedReadme(apps);
     const output = path.resolve('public/catalog');
@@ -105,7 +108,7 @@ try {
       );
   }
   console.log(
-    `${command}: ${apps.length} app records validated${command === 'sync' ? '; assets, JSON, and README generated' : ''}.`,
+    `${command}: ${apps.length} app records, ${alternatives.length} alternatives pages and ${topics.length} topic pages validated${command === 'sync' ? '; assets, JSON, and README generated' : ''}.`,
   );
 } catch (error) {
   console.error(error instanceof Error ? error.message : String(error));

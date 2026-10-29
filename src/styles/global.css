@@ -1,4 +1,4 @@
-/* Maco — a Mac App Store for open-source software. Light and dark follow the system. */
+/* An App Store–style catalog of open-source Mac software. Light and dark follow the system. */
 
 :root {
   color-scheme: light dark;
@@ -370,7 +370,8 @@ main {
   margin-top: 40px;
 }
 
-.page-head + .shelf {
+.page-head + .shelf,
+.page-head + .section {
   margin-top: 0;
 }
 
@@ -384,7 +385,8 @@ main {
   border-top: 1px solid var(--separator);
 }
 
-.page-head + .shelf .shelf-head {
+.page-head + .shelf .shelf-head,
+.page-head + .section .shelf-head {
   padding-top: 0;
   border-top: 0;
 }
@@ -1713,7 +1715,7 @@ main {
     z-index: 20;
     inset: auto 0 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
     background: var(--bg-bar);
     border-top: 1px solid var(--separator);

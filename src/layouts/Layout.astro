@@ -10,6 +10,7 @@ import {
   Paintbrush,
   Search,
   Shapes,
+  ArrowRightLeft,
   Star,
   Sun,
 } from '@lucide/astro';
@@ -36,7 +37,7 @@ const {
   type = 'CollectionPage',
   section,
   image,
-  imageAlt = 'Maco — Discover open-source Mac apps',
+  imageAlt = site.title,
   noindex = false,
   structuredData = [],
 } = Astro.props;
@@ -93,14 +94,15 @@ const collectionGlyphs = {
     />
     <meta name="description" content={description} />
     <meta name="color-scheme" content="light dark" />
+    {/* Match the opaque colour of the translucent top bar (`--bg-bar`) in each appearance. */}
     <meta
       name="theme-color"
-      content="#f5f5f7"
+      content={site.themeColor.light}
       media="(prefers-color-scheme: light)"
     />
     <meta
       name="theme-color"
-      content="#1e1e1e"
+      content={site.themeColor.dark}
       media="(prefers-color-scheme: dark)"
     />
     <meta
@@ -110,6 +112,9 @@ const collectionGlyphs = {
       }
     />
     <meta name="application-name" content={site.name} />
+    <meta name="apple-mobile-web-app-title" content={site.name} />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:locale" content="en_US" />
@@ -137,6 +142,14 @@ const collectionGlyphs = {
       href={absoluteUrl('sitemap.xml')}
     />
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+    <link rel="apple-touch-icon" href={`${base}apple-touch-icon.png`} />
+    <link rel="manifest" href={`${base}manifest.webmanifest`} />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={`${site.name}: newly added apps`}
+      href={absoluteUrl('feed.xml')}
+    />
     {!noindex && (
       <script
         type="application/ld+json"
@@ -164,7 +177,7 @@ const collectionGlyphs = {
           <span class="brand-mark" aria-hidden="true">
             <Box size={17} stroke-width={2.1} />
           </span>
-          Maco
+          {site.name}
         </a>
         <form class="sidebar-search" action={`${base}search/`} role="search">
           <Search size={14} stroke-width={2.2} aria-hidden="true" />
@@ -198,6 +211,12 @@ const collectionGlyphs = {
               <a {...link('categories/')}>
                 <Shapes size={17} />
                 Categories
+              </a>
+            </li>
+            <li>
+              <a {...link('alternatives/')}>
+                <ArrowRightLeft size={17} />
+                Alternatives
               </a>
             </li>
           </ul>
@@ -234,7 +253,7 @@ const collectionGlyphs = {
         <nav class="sidebar-foot" aria-label="Project">
           <a {...link('about/')}>
             <Info size={17} />
-            About Maco
+            About {site.name}
           </a>
           <a href={contributeUrl}>
             <GitBranch size={17} />
@@ -253,12 +272,12 @@ const collectionGlyphs = {
           <span class="brand-mark" aria-hidden="true">
             <Box size={17} stroke-width={2.1} />
           </span>
-          Maco
+          {site.name}
         </a>
         <a
           class="topbar-github"
           href={site.repository}
-          aria-label="Maco on GitHub"
+          aria-label={`${site.name} on GitHub`}
         >
           <Github size={20} />
         </a>
@@ -267,7 +286,7 @@ const collectionGlyphs = {
         <slot />
         <footer class="footer">
           <nav aria-label="Footer">
-            <a href={`${base}about/`}>About Maco</a>
+            <a href={`${base}about/`}>About {site.name}</a>
             <a href={contributeUrl}>Contribute</a>
             <a href={`${site.repository}/issues/new?template=app.yml`}>
               Suggest an App
@@ -276,7 +295,7 @@ const collectionGlyphs = {
             <a href={`${base}catalog.json`}>Catalog JSON</a>
           </nav>
           <p>
-            Maco is an independent directory by{' '}
+            {site.name} is an independent directory by{' '}
             <a href="https://github.com/koative">Koative</a>. Downloads come
             from each project’s official source. App names, icons, and
             screenshots belong to their owners.
@@ -291,6 +310,10 @@ const collectionGlyphs = {
         <a {...link('categories/')}>
           <Shapes size={22} />
           Categories
+        </a>
+        <a {...link('alternatives/')}>
+          <ArrowRightLeft size={22} />
+          Alternatives
         </a>
         <a {...link('search/')}>
           <Search size={22} />
@@ -363,4 +386,8 @@ const collectionGlyphs = {
     event.preventDefault();
     field.focus();
   });
+
+  // Offline fallback; development stays uncached so edits show immediately.
+  if (import.meta.env.PROD && 'serviceWorker' in navigator)
+    navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`);
 </script>

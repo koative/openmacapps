@@ -1,11 +1,16 @@
+const name = 'Maco';
+
 /** Publishing identity shared by Astro, generated files, and maintenance scripts. */
 export const site = {
-  name: 'Maco',
-  title: 'Maco — Discover open-source Mac apps',
+  name,
+  title: `Open-source Mac apps: a curated macOS catalog — ${name}`,
   description:
-    'Discover open-source Mac apps for productivity, design, development, and more. Browse screenshots, source code, and clear license details on Maco.',
+    'Open-source Mac apps for productivity, design, development, and more. Browse screenshots, source code, and clear license details for each macOS app.',
   url: 'https://maco.koative.com/',
   repository: 'https://github.com/koative/maco',
+  /** Opaque bar colours from global.css `--bg-bar`, flattened onto `--bg`. */
+  themeColor: { light: '#fbfbfd', dark: '#1e1e1e' },
+  backgroundColor: '#ffffff',
 };
 
 export const basePath = new URL(site.url).pathname;

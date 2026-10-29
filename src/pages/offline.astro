@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { RotateCw, WifiOff } from '@lucide/astro';
+import { site } from '../lib/site';
+---
+
+<Layout title={`You’re offline — ${site.name}`} type="WebPage" noindex>
+  <section class="empty-state not-found">
+    <WifiOff size={44} stroke-width={1.5} />
+    <h1>You’re Offline</h1>
+    <p>
+      This page isn’t saved on this device. Check your connection and try again.
+    </p>
+    <div class="contribute-actions">
+      {/* The service worker serves this page at the requested address, so an empty href reloads it. */}
+      <a class="button" href="">
+        <RotateCw size={16} />
+        Try Again
+      </a>
+      <a class="button button-secondary" href={import.meta.env.BASE_URL}>
+        Discover
+      </a>
+    </div>
+  </section>
+</Layout>
