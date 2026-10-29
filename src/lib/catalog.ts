@@ -124,6 +124,8 @@ export const appSchema = z
     licenseNotes: z.string().trim().min(20).optional(),
     licenseUrl: httpsUrl,
     download: httpsUrl,
+    // True once the official macOS download has been checked and costs nothing; false when it is paid.
+    freeDownload: z.boolean().optional(),
     // Kept by `bun run homebrew`: only casks pointing at this app's repository or website.
     // Third-party tap casks are written in full: owner/tap/token.
     homebrew: z

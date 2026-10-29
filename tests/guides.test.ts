@@ -5,7 +5,11 @@ import os from 'node:os';
 import path from 'node:path';
 import { stringify as stringifyYaml } from 'yaml';
 import { loadCatalog } from '../src/lib/catalog.ts';
-import { loadAlternatives, loadTopics } from '../src/lib/guides.ts';
+import {
+  loadAlternatives,
+  loadTopics,
+  sourceCount,
+} from '../src/lib/guides.ts';
 
 const temporaryDirectories: string[] = [];
 afterEach(() => {
@@ -30,6 +34,7 @@ function apps(
     tags: string[];
     alternativeTo?: string[];
     category?: string;
+    freeDownload?: boolean;
   }[],
 ) {
   const root = directory();
@@ -118,4 +123,24 @@ test('a topic gathers apps with any of its tags within its category, and needs t
     tags: ['nobody-has-this'],
   });
   assert.throws(() => loadTopics(catalog, topics), /no app has the tag/);
+});
+
+test('lists are called free only when every app has a verified free download', () => {
+  const free = apps([
+    { slug: 'a', tags: ['x'], freeDownload: true },
+    { slug: 'b', tags: ['x'], freeDownload: true },
+  ]);
+  assert.equal(sourceCount(free, 'apps'), '2 free, open-source apps');
+  for (const third of [{ freeDownload: false }, {}])
+    assert.equal(
+      sourceCount(
+        apps([
+          { slug: 'a', tags: ['x'], freeDownload: true },
+          { slug: 'b', tags: ['x'], freeDownload: true },
+          { slug: 'c', tags: ['x'], ...third },
+        ]),
+        'apps',
+      ),
+      '3 open-source apps',
+    );
 });

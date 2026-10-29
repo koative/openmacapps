@@ -168,7 +168,10 @@ const brewPage = brewTap
         )}
       </div>
       <p class:list={['fine-print', { restricted }]}>
-        {licenseLabel(app)} · Downloads from {downloadHost}
+        {licenseLabel(app)}
+        {app.freeDownload === true && ' · Free download'}
+        {app.freeDownload === false && ' · Paid download'} · Downloads from{' '}
+        {downloadHost}
       </p>
     </div>
   </header>

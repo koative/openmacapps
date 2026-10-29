@@ -5,6 +5,7 @@ import CollectionLink from '../../components/CollectionLink.astro';
 import { ChevronLeft } from '@lucide/astro';
 import { categorySlug } from '../../lib/collections';
 import {
+  allFree,
   appItemList,
   breadcrumbList,
   getTopics,
@@ -30,11 +31,19 @@ const related = category
     )
   : [];
 const base = import.meta.env.BASE_URL;
+// "Free" only when every listed app's official download was checked and costs nothing.
+const free =
+  allFree(apps) &&
+  apps.every((app) => app.sourceAvailability === 'open-source');
 ---
 
 <Layout
-  title={`Open-source ${lowerTitle(topic.title)} for Mac — ${site.name}`}
-  description={topic.description}
+  title={`${free ? 'Free, open-source' : 'Open-source'} ${lowerTitle(topic.title)} for Mac — ${site.name}`}
+  description={
+    free
+      ? topic.description.replace(/^Open-source/, 'Free, open-source')
+      : topic.description
+  }
   section={category ? `categories/${categorySlug(category)}/` : 'categories/'}
   structuredData={[
     appItemList(apps),

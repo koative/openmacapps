@@ -16,3 +16,6 @@ public/catalog.json
 .impeccable/review/
 .playwright-cli/
 artifacts/
+
+# Licensed keyword research exports (Semrush); keep local, never commit
+research/semrush/

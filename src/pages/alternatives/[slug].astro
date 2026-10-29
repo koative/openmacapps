@@ -4,6 +4,7 @@ import AppLockup from '../../components/AppLockup.astro';
 import CollectionLink from '../../components/CollectionLink.astro';
 import { ArrowUpRight, ChevronLeft } from '@lucide/astro';
 import {
+  allFree,
   appItemList,
   breadcrumbList,
   describeApps,
@@ -27,12 +28,27 @@ const related = getAlternatives()
   )
   .sort((a, b) => b.apps.length - a.apps.length);
 const base = import.meta.env.BASE_URL;
+const restricted = apps.some(
+  (app) => app.sourceAvailability === 'source-available',
+);
+// "Free" only when every listed app's official download was checked and costs nothing.
+const free = !restricted && allFree(apps);
+const lead = free ? 'Free, open-source' : 'Open-source';
+const kind = restricted
+  ? 'Mac apps with published source'
+  : `${lead.toLowerCase()} Mac apps`;
 ---
 
 <Layout
-  title={`Open-source ${entry.name} alternatives for Mac — ${site.name}`}
+  title={
+    entry.onMac
+      ? `${lead} ${entry.name} alternatives for Mac — ${site.name}`
+      : `${entry.name} for Mac: ${lead.toLowerCase()} alternatives — ${site.name}`
+  }
   description={describeApps(
-    `${apps.length} ${apps.some((app) => app.sourceAvailability === 'source-available') ? 'Mac apps with published source' : 'open-source Mac apps'} that replace ${entry.name}: `,
+    entry.onMac
+      ? `${apps.length} ${kind} that replace ${entry.name}: `
+      : `${entry.name} has no macOS version. ${apps.length} ${kind} do the same job: `,
     apps,
   )}
   section="alternatives/"
@@ -51,8 +67,15 @@ const base = import.meta.env.BASE_URL;
     </a>
   </nav>
   <header class="page-head">
-    <h1>Open-source alternatives to {entry.name}</h1>
-    <p>{entry.summary}</p>
+    <h1>
+      {entry.onMac
+        ? `${lead} alternatives to ${entry.name}`
+        : `${entry.name} for Mac`}
+    </h1>
+    <p>
+      {entry.summary}
+      {!entry.onMac && ' It has no macOS version.'}
+    </p>
   </header>
   <div>
     <div class="markdown-body" set:html={renderMarkdown(entry.body)} />

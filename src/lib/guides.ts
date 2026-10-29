@@ -29,6 +29,8 @@ const alternativeSchema = z
     summary: z.string().trim().min(15).max(160),
     sources: z.array(httpsUrl).min(1),
     verified: isoDate,
+    /** False for products with no macOS version (Notepad++, PuTTY): the page answers "{name} for Mac". */
+    onMac: z.boolean().default(true),
   })
   .strict();
 
@@ -172,14 +174,18 @@ export const breadcrumbList = (trail: [name: string, path: string][]) => ({
   ),
 });
 
-/** "7 open-source alternatives", or "7 alternatives, 1 source available" when any app has restrictions. */
+/** True when every listed app's official macOS download has been checked and costs nothing. */
+export const allFree = (apps: CatalogApp[]) =>
+  apps.every((app) => app.freeDownload === true);
+
+/** "7 free, open-source alternatives", or "7 alternatives, 1 source available" when any app has restrictions. */
 export function sourceCount(apps: CatalogApp[], noun: string): string {
   const restricted = apps.filter(
     (app) => app.sourceAvailability === 'source-available',
   ).length;
-  return restricted
-    ? `${apps.length} ${noun}, ${restricted} source available`
-    : `${apps.length} open-source ${noun}`;
+  if (restricted)
+    return `${apps.length} ${noun}, ${restricted} source available`;
+  return `${apps.length} ${allFree(apps) ? 'free, open-source' : 'open-source'} ${noun}`;
 }
 
 /** `prefix` plus as many app names as fit in a 160-character meta description. */
