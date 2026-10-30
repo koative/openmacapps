@@ -13,6 +13,7 @@ website: https://github.com/phalladar/MacDirStat
 license: "MIT"
 licenseUrl: https://github.com/phalladar/MacDirStat/blob/main/LICENSE
 download: https://github.com/phalladar/MacDirStat/releases
+homebrew: "macdirstat"
 freeDownload: true
 featured: false
 added: '2026-10-17'
