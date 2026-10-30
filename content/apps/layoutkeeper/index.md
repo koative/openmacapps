@@ -20,3 +20,5 @@ assets: [{"path": "./assets/icon.png", "source": "https://raw.githubusercontent.
 LayoutKeeper is a menu bar app for multi-monitor Mac setups. It remembers where windows sat on each external display, including which Space they were on, and puts them back with one click or automatically when you plug the monitor in again.
 
 It also adds brightness and volume keys for external monitors, can make external displays follow the built-in screen's automatic brightness, switches the display arrangement by the port a monitor is plugged into, and has four Keep Awake modes. It runs on macOS 14 or later; putting windows back on their original Space needs macOS 26. The app is self-signed rather than notarized, so the first launch needs a right-click and Open.
+
+The Keep Awake mode that stays awake with the lid closed on battery asks for an administrator password once and adds a rule in `/etc/sudoers.d/layoutkeeper-pmset`, so the app can turn `pmset disablesleep` on and off without asking again. The project's uninstall steps do not remove that file; delete it with `sudo rm /etc/sudoers.d/layoutkeeper-pmset` after removing the app.
