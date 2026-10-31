@@ -1028,4 +1028,4 @@ Built with [Astro](https://astro.build/) and [Lucide](https://lucide.dev/). Text
 
 OpenMacApps' original code and text are MIT licensed ([LICENSE](LICENSE)). Third-party app icons, screenshots, fonts, and other assets retain their upstream licenses and ownership; each app's asset metadata is in [content/apps](content/apps). App names and trademarks belong to their respective owners. App code licenses are listed for discovery and do not automatically license every visual asset. Mac and macOS are trademarks of Apple Inc.; OpenMacApps is not affiliated with Apple.
 
-Made by [Koray Güler](https://koray.dev) at [koative](https://koative.com)
+Made by [koative](https://koative.com)
