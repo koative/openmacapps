@@ -54,12 +54,19 @@ const graph = [
     '@id': `${site.url}#website`,
     name: site.name,
     url: site.url,
-    description: site.description,
+    description: 'An app-store-style catalogue of open-source Mac apps.',
     inLanguage: 'en',
     publisher: {
       '@type': 'Organization',
-      name: 'Koative',
-      url: 'https://github.com/koative',
+      '@id': 'https://koative.com/#org',
+      name: 'koative',
+      url: 'https://koative.com/',
+    },
+    author: {
+      '@type': 'Person',
+      '@id': 'https://koray.dev/#person',
+      name: 'Koray Güler',
+      url: 'https://koray.dev/',
     },
   },
   {
@@ -298,11 +305,12 @@ const collectionGlyphs = {
             <a href={`${base}catalog.json`}>Catalog JSON</a>
           </nav>
           <p>
-            {site.name} is an independent directory by{' '}
-            <a href="https://github.com/koative">Koative</a>. Downloads come
-            from each project’s official source. App names, icons, and
-            screenshots belong to their owners. Mac and macOS are trademarks of
-            Apple Inc.; {site.name} is not affiliated with Apple.
+            {site.name} is an independent directory. Made by{' '}
+            <a href="https://koray.dev/">Koray Güler</a> at{' '}
+            <a href="https://koative.com/">koative</a>. Downloads come from each
+            project’s official source. App names, icons, and screenshots belong
+            to their owners. Mac and macOS are trademarks of Apple Inc.;{' '}
+            {site.name} is not affiliated with Apple.
           </p>
         </footer>
       </main>

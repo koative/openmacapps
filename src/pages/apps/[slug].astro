@@ -86,6 +86,7 @@ const brewCommand =
 const brewPage = brewTap
   ? `https://github.com/${brewOwner}/homebrew-${brewTap}`
   : `https://formulae.brew.sh/cask/${app.homebrew}`;
+const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](${absoluteUrl(`apps/${app.slug}/`)})`;
 ---
 
 <Layout
@@ -404,6 +405,31 @@ const brewPage = brewTap
     >
       Improve this listing <ArrowUpRight size={14} />
     </a>
+  </section>
+
+  <section class="section badge" aria-labelledby="badge-title">
+    <h2 id="badge-title">For the Developer</h2>
+    <p class="note">Link to this page from your README with a badge.</p>
+    <img
+      src={`${base}badge.svg`}
+      alt={`Listed on ${site.name}`}
+      width="171"
+      height="20"
+    />
+    <div class="brew">
+      <code>{badgeMarkdown}</code>
+      <button
+        class="brew-copy"
+        type="button"
+        data-copy={badgeMarkdown}
+        aria-label="Copy badge Markdown"
+        hidden
+      >
+        <Copy class="brew-copy-idle" size={15} />
+        <Check class="brew-copy-done" size={15} />
+      </button>
+      <span class="sr-only" role="status" />
+    </div>
   </section>
 
   {related.length > 0 && (

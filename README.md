@@ -1026,4 +1026,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete entry format, image poli
 
 Built with [Astro](https://astro.build/) and [Lucide](https://lucide.dev/). Text uses each visitor's system fonts; the bundled icon license is preserved in [third-party notices](public/third-party-notices.txt). Discovery sources include [mac-apps](https://github.com/jeffreyjackson/mac-apps), [open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps), and [awesome-mac](https://github.com/jaywcjlove/awesome-mac); the full comparison is in [our research](docs/RESEARCH.md).
 
-OpenMacApps' original code and text are MIT licensed. Third-party application code, logos, screenshots, fonts, and other assets retain their own licenses and trademark rights. App code licenses are listed for discovery and do not automatically license every visual asset. Mac and macOS are trademarks of Apple Inc.; OpenMacApps is not affiliated with Apple.
+OpenMacApps' original code and text are MIT licensed ([LICENSE](LICENSE)). Third-party app icons, screenshots, fonts, and other assets retain their upstream licenses and ownership; each app's asset metadata is in [content/apps](content/apps). App names and trademarks belong to their respective owners. App code licenses are listed for discovery and do not automatically license every visual asset. Mac and macOS are trademarks of Apple Inc.; OpenMacApps is not affiliated with Apple.
+
+Made by [Koray Güler](https://koray.dev) at [koative](https://koative.com)

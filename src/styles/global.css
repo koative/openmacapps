@@ -1239,6 +1239,12 @@ main {
   display: block;
 }
 
+/* Badge for app authors: preview above its copyable Markdown. */
+.badge img {
+  display: block;
+  margin-block: 12px 10px;
+}
+
 .product-title .fine-print {
   max-width: none;
   margin-top: 8px;
