@@ -7,6 +7,8 @@ tags:
   - video
   - desktop
   - customization
+alternativeTo:
+  - wallpaper-engine
 repository: https://github.com/kageroumado/phosphene
 website: https://kagerou.glass/phosphene/
 license: "MIT"

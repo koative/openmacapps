@@ -8,6 +8,8 @@ tags:
   - local-ai
   - cross-platform
   - voice-typing
+alternativeTo:
+  - wispr-flow
 repository: https://github.com/cjpais/Handy
 website: https://handy.computer
 license: "MIT"

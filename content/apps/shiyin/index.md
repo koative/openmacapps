@@ -7,6 +7,8 @@ tags:
   - transcription
   - local-ai
   - notes
+alternativeTo:
+  - granola
 repository: https://github.com/juinwei7/Shiyin
 website: https://shiyin.weibuilds.com/en/
 license: "MIT"

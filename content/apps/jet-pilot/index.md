@@ -6,6 +6,8 @@ tags:
   - kubernetes
   - containers
   - cross-platform
+alternativeTo:
+  - lens
 repository: "https://github.com/unxsist/jet-pilot"
 website: "https://www.jet-pilot.app"
 license: "MIT"

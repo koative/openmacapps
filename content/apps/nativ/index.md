@@ -7,6 +7,8 @@ tags:
   - language-models
   - chat
   - api
+alternativeTo:
+  - lm-studio
 repository: https://github.com/Blaizzy/nativ
 website: https://blaizzy.github.io/nativ/
 license: "MIT"

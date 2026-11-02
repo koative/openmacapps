@@ -3,6 +3,7 @@ name: "Jan"
 summary: "A desktop workspace for chatting with local models and supported remote AI services."
 category: "AI"
 tags: ["local-ai", "chat", "language-models"]
+alternativeTo: ["lm-studio"]
 repository: "https://github.com/janhq/jan"
 website: "https://jan.ai"
 license: "Apache-2.0"

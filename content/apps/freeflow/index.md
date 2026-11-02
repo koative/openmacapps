@@ -7,6 +7,8 @@ tags:
   - speech-to-text
   - keyboard-shortcuts
   - voice-typing
+alternativeTo:
+  - wispr-flow
 repository: https://github.com/zachlatta/freeflow
 website: https://freeflow.zachlatta.com
 license: "MIT"

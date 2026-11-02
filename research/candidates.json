@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-29",
+  "checked": "2026-11-02",
   "note": "Discovery leads, not verified apps. Needs-review includes libraries, duplicates, renamed repositories, closed-source distributions and incompatible software. Never auto-publish this queue.",
   "sourceCount": 10,
   "candidates": [
@@ -30,6 +30,13 @@
       "status": "published",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/0xzerolight/anki_miner",
+      "status": "needs-review",
+      "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
@@ -153,6 +160,20 @@
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/aakashns/writui",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/aansonsa/swamp-converter",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
     {
@@ -351,6 +372,13 @@
       ]
     },
     {
+      "repository": "https://github.com/ahmadjondev/macmonitor",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
       "repository": "https://github.com/ahmed-ali/jsonexport",
       "status": "needs-review",
       "discoveredIn": [
@@ -373,6 +401,13 @@
     },
     {
       "repository": "https://github.com/ajeetdsouza/zoxide",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/aka-kika/mcpock",
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
@@ -403,6 +438,13 @@
     },
     {
       "repository": "https://github.com/aldychris/whatsappbar",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/alekla0126/alchemist-coder",
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
@@ -609,6 +651,21 @@
       ]
     },
     {
+      "repository": "https://github.com/alvaldes/jump",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/alvaldes/netty",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
       "repository": "https://github.com/alvarop/videomessageexporter",
       "status": "needs-review",
       "discoveredIn": [
@@ -641,6 +698,13 @@
       "status": "published",
       "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/amicalhq/amical",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
     {
@@ -1041,6 +1105,13 @@
       ]
     },
     {
+      "repository": "https://github.com/arunprakaash/mac-tv",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
       "repository": "https://github.com/asafofer/perch",
       "status": "needs-review",
       "discoveredIn": [
@@ -1087,6 +1158,7 @@
       "repository": "https://github.com/ateymoori/lyricglow",
       "status": "published",
       "discoveredIn": [
+        "https://github.com/abordage/awesome-mac",
         "https://github.com/jaywcjlove/awesome-mac",
         "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
@@ -1511,6 +1583,20 @@
       "status": "published",
       "discoveredIn": [
         "https://github.com/Awesome-llms-labs/awesome-oss-macos"
+      ]
+    },
+    {
+      "repository": "https://github.com/blinks44/monny",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/blinks44/rebind",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
     {
@@ -2020,6 +2106,13 @@
       ]
     },
     {
+      "repository": "https://github.com/chayapats/oliv",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/cheaper-inference/omniroute",
       "status": "needs-review",
       "discoveredIn": [
@@ -2031,6 +2124,27 @@
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/AndrewSB/awesome-macOS"
+      ]
+    },
+    {
+      "repository": "https://github.com/chengffei/uptick",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/chenmozhe008/qingo",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/chenmozhe008/shandian-download",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
     {
@@ -2363,6 +2477,13 @@
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/corral-dev/corral-apple",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
     {
@@ -2720,6 +2841,13 @@
       ]
     },
     {
+      "repository": "https://github.com/dees91/posato",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/deluge-torrent/deluge",
       "status": "needs-review",
       "discoveredIn": [
@@ -2870,7 +2998,6 @@
       "repository": "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui",
       "status": "published",
       "discoveredIn": [
-        "https://github.com/abordage/awesome-mac",
         "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
@@ -2903,6 +3030,13 @@
       "discoveredIn": [
         "https://github.com/iCHAIT/awesome-macOS",
         "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/dorlugasigal/annotator",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jeffreyjackson/mac-apps"
       ]
     },
     {
@@ -3293,6 +3427,7 @@
       "status": "published",
       "discoveredIn": [
         "https://github.com/abordage/awesome-mac",
+        "https://github.com/jaywcjlove/awesome-mac",
         "https://github.com/jeffreyjackson/mac-apps"
       ]
     },
@@ -3599,7 +3734,8 @@
       "status": "published",
       "discoveredIn": [
         "https://github.com/KiarashS/awesome-macOS-applications",
-        "https://github.com/jaywcjlove/awesome-mac"
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -3815,6 +3951,13 @@
         "https://github.com/abordage/awesome-mac",
         "https://github.com/jaywcjlove/awesome-mac",
         "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/flickbar/flickbar",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
     {
@@ -4102,7 +4245,9 @@
       "repository": "https://github.com/geiserx/akou",
       "status": "needs-review",
       "discoveredIn": [
-        "https://github.com/jaywcjlove/awesome-mac"
+        "https://github.com/abordage/awesome-mac",
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -4153,6 +4298,13 @@
     {
       "repository": "https://github.com/getgantry/gantry",
       "status": "published",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/getguruhat/ai-meter",
+      "status": "needs-review",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
       ]
@@ -4506,7 +4658,8 @@
       "repository": "https://github.com/gwenn-ha-dev/siliconed",
       "status": "needs-review",
       "discoveredIn": [
-        "https://github.com/jaywcjlove/awesome-mac"
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -4548,8 +4701,8 @@
       ]
     },
     {
-      "repository": "https://github.com/hainguyents13/mechvibes-dx",
-      "status": "published",
+      "repository": "https://github.com/hainguyents13/mechvibes-electron",
+      "status": "needs-review",
       "discoveredIn": [
         "https://github.com/KiarashS/awesome-macOS-applications"
       ]
@@ -4645,6 +4798,13 @@
     },
     {
       "repository": "https://github.com/harshalgajjar/reminal",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/harshtomar6/quietspeech",
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
@@ -4747,6 +4907,13 @@
       ]
     },
     {
+      "repository": "https://github.com/herval/littleguys",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/hexfiend/hexfiend",
       "status": "published",
       "discoveredIn": [
@@ -4758,6 +4925,13 @@
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/jeffreyjackson/mac-apps",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/heysidhant/pixtamer",
+      "status": "needs-review",
+      "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
@@ -4983,6 +5157,13 @@
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/idawnlight/shichizip",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/KiarashS/awesome-macOS-applications"
       ]
     },
     {
@@ -5347,6 +5528,20 @@
       ]
     },
     {
+      "repository": "https://github.com/jakeantelis/matcha",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/jakeantelis/tarn",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
       "repository": "https://github.com/jakob/tabletool",
       "status": "needs-review",
       "discoveredIn": [
@@ -5481,6 +5676,20 @@
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/jeffreyjackson/mac-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/jedbrnth-eng/lucid-live-wallpaper",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/jedbrnth-eng/rave-live",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
     {
@@ -5683,6 +5892,13 @@
       ]
     },
     {
+      "repository": "https://github.com/jo-duchan/tapflow",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
       "repository": "https://github.com/jo32/deepdeck",
       "status": "needs-review",
       "discoveredIn": [
@@ -5765,6 +5981,13 @@
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/jordan-cod/pullo",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -5940,17 +6163,26 @@
       ]
     },
     {
+      "repository": "https://github.com/jutsuhq/content-factory",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/jutsuhq/jutsu-studio",
       "status": "needs-review",
       "discoveredIn": [
-        "https://github.com/jaywcjlove/awesome-mac"
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
       "repository": "https://github.com/jutsuhq/swapjutsu-seedance-character-swap",
       "status": "needs-review",
       "discoveredIn": [
-        "https://github.com/jaywcjlove/awesome-mac"
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -6191,6 +6423,13 @@
       ]
     },
     {
+      "repository": "https://github.com/kernel-hunter/mudroom",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
       "repository": "https://github.com/kevin-de-koninck/clean-me",
       "status": "needs-review",
       "discoveredIn": [
@@ -6222,6 +6461,13 @@
         "https://github.com/KiarashS/awesome-macOS-applications",
         "https://github.com/iCHAIT/awesome-macOS",
         "https://github.com/jeffreyjackson/mac-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/khan-umirzakoff/mole-gui",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
     {
@@ -6305,6 +6551,13 @@
       ]
     },
     {
+      "repository": "https://github.com/klbk/aura-switcher-app",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/klein-t/teebe",
       "status": "published",
       "discoveredIn": [
@@ -6354,6 +6607,13 @@
       ]
     },
     {
+      "repository": "https://github.com/kohii/smoothcsv3",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/KiarashS/awesome-macOS-applications"
+      ]
+    },
+    {
       "repository": "https://github.com/kong/insomnia",
       "status": "published",
       "discoveredIn": [
@@ -6389,6 +6649,14 @@
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/kotuke/lumilo",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -6782,6 +7050,13 @@
     },
     {
       "repository": "https://github.com/lettier/movie-monad",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/leularia/volt",
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
@@ -7233,6 +7508,14 @@
       ]
     },
     {
+      "repository": "https://github.com/machatter1/containerdesk",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/abordage/awesome-mac",
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
       "repository": "https://github.com/macmade/console",
       "status": "needs-review",
       "discoveredIn": [
@@ -7432,6 +7715,14 @@
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/jeffreyjackson/mac-apps",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/maquinatech/vauta",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac",
         "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
@@ -7859,7 +8150,8 @@
       "repository": "https://github.com/midzai/aman_check",
       "status": "needs-review",
       "discoveredIn": [
-        "https://github.com/jaywcjlove/awesome-mac"
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -8078,6 +8370,13 @@
       ]
     },
     {
+      "repository": "https://github.com/mmfoundation/wallpapermachine",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/KiarashS/awesome-macOS-applications"
+      ]
+    },
+    {
       "repository": "https://github.com/mmmikael/mdviewer",
       "status": "needs-review",
       "discoveredIn": [
@@ -8229,6 +8528,14 @@
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/mopfaff/safelight",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/jeffreyjackson/mac-apps"
       ]
     },
     {
@@ -8408,6 +8715,14 @@
       "repository": "https://github.com/muxy-app/muxy",
       "status": "published",
       "discoveredIn": [
+        "https://github.com/KiarashS/awesome-macOS-applications",
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/mxpalm/aerialswap",
+      "status": "needs-review",
+      "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
@@ -8473,6 +8788,20 @@
     },
     {
       "repository": "https://github.com/nbonamy/witsy",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/neatmacapps/neateditor",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/neatmacapps/neatpaste",
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
@@ -8650,6 +8979,14 @@
       ]
     },
     {
+      "repository": "https://github.com/nicoleyangcoding/umst-ultimatemacschedulingtool",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/nicoverbruggen/phpmon",
       "status": "published",
       "discoveredIn": [
@@ -8690,7 +9027,8 @@
       "repository": "https://github.com/niklasravnsborg/hidenotch",
       "status": "needs-review",
       "discoveredIn": [
-        "https://github.com/jaywcjlove/awesome-mac"
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -8788,6 +9126,13 @@
         "https://github.com/KiarashS/awesome-macOS-applications",
         "https://github.com/abordage/awesome-mac",
         "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/noahelhadedy/double-shot",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/KiarashS/awesome-macOS-applications"
       ]
     },
     {
@@ -8892,6 +9237,20 @@
       ]
     },
     {
+      "repository": "https://github.com/ntarasiuk/glass",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/ntfstool/ntfstool",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
       "repository": "https://github.com/nuance-dev/medio",
       "status": "published",
       "discoveredIn": [
@@ -8903,6 +9262,13 @@
       "status": "published",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/nuanu-ai/agent-payment-node",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/abordage/awesome-mac"
       ]
     },
     {
@@ -9892,6 +10258,13 @@
       ]
     },
     {
+      "repository": "https://github.com/pragyaangaur/minecraft-bedrock-macos",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
       "repository": "https://github.com/praneeth552/clipflow",
       "status": "needs-review",
       "discoveredIn": [
@@ -10162,6 +10535,13 @@
       ]
     },
     {
+      "repository": "https://github.com/rakushkatop/wolfclip",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/ralph/spotifly",
       "status": "published",
       "discoveredIn": [
@@ -10320,7 +10700,8 @@
       "repository": "https://github.com/reemus-dev/ghostty-designer",
       "status": "needs-review",
       "discoveredIn": [
-        "https://github.com/jaywcjlove/awesome-mac"
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -10717,6 +11098,14 @@
       ]
     },
     {
+      "repository": "https://github.com/rustycamper/pullbull",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/rxhanson/rectangle",
       "status": "published",
       "discoveredIn": [
@@ -10854,6 +11243,13 @@
       "discoveredIn": [
         "https://github.com/jeffreyjackson/mac-apps",
         "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/samirmaikap/spawnsweep",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
     {
@@ -11027,7 +11423,8 @@
       "repository": "https://github.com/seb-graf/stablebar",
       "status": "needs-review",
       "discoveredIn": [
-        "https://github.com/jaywcjlove/awesome-mac"
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -11518,6 +11915,13 @@
       ]
     },
     {
+      "repository": "https://github.com/skriptoff/ghbdtn",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/slackadays/clipboard",
       "status": "needs-review",
       "discoveredIn": [
@@ -11767,6 +12171,30 @@
       ]
     },
     {
+      "repository": "https://github.com/stanczykwyatt/copy-2fa",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jeffreyjackson/mac-apps",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/stanczykwyatt/show-desktop",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/jeffreyjackson/mac-apps",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/stanczykwyatt/who-stole-my-focus",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jeffreyjackson/mac-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/standardnotes/app",
       "status": "published",
       "discoveredIn": [
@@ -11882,6 +12310,13 @@
         "https://github.com/iCHAIT/awesome-macOS",
         "https://github.com/jeffreyjackson/mac-apps",
         "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/stoyan-stoyanov/wavefunction",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
     {
@@ -12041,6 +12476,13 @@
         "https://github.com/abordage/awesome-mac",
         "https://github.com/jaywcjlove/awesome-mac",
         "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/sventmueller/splat",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
     {
@@ -12228,7 +12670,8 @@
       "repository": "https://github.com/teconomix/local-transcriber",
       "status": "needs-review",
       "discoveredIn": [
-        "https://github.com/jaywcjlove/awesome-mac"
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -12657,6 +13100,13 @@
       ]
     },
     {
+      "repository": "https://github.com/tran-minh-khoi/satf",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
       "repository": "https://github.com/tranphuong319/applocker",
       "status": "needs-review",
       "discoveredIn": [
@@ -12755,8 +13205,15 @@
       ]
     },
     {
-      "repository": "https://github.com/tumingke0/layoutkeeper",
+      "repository": "https://github.com/tuhage/cellar",
       "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/tumingke0/layoutkeeper",
+      "status": "published",
       "discoveredIn": [
         "https://github.com/abordage/awesome-mac",
         "https://github.com/jeffreyjackson/mac-apps",
@@ -13027,6 +13484,13 @@
       ]
     },
     {
+      "repository": "https://github.com/vdk888/os-intent",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/vector-im/element-web",
       "status": "needs-review",
       "discoveredIn": [
@@ -13272,7 +13736,6 @@
       "repository": "https://github.com/wallpapermachine/wallpapermachine",
       "status": "needs-review",
       "discoveredIn": [
-        "https://github.com/KiarashS/awesome-macOS-applications",
         "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
@@ -13340,6 +13803,13 @@
       "status": "published",
       "discoveredIn": [
         "https://github.com/KiarashS/awesome-macOS-applications",
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/webcafeina/apolo",
+      "status": "needs-review",
+      "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
@@ -13630,6 +14100,20 @@
       ]
     },
     {
+      "repository": "https://github.com/x0c/handyswitch",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/x0c/macresourcemonitor",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
       "repository": "https://github.com/xbmc/xbmc",
       "status": "published",
       "discoveredIn": [
@@ -13700,7 +14184,8 @@
       "repository": "https://github.com/xiufengsun/tokentracker",
       "status": "published",
       "discoveredIn": [
-        "https://github.com/KiarashS/awesome-macOS-applications"
+        "https://github.com/KiarashS/awesome-macOS-applications",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -13784,6 +14269,13 @@
       "status": "published",
       "discoveredIn": [
         "https://github.com/jeffreyjackson/mac-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/yang991178/fluent-reader",
+      "status": "published",
+      "discoveredIn": [
+        "https://github.com/KiarashS/awesome-macOS-applications"
       ]
     },
     {
@@ -13872,6 +14364,13 @@
       ]
     },
     {
+      "repository": "https://github.com/yestoall/tics",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/yetone/magpie",
       "status": "published",
       "discoveredIn": [
@@ -13946,6 +14445,13 @@
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/jeffreyjackson/mac-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/your-moon/tern",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -14028,6 +14534,14 @@
       ]
     },
     {
+      "repository": "https://github.com/yusufemreyazici/centik",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/yuuichieguchi/calyx",
       "status": "published",
       "discoveredIn": [
@@ -14036,6 +14550,13 @@
     },
     {
       "repository": "https://github.com/yvsleyen00941/cockpit",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jeffreyjackson/mac-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/yvsleyen00941/rime",
       "status": "needs-review",
       "discoveredIn": [
         "https://github.com/jeffreyjackson/mac-apps"
@@ -14107,6 +14628,13 @@
         "https://github.com/abordage/awesome-mac",
         "https://github.com/jaywcjlove/awesome-mac",
         "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
+      "repository": "https://github.com/zeetabit/hertzwise",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
       ]
     },
     {
@@ -14225,6 +14753,13 @@
       ]
     },
     {
+      "repository": "https://github.com/zinc75/jackmate",
+      "status": "needs-review",
+      "discoveredIn": [
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
+      ]
+    },
+    {
       "repository": "https://github.com/zingzy/mfix",
       "status": "needs-review",
       "discoveredIn": [
@@ -14249,7 +14784,8 @@
       "repository": "https://github.com/znat/parrotflow",
       "status": "needs-review",
       "discoveredIn": [
-        "https://github.com/jaywcjlove/awesome-mac"
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {
@@ -14263,6 +14799,13 @@
     {
       "repository": "https://github.com/zqqf16/sym",
       "status": "published",
+      "discoveredIn": [
+        "https://github.com/jaywcjlove/awesome-mac"
+      ]
+    },
+    {
+      "repository": "https://github.com/zshnb/open-contexts",
+      "status": "needs-review",
       "discoveredIn": [
         "https://github.com/jaywcjlove/awesome-mac"
       ]
@@ -14299,7 +14842,8 @@
       "repository": "https://github.com/zyvren/fanpilot",
       "status": "needs-review",
       "discoveredIn": [
-        "https://github.com/jaywcjlove/awesome-mac"
+        "https://github.com/jaywcjlove/awesome-mac",
+        "https://github.com/serhii-londar/open-source-mac-os-apps"
       ]
     },
     {

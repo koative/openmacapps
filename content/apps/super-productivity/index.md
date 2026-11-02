@@ -8,6 +8,8 @@ tags:
 - planning
 - pomodoro
 - cross-platform
+alternativeTo:
+- todoist
 repository: https://github.com/super-productivity/super-productivity
 website: https://super-productivity.com
 license: MIT

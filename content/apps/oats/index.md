@@ -7,6 +7,8 @@ tags:
   - transcription
   - local-ai
   - menu-bar
+alternativeTo:
+  - granola
 repository: https://github.com/ariso-ai/oats
 website: https://ariso.ai/oats
 license: "MIT"

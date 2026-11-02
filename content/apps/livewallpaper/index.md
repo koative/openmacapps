@@ -7,6 +7,8 @@ tags:
 - desktop
 - video
 - customization
+alternativeTo:
+- wallpaper-engine
 repository: https://github.com/thusvill/LiveWallpaperMacOS
 website: https://thusvill.github.io/LiveWallpaperMacOS/
 license: GPL-3.0-or-later

@@ -7,6 +7,8 @@ tags:
   - desktop
   - video
   - customization
+alternativeTo:
+  - wallpaper-engine
 repository: https://github.com/fatihkan/wallnetic
 website: https://apps.apple.com/app/id6760347328
 license: MIT

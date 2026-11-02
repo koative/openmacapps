@@ -7,6 +7,8 @@ tags:
   - transcription
   - local-ai
   - notes
+alternativeTo:
+  - granola
 repository: https://github.com/yazinsai/OpenOats
 website: https://openoats.com
 license: "MIT"

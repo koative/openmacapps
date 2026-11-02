@@ -7,6 +7,8 @@ tags:
   - chat
   - ai-client
   - cross-platform
+alternativeTo:
+  - lm-studio
 repository: https://github.com/AtomicBot-ai/Atomic-Chat
 website: https://atomic.chat/
 license: "Apache-2.0"

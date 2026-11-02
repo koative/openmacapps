@@ -3,6 +3,7 @@ name: "GPT4All"
 summary: "Run supported language models locally and work with documents through a desktop interface."
 category: "AI"
 tags: ["local-ai", "chat", "documents"]
+alternativeTo: ["lm-studio"]
 repository: "https://github.com/nomic-ai/gpt4all"
 website: "https://www.nomic.ai/gpt4all"
 license: "MIT"

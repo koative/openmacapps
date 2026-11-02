@@ -3,6 +3,7 @@ name: "Ollama"
 summary: "Run supported language models on your Mac with a desktop app and local API."
 category: "AI"
 tags: ["local-ai", "language-models", "chat"]
+alternativeTo: ["lm-studio"]
 repository: "https://github.com/ollama/ollama"
 website: "https://ollama.com"
 license: "MIT"
