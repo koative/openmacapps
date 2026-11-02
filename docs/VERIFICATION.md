@@ -12,7 +12,7 @@ Koative renamed OpenBucket to Bucketdeck and moved new work to the GPL-3.0. The 
 - `https://bucketdeck.com/`, the three screenshot sources, the icon source and the compatibility notes all return 200. The compatibility notes still list the six providers named in the description.
 - The repository's GitHub `homepage` field is `https://bucketdeck.com`.
 
-**Old URL.** The app's README badge links to `/apps/openbucket/`, so `redirects` in `astro.config.mjs` builds that page as a redirect to `/apps/bucketdeck/`. It uses a meta refresh, a canonical link and `noindex`, and it is left out of the sitemap and `catalog.json`.
+**Old URL.** `/apps/openbucket/` is retired rather than redirected; the Bucketdeck README badge now links to `/apps/bucketdeck/`.
 
 **Checks.** `bun run validate`, `bun run check:generated`, `bun test` (19 tests), `bun run check` and `bun run build` (1,213 pages) pass. `bun run check:links` passes with 97,627 links, and `bun run check:homebrew` verifies 547 casks.
 
