@@ -1,0 +1,42 @@
+name: Report a listing problem
+description: A wrong license, a broken or unofficial download, an outdated description or a moved repository.
+title: 'Listing problem: '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking. Every listing is a folder in `content/apps/`, so a pull request that fixes it is just as welcome.
+        If you maintain the app, say so: corrections from maintainers are applied first.
+  - type: input
+    id: page
+    attributes:
+      label: OpenMacApps page
+      placeholder: https://openmacapps.com/apps/<slug>/
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong?
+      options:
+        - License or source classification
+        - Download link (broken, outdated or not official)
+        - Repository moved or renamed
+        - Description, screenshots or icon
+        - The app is discontinued
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details and evidence
+      description: Link the upstream source that shows the correct information, for example the LICENSE file, the release page or an announcement.
+    validations:
+      required: true
+  - type: checkboxes
+    id: maintainer
+    attributes:
+      label: Maintainer
+      options:
+        - label: I maintain this app.

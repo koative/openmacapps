@@ -123,4 +123,4 @@ The site is served at the root of `https://openmacapps.com/`. Keep internal link
 
 Describe the change and include direct evidence for the source license, macOS downloads, and image reuse. Keep unrelated fixes separate. CI checks data integrity, README freshness, meaningful loader tests, Astro types, and the production build. Merges to `main` publish through GitHub Pages.
 
-For an app suggestion without code, use the app suggestion issue form. For a broken link, incorrect license, outdated screenshot, or removal request, open an issue with the affected app and evidence.
+For an app suggestion without code, use the app suggestion issue form. For a broken link, incorrect license, outdated screenshot, moved repository or removal request, use the listing problem issue form with the affected app and evidence.
