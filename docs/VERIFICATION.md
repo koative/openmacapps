@@ -28,6 +28,7 @@ Koative renamed OpenBucket to Bucketdeck and moved new work to the GPL-3.0. The 
 - The tap cask `koative/tap/bucketdeck` installs `Bucketdeck.app` from the repository's releases, with homepage `https://bucketdeck.com/`.
 - `https://bucketdeck.com/`, the three screenshot sources, the icon source and the compatibility notes all return 200. The compatibility notes still list the six providers named in the description.
 - The repository's GitHub `homepage` field is `https://bucketdeck.com`.
+- The app icon changed on 2026-11-02 to two nested glass bands on blue, built in Icon Composer. The listing's icon is now the repository's `brand/app-icon/bucketdeck-256.png`, macOS's own rendering of it, unmodified; the old icon source no longer exists.
 
 **Old URL.** `/apps/openbucket/` is retired rather than redirected; the Bucketdeck README badge now links to `/apps/bucketdeck/`.
 
