@@ -7,24 +7,24 @@ tags:
   - terminal
   - git
   - cross-platform
-repository: https://github.com/omartelo/lich
-website: https://omartelo.github.io/lich/
+repository: https://github.com/lichdotdev/lich
+website: https://lichdotdev.github.io/lich/
 license: "AGPL-3.0-only"
-licenseUrl: https://github.com/omartelo/lich/blob/main/LICENSE
-download: https://github.com/omartelo/lich/releases
+licenseUrl: https://github.com/lichdotdev/lich/blob/main/LICENSE
+download: https://github.com/lichdotdev/lich/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: '2026-11-01'
 icon: ./assets/icon.png
 sources:
-  - https://github.com/omartelo/lich
-  - https://github.com/omartelo/lich/blob/main/LICENSE
-  - https://github.com/omartelo/lich/releases
-  - https://omartelo.github.io/lich/
+  - https://github.com/lichdotdev/lich
+  - https://github.com/lichdotdev/lich/blob/main/LICENSE
+  - https://github.com/lichdotdev/lich/releases
+  - https://lichdotdev.github.io/lich/
 assets:
   - path: ./assets/icon.png
-    source: https://raw.githubusercontent.com/omartelo/lich/main/build/appicon-mac.png
+    source: https://raw.githubusercontent.com/lichdotdev/lich/main/build/appicon-mac.png
     credit: "omartelo"
     license: "AGPL-3.0-only (repository license); upstream project asset"
 ---

@@ -1,5 +1,22 @@
 # Release verification
 
+## lich and Mechvibes repositories moved — 2026-11-01
+
+GitHub's API showed two listed repositories resolving elsewhere. Both are the same projects, renamed or transferred, with unchanged license files.
+
+**lich.**
+- `omartelo/lich` now resolves to `lichdotdev/lich` with the same repository ID. The README and website are the same project, and the author still holds the copyright ("AGPL-3.0-only © 2026 omartelo").
+- The LICENSE is unchanged from the stored copy, so the listing keeps `AGPL-3.0-only`. The icon file has not changed since 2026-09-06.
+- The website moved to `https://lichdotdev.github.io/lich/`, which returns 200. The old `https://omartelo.github.io/lich/` returns 404 without a redirect. The repository URL, license, downloads, sources and icon source now use the new locations.
+
+**Mechvibes (was MechvibesDX).**
+- `hainguyents13/mechvibes-dx` now resolves to `hainguyents13/mechvibes`, with the same repository ID. The README calls it "Mechvibes 3, the official Mechvibes app", which replaces Mechvibes 2 (the Electron app) and MechvibesDX. The Electron repository was renamed `mechvibes-electron` and archived.
+- The MIT LICENSE is unchanged from the stored copy. The icon file has not changed since 2025-12-08.
+- The website is now `https://mechvibes.com` (200), the repository's GitHub `homepage`. The old website was the repository URL, which redirects.
+- The record is named Mechvibes. Its description now covers the macOS caveats in the README: ad-hoc signed and not notarized, the Accessibility and Input Monitoring permissions, and an anonymous usage ping per launch that can be turned off. The README offers an Intel disk image, but releases v3.2.1 to v3.4.0 ship only `macos-arm64.dmg`, so the record still says Apple silicon.
+
+**Old URL.** The folder moved from `mechvibes-dx` to `mechvibes`, to match the app's name. `/apps/mechvibes-dx/` is retired rather than redirected, as with Bucketdeck. The site has no redirect mechanism.
+
 ## OpenBucket renamed Bucketdeck — 2026-11-02
 
 Koative renamed OpenBucket to Bucketdeck and moved new work to the GPL-3.0. The listing moved from `/apps/openbucket/` to `/apps/bucketdeck/`.
