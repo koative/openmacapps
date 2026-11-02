@@ -55,6 +55,6 @@ assets:
     license: GPL-3.0 (repository license); real app window with fictional demo content
 ---
 
-Bucketdeck, formerly called OpenBucket, opens S3 buckets like folders on your Mac: grid and list views, thumbnails, Quick Look, an Info panel with headers, tags and photo details, version history, presigned share links with a QR code, and parallel downloads and uploads. A Storage Overview maps a folder by size and kind, and Compare with Local Folder checks a local copy and can update either side without deleting anything.
+Bucketdeck opens S3 buckets like folders on your Mac: grid and list views, thumbnails, Quick Look, an Info panel with headers, tags and photo details, version history, presigned share links with a QR code, and parallel downloads and uploads. A Storage Overview maps a folder by size and kind, and Compare with Local Folder checks a local copy and can update either side without deleting anything.
 
 Every connection is read-only until you turn on Allow changes for it, and keys you enter are kept in the macOS Keychain. It works with custom endpoints, path-style addressing, AWS CLI profiles and buckets your key can't list. It is an early release that needs macOS 26 or later; the project's compatibility notes record live tests against Amazon S3, MinIO, RustFS, SeaweedFS, Garage and S3Mock. Releases up to v0.2.3 were MIT-licensed; later work is under the GPL-3.0. It is published by Koative, the team behind this catalog.

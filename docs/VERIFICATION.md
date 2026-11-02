@@ -10,7 +10,7 @@ Koative renamed OpenBucket to Bucketdeck and moved new work to the GPL-3.0. The 
 - `assets/UPSTREAM-LICENSE.txt` is now the repository's current LICENSE.
 - The tap cask `koative/tap/bucketdeck` installs `Bucketdeck.app` from the repository's releases, with homepage `https://bucketdeck.com/`.
 - `https://bucketdeck.com/`, the three screenshot sources, the icon source and the compatibility notes all return 200. The compatibility notes still list the six providers named in the description.
-- The repository's GitHub `homepage` field still showed `openbucket.koative.com`. The listing uses bucketdeck.com.
+- The repository's GitHub `homepage` field is `https://bucketdeck.com`.
 
 **Old URL.** The app's README badge links to `/apps/openbucket/`, so `redirects` in `astro.config.mjs` builds that page as a redirect to `/apps/bucketdeck/`. It uses a meta refresh, a canonical link and `noindex`, and it is left out of the sitemap and `catalog.json`.
 
