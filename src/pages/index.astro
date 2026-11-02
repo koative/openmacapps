@@ -39,8 +39,7 @@ const base = import.meta.env.BASE_URL;
   <header class="page-head">
     <h1>Discover</h1>
     <p>
-      {apps.length} Mac apps with published source code: {openSourceCount} open
-      source, {sourceAvailable.length} source available.
+      {`${apps.length.toLocaleString('en-US')} Mac apps with published source code: ${openSourceCount.toLocaleString('en-US')} open source, ${sourceAvailable.length} source available.`}
     </p>
   </header>
 

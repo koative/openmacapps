@@ -18,7 +18,7 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
 
 <Layout
   title={`Search open-source Mac apps — ${site.name}`}
-  description={`Search ${apps.length} open-source and source-available Mac apps by name, category, tag, license, or the proprietary app they replace.`}
+  description={`Search ${apps.length.toLocaleString('en-US')} open-source and source-available Mac apps by name, category, tag, license, or the proprietary app they replace.`}
   section="search/"
 >
   <header class="page-head">
@@ -84,7 +84,7 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
     </div>
     <div class="result-line">
       <p id="result-count" role="status" aria-live="polite" aria-atomic="true">
-        {apps.length} apps
+        {apps.length.toLocaleString('en-US')} apps
       </p>
       <button class="text-button" id="clear-filters" type="button" hidden>
         <X size={14} /> Clear Filters
@@ -99,8 +99,8 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
       }
     </style>
     <p class="note">
-      All {apps.length} apps are listed below. Turn on JavaScript to search and
-      filter.
+      All {apps.length.toLocaleString('en-US')} apps are listed below. Turn on
+      JavaScript to search and filter.
     </p>
   </noscript>
   <div class="lockup-grid" id="results">
@@ -223,8 +223,8 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
       matched === cards.length ? 'apps' : matched === 1 ? 'result' : 'results';
     count.textContent =
       matched > shown
-        ? `Showing ${shown} of ${matched} ${noun}`
-        : `${matched} ${noun}`;
+        ? `Showing ${shown} of ${matched.toLocaleString('en-US')} ${noun}`
+        : `${matched.toLocaleString('en-US')} ${noun}`;
     moreContainer.hidden = matched <= visibleLimit;
     more.textContent = `Show ${Math.min(pageSize, matched - shown)} More`;
     empty.hidden = matched > 0;

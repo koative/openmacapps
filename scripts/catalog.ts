@@ -38,7 +38,7 @@ function catalogMarkdown(apps: CatalogApp[]): string {
     })
     .filter(Boolean)
     .join('\n\n');
-  return `${START}\n\n${apps.length} macOS apps: **${openSourceCount} open source** and **${restrictedCount} source available**. Source-available apps have additional restrictions and are labeled separately. Generated from [content/apps](content/apps); edit the app folders to contribute.\n\n${groups}\n\n${END}`;
+  return `${START}\n\n${apps.length.toLocaleString('en-US')} macOS apps: **${openSourceCount.toLocaleString('en-US')} open source** and **${restrictedCount} source available**. Source-available apps have additional restrictions and are labeled separately. Generated from [content/apps](content/apps); edit the app folders to contribute.\n\n${groups}\n\n${END}`;
 }
 function expectedReadme(apps: CatalogApp[]): {
   current: string;
