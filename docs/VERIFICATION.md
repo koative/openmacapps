@@ -1,12 +1,12 @@
 # Release verification
 
-## OpenBucket renamed Bucketdeck — 2026-11-01
+## OpenBucket renamed Bucketdeck — 2026-11-02
 
 Koative renamed OpenBucket to Bucketdeck and moved new work to the GPL-3.0. The listing moved from `/apps/openbucket/` to `/apps/bucketdeck/`.
 
 **Evidence.**
 - The GitHub API names the repository `koative/bucketdeck`, and the old URL resolves there. Its license is GPL-3.0, and the latest release is v0.3.0.
-- The README says it is licensed under the GPL "version 3". Releases up to v0.2.3 stay MIT. The Bucketdeck name and app icon are not covered by the license, so the icon's asset note says so.
+- The README says it is licensed under the GPL "version 3", with no "or later" clause, so the listing records `GPL-3.0-only`. Releases up to v0.2.3 stay MIT. The Bucketdeck name and app icon are not covered by the license, so the icon's asset note says so.
 - `assets/UPSTREAM-LICENSE.txt` is now the repository's current LICENSE.
 - The tap cask `koative/tap/bucketdeck` installs `Bucketdeck.app` from the repository's releases, with homepage `https://bucketdeck.com/`.
 - `https://bucketdeck.com/`, the three screenshot sources, the icon source and the compatibility notes all return 200. The compatibility notes still list the six providers named in the description.

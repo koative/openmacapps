@@ -9,14 +9,14 @@ tags:
   - native
 repository: https://github.com/koative/bucketdeck
 website: https://bucketdeck.com
-license: GPL-3.0
+license: GPL-3.0-only
 licenseUrl: https://github.com/koative/bucketdeck/blob/main/LICENSE
 download: https://github.com/koative/bucketdeck/releases/latest
 freeDownload: true
 homebrew: "koative/tap/bucketdeck"
 featured: false
 added: '2026-10-18'
-verified: '2026-11-01'
+verified: '2026-11-02'
 icon: ./assets/icon.png
 screenshots:
   - src: ./assets/grid.webp
