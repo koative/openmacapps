@@ -8,6 +8,8 @@ The public repository is [koative/openmacapps](https://github.com/koative/openma
 
 Each page has a canonical URL without filter parameters, Open Graph and Twitter metadata, and a share image. Discover, search, the category and collection pages, About, and every app page are in the sitemap. App pages have descriptive titles and factual `SoftwareApplication` and breadcrumb structured data. We do not invent prices, review scores, or release dates. This markup does not guarantee a Google rich result. The 404 page is marked `noindex` and excluded from the sitemap.
 
+Links to listed apps (website, repository, download, license and sources) are ordinary followed links, because each one has been checked. On an alternatives page, the link to the proprietary product's own website carries `rel="nofollow"`: it is a reference for readers, not an endorsement. App pages offer developers a "Listed on OpenMacApps" README badge (`public/badge.svg`) that links back to their listing.
+
 `public/social-card.png` is the 1200 × 630 default sharing image. Its editable source is `design/social-card.html`, which shows real catalog icons from `content/apps/`. Serve the repository root over HTTP, open the file in a browser on macOS so `system-ui` resolves to SF Pro, and capture a 1200 × 630 screenshot. `docs/preview.png` is a 1440 × 1050 screenshot of the actual Discover page in light appearance.
 
 `src/layouts/Layout.astro` loads [Simple Analytics](https://www.simpleanalytics.com/) on every page with the script from `scripts.simpleanalyticscdn.com`. Page views are stored only for hostnames added to the Simple Analytics account, so `openmacapps.com` must be listed there; local previews send hits that the service does not record.

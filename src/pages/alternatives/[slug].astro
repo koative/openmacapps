@@ -79,7 +79,8 @@ const kind = restricted
   </header>
   <div>
     <div class="markdown-body" set:html={renderMarkdown(entry.body)} />
-    <a class="text-link" href={entry.website}>
+    {/* A link to the product this page offers alternatives to is a reference, not an endorsement. */}
+    <a class="text-link" href={entry.website} rel="nofollow">
       {entry.name} website <ArrowUpRight size={14} />
     </a>
   </div>
