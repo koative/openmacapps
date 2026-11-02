@@ -224,3 +224,39 @@ have not been reviewed yet.
   - **No clear license:** Keka, Zrythm and Tenacity.
   - **Not Mac apps:** AI gateways and agent infrastructure (OmniRoute and others).
   - **Command-line tools:** Colima and similar, until the catalog decides how to list them.
+
+## Fifth expansion (2026-11-02)
+
+119 apps were added, mostly found through what people install rather than through directory listings, which took the catalog past 1,000 apps.
+
+- **Leads.**
+  - **Homebrew install data:** Homebrew's cask index was matched against its 365-day install counts. The leads were casks whose download or homepage is a GitHub repository that is not in the catalog, installed at least 500 times in the year (382 casks).
+  - **Discovery queue:** `bun run discover` added 74 new leads since 2026-10-29.
+  - **Filter:** GitHub data kept repositories with an allowed license, a release in the last year and a `.app` in the cask. It also dropped forks, archived projects, and projects already listed under a renamed repository. Older releases were reviewed one by one.
+  - **Review:** 145 leads were reviewed by hand against the rules in CONTRIBUTING.md.
+- **New alternatives pages** these apps made possible: Wispr Flow, Granola, LM Studio, Lens, Wallpaper Engine (not on the Mac) and Todoist.
+- **Kept, with the caveat in the record:**
+  - **OpenClaw:** its menu bar app starts the agent backend itself; the record warns that it can run commands and control the Mac.
+  - **Vesktop:** Discord client mods break Discord's terms.
+  - **Netron:** desktop builds send usage reports with no off switch.
+  - **Proton Mail Bridge:** needs a paid Proton plan, so it has no `freeDownload` value and lists that include it are not called free.
+  - **Forks and separate Mac builds:** SaneSideButtons is the maintained fork of the abandoned SensibleSideButtons. Creality Print is the vendor's own build of OrcaSlicer. QDirStat's Mac builds come from a separate repository its author approves.
+- **Removed during integration:**
+  - **Stability Matrix:** official binaries come under an end-user agreement that includes proprietary modules, the same rule as Rockxy and Tracexy.
+  - **Open WebUI Desktop:** the app it installs and runs uses the Open WebUI License, which is not on the allowlist.
+  - **Libation:** it removes Audible DRM, so it is held until the catalog decides whether to list DRM-removal tools.
+- **Held out before review:**
+  - **Possibly inflated stars:** nine "Craft" apps from storytold, plus ArtCraft, Compositor and Open Design. Each gained tens of thousands of stars within one or two months of creation, so their adoption is unproven.
+  - **Retired:** Rustcast.
+  - **Command-line tools:** several popular casks.
+- **Skipped in review:**
+  - **Binaries differ from the source:** eqMac and OpenAudible publish builds newer than their public code.
+  - **Unmaintained, superseded or pending a rewrite:** Auto Claude, FannyWidget (2020 Intel builds), LocationSimulator, TLA+ Toolbox, Spacedrive, CubicSDR (last Mac build 2018), opcode, DevPod, and GZDoom, whose community moved to the UZDoom fork.
+  - **Source of the Mac app not public:** Langflow Desktop. Requestly is open core and its current Mac download is a different build.
+  - **License unclear or not met:**
+    - XKey ports the GPL OpenKey engine but is labelled MIT.
+    - Dusklight is a decompilation of a Nintendo game.
+  - **Not Mac apps:** Headroom (a paid agent proxy), OpenHuman (agent infrastructure) and Universal Media Server (a media server).
+  - **Deceptive use case:** Donut Browser, an anti-detect browser whose engine is a closed, paid service.
+  - **Too new for their adoption:** anki_miner, oliv, mac-tv and glass.
+- **Homebrew:** `bun run homebrew` matched casks for 116 of the new apps. Ente Auth, Ente Photos, goose and Impactor have casks that still point at the projects' old organisation names, so they cannot pass the repository-or-website rule yet. WallpaperMachine has no cask.

@@ -1,5 +1,23 @@
 # Release verification
 
+## 119 apps from Homebrew install data — 2026-11-02
+
+**Catalog.** 1,023 apps (1,009 open source and 14 source available), with 117 alternatives pages and 49 topic pages. The leads and every exclusion are in [RESEARCH.md](RESEARCH.md#fifth-expansion-2026-11-02).
+
+**Each new record has:**
+- a hand-checked license, with a verbatim copy of the upstream license file;
+- an official icon at 256 px, except LidAngleSensor, whose repository has no icon;
+- a checked `freeDownload`;
+- an original description that states signing, telemetry, privileged helpers and account requirements where upstream documents them.
+
+**Display.** Totals now print with a thousands separator ("1,023") on Discover, Search and the README.
+
+**Checks.**
+- `bun run validate`, `bun test` (19 tests), `bun run check` and `bun run build` (1,212 pages) pass.
+- `bun run check:links` passes with 97,625 links. `bun run check:generated` passes, and `bun run check:homebrew` verifies 547 casks.
+- No page lacks a description, has a title over 70 characters, or shares a title with another page.
+- Discover, Search, a product page and the Wispr Flow and Lens alternatives pages were opened in a browser in light and dark, at 1,440 and 390 px wide. No page scrolls sideways, every image loads, and there are no page errors.
+
 ## Moved to openmacapps.com — 2026-10-29
 
 The catalog is now OpenMacApps, at <https://openmacapps.com/>, built from `koative/openmacapps`.
