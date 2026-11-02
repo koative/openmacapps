@@ -1,5 +1,21 @@
 # Release verification
 
+## OpenBucket renamed Bucketdeck — 2026-11-01
+
+Koative renamed OpenBucket to Bucketdeck and moved new work to the GPL-3.0. The listing moved from `/apps/openbucket/` to `/apps/bucketdeck/`.
+
+**Evidence.**
+- The GitHub API names the repository `koative/bucketdeck`, and the old URL resolves there. Its license is GPL-3.0, and the latest release is v0.3.0.
+- The README says it is licensed under the GPL "version 3". Releases up to v0.2.3 stay MIT. The Bucketdeck name and app icon are not covered by the license, so the icon's asset note says so.
+- `assets/UPSTREAM-LICENSE.txt` is now the repository's current LICENSE.
+- The tap cask `koative/tap/bucketdeck` installs `Bucketdeck.app` from the repository's releases, with homepage `https://bucketdeck.com/`.
+- `https://bucketdeck.com/`, the three screenshot sources, the icon source and the compatibility notes all return 200. The compatibility notes still list the six providers named in the description.
+- The repository's GitHub `homepage` field still showed `openbucket.koative.com`. The listing uses bucketdeck.com.
+
+**Old URL.** The app's README badge links to `/apps/openbucket/`, so `redirects` in `astro.config.mjs` builds that page as a redirect to `/apps/bucketdeck/`. It uses a meta refresh, a canonical link and `noindex`, and it is left out of the sitemap and `catalog.json`.
+
+**Checks.** `bun run validate`, `bun run check:generated`, `bun test` (19 tests), `bun run check` and `bun run build` (1,213 pages) pass. `bun run check:links` passes with 97,627 links, and `bun run check:homebrew` verifies 547 casks.
+
 ## 119 apps from Homebrew install data — 2026-11-02
 
 **Catalog.** 1,023 apps (1,009 open source and 14 source available), with 117 alternatives pages and 49 topic pages. The leads and every exclusion are in [RESEARCH.md](RESEARCH.md#fifth-expansion-2026-11-02).

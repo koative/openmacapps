@@ -7,4 +7,8 @@ export default defineConfig({
   output: 'static',
   devToolbar: { enabled: false },
   trailingSlash: 'always',
+  // Renamed apps keep their old product URL, which upstream READMEs link to.
+  redirects: {
+    '/apps/openbucket/': '/apps/bucketdeck/',
+  },
 });
