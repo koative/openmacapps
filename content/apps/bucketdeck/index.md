@@ -38,9 +38,9 @@ sources:
   - https://github.com/koative/bucketdeck/blob/main/docs/compatibility.md
 assets:
   - path: ./assets/icon.png
-    source: https://github.com/koative/bucketdeck/blob/main/App/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png
+    source: https://github.com/koative/bucketdeck/blob/main/brand/app-icon/bucketdeck-256.png
     credit: Koative
-    license: Koative LLC's app icon, not covered by the GPL-3.0 code license; the full-bleed icon shown in the macOS rounded-square shape, used unmodified to identify the app
+    license: Koative LLC's app icon, not covered by the GPL-3.0 code license; macOS's own rendering of the app icon, used unmodified to identify the app
   - path: ./assets/grid.webp
     source: https://github.com/koative/bucketdeck/blob/main/docs/media/browser-grid.png
     credit: Koative
