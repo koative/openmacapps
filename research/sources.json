@@ -38,5 +38,9 @@
   {
     "repository": "https://github.com/guyzyl/awesome-macos-apps",
     "readme": "https://raw.githubusercontent.com/guyzyl/awesome-macos-apps/main/README.md"
+  },
+  {
+    "repository": "https://github.com/jaywcjlove/awesome-swift-macos-apps",
+    "readme": "https://raw.githubusercontent.com/jaywcjlove/awesome-swift-macos-apps/main/README.md"
   }
 ]

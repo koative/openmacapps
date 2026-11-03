@@ -1,6 +1,6 @@
 # Discovery queue
 
-`sources.json` records ten directories used for discovery. Refresh their GitHub repository links with:
+`sources.json` records eleven directories used for discovery. Refresh their GitHub repository links with:
 
 ```sh
 bun run discover
