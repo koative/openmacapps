@@ -1,0 +1,96 @@
+Lucid
+Copyright (c) 2026 Braedon Saunders
+
+Lucid itself is licensed under the MIT License; see LICENSE.
+
+This file records third-party work used by Lucid and its development tools.
+The application includes the full notices in Resources/ThirdPartyNotices.txt.
+
+================================================================================
+NanoVSR — production reconstruction architecture
+================================================================================
+
+NanoVSR architecture adaptation
+Source: https://github.com/filippawlicki/nanovsr
+Lucid's production network adapts the RepVGG blocks and bilinear residual to
+single-frame, pixel-unshuffled, 2x reconstruction without BatchNorm. All shipped
+weights were trained by this project; no pretrained NanoVSR weights are used.
+
+MIT License
+
+Copyright (c) 2026 Filip Pawlicki, Marcel Kańduła, Marcin Pucek, Kamil Dobies
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+================================================================================
+SPAN — historical models and development tools
+================================================================================
+
+Source: https://github.com/hongyuanyu/SPAN
+License: Apache License, Version 2.0.
+The development code adapts the SPAN architecture for pixel-unshuffled codec
+restoration. Earlier releases used locally trained SPAN weights. Lucid 1.0.0
+ships the Nano-derived model described above. The SPAN license and attribution
+are retained in Lucid/Resources/ThirdPartyNotices.txt and Tools/architectures.
+
+
+================================================================================
+Algorithms implemented from published descriptions
+================================================================================
+
+The filters in Lucid/Metal/DetailEnhancer.swift are written here from the
+published descriptions of the following work. No code was copied from these
+projects, and they are named because the ideas are theirs:
+
+  * CDEF, the constrained directional enhancement filter, from AV1
+    — Steinar Midtskogen and Jean-Marc Valin. The per-direction divisor table
+      matches the one used by dav1d.
+  * Temporal accumulation with neighbourhood clipping
+    — Brian Karis (temporal anti-aliasing) and Playdead's shipped implementation.
+  * Stochastic debanding
+    — the approach used by libplacebo and mpv.
+  * Contrast-adaptive sharpening
+    — the lobe from AMD FidelityFX CAS.
+  * Oklab
+    — Bjorn Ottosson.
+  * The deblocking filter
+    — ITU-T Recommendation H.264, Tables 8-16 and 8-17, run without a bitstream.
+
+
+================================================================================
+Test material
+================================================================================
+
+Test clips are not distributed in this repository. Those referenced by
+TestSite/ and by the training corpus generator are re-encodable from public
+sources:
+
+  * Big Buck Bunny and Sintel — (c) Blender Foundation, CC BY 3.0.
+  * Netflix Chimera test sequences — CC BY, via media.xiph.org.
+
+
+================================================================================
+Trademarks
+================================================================================
+
+Lucid is not affiliated with, endorsed by, or sponsored by NVIDIA, Apple,
+Microsoft or Google. RTX Video Super Resolution is a trademark of NVIDIA
+Corporation and is named in the documentation only to describe, by comparison,
+what this project does.

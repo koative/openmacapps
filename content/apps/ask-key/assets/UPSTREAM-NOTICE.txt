@@ -1,0 +1,8 @@
+AskKey
+Copyright (c) 2026 sudoHG
+
+AskKey began as a fork of Lokalite by Ruben González Alonso
+(https://github.com/RubenGlez/lokalite), licensed under the MIT License.
+The product, architecture and most of the code have since been rewritten,
+but portions derived from Lokalite remain under its original copyright,
+which is retained in LICENSE.

@@ -1,0 +1,43 @@
+MacHead
+Copyright 2026 The MacHead Authors
+
+This product includes software developed as part of the MacHead project,
+licensed under the Apache License, Version 2.0.
+
+======================================================================
+
+MacHead 在构建期（CI）下载并在运行时按需集成以下第三方工具。
+这些组件不属于本项目源代码，各自遵循其原始许可证：
+
+* frpc (Fast Reverse Proxy Client)
+  版权所有 fatedier 及 frp 项目贡献者
+  许可证：Apache License 2.0
+  https://github.com/fatedier/frp
+
+* nezha-agent (哪吒监控探针)
+  版权所有 naiba 及 nezha 项目贡献者
+  许可证：Apache License 2.0
+  https://github.com/nezhahq/agent
+
+* ServerStatus 客户端 (stat_client,ServerStatus-Rust)
+  版权所有 zdz 及 ServerStatus-Rust 项目贡献者
+  许可证：Apache License 2.0
+  https://github.com/zdz/ServerStatus-Rust
+
+* cloudflared (Cloudflare Tunnel 客户端)
+  版权所有 Cloudflare, Inc.
+  许可证：Apache License 2.0（附 Cloudflare 商标声明）
+  https://github.com/cloudflare/cloudflared
+
+* tailcat (Tailscale 无控制面点对点加密隧道工具)
+  版权所有 Tailscale Inc & contributors
+  许可证：BSD 3-Clause License
+  https://github.com/tailscale/tailcat
+
+* Microsoft Dev Tunnels CLI (devtunnel)
+  版权所有 Microsoft Corporation。
+  本项目不分发、不捆绑该组件；仅在用户于应用内主动发起时，
+  从微软官方地址下载并由用户按《Microsoft Dev Tunnels 使用条款》自行使用。
+
+以上各组件仅以未修改的二进制形式于构建期从官方发布渠道获取，
+MacHead 对其不作任何修改与再授权主张。

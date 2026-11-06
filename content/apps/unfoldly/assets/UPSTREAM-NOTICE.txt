@@ -1,0 +1,6 @@
+Unfoldly
+Copyright 2026 Unary Works LLC
+
+This product includes third-party open-source software. See
+docs/THIRD_PARTY_NOTICES.md and docs/THIRD_PARTY_DEPENDENCIES.md for dependency and asset
+license notes.

@@ -1,0 +1,275 @@
+akou
+Copyright (C) 2026 the akou authors. Licensed under the GNU General Public License v3.0 (LICENSE).
+
+This file credits the third-party work akou builds on. Each component keeps its own licence.
+
+Capture helper (native/akou-capture)
+------------------------------------
+
+hark (MIT), https://github.com/PhantomYdn/hark
+  Copyright (c) 2026 Ilya Naryzhnyy.
+  The capture design the helper ports to Rust: a private, unmuted Core Audio process tap read
+  through a private aggregate device with tap auto-start and drift compensation, the throwaway
+  probe tap that tells a dead tap from a quiet call, and the dead-tap rebuild rule. No hark code
+  is copied.
+
+Handy (MIT), https://github.com/cjpais/Handy
+  Copyright (c) 2025 CJ Pais.
+  The receipt rules of the dictation paste in native/akou-capture/src/dictate/insert.rs are
+  ported from Handy's paste_tx: only reads after the paste chord count, the old clipboard comes
+  back a quiet period after the last read or at a bounded timeout (a short one after a failed
+  chord), and only while the clipboard is still ours. The MIT notice is in that file.
+
+handy-keys (MIT), https://github.com/handy-computer/handy-keys
+  Copyright (c) 2026 handy-computer.
+  The macOS key tap of the dictation helper (native/akou-capture/src/dictate/mac.rs) is set up
+  the way handy-keys' macOS listener is: an active session tap on its own run loop, enabled again
+  from its own callback when macOS disables it, never polled. No handy-keys code is linked.
+
+libopus (BSD-3-Clause), https://opus-codec.org
+  Copyright (c) Xiph.Org Foundation, Skype Limited, Octasic, Jean-Marc Valin, Timothy B.
+  Terriberry, CSIRO, Gregory Maxwell, Mark Borgerding, Erik de Castro Lopo and contributors.
+  Built from source and linked statically through opusic-sys (BSD-3-Clause).
+
+Rust crates linked into the shipping helper, on any of the macOS, Linux and Windows targets
+(build-time procedural macros are not linked and are not listed). Each crate's licence text is in
+its source package at the repository given.
+
+  async-broadcast v0.7.2         MIT OR Apache-2.0                  https://github.com/smol-rs/async-broadcast
+  async-channel v2.5.0           Apache-2.0 OR MIT                  https://github.com/smol-rs/async-channel
+  async-executor v1.14.0         Apache-2.0 OR MIT                  https://github.com/smol-rs/async-executor
+  async-io v2.6.0                Apache-2.0 OR MIT                  https://github.com/smol-rs/async-io
+  async-lock v3.4.2              Apache-2.0 OR MIT                  https://github.com/smol-rs/async-lock
+  async-process v2.5.0           Apache-2.0 OR MIT                  https://github.com/smol-rs/async-process
+  async-signal v0.2.14           Apache-2.0 OR MIT                  https://github.com/smol-rs/async-signal
+  async-task v4.7.1              Apache-2.0 OR MIT                  https://github.com/smol-rs/async-task
+  atomic-waker v1.1.2            Apache-2.0 OR MIT                  https://github.com/smol-rs/atomic-waker
+  audio-codec-algorithms v0.8.1  0BSD OR Apache-2.0                 https://github.com/karip/audio-codec-algorithms
+  audioadapter v5.0.0            MIT OR Apache-2.0                  https://github.com/HEnquist/audioadapter-rs
+  audioadapter-buffers v5.2.0    MIT OR Apache-2.0                  https://github.com/HEnquist/audioadapter-buffers-rs
+  audioadapter-sample v5.2.0     MIT OR Apache-2.0                  https://github.com/HEnquist/audioadapter-sample-rs
+  bitflags v2.13.2               MIT OR Apache-2.0                  https://github.com/bitflags/bitflags
+  block2 v0.6.2                  MIT                                https://github.com/madsmtm/objc2
+  blocking v1.7.0                Apache-2.0 OR MIT                  https://github.com/smol-rs/blocking
+  byteorder v1.5.0               Unlicense OR MIT                   https://github.com/BurntSushi/byteorder
+  cfg-if v1.0.5                  MIT OR Apache-2.0                  https://github.com/rust-lang/cfg-if
+  concurrent-queue v2.5.0        Apache-2.0 OR MIT                  https://github.com/smol-rs/concurrent-queue
+  coreaudio-rs v0.14.2           MIT/Apache-2.0                     https://github.com/RustAudio/coreaudio-rs
+  cpal v0.18.2                   Apache-2.0                         https://github.com/RustAudio/cpal
+  crossbeam-utils v0.8.23        MIT OR Apache-2.0                  https://github.com/crossbeam-rs/crossbeam
+  dasp_sample v0.11.0            MIT OR Apache-2.0                  https://github.com/rustaudio/sample
+  dispatch2 v0.3.1               Zlib OR Apache-2.0 OR MIT          https://github.com/madsmtm/objc2
+  endi v1.1.1                    MIT                                https://github.com/zeenix/endi
+  enumflags2 v0.7.12             MIT OR Apache-2.0                  https://github.com/meithecatte/enumflags2
+  errno v0.3.14                  MIT OR Apache-2.0                  https://github.com/lambda-fairy/rust-errno
+  event-listener v5.4.2          Apache-2.0 OR MIT                  https://github.com/smol-rs/event-listener
+  event-listener-strategy v0.5.4 Apache-2.0 OR MIT                  https://github.com/smol-rs/event-listener-strategy
+  fastrand v2.5.0                Apache-2.0 OR MIT                  https://github.com/smol-rs/fastrand
+  futures v0.3.34                MIT OR Apache-2.0                  https://github.com/rust-lang/futures-rs
+  futures-channel v0.3.34        MIT OR Apache-2.0                  https://github.com/rust-lang/futures-rs
+  futures-core v0.3.34           MIT OR Apache-2.0                  https://github.com/rust-lang/futures-rs
+  futures-executor v0.3.34       MIT OR Apache-2.0                  https://github.com/rust-lang/futures-rs
+  futures-io v0.3.34             MIT OR Apache-2.0                  https://github.com/rust-lang/futures-rs
+  futures-lite v2.6.1            Apache-2.0 OR MIT                  https://github.com/smol-rs/futures-lite
+  futures-sink v0.3.34           MIT OR Apache-2.0                  https://github.com/rust-lang/futures-rs
+  futures-task v0.3.34           MIT OR Apache-2.0                  https://github.com/rust-lang/futures-rs
+  futures-util v0.3.34           MIT OR Apache-2.0                  https://github.com/rust-lang/futures-rs
+  hex v0.4.3                     MIT OR Apache-2.0                  https://github.com/KokaKiwi/rust-hex
+  libc v0.2.191                  MIT OR Apache-2.0                  https://github.com/rust-lang/libc
+  linux-raw-sys v0.12.1          Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT  https://github.com/sunfishcode/linux-raw-sys
+  log v0.4.34                    MIT OR Apache-2.0                  https://github.com/rust-lang/log
+  mach2 v0.6.0                   BSD-2-Clause OR MIT OR Apache-2.0  https://github.com/JohnTitor/mach2
+  memchr v2.8.3                  Unlicense OR MIT                   https://github.com/BurntSushi/memchr
+  mio v1.2.3                     MIT                                https://github.com/tokio-rs/mio
+  num-integer v0.1.47            MIT OR Apache-2.0                  https://github.com/rust-num/num-integer
+  num-traits v0.2.19             MIT OR Apache-2.0                  https://github.com/rust-num/num-traits
+  objc2 v0.6.5                   MIT                                https://github.com/madsmtm/objc2
+  objc2-application-services v0.3.2  Zlib OR Apache-2.0 OR MIT      https://github.com/madsmtm/objc2
+  objc2-audio-toolbox v0.3.2     Zlib OR Apache-2.0 OR MIT          https://github.com/madsmtm/objc2
+  objc2-core-audio v0.3.2        Zlib OR Apache-2.0 OR MIT          https://github.com/madsmtm/objc2
+  objc2-core-audio-types v0.3.2  Zlib OR Apache-2.0 OR MIT          https://github.com/madsmtm/objc2
+  objc2-core-foundation v0.3.2   Zlib OR Apache-2.0 OR MIT          https://github.com/madsmtm/objc2
+  objc2-core-graphics v0.3.2     Zlib OR Apache-2.0 OR MIT          https://github.com/madsmtm/objc2
+  objc2-encode v4.1.0            MIT                                https://github.com/madsmtm/objc2
+  objc2-foundation v0.3.2        MIT                                https://github.com/madsmtm/objc2
+  ogg v0.9.2                     BSD-3-Clause                       https://github.com/RustAudio/ogg
+  once_cell v1.21.4              MIT OR Apache-2.0                  https://github.com/matklad/once_cell
+  opus v0.4.0                    MIT/Apache-2.0                     https://github.com/SpaceManiac/opus-rs
+  opusic-sys v0.7.5              BSD-3-Clause                       https://github.com/DoumanAsh/opusic-sys
+  ordered-stream v0.2.0          MIT OR Apache-2.0                  https://github.com/danieldg/ordered-stream
+  parking v2.2.1                 Apache-2.0 OR MIT                  https://github.com/smol-rs/parking
+  pin-project-lite v0.2.17       Apache-2.0 OR MIT                  https://github.com/taiki-e/pin-project-lite
+  piper v0.2.5                   MIT OR Apache-2.0                  https://github.com/smol-rs/piper
+  polling v3.11.0                Apache-2.0 OR MIT                  https://github.com/smol-rs/polling
+  proc-macro2 v1.0.107           MIT OR Apache-2.0                  https://github.com/dtolnay/proc-macro2
+  pulseaudio v0.3.2              MIT                                https://github.com/colinmarc/pulseaudio-rs
+  quote v1.0.47                  MIT OR Apache-2.0                  https://github.com/dtolnay/quote
+  rubato v5.0.1                  MIT OR Apache-2.0                  https://github.com/HEnquist/rubato
+  rustix v1.1.5                  Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT  https://github.com/bytecodealliance/rustix
+  serde v1.0.229                 MIT OR Apache-2.0                  https://github.com/serde-rs/serde
+  serde_core v1.0.229            MIT OR Apache-2.0                  https://github.com/serde-rs/serde
+  signal-hook-registry v1.4.8    MIT OR Apache-2.0                  https://github.com/vorner/signal-hook
+  slab v0.4.12                   MIT                                https://github.com/tokio-rs/slab
+  syn v3.0.6                     MIT OR Apache-2.0                  https://github.com/dtolnay/syn
+  thiserror v1.0.69              MIT OR Apache-2.0                  https://github.com/dtolnay/thiserror
+  thiserror v2.0.21              MIT OR Apache-2.0                  https://github.com/dtolnay/thiserror
+  tracing v0.1.44                MIT                                https://github.com/tokio-rs/tracing
+  tracing-core v0.1.36           MIT                                https://github.com/tokio-rs/tracing
+  unicode-ident v1.0.26          (MIT OR Apache-2.0) AND Unicode-3.0  https://github.com/dtolnay/unicode-ident
+  uuid v1.26.1                   Apache-2.0 OR MIT                  https://github.com/uuid-rs/uuid
+  wasapi v0.26.0                 MIT                                https://github.com/HEnquist/wasapi-rs
+  windowfunctions v0.1.1         MIT                                https://github.com/HEnquist/windowfunctions-rs
+  windows v0.62.2                MIT OR Apache-2.0                  https://github.com/microsoft/windows-rs
+  windows-collections v0.3.2     MIT OR Apache-2.0                  https://github.com/microsoft/windows-rs
+  windows-core v0.62.2           MIT OR Apache-2.0                  https://github.com/microsoft/windows-rs
+  windows-future v0.3.2          MIT OR Apache-2.0                  https://github.com/microsoft/windows-rs
+  windows-link v0.2.1            MIT OR Apache-2.0                  https://github.com/microsoft/windows-rs
+  windows-numerics v0.3.1        MIT OR Apache-2.0                  https://github.com/microsoft/windows-rs
+  windows-result v0.4.1          MIT OR Apache-2.0                  https://github.com/microsoft/windows-rs
+  windows-strings v0.5.1         MIT OR Apache-2.0                  https://github.com/microsoft/windows-rs
+  windows-threading v0.2.1       MIT OR Apache-2.0                  https://github.com/microsoft/windows-rs
+  winnow v1.0.4                  MIT                                https://github.com/winnow-rs/winnow
+  zbus v5.19.0                   MIT                                https://github.com/z-galaxy/zbus
+  zbus_names v4.3.4              MIT                                https://github.com/z-galaxy/zbus
+  zcheapstr v1.1.0               MIT                                https://github.com/z-galaxy/zcheapstr
+  zvariant v5.15.0               MIT                                https://github.com/z-galaxy/zbus
+  zvariant_utils v4.2.0          MIT                                https://github.com/z-galaxy/zbus
+
+Regenerate this list with, in native/akou-capture, for each shipping target triple:
+  cargo tree --locked --target <triple> -e normal,no-proc-macro --prefix none --format "{p}|{l}|{r}"
+A test (native/akou-capture/tests/notice.rs) fails when a linked crate is missing here.
+
+Diarization helper (native/akou-diarize)
+----------------------------------------
+
+NVIDIA Nemotron 3 Diarization (OpenMDW-1.1), https://huggingface.co/nvidia/Nemotron-3-Diarization
+  The speaker model the helper runs, live and in the final pass. Not bundled: akou downloads the
+  ONNX export (https://huggingface.co/altunenes/parakeet-rs, revision
+  4d2a8bc71f5c896ec40faa59732e6716295edaf2, nemotron-3-diarization/nemotron3_diar_v3.onnx, whose
+  folder carries the same OpenMDW-1.1 text) on first run, checked against its pinned SHA-256.
+  OpenMDW-1.1 asks that a copy of the agreement travel with any redistribution of the model:
+  https://openmdw.ai/license/1-1/
+
+ONNX Runtime 1.28.0 (MIT), https://github.com/microsoft/onnxruntime
+  Copyright (c) Microsoft Corporation. Linked statically from the prebuilt library ort-sys
+  downloads for each target (https://github.com/pykeio/ort). Its own third-party notices apply:
+  https://github.com/microsoft/onnxruntime/blob/v1.28.0/ThirdPartyNotices.txt
+
+Oniguruma (BSD-2-Clause), https://github.com/kkos/oniguruma
+  Copyright (c) 2002-2021 K.Kosako. Built from source and linked statically through onig_sys (MIT),
+  for the tokenizer crate parakeet-rs depends on.
+
+Rust crates linked into the shipping diarization helper, on any of the macOS, Linux and Windows
+targets (build-time procedural macros are not linked and are not listed). Each crate's licence text
+is in its source package at the repository given.
+
+  ahash v0.8.12                             MIT OR Apache-2.0                  https://github.com/tkaitchuck/ahash
+  aho-corasick v1.1.5                       Unlicense OR MIT                   https://github.com/BurntSushi/aho-corasick
+  base64 v0.13.1                            MIT/Apache-2.0                     https://github.com/marshallpierce/rust-base64
+  bitflags v2.13.2                          MIT OR Apache-2.0                  https://github.com/bitflags/bitflags
+  castaway v0.2.4                           MIT                                https://github.com/sagebind/castaway
+  cfg-if v1.0.5                             MIT OR Apache-2.0                  https://github.com/rust-lang/cfg-if
+  compact_str v0.9.1                        MIT                                https://github.com/ParkMyCar/compact_str
+  crossbeam-deque v0.8.8                    MIT OR Apache-2.0                  https://github.com/crossbeam-rs/crossbeam
+  crossbeam-epoch v0.9.21                   MIT OR Apache-2.0                  https://github.com/crossbeam-rs/crossbeam
+  crossbeam-utils v0.8.23                   MIT OR Apache-2.0                  https://github.com/crossbeam-rs/crossbeam
+  daachorse v3.0.3                          MIT OR Apache-2.0                  https://github.com/daac-tools/daachorse
+  dary_heap v0.3.9                          MIT OR Apache-2.0                  https://github.com/hanmertens/dary_heap
+  derive_builder v0.20.2                    MIT OR Apache-2.0                  https://github.com/colin-kiegel/rust-derive-builder
+  either v1.18.0                            MIT OR Apache-2.0                  https://github.com/rayon-rs/either
+  esaxx-rs v0.1.10                          Apache-2.0                         https://github.com/Narsil/esaxx-rs
+  eyre v0.6.14                              MIT OR Apache-2.0                  https://github.com/eyre-rs/eyre
+  getrandom v0.3.4                          MIT OR Apache-2.0                  https://github.com/rust-random/getrandom
+  hound v3.5.1                              Apache-2.0                         https://github.com/ruuda/hound
+  indenter v0.3.4                           MIT OR Apache-2.0                  https://github.com/yaahc/indenter
+  itertools v0.14.0                         MIT OR Apache-2.0                  https://github.com/rust-itertools/itertools
+  itoa v1.0.18                              MIT OR Apache-2.0                  https://github.com/dtolnay/itoa
+  libc v0.2.191                             MIT OR Apache-2.0                  https://github.com/rust-lang/libc
+  log v0.4.34                               MIT OR Apache-2.0                  https://github.com/rust-lang/log
+  macro_rules_attribute v0.2.3              Apache-2.0 OR MIT OR Zlib          https://github.com/danielhenrymantilla/macro_rules_attribute-rs
+  matrixmultiply v0.3.11                    MIT/Apache-2.0                     https://github.com/bluss/matrixmultiply/
+  memchr v2.8.3                             Unlicense OR MIT                   https://github.com/BurntSushi/memchr
+  minimal-lexical v0.2.1                    MIT/Apache-2.0                     https://github.com/Alexhuszagh/minimal-lexical
+  monostate v0.1.18                         MIT OR Apache-2.0                  https://github.com/dtolnay/monostate
+  ndarray v0.17.2                           MIT OR Apache-2.0                  https://github.com/rust-ndarray/ndarray
+  nom v7.1.3                                MIT                                https://github.com/Geal/nom
+  num-complex v0.4.6                        MIT OR Apache-2.0                  https://github.com/rust-num/num-complex
+  num-integer v0.1.47                       MIT OR Apache-2.0                  https://github.com/rust-num/num-integer
+  num-traits v0.2.19                        MIT OR Apache-2.0                  https://github.com/rust-num/num-traits
+  once_cell v1.21.4                         MIT OR Apache-2.0                  https://github.com/matklad/once_cell
+  onig v6.5.3                               MIT                                https://github.com/iwillspeak/rust-onig
+  onig_sys v69.9.3                          MIT                                https://github.com/rust-onig/rust-onig
+  ort v2.0.0-rc.13                          MIT OR Apache-2.0                  https://github.com/pykeio/ort
+  ort-sys v2.0.0-rc.13                      MIT OR Apache-2.0                  https://github.com/pykeio/ort
+  parakeet-rs v0.4.0                        MIT OR Apache-2.0                  https://github.com/altunenes/parakeet-rs
+  pin-project-lite v0.2.17                  Apache-2.0 OR MIT                  https://github.com/taiki-e/pin-project-lite
+  ppv-lite86 v0.2.21                        MIT OR Apache-2.0                  https://github.com/cryptocorrosion/cryptocorrosion
+  primal-check v0.3.4                       MIT OR Apache-2.0                  https://github.com/huonw/primal
+  rand v0.9.5                               MIT OR Apache-2.0                  https://github.com/rust-random/rand
+  rand_chacha v0.9.0                        MIT OR Apache-2.0                  https://github.com/rust-random/rand
+  rand_core v0.9.5                          MIT OR Apache-2.0                  https://github.com/rust-random/rand
+  rawpointer v0.2.1                         MIT/Apache-2.0                     https://github.com/bluss/rawpointer/
+  rayon v1.12.0                             MIT OR Apache-2.0                  https://github.com/rayon-rs/rayon
+  rayon-cond v0.4.0                         Apache-2.0/MIT                     https://github.com/cuviper/rayon-cond
+  rayon-core v1.13.0                        MIT OR Apache-2.0                  https://github.com/rayon-rs/rayon
+  realfft v3.5.0                            MIT                                https://github.com/HEnquist/realfft
+  regex v1.13.1                             MIT OR Apache-2.0                  https://github.com/rust-lang/regex
+  regex-automata v0.4.18                    MIT OR Apache-2.0                  https://github.com/rust-lang/regex
+  regex-syntax v0.8.11                      MIT OR Apache-2.0                  https://github.com/rust-lang/regex
+  rustfft v6.4.1                            MIT OR Apache-2.0                  https://github.com/ejmahler/RustFFT
+  ryu v1.0.23                               Apache-2.0 OR BSL-1.0              https://github.com/dtolnay/ryu
+  serde v1.0.229                            MIT OR Apache-2.0                  https://github.com/serde-rs/serde
+  serde_core v1.0.229                       MIT OR Apache-2.0                  https://github.com/serde-rs/serde
+  serde_json v1.0.154                       MIT OR Apache-2.0                  https://github.com/serde-rs/json
+  smallvec v1.16.1                          MIT OR Apache-2.0                  https://github.com/servo/rust-smallvec
+  spm_precompiled v0.1.4                    Apache-2.0                         https://github.com/huggingface/spm_precompiled
+  static_assertions v1.1.0                  MIT OR Apache-2.0                  https://github.com/nvzqz/static-assertions-rs
+  strength_reduce v0.2.4                    MIT OR Apache-2.0                  http://github.com/ejmahler/strength_reduce
+  thiserror v2.0.21                         MIT OR Apache-2.0                  https://github.com/dtolnay/thiserror
+  tokenizers v0.23.2                        Apache-2.0                         https://github.com/huggingface/tokenizers
+  tracing v0.1.44                           MIT                                https://github.com/tokio-rs/tracing
+  tracing-core v0.1.36                      MIT                                https://github.com/tokio-rs/tracing
+  transpose v0.2.3                          MIT OR Apache-2.0                  https://github.com/ejmahler/transpose
+  unicode-normalization-alignments v0.1.12  MIT/Apache-2.0                     https://github.com/n1t0/unicode-normalization
+  unicode-segmentation v1.13.3              MIT OR Apache-2.0                  https://github.com/unicode-rs/unicode-segmentation
+  unicode_categories v0.1.1                 MIT OR Apache-2.0                  https://github.com/swgillespie/unicode-categories
+  zerocopy v0.8.58                          BSD-2-Clause OR Apache-2.0 OR MIT  https://github.com/google/zerocopy
+  zmij v1.0.23                              MIT                                https://github.com/dtolnay/zmij
+
+Regenerate this list with, in native/akou-diarize, for each shipping target triple:
+  cargo tree --locked --target <triple> -e normal,no-proc-macro --prefix none --format "{p}|{l}|{r}"
+A test (native/akou-diarize/tests/notice.rs) fails when a linked crate is missing here.
+
+App (src/main)
+--------------
+
+FrequencyWords (content CC BY-SA 4.0, code MIT), https://github.com/hermitdave/FrequencyWords
+  Copyright (c) 2016 Hermit Dave.
+  The word lists in src/main/vocab/dictionaries (en.txt.gz, es.txt.gz), which tell a real word
+  from a mishearing when vocabulary corrections are applied, are adapted from its 2018 top-50,000
+  frequency lists (built from the OpenSubtitles 2018 corpus, https://opus.nlpl.eu) at commit
+  525f9b560de45753a5ea01069454e72e9aa541c6: the counts are dropped and each word is lowercased,
+  stripped of accents, split into words, deduplicated and sorted (scripts/build-dictionaries.ts).
+  The content is licensed under the Creative Commons Attribution-ShareAlike 4.0 International
+  licence, https://creativecommons.org/licenses/by-sa/4.0/, which Creative Commons declared
+  compatible with GPLv3 (https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses/);
+  the adapted lists are distributed under GPLv3 with the rest of akou.
+
+double-metaphone 2.0.1 (MIT), https://github.com/words/double-metaphone
+  Copyright (c) 2014 Titus Wormer.
+  The English sound-alike key that scores a dictation fix as a learning candidate
+  (src/core/dictation/learn.ts). Bundled into the app's main process from npm; its MIT notice is
+  in the package.
+
+transcribe-cpp 0.4.1 (MIT), https://github.com/handy-computer/transcribe.cpp
+  Copyright (c) 2026 The transcribe.cpp authors.
+  Runs Whisper large-v3 and Canary-1b-v2 in the final pass (src/main/asr/transcribe-cpp.ts). The
+  npm package and its per-platform native package (@transcribe-cpp/<platform>) ship
+  transcribe.cpp's library with ggml (MIT) and miniz (MIT); their licence texts are in the
+  package's licenses folder. It loads them through koffi 3.3.2 (MIT), https://github.com/Koromix/koffi.
+
+CrispASR v0.8.44 (MIT), https://github.com/CrispStrobe/CrispASR
+  Runs the word-time aligner, Qwen3-ForcedAligner-0.6B, on the best preset's words
+  (src/main/asr/aligner.ts). Its release build is a download pinned by SHA-256, like the models
+  (src/main/asr/aligner-catalog.ts); the -vulkan image carries the Linux build in /opt/crispasr with
+  its LICENSE and THIRD_PARTY_NOTICES.txt.

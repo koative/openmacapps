@@ -1,5 +1,11 @@
 # Release verification
 
+## Seventh expansion (bulk): 826 apps — 2026-11-06
+
+826 apps were added after the review recorded in `docs/RESEARCH.md` (Seventh expansion). Every license file was re-read when the entry was written. Signing and notarization were checked with `spctl` and `stapler` where the release download finished; otherwise the record states only what the project says. Unmaintained apps carry `maintenance: unmaintained` and a dated note. `bun run discover` refreshed the queue: 2,842 leads from 11 directories, 1,618 published.
+
+**Checks.** `bun run validate`, `bun run homebrew`, `bun run sync`, `bun run build` (2,066 pages), `bun test`, `bun run check`, `bun run check:generated` and `bun run check:links` (178,949 internal links).
+
 ## Sixth expansion (pilot): 24 apps from awesome-swift-macos-apps — 2026-11-06
 
 24 apps from the eleventh discovery source were added after the review recorded in `docs/RESEARCH.md` (Sixth expansion). For each app the license file was read, the current release was downloaded and checked with `spctl` and `stapler` (signing and notarization are stated in the record), and the icon was taken from the app's own icon set; Search draws its icon in code and publishes no image, so it shows a letter tile. `bun run homebrew` added casks for six of the new apps and four existing ones (557 apps now have a cask).

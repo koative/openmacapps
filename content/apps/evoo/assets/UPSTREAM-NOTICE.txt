@@ -1,0 +1,29 @@
+Evoo
+Copyright 2026 Evoo contributors
+Licensed under the Apache License, Version 2.0.
+
+Evoo downloads and runs the following third-party open models and libraries.
+Model weights are downloaded on first use and are not distributed with Evoo.
+
+Speech recognition
+- NVIDIA Parakeet TDT 0.6B v3 — CC-BY-4.0 — https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3
+  (CoreML conversion by FluidInference)
+- OpenAI Whisper large-v3 turbo — MIT — https://github.com/openai/whisper
+  (CoreML conversion by Argmax, argmaxinc/whisperkit-coreml)
+
+Text processing
+- NeMo inverse text normalization (text-processing-rs, FluidInference) — Apache-2.0
+
+Text refinement
+- Qwen3 1.7B / Qwen3 4B Instruct 2507 (Alibaba Qwen) — Apache-2.0 — https://huggingface.co/Qwen
+  (GGUF quantization by Unsloth)
+
+Libraries
+- KaTeX (math rendering in class notes) — MIT — https://katex.org
+- FluidAudio — Apache-2.0 — https://github.com/FluidInference/FluidAudio
+- WhisperKit — MIT — https://github.com/argmaxinc/WhisperKit
+- llama.cpp — MIT — https://github.com/ggml-org/llama.cpp
+
+Hinglish add-on (downloaded separately from Settings)
+  Oriserve/Whisper-Hindi2Hinglish-Swift — Apache-2.0 — https://huggingface.co/Oriserve/Whisper-Hindi2Hinglish-Swift
+  Based on OpenAI Whisper (MIT). Converted to Core ML with argmaxinc/whisperkittools (MIT).

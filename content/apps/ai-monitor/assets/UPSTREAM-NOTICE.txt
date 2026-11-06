@@ -1,0 +1,25 @@
+AI Monitor
+Copyright (c) 2026 Tobias Marks
+
+This product is licensed under the MIT License (see LICENSE).
+
+The application icon, the menu bar icon and the website logo (files under
+companion/Resources/ and installer/assets/app-icon.svg, favicon-64.png,
+apple-touch-icon.png) are original artwork created for this project and are
+covered by the MIT License like the rest of the repository. Earlier releases
+(up to app 1.28.0) shipped icon assets derived from third-party material under
+the Flaticon Free License; those assets are no longer part of this project.
+
+The photographs in installer/assets/ are original work by the project author
+and are covered by the MIT License.
+
+Third-party components used at build or run time keep their own licenses:
+
+  - TFT_eSPI (MIT/BSD), LVGL (MIT), ArduinoJson (MIT) — firmware libraries
+  - Plus Jakarta Sans, Roboto Mono — SIL Open Font License, served from
+    installer/assets/fonts/
+  - Provider marks on the website (Claude, OpenAI, Gemini, GitHub Copilot,
+    Cursor) — vector paths from simple-icons (CC0); the marks themselves are
+    trademarks of their respective owners and are used only to identify the
+    supported services
+  - CodexBar — separate program invoked at runtime, MIT, not distributed here

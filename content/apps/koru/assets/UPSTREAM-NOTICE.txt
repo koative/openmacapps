@@ -1,0 +1,35 @@
+Koru
+Copyright (c) 2025-2026 Koru Works, Inc. and the Koru contributors.
+
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
+That notice (MPL-2.0 Exhibit A) applies to every first-party file in this
+repository that carries "SPDX-License-Identifier: MPL-2.0", and to the
+first-party files that cannot carry a header (documentation, assets, data,
+SQL migrations). Generated files under contracts/gen/ are derived from the
+MPL-2.0 sources in contracts/koru/.
+
+Not covered by the notice above:
+
+- The hosted Koru Cloud services, which are proprietary and are not in this
+  repository. Copyright (c) Koru Works, Inc. All rights reserved.
+- third-party/patches/: Koru's patches to crates fetched from crates.io at
+  build time (third-party/README.md), each under the license of the code it
+  changes: onenote_parser 2.0.0 by Markus Siemens and contributors, MPL-2.0;
+  and the sherpa-onnx and sherpa-onnx-sys crates 1.13.6, Apache-2.0, by the
+  k2-fsa / sherpa-onnx authors, with Koru's text-to-speech removal described
+  in sherpa-onnx.md.
+- Fetched at build time and not part of this repository
+  (third-party/fetch.manifest): crates/koru-blocks/assets/TypeScript.sublime-syntax,
+  Apache-2.0, Copyright (c) Microsoft Corporation, from TypeScript-Sublime-Plugin
+  as converted by sharkdp/bat (see the README beside it); and the Gradle
+  wrapper (apps/android/gradlew, gradlew.bat and
+  gradle/wrapper/gradle-wrapper.jar), Apache-2.0, by the Gradle authors.
+- The Koru name, logo and app icons, which are trademarks of Koru Works, Inc.
+  (TRADEMARKS.md).
+
+Every packaged build of Koru carries THIRD-PARTY-NOTICES.txt beside this
+file: the licenses and copyright notices of the crates, fonts and native
+libraries it is built from. licensing/THIRD-PARTY.md is the audit.
