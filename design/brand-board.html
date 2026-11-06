@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>OpenMacApps brand board</title>
+<!-- Source of docs/brand.png. Capture at 1440 × 960, device scale 1, in a browser on macOS so system-ui resolves to SF Pro. -->
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;width:1440px;height:960px;overflow:hidden;background:#f5f5f7;color:#1d1d1f;font:400 14px/1.4 system-ui,-apple-system,BlinkMacSystemFont,sans-serif;-webkit-font-smoothing:antialiased}
+body{padding:56px;display:grid;grid-template-columns:400px 1fr 1fr;grid-template-rows:auto 1fr 1fr auto;gap:24px}
+.panel{border-radius:20px;background:#fff;padding:28px;display:flex;flex-direction:column;gap:20px}
+.dark{background:#1e1e1e;color:#f5f5f7}
+.label{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#6e6e73}
+.dark .label{color:#a1a1a6}
+header{grid-column:1/-1;display:flex;align-items:baseline;justify-content:space-between}
+h1{margin:0;font-size:34px;font-weight:700;letter-spacing:-.02em}
+header p{margin:0;color:#6e6e73;font-size:17px}
+.panel>:last-child{margin:auto 0}
+.icon{grid-row:2/5}
+.icon img{width:300px;height:300px;align-self:center}
+.lockup img{height:48px;align-self:flex-start}
+.palette-panel{grid-column:2/4}
+.sizes{display:flex;align-items:flex-end;gap:28px}
+.sizes figure{margin:0;display:flex;flex-direction:column;align-items:center;gap:8px;font-size:12px;color:#6e6e73}
+.dark .sizes figure{color:#a1a1a6}
+.palette{display:flex;gap:16px}
+.swatch{flex:1;display:flex;flex-direction:column;gap:6px;font-size:13px}
+.chip{height:64px;border-radius:12px}
+.swatch b{font-weight:600}
+.swatch span{color:#6e6e73;font-variant-numeric:tabular-nums}
+</style>
+<header><h1>OpenMacApps</h1><p>An app grid with one tile lifted out: the apps are open.</p></header>
+<section class="panel icon"><span class="label">App icon</span><img src="../public/brand/app-icon.svg" alt=""></section>
+  <section class="panel lockup"><span class="label">Lockup, light</span><img src="../public/brand/lockup-light.svg" alt=""></section>
+  <section class="panel lockup dark"><span class="label">Lockup, dark</span><img src="../public/brand/lockup-dark.svg" alt=""></section>
+  <section class="panel"><span class="label">Mark and favicon, true size</span>
+    <div class="sizes">
+      <figure><img src="../public/brand/mark.svg" width="64" height="64" alt="">64</figure>
+      <figure><img src="../public/brand/mark.svg" width="28" height="28" alt="">28</figure>
+      <figure><img src="../public/favicon.svg" width="24" height="24" alt="">24</figure>
+      <figure><img src="../public/favicon.svg" width="16" height="16" alt="">16</figure>
+      <figure><img src="../public/brand/glyph-black.svg" width="28" height="28" alt="">glyph</figure>
+    </div>
+  </section>
+  <section class="panel dark"><span class="label">On dark</span>
+    <div class="sizes">
+      <figure><img src="../public/brand/mark.svg" width="64" height="64" alt="">64</figure>
+      <figure><img src="../public/brand/mark.svg" width="28" height="28" alt="">28</figure>
+      <figure><img src="../public/favicon.svg" width="24" height="24" alt="">24</figure>
+      <figure><img src="../public/favicon.svg" width="16" height="16" alt="">16</figure>
+      <figure><img src="../public/brand/glyph-white.svg" width="28" height="28" alt="">glyph</figure>
+    </div>
+  </section>
+<section class="panel palette-panel"><span class="label">Palette</span>
+  <div class="palette">
+    <div class="swatch"><div class="chip" style="background:#0071e3"></div><b>Brand Blue</b><span>#0071E3 · Action Blue</span></div>
+    <div class="swatch"><div class="chip" style="background:linear-gradient(#1a86f5,#0064d6)"></div><b>Icon gradient</b><span>#1A86F5 → #0064D6 · icon only</span></div>
+    <div class="swatch"><div class="chip" style="background:#1d1d1f"></div><b>Label</b><span>#1D1D1F · wordmark, light</span></div>
+    <div class="swatch"><div class="chip" style="background:#f5f5f7;box-shadow:inset 0 0 0 1px rgb(0 0 0 / .1)"></div><b>Label, dark</b><span>#F5F5F7 · wordmark, dark</span></div>
+  </div>
+</section>
+</html>

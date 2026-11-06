@@ -192,16 +192,6 @@ main:focus {
   padding: 0 8px 14px;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 7px;
-  background: var(--accent-fill);
-  color: #fff;
-}
-
 .sidebar-search {
   position: relative;
   margin: 0 2px 10px;

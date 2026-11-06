@@ -2,7 +2,6 @@
 import '../styles/global.css';
 import {
   ArrowUpRight,
-  Box,
   FileCheck,
   GitBranch,
   Hammer,
@@ -16,6 +15,7 @@ import {
   Sun,
 } from '@lucide/astro';
 import Github from '../components/GithubIcon.astro';
+import BrandMark from '../components/BrandMark.astro';
 import CategoryGlyph from '../components/CategoryGlyph.astro';
 import { categories } from '../lib/catalog';
 import { collections, categorySlug } from '../lib/collections';
@@ -179,9 +179,7 @@ const collectionGlyphs = {
     <div class="shell">
       <aside class="sidebar">
         <a class="brand" href={base}>
-          <span class="brand-mark" aria-hidden="true">
-            <Box size={17} stroke-width={2.1} />
-          </span>
+          <BrandMark id="brand-mark-sidebar" />
           {site.name}
         </a>
         <form class="sidebar-search" action={`${base}search/`} role="search">
@@ -278,9 +276,7 @@ const collectionGlyphs = {
       </aside>
       <header class="topbar">
         <a class="brand" href={base}>
-          <span class="brand-mark" aria-hidden="true">
-            <Box size={17} stroke-width={2.1} />
-          </span>
+          <BrandMark id="brand-mark-topbar" />
           {site.name}
         </a>
         <a
