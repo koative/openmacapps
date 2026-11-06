@@ -373,7 +373,7 @@ An Apple system palette in two appearances: neutral greys that step from canvas 
 
 ### Primary
 
-- **Action Blue** (accent-fill): filled primary buttons, the brand mark, the skip link, `accent-color` for native controls, and the 26% `::selection` tint. It is the same in both appearances; its hover is a slightly brighter blue (accent-fill-hover). Text on it is white (on-color).
+- **Action Blue** (accent-fill): filled primary buttons, the skip link, `accent-color` for native controls, and the 26% `::selection` tint. It is the same in both appearances; its hover is a slightly brighter blue (accent-fill-hover). Text on it is white (on-color). It is also the flat Brand Blue; the brand mark itself uses its own icon gradient (#1A86F5 → #0064D6), which appears nowhere else. The mark, its files and its rules are in `docs/BRAND.md`.
 - **Link Blue** (link-light / link-dark): every text link, See All, the focus ring, the caret, sidebar row glyphs and the selected tab. Brightens in dark mode for contrast.
 - **Get Blue** (get-ink-light / get-ink-dark): the label on Get pills and secondary buttons. Matches Link Blue in light; a paler blue in dark so it reads on the grey fill.
 
@@ -552,7 +552,7 @@ A three-column definition list of hairline-ruled rows: footnote term in Secondar
 
 ### Navigation
 
-- **Sidebar:** brand (28px Action Blue mark with white glyph, 19px/700 wordmark from `site.name`), search, then rows for Discover, Search, Categories and Alternatives (Lucide `ArrowRightLeft`), a Collections group and a Categories group (12px/600 Secondary Label group labels), and a hairline-topped foot with About, Contribute and GitHub (external rows end in a small up-right arrow). Rows are 32px, field radius, Link Blue 20px glyphs (category rows use glyph tiles); hover and current page share the Selected fill, current adds weight 600. A row stays selected for pages beneath it (an app page selects its category, an alternatives page selects Alternatives, a topic page selects its category or, without one, Categories).
+- **Sidebar:** brand (28px brand mark, a blue squircle holding a white 2×2 app grid with the top-right tile lifted out, inlined by `BrandMark.astro`; 19px/700 wordmark from `site.name`), search, then rows for Discover, Search, Categories and Alternatives (Lucide `ArrowRightLeft`), a Collections group and a Categories group (12px/600 Secondary Label group labels), and a hairline-topped foot with About, Contribute and GitHub (external rows end in a small up-right arrow). Rows are 32px, field radius, Link Blue 20px glyphs (category rows use glyph tiles); hover and current page share the Selected fill, current adds weight 600. A row stays selected for pages beneath it (an app page selects its category, an alternatives page selects Alternatives, a topic page selects its category or, without one, Categories).
 - **Top bar (≤900px):** sticky, 52px plus safe area, Bar Glass with blur, brand at 17px and a 44px GitHub target.
 - **Tab bar (≤900px):** fixed bottom, five equal tabs (Discover, Categories, Alternatives, Search, About) with 22px icons and 10px labels in Secondary Label; the current tab turns Link Blue. Five is the ceiling: Topics are reached through Categories rather than a sixth tab.
 

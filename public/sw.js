@@ -1,5 +1,5 @@
-// Bump the version when the precache list or caching strategy changes.
-const CACHE = 'site-v1';
+// Bump the version when the precache list, a precached file or the caching strategy changes.
+const CACHE = 'site-v2';
 const scope = new URL(self.registration.scope);
 const offlinePage = new URL('offline/', scope).href;
 const assets = new URL('_astro/', scope).pathname;

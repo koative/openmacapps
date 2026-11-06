@@ -30,6 +30,8 @@ App folders are the source of truth. Metadata is validated. README is generated.
 
 OpenMacApps is the product name, chosen by the user on 2026-10-29 together with the openmacapps.com domain and the koative/openmacapps repository. Because the name contains "Mac", every page states that Mac and macOS are Apple trademarks and that the site is not affiliated with Apple. English UI confirmed. Design execution delegated to Impeccable, directly in working code. On 2026-10-17 the user asked for "a real App Store experience" and chose the Mac App Store canon: a sidebar shell (bottom tab bar on mobile), Discover shelves, product pages with a Get button, and light and dark appearance that follow the system. This supersedes the earlier dark showcase, which itself replaced a rejected pastel library design.
 
+2026-11-06: Koray chose the category-standard mark (blue squircle, 2×2 app grid with the top-right tile lifted out) on the impeccable decision page; quality bar Raycast, Setapp, Linear. It replaces the earlier blue square with a cube; the files and usage rules are in `docs/BRAND.md`.
+
 ## Evidence on Hand
 
 Starting reference: https://github.com/jeffreyjackson/mac-apps. Further directory and upstream project research in progress. No invented star counts, reviews, endorsements, compatibility promises, or screenshots.
