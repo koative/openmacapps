@@ -1,0 +1,205 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ArrowUpRight } from '@lucide/astro';
+import { getApps } from '../lib/catalog';
+import { site } from '../lib/site';
+const base = import.meta.env.BASE_URL;
+const apps = getApps();
+const count = (n: number) => n.toLocaleString('en-US');
+const appUrl = (slug: string) => `${base}apps/${slug}/`;
+const app = (slug: string) => {
+  const found = apps.find((entry) => entry.slug === slug);
+  if (!found) throw new Error(`how-we-verify: no app record "${slug}"`);
+  return found;
+};
+const restricted = apps.filter(
+  (entry) => entry.sourceAvailability === 'source-available',
+);
+const host = (entry: (typeof apps)[number]) => new URL(entry.download).hostname;
+const fromGithub = apps.filter((entry) => host(entry) === 'github.com').length;
+const fromAppStore = apps.filter(
+  (entry) => host(entry) === 'apps.apple.com',
+).length;
+const fromElsewhere = apps.length - fromGithub - fromAppStore;
+const dates = apps.map((entry) => entry.verified).sort();
+const formatDate = (iso: string) =>
+  new Date(`${iso}T00:00:00Z`).toLocaleDateString('en-US', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
+// Read from GitHub's API (licenseInfo.spdxId) on 2026-11-06; method in docs/VERIFICATION.md.
+const examples = [
+  {
+    app: app('rectangle'),
+    file: 'MIT, with the copyright notice of Spectacle, the app it is based on',
+  },
+  {
+    app: app('coteditor'),
+    file: 'Apache-2.0 for the source code, CC BY-NC-ND 4.0 for the image resources',
+  },
+  {
+    app: app('handbrake'),
+    file: 'GPLv2 for compiled builds; some files are under GPLv2+, LGPLv2.1+ or BSD-style terms',
+  },
+];
+---
+
+<Layout
+  title={`How we verify licenses and downloads — ${site.name}`}
+  description={`How ${site.name} checks each Mac app: the license file read by hand, a separate source-available label, official downloads only and a dated check.`}
+  type="WebPage"
+  section="about/"
+>
+  <article class="about-page">
+    <header class="page-head">
+      <h1>How We Verify</h1>
+      <p>
+        Every app on {site.name} passed the same checks before it was listed.
+        This page explains them, with examples from the catalog.
+      </p>
+    </header>
+    <section>
+      <h2>We read the license file.</h2>
+      <p>
+        Before an app is listed, we open its license file and read it. We don’t
+        take the license GitHub detects, a directory’s label or a README badge.
+        The listing names the license, links the exact file we read, and keeps a
+        copy of its text.
+      </p>
+      <p>
+        An app stays out if it has no license file, if its README and license
+        file disagree, or if its license is not on our reviewed list.
+      </p>
+    </section>
+    <section>
+      <h2>GitHub’s license field is a hint.</h2>
+      <p>
+        GitHub matches a repository’s license file against known licenses. When
+        it can’t name a match, it reports <code>NOASSERTION</code>. On November
+        6, 2026, GitHub’s API named no license for 112 of the apps listed here:
+        104 showed <code>NOASSERTION</code> and 8 showed none. The files
+        themselves are clear:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">App</th>
+            <th scope="col">GitHub says</th>
+            <th scope="col">The license file says</th>
+          </tr>
+        </thead>
+        <tbody>
+          {examples.map(({ app, file }) => (
+            <tr>
+              <th scope="row">
+                <a href={appUrl(app.slug)}>{app.name}</a>
+              </th>
+              <td>
+                <code>NOASSERTION</code>
+              </td>
+              <td>
+                <a href={app.licenseUrl}>{file}</a>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <p>
+        The 14 source-available apps listed on that date were all among them. We
+        never turn a missing match into a guessed license: we read the file, or
+        the app stays out.
+      </p>
+    </section>
+    <section>
+      <h2>Source available is a separate label.</h2>
+      <p>
+        Some apps publish their code under terms that limit what you can do with
+        it: no selling, no commercial use, no competing products, or a wait
+        before an open license applies. These terms don’t meet the{' '}
+        <a href="https://opensource.org/osd">Open Source Definition</a>, so we
+        label these apps Source available. {restricted.length} apps carry the
+        label, among them{' '}
+        <a href={appUrl('pearcleaner')}>{app('pearcleaner').name}</a>{' '}
+        (Apache-2.0 with Commons Clause),{' '}
+        <a href={appUrl('mos')}>{app('mos').name}</a> (CC BY-NC 4.0),{' '}
+        <a href={appUrl('gitbutler')}>{app('gitbutler').name}</a> (FSL-1.1-MIT)
+        and <a href={appUrl('mac-mouse-fix')}>{app('mac-mouse-fix').name}</a>{' '}
+        (its own license).
+      </p>
+      <p>
+        The label is shown in orange under the Get button, and each of these app
+        pages explains the restriction. They are never counted as open source.
+      </p>
+      <p>
+        <a href={`${base}search/?source=source-available`}>
+          Browse the source-available apps
+        </a>{' '}
+        or <a href={`${base}search/?source=open-source`}>only open source</a>.
+      </p>
+    </section>
+    <section>
+      <h2>Downloads come from the project.</h2>
+      <p>
+        The Get button links to the download the project itself publishes. Of
+        the apps listed today, {count(fromGithub)} link to GitHub,{' '}
+        {count(fromAppStore)} to the Mac App Store, and {count(fromElsewhere)}{' '}
+        to the download page the project points to, usually its own website. We
+        don’t host, mirror or repackage installers, and we don’t link to
+        download sites. A Homebrew command is shown only when the cask downloads
+        from the app’s own repository or website.
+      </p>
+      <p>
+        We also leave out apps whose official download is not built from the
+        open code. Rockxy and Tracexy publish AGPL source, but their official
+        disk images ship under a proprietary license.
+      </p>
+    </section>
+    <section>
+      <h2>Every listing has a check date.</h2>
+      <p>
+        Each app page shows, under Verified, the date we last checked its
+        license, source and download. The current listings were checked between{' '}
+        {formatDate(dates[0]!)} and {formatDate(dates.at(-1)!)}. If a project
+        changes its license, we review the listing again.
+      </p>
+      <p>
+        The date records our review. It is not a security audit, and we don’t
+        install every app.
+      </p>
+    </section>
+    <section>
+      <h2>Where the apps come from.</h2>
+      <p>
+        We started from 10 <a href={`${base}about/`}>community lists</a> of Mac
+        apps. On November 2, 2026, they linked to 1,975 GitHub repositories.
+        Homebrew’s install data added 382 more leads. A lead is only listed
+        after it passes the checks above. More than 1,000 apps are listed so
+        far.
+      </p>
+      <p>
+        The{' '}
+        <a href={`${site.repository}/blob/main/docs/RESEARCH.md`}>
+          research notes
+        </a>{' '}
+        list every source and every app we left out, with the reason.
+      </p>
+    </section>
+    <section>
+      <h2>Found a mistake?</h2>
+      <p>
+        Every listing is a folder in a public repository. Report a wrong
+        license, a broken or unofficial download or a moved repository with the
+        listing problem form, or open a pull request. Corrections from an app’s
+        maintainers are applied first.
+      </p>
+      <a
+        class="button"
+        href={`${site.repository}/issues/new?template=listing-problem.yml`}
+      >
+        Report a Listing Problem <ArrowUpRight size={16} />
+      </a>
+    </section>
+  </article>
+</Layout>
