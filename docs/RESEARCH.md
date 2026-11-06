@@ -261,3 +261,18 @@ have not been reviewed yet.
   - **Deceptive use case:** Donut Browser, an anti-detect browser whose engine is a closed, paid service.
   - **Too new for their adoption:** anki_miner, oliv, mac-tv and glass.
 - **Homebrew:** `bun run homebrew` matched casks for 116 of the new apps. Ente Auth, Ente Photos, goose and Impactor have casks that still point at the projects' old organisation names, so they cannot pass the repository-or-website rule yet. WallpaperMachine has no cask.
+
+## Sixth expansion (2026-11-06, pilot)
+
+24 apps were added from the eleventh source, as a pilot for reviewing its leads in batches.
+
+- **Leads.** 802 leads appear only in awesome-swift-macos-apps. GitHub data kept 572 of them: not archived, not a fork, pushed since 2024-11-06, a detected license and a macOS asset in the latest release. The 40 with the most stars were reviewed against CONTRIBUTING.md; each license file was read and each current build was downloaded and checked with `spctl` and `stapler`.
+- **Added:** Agent Sessions, Clearly (source available, FSL-1.1-MIT), cmux, Codenotch, Codex Skill Manager, Cotabby, DigUp, DS4 Control, Forel, Gridex, Hermes Desktop, lil agents, Mac Performance Monitor, Maya, Parrot, Planet, Scarf, Search, Side Screen, Status Trio, Tophat, TreeMap, TypeNo and Writing Tools.
+- **Kept, with the caveat in the record:** Hermes Desktop, lil agents and TreeMap are not notarized. cmux and Scarf send usage data unless it is switched off. Status Trio's charging control uses a private macOS interface. Cotabby is a beta, TypeNo is in maintenance mode and needs Node.js and ffmpeg, DS4 Control needs at least 96 GB of memory, and Forel's free tier is limited.
+- **Held out:**
+  - **Possibly inflated stars:** Compositor, as in the fifth expansion (about 18,000 stars seven weeks after creation).
+  - **Host or legal risk:** vphone-cli patches Apple firmware and needs System Integrity Protection relaxed.
+  - **License or build unclear:** Glance bundles a face-recognition model whose terms are not stated; Onit SideKick's license file is a one-line CC BY-NC pointer and its builds come from a private repository; Cling's public code is paused while builds continue privately; System Data Unpacked's current license allows reading and personal builds only, like Deck.
+  - **Needs a paid account for its main job:** Blitz (Apple Developer Program).
+- **Skipped:** OpenHaystack (installation disables Gatekeeper and loads a Mail plugin using a private interface), AirCard (an iPhone modding tool built on an exploit), NX2Apple (ports Nintendo Switch games from user keys), LlamaChat (unmaintained since 2023), Deck (the app's source is All Rights Reserved), and Vibe Notch, Pastel, Llama and Dimble, which were already listed.
+- **Homebrew:** `bun run homebrew` matched casks for cmux, DS4 Control, Forel, Mac Performance Monitor, Planet and Status Trio, and for four apps already listed: Mochi Diffusion, OpenScreen, Screendrop and Tinycast.
