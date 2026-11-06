@@ -51,6 +51,7 @@ Inclusion rules:
 - **Unmaintained apps:** Unmaintained apps are listed with the label (`maintenance: "unmaintained"` and a `maintenanceNote`).
 - **Graphical applications only:** Command-line-only tools are not listed for now.
 - **No paid-account gate:** Apps whose main job needs a paid account are not listed.
+- **Source-available licenses:** standard published licenses that allow personal use are listed with the Source available label: Commons Clause, FSL, PolyForm Noncommercial, Perimeter and Shield, and the CC BY-NC family. BSL counts only when its Additional Use Grant allows ordinary use. One-off custom licenses are not listed, apart from the reviewed exceptions in `src/lib/catalog.ts` (Koray, 2026-11-06).
 - **Star counts are not a criterion:** GitHub star count is not an eligibility or inclusion criterion.
 
 ## Findings that change catalog decisions
