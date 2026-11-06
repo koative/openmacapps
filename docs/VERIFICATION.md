@@ -1,5 +1,11 @@
 # Release verification
 
+## Sixth expansion (pilot): 24 apps from awesome-swift-macos-apps — 2026-11-06
+
+24 apps from the eleventh discovery source were added after the review recorded in `docs/RESEARCH.md` (Sixth expansion). For each app the license file was read, the current release was downloaded and checked with `spctl` and `stapler` (signing and notarization are stated in the record), and the icon was taken from the app's own icon set. `bun run homebrew` added casks for six of the new apps and four existing ones (557 apps now have a cask).
+
+**Checks.** `bun run validate`, `bun run sync`, `bun run build`, `bun test`, `bun run check`, `bun run check:generated` and `bun run check:links`.
+
 ## How We Verify page — 2026-11-06
 
 `/how-we-verify/` explains the checks every listing passes: the license file read by hand, GitHub's `NOASSERTION`, the Source available label, official downloads and the check date. The sidebar, the footer, About and each app page's verification note link to it, and it is in the sitemap. Counts of source-available apps, download hosts and check dates are computed from the app records at build time.
