@@ -35,4 +35,4 @@ Forel watches folders and applies rules you set up once. Conditions can look at 
 
 It is for people who want Downloads, Desktop or scan folders sorted automatically, in the way Hazel users are used to. Rules keep running from the menu bar when the main window is closed.
 
-Forel needs macOS 14 or later and is a universal build, signed and notarized, also installable from the developer's Homebrew tap. The free tier is limited to 2 watched folders and 300 processed files per month; OCR for images and scanned PDFs and imports into Photos, Music and TV need a paid Pro license, and there is no trial. The Forel name and icon are trademarks of lab421 and are not covered by the GPL.
+Forel needs macOS 14 or later and is a universal build, signed and notarized, also installable with Homebrew. The free tier is limited to 2 watched folders and 300 processed files per month; OCR for images and scanned PDFs and imports into Photos, Music and TV need a paid Pro license, and there is no trial. The Forel name and icon are trademarks of lab421 and are not covered by the GPL.

@@ -2,7 +2,7 @@
 
 ## Sixth expansion (pilot): 24 apps from awesome-swift-macos-apps — 2026-11-06
 
-24 apps from the eleventh discovery source were added after the review recorded in `docs/RESEARCH.md` (Sixth expansion). For each app the license file was read, the current release was downloaded and checked with `spctl` and `stapler` (signing and notarization are stated in the record), and the icon was taken from the app's own icon set. `bun run homebrew` added casks for six of the new apps and four existing ones (557 apps now have a cask).
+24 apps from the eleventh discovery source were added after the review recorded in `docs/RESEARCH.md` (Sixth expansion). For each app the license file was read, the current release was downloaded and checked with `spctl` and `stapler` (signing and notarization are stated in the record), and the icon was taken from the app's own icon set; Search draws its icon in code and publishes no image, so it shows a letter tile. `bun run homebrew` added casks for six of the new apps and four existing ones (557 apps now have a cask).
 
 **Checks.** `bun run validate`, `bun run sync`, `bun run build`, `bun test`, `bun run check`, `bun run check:generated` and `bun run check:links`.
 
