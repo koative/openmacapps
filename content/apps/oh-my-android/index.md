@@ -11,7 +11,7 @@ download: "https://github.com/ateymoori/oh-my-android/releases"
 freeDownload: true
 featured: false
 added: "2026-11-05"
-verified: "2026-11-05"
+verified: "2026-11-06"
 icon: "./assets/icon.png"
 sources: ["https://github.com/ateymoori/oh-my-android", "https://github.com/ateymoori/oh-my-android/blob/main/LICENSE", "https://github.com/ateymoori/oh-my-android/releases"]
 assets: [{"path": "./assets/icon.png", "source": "https://raw.githubusercontent.com/ateymoori/oh-my-android/main/Sources/App/Assets.xcassets/AppIcon.appiconset/icon_256.png", "credit": "Royan AB", "license": "MIT repository asset; trademarks retained"}]
