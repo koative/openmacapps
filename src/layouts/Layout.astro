@@ -3,6 +3,7 @@ import '../styles/global.css';
 import {
   ArrowUpRight,
   Box,
+  FileCheck,
   GitBranch,
   Hammer,
   Info,
@@ -259,6 +260,10 @@ const collectionGlyphs = {
             <Info size={17} />
             About {site.name}
           </a>
+          <a {...link('how-we-verify/')}>
+            <FileCheck size={17} />
+            How We Verify
+          </a>
           <a href={contributeUrl}>
             <GitBranch size={17} />
             Contribute
@@ -291,6 +296,7 @@ const collectionGlyphs = {
         <footer class="footer">
           <nav aria-label="Footer">
             <a href={`${base}about/`}>About {site.name}</a>
+            <a href={`${base}how-we-verify/`}>How We Verify</a>
             <a href={contributeUrl}>Contribute</a>
             <a href={`${site.repository}/issues/new?template=app.yml`}>
               Suggest an App

@@ -23,6 +23,7 @@ export function GET() {
     ['topics/'],
     ...getTopics().map((topic): [string] => [`topics/${topic.slug}/`]),
     ['about/'],
+    ['how-we-verify/'],
     ...getApps().map((app): [string, string] => [
       `apps/${app.slug}/`,
       app.verified,
