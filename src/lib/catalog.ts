@@ -268,6 +268,7 @@ export function loadCatalog(
   if (!fs.existsSync(directory))
     throw new Error(`Catalog directory is missing: ${directory}`);
   const repositories = new Set<string>();
+  // Sorted by name, then slug: several apps share a name, and directory order differs between systems.
   return fs
     .readdirSync(directory, { withFileTypes: true })
     .filter((entry) => !entry.name.startsWith('.'))
@@ -344,7 +345,10 @@ export function loadCatalog(
         );
       }
     })
-    .sort((a, b) => a.name.localeCompare(b.name, 'en'));
+    .sort(
+      (a, b) =>
+        a.name.localeCompare(b.name, 'en') || a.slug.localeCompare(b.slug),
+    );
 }
 
 // Every page reads the catalog; a production build loads it once instead of once per page.
@@ -355,8 +359,11 @@ export function getApps(): CatalogApp[] {
   return (buildCache ??= loadCatalog());
 }
 
-/** Newest additions first, then by name: the order of the RSS feed, Recently Added and /new/. */
+/** Newest additions first, then by name and slug: the order of the RSS feed, Recently Added and /new/. */
 export const newestFirst = (apps: CatalogApp[]) =>
   [...apps].sort(
-    (a, b) => b.added.localeCompare(a.added) || a.name.localeCompare(b.name),
+    (a, b) =>
+      b.added.localeCompare(a.added) ||
+      a.name.localeCompare(b.name) ||
+      a.slug.localeCompare(b.slug),
   );
