@@ -5,7 +5,10 @@ import { getApps, newestFirst } from '../lib/catalog';
 import { appItemList, breadcrumbList } from '../lib/guides';
 import { site } from '../lib/site';
 const all = getApps();
-const apps = newestFirst(all).slice(0, 120);
+const sorted = newestFirst(all);
+// The newest 120, plus the rest of the 120th app's date so no day is cut short.
+const cutoff = sorted[119]?.added ?? '';
+const apps = sorted.filter((app) => app.added >= cutoff);
 const byDate = Map.groupBy(apps, (app) => app.added);
 const formatDate = (iso: string) =>
   new Date(`${iso}T00:00:00Z`).toLocaleDateString('en-US', {
