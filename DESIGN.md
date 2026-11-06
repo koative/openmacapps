@@ -579,6 +579,7 @@ Cross-document view transitions are on (`@view-transition { navigation: auto }`)
 - **Do** use Link Blue for links and focus, Action Blue fills for primary actions, and the grey-fill Get pill for every download.
 - **Do** point every Get at the project's official download and name the app in its accessible label.
 - **Do** mark source-available software in orange fine print and explain the restriction on its page.
+- **Do** mark unmaintained software with an "Unmaintained" label in Secondary Label grey, never orange.
 - **Do** use the app's real icon and screenshots with their credits; fall back to the letter tile when no icon exists.
 - **Do** keep shadows on screenshots only, as `drop-shadow()` filters.
 - **Do** keep the icon view transition behind `prefers-reduced-motion: no-preference` and make paging instant under reduced motion.

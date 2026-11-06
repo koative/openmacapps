@@ -21,6 +21,7 @@ export function getStaticPaths() {
 const { app } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const categoryHref = `categories/${categorySlug(app.category)}/`;
+const unmaintained = app.maintenance === 'unmaintained';
 const restricted = app.sourceAvailability === 'source-available';
 const kind = restricted ? 'source available' : 'open source';
 const metaDescription = `${app.summary} ${restricted ? 'Source available' : 'Open source'} under ${app.license}.`;
@@ -179,7 +180,9 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
           </div>
         )}
       </div>
-      <p class:list={['fine-print', { restricted }]}>
+      <p
+        class:list={['fine-print', { restricted: restricted && !unmaintained }]}
+      >
         {licenseLabel(app)}
         {app.freeDownload === true && ' · Free download'}
         {app.freeDownload === false && ' · Paid download'} · Downloads from{' '}
@@ -259,6 +262,13 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
       <a href={app.licenseUrl}>
         Read the license <ArrowUpRight size={14} />
       </a>
+    </section>
+  )}
+
+  {unmaintained && (
+    <section class="maintenance-note" aria-labelledby="maintenance-note-title">
+      <h2 id="maintenance-note-title">Unmaintained</h2>
+      <p>{app.maintenanceNote}</p>
     </section>
   )}
 

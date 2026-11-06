@@ -65,7 +65,7 @@ ${topics
 
 ## Data
 
-${link('catalog.json', 'catalog.json', 'every app as one JSON array: name, slug, summary, Markdown description, category, tags, alternativeTo, repository, website, download, freeDownload, homebrew, license (SPDX), licenseUrl, sourceAvailability, licenseNotes, featured, added and verified dates, sources, and icon, screenshot and image attribution.')}
+${link('catalog.json', 'catalog.json', 'every app as one JSON array: name, slug, summary, Markdown description, category, tags, alternativeTo, repository, website, download, freeDownload, homebrew, license (SPDX), licenseUrl, sourceAvailability, licenseNotes, maintenance, maintenanceNote, featured, added and verified dates, sources, and icon, screenshot and image attribution.')}
 ${link('feed.xml', 'feed.xml', 'RSS feed of newly added apps.')}
 ${link('sitemap.xml', 'sitemap.xml', 'every page on the site.')}
 ${link('llms-full.txt', 'llms-full.txt', 'every app on one line, grouped by category, with summary, license and download host.')}

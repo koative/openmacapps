@@ -122,6 +122,8 @@ export const appSchema = z
       .enum(['open-source', 'source-available'])
       .default('open-source'),
     licenseNotes: z.string().trim().min(20).optional(),
+    maintenance: z.enum(['unmaintained']).optional(),
+    maintenanceNote: z.string().trim().min(10).optional(),
     licenseUrl: httpsUrl,
     download: httpsUrl,
     // True once the official macOS download has been checked and costs nothing; false when it is paid.
@@ -170,6 +172,20 @@ export const appSchema = z
         code: 'custom',
         path: ['licenseNotes'],
         message: 'Explain the restrictions for source-available apps',
+      });
+    }
+    if (data.maintenance === 'unmaintained' && !data.maintenanceNote) {
+      ctx.addIssue({
+        code: 'custom',
+        path: ['maintenanceNote'],
+        message: 'Provide a maintenance note for unmaintained apps',
+      });
+    }
+    if (data.maintenanceNote && !data.maintenance) {
+      ctx.addIssue({
+        code: 'custom',
+        path: ['maintenanceNote'],
+        message: 'maintenanceNote requires maintenance: "unmaintained"',
       });
     }
   })

@@ -72,6 +72,8 @@ Categories are `Productivity`, `Developer tools`, `Utilities`, `Media`, `Privacy
 
 `sourceAvailability` defaults to `open-source`. Restricted source licenses require `sourceAvailability: source-available` and an original `licenseNotes` paragraph explaining the material restrictions. The reviewed restricted identifiers live separately in `sourceAvailableLicenses`; they cannot pass validation as open source. The catalog currently recognizes `Apache-2.0 WITH Commons-Clause` (an editorial combined label, not a standard SPDX expression), `LicenseRef-Mac-Mouse-Fix`, `FSL-1.1-MIT`, `CC-BY-NC-4.0`, `CC-BY-NC-ND-4.0`, `LicenseRef-PasteBar`, `LicenseRef-NotchPrompter`, and `PolyForm-Shield-1.0.0`. Do not strip extra terms or classify missing licenses as source available. Closed-source apps remain out of scope.
 
+`maintenance` is optional and accepts `unmaintained`. When set, `maintenanceNote` is required and must be a single sentence explaining the status (for example `maintenanceNote: "No release since March 2023."`). Unmaintained apps are listed with an "Unmaintained" label in Secondary Label grey on cards and product pages, and a neutral grey note box on their product page.
+
 ## Alternatives and topics
 
 Two kinds of landing pages fill themselves from app records, so a new app appears on them as soon as its folder is merged.

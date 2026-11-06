@@ -5,6 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { stringify as stringifyYaml } from 'yaml';
 import { appSchema, loadCatalog } from '../src/lib/catalog.ts';
+import { licenseLabel } from '../src/lib/collections.ts';
 
 const valid = {
   name: 'Example App',
@@ -109,6 +110,56 @@ test('keeps restricted source licenses out of the open-source classification', (
         'This classification would incorrectly restrict an MIT application.',
     }).success,
     false,
+  );
+});
+
+test('validates unmaintained apps and requires a note when set', () => {
+  assert.equal(appSchema.parse(valid).maintenance, undefined);
+  assert.equal(appSchema.parse(valid).maintenanceNote, undefined);
+  assert.equal(
+    appSchema.safeParse({
+      ...valid,
+      maintenance: 'unmaintained',
+    }).success,
+    false,
+  );
+  assert.equal(
+    appSchema.safeParse({
+      ...valid,
+      maintenanceNote: 'No release since March 2023.',
+    }).success,
+    false,
+  );
+  assert.equal(
+    appSchema.safeParse({
+      ...valid,
+      maintenance: 'active',
+      maintenanceNote: 'No release since March 2023.',
+    }).success,
+    false,
+  );
+  assert.equal(
+    appSchema.safeParse({
+      ...valid,
+      maintenance: 'unmaintained',
+      maintenanceNote: 'Short',
+    }).success,
+    false,
+  );
+  const parsed = appSchema.parse({
+    ...valid,
+    maintenance: 'unmaintained',
+    maintenanceNote: 'No release since March 2023.',
+  });
+  assert.equal(parsed.maintenance, 'unmaintained');
+  assert.equal(parsed.maintenanceNote, 'No release since March 2023.');
+  assert.equal(
+    licenseLabel({
+      license: 'MIT',
+      sourceAvailability: 'open-source',
+      maintenance: 'unmaintained',
+    }),
+    'Unmaintained',
   );
 });
 

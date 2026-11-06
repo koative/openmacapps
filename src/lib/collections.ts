@@ -97,7 +97,10 @@ export const categorySlug = (category: string) =>
 export const licenseLabel = (app: {
   license: string;
   sourceAvailability: string;
-}) =>
-  app.sourceAvailability === 'source-available'
+  maintenance?: string;
+}) => {
+  if (app.maintenance === 'unmaintained') return 'Unmaintained';
+  return app.sourceAvailability === 'source-available'
     ? 'Source available'
     : app.license.replaceAll('-only', '').replaceAll('-or-later', '+');
+};
