@@ -55,7 +55,7 @@ See [publishing and SEO](docs/PUBLISHING.md) for the shared site configuration, 
 
 <!-- catalog:start -->
 
-1,024 macOS apps: **1,010 open source** and **14 source available**. Source-available apps have additional restrictions and are labeled separately. Generated from [content/apps](content/apps); edit the app folders to contribute.
+1,025 macOS apps: **1,011 open source** and **14 source available**. Source-available apps have additional restrictions and are labeled separately. Generated from [content/apps](content/apps); edit the app folders to contribute.
 
 ### Productivity
 
@@ -631,6 +631,7 @@ See [publishing and SEO](docs/PUBLISHING.md) for the shared site configuration, 
 | [TetherShot](https://openmacapps.com/apps/tethershot/) · [Source](https://github.com/apoorvdarshan/TetherShot) | Capture your iPhone or Android screen from the Mac menu bar, over USB or Wi-Fi, straight to a folder and the clipboard. | [MIT](https://github.com/apoorvdarshan/TetherShot/blob/main/LICENSE) |
 | [Thaw](https://openmacapps.com/apps/thaw/) · [Source](https://github.com/thaw-app/Thaw) | Organize, search, and reveal menu bar items with contextual layouts. | [GPL-3.0](https://github.com/thaw-app/Thaw/blob/development/LICENSE) |
 | [Thock](https://openmacapps.com/apps/thock/) · [Source](https://github.com/kamillobinski/thock) | Add mechanical keyboard sounds to typing on a Mac, from a lightweight menu-bar app. | [MIT](https://github.com/kamillobinski/thock/blob/main/LICENSE) |
+| [Tidymint](https://openmacapps.com/apps/tidymint/) · [Source](https://github.com/HaiTrung-Workspace/tidymint) | A Mac cleaner that explains each item, sends everything to the Trash first and can undo the last clean. | [MIT](https://github.com/HaiTrung-Workspace/tidymint/blob/main/LICENSE) |
 | [Topit](https://openmacapps.com/apps/topit/) · [Source](https://github.com/lihaoyun6/Topit) | Keep any window floating above the others so you can watch or reference it while you work. | [AGPL-3.0](https://github.com/lihaoyun6/Topit/blob/main/LICENSE) |
 | [TRex](https://openmacapps.com/apps/trex/) · [Source](https://github.com/amebalabs/TRex) | Capture text from the screen with local optical character recognition. | [MIT](https://github.com/amebalabs/TRex/blob/main/LICENSE) |
 | [Turbo Boost Switcher](https://openmacapps.com/apps/turbo-boost-switcher/) · [Source](https://github.com/rugarciap/Turbo-Boost-Switcher) | A menu bar app that turns Turbo Boost on or off on Intel Macs to lower heat, fan noise and power use. | [GPL-2.0-or-later](https://github.com/rugarciap/Turbo-Boost-Switcher/blob/master/LICENSE) |
