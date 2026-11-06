@@ -4,7 +4,7 @@ Research date: **2026-10-17**. This is a dated editorial assessment, not a live 
 
 ## What we researched
 
-We compared ten GitHub collections, starting with the original directory, then checked
+We compared ten GitHub collections (an eleventh, the last row, was added on 2026-11-02), starting with the original directory, then checked
 candidate applications against their own repositories, license files, and websites.
 Directory popularity helps discovery; it does not prove licensing, compatibility, or quality.
 Counts below describe what the source README reported on the research date.
@@ -21,6 +21,7 @@ Counts below describe what the source README reported on the research date.
 | [open-saas-directory/awesome-native-macosx-apps](https://github.com/open-saas-directory/awesome-native-macosx-apps) | Native Mac utility discovery, including Loop and small menu-bar apps | Mixes closed and open source; Pearcleaner classification and destination need independent correction | MIT |
 | [KiarashS/awesome-macOS-applications](https://github.com/KiarashS/awesome-macOS-applications) | README reports 308 apps across 26 categories; includes Loop, Cap and Pearcleaner together | Generated from a personal star list; source availability and macOS support still need review | MIT, read from LICENSE despite metadata NOASSERTION |
 | [guyzyl/awesome-macos-apps](https://github.com/guyzyl/awesome-macos-apps) | Practical everyday-use selection and installation pointers | Includes extensions, fonts, CLI tools and proprietary apps outside our scope | CC0-1.0 in GitHub metadata |
+| [jaywcjlove/awesome-swift-macos-apps](https://github.com/jaywcjlove/awesome-swift-macos-apps) | Added 2026-11-02. Open-source Mac apps written in Swift, many of them small and recent; about 1,560 GitHub repositories | Many projects are only weeks old, and libraries and unmaintained repositories sit beside apps, so adoption and releases need checking | CC0-1.0 |
 
 Use these lists to discover projects and credit their role. Write original descriptions.
 Do not copy a directory's prose or assume its license covers the applications it links to.
