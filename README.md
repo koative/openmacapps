@@ -55,7 +55,7 @@ See [publishing and SEO](docs/PUBLISHING.md) for the shared site configuration, 
 
 <!-- catalog:start -->
 
-1,023 macOS apps: **1,009 open source** and **14 source available**. Source-available apps have additional restrictions and are labeled separately. Generated from [content/apps](content/apps); edit the app folders to contribute.
+1,024 macOS apps: **1,010 open source** and **14 source available**. Source-available apps have additional restrictions and are labeled separately. Generated from [content/apps](content/apps); edit the app folders to contribute.
 
 ### Productivity
 
@@ -323,6 +323,7 @@ See [publishing and SEO](docs/PUBLISHING.md) for the shared site configuration, 
 | [Netcatty](https://openmacapps.com/apps/netcatty/) · [Source](https://github.com/binaricat/Netcatty) | An SSH workspace that keeps a vault of hosts, opens sessions in tabs and split panes, and browses servers over SFTP. | [GPL-3.0](https://github.com/binaricat/Netcatty/blob/main/LICENSE) |
 | [Netron](https://openmacapps.com/apps/netron/) · [Source](https://github.com/lutzroeder/netron) | A viewer that draws neural network and machine learning model files as graphs you can inspect node by node. | [MIT](https://github.com/lutzroeder/netron/blob/main/LICENSE) |
 | [Nextpad++](https://openmacapps.com/apps/nextpad-plus-plus/) · [Source](https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos) | A macOS port of the Notepad++ code editor, with syntax highlighting, macros, plugins and find in files. | [GPL-3.0](https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/blob/main/LICENSE) |
+| [Oh My Android](https://openmacapps.com/apps/oh-my-android/) · [Source](https://github.com/ateymoori/oh-my-android) | Control panel for the Android Emulator and real phones: dark mode, font scale, RTL, TalkBack, Layout Inspector. | [MIT](https://github.com/ateymoori/oh-my-android/blob/main/LICENSE) |
 | [Open in Code](https://openmacapps.com/apps/open-in-code/) · [Source](https://github.com/sozercan/OpenInCode) | A Finder toolbar button that opens the current folder, or the selected item, in Visual Studio Code. | [MIT](https://github.com/sozercan/OpenInCode/blob/master/LICENSE) |
 | [OpenInTerminal](https://openmacapps.com/apps/openinterminal/) · [Source](https://github.com/Ji4n1ng/OpenInTerminal) | Open the current Finder folder or file in your terminal or editor from the toolbar, menu bar or a shortcut. | [MIT](https://github.com/Ji4n1ng/OpenInTerminal/blob/master/LICENSE) |
 | [Orchard](https://openmacapps.com/apps/orchard/) · [Source](https://github.com/andrew-waters/orchard) | A native Mac app for Apple's container runtime: containers, images, machines, Kubernetes clusters, compose stacks and MLX models. | [MIT](https://github.com/andrew-waters/orchard/blob/main/LICENSE) |
