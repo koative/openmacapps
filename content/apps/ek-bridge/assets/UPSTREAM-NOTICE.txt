@@ -1,0 +1,11 @@
+EK Bridge
+Copyright 2026 Martin Bereciartua
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The app as distributed includes Sparkle (https://sparkle-project.org), the
+updater, under the MIT License and the licenses of the code it bundles; its
+full text is in the app at Contents/Resources/Sparkle-LICENSE.txt.
+
+EK Bridge is not affiliated with or endorsed by Apple Inc. Apple, Mac and
+macOS are trademarks of Apple Inc., registered in the U.S. and other countries.

@@ -1,0 +1,6 @@
+xCreen
+Copyright 2026 Alexander Wahlström
+Project: https://github.com/Al-ex-W/xCreen
+
+Licensed under the Apache License, Version 2.0.
+This NOTICE identifies the origin of the work; it does not modify the license.

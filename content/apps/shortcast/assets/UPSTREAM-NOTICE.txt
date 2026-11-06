@@ -1,0 +1,32 @@
+Shortcast
+Copyright 2026 The Shortcast Authors
+
+This product includes software developed as part of the Shortcast project,
+licensed under the Apache License, Version 2.0 (see LICENSE).
+
+--------------------------------------------------------------------------------
+Third-party components
+--------------------------------------------------------------------------------
+
+gemma-4-swift-mlx  (vendored under Vendor/gemma-4-swift-mlx/)
+  Native Gemma 4 multimodal inference for Apple Silicon via MLX Swift.
+  Copyright (c) Vincent Gourbin
+  Licensed under the MIT License — see Vendor/gemma-4-swift-mlx/LICENSE.
+  Source: https://github.com/VincentGourbin/gemma-4-swift-mlx
+
+  Shortcast adds one file to this vendored copy that is not part of the
+  upstream project:
+    Vendor/gemma-4-swift-mlx/Sources/Gemma4Swift/Pipeline/Gemma4Engine.swift
+  It is also covered by the MIT License above.
+
+This vendored package depends, in turn, on:
+  - mlx-swift            — MIT  — https://github.com/ml-explore/mlx-swift
+  - mlx-swift-lm         — MIT  — https://github.com/ml-explore/mlx-swift-lm
+  - swift-transformers   — Apache-2.0 — https://github.com/huggingface/swift-transformers
+  - swift-argument-parser — Apache-2.0 — https://github.com/apple/swift-argument-parser
+  - swift-mlx-profiler   — MIT  — https://github.com/VincentGourbin/swift-mlx-profiler
+
+The Gemma 4 model weights are downloaded at runtime from Hugging Face
+(mlx-community/gemma-4-e4b-it-4bit) and are NOT distributed with Shortcast.
+Gemma is provided by Google under the Gemma Terms of Use:
+https://ai.google.dev/gemma/terms

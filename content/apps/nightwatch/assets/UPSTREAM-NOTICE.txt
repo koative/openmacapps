@@ -1,0 +1,88 @@
+Nightwatch bundles or fetches data from these sources. Their terms apply to that data.
+
+Astronomy Engine, Don Cross, MIT. https://github.com/cosinekitty/astronomy
+SatelliteKit, Gavin Eadie, MIT. https://github.com/gavineadie/SatelliteKit
+Weather data by Open-Meteo.com, CC BY 4.0. https://open-meteo.com
+Aerosol optical depth for the haze line via the Open-Meteo Air Quality API, CC BY 4.0, from the Copernicus Atmosphere Monitoring Service (CAMS) global atmospheric composition forecasts and European air quality forecasts: METEO FRANCE, Institut national de l'environnement industriel et des risques (Ineris), Aarhus University, Norwegian Meteorological Institute (MET Norway), Jülich Institut für Energie- und Klimaforschung (IEK), Institute of Environmental Protection – National Research Institute (IEP-NRI), Koninklijk Nederlands Meteorologisch Instituut (KNMI), Nederlandse Organisatie voor toegepast-natuurwetenschappelijk onderzoek (TNO), Swedish Meteorological and Hydrological Institute (SMHI), Finnish Meteorological Institute (FMI), Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA) and Barcelona Supercomputing Center (BSC) (2022): CAMS European air quality forecasts, ENSEMBLE data. Copernicus Atmosphere Monitoring Service (CAMS) Atmosphere Data Store (ADS). https://open-meteo.com/en/docs/air-quality-api
+When Apple Weather and Open-Meteo cannot be read, forecast data from MET Norway (Norwegian Meteorological Institute), CC BY 4.0. https://api.met.no
+Terrain heights for a site's horizon via the Open-Meteo Elevation API: produced using Copernicus WorldDEM-90 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved. https://open-meteo.com/en/docs/elevation-api
+Apple Weather via WeatherKit when the build is signed for it; attribution and legal notice per Apple's WeatherKit terms. https://weatherkit.apple.com/legal-attribution.html
+Seeing and transparency from 7Timer (Shanghai Astronomical Observatory), non-commercial use. http://www.7timer.info
+Aurora alert status from AuroraWatch UK, Lancaster University, used under its non-commercial terms. https://aurorawatch.lancs.ac.uk
+Aurora forecast outside the UK and Ireland from the 30-minute aurora forecast of NOAA's Space Weather Prediction Center, which is in the public domain. Nightwatch is not endorsed by or affiliated with NOAA; the yellow, amber and red bands are Nightwatch's own. https://www.spaceweather.gov/products/aurora-30-minute-forecast
+OpenNGC, Mattia Verga, CC BY-SA 4.0. https://github.com/mattiaverga/OpenNGC
+Constellation names, positions and star-line data, and the bright stars' names and positions, from d3-celestial, Olaf Frohn, BSD-3-Clause. https://github.com/ofrohn/d3-celestial
+Constellation artwork is original to Nightwatch: all 88 figures and star plots were created for the project by Richard Sutcliffe with ChatGPT image generation, not taken from any other source, and are under the project's MIT licence. The star plots are drawn from d3-celestial's star-line data.
+Event artwork (meteor showers, comets, conjunctions, the International Space Station, solar and lunar eclipses, the Moon covering a star or planet, the Milky Way, and the quiet horizon shown when there are no events) is original to Nightwatch, created for the project by Richard Sutcliffe with ChatGPT image generation, under the project's MIT licence.
+Backdrop pictures (the night sky behind the Mac and the iPhone and iPad screens, `Resources/Backdrop` and `Phone/App/Resources/Backdrop`) are original to Nightwatch, created for the project by Richard Sutcliffe in Google Stitch. The phone's fallback Milky Way photograph is credited in `Phone/README.md`.
+Sky-survey images: Digitized Sky Survey - STScI/NASA, Colored & Healpixed by CDS (CNRS/Unistra), used under the Open Database License 1.0 (https://opendatacommons.org/licenses/odbl/1-0/) and STScI's terms for non-profit use (https://archive.stsci.edu/publishing/data-use). DSS plates copyright AAO, SERC, Caltech and AURA (https://archive.stsci.edu/dss/copyright.html). Fetched with hips2fits, a service provided by CDS, Strasbourg. https://alasky.cds.unistra.fr/hips-image-services/hips2fits The ready-made picture set (survey-set.nwsp, https://github.com/rsutcliffe/nightwatch/releases/tag/survey-set-1) is a collection of cutouts of that survey made from its HiPS tiles on the IRSA (Caltech) and CASDA (CSIRO) mirrors, and is made available under the Open Database License 1.0 with the attribution above; the ODbL covers the pictures, not the app's code, which is MIT.
+Comet elements from the IAU Minor Planet Center. https://minorplanetcenter.net
+ISS orbital elements from CelesTrak. https://celestrak.org
+Meteor shower dates compiled from the International Meteor Organization calendar. https://www.imo.net
+Planet photographs are public-domain NASA mission images (MESSENGER, Mariner 10, Hubble, Cassini, Voyager 2) obtained via Wikimedia Commons; file names and credits in Sources/SkyCore/Resources/planets/CREDITS.txt.
+Moon phase images from NASA's Scientific Visualization Studio "Moon Phase and Libration" (Dial-a-Moon), public domain. https://svs.gsfc.nasa.gov/5587
+Dark-sky places: certification by DarkSky International (darksky.org) and the UK Dark Sky Discovery Sites programme; list compiled by the Nightwatch project with coordinates from Wikidata (CC0) and, for Discovery Sites, from the programme's own map. https://www.darkskydiscovery.org.uk/dark-sky-discovery-sites/
+The light-pollution grids were made utilizing VIIRS Nighttime Lights data produced by the Earth Observation Group, Payne Institute for Public Policy, Colorado School of Mines. CC BY 4.0. Changes: cropped or averaged to coarser cells, sea masked, and for the world grid stored on a log scale. https://eogdata.mines.edu/products/vnl/
+Land mask for the light-pollution grid made with Natural Earth, public domain. https://www.naturalearthdata.com
+
+Licence texts, as their licences require in every copy of Nightwatch:
+
+Astronomy Engine
+MIT License
+
+Copyright (c) 2019-2025 Don Cross <cosinekitty@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+SatelliteKit
+The MIT License (MIT)
+
+Copyright (c) 2018-25 Gavin Eadie
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+d3-celestial
+Copyright (c) 2015, Olaf Frohn
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

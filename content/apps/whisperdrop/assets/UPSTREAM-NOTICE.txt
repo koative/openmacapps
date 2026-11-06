@@ -1,0 +1,9 @@
+WhisperDrop 2 continues the WhisperDrop project originally started by
+Gabriele Monni and Luca Arisci.
+
+Original repository: https://github.com/LucaArisci/whisper-drop
+Original license: MIT, Copyright (c) 2026 Luca Arisci.
+
+This repository contains a new Swift implementation. The original project
+informs the workflow, palette and model selection. Its repository and authors
+are credited in README.md. Bundled runtimes retain their own licenses.

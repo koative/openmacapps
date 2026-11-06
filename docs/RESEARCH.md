@@ -282,3 +282,22 @@ have not been reviewed yet.
   - **Needs a paid account for its main job:** Blitz (Apple Developer Program).
 - **Skipped:** OpenHaystack (installation disables Gatekeeper and loads a Mail plugin using a private interface), AirCard (an iPhone modding tool built on an exploit), NX2Apple (ports Nintendo Switch games from user keys), LlamaChat (unmaintained since 2023), Deck (the app's source is All Rights Reserved), and Vibe Notch, Pastel, Llama and Dimble, which were already listed.
 - **Homebrew:** `bun run homebrew` matched casks for cmux, DS4 Control, Forel, Mac Performance Monitor, Planet and Status Trio, and for four apps already listed: Mochi Diffusion, OpenScreen, Screendrop and Tinycast.
+
+## Seventh expansion (2026-11-06, bulk)
+
+826 apps were added in one pass, after Koray changed the inclusion rules on 2026-11-06: unmaintained apps are listed with an Unmaintained label, star counts are not a criterion, command-line-only tools and apps whose main job needs a paid account stay out.
+
+- **Leads.** The 533 remaining leads from awesome-swift-macos-apps (the pilot's prefilter, plus Compositor back in now that stars do not count) and the 1,192 older leads every earlier expansion had turned down. GitHub data kept 626 of the older ones: not archived, not a fork, a detected license, and a macOS release asset or a project website, with no age limit.
+- **Review.** A script gathered each lead's metadata, license text, README, releases and icon paths into a dossier. Sub-agents judged 1,153 leads from the dossiers against CONTRIBUTING.md: 889 accepted, 56 held, 208 rejected. Other sub-agents then wrote the entries, re-reading every license file, checking the README and, where the download finished, the build with `spctl` and `stapler`. Where a download could not be checked, the record says only what the project states.
+- **Added:** 826 apps, 69 of them marked Unmaintained and 6 source available; 639 have their own icon.
+- **Final review.** A second set of sub-agents read every new record, its license text and its icon. Their findings removed 26 records and 20 icons and corrected about 60 records (license identifiers, unmaintained labels, contradictory claims).
+- **Held out at final review:**
+  - **Fork or derivative of a listed app:** AutoPrompter (Textream), Hummingbird (Easy Move+Resize), RktMachine (CoreOS VM), Threadlines (T3 Code), WindowHop (AltTab), Yank (Buffer).
+  - **Main job needs a paid account or license:** Push Notifications (Apple Developer Program), Superagent (a paid AI plan), Ping Warden (Ping Protection is $15), Ring Stats (current Oura rings need a membership).
+  - **License terms beyond the label:** ClipBoardLine (name and icon terms in the license), Pix (the art is reserved and changed copies may not be shared), WaifuX and LX Music (non-commercial add-on terms), WiFi QR Connect (the LICENSE file and README disagree).
+  - **Policy:** Harbor (runs decrypted iPhone app packages), Louisa Wi-Fi (guesses Wi-Fi passwords), AppLocker (unclear whether the release works without relaxing System Integrity Protection), VutronMusic (unofficial streaming client for personal study only).
+  - **Build or source unclear:** Screen Loupe and one Burrow (official builds add closed-source parts), TCP Viewer (the build's signer and copyright point to other companies), AIQuotaBar (the release is a widget host; the app is a script install), OmniRoute (unclear whether the repository is the project's own), Rhea (part of the source is not published), Caprine (Messenger's desktop service is gone, as recorded in the second expansion).
+  - **Icons removed:** where the icon was another product's logo (Facebook Messenger, SoundCloud, GitHub, Kubernetes, Node.js, OpenAI, Finder), a banner or photo, or its terms were unclear.
+- **Skipped because the license is not on the allowlists** (a decision on adding them is open): PolyForm Noncommercial (Agent!, ControllerKeys, Metrune, Orbit, zisla), PolyForm Perimeter (Biscotti), FSL-1.1-ALv2 (M1K3, Prowl, ReqRes), BSL-1.1 (KiwiDesk), CC BY-NC-SA (Configgy, Gamely, VisorPro), VeraCrypt (Apache-2.0 with the TrueCrypt 3.0 license), custom non-commercial licenses (Blink Eye, DockFinity, DropNote, FlicKey, Keyholdr), and M-Courtyard, Quill and Swooshy, whose license files add to or change a standard license.
+- **Skipped for an identifier mismatch, to redo:** rig (MIT or Apache-2.0) and MacAssistant (GPL-3.0-or-later).
+- **Homebrew:** `bun run homebrew` matched 16 casks; many of the new apps publish casks only in their own taps.

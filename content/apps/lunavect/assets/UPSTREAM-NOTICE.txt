@@ -1,0 +1,21 @@
+Lunavect
+
+The root MIT license covers original Lunavect source code and documentation.
+It does not relicense third-party code, artwork, animations or trademarks.
+
+Third-party components:
+- LobeHub provider icons: MIT. See design/providers/LobeHub-LICENSE.txt and
+  Sources/Weekleft/Resources/IconSources.md for source URLs and versions.
+- Sparkle: distributed under its own license and third-party notices,
+  included in the bundled Sparkle framework. Source: https://sparkle-project.org/
+
+Third-party artwork retained separately from the MIT-licensed code:
+- Clawd animations: Anthropic artwork.
+- Codex companion spritesheet: OpenAI artwork.
+Lunavect does not grant redistribution rights to these assets. Their provenance
+and the current permission status are recorded in
+Sources/Weekleft/Resources/IconSources.md. Permission to redistribute the exact
+Clawd and Codex companion animation assets has not been established.
+
+Claude, Clawd, Codex and related product names and marks belong to their
+respective owners. Lunavect is an independent project.

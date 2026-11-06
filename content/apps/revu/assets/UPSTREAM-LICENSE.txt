@@ -1,0 +1,15 @@
+Revu Swift is licensed under the GNU General Public License v3.0 only
+(`GPL-3.0-only`).
+
+Copyright (c) 2026 Revu contributors
+
+You may copy, modify, and redistribute the code in this directory under the
+terms of the GNU General Public License, version 3.
+
+The full GPL-3.0 license text is available here:
+https://www.gnu.org/licenses/gpl-3.0.txt
+
+Trademark notice:
+The Revu name, logo, and other brand assets are not licensed for reuse as
+trademarks. The GPL covers copyright licensing only and does not grant any
+trademark rights.

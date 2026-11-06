@@ -1,0 +1,19 @@
+MAC-LIMPO
+Copyright (C) 2025-2026 Alex S S Fonseca and contributors
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version. See the LICENSE file for the full text.
+
+-------------------------------------------------------------------------------
+Acknowledgements
+-------------------------------------------------------------------------------
+
+Disk X-Ray is inspired by WinDirStat (https://github.com/windirstat/windirstat,
+GPL-3.0-or-later): the idea of a file tree, a file-type list and a treemap kept
+in sync, and its scanning strategy (bulk directory reads with parallel
+workers), which MAC-LIMPO implements on macOS with getattrlistbulk(2).
+
+The treemap uses the squarified layout described by M. Bruls, K. Huizing and
+J. J. van Wijk, "Squarified Treemaps" (Data Visualization 2000).

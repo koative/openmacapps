@@ -1,0 +1,11 @@
+# Third-party content
+
+## Word lists (`unfd/Resources/Words/ar.txt`, `unfd/Resources/Words/en.txt`)
+
+Derived from FrequencyWords by Hermit Dave (https://github.com/hermitdave/FrequencyWords),
+files `content/2018/ar/ar_50k.txt` and `content/2018/en/en_50k.txt`, built from the OpenSubtitles 2018 corpus.
+Changes: counts removed, words with anything but letters dropped, English lowercased; the order (most common first) is kept.
+
+These two files are licensed under the Creative Commons Attribution-ShareAlike 4.0 International license
+(CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/). They are data, not part of the MIT-licensed code
+of this repository; anyone redistributing them, changed or not, must keep this attribution and the same license.

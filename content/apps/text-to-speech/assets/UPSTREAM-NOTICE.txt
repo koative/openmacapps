@@ -1,0 +1,20 @@
+Text to Speech
+Copyright (c) 2025-2026 Ciro Cesar Maciel. Licensed under the MIT License (LICENSE).
+
+The app bundles third-party material under its own license:
+
+- Montserrat (Resources/Fonts), by the Montserrat Project Authors.
+  SIL Open Font License 1.1: Resources/Fonts/OFL.txt. https://github.com/JulietaUla/Montserrat
+
+- Tabler Icons (Resources/Icons), by Pawel Kuna.
+  MIT License. https://github.com/tabler/tabler-icons
+
+- The app icon and the menu bar glyphs (Resources/AppIcon.icns, Resources/Icons/menubar*.pdf)
+  are the letter T set in Candal, by Vernon Adams. SIL Open Font License 1.1.
+  https://fonts.google.com/specimen/Candal
+
+The Rafael voice is made by Fish Audio (https://fish.audio) on the Text to Speech server;
+no part of it is in this repository or in the app.
+
+The name "Text to Speech by Ciro Cesar Maciel", the app icon and the logotype identify the
+maker's official build. A fork that ships its own build should use its own name and icon.
