@@ -6,7 +6,7 @@ The public repository is [koative/openmacapps](https://github.com/koative/openma
 
 `src/lib/site.ts` owns the site name, default title, description, repository URL, public URL, and theme colours. Astro's base path, catalog asset fallback, generated README links, sitemap, robots output, web app manifest, RSS feed, and link checker derive their address and name from it, so a rename is one edit there.
 
-Each page has a canonical URL without filter parameters, Open Graph and Twitter metadata, and a share image. Discover, search, the category and collection pages, About, and every app page are in the sitemap. App pages have descriptive titles and factual `SoftwareApplication` and breadcrumb structured data. We do not invent prices, review scores, or release dates. This markup does not guarantee a Google rich result. The 404 page is marked `noindex` and excluded from the sitemap.
+Each page has a canonical URL without filter parameters, Open Graph and Twitter metadata, and a share image. Discover, search, the category and collection pages, About, and every app page are in the sitemap. App pages have descriptive titles and factual `SoftwareApplication` and breadcrumb structured data. We do not invent prices, review scores, or release dates: only an app whose official download was checked as free (`freeDownload: true`) gets an `Offer` with price `0`, and unchecked or paid apps get no `offers`. This markup does not guarantee a Google rich result. The 404 page is marked `noindex` and excluded from the sitemap.
 
 Links to listed apps (website, repository, download, license and sources) are ordinary followed links, because each one has been checked. On an alternatives page, the link to the proprietary product's own website carries `rel="nofollow"`: it is a reference for readers, not an endorsement. App pages offer developers a "Listed on OpenMacApps" README badge (`public/badge.svg`) that links back to their listing.
 
@@ -25,6 +25,10 @@ The icons in `public/` come from the brand kit in `public/brand/` (see [BRAND.md
 ## RSS feed
 
 `/feed.xml` (`src/pages/feed.xml.ts`) is an RSS 2.0 feed of the 50 most recently added apps. Apps are sorted by `added`, newest first, then by name. Each item has the app name, its absolute product URL as link and permalink GUID, the summary, the category, and `added` as the publication date. Every page links it with `<link rel="alternate" type="application/rss+xml">`.
+
+## llms.txt
+
+`/llms.txt` (`src/pages/llms.txt.ts`) describes the site for language models in the [llmstxt.org](https://llmstxt.org/) format: a summary, how listings are verified, then links to the key pages, every category, alternatives and topic page, and the data files. `/llms-full.txt` (`src/pages/llms-full.txt.ts`) shares the header and lists every app on one line, grouped by category, with its summary, license and download host. Both are built from the catalog, so counts stay current; `bun run check:links` checks their links. Neither is in the sitemap.
 
 ## Custom domain
 

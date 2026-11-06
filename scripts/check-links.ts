@@ -12,13 +12,13 @@ function inspect(directory: string) {
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
     const file = path.join(directory, entry.name);
     if (entry.isDirectory()) inspect(file);
-    else if (/\.(?:html|xml)$/.test(file)) {
+    else if (/\.(?:html|xml)$|\/llms[\w-]*\.txt$/.test(file)) {
       if (file.endsWith('.html')) pages++;
       const html = fs.readFileSync(file, 'utf8');
       for (const match of html.matchAll(
-        /\b(href|src|srcset)=(?:"([^"]*)"|'([^']*)')|<loc>([^<]*)<\/loc>/g,
+        /\b(href|src|srcset)=(?:"([^"]*)"|'([^']*)')|<loc>([^<]*)<\/loc>|\]\(([^)\s]+)\)/g,
       )) {
-        const raw = match[2] ?? match[3] ?? match[4];
+        const raw = match[2] ?? match[3] ?? match[4] ?? match[5];
         const values =
           match[1] === 'srcset'
             ? raw
@@ -26,7 +26,7 @@ function inspect(directory: string) {
                 .map((candidate) => candidate.trim().split(/\s+/)[0])
             : [raw.trim()];
         for (let value of values) {
-          // Canonical, Open Graph and sitemap URLs point at this site absolutely.
+          // Canonical, Open Graph, sitemap and llms.txt URLs point at this site absolutely.
           if (value.startsWith(site.url))
             value = base + value.slice(site.url.length);
           if (value.startsWith('//')) continue;

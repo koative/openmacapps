@@ -109,6 +109,9 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
       downloadUrl: app.download,
       sameAs: [app.website, app.repository],
       ...(app.iconUrl ? { image: absoluteUrl(app.iconUrl) } : {}),
+      ...(app.freeDownload === true
+        ? { offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } }
+        : {}),
     },
     {
       '@type': 'BreadcrumbList',
