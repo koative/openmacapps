@@ -299,6 +299,14 @@ have not been reviewed yet.
   - **Policy:** Harbor (runs decrypted iPhone app packages), Louisa Wi-Fi (guesses Wi-Fi passwords), AppLocker (unclear whether the release works without relaxing System Integrity Protection), VutronMusic (unofficial streaming client for personal study only).
   - **Build or source unclear:** Screen Loupe and one Burrow (official builds add closed-source parts), TCP Viewer (the build's signer and copyright point to other companies), AIQuotaBar (the release is a widget host; the app is a script install), OmniRoute (unclear whether the repository is the project's own), Rhea (part of the source is not published), Caprine (Messenger's desktop service is gone, as recorded in the second expansion).
   - **Icons removed:** where the icon was another product's logo (Facebook Messenger, SoundCloud, GitHub, Kubernetes, Node.js, OpenAI, Finder), a banner or photo, or its terms were unclear.
-- **Skipped because the license is not on the allowlists** (a decision on adding them is open): PolyForm Noncommercial (Agent!, ControllerKeys, Metrune, Orbit, zisla), PolyForm Perimeter (Biscotti), FSL-1.1-ALv2 (M1K3, Prowl, ReqRes), BSL-1.1 (KiwiDesk), CC BY-NC-SA (Configgy, Gamely, VisorPro), VeraCrypt (Apache-2.0 with the TrueCrypt 3.0 license), custom non-commercial licenses (Blink Eye, DockFinity, DropNote, FlicKey, Keyholdr), and M-Courtyard, Quill and Swooshy, whose license files add to or change a standard license.
-- **Skipped for an identifier mismatch, to redo:** rig (MIT or Apache-2.0) and MacAssistant (GPL-3.0-or-later).
+- **Skipped because the license was not on the allowlists:** PolyForm Noncommercial (Agent!, ControllerKeys, Metrune, Orbit, zisla), PolyForm Perimeter (Biscotti), FSL-1.1-ALv2 (M1K3, Prowl, ReqRes), BSL-1.1 (KiwiDesk), CC BY-NC-SA (Configgy, Gamely, VisorPro), VeraCrypt (Apache-2.0 with the TrueCrypt 3.0 license), custom non-commercial licenses (Blink Eye, DockFinity, DropNote, FlicKey, Keyholdr), and M-Courtyard, Quill and Swooshy, whose license files add to or change a standard license. The standard ones were decided the same day (below).
+- **Skipped for an identifier mismatch:** rig (MIT or Apache-2.0) and MacAssistant (GPL-3.0-or-later); added the same day (below).
 - **Homebrew:** `bun run homebrew` matched 16 casks; many of the new apps publish casks only in their own taps.
+
+### Source-available licenses (2026-11-06, follow-up)
+
+Koray approved listing standard published licenses that allow personal use (see Inclusion policy). FSL-1.1-ALv2, CC BY-NC-SA 4.0, PolyForm Noncommercial 1.0.0, PolyForm Perimeter 1.0.1, BSL 1.1 (when its Additional Use Grant allows ordinary use) and VeraCrypt's `Apache-2.0 AND LicenseRef-TrueCrypt-3.0` were added to the reviewed list.
+
+- **Added as source available:** Biscotti, Configgy, Gamely, KiwiDesk (its grant allows production use; only reselling it as a product or service is excluded), M1K3, Metrune, Orbit, Prowl, VeraCrypt, VisorPro and zisla.
+- **Added as open source:** rig and MacAssistant.
+- **Still out:** Agent! (the README reserves all rights to the compiled builds, so the download has no grant), ReqRes (its proxy engine, certificates and licensing ship as a closed binary), ControllerKeys (a 14-day trial, then paid, for its main job) and the one-off custom licenses.
