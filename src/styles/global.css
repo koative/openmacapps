@@ -1343,6 +1343,29 @@ main {
   font-size: 14px;
 }
 
+.maintenance-note {
+  max-width: 820px;
+  margin-top: 32px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: var(--bg-elevated);
+}
+
+.license-note + .maintenance-note {
+  margin-top: 16px;
+}
+
+.maintenance-note h2 {
+  color: var(--label);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.maintenance-note p {
+  margin: 4px 0 0;
+  max-width: 72ch;
+}
+
 .markdown-body {
   max-width: 72ch;
   font-size: 16px;

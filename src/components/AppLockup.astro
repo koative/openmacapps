@@ -11,7 +11,9 @@ interface Props {
 }
 const { app, searchable = false, replaces = [] } = Astro.props;
 const base = import.meta.env.BASE_URL;
-const restricted = app.sourceAvailability === 'source-available';
+const unmaintained = app.maintenance === 'unmaintained';
+const restricted =
+  !unmaintained && app.sourceAvailability === 'source-available';
 const filters = searchable
   ? {
       'data-app': '',

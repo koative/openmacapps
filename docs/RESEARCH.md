@@ -47,6 +47,12 @@ The [Open Source Definition](https://opensource.org/osd) is the scope reference.
 Free of charge, publicly visible source, and open source are separate properties.
 Paid distribution does not by itself disqualify an app with an eligible source license.
 
+Inclusion rules:
+- **Unmaintained apps:** Unmaintained apps are listed with the label (`maintenance: "unmaintained"` and a `maintenanceNote`).
+- **Graphical applications only:** Command-line-only tools are not listed for now.
+- **No paid-account gate:** Apps whose main job needs a paid account are not listed.
+- **Star counts are not a criterion:** GitHub star count is not an eligibility or inclusion criterion.
+
 ## Findings that change catalog decisions
 
 ### Source-available listings: a distinct classification

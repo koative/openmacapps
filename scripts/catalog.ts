@@ -32,7 +32,7 @@ function catalogMarkdown(apps: CatalogApp[]): string {
       return `### ${category}\n\n| App | What it does | License |\n| --- | --- | --- |\n${entries
         .map(
           (app) =>
-            `| [${escapeCell(app.name)}](${site.url}apps/${app.slug}/) · [Source](${app.repository}) | ${escapeCell(app.summary)} | [${app.license}](${app.licenseUrl})${app.sourceAvailability === 'source-available' ? ' · **Source available**' : ''} |`,
+            `| [${escapeCell(app.name)}](${site.url}apps/${app.slug}/) · [Source](${app.repository}) | ${escapeCell(app.summary)} | [${app.license}](${app.licenseUrl})${app.sourceAvailability === 'source-available' ? ' · **Source available**' : ''}${app.maintenance === 'unmaintained' ? ' · **Unmaintained**' : ''} |`,
         )
         .join('\n')}`;
     })
