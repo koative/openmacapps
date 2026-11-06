@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { ArrowUpRight } from '@lucide/astro';
 import { site } from '../lib/site';
+const base = import.meta.env.BASE_URL;
 const sources = [
   [
     'serhii-londar/open-source-mac-os-apps',
@@ -73,7 +74,8 @@ const sources = [
         <p>
           Every entry links to the repository and license we checked, with a
           verification date. That date is a record of our review, not a security
-          certification.
+          certification. Read{' '}
+          <a href={`${base}how-we-verify/`}>how we verify</a>.
         </p>
       </article>
       <article>

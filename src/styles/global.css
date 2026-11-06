@@ -1380,7 +1380,8 @@ main {
   color: var(--label-2);
 }
 
-.markdown-body code {
+.markdown-body code,
+.about-page code {
   padding: 0.1em 0.35em;
   border-radius: 5px;
   background: var(--bg-elevated);
@@ -1403,7 +1404,8 @@ main {
   background: none;
 }
 
-.markdown-body table {
+.markdown-body table,
+.about-page table {
   display: block;
   max-width: 100%;
   overflow-x: auto;
@@ -1412,10 +1414,16 @@ main {
 }
 
 .markdown-body th,
-.markdown-body td {
+.markdown-body td,
+.about-page th,
+.about-page td {
   padding: 8px 12px;
   border-bottom: 1px solid var(--separator);
   text-align: left;
+}
+
+.about-page table {
+  margin-block: 14px;
 }
 
 .markdown-body hr {

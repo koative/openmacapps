@@ -1,5 +1,20 @@
 # Release verification
 
+## How We Verify page — 2026-11-06
+
+`/how-we-verify/` explains the checks every listing passes: the license file read by hand, GitHub's `NOASSERTION`, the Source available label, official downloads and the check date. The sidebar, the footer, About and each app page's verification note link to it, and it is in the sitemap. Counts of source-available apps, download hosts and check dates are computed from the app records at build time.
+
+**GitHub's license field.** On 2026-11-06 GitHub's GraphQL API (`repository { licenseInfo { spdxId } }`) was read for the 1,018 listed apps whose repository is on GitHub. The page quotes the 112 apps with no named license.
+- 844 match the record's license.
+- 60 differ: 48 only by `-only` or `-or-later` (GitHub reports `GPL-3.0` for a record's `GPL-3.0-or-later`), the rest name one part of a multi-license record or a different license.
+- 104 are `NOASSERTION`, among them all 14 source-available apps, Rectangle, Sequel Ace, CotEditor and HandBrake.
+- 8 have no license: Gaphor, KStars, LICEcap, LimeChat, MacDown, Nativ, OpenEmu and Thunderbird.
+- 2 repositories did not resolve: `maxnd/mxMarkEdit` and `overtake/TelegramSwift`.
+
+Not changed here, but worth a re-review: the two repositories that did not resolve, ApolloShell (GitHub now reports AGPL-3.0, the record says MIT) and Muxy (GitHub reports Apache-2.0, the record says MIT).
+
+**Checks.** `bun run build` (1,213 pages), `bun test` (19 tests), `bun run check` (0 errors, warnings or hints), `bun run check:generated` and `bun run check:links` (101,122 links) pass. The page was opened in Chromium against the production preview at 1,440 and 390 px, in light and dark: no horizontal scroll, the license table fits at 390 px, the About tab stays selected on mobile, and all 42 links on the page return 200. The source-available link opens Search with that filter and shows 14 apps.
+
 ## lich and Mechvibes repositories moved — 2026-11-01
 
 GitHub's API showed two listed repositories resolving elsewhere. Both are the same projects, renamed or transferred, with unchanged license files.

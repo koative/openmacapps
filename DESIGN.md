@@ -552,7 +552,7 @@ A three-column definition list of hairline-ruled rows: footnote term in Secondar
 
 ### Navigation
 
-- **Sidebar:** brand (28px brand mark, a blue squircle holding a white 2×2 app grid with the top-right tile lifted out, inlined by `BrandMark.astro`; 19px/700 wordmark from `site.name`), search, then rows for Discover, Search, Categories and Alternatives (Lucide `ArrowRightLeft`), a Collections group and a Categories group (12px/600 Secondary Label group labels), and a hairline-topped foot with About, Contribute and GitHub (external rows end in a small up-right arrow). Rows are 32px, field radius, Link Blue 20px glyphs (category rows use glyph tiles); hover and current page share the Selected fill, current adds weight 600. A row stays selected for pages beneath it (an app page selects its category, an alternatives page selects Alternatives, a topic page selects its category or, without one, Categories).
+- **Sidebar:** brand (28px brand mark, a blue squircle holding a white 2×2 app grid with the top-right tile lifted out, inlined by `BrandMark.astro`; 19px/700 wordmark from `site.name`), search, then rows for Discover, Search, Categories and Alternatives (Lucide `ArrowRightLeft`), a Collections group and a Categories group (12px/600 Secondary Label group labels), and a hairline-topped foot with About, How We Verify (Lucide `FileCheck`), Contribute and GitHub (external rows end in a small up-right arrow). Rows are 32px, field radius, Link Blue 20px glyphs (category rows use glyph tiles); hover and current page share the Selected fill, current adds weight 600. A row stays selected for pages beneath it (an app page selects its category, an alternatives page selects Alternatives, a topic page selects its category or, without one, Categories). On mobile, How We Verify keeps the About tab selected.
 - **Top bar (≤900px):** sticky, 52px plus safe area, Bar Glass with blur, brand at 17px and a 44px GitHub target.
 - **Tab bar (≤900px):** fixed bottom, five equal tabs (Discover, Categories, Alternatives, Search, About) with 22px icons and 10px labels in Secondary Label; the current tab turns Link Blue. Five is the ceiling: Topics are reached through Categories rather than a sixth tab.
 
@@ -562,7 +562,7 @@ A 16px-radius Elevated Grey band, 48px above the footer: a row of real app icons
 
 ### Footer
 
-A hairline-topped block in Secondary Label: a 13px link row (About OpenMacApps, Contribute, Suggest an App, Source Code, Catalog JSON) that brightens to Label on hover, then a 12px statement that OpenMacApps is an independent directory by Koative, downloads come from each project's official source, names, icons and screenshots belong to their owners, and Mac and macOS are Apple trademarks with no affiliation.
+A hairline-topped block in Secondary Label: a 13px link row (About OpenMacApps, How We Verify, Contribute, Suggest an App, Source Code, Catalog JSON) that brightens to Label on hover, then a 12px statement that OpenMacApps is an independent directory by Koative, downloads come from each project's official source, names, icons and screenshots belong to their owners, and Mac and macOS are Apple trademarks with no affiliation.
 
 ### Signature: Icon View Transition
 
