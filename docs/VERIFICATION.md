@@ -1,5 +1,11 @@
 # Release verification
 
+## Source-available licenses and 13 apps — 2026-11-06
+
+Six licenses were added to the reviewed source-available list in `src/lib/catalog.ts` (`docs/RESEARCH.md` → Source-available licenses), and 13 apps that had been skipped only for their license or its identifier were added. Each license file was re-read; each record states what the license allows in `licenseNotes`.
+
+**Checks.** `bun run validate`, `bun run homebrew`, `bun run sync`, `bun run build` (2,079 pages), `bun test`, `bun run check`, `bun run check:generated` and `bun run check:links` (180,130 internal links).
+
 ## Seventh expansion (bulk): 826 apps — 2026-11-06
 
 826 apps were added after the review recorded in `docs/RESEARCH.md` (Seventh expansion). Every license file was re-read when the entry was written. Signing and notarization were checked with `spctl` and `stapler` where the release download finished; otherwise the record states only what the project says. Unmaintained apps carry `maintenance: unmaintained` and a dated note. `bun run discover` refreshed the queue: 2,842 leads from 11 directories, 1,618 published.

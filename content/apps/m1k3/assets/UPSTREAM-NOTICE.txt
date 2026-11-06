@@ -1,0 +1,87 @@
+M1K3
+Copyright 2026 Round Tower Software Ltd
+
+This product includes software developed by Round Tower Software Ltd and
+contributors, licensed under the Functional Source License, Version
+1.1, ALv2 Future License (FSL-1.1-ALv2 — see LICENSE). Each version becomes
+available under the Apache License, Version 2.0 two years after it is made
+available, by the Grant of Future License in that file.
+
+Relicensing boundary. M1K3 was published under the Apache License, Version
+2.0 from 2026-07-01 until the commit that introduced this paragraph
+(2026-09-09). Revisions published before that commit remain under the
+Apache-2.0 grant they were published with; nothing here withdraws it. The
+FSL applies to that commit and everything after it. Rationale:
+macos/docs/adr/0005-relicense-to-fsl-organisations-are-the-paid-line.md.
+
+M1K3 is built in the open with MurphySig provenance (https://murphysig.dev):
+the commit history records human–AI collaboration on the record. Per the
+LICENSE, please retain attribution and provenance notices in derivative works.
+
+------------------------------------------------------------------------------
+Trademarks and brand assets
+------------------------------------------------------------------------------
+
+"M1K3", "M1K3 Voice", "Lil M1K3", "Brain at Home", the M mark, the companion
+faces, the app icon, the artwork, and the M1K3 voice are trademarks and brand
+assets of Round Tower Software Ltd. They are NOT licensed under the LICENSE
+(the FSL's Trademarks clause; Section 6 of the Apache License for earlier
+revisions) and are all rights reserved. Forks may
+not be distributed under the M1K3 name or with these assets. See
+TRADEMARKS.md for the policy and how to ask.
+
+Brand-asset files EXCLUDED from the licence grant. A trademark policy
+cannot narrow a copyright grant on its own, so the exclusion is stated here,
+in the repository's licence notice: from the commit that added this paragraph
+(2026-09-07) onward, the following files are NOT part of "the Software" (nor,
+for earlier revisions, "the Work") licensed under the LICENSE and are
+copyright Round Tower Software Ltd, all rights
+reserved (revisions published before this notice remain under the grant they
+were published with):
+
+  - site/favicon.svg, site/icon-192.png, site/icon-512.png,
+    site/apple-touch-icon.png, site/og.png          (the M mark + site artwork)
+  - site/mark.svg (the tile-less nav cut of the M mark; excluded from the
+    commit that added it, 2026-09-09, onward)
+  - assets/brand/**                                (README hero, brand plates)
+  - the app icon sets and App Store screenshots/previews, wherever committed
+
+The companion models (macos/Sources/M1K3Avatar/Companions/**) are NOT on
+this list and are NOT part of "the Software" under the LICENSE either: they
+are third-party work that M1K3 uses under its authors' own licences (below),
+converted to per-clip USDZ by M1K3's pipeline. We claim no copyright or
+trademark in the creatures themselves; only their presentation as M1K3 (the
+phosphor treatment, the pixel face beside them) is trade dress under
+TRADEMARKS.md. Keep their attribution if you redistribute them.
+
+------------------------------------------------------------------------------
+Third-party components
+------------------------------------------------------------------------------
+
+This repository incorporates third-party components that remain governed by
+their own licenses. The macOS app's bundled dependency notices are generated
+into macos/M1K3App/ThirdPartyLicenses.plist; notable components include:
+
+  - llama.cpp — MIT License (included as a git submodule under
+    app/composeApp/src/androidMain/cpp/llama.cpp)
+  - MLX / mlx-swift / mlx-swift-lm — MIT License
+  - WhisperKit — MIT License
+  - Model weights (Qwen3, Gemma 4) — Apache License 2.0, retrieved at runtime
+  - Model weights (LFM2.5-1.2B, the Mini where Apple Intelligence is blocked)
+    — LFM Open License v1.0, retrieved at runtime
+  - Fox companion (Companions/Fox and Companions/PhosphorFox — the same
+    mesh; PhosphorFox adds M1K3's own phosphor shader) — the Khronos glTF
+    Sample Assets "Fox": model by PixelMannen (CC0 1.0), rigging and
+    animations by tomkranis (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+    https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/Fox
+  - Colobus, Gecko, Inkfish and Sparrow companions (Companions/<Name>) —
+    Quaternius, "Quirky Series — FREE Animals" (CC0 1.0,
+    https://creativecommons.org/publicdomain/zero/1.0/; credited as courtesy).
+    https://quaternius.com
+  - Android (app/) 3D avatar assets — Creative Commons / asset-store terms;
+    see the license files within their respective directories (e.g. app/3d/,
+    and per-asset license.txt files such as app/3d/mask/license.txt)
+
+Nothing in the LICENSE for M1K3's own materials modifies the terms
+of these third-party components. Consult each component's own license for the
+governing terms.

@@ -56,6 +56,15 @@ const sourceAvailableLicenses = new Set([
   'LicenseRef-PasteBar',
   'LicenseRef-NotchPrompter',
   'PolyForm-Shield-1.0.0',
+  // Koray, 2026-11-06: standard published licenses that allow personal use.
+  'FSL-1.1-ALv2',
+  'CC-BY-NC-SA-4.0',
+  'PolyForm-Noncommercial-1.0.0',
+  'PolyForm-Perimeter-1.0.1',
+  // BSL only when the Additional Use Grant allows ordinary use; check it per app.
+  'BUSL-1.1',
+  // VeraCrypt: new code Apache-2.0, code inherited from TrueCrypt under its 3.0 license.
+  'Apache-2.0 AND LicenseRef-TrueCrypt-3.0',
 ]);
 export const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 export const httpsUrl = z.url().refine((value) => {
