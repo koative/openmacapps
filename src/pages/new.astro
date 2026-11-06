@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AppLockup from '../components/AppLockup.astro';
+import { getApps, newestFirst } from '../lib/catalog';
+import { appItemList, breadcrumbList } from '../lib/guides';
+import { site } from '../lib/site';
+const all = getApps();
+const apps = newestFirst(all).slice(0, 120);
+const byDate = Map.groupBy(apps, (app) => app.added);
+const formatDate = (iso: string) =>
+  new Date(`${iso}T00:00:00Z`).toLocaleDateString('en-US', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout
+  title={`New open-source Mac apps — ${site.name}`}
+  description={`The ${apps.length} newest open-source Mac apps on ${site.name}, by the date each was added, with license details and official download links.`}
+  section=""
+  structuredData={[
+    appItemList(apps),
+    breadcrumbList([['Recently Added', 'new/']]),
+  ]}
+>
+  <header class="page-head">
+    <h1>Recently Added</h1>
+    <p>
+      {`The ${apps.length} newest of ${all.length.toLocaleString('en-US')} apps, by the date each joined the catalog.`}
+    </p>
+  </header>
+  {[...byDate].map(([date, group]) => (
+    <section class="section" aria-labelledby={`added-${date}`}>
+      <header class="shelf-head">
+        <div>
+          <h2 id={`added-${date}`}>
+            <time datetime={date}>{formatDate(date)}</time>
+          </h2>
+        </div>
+      </header>
+      <div class="lockup-grid">
+        {group.map((app) => (
+          <AppLockup app={app} />
+        ))}
+      </div>
+    </section>
+  ))}
+  <p class="note new-more">
+    Follow new additions with the <a href={`${base}feed.xml`}>RSS feed</a>, or
+    browse every app in <a href={`${base}search/?sort=newest`}>Search</a>.
+  </p>
+</Layout>

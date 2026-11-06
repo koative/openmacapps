@@ -338,3 +338,9 @@ export function getApps(): CatalogApp[] {
   if (!env?.PROD) return loadCatalog();
   return (buildCache ??= loadCatalog());
 }
+
+/** Newest additions first, then by name: the order of the RSS feed, Recently Added and /new/. */
+export const newestFirst = (apps: CatalogApp[]) =>
+  [...apps].sort(
+    (a, b) => b.added.localeCompare(a.added) || a.name.localeCompare(b.name),
+  );
