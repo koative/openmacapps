@@ -3,6 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import { ArrowUpRight } from '@lucide/astro';
 import { getApps } from '../lib/catalog';
 import { site } from '../lib/site';
+import research from '../../research/candidates.json';
+import researchSources from '../../research/sources.json';
 const base = import.meta.env.BASE_URL;
 const apps = getApps();
 const count = (n: number) => n.toLocaleString('en-US');
@@ -29,6 +31,9 @@ const formatDate = (iso: string) =>
     year: 'numeric',
     timeZone: 'UTC',
   });
+// Discovery numbers come from the research queue, so they follow `bun run discover`.
+const leads = research.candidates.length;
+const listCount = researchSources.length;
 // Read from GitHub's API (licenseInfo.spdxId) on 2026-11-06; method in docs/VERIFICATION.md.
 const examples = [
   {
@@ -172,11 +177,12 @@ const examples = [
     <section>
       <h2>Where the apps come from.</h2>
       <p>
-        We started from 10 <a href={`${base}about/`}>community lists</a> of Mac
-        apps. On November 2, 2026, they linked to 1,975 GitHub repositories.
-        Homebrew’s install data added 382 more leads. A lead is only listed
-        after it passes the checks above. More than 1,000 apps are listed so
-        far.
+        We started from {listCount}{' '}
+        <a href={`${base}about/`}>community lists</a> of Mac apps. On{' '}
+        {formatDate(research.checked)}, they linked to {count(leads)} GitHub
+        repositories. Homebrew’s install data added 382 more leads. A lead is
+        only listed after it passes the checks above. More than 1,000 apps are
+        listed so far.
       </p>
       <p>
         The{' '}
