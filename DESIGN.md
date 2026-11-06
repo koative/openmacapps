@@ -522,6 +522,8 @@ Rule-based landing pages built from `content/alternatives` and `content/topics`;
 
 The Alternatives index groups collection links under category section headings. Topics are reached through Categories: the Categories page and each category page show a Browse by Topic row (a topic belongs to its declared category, else to the category holding more than half its apps), and Discover shows the eight most populated alternatives pages after Browse by Category. Product pages link back through Alternative to and Topics rows in the Information list.
 
+Recently Added is the lockup shelf directly under In the Spotlight on Discover: the twelve newest apps by `added` date, then name (the RSS feed's order). Its See All opens `/new/`, a large-title page with a Secondary Label line, the newest 120 apps (plus the rest of the last date, so no day is cut short) in the lockup grid under date section headings, and a closing note linking the RSS feed and Search. It has no sidebar row or tab.
+
 ### Letter-Tile Icon Fallback
 
 When an app has no icon artwork, a squircle (22.5% radius) in one of the category colours shows the app's first letter in white at 46% of the size, weight 700. The colour is picked from the slug's character sum modulo the eleven categories, so a page of fallbacks is varied but stable. It is decorative (`aria-hidden`); the name beside it carries meaning.

@@ -1,4 +1,4 @@
-import { categories, getApps } from '../lib/catalog';
+import { categories, getApps, newestFirst } from '../lib/catalog';
 import { collections, categorySlug } from '../lib/collections';
 import { getAlternatives, getTopics } from '../lib/guides';
 import { site } from '../lib/site';
@@ -7,6 +7,7 @@ export function GET() {
   /** [path, lastmod?]; lastmod comes from each record's verification date. */
   const entries: [string, string?][] = [
     [''],
+    ['new/', newestFirst(getApps())[0]?.added],
     ['search/'],
     ['categories/'],
     ...categories.map((category): [string] => [

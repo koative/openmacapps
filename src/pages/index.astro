@@ -8,7 +8,7 @@ import ShotCard from '../components/ShotCard.astro';
 import SpotlightCard from '../components/SpotlightCard.astro';
 import CollectionLink from '../components/CollectionLink.astro';
 import { ArrowUpRight } from '@lucide/astro';
-import { getApps, categories } from '../lib/catalog';
+import { getApps, categories, newestFirst } from '../lib/catalog';
 import { collections, spotlights, categorySlug } from '../lib/collections';
 import { getAlternatives, picksFirst, sourceCount } from '../lib/guides';
 import { site } from '../lib/site';
@@ -52,6 +52,19 @@ const base = import.meta.env.BASE_URL;
         eager={index < 2}
       />
     ))}
+  </Shelf>
+
+  <Shelf
+    id="recently-added"
+    title="Recently Added"
+    subtitle="The newest apps in the catalog."
+    href={`${base}new/`}
+  >
+    {newestFirst(apps)
+      .slice(0, 12)
+      .map((app) => (
+        <AppLockup app={app} />
+      ))}
   </Shelf>
 
   {collections.map((collection) => (

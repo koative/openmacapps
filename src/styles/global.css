@@ -1139,6 +1139,10 @@ main {
   font-size: 13px;
 }
 
+.new-more {
+  margin-top: 28px;
+}
+
 /* Product page */
 
 .product-head {

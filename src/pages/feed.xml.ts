@@ -1,4 +1,4 @@
-import { getApps } from '../lib/catalog';
+import { getApps, newestFirst } from '../lib/catalog';
 import { site, absoluteUrl } from '../lib/site';
 
 const escape = (text: string) =>
@@ -10,11 +10,7 @@ const escape = (text: string) =>
 const rfc822 = (date: string) => new Date(`${date}T00:00:00Z`).toUTCString();
 
 export function GET() {
-  const apps = [...getApps()]
-    .sort(
-      (a, b) => b.added.localeCompare(a.added) || a.name.localeCompare(b.name),
-    )
-    .slice(0, 50);
+  const apps = newestFirst(getApps()).slice(0, 50);
   const items = apps.map((app) => {
     const url = absoluteUrl(`apps/${app.slug}/`);
     return `<item><title>${escape(app.name)}</title><link>${url}</link><description>${escape(app.summary)}</description><category>${escape(app.category)}</category><pubDate>${rfc822(app.added)}</pubDate><guid isPermaLink="true">${url}</guid></item>`;
