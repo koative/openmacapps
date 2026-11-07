@@ -4,7 +4,7 @@
 
 ## The mark
 
-A blue squircle holding a white 2×2 grid of app tiles. The top-right tile is lifted up and out of the grid: the apps are open. It was chosen on 2026-11-06 (see `PRODUCT.md`, Brand Commitments) and replaces the earlier blue square with a cube.
+A blue squircle holding a white 2×2 grid of app tiles. The top-right tile is lifted up and out of the grid: the apps are open. It was chosen on 2026-11-06 and replaces the earlier blue square with a cube.
 
 The geometry is fixed. Use the files below; never redraw, rebalance or re-space the tiles.
 
