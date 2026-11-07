@@ -1,5 +1,14 @@
 # Release verification
 
+## Old and re-added apps — 2026-11-07
+
+Every listing whose last release (or last push, without releases) is older than 2020 was checked: 51 apps. The release binaries of all those with a downloadable build are 64-bit, so they still open on current macOS.
+
+- **Removed, the thing they depend on is gone:** NWPusher (Apple's legacy binary push interface, shut down on 2021-03-31; its code has no other endpoint), CoreOS VM (CoreOS Container Linux, end of life in 2020), Overkill (keeps iTunes from opening; iTunes left macOS in 2019) and Sequel Pro (its 2016 release crashes on current macOS; Sequel Ace is listed).
+- **Removed, held out before and re-added by the bulk expansion:** Tracexy (official builds under separate commercial terms), Dockit (LICENSE says MIT, README says GPL-3.0) and uPic (LICENSE says Apache-2.0, README says MIT).
+- **Labelled unmaintained:** AppPolice, Medis, Manta, Is It Private, Tusk, Ao, Dozer and Postbird, none with a release since 2019 or earlier.
+- **New guard:** `research/held-out.json` records 52 repositories reviews decided against, with reasons; `bun run validate` refuses them and `bun run discover` marks them `held-out`.
+
 ## fb-mac-messenger removed — 2026-11-07
 
 fb-mac-messenger, a 2015 Intel-only wrapper around Messenger's website, was held out in the third expansion (`docs/RESEARCH.md`, "service gone or superseded") but came back in the seventh, bulk expansion, whose prefilter did not read earlier hold-outs. It is removed again.

@@ -1,0 +1,262 @@
+[
+  {
+    "repository": "https://github.com/rsms/fb-mac-messenger",
+    "date": "2026-11-07",
+    "reason": "Wrapper around Messenger's website; service gone (third expansion, removed again 2026-11-07)."
+  },
+  {
+    "repository": "https://github.com/sindresorhus/caprine",
+    "date": "2026-11-06",
+    "reason": "Messenger's desktop service is gone."
+  },
+  {
+    "repository": "https://github.com/noodlewerk/NWPusher",
+    "date": "2026-11-07",
+    "reason": "Uses only Apple's legacy binary APNs interface, shut down on 2021-03-31."
+  },
+  {
+    "repository": "https://github.com/TheNewNormal/coreos-osx",
+    "date": "2026-11-07",
+    "reason": "Runs CoreOS Container Linux, which reached end of life in 2020."
+  },
+  {
+    "repository": "https://github.com/woofwoofinc/rktmachine",
+    "date": "2026-11-06",
+    "reason": "CoreOS VM derivative; CoreOS and rkt are discontinued."
+  },
+  {
+    "repository": "https://github.com/KrauseFx/overkill-for-mac",
+    "date": "2026-11-07",
+    "reason": "Stops iTunes from opening; iTunes was removed from macOS in 2019."
+  },
+  {
+    "repository": "https://github.com/sequelpro/sequelpro",
+    "date": "2026-11-07",
+    "reason": "Superseded by Sequel Ace; the 2016 release crashes on current macOS."
+  },
+  {
+    "repository": "https://github.com/RockxyApp/Tracexy",
+    "date": "2026-11-07",
+    "reason": "Official builds ship under separate commercial terms; only self-built copies are AGPL."
+  },
+  {
+    "repository": "https://github.com/RockxyApp/Rockxy",
+    "date": "2026-10-29",
+    "reason": "Official builds ship under a proprietary EULA from private code."
+  },
+  {
+    "repository": "https://github.com/XiCheng148/Dockit",
+    "date": "2026-11-07",
+    "reason": "LICENSE says MIT, README says GPL-3.0."
+  },
+  {
+    "repository": "https://github.com/gee1k/uPic",
+    "date": "2026-11-07",
+    "reason": "LICENSE says Apache-2.0, README says MIT."
+  },
+  {
+    "repository": "https://github.com/ComputelessComputer/autoprompter",
+    "date": "2026-11-06",
+    "reason": "Fork of Textream, already listed."
+  },
+  {
+    "repository": "https://github.com/finestructure/Hummingbird",
+    "date": "2026-11-06",
+    "reason": "Derived from Easy Move+Resize, already listed."
+  },
+  {
+    "repository": "https://github.com/Threadlines/threadlines",
+    "date": "2026-11-06",
+    "reason": "Fork of T3 Code."
+  },
+  {
+    "repository": "https://github.com/martonpaulo/windowhop",
+    "date": "2026-11-06",
+    "reason": "Fork of AltTab, already listed."
+  },
+  {
+    "repository": "https://github.com/The-PatientZero/yank",
+    "date": "2026-11-06",
+    "reason": "Fork of Buffer, already listed."
+  },
+  {
+    "repository": "https://github.com/harkhowalia-1/Harbor",
+    "date": "2026-11-06",
+    "reason": "Runs decrypted iPhone app packages."
+  },
+  {
+    "repository": "https://github.com/madeyexz/louisa-wifi",
+    "date": "2026-11-06",
+    "reason": "Guesses Wi-Fi passwords."
+  },
+  {
+    "repository": "https://github.com/TranPhuong319/AppLocker",
+    "date": "2026-11-06",
+    "reason": "Unclear whether the release works without relaxing System Integrity Protection."
+  },
+  {
+    "repository": "https://github.com/stark81/VutronMusic",
+    "date": "2026-11-06",
+    "reason": "Unofficial streaming client for personal study only."
+  },
+  {
+    "repository": "https://github.com/ayenora/screen-loupe",
+    "date": "2026-11-06",
+    "reason": "Official builds add closed-source parts."
+  },
+  {
+    "repository": "https://github.com/ProxymanApp/TCPViewer",
+    "date": "2026-11-06",
+    "reason": "The build's signer and copyright point to other companies."
+  },
+  {
+    "repository": "https://github.com/yagcioglutoprak/AIQuotaBar",
+    "date": "2026-11-06",
+    "reason": "The release is a widget host; the app is a script install."
+  },
+  {
+    "repository": "https://github.com/cheaper-inference/OmniRoute",
+    "date": "2026-11-06",
+    "reason": "Unclear whether the repository is the project's own."
+  },
+  {
+    "repository": "https://github.com/timonus/Rhea",
+    "date": "2026-11-06",
+    "reason": "Part of the source is not published."
+  },
+  {
+    "repository": "https://github.com/AgentiLoop/Agent",
+    "date": "2026-11-06",
+    "reason": "The README reserves all rights to the compiled builds."
+  },
+  {
+    "repository": "https://github.com/teologov/ReqRes",
+    "date": "2026-11-06",
+    "reason": "Proxy engine, certificates and licensing ship as a closed binary."
+  },
+  {
+    "repository": "https://github.com/NSEvent/xbox-controller-mapper",
+    "date": "2026-11-06",
+    "reason": "14-day trial, then paid, for its main job."
+  },
+  {
+    "repository": "https://github.com/nomandhoni-cs/blink-eye",
+    "date": "2026-11-06",
+    "reason": "Custom license: GPL-3.0 plus commercial-use restrictions."
+  },
+  {
+    "repository": "https://github.com/nick-friedrich/dockfinity",
+    "date": "2026-11-06",
+    "reason": "Custom non-commercial license."
+  },
+  {
+    "repository": "https://github.com/bastian-js/dropnote",
+    "date": "2026-11-06",
+    "reason": "Custom non-commercial license."
+  },
+  {
+    "repository": "https://github.com/alfital2/FlicKey",
+    "date": "2026-11-06",
+    "reason": "Custom source license."
+  },
+  {
+    "repository": "https://github.com/OlixIgnacious/keyholdr",
+    "date": "2026-11-06",
+    "reason": "Custom non-commercial license (KNCL-1.0)."
+  },
+  {
+    "repository": "https://github.com/Mcourtyard/m-courtyard",
+    "date": "2026-11-06",
+    "reason": "License file adds terms to a standard license."
+  },
+  {
+    "repository": "https://github.com/skundu42/quill",
+    "date": "2026-11-06",
+    "reason": "License file adds terms to a standard license."
+  },
+  {
+    "repository": "https://github.com/xiamiyu123/Swooshy",
+    "date": "2026-11-06",
+    "reason": "License file adds terms to a standard license."
+  },
+  {
+    "repository": "https://github.com/seemoo-lab/openhaystack",
+    "date": "2026-11-06",
+    "reason": "Installation disables Gatekeeper and loads a Mail plugin through a private interface."
+  },
+  {
+    "repository": "https://github.com/Mak5er/AirCard",
+    "date": "2026-11-06",
+    "reason": "iPhone modding tool built on an exploit."
+  },
+  {
+    "repository": "https://github.com/LNPANDY/NX2Apple",
+    "date": "2026-11-06",
+    "reason": "Ports Nintendo Switch games from user keys."
+  },
+  {
+    "repository": "https://github.com/alexrozanski/LlamaChat",
+    "date": "2026-11-06",
+    "reason": "Last release 2023; loads only model formats current tools no longer produce."
+  },
+  {
+    "repository": "https://github.com/yuzeguitarist/Deck",
+    "date": "2026-11-06",
+    "reason": "The app's source is All Rights Reserved."
+  },
+  {
+    "repository": "https://github.com/synth-inc/onit",
+    "date": "2026-11-06",
+    "reason": "License file is a one-line CC BY-NC pointer; builds come from a private repository."
+  },
+  {
+    "repository": "https://github.com/FuzzyIdeas/Cling",
+    "date": "2026-11-06",
+    "reason": "Public code paused while builds continue privately."
+  },
+  {
+    "repository": "https://github.com/Jarvis322/macos-sysdata",
+    "date": "2026-11-06",
+    "reason": "Current license allows reading and personal builds only."
+  },
+  {
+    "repository": "https://github.com/jonnyoo/glance",
+    "date": "2026-11-06",
+    "reason": "Bundles a face-recognition model whose terms are not stated."
+  },
+  {
+    "repository": "https://github.com/10xChengTu/Mux0",
+    "date": "2026-11-06",
+    "reason": "Source-available license with all rights reserved."
+  },
+  {
+    "repository": "https://github.com/rvarunrathod/HiFidelity",
+    "date": "2026-11-06",
+    "reason": "License reads all rights reserved."
+  },
+  {
+    "repository": "https://github.com/TREAFREE/FileIsland",
+    "date": "2026-11-06",
+    "reason": "Proprietary source-available license."
+  },
+  {
+    "repository": "https://github.com/MhmdEssB/retinalift",
+    "date": "2026-11-06",
+    "reason": "Command-line daemon with no Mac app build."
+  },
+  {
+    "repository": "https://github.com/chattymin/PokeTokenBar",
+    "date": "2026-11-06",
+    "reason": "Unofficial Pokémon fan project; trademark risk."
+  },
+  {
+    "repository": "https://github.com/sylearn/AIUsage",
+    "date": "2026-11-06",
+    "reason": "Pools one subscription across apps and API clients; probable provider terms issue."
+  },
+  {
+    "repository": "https://github.com/Xc1Ym/LumaNX",
+    "date": "2026-11-06",
+    "reason": "Needs the user's own console keys to decrypt game packages."
+  }
+]

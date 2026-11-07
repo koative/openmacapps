@@ -12,6 +12,8 @@ license: "LGPL-3.0"
 licenseUrl: "https://github.com/hql287/Manta/blob/master/LICENSE"
 download: "https://github.com/hql287/Manta/releases"
 freeDownload: true
+maintenance: "unmaintained"
+maintenanceNote: "No release since March 2018."
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

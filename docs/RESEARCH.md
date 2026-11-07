@@ -53,6 +53,7 @@ Inclusion rules:
 - **No paid-account gate:** Apps whose main job needs a paid account are not listed.
 - **Source-available licenses:** standard published licenses that allow personal use are listed with the Source available label: Commons Clause, FSL, PolyForm Noncommercial, Perimeter and Shield, and the CC BY-NC family. BSL counts only when its Additional Use Grant allows ordinary use. One-off custom licenses are not listed, apart from the reviewed exceptions in `src/lib/catalog.ts` (decided 2026-11-06).
 - **Star counts are not a criterion:** GitHub star count is not an eligibility or inclusion criterion.
+- **Decisions stick:** a repository a review decided against goes into `research/held-out.json` with the date and reason, and `bun run validate` refuses an app folder that points at it. Reversing a decision means removing the entry, with the new evidence, in the pull request that adds the app.
 
 ## Findings that change catalog decisions
 
