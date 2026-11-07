@@ -9,12 +9,12 @@ tags:
   - menu-bar
 repository: "https://github.com/codingnoye/gksdud"
 website: "https://gksdud.noye.dev/"
-license: "MIT"
+license: "Apache-2.0"
 licenseUrl: "https://github.com/codingnoye/gksdud/blob/main/LICENSE"
 download: "https://github.com/codingnoye/gksdud/releases"
 featured: false
 added: "2026-11-06"
-verified: "2026-11-06"
+verified: "2026-11-07"
 sources:
   - "https://github.com/codingnoye/gksdud"
   - "https://github.com/codingnoye/gksdud/blob/main/LICENSE"

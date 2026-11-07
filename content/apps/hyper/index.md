@@ -9,10 +9,12 @@ license: "MIT"
 licenseUrl: "https://github.com/vercel/hyper/blob/canary/LICENSE"
 download: "https://github.com/vercel/hyper/releases"
 freeDownload: true
+maintenance: "unmaintained"
+maintenanceNote: "No release since January 2023; the repository is archived."
 homebrew: "hyper"
 featured: false
 added: "2026-10-17"
-verified: "2026-10-17"
+verified: "2026-11-07"
 sources: ["https://github.com/vercel/hyper", "https://github.com/vercel/hyper/blob/canary/LICENSE", "https://github.com/vercel/hyper/releases"]
 assets: [{"path": "./assets/icon.png", "source": "https://github.com/vercel/hyper/blob/canary/app/static/icon.png", "credit": "Hyper contributors", "license": "MIT; project trademarks retained"}]
 icon: "./assets/icon.png"
