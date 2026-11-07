@@ -9,6 +9,8 @@ license: "MIT"
 licenseUrl: "https://github.com/luin/medis/blob/master/LICENSE"
 download: "https://github.com/luin/medis/releases"
 freeDownload: true
+maintenance: "unmaintained"
+maintenanceNote: "No release since February 2017."
 homebrew: "medis"
 featured: false
 added: "2026-10-17"

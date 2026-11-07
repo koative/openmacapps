@@ -14,6 +14,8 @@ license: "MIT"
 licenseUrl: "https://github.com/klaudiosinani/tusk/blob/master/license.md"
 download: "https://github.com/klaudiosinani/tusk/releases"
 freeDownload: true
+maintenance: "unmaintained"
+maintenanceNote: "No release since May 2019."
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

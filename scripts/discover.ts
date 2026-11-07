@@ -1,9 +1,11 @@
 import { getApps, normalizeRepository as normalize } from '../src/lib/catalog';
 import sources from '../research/sources.json';
+import heldOut from '../research/held-out.json';
 
 // Discovery is deliberately separate from publication: a public repository may
 // be a library, a closed-source distribution wrapper, or a stale application.
 const published = new Set(getApps().map((app) => normalize(app.repository)));
+const held = new Set(heldOut.map((entry) => normalize(entry.repository)));
 const directories = new Set(
   sources.map((source) => normalize(source.repository)),
 );
@@ -51,7 +53,11 @@ const records = [...candidates]
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([repository, discoveredIn]) => ({
     repository,
-    status: published.has(repository) ? 'published' : 'needs-review',
+    status: published.has(repository)
+      ? 'published'
+      : held.has(repository)
+        ? 'held-out'
+        : 'needs-review',
     discoveredIn: [...discoveredIn].sort(),
   }));
 await Bun.write(

@@ -12,6 +12,8 @@ license: "MIT"
 licenseUrl: "https://github.com/Paxa/postbird/blob/master/LICENSE"
 download: "https://github.com/Paxa/postbird/releases/download/0.8.4/Postbird-0.8.4.dmg"
 freeDownload: true
+maintenance: "unmaintained"
+maintenanceNote: "No release since November 2019."
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

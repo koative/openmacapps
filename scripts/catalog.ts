@@ -5,10 +5,12 @@ import {
   categories,
   getApps,
   catalogDirectory,
+  normalizeRepository,
   type CatalogApp,
 } from '../src/lib/catalog.ts';
 import { loadAlternatives, loadTopics } from '../src/lib/guides.ts';
 import { categorySlug } from '../src/lib/collections.ts';
+import heldOut from '../research/held-out.json';
 
 const START = '<!-- catalog:start -->';
 const END = '<!-- catalog:end -->';
@@ -89,6 +91,16 @@ try {
   const apps = getApps();
   if (!apps.length)
     throw new Error('The catalog must contain at least one app');
+  const held = new Map(
+    heldOut.map((entry) => [normalizeRepository(entry.repository), entry]),
+  );
+  for (const app of apps) {
+    const entry = held.get(normalizeRepository(app.repository));
+    if (entry)
+      throw new Error(
+        `[${app.slug}] ${app.repository} was held out on ${entry.date}: ${entry.reason} Remove it from research/held-out.json if that decision changes.`,
+      );
+  }
   const alternatives = loadAlternatives(apps);
   const topics = loadTopics(apps);
   if (command === 'sync') {

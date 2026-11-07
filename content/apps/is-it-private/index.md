@@ -11,6 +11,8 @@ website: "https://github.com/ffittschen/IsItPrivate"
 license: "MIT"
 licenseUrl: "https://github.com/ffittschen/IsItPrivate/blob/master/LICENSE"
 download: "https://github.com/ffittschen/IsItPrivate/releases/latest"
+maintenance: "unmaintained"
+maintenanceNote: "No release since October 2018."
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"
