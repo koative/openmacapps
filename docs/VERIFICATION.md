@@ -1,5 +1,15 @@
 # Release verification
 
+## Catalog drift scan — 2026-11-07
+
+Every listing was checked against its repository through GitHub's GraphQL API: whether the repository still resolves and under which name, whether it is archived, GitHub's license field against ours, and whether the license file has changed since the listing's `verified` date. The five listings hosted outside GitHub were fetched directly.
+
+- **Resolved:** all 1,887 repositories (1,882 on GitHub, 5 elsewhere).
+- **License changed:** gksdud moved from MIT to Apache-2.0 on 2026-11-06, the day it was added. The other license-file changes since verification are copyright years, notices and formatting.
+- **Moved:** Wink was transferred to `hey-yvan/Wink`. AI Novel Writer was renamed Pagekin, with a new icon; its page moves to `/apps/pagekin/`.
+- **Archived:** Hyper and wechsel are now listed as unmaintained.
+- **Not changed:** LibreOffice, where GitHub reads `COPYING` (GPL-3.0) but the project's license is MPL-2.0 (`COPYING.MPL`). 161 repositories have no license GitHub can identify; their files were read at verification and none changed since.
+
 ## Four listings re-checked — 2026-11-07
 
 The 2026-11-06 count found two repositories that no longer resolve and two licenses that differ from GitHub's. Each was re-checked against the repository and its license file.

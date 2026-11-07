@@ -6,24 +6,24 @@ tags:
   - keyboard-shortcuts
   - app-switcher
   - menu-bar
-repository: "https://github.com/xrf9268-hue/Wink"
+repository: "https://github.com/hey-yvan/Wink"
 website: "https://wink.aixie.de"
 license: "MIT"
-licenseUrl: "https://github.com/xrf9268-hue/Wink/blob/main/LICENSE"
-download: "https://github.com/xrf9268-hue/Wink/releases/latest"
+licenseUrl: "https://github.com/hey-yvan/Wink/blob/main/LICENSE"
+download: "https://github.com/hey-yvan/Wink/releases/latest"
 freeDownload: true
 featured: false
 added: "2026-11-06"
-verified: "2026-11-06"
+verified: "2026-11-07"
 icon: "./assets/icon.png"
 sources:
-  - "https://github.com/xrf9268-hue/Wink"
-  - "https://github.com/xrf9268-hue/Wink/blob/main/LICENSE"
-  - "https://github.com/xrf9268-hue/Wink/releases/latest"
+  - "https://github.com/hey-yvan/Wink"
+  - "https://github.com/hey-yvan/Wink/blob/main/LICENSE"
+  - "https://github.com/hey-yvan/Wink/releases/latest"
   - "https://wink.aixie.de"
 assets:
   - path: "./assets/icon.png"
-    source: "https://raw.githubusercontent.com/xrf9268-hue/Wink/main/Sources/Wink/Resources/AppIcon.icns"
+    source: "https://raw.githubusercontent.com/hey-yvan/Wink/main/Sources/Wink/Resources/AppIcon.icns"
     credit: "Wink contributors"
     license: "MIT; upstream app icon, trademarks retained"
 ---
