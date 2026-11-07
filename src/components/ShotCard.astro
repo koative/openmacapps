@@ -4,8 +4,9 @@ import { appImage } from '../lib/images';
 import type { CatalogApp } from '../lib/catalog';
 interface Props {
   app: CatalogApp;
+  eager?: boolean;
 }
-const { app } = Astro.props;
+const { app, eager = false } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const shot = app.screenshots[0];
 const image = await appImage(app.slug, shot.src, shot.url, [400, 800]);
@@ -18,7 +19,8 @@ const image = await appImage(app.slug, shot.src, shot.url, [400, 800]);
       srcset={image.srcset}
       sizes="(max-width: 900px) 70vw, 320px"
       alt={shot.alt}
-      loading="lazy"
+      loading={eager ? 'eager' : 'lazy'}
+      fetchpriority={eager ? 'high' : undefined}
       decoding="async"
       width="640"
       height="400"

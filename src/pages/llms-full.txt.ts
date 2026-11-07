@@ -13,11 +13,11 @@ export function GET() {
       .filter((app) => app.category === category)
       .map(
         (app) =>
-          `- [${app.name}](${absoluteUrl(`apps/${app.slug}/`)}): ${app.summary.replace(/\.$/, '')}. License: ${app.license}.${app.sourceAvailability === 'source-available' ? ' Source available.' : ''}${app.maintenance === 'unmaintained' ? ' Unmaintained.' : ''} Download: ${new URL(app.download).hostname.replace(/^www\./, '')}.`,
+          `- [${app.name}](${absoluteUrl(`apps/${app.slug}/`)}): ${app.summary.replace(/\.$/, '')}. License: ${app.license}.${app.sourceAvailability === 'source-available' ? ' Source available.' : ''}${app.maintenance === 'unmaintained' ? ' Unmaintained.' : ''} Download: ${new URL(app.download).hostname.replace(/^www\./, '')}. Source: ${app.repository}. Checked: ${app.verified}.`,
       );
     return `## ${category}\n\n${lines.join('\n')}\n`;
   });
-  return new Response(`${llmsHeader}\n${sections.join('\n')}`, {
+  return new Response(`${llmsHeader(apps)}\n${sections.join('\n')}`, {
     headers: { 'Content-Type': 'text/plain; charset=utf-8' },
   });
 }

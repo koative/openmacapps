@@ -7,6 +7,8 @@ const base = basePath;
 let pages = 0;
 let links = 0;
 const errors: string[] = [];
+// Googlebot indexes only the first 2 MB of a page's HTML; fail with about 5% to spare.
+const maxPageBytes = 1_900_000;
 
 function inspect(directory: string) {
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
@@ -15,6 +17,11 @@ function inspect(directory: string) {
     else if (/\.(?:html|xml)$|\/llms[\w-]*\.txt$/.test(file)) {
       if (file.endsWith('.html')) pages++;
       const html = fs.readFileSync(file, 'utf8');
+      const bytes = Buffer.byteLength(html);
+      if (file.endsWith('.html') && bytes > maxPageBytes)
+        errors.push(
+          `${file}: ${bytes.toLocaleString('en-US')} bytes exceeds the ${maxPageBytes.toLocaleString('en-US')}-byte page limit`,
+        );
       for (const match of html.matchAll(
         /\b(href|src|srcset)=(?:"([^"]*)"|'([^']*)')|<loc>([^<]*)<\/loc>|\]\(([^)\s]+)\)/g,
       )) {

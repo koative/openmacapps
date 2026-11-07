@@ -187,14 +187,23 @@ const base = import.meta.env.BASE_URL;
   </section>
 </Layout>
 <script>
-  import { collections } from '../lib/collections';
+  import { collections, categorySlug } from '../lib/collections';
   // Links shared before the store had dedicated pages used query filters on the home page.
   const params = new URLSearchParams(location.search);
   const collection = collections.find(
     (entry) => entry.id === params.get('collection'),
   );
   const base = import.meta.env.BASE_URL;
+  // A lone category (by name or slug) opens its category page, found among the tiles above.
+  const categoryTile =
+    params.has('category') &&
+    !['q', 'tag', 'source', 'sort'].some((key) => params.has(key))
+      ? document.querySelector<HTMLAnchorElement>(
+          `.category-tile[href="${base}categories/${categorySlug(params.get('category')!)}/"]`,
+        )
+      : null;
   if (collection) location.replace(`${base}collections/${collection.id}/`);
+  else if (categoryTile) location.replace(categoryTile.href);
   else if (
     ['q', 'category', 'tag', 'source', 'sort'].some((key) => params.has(key))
   )

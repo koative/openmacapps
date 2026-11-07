@@ -443,7 +443,7 @@ An Apple system palette in two appearances: neutral greys that step from canvas 
 
 ## Layout
 
-A two-column shell: a 260px sticky sidebar, one viewport tall and independently scrollable, beside a main column whose content caps at 1320px. The cap is applied as growing horizontal padding (`max(pad, (100% − 1320px) / 2)`), so every child of main shares one column edge. Main padding is 30px top and 40px bottom on desktop.
+A two-column shell: a 260px sticky sidebar, one viewport tall and independently scrollable, beside a main column whose content caps at 1320px. The cap is applied as growing horizontal padding (`max(pad, (100% − 1320px) / 2)`), so every child of main shares one column edge. The site footer is a sibling of main in the same column and repeats that edge as margin. Main padding is 30px top on desktop; the 40px bottom space sits on the footer.
 
 Shelves stack with 40px between them; each shelf after the first opens with an 18px-padded hairline above its header. A shelf or section that directly follows the page head sits flush under it, with no hairline. A shelf header holds the heading and optional subtitle on the left, See All and the paired pagers on the right. Tracks are horizontal, snap to start, and use the 24px gap; they show a thin native scrollbar until the pager script runs, then hide it. Lockup shelves show three columns of three rows; spotlight shelves show two-and-a-bit cards; screenshot shelves show four cards (or a 78% / 780px max figure on product pages). Search, category, alternatives and topic results use a three-column lockup grid. The category grid auto-fills 230px-minimum tiles (280px on the Categories page). The Information list is three columns.
 

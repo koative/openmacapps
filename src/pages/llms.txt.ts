@@ -11,7 +11,7 @@ export function GET() {
   const apps = getApps();
   const alternatives = getAlternatives();
   const topics = getTopics();
-  const body = `${llmsHeader}
+  const body = `${llmsHeader(apps)}
 ## Key pages
 
 ${link('Discover', '', 'featured apps, editorial collections, categories and open-source alternatives.')}
