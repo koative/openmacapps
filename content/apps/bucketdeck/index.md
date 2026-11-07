@@ -7,6 +7,8 @@ tags:
   - file-transfer
   - s3
   - native
+alternativeTo:
+  - transmit
 repository: https://github.com/koative/bucketdeck
 website: https://bucketdeck.com
 license: GPL-3.0-only
@@ -22,15 +24,15 @@ screenshots:
   - src: ./assets/grid.webp
     alt: Grid view of a demo campaign folder with photo and video thumbnails and the Info panel for a selected photo.
     source: https://github.com/koative/bucketdeck/blob/main/docs/media/browser-grid.png
-    credit: Koative
+    credit: koative
   - src: ./assets/list.webp
     alt: List view of the same folder with name, size, modified and kind columns, a selected photo and the Info panel.
     source: https://github.com/koative/bucketdeck/blob/main/docs/media/browser-list.png
-    credit: Koative
+    credit: koative
   - src: ./assets/storage-overview.webp
     alt: Storage Overview of a demo bucket with a treemap of its folders by size, its storage classes and largest files.
     source: https://github.com/koative/bucketdeck/blob/main/docs/media/storage-overview.png
-    credit: Koative
+    credit: koative
 sources:
   - https://github.com/koative/bucketdeck
   - https://github.com/koative/bucketdeck/blob/main/LICENSE
@@ -39,22 +41,22 @@ sources:
 assets:
   - path: ./assets/icon.png
     source: https://github.com/koative/bucketdeck/blob/main/brand/app-icon/bucketdeck-256.png
-    credit: Koative
+    credit: koative
     license: Koative LLC's app icon, not covered by the GPL-3.0 code license; macOS's own rendering of the app icon, used unmodified to identify the app
   - path: ./assets/grid.webp
     source: https://github.com/koative/bucketdeck/blob/main/docs/media/browser-grid.png
-    credit: Koative
+    credit: koative
     license: GPL-3.0 (repository license); real app window with fictional demo content
   - path: ./assets/list.webp
     source: https://github.com/koative/bucketdeck/blob/main/docs/media/browser-list.png
-    credit: Koative
+    credit: koative
     license: GPL-3.0 (repository license); real app window with fictional demo content
   - path: ./assets/storage-overview.webp
     source: https://github.com/koative/bucketdeck/blob/main/docs/media/storage-overview.png
-    credit: Koative
+    credit: koative
     license: GPL-3.0 (repository license); real app window with fictional demo content
 ---
 
 Bucketdeck opens S3 buckets like folders on your Mac: grid and list views, thumbnails, Quick Look, an Info panel with headers, tags and photo details, version history, presigned share links with a QR code, and parallel downloads and uploads. A Storage Overview maps a folder by size and kind, and Compare with Local Folder checks a local copy and can update either side without deleting anything.
 
-Every connection is read-only until you turn on Allow changes for it, and keys you enter are kept in the macOS Keychain. It works with custom endpoints, path-style addressing, AWS CLI profiles and buckets your key can't list. It is an early release that needs macOS 26 or later; the project's compatibility notes record live tests against Amazon S3, MinIO, RustFS, SeaweedFS, Garage and S3Mock. Releases up to v0.2.3 were MIT-licensed; later work is under the GPL-3.0. It is published by Koative, the team behind this catalog.
+Every connection is read-only until you turn on Allow changes for it, and keys you enter are kept in the macOS Keychain. It works with custom endpoints, path-style addressing, AWS CLI profiles and buckets your key can't list. It is an early release that needs macOS 26 or later; the project's compatibility notes record live tests against Amazon S3, MinIO, RustFS, SeaweedFS, Garage and S3Mock. Releases up to v0.2.3 were MIT-licensed; later work is under the GPL-3.0. It is made by koative, the team behind this catalog.

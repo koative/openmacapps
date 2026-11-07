@@ -60,8 +60,13 @@ export const collections = [
   },
 ] as const;
 
-/** Discover spotlights: editorial headlines over each app's real screenshot. */
-export const spotlights = [
+/** Discover spotlights: editorial headlines over each app's real screenshot. A byline discloses our own apps. */
+export const spotlights: {
+  slug: string;
+  headline: string;
+  stage: string;
+  byline?: string;
+}[] = [
   { slug: 'iina', headline: 'Press play. Enjoy everything.', stage: '#1d3a5c' },
   {
     slug: 'cap',
@@ -84,7 +89,13 @@ export const spotlights = [
     headline: 'API collections that live with your code.',
     stage: '#4d3a1f',
   },
-] as const;
+  {
+    slug: 'bucketdeck',
+    headline: 'Your S3 buckets, at home on your Mac.',
+    stage: '#253945',
+    byline: 'By koative, the makers of OpenMacApps',
+  },
+];
 
 /** URL segment for a category name, e.g. "Privacy & security" → "privacy-security". */
 export const categorySlug = (category: string) =>

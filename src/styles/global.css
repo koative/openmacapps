@@ -689,6 +689,13 @@ main {
   line-clamp: 1;
 }
 
+.spotlight-byline {
+  display: block;
+  margin-top: 2px;
+  color: rgb(255 255 255 / 0.85);
+  font-size: 12px;
+}
+
 .spotlight-link:focus-visible {
   outline: none;
 }

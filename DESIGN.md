@@ -54,6 +54,7 @@ colors:
   stage-maccy: "#2f4a3a"
   stage-markedit: "#5c3b28"
   stage-bruno: "#4d3a1f"
+  stage-bucketdeck: "#253945"
 typography:
   large-title:
     fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
@@ -384,7 +385,7 @@ An Apple system palette in two appearances: neutral greys that step from canvas 
 ### Tertiary
 
 - **Category Spectrum** (cat-productivity, cat-developer-tools, cat-utilities, cat-media, cat-privacy-security, cat-writing, cat-design, cat-internet, cat-education, cat-games, cat-ai): eleven system colours, one per category, used as the background of category glyph tiles and of letter-tile icon fallbacks. Same value in both appearances; glyphs and letters on them are white.
-- **Spotlight Stages** (stage-iina, stage-cap, stage-rectangle, stage-maccy, stage-markedit, stage-bruno): deep, desaturated tints set per spotlight in `src/lib/collections.ts`, chosen to sit behind that app's screenshot. They are data, not interface colours; a new spotlight picks a new dark tint in the same family.
+- **Spotlight Stages** (stage-iina, stage-cap, stage-rectangle, stage-maccy, stage-markedit, stage-bruno, stage-bucketdeck): deep, desaturated tints set per spotlight in `src/lib/collections.ts`, chosen to sit behind that app's screenshot. They are data, not interface colours; a new spotlight picks a new dark tint in the same family.
 
 ### Neutral
 
@@ -502,7 +503,7 @@ A section with a hairline-topped header, heading, optional subtitle, See All lin
 
 ### Spotlight Card
 
-A 16px-radius card on a per-app tinted stage, clamp(340px, 29vw, 430px) tall (360px on mobile). The headline sits top-left in white; the real screenshot fills the stage with `object-fit: contain` anchored to the bottom, under the Spotlight window shadow. A lockup band (48px icon, name, one-line summary at 85% white) is pinned to the bottom edge over a `rgb(0 0 0 / 0.6)` tint with backdrop blur; that density keeps white text at 5.7:1 or better and the summary at 4.6:1 or better even over a white screenshot. The stage pads `18px 30px 14px` on desktop, so the band overlaps the screenshot's lower edge and the blur has real pixels beneath it; at 900px and below it pads `16px 18px 40px`, so the screenshot ends just above the band and app controls never sit behind the text. The Get pill sits over the band's right end. Hover or focus lifts the screenshot 4px over 0.5s; keyboard focus rings the whole card through `:has()`.
+A 16px-radius card on a per-app tinted stage, clamp(340px, 29vw, 430px) tall (360px on mobile). The headline sits top-left in white; the real screenshot fills the stage with `object-fit: contain` anchored to the bottom, under the Spotlight window shadow. A lockup band (48px icon, name, one-line summary at 85% white) is pinned to the bottom edge over a `rgb(0 0 0 / 0.6)` tint with backdrop blur; that density keeps white text at 5.7:1 or better and the summary at 4.6:1 or better even over a white screenshot. An app made by koative adds a 12px byline under the summary at the same 85% white ("By koative, the makers of OpenMacApps"), so the catalog never features its own work without saying so. The stage pads `18px 30px 14px` on desktop, so the band overlaps the screenshot's lower edge and the blur has real pixels beneath it; at 900px and below it pads `16px 18px 40px`, so the screenshot ends just above the band and app controls never sit behind the text. The Get pill sits over the band's right end. Hover or focus lifts the screenshot 4px over 0.5s; keyboard focus rings the whole card through `:has()`.
 
 ### Shot Card
 

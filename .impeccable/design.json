@@ -783,6 +783,21 @@
           "oklch(83.6% 0.0490 74.90)",
           "oklch(95.0% 0.0490 74.90)"
         ]
+      },
+      "stage-bucketdeck": {
+        "role": "tertiary",
+        "displayName": "Bucketdeck Stage Slate",
+        "canonical": "#253945",
+        "tonalRamp": [
+          "oklch(15.0% 0.0332 235.46)",
+          "oklch(26.4% 0.0332 235.46)",
+          "oklch(37.9% 0.0332 235.46)",
+          "oklch(49.3% 0.0332 235.46)",
+          "oklch(60.7% 0.0332 235.46)",
+          "oklch(72.1% 0.0332 235.46)",
+          "oklch(83.6% 0.0332 235.46)",
+          "oklch(95.0% 0.0332 235.46)"
+        ]
       }
     },
     "typographyMeta": {
