@@ -1,5 +1,14 @@
 # Release verification
 
+## Four listings re-checked — 2026-11-07
+
+The 2026-11-06 count found two repositories that no longer resolve and two licenses that differ from GitHub's. Each was re-checked against the repository and its license file.
+
+- **ApolloShell:** relicensed from MIT to AGPL-3.0 on 2026-10-23 (LICENSE history and README); the record now says AGPL-3.0.
+- **Muxy:** relicensed from MIT to Apache-2.0 on 2026-11-04; the record now says Apache-2.0.
+- **Telegram for macOS:** the source moved from `overtake/TelegramSwift` to `TelegramMessenger/telegram-macos`, which telegram.org/apps links; still GPL-2.0, the icon file is unchanged. Repository, license and asset links updated.
+- **mxMarkEdit:** removed. The `maxnd` account and its repository are gone, and no other public source was found, so the listing no longer meets the first inclusion rule.
+
 ## Source-available licenses and 13 apps — 2026-11-06
 
 Six licenses were added to the reviewed source-available list in `src/lib/catalog.ts` (`docs/RESEARCH.md` → Source-available licenses), and 13 apps that had been skipped only for their license or its identifier were added. Each license file was re-read; each record states what the license allows in `licenseNotes`.

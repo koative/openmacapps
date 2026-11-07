@@ -11,13 +11,13 @@ tags:
   - terminal-emulator
 repository: https://github.com/muxy-app/muxy
 website: https://muxy.app
-license: "MIT"
+license: "Apache-2.0"
 licenseUrl: https://github.com/muxy-app/muxy/blob/main/LICENSE
 download: https://github.com/muxy-app/muxy/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: '2026-11-07'
 icon: ./assets/icon.png
 sources:
   - https://github.com/muxy-app/muxy
