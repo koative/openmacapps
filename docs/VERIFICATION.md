@@ -1,5 +1,13 @@
 # Release verification
 
+## Old apps that depend on a web service — 2026-11-07
+
+Eight old apps that call an outside service were traced to the hosts in their source, and each host was probed without credentials; issue trackers were read for recent breakage reports. Two licenses held out earlier were read again.
+
+- **Removed:** Crypto Bar (CryptoCompare's API now wants a key the app cannot take; its stream no longer answers), ScreenCat (signalling host no longer resolves), Tusk (Evernote moved its login; blank-window reports since 2025), Katana (both built-in upload hosts shut down; the tagged source ships no Imgur token) and Copilot for Xcode (official builds link a closed Pro module for paid Plus features, the same pattern as Tracexy). All five are in `research/held-out.json`.
+- **Corrected:** Playback no longer promises torrent, YouTube or IPFS links (its tracker and gateway do not answer); Hacker Menu's website now points at its repository, because hackermenu.io serves an unrelated spam page.
+- **Kept:** App Reviews (Apple's review feed and search answer), mac2imgur (its bundled Imgur client ID is accepted) and AFFiNE (the Enterprise Edition license itself places the parts shipped in the Community Edition desktop app under MPL-2.0, as the record says).
+
 ## Old and re-added apps — 2026-11-07
 
 Every listing whose last release (or last push, without releases) is older than 2020 was checked: 51 apps. The release binaries of all those with a downloadable build are 64-bit, so they still open on current macOS.
