@@ -21,6 +21,12 @@ sources:
   - "https://github.com/Studio3T/robomongo"
   - "https://github.com/Studio3T/robomongo/blob/master/LICENSE"
   - "https://github.com/Studio3T/robomongo/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Studio3T/robomongo/blob/master/install/macosx/robomongo.icns
+    credit: Robo 3T contributors
+    license: GPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Robo 3T, formerly Robomongo, is a MongoDB desktop client built around the mongo shell. You run shell commands in tabs and browse databases, collections and documents in the same window. Studio 3T acquired the project in 2017, and the README now says it is no longer being developed.

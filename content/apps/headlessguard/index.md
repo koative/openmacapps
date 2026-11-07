@@ -20,6 +20,12 @@ sources:
   - "https://github.com/study8677/HeadlessGuard"
   - "https://github.com/study8677/HeadlessGuard/blob/main/LICENSE"
   - "https://github.com/study8677/HeadlessGuard/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/study8677/HeadlessGuard/releases/download/v0.1.0/HeadlessGuard-v0.1.0-macOS-arm64.zip
+    credit: Headless Guard contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Headless Guard looks for browsers that automation tools such as Playwright, Puppeteer, Selenium or Chrome-for-Testing launched and then left running after their task ended. It groups each browser's processes into one session, shows the evidence it found, and can stop the dedicated automation launcher first. It is observe-only by default, and it never touches ordinary Chrome windows or standard profiles. It is for developers and agents that drive browsers headlessly.

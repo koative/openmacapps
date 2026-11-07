@@ -23,6 +23,12 @@ sources:
   - "https://github.com/Neighbor-Z/SwiftMTP/releases"
   - "https://neighbor-z.github.io/swiftmtp-website"
   - "https://apps.apple.com/us/app/swiftmtp/id6802688224"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Neighbor-Z/SwiftMTP/releases/download/v1.3.2/SwiftMTP-1.3.2.dmg
+    credit: SwiftMTP contributors
+    license: GPL-2.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 SwiftMTP is a Swift app for moving files between a Mac and Android phones or cameras over MTP. You can browse device folders, drag files in either direction, create, rename and delete files on the device, preview them with Quick Look, and search in plain language. It needs no ADB or USB debugging, and it is an alternative to Android File Transfer. It is also listed on the Mac App Store.

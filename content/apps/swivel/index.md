@@ -20,6 +20,12 @@ sources:
   - "https://github.com/jonathanlotan/Swivel/blob/main/LICENSE"
   - "https://github.com/jonathanlotan/Swivel/releases"
   - "https://jonathanlotan.github.io/Swivel/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/jonathanlotan/Swivel/releases/download/v1.0.0/Swivel.dmg
+    credit: Swivel contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Swivel adds a radial menu for files on the Mac. Start dragging files in Finder or on the desktop, tap Shift, Command or Control, and drop on a slice to convert, crop, compress, remove metadata, recognize text or combine images into a PDF. It also provides Shortcuts actions and a command-line tool built on the same engine. It suits people who regularly reshape images and documents and want no upload step.

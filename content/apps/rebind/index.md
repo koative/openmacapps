@@ -20,6 +20,12 @@ sources:
   - "https://github.com/Blinks44/rebind/blob/main/LICENSE"
   - "https://github.com/Blinks44/rebind/releases"
   - "https://rebind.moduix.dev"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Blinks44/rebind/releases/download/v1.3.2/Rebind.dmg
+    credit: Rebind contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Rebind maps keyboard keys, middle and extra mouse buttons, mouse-wheel steps and some trackpad or Magic Mouse taps to actions. Actions include keyboard shortcuts, window halves and quarters, app switching, media keys, volume, Apple Shortcuts and Mission Control. Bindings are kept in profiles and can apply to all apps or only one. It suits people who want a side button or a modifier key to do something specific, and it runs from the menu bar with a visible paused state.

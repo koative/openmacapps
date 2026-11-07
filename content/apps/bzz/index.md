@@ -22,6 +22,12 @@ sources:
   - "https://github.com/zlopixatel/bzz/blob/main/LICENSE"
   - "https://github.com/zlopixatel/bzz/releases"
   - "https://zlopixatel.github.io/bzz/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/zlopixatel/bzz/releases/download/v0.3.0/Bzz.dmg
+    credit: Bzz contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Bzz is a menu bar app that notices when a word was typed in the wrong keyboard layout, such as Latin keys pressed while Russian was meant, and retypes it in the right layout when you press Space or punctuation. It checks words against a Russian dictionary with stemming and accepts a single typo in words of six or more letters. Cmd+Z reverts a correction within five seconds, and the tray icon pauses it. It suits people who switch between Russian and English layouts. The README says Windows support is planned.

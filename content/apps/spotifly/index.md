@@ -23,6 +23,12 @@ sources:
   - https://ralph.github.io/Spotifly/
   - https://raw.githubusercontent.com/ralph/Spotifly/main/README.md
   - https://github.com/ralph/Spotifly/releases/tag/v1.4.0
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/ralph/Spotifly/releases/download/v1.4.0/Spotifly-1.4.0.zip
+    credit: Spotifly contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Spotifly plays Spotify on the Mac from a SwiftUI window and needs a Spotify Premium account. You connect it to your account once in the browser, and that single authorisation both signs you in and makes the Mac available as a Spotify Connect device. From then on you can play music on the Mac itself or use Spotifly to control playback on your phone and speakers.

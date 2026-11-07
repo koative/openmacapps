@@ -20,6 +20,12 @@ sources:
   - "https://github.com/alpha2xyz/unfd"
   - "https://github.com/alpha2xyz/unfd/blob/main/LICENSE"
   - "https://github.com/alpha2xyz/unfd/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/alpha2xyz/unfd/releases/download/v0.4.1/unfd-0.4.1.zip
+    credit: unfd contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 unfd is for people who type Arabic and English on the same Mac and are tired of pressing the language key. Pressing Option-Shift-Space converts the last word or the selected text that was typed in the wrong layout. Address bars, email and password fields switch to English when you click them, and a slash at the start of a word switches to English for chat apps and terminals. It learns from corrections made repeatedly in the same kind of field. The README says it makes no network connections and keeps only settings, per-chat languages and learned field types. Its bundled Arabic and English word lists come from FrequencyWords under CC BY-SA 4.0, as listed in the NOTICE file.

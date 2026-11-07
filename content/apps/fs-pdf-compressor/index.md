@@ -21,6 +21,12 @@ sources:
   - "https://github.com/gitlares/fs-pdf-compressor/blob/main/LICENSE"
   - "https://github.com/gitlares/fs-pdf-compressor/releases"
   - "https://gitlares.github.io/fs-pdf-compressor/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/gitlares/fs-pdf-compressor/releases/download/v1.0.16/FS-PDF-Compressor-1.0.16-arm64.dmg
+    credit: FS PDF Compressor contributors
+    license: AGPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 FS PDF Compressor makes PDFs smaller by dropping files onto its window, onto an optional always-on-desktop Drop Zone, or through a Finder Quick Action. Compression uses Ghostscript bundled inside the app, so no website upload and no separate install are needed. It replaces the original only when the result is smaller, and an optional Keep original mode writes a compressed copy beside it. It suits people who regularly shrink scanned or exported PDFs before mailing or uploading them.

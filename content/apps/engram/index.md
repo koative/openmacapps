@@ -19,6 +19,12 @@ sources:
   - "https://github.com/albertofettucini/Engram"
   - "https://github.com/albertofettucini/Engram/blob/main/LICENSE"
   - "https://github.com/albertofettucini/Engram/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/albertofettucini/Engram/releases/download/v0.1.1/Engram-0.1.1.zip
+    credit: Engram contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Engram keeps your context in one private memory on your Mac. You import a ChatGPT or Claude export, Markdown, text, JSON or a pasted block, and each conversation is stored as a plain Markdown file. Any assistant that speaks the Model Context Protocol, such as Claude Desktop or Claude Code, can then recall that memory through the `engram-mcp` server, and the desktop app lets you browse, edit and import memories. Recall runs locally using Apple's Natural Language embeddings. It suits people who want the same background about them in several AI tools.

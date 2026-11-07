@@ -21,6 +21,12 @@ sources:
   - "https://github.com/matteogilioli/porter-for-claude-desktop/blob/main/LICENSE"
   - "https://github.com/matteogilioli/porter-for-claude-desktop/releases"
   - "https://matteogilioli.github.io/porter-for-claude-desktop/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/matteogilioli/porter-for-claude-desktop/releases/download/v1.2.1/Porter.dmg
+    credit: Porter for Claude Desktop contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Porter is a menu bar app for the Code tab of Claude Desktop. When one account reaches its usage limit, it moves the stopped Claude Code sessions to another account so you can pick up where you left off. It can also run several Claude Desktop profiles at once, each signed in to a different account, and it lists, archives, restores, deletes and moves sessions and project folders. Before every change it saves a backup, and the same actions are available from the command line. It is for people with more than one Claude account who work in Claude Code sessions.

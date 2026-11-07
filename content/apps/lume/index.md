@@ -20,6 +20,12 @@ sources:
   - "https://github.com/bilipp/Lume/blob/main/LICENSE"
   - "https://github.com/bilipp/Lume/releases/tag/v3.0.0"
   - "https://getlume.org"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/bilipp/Lume/releases/download/v3.0.0/Lume-v3.0.0-macOS-Sideload.zip
+    credit: Lume contributors
+    license: AGPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Lume is a native player for Apple platforms that connects to an Xtream Codes account or imports M3U and M3U8 playlists that you supply. It indexes the catalog locally for browsing and offers live TV with a program guide, catch-up where the provider supports it, a Multi-View grid of up to four channels, and watch progress with optional Trakt, Simkl and MDBList sync. Playback can use VLCKit, KSPlayer, AVPlayer, Lume's own beta engine or the optional AetherEngine. The project says it ships with no channels or content of its own.

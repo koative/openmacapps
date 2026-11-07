@@ -20,6 +20,12 @@ sources:
   - "https://github.com/qzrzz/QLaunch/blob/main/LICENSE"
   - "https://github.com/qzrzz/QLaunch/releases"
   - "https://qzrzz.com/QLaunch/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/qzrzz/QLaunch/releases/download/v1.0.29/QLaunch-1.0.29.dmg
+    credit: QLaunch contributors
+    license: GPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 QLaunch shows your installed apps as a full-screen grid, a replacement for the Launchpad view that its website says Apple dropped in macOS 26. It draws icons with Metal, targets animations up to 120 Hz, searches with Pinyin so Chinese-language users can type without switching input methods, and offers an infinite-canvas layout. It suits people who want the classic app grid to look sharp and respond quickly.

@@ -20,6 +20,12 @@ sources:
   - "https://github.com/timurverevkin/Melingo"
   - "https://github.com/timurverevkin/Melingo/blob/main/LICENSE"
   - "https://github.com/timurverevkin/Melingo/releases/latest"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/timurverevkin/Melingo/releases/download/MLXFIX/Melingo-0.3.2.dmg
+    credit: Melingo contributors
+    license: Apache-2.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Melingo is built around reading. You import text from the web, pasted content, PDFs, EPUBs, Markdown and other sources, tap a word to look it up and make a card, and review cards with FSRS scheduling. It also has a dictation study mode, and YouTube videos with timed subtitles can be added to the library. Your library and cards stay on your Mac in a Documents folder. It suits learners who already read in the language they are studying and want their vocabulary to come from that reading.

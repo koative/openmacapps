@@ -21,6 +21,12 @@ sources:
   - "https://github.com/sudoHG/AskKey/blob/main/LICENSE"
   - "https://github.com/sudoHG/AskKey/releases/latest"
   - "https://askkey.sudohg.com/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/sudoHG/AskKey/releases/download/v0.6.0/AskKey-0.6.0.dmg
+    credit: Ask Key contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Ask Key stores API keys, tokens, passwords and files such as SSH keys in an encrypted local library. Coding agents such as Claude Code, Codex, Cursor and Grok CLI find credentials through an MCP server, and each credential has one permission: allow, ask every time (the default), or hidden. A program that is approved receives the value as an environment variable or a short-lived private file, and the agent receives only the program's output. Timed allowances can cover one credential or a group. It is meant for developers whose agents deploy code or call APIs and who would otherwise paste keys into prompts or `.env` files.

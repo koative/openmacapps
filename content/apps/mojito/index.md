@@ -20,6 +20,12 @@ sources:
   - "https://github.com/wr/mojito/blob/main/LICENSE"
   - "https://github.com/wr/mojito/releases/tag/v1.10.1"
   - "https://mojito.wells.ee"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/wr/mojito/releases/download/v1.10.1/Mojito.dmg
+    credit: Mojito contributors
+    license: AGPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Mojito autocompletes shortcodes in any app. A single colon followed by a name picks an emoji, a double colon finds symbols such as arrows and currency signs, and a triple colon searches GIFs from KLIPY, which are pasted where you are typing. It learns your favourites, converts emoticons such as `:D`, and skips apps that have their own shortcodes, such as Slack, Discord and terminals. It suits anyone who uses emoji and symbols often.

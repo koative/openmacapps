@@ -20,6 +20,12 @@ sources:
   - "https://github.com/codingnoye/gksdud/blob/main/LICENSE"
   - "https://github.com/codingnoye/gksdud/releases"
   - "https://gksdud.noye.dev/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/codingnoye/gksdud/releases/download/v2.1.1/gksdud-2.1.1.dmg
+    credit: gksdud contributors
+    license: Apache-2.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 gksdud switches between Korean and English input with a key you choose, such as right Command. It remaps that key to F19 and sends the macOS "previous input source" shortcut, rather than changing input sources directly, so switching has no visible delay. It also adds press-and-hold for case switching, keeps English capitals through a round trip, and has a CLI for scripting. It is for Korean and English typists who want quicker switching.

@@ -24,6 +24,12 @@ sources:
   - "https://github.com/driceroland/Search/blob/main/LICENSE"
   - "https://github.com/driceroland/Search/releases"
   - "https://searchbrowser.app"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/driceroland/Search/releases/download/v1.0.9/Search.dmg
+    credit: Search contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Search is a minimal browser from the design studio Office Commun. It runs on the WebKit engine that ships with macOS, so the app is only a few megabytes. The window holds a row of tabs, along the top or down the left side, and the page; one field takes both addresses and search terms. Ads and trackers are blocked at the network level by default, any page element can be hidden per site for good, and there are reading mode, a floating video window, split view and private tabs.

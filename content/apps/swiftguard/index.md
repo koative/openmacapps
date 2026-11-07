@@ -19,6 +19,12 @@ sources:
   - "https://github.com/Lennolium/swiftGuard"
   - "https://github.com/Lennolium/swiftGuard/blob/main/LICENSE"
   - "https://github.com/Lennolium/swiftGuard/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Lennolium/swiftGuard/releases/download/v0.0.2/swiftGuard_arm64.dmg
+    credit: swiftGuard contributors
+    license: GPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 swiftGuard watches the USB ports of a Mac. When an unknown device connects, or a connected device is unplugged, it shuts the Mac down or hibernates it after a countdown you set. You can whitelist devices, and you can defuse the alarm from the menu before the countdown ends. It is aimed at people who leave a Mac unattended in public places or want to prevent data being copied over USB.

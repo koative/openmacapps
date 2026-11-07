@@ -18,6 +18,12 @@ sources:
   - "https://github.com/varie-ai/convoker"
   - "https://github.com/varie-ai/convoker/blob/main/LICENSE"
   - "https://github.com/varie-ai/convoker/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/varie-ai/convoker/releases/download/v0.5.0/Convoker-0.5.0.dmg
+    credit: Convoker contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Convoker is a menu bar app with a command palette. Type an app's name and press Enter to gather all of its windows onto the current screen, or press Command-Enter to focus that app and hide the rest. You can pin up to four apps for a side-by-side split, and save an arrangement as a named workspace that launches apps and arranges their windows in one step. It suits people who regularly work with several windows per app across more than one monitor.

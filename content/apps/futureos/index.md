@@ -20,6 +20,12 @@ sources:
   - "https://github.com/futuregene/future-os/blob/main/LICENSE"
   - "https://github.com/futuregene/future-os/releases"
   - "https://future-os.cn"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/futuregene/future-os/releases/download/v2.0.1/FutureOS_2.0.1_aarch64.dmg
+    credit: FutureOS contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 FutureOS runs one agent backend that several front ends share: a desktop app, a terminal UI, a CLI, mobile apps and chat bots. Sessions, memory and skills are the same whichever front end you use. You can bring your own model keys in a local auth.json file, or sign in to the FutureOS provider. Tool access (file reads and writes, shell) can be set to manual approval, sandboxed or automatic, and the README names macOS Seatbelt as the sandbox on Mac.

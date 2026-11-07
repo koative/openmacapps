@@ -18,6 +18,12 @@ sources:
   - "https://github.com/getstation/desktop-app"
   - "https://github.com/getstation/desktop-app/blob/main/LICENSE"
   - "https://github.com/getstation/desktop-app/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/getstation/desktop-app/releases/download/v4.0.0-b1/Station.zip
+    credit: Station contributors
+    license: Apache-2.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Station is an Electron desktop app that loads web apps and services as tabs inside a single window. Its README describes checks that unload tabs left inactive for a while. The repository holds the app's source, including its service framework and an appstore package, so you can read how the tabs and services are built. It suits people who want many web apps and chat services in one place.

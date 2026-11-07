@@ -20,6 +20,12 @@ sources:
   - "https://github.com/michaelmjhhhh/Chaos"
   - "https://github.com/michaelmjhhhh/Chaos/blob/main/LICENSE"
   - "https://github.com/michaelmjhhhh/Chaos/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/michaelmjhhhh/Chaos/releases/download/v1.1.0/Chaos.dmg
+    credit: Chaos contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Chaos watches for new screenshots, asks a vision model for a short description of each one, and renames the file from it, for example `terminal-git-log_143022.png`. Renamed files go to an output folder you choose, optionally in daily or monthly subfolders. The provider can be any OpenAI-compatible vision API, such as OpenAI, OpenRouter or DeepSeek, or Ollama running on your Mac. Every rename is recorded in a local history with undo and retry, and existing files are never overwritten. It is for people whose desktop fills up with screenshots named by date and time.

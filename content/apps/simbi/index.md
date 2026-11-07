@@ -21,6 +21,12 @@ sources:
   - "https://github.com/predict-woo/simbi"
   - "https://github.com/predict-woo/simbi/blob/main/LICENSE"
   - "https://getsimbi.app"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/predict-woo/simbi/releases/download/v1.2.2/Simbi-1.2.2.dmg
+    credit: Simbi contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Simbi records your microphone and system audio into one timeline, detects speakers on the Mac and builds a live transcript while the meeting runs. When a recording ends, it can produce editable AI notes whose timestamps play back the matching audio. Each note is an ordinary folder with Markdown, a WebVTT transcript and the recording, so the files work in Finder, Obsidian or Git. It is meant for people who want meeting notes without a bot joining the call.

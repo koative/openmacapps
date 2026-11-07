@@ -21,6 +21,12 @@ sources:
   - "https://github.com/yangzichao/JustSessions/blob/main/LICENSE"
   - "https://github.com/yangzichao/JustSessions/releases"
   - "https://yangzichao.github.io/JustSessions/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/yangzichao/JustSessions/releases/download/v1.3.0/JustSessions.dmg
+    credit: JustSessions contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 JustSessions is a native macOS app for people who run command-line coding agents. It groups sessions from Claude Code, Codex CLI, Antigravity CLI, Kiro CLI, OpenCode and Pi by project, searches their messages, and lets you read a conversation, resume it in its original CLI or delete it. The CLIs run in native tabs and split views, and SSH hosts can be browsed the same way. The project says it reads the history your CLIs already write and does not upload conversations; the CLIs still talk to their own providers.

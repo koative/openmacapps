@@ -20,6 +20,12 @@ sources:
   - "https://github.com/Zingzy/mFix"
   - "https://github.com/Zingzy/mFix/blob/main/LICENSE"
   - "https://github.com/Zingzy/mFix/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Zingzy/mFix/releases/download/v0.1.2/mFix.dmg
+    credit: mFix contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 mFix brings Windows 11 window behavior to the Mac: Windows-style keys for snapping windows to halves and quarters, a Snap Assist step that offers windows for the empty half, an Alt+Tab switcher that shows a preview of every window, and a few other Windows habits. It is for people who switch between Windows and macOS and want the same keys on both. The README says the Windows borrowing is deliberate, and the app is free and MIT-licensed.

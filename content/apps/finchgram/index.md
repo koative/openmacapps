@@ -19,6 +19,12 @@ sources:
   - "https://github.com/FinchGram/FinchGram/blob/main/LICENSE"
   - "https://github.com/FinchGram/FinchGram/releases/latest"
   - "https://www.finchgram.com"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/FinchGram/FinchGram/releases/download/v0.7.10/FinchGram-0.7.10-macos-arm64.zip
+    credit: FinchGram contributors
+    license: GPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 FinchGram is an unofficial, open-source Telegram desktop client written in Rust with the Slint toolkit, using TDLib, Telegram's own library. It covers chats and folders, messages with reactions and voice messages, and a media viewer, and adds a screenshot tool, a downloads page for WebDAV, FTP, FTPS and SFTP servers, a player for Subsonic music servers, and opt-in voice input. AI assistant access through the Model Context Protocol stays off until you allow it. It suits people who want these extras in a Telegram client. The project states that it is not made by Telegram.

@@ -20,6 +20,12 @@ sources:
   - "https://github.com/butterlatte-zhang/vigil/blob/main/LICENSE"
   - "https://github.com/butterlatte-zhang/vigil/releases"
   - "https://butterlatte-zhang.github.io/vigil/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/butterlatte-zhang/vigil/releases/download/v0.1.7/Vigil-macos.dmg
+    credit: Vigil contributors
+    license: GPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Vigil runs trees of coding agents. A manager agent hands tasks to worker agents, and each node keeps its own native terminal session and full transcript, which can be replayed read-only. Results roll up to the manager as summaries, so its context stays small. Claude Code, Codex and OpenCode can be mixed in one tree. It is for developers who already use these CLIs and want them coordinated from one Mac app.

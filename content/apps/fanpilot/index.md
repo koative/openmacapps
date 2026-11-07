@@ -22,6 +22,12 @@ sources:
   - "https://github.com/zyvren/FanPilot"
   - "https://github.com/zyvren/FanPilot/blob/main/LICENSE"
   - "https://github.com/zyvren/FanPilot/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/zyvren/FanPilot/releases/download/1.1/FanPilot-1.1.dmg
+    credit: FanPilot contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 FanPilot shows the temperature sensors of an Apple silicon Mac in the menu bar and in a main window, and lets you set each fan's speed: manual, maximum, rules that raise speed when a sensor passes a limit, or a curve you draw. Fan writes go through a small root helper that clamps every target to the fan's hardware limits, returns control to macOS when the app quits or the Mac sleeps, and runs the fans at full speed after two readings of 95 °C or more. It suits people with long, heavy workloads who want to choose how their Mac cools.

@@ -19,6 +19,12 @@ sources:
   - "https://github.com/hasanzadee/convertino"
   - "https://github.com/hasanzadee/convertino/blob/main/LICENSE"
   - "https://github.com/hasanzadee/convertino/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/hasanzadee/convertino/releases/download/v1.4.2/convertino-macos-arm64.zip
+    credit: Convertino contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Convertino opens a ring of conversions under the cursor while you drag a file. Tap Shift, drop the file on a petal, and the result appears next to the original. The same ring handles images, PDFs, video and audio, data formats such as JSON, YAML and XLSX, subtitles, OCR text, background cut-out and archives. A clipboard and screenshot shortcut works on whatever you copied. It suits people who convert files often and would rather not open export dialogs.

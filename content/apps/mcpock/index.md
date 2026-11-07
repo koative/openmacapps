@@ -21,6 +21,12 @@ sources:
   - "https://github.com/aka-kika/mcpock/blob/main/LICENSE"
   - "https://github.com/aka-kika/mcpock/releases"
   - "https://mcpock.com"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/aka-kika/mcpock/releases/download/v1.13.0/mcpock.dmg
+    credit: mcpock contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 mcpock finds the MCP servers listed in the config files of agents such as Claude Code, Cursor, Codex and Goose, starts each one the way the agent would, and reports which are broken, slow, waiting for a sign-in or set up differently from one agent to the next. It never edits those config files. A small read-only MCP server inside the app lets an agent ask for the status instead of pasting errors. It suits people who run several coding agents and want one place to see why a tool stopped working.

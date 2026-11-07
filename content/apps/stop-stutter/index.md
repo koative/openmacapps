@@ -20,6 +20,12 @@ sources:
   - "https://github.com/burakgon/stop-stutter"
   - "https://github.com/burakgon/stop-stutter/blob/main/LICENSE"
   - "https://github.com/burakgon/stop-stutter/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/burakgon/stop-stutter/releases/download/v0.1.0/StopStutter-0.1.0-universal.zip
+    credit: Stop Stutter contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Stop Stutter is a menu bar app for people who stream games from a PC or a cloud service. While a selected client runs, such as Moonlight, GeForce NOW, Parsec, Steam Link or Punktfunk, a small privileged helper keeps the `awdl0` interface down, and it restores AWDL when the last selected app quits. AirDrop, peer-to-peer AirPlay and some Continuity features may be unavailable during a session. Whether it helps depends on whether AWDL causes your stutter; the README says it does not claim a measured performance gain for each client.

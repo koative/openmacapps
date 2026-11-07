@@ -20,6 +20,12 @@ sources:
   - "https://github.com/mastro993/Keyameleon/blob/main/LICENSE"
   - "https://github.com/mastro993/Keyameleon/releases"
   - "https://keyameleon.app/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/mastro993/keyameleon/releases/download/v0.10.0/Keyameleon-0.10.0.dmg
+    credit: Keyameleon contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Keyameleon assigns an input source to each physical keyboard, so a built-in US keyboard and an external Italian one each switch the layout when you start typing on them. You can also give an app its own layout on every keyboard, which wins while that app is in front. It is for people who use one Mac with keyboards that have different layouts and do not want to switch by hand. It lives in the menu bar, offers Shortcuts actions and keyameleon:// URLs, and has no Dock icon once setup is done.

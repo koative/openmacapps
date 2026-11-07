@@ -20,6 +20,12 @@ sources:
   - "https://github.com/qeude/Defi/blob/main/LICENSE"
   - "https://github.com/qeude/Defi/releases/latest"
   - "https://qeude.github.io/Defi/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/qeude/Defi/releases/download/v0.8.0/Defi-v0.8.0.dmg
+    credit: Defi contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Defi places windows in columns on a horizontal strip. Opening a window adds a column and the strip grows; moving to a window past the edge of the screen scrolls the desktop to bring it into view. It also has dynamic and named workspaces, app rules, per-display layouts, an overview of workspaces and windows, window borders, and a configuration file in TOML that reloads when saved. A command-line tool and SketchyBar integration are included. Built-in shortcuts use Control and Option, and native window clicks, the Dock and Command-Tab keep working.

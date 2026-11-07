@@ -19,6 +19,12 @@ sources:
   - "https://github.com/nico81/iContainer"
   - "https://github.com/nico81/iContainer/blob/main/LICENSE"
   - "https://github.com/nico81/iContainer/releases/latest"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/nico81/iContainer/releases/download/v2.6.0/iContainer-v2.6.0.dmg
+    credit: iContainer contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 iContainer is a SwiftUI front end for Apple's `container` command-line tool, which runs Linux containers on a Mac. It lists containers, images and container machines, shows logs and live stats, opens interactive shells and can edit a container's ports, volumes and environment. It can also import images from a local Docker install, and it can install and update the official container CLI for you. Log explanations run on-device when Apple Intelligence is available.

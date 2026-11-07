@@ -21,6 +21,12 @@ sources:
   - "https://github.com/tran-minh-khoi/SATF/blob/main/LICENSE"
   - "https://github.com/tran-minh-khoi/SATF/releases/latest"
   - "https://mktechvn.com/en/satf"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/tran-minh-khoi/SATF/releases/download/v1.3.0/SATF-1.3.0.dmg
+    credit: SATF contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 SATF is a drag-and-drop file converter for macOS and Windows. Drag a file, shake it or press a shortcut, and a radial menu opens under the cursor with conversion formats, quick edits such as rotate, resize and compress, a copy action and a shelf for later. It converts images, PDFs, Office documents, video and audio, merges several files into one PDF, and extracts archives. Conversions run on your computer, and optional add-ons such as LibreOffice, and FFmpeg on Windows, download only when you ask for them.

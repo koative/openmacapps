@@ -19,6 +19,12 @@ sources:
   - "https://github.com/0xzerolight/anki_miner"
   - "https://github.com/0xzerolight/anki_miner/blob/main/LICENSE"
   - "https://github.com/0xzerolight/anki_miner/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/0xzerolight/anki_miner/blob/main/anki_miner/gui/resources/icons/anki_miner.icns
+    credit: Anki Miner contributors
+    license: GPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Anki Miner reads the subtitles of a video, an audiobook or a book, splits the text into words, and skips the ones you already know. For each remaining word it can attach a screenshot, an audio clip and a dictionary definition, then sends the finished cards to Anki. Definitions come from offline dictionaries you add, such as Yomitan dictionaries. It has a desktop GUI and is aimed at people learning a language from native media.

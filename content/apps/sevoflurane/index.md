@@ -21,6 +21,12 @@ sources:
   - "https://github.com/kageroumado/sevoflurane/blob/main/LICENSE"
   - "https://github.com/kageroumado/sevoflurane/releases/latest"
   - "https://kagerou.glass/sevoflurane/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/kageroumado/sevoflurane/releases/download/v1.12.0/Sevoflurane-1.12.0.dmg
+    credit: Sevoflurane contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Sevoflurane runs the Windows Steam client hidden inside a Wine bottle and replaces its interface with native Mac windows for the library, store, friends and chats, while Steam notifications arrive through macOS. For each game you can pick the native macOS version where Steam offers one, or the Windows version, and older games can be resized and upscaled. It suits people who want their Steam library on a Mac.

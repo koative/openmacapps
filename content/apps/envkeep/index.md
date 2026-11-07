@@ -21,6 +21,12 @@ sources:
   - "https://github.com/jackofshadowz/envkeep/blob/main/LICENSE"
   - "https://github.com/jackofshadowz/envkeep/releases/latest"
   - "https://jackofshadowz.github.io/envkeep/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/jackofshadowz/envkeep/releases/download/v1.0.0/Envkeep-1.0.0-macos.zip
+    credit: Envkeep contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Envkeep keeps a project's environment secrets in one age-encrypted vault file, so only ciphertext reaches the disk or a shared private git repository. You manage the vault in a native macOS window, or from a command-line tool whose `get` command prints a single value, so a coding agent can use one key without the key being pasted into a chat. The README includes setup notes for Claude Code, Cursor and aider. It suits developers who keep API keys in `.env` files and want them out of plain text.

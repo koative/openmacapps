@@ -20,6 +20,12 @@ sources:
   - "https://github.com/berkinefeavci/healthy-battery/blob/main/LICENSE"
   - "https://github.com/berkinefeavci/healthy-battery/releases/latest"
   - "https://healthybatteryapp.com"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/berkinefeavci/healthy-battery/releases/download/v1.4.2/Healthy-Battery-1.4.2.dmg
+    credit: Healthy Battery contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Healthy Battery is a menu bar app for MacBook battery care. It drives macOS's own charge limit between 80 and 100 percent in 5-point steps, offers a one-click Top Up to 100 percent for a trip, and shows live power flow between the adapter, battery, CPU and display. It keeps charge and health history for up to 400 days, runs scheduled actions and Shortcuts, and can set the MagSafe LED. It is for people who want to limit battery wear without a subscription or an account.

@@ -20,6 +20,12 @@ sources:
   - "https://github.com/zeusinsight/FinderSearch/blob/main/LICENSE"
   - "https://github.com/zeusinsight/FinderSearch/blob/main/THIRD_PARTY_NOTICES.md"
   - "https://github.com/zeusinsight/FinderSearch/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/zeusinsight/FinderSearch/releases/download/v0.4.9/FinderSearch-0.4.9-AppleSilicon.dmg
+    credit: FinderSearch contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 FinderSearch is a file browser built around finding files by name. Typing runs fuzzy matching with relevance ranking, optionally limited to a folder, and filters such as ext:pdf or mtime:<7d. Views include icon, list, column and gallery, with Quick Look previews, tabs, copy and move, batch rename and ZIP tools. Search runs locally, and the search engine is fsearch, which the project vendors unmodified under its MIT license. It is aimed at filename lookup; content search is not supported yet.

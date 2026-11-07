@@ -20,6 +20,12 @@ sources:
   - "https://github.com/shanggqm/codexU/blob/main/LICENSE"
   - "https://github.com/shanggqm/codexU/releases"
   - "https://shanggqm.github.io/codexU-site/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/shanggqm/codexU/releases/download/v1.4.0/codexU-1.4.0-mac-arm64.dmg
+    credit: codexU contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 codexU reads the usage data that Codex and Claude Code keep on your Mac and shows your five-hour and seven-day quota windows, reset times, token totals and today's tasks. It also includes a model usage trend, a project ranking and tool and skill counts. It suits developers who use Codex or Claude Code every day and want quota status without opening a terminal or a browser. The README says the data is processed locally and not uploaded.

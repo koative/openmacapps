@@ -20,6 +20,12 @@ sources:
   - "https://github.com/nikiomori/reprise"
   - "https://github.com/nikiomori/reprise/blob/main/LICENSE"
   - "https://github.com/nikiomori/reprise/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/nikiomori/reprise/releases/download/v0.7.1/Reprise-0.7.1.zip
+    credit: Reprise contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Reprise records calls. It notices when a call starts in Zoom, Google Meet, Microsoft Teams, FaceTime and other apps, asks whether to record, and captures your microphone and the Mac's sound into one file, with optional screen recording. It can save each side separately, mark moments, trim recordings and name a call after its calendar event. Each call is a folder of ordinary audio and text files in `~/Movies/Reprise`. Transcription is optional: cloud services you configure receive the audio, while a local server such as Refrain keeps it on your Mac. It suits people who need a record of calls they take on the Mac.

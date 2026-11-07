@@ -20,6 +20,12 @@ sources:
   - "https://github.com/AtomicBot-ai/atomic-agent/blob/main/LICENSE"
   - "https://github.com/AtomicBot-ai/atomic-agent/releases"
   - "https://atomicagent.io"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/AtomicBot-ai/atomic-agent/releases/download/desktop-v0.0.7/Atomic-Agent-0.0.7-arm64-mac.zip
+    credit: Atomic Agent contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Atomic Agent is an AI agent that runs its control loop and state on your own machine. It can browse the web, read and edit files, run shell commands after you approve them, and keep sessions, memory and tasks between runs. Models run through llama.cpp on the machine by default; cloud providers are optional, and its Fusion mode lets one model plan while workers run on a second provider. It suits people who want an agent they can inspect and run on their own hardware, and it ships as a terminal interface and a desktop app built on the same agent.

@@ -20,6 +20,12 @@ sources:
   - "https://github.com/jo32/DeepDeck/blob/main/LICENSE"
   - "https://github.com/jo32/DeepDeck/releases"
   - "https://deepdeck.getmegaportal.com/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/jo32/DeepDeck/blob/main/branding/app-icon.png
+    credit: DeepDeck contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 DeepDeck is a macOS desktop app for DeepSeek Harness. An agent works through a website in a built-in browser, uses the site's WebMCP tools where they exist, or explores the interface and builds tools that you can inspect, disable, roll back and reuse later. It is for people who repeat the same web workflows with an AI agent and want those steps kept as editable tools.

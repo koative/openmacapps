@@ -27,6 +27,12 @@ sources:
   - "https://raw.githubusercontent.com/egoist/eme/dev/package.json"
   - "https://github.com/egoist/eme/releases/tag/v0.15.1"
   - "https://typora.io/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/egoist/eme/releases/download/v0.15.1/EME-0.15.1.dmg
+    credit: EME contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 EME edits Markdown and lets you choose what the window shows: the source, the rendered preview, or both at once. A focus mode clears everything else away while you write.

@@ -21,6 +21,12 @@ sources:
   - "https://github.com/piro0919/gocci/blob/main/LICENSE"
   - "https://github.com/piro0919/gocci/releases"
   - "https://gocci.kkweb.io/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/piro0919/gocci/releases/download/v1.1.5/Gocci-1.1.5.dmg
+    credit: Gocci contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Gocci adds one Google Drive account to Finder, the way iCloud Drive appears there, through Apple's File Provider mechanism. It does not mount a disk or install anything into the kernel. Opening a folder downloads nothing, and you choose the disk where downloaded files are kept, including an external drive. It suits people whose startup disk is too small for their Drive. It uses rclone to talk to Google Drive.

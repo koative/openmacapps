@@ -20,7 +20,8 @@
     "check:links": "bun scripts/check-links.ts",
     "discover": "bun scripts/discover.ts",
     "homebrew": "bun scripts/homebrew.ts sync",
-    "check:homebrew": "bun scripts/homebrew.ts check"
+    "check:homebrew": "bun scripts/homebrew.ts check",
+    "icon": "bun scripts/icon.ts"
   },
   "dependencies": {
     "@lucide/astro": "^1.16.0",

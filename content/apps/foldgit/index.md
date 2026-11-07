@@ -23,6 +23,12 @@ sources:
   - "https://github.com/dufu1991/foldgit/blob/main/LICENSE"
   - "https://github.com/dufu1991/foldgit/releases/tag/v0.5.0"
   - "https://foldgit.com"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/dufu1991/foldgit/releases/download/v0.5.0/FoldGit-macOS-arm64.dmg
+    credit: FoldGit contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 FoldGit shows all of your repositories in one sidebar, grouped by folder or by custom group, and lists linked worktrees under their repository. The window covers the commit graph, unified and side-by-side diffs, hunk staging, amend and revert, branch and tag management, and history search. It suits developers who work across many repositories and want a small, macOS-style client for reviewing and committing changes.

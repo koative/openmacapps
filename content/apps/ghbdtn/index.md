@@ -20,6 +20,12 @@ sources:
   - "https://github.com/achubnet/Ghbdtn"
   - "https://github.com/achubnet/Ghbdtn/blob/main/LICENSE"
   - "https://github.com/achubnet/Ghbdtn/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/achubnet/Ghbdtn/releases/download/v1.1/Ghbdtn-1.1.dmg
+    credit: Ghbdtn contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Ghbdtn sits in the menu bar and fixes text typed with the wrong keyboard layout. You type the words, press ⌥⌘, and the text is rewritten in the other layout while the input source switches to match. The key map comes from the layouts enabled in macOS, so the ones you already use are the ones it converts. The author describes it as a free, open-source alternative to Punto Switcher for people who switch between Latin and Cyrillic layouts.

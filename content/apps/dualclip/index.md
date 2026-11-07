@@ -21,6 +21,12 @@ sources:
   - "https://github.com/RAKKUNN/DualClip/blob/main/LICENSE"
   - "https://github.com/RAKKUNN/DualClip/releases/latest"
   - "https://rakkunn.github.io/DualClip/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/RAKKUNN/DualClip/blob/main/docs/assets/icon.png
+    credit: DualClip contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 DualClip is a menu bar app with three clipboard slots. Slot A mirrors the normal system clipboard, and slots B and C are filled with their own copy shortcuts. Each slot has a paste shortcut that briefly swaps its contents into the clipboard, sends paste, and then restores your original clipboard, which the README puts at about 200 ms. Slot contents live only in memory and are gone when the app quits. It suits people who prefer to recall a fixed snippet by shortcut rather than scroll a history list.

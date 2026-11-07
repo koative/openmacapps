@@ -21,6 +21,12 @@ sources:
   - "https://github.com/rsutcliffe/nightwatch/blob/main/LICENSE"
   - "https://github.com/rsutcliffe/nightwatch/releases"
   - "https://delphi-dolphin.com/nightwatch"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/rsutcliffe/nightwatch/releases/download/v1.7.3/Nightwatch-1.7.3.dmg
+    credit: Nightwatch contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Nightwatch is a menu-bar app for planning astrophotography. It combines weather and sky forecasts for your location, finds the nights with a clear and dark window, and ranks the targets you have chosen by when they are best placed. It also offers a desktop widget, alerts before a good window opens, and opt-in modes for aurora alerts and bright nights when darkness never arrives. The same app is on the App Store for Mac, iPhone and iPad, where the README says it is one free purchase; the disk image is the other way to get the Mac version.

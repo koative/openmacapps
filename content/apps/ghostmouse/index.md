@@ -23,6 +23,12 @@ sources:
   - "https://github.com/joeystdio/GhostMouse/blob/main/LICENSE"
   - "https://github.com/joeystdio/GhostMouse/releases"
   - "https://joeystdio.github.io/GhostMouse/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/joeystdio/GhostMouse/releases/download/v1.3.4/GhostMouse.dmg
+    credit: GhostMouse contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 GhostMouse keeps a Mac from going idle. In Stealth mode it sends a zero-displacement input event at the pointer's own pixel, so the cursor does not visibly move while macOS registers activity; Natural mode glides the pointer out and back to where it started. It stops as soon as you touch the mouse or keyboard, or pauses and resumes after an idle delay you choose. Schedules limit it to chosen weekdays and hours, and a timer can switch it off after a countdown or at a set time. Control-Command-J toggles it, and a right-click on the menu bar icon does the same. It is for people whose status or session needs to stay active while they step away.

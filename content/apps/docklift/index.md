@@ -20,6 +20,12 @@ sources:
   - "https://github.com/jaywcjlove/dock-lift/blob/main/LICENSE"
   - "https://github.com/jaywcjlove/dock-lift/releases"
   - "https://wangchujiang.com/dock-lift/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/jaywcjlove/dock-lift/releases/download/v1.3.0/DockLift_v1.3.0.zip
+    credit: DockLift contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 DockLift is for Macs with more than one display. When you click an app's Dock icon, it moves that app's recent window to the screen you are using and brings it to the front, and it can restore minimized windows. Holding Shift while clicking pulls every window of that app over from the other displays. You can list apps that should never be moved. It lives in the menu bar and suits people who keep the Dock on a different screen from the one they work on.

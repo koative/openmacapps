@@ -20,6 +20,12 @@ sources:
   - "https://github.com/Alex-duh/Bonk/blob/main/LICENSE"
   - "https://github.com/Alex-duh/Bonk/releases"
   - "https://trybonk.vercel.app/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Alex-duh/Bonk/blob/main/Packaging/logo.png
+    credit: Bonk contributors
+    license: GPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Bonk reads the accelerometer that Apple silicon MacBooks already contain and treats one to four knocks anywhere on the chassis as separate triggers. Each pattern can run a media or system key, a keyboard shortcut, an app, a shell command or a Shortcuts shortcut, and per-app rules can override the global mapping. Knock calibration, a test mode and a live waveform help set the threshold. Knock detection runs on the Mac; the only network request is an optional daily version check. It suits people who want a physical shortcut for everyday controls such as play, pause or lock.

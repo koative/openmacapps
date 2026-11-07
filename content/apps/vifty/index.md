@@ -21,6 +21,12 @@ sources:
   - "https://github.com/Reedtrullz/Vifty"
   - "https://github.com/Reedtrullz/Vifty/blob/main/LICENSE"
   - "https://github.com/Reedtrullz/Vifty/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Reedtrullz/Vifty/releases/download/v1.4.8/Vifty-v1.4.8.zip
+    credit: Vifty contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Vifty is a menu bar app for Apple silicon MacBook Pros. It shows temperatures, fan speeds, thermal pressure and USB-C or MagSafe power flow, and it sets fan speed in Auto, fixed-RPM or temperature-curve modes. A bounded command-line tool, `viftyctl`, lets build scripts and local AI coding agents request temporary cooling that expires on its own. Fan writes go through a root LaunchDaemon helper, and when hardware looks unfamiliar, the Mac stays under macOS Auto. It suits developers who run long builds or local models on a laptop.

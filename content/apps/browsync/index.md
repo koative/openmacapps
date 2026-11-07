@@ -19,6 +19,12 @@ sources:
   - "https://github.com/chentao1006/BrowSync/blob/main/LICENSE"
   - "https://github.com/chentao1006/BrowSync/releases"
   - "https://browsync.ct106.com/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/chentao1006/BrowSync/releases/download/v1.3.1/BrowSync.dmg
+    credit: BrowSync contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 BrowSync can be set as the default browser on a Mac. It opens each link in Safari, a Chromium-based browser or Firefox, chosen by domain, URL pattern, source app or time of day. It also syncs bookmarks, cookies, local storage and open tabs between those browsers. It suits people who move between several browsers and want their data kept in step.

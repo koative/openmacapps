@@ -21,6 +21,12 @@ sources:
   - "https://github.com/KiwiCanopy/KiwiDesk/blob/main/LICENSE"
   - "https://github.com/KiwiCanopy/KiwiDesk/releases"
   - "https://kiwidesk.kiwicanopy.com/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/KiwiCanopy/KiwiDesk/releases/download/v4.1.0/KiwiDesk-4.1.0.dmg
+    credit: KiwiDesk contributors
+    license: BUSL-1.1; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 KiwiDesk is a tiling window manager for macOS. It tiles open windows as soon as it starts, without a configuration file. For more control it offers Lua scripting, profiles, advanced layouts and per-space rules, plus a command-line tool and an event stream. It is for people who want automatic tiling on a Mac and do not want to write a config before they can move a window.

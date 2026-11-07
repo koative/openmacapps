@@ -21,6 +21,12 @@ sources:
   - "https://github.com/TerrifiedBug/browseroute/blob/main/LICENSE"
   - "https://github.com/TerrifiedBug/browseroute/releases"
   - "https://browseroute.terrifiedbug.com"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/TerrifiedBug/browseroute/releases/download/v0.2.0/Browseroute-0.2.0.zip
+    credit: Browseroute contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Browseroute registers as the default web browser and hands each `http` and `https` link to the browser you choose. Rules match a host suffix, a host glob or a host plus path glob, and are tried from top to bottom; a link that matches nothing goes to a Default browser you mark. It can also appear as an Open With option in Finder for common document and image types. It suits people who keep work and personal accounts in separate browsers and want links to open in the right one.

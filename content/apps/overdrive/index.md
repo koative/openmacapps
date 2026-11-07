@@ -21,6 +21,12 @@ sources:
   - "https://github.com/skhaz/overdrive"
   - "https://github.com/skhaz/overdrive/blob/main/LICENSE"
   - "https://github.com/skhaz/overdrive/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/skhaz/overdrive/releases/download/v1.0.74/Overdrive.zip
+    credit: Overdrive contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Overdrive plays the music already on your Mac without an import step: add a folder and its albums appear, and new files show up automatically. It has lyrics that sync to the song and can be edited, a same-volume setting, discovery picks from your library, per-song play counts and playlists. Last.fm scrobbling and loved tracks are optional. It is for people who keep a local music library and want a player that never changes their files.

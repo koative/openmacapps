@@ -24,6 +24,12 @@ sources:
   - "https://raw.githubusercontent.com/beagleeditor/legacy/main/README.md"
   - "https://github.com/beagleeditor/legacy/releases/tag/v2024.4.0.1"
   - "https://github.com/beagleeditor/editor"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/beagleeditor/legacy/releases/download/v2024.4.0.1/BeagleEditor.2024.4.0.1.dmg
+    credit: BeagleEditor Legacy contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 BeagleEditor Legacy opens a source file for editing with syntax highlighting and autocomplete, and it runs Python files from inside the editor. It is the first BeagleEditor, a code editor written in Python. Its developers renamed it when they released a new BeagleEditor in a separate repository, beagleeditor/editor.
