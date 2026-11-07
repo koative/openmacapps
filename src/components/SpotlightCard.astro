@@ -7,8 +7,10 @@ interface Props {
   headline: string;
   stage: string;
   eager?: boolean;
+  /** Discloses an app made by koative. */
+  byline?: string;
 }
-const { app, headline, stage, eager = false } = Astro.props;
+const { app, headline, stage, eager = false, byline } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const shot = app.screenshots[0];
 const image = await appImage(app.slug, shot.src, shot.url, [600, 1200]);
@@ -35,6 +37,7 @@ const image = await appImage(app.slug, shot.src, shot.url, [600, 1200]);
       <div class="lockup-text">
         <h3>{app.name}</h3>
         <span class="lockup-summary">{app.summary}</span>
+        {byline && <span class="spotlight-byline">{byline}</span>}
       </div>
     </div>
   </a>
