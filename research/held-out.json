@@ -1,5 +1,30 @@
 [
   {
+    "repository": "https://github.com/geraldoramos/crypto-bar",
+    "date": "2026-11-07",
+    "reason": "CryptoCompare's price API now requires a key the app cannot take; the stream no longer answers."
+  },
+  {
+    "repository": "https://github.com/max-mapper/screencat",
+    "date": "2026-11-07",
+    "reason": "Its signalling server's hostname no longer resolves, so peers cannot connect."
+  },
+  {
+    "repository": "https://github.com/klaudiosinani/tusk",
+    "date": "2026-11-07",
+    "reason": "Evernote moved its login; users report a blank window and failed sign-in since 2025."
+  },
+  {
+    "repository": "https://github.com/bluegill/katana",
+    "date": "2026-11-07",
+    "reason": "Both built-in upload hosts are shut down; the tagged source ships no Imgur token."
+  },
+  {
+    "repository": "https://github.com/intitni/CopilotForXcode",
+    "date": "2026-11-07",
+    "reason": "Official builds link a closed Pro/LicenseManagement module for paid Plus features."
+  },
+  {
     "repository": "https://github.com/rsms/fb-mac-messenger",
     "date": "2026-11-07",
     "reason": "Wrapper around Messenger's website; service gone (third expansion, removed again 2026-11-07)."
