@@ -56,7 +56,7 @@ const sourceAvailableLicenses = new Set([
   'LicenseRef-PasteBar',
   'LicenseRef-NotchPrompter',
   'PolyForm-Shield-1.0.0',
-  // Koray, 2026-11-06: standard published licenses that allow personal use.
+  // 2026-11-06: standard published licenses that allow personal use.
   'FSL-1.1-ALv2',
   'CC-BY-NC-SA-4.0',
   'PolyForm-Noncommercial-1.0.0',
@@ -203,7 +203,7 @@ export const appSchema = z
     path: ['verified'],
   });
 
-export type AppData = z.infer<typeof appSchema>;
+type AppData = z.infer<typeof appSchema>;
 export type CatalogApp = Omit<AppData, 'screenshots'> & {
   id: string;
   slug: string;
@@ -220,11 +220,7 @@ const env = (
 ).env;
 const defaultBase = env?.BASE_URL ?? basePath;
 
-export function assetUrl(
-  slug: string,
-  file: string,
-  base = defaultBase,
-): string {
+function assetUrl(slug: string, file: string, base = defaultBase): string {
   return `${base.replace(/\/$/, '')}/catalog/${slug}/${file.replace(/^\.\//, '')}`;
 }
 

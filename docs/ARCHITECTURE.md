@@ -16,7 +16,7 @@ Astro builds a static store: Discover (`/`), Search (`/search/`), a page per cat
 - Descriptions stay pleasant to write and review in Markdown.
 - App images and their attribution move or disappear with the entry.
 - File-level diffs isolate changes and reduce merge conflicts.
-- Validated metadata generates consistent site and README output.
+- Validated metadata generates consistent site pages, README and category lists.
 
 A database would be justified later by authenticated editing or moderation queues. A read API can be generated from the same content without changing authorship.
 
@@ -26,7 +26,7 @@ A database would be justified later by authenticated editing or moderation queue
 2. Check that it ships a macOS application and has a reviewed source license and is classified accurately.
 3. Add an app folder following CONTRIBUTING.md, with original description text.
 4. Record each image's upstream URL, credit, and applicable license. Official app icons may be used under reserved trademark or non-commercial terms, recorded honestly (see CONTRIBUTING.md); omit other images where rights or provenance are unclear.
-5. Run validation and sync, inspect the site, and include the generated README diff in the pull request.
+5. Run validation and sync, inspect the site, and include the generated README and `catalog/` diff in the pull request.
 6. CI validates content and builds. A merge to main publishes the static site.
 
 ## Maintenance

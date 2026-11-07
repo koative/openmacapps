@@ -51,7 +51,7 @@ Inclusion rules:
 - **Unmaintained apps:** Unmaintained apps are listed with the label (`maintenance: "unmaintained"` and a `maintenanceNote`).
 - **Graphical applications only:** Command-line-only tools are not listed for now.
 - **No paid-account gate:** Apps whose main job needs a paid account are not listed.
-- **Source-available licenses:** standard published licenses that allow personal use are listed with the Source available label: Commons Clause, FSL, PolyForm Noncommercial, Perimeter and Shield, and the CC BY-NC family. BSL counts only when its Additional Use Grant allows ordinary use. One-off custom licenses are not listed, apart from the reviewed exceptions in `src/lib/catalog.ts` (Koray, 2026-11-06).
+- **Source-available licenses:** standard published licenses that allow personal use are listed with the Source available label: Commons Clause, FSL, PolyForm Noncommercial, Perimeter and Shield, and the CC BY-NC family. BSL counts only when its Additional Use Grant allows ordinary use. One-off custom licenses are not listed, apart from the reviewed exceptions in `src/lib/catalog.ts` (decided 2026-11-06).
 - **Star counts are not a criterion:** GitHub star count is not an eligibility or inclusion criterion.
 
 ## Findings that change catalog decisions
@@ -286,7 +286,7 @@ have not been reviewed yet.
 
 ## Seventh expansion (2026-11-06, bulk)
 
-826 apps were added in one pass, after Koray changed the inclusion rules on 2026-11-06: unmaintained apps are listed with an Unmaintained label, star counts are not a criterion, command-line-only tools and apps whose main job needs a paid account stay out.
+826 apps were added in one pass, after the inclusion rules changed on 2026-11-06: unmaintained apps are listed with an Unmaintained label, star counts are not a criterion, command-line-only tools and apps whose main job needs a paid account stay out.
 
 - **Leads.** The 533 remaining leads from awesome-swift-macos-apps (the pilot's prefilter, plus Compositor back in now that stars do not count) and the 1,192 older leads every earlier expansion had turned down. GitHub data kept 626 of the older ones: not archived, not a fork, a detected license, and a macOS release asset or a project website, with no age limit.
 - **Review.** A script gathered each lead's metadata, license text, README, releases and icon paths into a dossier. Sub-agents judged 1,153 leads from the dossiers against CONTRIBUTING.md: 889 accepted, 56 held, 208 rejected. Other sub-agents then wrote the entries, re-reading every license file, checking the README and, where the download finished, the build with `spctl` and `stapler`. Where a download could not be checked, the record says only what the project states.
@@ -305,7 +305,7 @@ have not been reviewed yet.
 
 ### Source-available licenses (2026-11-06, follow-up)
 
-Koray approved listing standard published licenses that allow personal use (see Inclusion policy). FSL-1.1-ALv2, CC BY-NC-SA 4.0, PolyForm Noncommercial 1.0.0, PolyForm Perimeter 1.0.1, BSL 1.1 (when its Additional Use Grant allows ordinary use) and VeraCrypt's `Apache-2.0 AND LicenseRef-TrueCrypt-3.0` were added to the reviewed list.
+The maintainers approved listing standard published licenses that allow personal use (see Inclusion policy). FSL-1.1-ALv2, CC BY-NC-SA 4.0, PolyForm Noncommercial 1.0.0, PolyForm Perimeter 1.0.1, BSL 1.1 (when its Additional Use Grant allows ordinary use) and VeraCrypt's `Apache-2.0 AND LicenseRef-TrueCrypt-3.0` were added to the reviewed list.
 
 - **Added as source available:** Biscotti, Configgy, Gamely, KiwiDesk (its grant allows production use; only reselling it as a product or service is excluded), M1K3, Metrune, Orbit, Prowl, VeraCrypt, VisorPro and zisla.
 - **Added as open source:** rig and MacAssistant.

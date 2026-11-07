@@ -113,7 +113,7 @@ bun run check:links
 bun run check:generated
 ```
 
-`bun run sync` validates records, copies catalog assets, writes the public `catalog.json` feed, and updates the README between `<!-- catalog:start -->` and `<!-- catalog:end -->`. Both development and production builds run sync automatically. Commit the updated README alongside app records. Generated `public/catalog/`, `public/catalog.json`, and `dist/` stay out of Git.
+`bun run sync` validates records, copies catalog assets, writes the public `catalog.json` feed, and regenerates the category lists in `catalog/` and their index in the README between `<!-- catalog:start -->` and `<!-- catalog:end -->`. Both development and production builds run sync automatically. Commit the updated README and `catalog/` alongside app records. Generated `public/catalog/`, `public/catalog.json`, and `dist/` stay out of Git.
 
 `homebrew` is optional and names a Homebrew cask; the product page shows `brew install --cask <token>` with a copy button. Run `bun run homebrew` instead of guessing a token: it reads Homebrew's cask index and records a cask only when its download or homepage is the app's own repository or website, skipping deprecated, disabled and `@` variant casks. When several casks match (for example BlackHole's channel variants), it lists them and leaves the choice to you; a hand-set token must still pass that rule. CI runs `bun run check:homebrew`, which fails if a recorded cask disappears, is deprecated or no longer points at the app.
 
@@ -123,6 +123,6 @@ The site is served at the root of `https://openmacapps.com/`. Keep internal link
 
 ## Pull requests
 
-Describe the change and include direct evidence for the source license, macOS downloads, and image reuse. Keep unrelated fixes separate. CI checks data integrity, README freshness, meaningful loader tests, Astro types, and the production build. Merges to `main` publish through GitHub Pages.
+Describe the change and include direct evidence for the source license, macOS downloads, and image reuse. Keep unrelated fixes separate. CI checks data integrity, that the README and category lists are current, meaningful loader tests, Astro types, and the production build. Merges to `main` publish through GitHub Pages.
 
 For an app suggestion without code, use the app suggestion issue form. For a broken link, incorrect license, outdated screenshot, moved repository or removal request, use the listing problem issue form with the affected app and evidence.

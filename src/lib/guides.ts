@@ -55,11 +55,11 @@ export type Topic = Entry<z.infer<typeof topicSchema>> & {
   apps: CatalogApp[];
 };
 
-export const alternativesDirectory = path.resolve(
+const alternativesDirectory = path.resolve(
   process.cwd(),
   'content/alternatives',
 );
-export const topicsDirectory = path.resolve(process.cwd(), 'content/topics');
+const topicsDirectory = path.resolve(process.cwd(), 'content/topics');
 
 function loadEntries<T>(directory: string, schema: z.ZodType<T>): Entry<T>[] {
   if (!fs.existsSync(directory)) return [];
