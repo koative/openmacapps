@@ -1,5 +1,9 @@
 # Release verification
 
+## fb-mac-messenger removed — 2026-11-07
+
+fb-mac-messenger, a 2015 Intel-only wrapper around Messenger's website, was held out in the third expansion (`docs/RESEARCH.md`, "service gone or superseded") but came back in the seventh, bulk expansion, whose prefilter did not read earlier hold-outs. It is removed again.
+
 ## Catalog drift scan — 2026-11-07
 
 Every listing was checked against its repository through GitHub's GraphQL API: whether the repository still resolves and under which name, whether it is archived, GitHub's license field against ours, and whether the license file has changed since the listing's `verified` date. The five listings hosted outside GitHub were fetched directly.
