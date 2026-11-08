@@ -6,6 +6,7 @@ tags:
   - coding-agents
   - agents
   - developer-utilities
+  - terminal-emulator
 repository: "https://github.com/scgopi/GraphCode"
 website: "https://graphcode.app"
 license: "FSL-1.1-MIT"
