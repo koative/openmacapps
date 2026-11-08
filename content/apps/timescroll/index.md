@@ -1,6 +1,6 @@
 ---
 name: "TimeScroll"
-summary: "Records your screen, makes it searchable and lets you scroll back through what you saw. Everything stays on your Mac."
+summary: "Saves snapshots of your screen to a folder on your Mac, indexes their text and lets you scroll back through what you saw."
 category: "Productivity"
 tags:
   - search
@@ -14,9 +14,12 @@ download: "https://github.com/XInTheDark/TimeScrollApp/releases/download/v2.2.1/
 freeDownload: true
 featured: false
 added: "2026-11-06"
-verified: "2026-11-06"
+verified: "2026-11-08"
 icon: "./assets/icon.png"
 sources:
+  - "https://github.com/XInTheDark/TimeScrollApp/blob/main/README.md"
+  - "https://timescroll.muzhen.org/install"
+  - "https://github.com/XInTheDark/TimeScrollApp/releases/tag/v2.2.0"
   - "https://github.com/XInTheDark/TimeScrollApp"
   - "https://github.com/XInTheDark/TimeScrollApp/blob/main/LICENSE"
   - "https://github.com/XInTheDark/TimeScrollApp/releases/tag/v2.2.1"
@@ -28,6 +31,15 @@ assets:
     license: "GPL-3.0; upstream app icon, trademarks retained"
 ---
 
-TimeScroll records your screen over time, makes the recordings searchable, and lets you scroll back through earlier moments to find something you saw. The project says everything is stored only on your Mac. It is aimed at people who want to recover something they glimpsed on screen without remembering where it was.
+Every few seconds, when something on screen has changed, TimeScroll saves a snapshot and indexes the text in it. Later you scroll back through the timeline or search for a word you remember, and jump to the moment it was on screen.
 
-It requires macOS 14 or later to run, and Xcode to build from source. The repository is kept in step with each app release. The upstream materials do not say whether the release zip is notarized, so check how it opens on first launch.
+- The timeline splits your past activity into work sessions, and a calendar takes you to any day. Search highlights the match on the snapshot and filters by app and date.
+- AI search finds a moment from a plain description, using a MobileCLIP2 model you download in Settings or a local Ollama model.
+- Summaries, added in 2.2.0, have a local Ollama model write up what you did over a selected range, next to the time spent in each app.
+- A timelapse export turns any period into a video at up to 600 times speed.
+- Optional audio transcripts record the microphone or system audio and transcribe it on the Mac with a Whisper model.
+- An MCP server inside the app gives Claude and other MCP clients access to search your history on request.
+
+TimeScroll needs macOS 14 or later and comes as a ZIP with a Universal app for Apple silicon and Intel. Capture needs the Screen Recording permission. If you also grant Accessibility, Direct mode reads on-screen text without OCR, which the developer says uses much less energy.
+
+You can exclude apps, delete any time range and encrypt the database and media behind Touch ID or your Mac password, though the vault is still marked beta. The developer says nothing leaves the Mac and there are no accounts or analytics.

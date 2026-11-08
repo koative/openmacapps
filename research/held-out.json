@@ -303,5 +303,10 @@
     "repository": "https://github.com/cshariq/Sapphire",
     "date": "2026-11-08",
     "reason": "The official download bundles a camera extension and audio driver that the public source replaces with placeholders, and the app checks for a paid subscription."
+  },
+  {
+    "repository": "https://github.com/macmade/Notarize",
+    "date": "2026-11-08",
+    "reason": "Every call to Apple goes through altool, which Apple's notary service stopped accepting on 2023-11-01 (TN3147)."
   }
 ]

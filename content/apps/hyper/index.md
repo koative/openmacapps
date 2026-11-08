@@ -11,7 +11,6 @@ download: "https://github.com/vercel/hyper/releases"
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release since January 2023; the repository is archived."
-homebrew: "hyper"
 featured: false
 added: "2026-10-17"
 verified: "2026-11-08"

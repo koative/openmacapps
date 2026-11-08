@@ -13,12 +13,14 @@ download: https://github.com/sozercan/OpenInCode/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: '2026-11-08'
 icon: ./assets/icon.png
 sources:
   - https://github.com/sozercan/OpenInCode
   - https://github.com/sozercan/OpenInCode/blob/master/LICENSE
   - https://github.com/sozercan/OpenInCode/releases
+  - https://raw.githubusercontent.com/sozercan/OpenInCode/master/README.md
+  - https://github.com/sozercan/OpenInCode/releases/tag/v2.0.0
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/sozercan/OpenInCode/master/docs/assets/open-in-code-icon.png
@@ -26,6 +28,17 @@ assets:
     license: "MIT repository asset; the icon depicts the Visual Studio Code logo, a trademark of Microsoft"
 ---
 
-Open in Code is a tiny app meant to live in the Finder toolbar. Clicking it opens Visual Studio Code on whatever Finder is showing: a selected folder, the folder containing a selected file, or the front window's location. If the stable editor is not installed it falls back to VS Code Insiders.
+Open in Code sits in the Finder toolbar and opens Visual Studio Code on the folder you are looking at. Click it and VS Code opens with the right workspace, with no Terminal command and no browsing to the folder a second time.
 
-It has no window of its own; you add it by Command-dragging the app into the toolbar. Version 2.0, released in 2026, requires macOS 12 or later and is available from GitHub releases or the author's Homebrew tap.
+What opens depends on what Finder shows:
+
+- A selected folder opens as itself.
+- A selected file or package opens its enclosing folder.
+- With several items selected, the first one decides.
+- With nothing selected, the front Finder window's folder opens.
+
+To set it up, open the Applications folder and Command-drag the app into the Finder toolbar. Command-dragging the button again moves or removes it. The first click makes macOS ask whether Open in Code may control Finder, which it needs to read the selection. If you refused, turn it back on under Privacy & Security, Automation on macOS 13 or later, or under Security & Privacy on macOS 12.
+
+You need Visual Studio Code or VS Code Insiders installed. The app prefers the stable editor and uses Insiders when only that one is present.
+
+Version 2.0 requires macOS 12 or later and is a Universal app for Apple silicon and Intel. It comes as a ZIP from GitHub releases or as a cask from the author's Homebrew tap. The code is MIT-licensed.

@@ -13,12 +13,15 @@ download: https://github.com/Conxt/WindowGlue/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - https://github.com/Conxt/WindowGlue
   - https://github.com/Conxt/WindowGlue/blob/main/LICENSE
   - https://github.com/Conxt/WindowGlue/releases
+  - https://raw.githubusercontent.com/Conxt/WindowGlue/main/README.md
+  - https://github.com/Conxt/WindowGlue/releases/tag/1.0.0
+  - https://github.com/Conxt/WindowGlue/releases/tag/1.0.2
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/Conxt/WindowGlue/main/Window%20Glue/Assets.xcassets/AppIcon.appiconset/Icon-MacOS-512x512%401x.png
@@ -26,6 +29,12 @@ assets:
     license: "MIT; upstream project asset, trademarks retained"
 ---
 
-Window Glue joins two windows so they behave largely as one. With glue mode switched on from the menu bar or a shortcut, dragging a window next to another shows where it will snap, and the pair then follows each other until you shake one free.
+Window Glue attaches one window to another so you can handle the two as a single unit. Switch on glue mode from its menu bar icon or with F9, then drag a window toward a second one. A glow marks where it will snap. Once attached, the pair moves together, and the border between them behaves like a split view divider.
 
-It needs Accessibility permission to watch and move windows and works locally. The project lists known limits: the second window lags slightly while dragging, and a pair does not yet follow a window moved to another display or Space.
+To separate them, shake a window quickly, or press Shift-F9 to unglue the active window. Hiding a glued window with Command-H unglues it as well. Settings let you change both shortcuts, adjust the snap tolerance and have the app open at startup. The interface is available in 13 languages, including Ukrainian, Japanese and Polish.
+
+The app uses the Accessibility permission to watch and reposition other apps' windows, and the setup steps ask you to quit and reopen it after granting that permission. The developer says no data is collected or transmitted.
+
+The project lists two known issues. The second window lags slightly behind while you drag the first. When one window moves to another display or Space, its partner does not follow, and the two stick again once you drag the other window over too.
+
+The release is a DMG holding a Universal app for Apple silicon and Intel, and it needs macOS 13 Ventura or later. The app inside is signed with a Developer ID and notarized, while the disk image itself is signed but not notarized.

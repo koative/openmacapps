@@ -324,3 +324,7 @@ Every app description, summary, alternatives intro and topic intro was measured,
 - **Alternatives and topic intros are templated too.** 64 of 117 alternatives intros open their second paragraph with "The open-source apps below"; the CyberGhost and NordVPN pages share a paragraph word for word.
 
 **Decision.** A description standard (CONTRIBUTING.md, "Writing the description") with checks in `src/lib/writing.ts`: at least 120 words, no review-process language, at most one README attribution, no "It suits people who" slot, no summary opening with "native", and a named replaced product when `alternativeTo` is set. The checks apply to records verified on or after 2026-11-08, so the catalog moves to the standard record by record as each is rewritten and re-verified. A pilot of 20 rewrites, chosen by install demand, comes first.
+
+### Rewrite results (2026-11-08)
+
+All 734 descriptions under 100 words were rewritten and re-verified under the standard (details in `docs/VERIFICATION.md`). A second reviewer re-opened every cited page; per batch, 2–18% of first-draft claims were wrong or untraced, mostly softened upstream wording stated as fact and comparisons that went beyond the other vendor's own page. Five apps left the catalog because the downloadable Mac build is not the published open-source code or no longer works: Numi, Chatbox, Orkas, Sapphire and Notarize (`research/held-out.json`).

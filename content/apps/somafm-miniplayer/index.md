@@ -16,13 +16,16 @@ download: https://github.com/ealeksandrov/SomaFM-miniplayer/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
 - https://github.com/ealeksandrov/SomaFM-miniplayer
 - https://github.com/ealeksandrov/SomaFM-miniplayer/blob/master/LICENSE.md
 - https://github.com/ealeksandrov/SomaFM-miniplayer/releases
 - https://somafm.com/
+- https://raw.githubusercontent.com/ealeksandrov/SomaFM-miniplayer/master/README.md
+- https://github.com/ealeksandrov/SomaFM-miniplayer/releases/tag/2.0.0
+- https://apps.apple.com/app/id1303140142
 assets:
 - path: ./assets/icon.png
   source: https://github.com/ealeksandrov/SomaFM-miniplayer/releases/download/2.0.0/SomaFM-miniplayer-2.0.0.dmg
@@ -30,6 +33,10 @@ assets:
   license: Official app icon extracted unmodified from the 2.0.0 release; name and icon retained by the author
 ---
 
-SomaFM miniplayer lives in the menu bar and plays SomaFM's independent internet radio channels without a window. The menu shows the current station and track with a play/pause button, recently played stations, and a click action to copy the track or search for it.
+SomaFM miniplayer plays the internet radio stations of SomaFM from the menu bar. Its author describes it as an unofficial, minimal player. You open its menu from the status item, choose a station and listen, with the station and current track shown at the top of the menu beside a play/pause button.
 
-Settings cover starting at login, playing on launch, track notifications and what a left click does. It is a fan project and not affiliated with SomaFM. Version 2.0.0 arrived in 2026 after several years without releases; disk images are on GitHub and the author also lists it on the Mac App Store.
+Clicking the current track either copies it or opens a search for it on Google, YouTube, Apple Music or Spotify, depending on the action you pick in settings. A left click on the status item can open the menu or toggle playback instead; the menu still opens on a right-click, or a click with Control or Option held. The menu bar icon pulses while a stream connects and dims when playback is paused.
+
+Version 2.0.0, released in August 2026, rewrote the app and follows version 1.2.0 from 2019. The GitHub disk image holds a Universal app for Apple silicon and Intel that is Developer ID-signed and notarized and requires macOS 14 or later. The author also publishes it on the Mac App Store. Building it yourself needs Xcode 26 or later and no third-party dependencies.
+
+Settings are split between playback and behaviour. Playback covers starting at login, playing as soon as the app launches and notifications for new tracks. Behaviour covers the left-click and track-click actions, station sorting and recent stations. With Now Playing support, the media keys and Control Center control playback, even while the Mac is locked.

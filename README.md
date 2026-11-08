@@ -55,13 +55,13 @@ See [how the catalog is maintained](docs/ARCHITECTURE.md) for the data model and
 
 <!-- catalog:start -->
 
-1,874 macOS apps: **1,842 open source** and **32 source available**. Source-available apps have additional restrictions and are labeled separately. Each category's list is generated from [content/apps](content/apps); edit the app folders to contribute.
+1,869 macOS apps: **1,837 open source** and **32 source available**. Source-available apps have additional restrictions and are labeled separately. Each category's list is generated from [content/apps](content/apps); edit the app folders to contribute.
 
 | Category | Apps |
 | --- | ---: |
 | [Productivity](catalog/productivity.md) | 288 |
-| [Developer tools](catalog/developer-tools.md) | 331 |
-| [Utilities](catalog/utilities.md) | 573 |
+| [Developer tools](catalog/developer-tools.md) | 330 |
+| [Utilities](catalog/utilities.md) | 571 |
 | [Media](catalog/media.md) | 161 |
 | [Privacy & security](catalog/privacy-security.md) | 63 |
 | [Writing](catalog/writing.md) | 53 |
@@ -69,7 +69,7 @@ See [how the catalog is maintained](docs/ARCHITECTURE.md) for the data model and
 | [Internet](catalog/internet.md) | 99 |
 | [Education](catalog/education.md) | 29 |
 | [Games](catalog/games.md) | 36 |
-| [AI](catalog/ai.md) | 181 |
+| [AI](catalog/ai.md) | 179 |
 
 <!-- catalog:end -->
 

@@ -15,12 +15,14 @@ download: https://github.com/lifedever/health-tick-release/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - https://github.com/lifedever/health-tick-release
   - https://github.com/lifedever/health-tick-release/blob/main/LICENSE
   - https://github.com/lifedever/health-tick-release/releases
+  - https://github.com/lifedever/health-tick-release/blob/main/README.md
+  - https://github.com/lifedever/health-tick-release/releases/tag/v1.6.32
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/lifedever/health-tick-release/main/Sources/Resources/AppIcon.icns
@@ -28,6 +30,15 @@ assets:
     license: "GPL-3.0; upstream project asset, trademarks retained"
 ---
 
-HealthTick alternates a work interval with a rest interval and interrupts you when it is time to stand up. The break reminder can be a corner pop-up, a centred window or a full-screen block, and the countdown pauses if it notices keyboard or mouse activity during a break.
+HealthTick counts down a stretch of work from the menu bar, then calls a break and holds you to it. The work interval can be anything from 1 to 120 minutes, and the rest from 1 to 15.
 
-A daily goal, streaks, badges and charts of recent weeks encourage the habit. It requires macOS 14 or later; separate Apple silicon and Intel disk images are published on GitHub, and the developer also maintains a Homebrew tap.
+When the break comes, the reminder can sit in the top-left or top-right corner, take the middle of the screen, or cover the whole display. If you touch the keyboard or mouse during the rest, the countdown pauses, which is meant to make sure you actually rest.
+
+The app needs macOS 14 or later and comes as separate disk images for Apple silicon and Intel, or through the developer's Homebrew tap. The Apple silicon build has no Developer ID signature. If macOS refuses to open it the first time, the README points you to Open Anyway in Privacy & Security settings. HealthTick checks for a new version each time it starts, and its README is written in Chinese.
+
+The habit side runs on numbers:
+
+- a daily target for how many breaks you take, with a way to log one you took early;
+- a streak of days on which you met the target;
+- 18 badges for streaks and for total breaks;
+- a 7-day bar chart, a 30-day heat map and weekly and monthly completion rates.

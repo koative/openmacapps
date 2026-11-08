@@ -1,6 +1,6 @@
 ---
 name: "IconGenerator"
-summary: "Electron app that turns one image into Xcode app icon sets for iPhone, iPad, macOS, tvOS and watchOS, or an .icns file."
+summary: "Turns one image into Xcode app icon sets for iPhone, iPad, macOS, tvOS and watchOS, or into an .icns file."
 category: "Design"
 tags:
   - icons
@@ -14,9 +14,11 @@ download: "https://github.com/onmyway133/IconGenerator/releases/download/1.2.0/I
 freeDownload: true
 featured: false
 added: "2026-11-06"
-verified: "2026-11-06"
+verified: "2026-11-08"
 icon: "./assets/icon.png"
 sources:
+  - "https://github.com/onmyway133/IconGenerator/blob/master/README.md"
+  - "https://github.com/onmyway133/IconGenerator/releases/tag/1.2.0"
   - "https://github.com/onmyway133/IconGenerator"
   - "https://github.com/onmyway133/IconGenerator/blob/master/LICENSE.md"
   - "https://github.com/onmyway133/IconGenerator/releases"
@@ -29,6 +31,10 @@ maintenance: "unmaintained"
 maintenanceNote: "No release since September 2018 and no commit since November 2023, as of 6 November 2026."
 ---
 
-IconGenerator takes one source image, in PNG, JPEG, WebP, TIFF, GIF or SVG, and writes an AppIcon.appiconset for iPhone, iPad, macOS, tvOS or watchOS, or an AppIcon.icns file. It is for developers who keep one master icon and need the Xcode asset files for each target.
+Drag an image onto the left box of IconGenerator's window, pick a platform, and it writes the icon files an Xcode project expects. iPhone, iPad, macOS, tvOS and watchOS each produce an `AppIcon.appiconset` folder with its Contents.json. The sixth choice is a single `AppIcon.icns` file. Results land in your Downloads folder.
 
-The README says it is an Electron app and gives no minimum macOS version. The last release, 1.2.0, is from September 2018, so check the generated Contents.json against your Xcode version before you commit it.
+IconGenerator is built on Electron, which makes the download large for a small tool: the 1.2.0 ZIP is about 74 MB. Inside is an Intel-only (x86_64) app that declares macOS 10.9 or later, so Apple silicon Macs run it through Rosetta 2. It has no usable code signature. Gatekeeper refuses it until you allow it under Privacy & Security in System Settings.
+
+Khoa Pham wrote it and published it under the MIT license. Version 1.2.0, from September 2018, is still the latest release.
+
+The source image can be a PNG, JPEG, WebP, TIFF, GIF or SVG file. Resizing is handled by the sharp image library. The folder layout follows Apple's asset catalog format as Xcode used it when the app was written, so compare the result with what your current Xcode project asks for before you commit it.
