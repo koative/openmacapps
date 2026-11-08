@@ -149,6 +149,23 @@ export function getTopics(): Topic[] {
   return (topicsCache ??= loadTopics(getApps()));
 }
 
+/**
+ * The topic page that lists every `category` app carrying `tag`: one with that
+ * tag and either no category or this one. Unrestricted topics win, then title order.
+ */
+export function topicForTag(
+  topics: Topic[],
+  tag: string,
+  category: Topic['category'],
+): Topic | undefined {
+  const covering = topics.filter(
+    (topic) =>
+      topic.tags.includes(tag) &&
+      (!topic.category || topic.category === category),
+  );
+  return covering.find((topic) => !topic.category) ?? covering[0];
+}
+
 /** schema.org ItemList of app pages, in display order. */
 export const appItemList = (apps: CatalogApp[]) => ({
   '@type': 'ItemList',

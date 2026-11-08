@@ -4,7 +4,7 @@ import type { CatalogApp } from '../lib/catalog';
 import { licenseLabel } from '../lib/collections';
 interface Props {
   app: CatalogApp;
-  /** Adds the data attributes the search page filters on. */
+  /** Adds the data attributes the search page filters on that the card does not show as text. */
   searchable?: boolean;
   /** Names of the proprietary products the app replaces; searchable text only. */
   replaces?: string[];
@@ -14,17 +14,20 @@ const base = import.meta.env.BASE_URL;
 const unmaintained = app.maintenance === 'unmaintained';
 const restricted =
   !unmaintained && app.sourceAvailability === 'source-available';
+// Search reads the name, summary and license from the card's text; only the
+// exceptions are marked for featured apps and restricted licenses.
 const filters = searchable
   ? {
       'data-app': '',
-      'data-name': app.name,
-      'data-search':
-        `${app.name} ${app.summary} ${app.category} ${app.tags.join(' ')} ${replaces.join(' ')}`.toLowerCase(),
       'data-category': app.category,
       'data-tags': app.tags.join(','),
       'data-added': app.added,
-      'data-featured': String(app.featured),
-      'data-source': app.sourceAvailability,
+      'data-featured': app.featured ? '' : undefined,
+      'data-source':
+        app.sourceAvailability === 'open-source'
+          ? undefined
+          : app.sourceAvailability,
+      'data-replaces': replaces.length ? replaces.join(' ') : undefined,
     }
   : {};
 ---

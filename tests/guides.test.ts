@@ -9,6 +9,7 @@ import {
   loadAlternatives,
   loadTopics,
   sourceCount,
+  topicForTag,
 } from '../src/lib/guides.ts';
 
 const temporaryDirectories: string[] = [];
@@ -113,10 +114,18 @@ test('a topic gathers apps with any of its tags within its category, and needs t
     { slug: 'd', tags: ['clipboard-manager'], category: 'Utilities' },
     { slug: 'e', tags: ['menu-bar'], category: 'Productivity' },
   ]);
+  const pages = loadTopics(catalog, topics);
   assert.deepEqual(
-    loadTopics(catalog, topics)[0].apps.map((app) => app.slug),
+    pages[0].apps.map((app) => app.slug),
     ['a', 'b', 'c'],
   );
+  // A tag chip links to the topic only where the topic lists every app with that tag.
+  assert.equal(
+    topicForTag(pages, 'clipboard-manager', 'Productivity'),
+    pages[0],
+  );
+  assert.equal(topicForTag(pages, 'clipboard-manager', 'Utilities'), undefined);
+  assert.equal(topicForTag(pages, 'menu-bar', 'Productivity'), undefined);
   assert.throws(() => loadTopics(catalog.slice(1), topics), /fewer than three/);
   markdown(topics, 'clipboard-managers.md', {
     ...topic,

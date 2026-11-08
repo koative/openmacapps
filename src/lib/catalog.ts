@@ -372,3 +372,7 @@ export const newestFirst = (apps: CatalogApp[]) =>
       a.name.localeCompare(b.name) ||
       a.slug.localeCompare(b.slug),
   );
+
+/** The largest hundred strictly below `n`, for prose like "more than 1,800" or "1,800+" that stays true as the catalog grows. */
+export const hundredsBelow = (n: number) =>
+  n > 100 ? Math.floor((n - 1) / 100) * 100 : n;
