@@ -9,7 +9,11 @@ export const minimumBodyWords = 120;
 const processLanguage =
   /\b(?:this (?:entry|record|listing)|I checked|we checked|at review time|does not claim)\b/i;
 const audienceSlot = /\bIt (?:suits|is for) (?:people|users|anyone) who\b/;
-
+// Peacock words and stock frames that make catalog copy read as generated (docs/RESEARCH.md, Writing review).
+const bannedWords =
+  /\b(?:seamless(?:ly)?|robust|powerful|leverag\w*|cutting-edge|effortless(?:ly)?|blazing(?:ly)?|ultimate|intuitive|delv\w*|elevat\w*|game-chang\w*|does the same (?:core )?job|not (?:just|only|merely)\b[^.]{0,60}\bbut)\b/i;
+const attribution =
+  /\b(?:developer|project|README|documentation|download page|help center|website)\b[^.]{0,30}\b(?:says|states|lists|names|notes|describes)\b|\bper (?:its|the) \w+|\baccording to\b/gi;
 export const countWords = (text: string) =>
   text.match(/[A-Za-z0-9][\w'’.-]*/g)?.length ?? 0;
 
@@ -36,10 +40,44 @@ export function writingProblems(
     problems.push(
       'drop the "It suits people who …" line, or name a narrower audience',
     );
-  if (/^(?:A |An )?native\b/i.test(record.summary))
+  if (/^(?:A |An )?(?:native|menu bar app)\b/i.test(record.summary))
     problems.push(
-      'do not open the summary with "native"; start with what the app does',
+      'do not open the summary with "native" or "menu bar app"; start with what the app does',
     );
+  const banned = body.match(bannedWords);
+  if (banned)
+    problems.push(`"${banned[0]}" is puffery or a stock frame; say it plainly`);
+  if (/—|!|\*\*/.test(body.replace(/`[^`]*`/g, '')))
+    problems.push('no em dashes, exclamation marks or bold in descriptions');
+  const attributions = body.match(attribution)?.length ?? 0;
+  if (attributions > 2)
+    problems.push(
+      `${attributions} sentences cite a source; attribute only claims nobody can check, at most twice`,
+    );
+  // Word counts of prose sentences; list items and inline code are left out.
+  const sentences = body
+    .split(/\n{2,}/)
+    .filter((block) => !/^\s*(?:[-*+]|\d+\.)\s/.test(block))
+    .join(' ')
+    .replace(/`[^`]*`/g, 'code')
+    .split(/(?<=[.!?])\s+(?=[A-Z"“(])/)
+    .map(countWords)
+    .filter((n) => n > 0);
+  const longest = Math.max(0, ...sentences);
+  if (longest > 40)
+    problems.push(
+      `a sentence runs ${longest} words; split anything over 40 (aim for 30)`,
+    );
+  if (sentences.length >= 8) {
+    const mean = sentences.reduce((a, b) => a + b, 0) / sentences.length;
+    const sd = Math.sqrt(
+      sentences.reduce((a, b) => a + (b - mean) ** 2, 0) / sentences.length,
+    );
+    if (sd / mean < 0.25)
+      problems.push(
+        'sentence lengths are too uniform; mix short sentences with longer ones',
+      );
+  }
   return problems;
 }
 

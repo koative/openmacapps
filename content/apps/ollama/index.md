@@ -21,13 +21,13 @@ icon: "./assets/icon.png"
 
 Ollama downloads open-weight language models and runs them on your Mac. Pick a model in the app window and chat with it, or type `ollama run` followed by a model name in Terminal. Both talk to a local server that other software can call.
 
-- **Chat window.** You can drop text files and PDFs into a conversation, and send images to models that accept them.
-- **Local API.** The server listens on port 11434 of your own machine only, unless you change the `OLLAMA_HOST` setting. It answers its own API as well as OpenAI- and Anthropic-style requests.
-- **Connections to other tools.** The app can hook Ollama models into desktop chat clients and coding agents from its Apps screen.
-- **Context length.** A settings control raises the context window for long documents, at the cost of more memory.
+- Chat window: drop text files and PDFs into a conversation, and send images to models that accept them.
+- Local API: the server listens on port 11434 of your own machine only, unless you change the `OLLAMA_HOST` setting. It answers its own API as well as OpenAI- and Anthropic-style requests.
+- Connections: the Apps screen hooks Ollama models into desktop chat clients and coding agents.
+- Context length: a settings control raises the context window for long documents, at the cost of more memory.
 
-LM Studio does the same core job of downloading and running models with a local server, but it is closed source. Ollama's code is MIT-licensed. Each model you download keeps its own license.
+It needs macOS 14 Sonoma or later. Apple silicon Macs use both CPU and GPU; Intel Macs run models on the CPU only. Downloaded models live in `~/.ollama` and can take tens to hundreds of gigabytes. The largest run slowly without a strong GPU.
 
-The macOS documentation lists macOS 14 Sonoma or later. Apple silicon Macs use both CPU and GPU, while Intel Macs run models on the CPU only. Downloaded models are stored in `~/.ollama` and can take tens to hundreds of gigabytes. The largest ones run slowly without a strong GPU.
+LM Studio also downloads and runs models with a local server, but it is closed source. Ollama's code is MIT-licensed, and each model you download keeps its own license.
 
-Local use needs no account. Ollama also offers cloud-hosted models, which require signing in and usage credits or a paid plan. The developer states that it does not see prompts from local models, and that cloud prompts are processed but not stored or used for training.
+Local use needs no account. Cloud-hosted models are also offered; they require signing in and usage credits or a paid plan. The developer states that it does not see prompts from local models, and that cloud prompts are processed but not stored or used for training.

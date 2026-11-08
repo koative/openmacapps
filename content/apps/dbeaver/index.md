@@ -14,14 +14,14 @@ homebrew: "dbeaver-community"
 featured: false
 added: "2026-10-17"
 verified: "2026-11-08"
-sources: ["https://github.com/dbeaver/dbeaver", "https://github.com/dbeaver/dbeaver/blob/devel/LICENSE.md", "https://dbeaver.io/download", "https://github.com/dbeaver/dbeaver/blob/devel/README.md"]
+sources: ["https://github.com/dbeaver/dbeaver", "https://github.com/dbeaver/dbeaver/blob/devel/LICENSE.md", "https://dbeaver.io/download", "https://github.com/dbeaver/dbeaver/blob/devel/README.md", "https://dbeaver.io/"]
 assets: [{"path": "./assets/icon.png", "source": "https://github.com/dbeaver/dbeaver/blob/devel/product/community/icons/dbeaver.icns", "credit": "DBeaver Community contributors", "license": "Apache-2.0; project trademarks retained"}]
 icon: "./assets/icon.png"
 ---
 
-DBeaver Community connects to a database and lets you browse its schemas and tables, edit rows in a grid, and run SQL in an editor that shows execution plans. It works with more than 100 database drivers out of the box and with any other database that has a JDBC or ODBC driver.
+DBeaver Community connects to a database and lets you browse its schemas and tables, edit rows in a grid, and run SQL in an editor that shows execution plans. More than 100 database drivers come included. Any other database with a JDBC or ODBC driver works too.
 
-Beyond querying, it covers several administration and data tasks:
+Beyond querying, it covers administration and data tasks:
 
 - schema editing and generated ER diagrams
 - export, import and migration of data between databases
@@ -29,6 +29,6 @@ Beyond querying, it covers several administration and data tasks:
 - a viewer for spatial data
 - an AI chat that can help write SQL against your schema
 
-TablePlus does the same everyday job of connecting to a database and editing data. DBeaver is a Java application that adds the administration and migration tools above, and the same app also runs on Windows and Linux. The Community edition is free and Apache-2.0 licensed, with no account required. The developer also sells commercial editions with extra features under separate licences.
+Separate macOS builds exist for Apple silicon and Intel, each delivered as a disk image. DBeaver is tested on macOS 11 or later. Every distribution bundles its own OpenJDK runtime, so you do not install Java separately.
 
-The download page offers separate macOS builds for Apple silicon and Intel, delivered as a disk image, and says DBeaver is tested on macOS 11 or later. Every distribution bundles its own OpenJDK runtime, so no separate Java install is needed.
+TablePlus also connects to databases and lets you edit data. DBeaver is written mostly in Java, and the Community edition is free and Apache-2.0 licensed. A commercial PRO version with extra features is sold separately.

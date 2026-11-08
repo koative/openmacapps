@@ -20,16 +20,16 @@ icon: "./assets/icon.png"
 assets: [{"path": "./assets/icon.png", "source": "https://raw.githubusercontent.com/blender/blender/main/release/freedesktop/icons/scalable/apps/blender.svg", "credit": "Blender Foundation", "license": "Blender logo is property and a registered trademark of Blender Foundation; not part of the GNU GPL; third parties may use it unaltered only to point to Blender or give credit (https://www.blender.org/about/logo/); used unmodified (SVG rendered to 256px PNG) only to identify the app in a non-commercial directory"}]
 ---
 
-Blender builds 3D scenes and turns them into still images, animations and video in a single application. Model or sculpt objects, give them materials and lights, animate them, then render and composite the result without leaving the project.
+Blender builds 3D scenes and turns them into still images, animations and video in a single application. You model or sculpt objects, give them materials and lights, and animate them. Rendering and compositing happen in the same project.
 
 - Modeling, sculpting, retopology and curve tools for building meshes.
 - Rigging and animation, plus physics simulation built on the Bullet and Mantaflow libraries.
 - Rendering with Cycles, a path tracer, alongside compositing and camera and object motion tracking.
 - A video editor and tools for creating game assets.
-- A Python API used for scripts, add-ons and much of the interface itself.
+- A Python API for scripts and add-ons, which Blender also uses to define its user interface.
 
-SketchUp shares the job of modeling buildings, rooms and objects, using push-and-pull drawing on faces. Blender models free-form meshes and has rendering and animation built in, but it has no built-in concept of walls, doors or other building elements. It costs nothing and needs no account.
+Current Mac releases need Apple silicon and macOS 13 (Ventura) or later, with 8 GB of RAM as the minimum. Intel Macs stop at Blender 4.5 LTS. That is also the last version for macOS 11.2 (Big Sur).
 
-Current Mac releases need Apple silicon and macOS 13 (Ventura) or later; the official requirements list 8 GB of RAM as the minimum. Blender 4.5 LTS is the last version for Intel Macs and macOS 11.2 (Big Sur).
+Most of the source is GPL-2.0-or-later. Some modules, such as Cycles, are Apache-2.0, and the Blender Foundation distributes the combined program under GPL-3.0-or-later. Python scripts that use Blender's API and are shared publicly must use a GPL-compatible license. They may be sold, but buyers receive them under the GPL. The Blender logo is a trademark outside the GPL.
 
-Most of Blender's source is GPL-2.0-or-later, with some modules, such as Cycles, under Apache-2.0. The Blender Foundation states that the combined program is distributed under GPL-3.0-or-later. Python scripts that use Blender's API and are shared publicly must use a GPL-compatible license, though they may be sold. The Blender logo is a trademark and is not covered by the GPL.
+SketchUp also models buildings, rooms and objects in 3D. Blender is free, asks for no registration and works without an internet connection.
