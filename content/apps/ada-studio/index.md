@@ -21,6 +21,12 @@ sources:
   - "https://github.com/AdaEngine/Ada/blob/main/LICENSE"
   - "https://github.com/AdaEngine/Ada/releases/tag/editor-v1.0.0-20261013"
   - "https://adaengine.org"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/AdaEngine/Ada/releases/download/editor-v1.0.0-20261013/AdaEngine-1.0.0-20261013-macOS.zip
+    credit: Ada Studio contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Ada Studio is the companion editor for AdaEngine, an open-source game engine written in Swift for 2D and 3D games and user interfaces. It creates projects, edits code and scenes, and runs games from a desktop or mobile workspace. The engine is a Swift package for developers; the macOS download in the editor release is the Studio app.

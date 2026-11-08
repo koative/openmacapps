@@ -20,6 +20,12 @@ sources:
   - "https://github.com/zeetabit/Hertzwise/blob/main/LICENSE"
   - "https://github.com/zeetabit/Hertzwise/releases"
   - "https://zeetabit.github.io/Hertzwise/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/zeetabit/Hertzwise/releases/download/v1.0.3/Hertzwise-1.0.3.dmg
+    credit: Hertzwise contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Hertzwise changes the output sample rate of a DAC to match each track played by Apple Music or Tidal, so a lossless track plays at its own rate instead of being resampled by macOS. It can also apply a volume stage for DACs that ignore the Mac's volume control, and a headphone EQ that you switch on per output device. It is for listeners with a dedicated DAC who use Apple Music or Tidal. The project is open source under MIT.

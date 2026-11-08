@@ -20,6 +20,12 @@ sources:
   - "https://github.com/tobymarks/esp32-ai-monitor/blob/main/LICENSE"
   - "https://github.com/tobymarks/esp32-ai-monitor/releases"
   - "https://tobymarks.github.io/esp32-ai-monitor/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/tobymarks/esp32-ai-monitor/releases/download/app-v1.32.0/AIMonitor.dmg
+    credit: AI Monitor contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 AI Monitor is the Mac side of a desk display. It asks the local CodexBar CLI for usage limits from providers such as Claude, ChatGPT, Gemini, Copilot and Cursor, then sends a compact frame over USB to a Cheap Yellow Display or a Guition ESP32-S3 board, which draws the dashboard. It is for people who want their limits on a second screen instead of a browser tab. The app does not talk to any AI service directly; CodexBar does.

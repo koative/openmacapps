@@ -20,6 +20,12 @@ sources:
   - "https://github.com/chang-07/rascal/blob/main/LICENSE"
   - "https://github.com/chang-07/rascal/releases/tag/v0.1.6"
   - "https://chang-07.github.io/rascal/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/chang-07/rascal/releases/download/v0.1.6/Rascal-arm64.dmg
+    credit: Rascal contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Rascal is a file manager for macOS that is built around the keyboard. It offers dual and multi-pane layouts, a fuzzy command palette on Command-Shift-P, vim-style navigation, a live treemap of the folder you are in, and a terminal drawer that follows the active pane. It reads and writes the same Finder tags as Finder, and version 0.1.6 added SFTP browsing of remote servers. It is plain AppKit with no third-party Swift packages, and the project states that it has no telemetry and no accounts.

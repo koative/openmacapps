@@ -21,6 +21,12 @@ sources:
   - "https://github.com/lncch/Plugd/blob/main/LICENSE"
   - "https://github.com/lncch/Plugd/releases/latest"
   - "https://plugd.almoayyad.dev"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/lncch/Plugd/releases/download/v0.3.7/Plugd.dmg
+    credit: Plugd contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Plugd sets up Wine and FORScan, the Windows diagnostic software used for Ford, Lincoln, Mercury and Mazda cars, so it can run on a Mac. It downloads the official FORScan installer from forscan.org, maps a USB or paired Bluetooth OBD-II adapter to the serial port FORScan expects, and keeps license keys and As-Built backups in a folder that FORScan sees as drive O:. It also adds a menu bar status item, a live dashboard that can be recorded to CSV, and warnings for a low car battery or a missing backup. It is for owners who would otherwise need a Windows PC to change settings.

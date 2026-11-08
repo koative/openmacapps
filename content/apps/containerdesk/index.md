@@ -20,6 +20,12 @@ sources:
   - "https://github.com/MacHatter1/ContainerDesk/blob/main/LICENSE"
   - "https://github.com/MacHatter1/ContainerDesk/releases/latest"
   - "https://www.containerdesk.dev"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/MacHatter1/ContainerDesk/releases/download/v1.3.2/ContainerDesk-v1.3.2-macos-arm64.dmg
+    credit: ContainerDesk contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 ContainerDesk is a workspace for Apple's `container` runtime. It shows containers, images, volumes, networks and machines in searchable tables, and lets you run, stop, inspect, build and clean up Linux containers. Each container has live CPU and memory gauges against its limits, a terminal, logs and file access, and cleanup shows exactly what it will remove. It also manages Compose projects and saved stacks, and can serve a local MLX model for chat. It suits developers who want to use Apple's runtime and do not need a Docker socket or Docker API.

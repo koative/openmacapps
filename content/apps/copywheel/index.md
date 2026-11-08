@@ -20,6 +20,12 @@ sources:
   - "https://github.com/weselski/copywheel"
   - "https://github.com/weselski/copywheel/blob/main/LICENSE"
   - "https://github.com/weselski/copywheel/releases/latest"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/weselski/copywheel/releases/download/v0.4.0/CopyWheel.dmg
+    credit: CopyWheel contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 CopyWheel is a small menu bar app. A global hotkey, Control-Option-C by default, opens a radial menu at the cursor. Clicking a slice, or pressing a number key, copies that snippet to the clipboard, and arrow keys can rotate through the wheel. An optional outer ring shows the last ten copied texts, kept in memory only and skipping password-manager entries. Secret snippets are stored in the Keychain. It suits people who reuse the same saved texts and want them without opening a notes app.

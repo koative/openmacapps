@@ -20,6 +20,12 @@ sources:
   - "https://github.com/CrashSystemZ/ChargeMonitor"
   - "https://github.com/CrashSystemZ/ChargeMonitor/blob/main/LICENSE"
   - "https://github.com/CrashSystemZ/ChargeMonitor/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/CrashSystemZ/ChargeMonitor/releases/download/v1.2.0/ChargeMonitor.dmg
+    credit: ChargeMonitor contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 ChargeMonitor is a menu-bar utility that shows the battery percentage and opens a popover with more detail: power source and adapter, charging state and wattage, power draw, cycle count and time remaining. It also lists apps with significant energy impact, which the author describes as a heuristic built from CPU time, wakeups and disk activity rather than a precise measurement. It is for people who want more battery information than the system menu shows.

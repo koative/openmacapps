@@ -20,6 +20,12 @@ sources:
   - "https://github.com/MystikoLab/sxitch"
   - "https://github.com/MystikoLab/sxitch/blob/main/LICENSE.md"
   - "https://sxitch.app"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/MystikoLab/sxitch/releases/download/v1.6.1/Sxitch.app.zip
+    credit: Sxitch contributors
+    license: Apache-2.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Sxitch switches apps and windows by typing part of their name. It offers list and radial views, pinned apps, prefix stripping, app renames and custom modes that can launch apps or run shell commands. It suits people who switch between many apps and windows and prefer typing a name to cycling with Command-Tab.

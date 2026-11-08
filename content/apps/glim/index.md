@@ -20,6 +20,12 @@ sources:
   - "https://github.com/glimapp/glim/blob/main/LICENSE"
   - "https://github.com/glimapp/glim/releases/latest"
   - "https://glimapp.github.io/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/glimapp/glim/releases/download/v0.2.25/Glim-0.2.25-macos-arm64.dmg
+    credit: Glim contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Glim is a file viewer for documents, data and code. You open a folder with Command-Shift-O and its files open as tabs in one workspace: Markdown with Mermaid diagrams, JSON trees, CSV tables, PDFs, images, Office documents and source code. Ordinary UTF-8 text can be edited, and changes save to the original file. Glim also browses SQLite tables in read-only snapshots and extracts ZIP archives to a new folder. It suits people whose project folders mix notes, data and code and who want to read them without a separate app for each.

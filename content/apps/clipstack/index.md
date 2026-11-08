@@ -23,6 +23,12 @@ sources:
   - "https://github.com/chiranjeebhub/ClipStack/blob/main/LICENSE"
   - "https://github.com/chiranjeebhub/ClipStack/releases"
   - "https://clipstack.chiranjeeb.dev"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/chiranjeebhub/ClipStack/blob/main/docs/images/icon.png
+    credit: ClipStack contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 ClipStack is a native clipboard manager that records what you copy and opens the history from a floating panel with Shift-Command-V. You can search, filter by text, links, images, files or pinned items, and paste with Return or as plain text. Pinned items are kept when history limits apply. Items that password managers mark as concealed are not saved. Optional iCloud sync moves history, pins and settings through your own private iCloud database. It suits anyone who wants clipboard history without an account.

@@ -21,6 +21,12 @@ sources:
   - "https://github.com/sonor-studio/VisorPro"
   - "https://github.com/sonor-studio/VisorPro/blob/main/LICENSE.txt"
   - "https://github.com/sonor-studio/VisorPro/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/sonor-studio/VisorPro/releases/download/1.3.2/VisorPro.1.3.2.dmg
+    credit: VisorPro contributors
+    license: CC-BY-NC-SA-4.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 VisorPro replaces the built-in macOS volume and brightness overlays with its own on-screen indicators. The overlays can sit in one of six screen positions, play a sound when they appear, and be expanded by clicking them into panels for battery, Wi-Fi, Bluetooth, connected peripherals, CPU and memory. Version 1.3.2 adds quick actions for Dark Mode, Night Shift and True Tone from the brightness overlay. It suits people who want to change how system feedback looks on screen.

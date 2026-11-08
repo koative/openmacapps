@@ -21,6 +21,12 @@ sources:
   - "https://github.com/BirdyTheDev/notchpad"
   - "https://github.com/BirdyTheDev/notchpad/blob/main/LICENSE"
   - "https://github.com/BirdyTheDev/notchpad/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/BirdyTheDev/notchpad/releases/download/v2.2.0/Notchpad-2.2.0.dmg
+    credit: Notchpad contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Notchpad turns the area around the MacBook notch into a panel of modules you choose and order yourself. Closed, it shows readouts such as battery, CPU, memory, network speed or the next calendar event. Hovering opens tabs for live Claude Code sessions with token usage, a file shelf, Unity projects, MCP server health, a keep-awake switch, shell command shortcuts and a pomodoro timer. It is for people who use Claude Code all day and want its status and their system stats in one place at the top of the screen.

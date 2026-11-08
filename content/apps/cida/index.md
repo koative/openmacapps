@@ -20,6 +20,12 @@ sources:
   - "https://github.com/Xuanwo/cida/blob/main/LICENSE"
   - "https://github.com/Xuanwo/cida/releases/tag/v1.6.0"
   - "https://cida.xuanwo.io"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Xuanwo/cida/releases/download/v1.6.0/Cida-1.6.0-222.dmg
+    credit: Cida contributors
+    license: Apache-2.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Cida (辞达 in its Chinese interface) works on selected text in any app. Option-A opens a panel that translates the selection, and Option-F rewrites it in place, with Command-Z to undo. Option-S translates text inside a captured screen region, and Option-D translates a paragraph in place; Shift-Option-D translates a whole window as it scrolls. You can add your own text actions as prompts. Cida sends text only to the model service you choose, which can be a hosted API or a local server, and it recognises screenshot text on the Mac with Apple's Vision framework. It also includes a command-line interface that shares the app's configuration.

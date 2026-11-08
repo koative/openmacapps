@@ -21,6 +21,12 @@ sources:
   - "https://github.com/dmartoon/MacBook-Keyboard-Backlight-Limiter/blob/main/LICENSE"
   - "https://github.com/dmartoon/MacBook-Keyboard-Backlight-Limiter/releases"
   - "https://dimkeys.com"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/dmartoon/MacBook-Keyboard-Backlight-Limiter/releases/download/v1.2.0/DimKeys-1.2.0.dmg
+    credit: Dim Keys contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Dim Keys is a menu bar app for MacBooks with a backlit keyboard. It sets a maximum brightness for the keyboard backlight and drives the backlight from the ambient light sensor, with a Low, Med or High sensitivity that decides the light level at which the keys turn on. It was called Keyboard Backlight Limiter before version 1.2.0, and its settings carried over. It suits people who want the keys lit in a dark room but never at full brightness.

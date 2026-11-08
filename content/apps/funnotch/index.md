@@ -21,6 +21,12 @@ sources:
   - "https://github.com/JoshuaT1105/FunNotch/blob/main/LICENSE"
   - "https://github.com/JoshuaT1105/FunNotch/releases"
   - "https://funnotch.xyz"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/JoshuaT1105/FunNotch/releases/download/v1.3/FunNotch-1.3.dmg
+    credit: FunNotch contributors
+    license: GPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 FunNotch draws a panel in the MacBook notch. Its home screen is a grid you arrange yourself, and it can show now-playing controls, a drag-and-drop shelf for files in transit, searchable clipboard history with pinning, focus sessions that block sites and apps, a timer and a daily notes scratchpad. Thirteen widgets can sit beside the camera. On an external display without a notch it becomes a floating pill. It suits people who want quick glances and small tools in that strip of menu bar rather than another window.

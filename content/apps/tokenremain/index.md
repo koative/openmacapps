@@ -20,6 +20,12 @@ sources:
   - "https://github.com/Carstin520/token-remain/blob/main/LICENSE"
   - "https://github.com/Carstin520/token-remain/releases/latest"
   - "https://tokenremain.com"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Carstin520/token-remain/releases/download/v1.5.1/TokenRemain-1.5.1-48.dmg
+    credit: TokenRemain contributors
+    license: Apache-2.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 TokenRemain shows how much of each AI coding quota is left, when each window resets, and how fast you are using it. It covers Claude Code, Codex, Cursor and more than 25 other tools, with official windows such as 5-hour and 7-day limits. It also totals today's local token use and an estimated cost at official list prices, and shows figures in the menu bar, a floating window and the Dock icon. It reads the sign-in state those tools already keep, and pasted API keys go into the Keychain.

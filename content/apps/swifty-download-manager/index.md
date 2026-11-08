@@ -23,6 +23,12 @@ sources:
   - "https://github.com/Kyle-Ye/SwiftyDownloadManager/blob/main/BRANDING.md"
   - "https://github.com/Kyle-Ye/SwiftyDownloadManager/releases"
   - "https://apps.kyleye.top/sdm"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Kyle-Ye/SwiftyDownloadManager/releases/download/0.6.0/SwiftyDownloadManager.app.zip
+    credit: Swifty Download Manager contributors
+    license: FSL-1.1-MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Swifty Download Manager is a download manager for macOS, iOS and iPadOS. It resumes direct HTTP and HTTPS downloads after a pause or restart, can use several connections for one file, keeps a history of finished and failed transfers, and can take over links sent from Safari or from a Chrome extension. It suits people who fetch large files regularly and want more control than the browser's downloader gives them.

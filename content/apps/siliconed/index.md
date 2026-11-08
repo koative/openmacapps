@@ -20,6 +20,12 @@ sources:
   - "https://github.com/gwenn-ha-dev/Siliconed/blob/main/LICENSE"
   - "https://github.com/gwenn-ha-dev/Siliconed/releases"
   - "https://gwenn-ha-dev.github.io/Siliconed/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/gwenn-ha-dev/Siliconed/releases/download/v0.20/Siliconed-0.20.dmg
+    credit: Siliconed contributors
+    license: Apache-2.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Siliconed generates images from a text prompt and edits existing images from a written instruction, running open-weight diffusion models natively in Swift and Metal on the Mac. No Python server or cloud service is involved, and it works offline once a model is installed. You choose models inside the app, and each model's own license is shown before its download starts. It can vary a prompt, seed or LoRA across a grid of renders, import LoRAs from Civitai or Hugging Face, and be driven from a terminal with the `silicontrol` command. It suits people who want to render images on their own hardware and check results against reference implementations.

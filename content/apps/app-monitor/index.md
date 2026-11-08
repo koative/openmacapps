@@ -19,6 +19,12 @@ sources:
   - "https://github.com/jcranokc/app-monitor"
   - "https://github.com/jcranokc/app-monitor/blob/main/LICENSE"
   - "https://github.com/jcranokc/app-monitor/releases/tag/v1.2.0-beta.5"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/jcranokc/app-monitor/releases/download/v1.2.0-beta.5/App-Monitor-Beta.dmg
+    credit: App Monitor contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 App Monitor puts several app-related views in one SwiftUI dashboard. It tracks foreground app usage over time, scans each app's bundle and its support, cache, preference and container folders, flags health issues such as signing and Gatekeeper problems, and checks for updates across the Mac App Store, Homebrew, Sparkle feeds and Apple software update. Its uninstall planner lists the files an app leaves behind before moving the selected ones to the Trash. Cleanup candidates go to an app quarantine first, where you can restore them from History.

@@ -21,6 +21,12 @@ sources:
   - "https://github.com/FlowPeek/flowpeek/blob/main/LICENSE"
   - "https://github.com/FlowPeek/flowpeek/releases"
   - "https://flowpeek.github.io/flowpeek/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/FlowPeek/flowpeek/releases/download/v0.27.0/FlowPeek-0.27.0.dmg
+    credit: FlowPeek contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 FlowPeek sits in the menu bar and turns a Mermaid code block into a drawn diagram. Option-click or a shortcut over a block in Terminal, VS Code or a documentation page renders it in place, and a badge appears when a diagram is on the clipboard. An optional AI helper can write a diagram from selected text if you add your own provider key. It is for developers who write Mermaid in docs, code or chat logs. AI context leaves the Mac only when you press Generate.

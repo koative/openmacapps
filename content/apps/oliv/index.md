@@ -23,6 +23,12 @@ sources:
   - "https://github.com/chayapats/oliv/blob/main/LICENSE"
   - "https://github.com/chayapats/oliv/releases"
   - "https://chayapats.github.io/oliv/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/chayapats/oliv/blob/main/ios/App/Assets.xcassets/AppIcon.appiconset/AppIcon.png
+    credit: OLIV contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 OLIV is a dictation app for people who speak Thai and English in the same sentence. You hold a key, speak, and it pastes the text where your cursor is. Speech recognition uses Typhoon Whisper Turbo on the Mac, and a small local language model changes Thai-spelled English tech words back into English. The project's own test set reports about 98% meaning match with cleanup on; the figures come from one speaker's recordings.

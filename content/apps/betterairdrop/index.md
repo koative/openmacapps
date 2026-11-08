@@ -21,6 +21,12 @@ sources:
   - "https://github.com/MoizAhmedd/betterairdrop/blob/main/LICENSE"
   - "https://github.com/MoizAhmedd/betterairdrop/releases"
   - "https://betterairdrop.com"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/MoizAhmedd/betterairdrop/releases/download/v0.4.2/BetterAirdrop.zip
+    credit: BetterAirdrop contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 BetterAirdrop renames photos that arrive through AirDrop in Downloads. A name such as `IMG_4821.HEIC` becomes one built from the date, city, kind of image and what it shows, HEIC files are converted to JPEG, and the originals go to the Trash. Undo is available from the menu or the notification. Naming uses Apple Vision on the Mac, Apple Intelligence on macOS 26 or later, or an Anthropic API key if one is set. It is for people who receive many photos by AirDrop and want to find them by name later.

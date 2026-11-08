@@ -21,6 +21,12 @@ sources:
   - "https://github.com/celve/uvim/blob/main/LICENSE"
   - "https://github.com/celve/uvim/releases/latest"
   - "https://uvim.app"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/celve/uvim/releases/download/v1.1.2/uvim-1.1.2.zip
+    credit: uvim contributors
+    license: GPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 uvim brings Vim's modal editing to the text fields of other Mac apps. A menu bar app reads and edits the focused field through Accessibility, so Normal, Insert and Visual modes work in apps such as TextEdit and Notes. It is for people who already think in Vim keys and want them outside a Vim window.

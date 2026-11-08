@@ -21,6 +21,12 @@ sources:
   - "https://github.com/stellakamikaze/cornetta/blob/master/LICENSE"
   - "https://github.com/stellakamikaze/cornetta/releases"
   - "https://cornetta.stellakamikaze.org/en/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/stellakamikaze/cornetta/releases/download/v0.4.0/Cornetta-0.4.0.dmg
+    credit: Cornetta contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Cornetta is a menu bar call recorder. One click starts recording whatever calling app you use, including WhatsApp, FaceTime, Google Meet, Zoom, Teams, Slack, Discord and browser calls. Your microphone and the other participants' audio go to separate tracks, and the call is saved as one m4a file in your Music folder. It needs no virtual audio driver and no account. On macOS 26 it also transcribes each call on the Mac with Apple's speech recognition, attributing your voice separately from the others. The interface and code comments are in Italian.

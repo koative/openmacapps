@@ -23,6 +23,12 @@ sources:
   - "https://github.com/robsonpbr/copperlight/blob/main/LICENSE"
   - "https://github.com/robsonpbr/copperlight/releases"
   - "https://copperlight.app"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/robsonpbr/copperlight/releases/download/v0.16/Copperlight.zip
+    credit: Copperlight contributors
+    license: GPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Copperlight is a launcher opened with ⌥ Space. One field opens apps and files, does math, currency and unit conversions, keeps a searchable clipboard history, moves windows, runs your own commands and snippets, and shows the next meeting and running timers. Settings live in a plain-text file you can keep in git. It suits people who want a keyboard launcher with more built-in tools and no account.

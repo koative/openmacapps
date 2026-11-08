@@ -27,6 +27,7 @@ The writing review in `docs/RESEARCH.md` (Writing review) led to a description s
 - **Other corrections.** UTM's website is `getutm.app` (the old address redirects) and Hammerspoon's points to hammerspoon.org instead of its repository. Seven summaries that used praise words ("considered", "fast", "quick") or an imperative were rewritten.
 
 Checked: `bun run validate`, `bun test` (22 pass), `bun run check`, `bun run build`, `bun run check:links`, `bun run check:generated`.
+
 ## SEO audit fixes — 2026-11-07
 
 A site-wide audit (technical, on-page and content, structured data and AI search, performance) read all 2,066 built pages in `dist/` and made about 60 spaced requests to the live site. It found nothing that blocks indexing: every indexable page has a self-referencing canonical that matches the sitemap, redirects are single 301s, and all 2,064 indexable pages carry valid JSON-LD. The code-level findings are fixed here:
@@ -40,6 +41,9 @@ A site-wide audit (technical, on-page and content, structured data and AI search
 - **Legacy links.** `/?category=<name>` now opens the category page instead of a filtered search.
 
 Checked: `bun run validate`, `bun test` (22 pass), `bun run check` (0 errors), `bun run build` (2,066 pages), `bun run check:links` (179,155 links), `bun run check:generated`. In a browser, the search filters, the sort, the empty state and the legacy redirect behave as before; app pages and the 404 page look the same on desktop and mobile.
+## Missing icons filled — 2026-11-07
+
+192 listings had no icon. `bun run icon` (new) was run for each, preferring the app's own official download, where the icon is the one the app declares, then an icon file in its repository. 126 icons were added and reviewed on a contact sheet. Not added: three apps whose bundle carries only macOS's generic icon, and seven whose icon is another product's mark or unclear art (two Claude-style marks, the It film's Pennywise, Google Cast, the React logo, a stock crop icon and a menu-bar dot). 66 listings still have no icon: the 19 removed in the seventh expansion's review, apps whose bundle declares none, screen savers, and projects with no Mac download to read.
 
 ## Old apps that depend on a web service — 2026-11-07
 

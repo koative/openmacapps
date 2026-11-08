@@ -19,6 +19,12 @@ sources:
   - "https://github.com/sigma-prog/lockin"
   - "https://github.com/sigma-prog/lockin/blob/main/LICENSE"
   - "https://github.com/sigma-prog/lockin/releases/latest"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/sigma-prog/lockin/releases/download/v1.0.0/Lockin.zip
+    credit: Lockin contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Lockin closes distracting websites and apps during focus sessions. Its README says a launchd supervisor restarts it within a second if it is force-quit. Blocked sites are closed by reading the tab addresses in Safari or Chrome through Apple Events, so the app does not need a VPN, proxy or browser extension. It suits people who want a free blocker they cannot quickly switch off in the middle of a session.

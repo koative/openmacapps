@@ -20,6 +20,12 @@ sources:
   - "https://github.com/piro0919/nonja/blob/main/LICENSE"
   - "https://github.com/piro0919/nonja/releases"
   - "https://nonja.kkweb.io"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/piro0919/nonja/releases/download/v0.2.6/Nonja-0.2.6.dmg
+    credit: Nonja contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Nonja lets you turn off notification banners and still see what arrived. It reads notifications from Notification Center, groups them by app, lets you clear one app's notifications in a single click, and opens the source when you select an entry. Nothing appears on screen until you open its menu bar item. It is for people who want notifications out of their way without losing them.

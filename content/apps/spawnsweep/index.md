@@ -21,6 +21,12 @@ sources:
   - "https://github.com/samirmaikap/spawnsweep/blob/main/LICENSE"
   - "https://github.com/samirmaikap/spawnsweep/releases"
   - "https://samirmaikap.github.io/spawnsweep/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/samirmaikap/spawnsweep/releases/download/v0.2.3/SpawnSweep.zip
+    credit: SpawnSweep contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 SpawnSweep finds what AI coding agents leave running or lying around: dev servers, ports held by old processes, simulators, Docker stacks and git worktrees. Its ports board lists every localhost listener with its project, git branch and the agent session that started it, and can free a port in one click. It is for developers who run tools such as Claude Code, Codex, Cursor, Gemini or Aider and want to tidy up after them. It is not a general Mac cleaner or an uninstaller.

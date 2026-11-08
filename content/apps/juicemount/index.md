@@ -21,6 +21,12 @@ sources:
   - "https://github.com/lelanddutcher/juicemount/blob/main/LICENSE"
   - "https://github.com/lelanddutcher/juicemount/releases"
   - "https://juicemount.com"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/lelanddutcher/juicemount/releases/download/v0.5.0/JuiceMount.zip
+    credit: JuiceMount contributors
+    license: Apache-2.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 JuiceMount is for editors whose footage lives on a NAS they run themselves. It serves a JuiceFS volume through a local NFS share, so the volume appears in Finder and in an editing app's media browser. Blocks are cached on a local SSD, file metadata is mirrored locally for quick browsing, and pinned files stay usable when the server is unreachable. Writes can go through a local spool before they reach the server. You need your own metadata service (Redis) and S3-compatible storage, for example on TrueNAS with MinIO; it is not a hosted service.

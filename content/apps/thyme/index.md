@@ -22,6 +22,12 @@ sources:
   - "https://github.com/joaomoreno/thyme/blob/master/LICENSE"
   - "https://github.com/joaomoreno/thyme/releases"
   - "https://joaomoreno.github.io/thyme/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/joaomoreno/thyme/releases/download/0.5.1/Thyme.0.5.1.dmg
+    credit: Thyme contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Thyme is a minimal timer for OS X. You start it to see how long each task takes. The README describes it as nothing more than a timer, so it suits anyone who wants a simple per-task clock rather than automatic time tracking. A web version exists for people who are not on a Mac.

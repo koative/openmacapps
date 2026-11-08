@@ -23,6 +23,12 @@ sources:
   - "https://github.com/YSamed/yalqen/blob/main/LICENSE"
   - "https://github.com/YSamed/yalqen/releases"
   - "https://yalqen.com"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/YSamed/yalqen/releases/download/v0.3.86/Yalqen-0.3.86-arm64.dmg
+    credit: Yalqen contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Yalqen is a browser for developers built on Chromium. It offers vertical tabs, a command bar, an AI panel and built-in blocking of ads and trackers, and it does not require a browser account. The release notes say it updates itself: when an update is ready, the update button in the toolbar restarts the app, installs the update and restores your tabs.

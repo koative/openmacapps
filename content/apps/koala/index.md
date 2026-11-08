@@ -21,6 +21,12 @@ sources:
   - "https://github.com/oklai/koala"
   - "https://github.com/oklai/koala/blob/master/LICENSE"
   - "https://github.com/oklai/koala/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/oklai/koala/releases/download/v2.3.0/Koala.dmg
+    credit: Koala contributors
+    license: Apache-2.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Koala is a GUI application for compiling Less, Sass, Compass and CoffeeScript files. It watches the source files and recompiles them in the background on every change, lets you set compiler options per file, compresses the output, and shows compile errors as notifications. The project was built on node-webkit and runs on Windows, Linux and macOS.

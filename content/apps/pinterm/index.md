@@ -20,6 +20,12 @@ sources:
   - "https://github.com/taotao7/PinTerm"
   - "https://github.com/taotao7/PinTerm/blob/main/LICENSE"
   - "https://github.com/taotao7/PinTerm/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/taotao7/PinTerm/releases/download/v0.4.2/PinTerm-0.4.2-macos-arm64.zip
+    credit: PinTerm contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 PinTerm puts terminals in small, independent windows managed from the menu bar. Each window runs its own shell or command in a real pseudo-terminal, rendered by the Ghostty engine (libghostty), so it reads your Ghostty configuration unless you point it at another file. Windows can be pinned above other apps, resized from any edge and restored after a restart. Presets open btop, htop or a calendar. It suits a status terminal or a development server you want to keep in view while you work elsewhere.

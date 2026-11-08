@@ -21,6 +21,12 @@ sources:
   - "https://github.com/notnaki/vane/blob/main/LICENSE"
   - "https://github.com/notnaki/vane/releases"
   - "https://notnaki.github.io/vane/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/notnaki/vane/releases/download/v0.1.0/Vane.dmg
+    credit: Vane contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Vane is a browser built with Swift and AppKit around Apple's WebKit engine, so pages render as they do in Safari. Its interface puts tabs in a sidebar and groups them into Spaces, with Favourites, pinned tabs, Split View, a reader mode with an offline article queue, and Easels for notes and captures. Profiles keep separate data, passwords are kept in the Keychain, and an EasyList-subset content blocker is included. It is for people who like sidebar-and-Spaces browsing and want a native app that stays close to WebKit.

@@ -21,6 +21,12 @@ sources:
   - "https://github.com/Blave-TW/blave-agent/blob/main/LICENSE"
   - "https://github.com/Blave-TW/blave-agent/releases"
   - "https://blave.org"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Blave-TW/blave-agent/releases/download/desktop-v0.1.48/Blave-0.1.48-universal.dmg
+    credit: Blave contributors
+    license: Apache-2.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Blave Agent is a workspace for trading strategies. You describe an idea to Claude Code, Codex, a DeepSeek key or Blave's own AI, and the agent writes the strategy, backtests it with fees included and checks the result for overfitting. Strategies can run in paper trading without keys, or be connected to supported exchanges for live orders. It suits traders who want an AI coding agent to do the scripting and testing work.

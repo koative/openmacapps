@@ -19,6 +19,12 @@ sources:
   - "https://github.com/scosman/Squeegee"
   - "https://github.com/scosman/Squeegee/blob/main/LICENSE"
   - "https://github.com/scosman/Squeegee/releases/latest"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/scosman/Squeegee/releases/download/v1.1.0/Squeegee.dmg
+    credit: Squeegee contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Squeegee closes windows that have sat idle for too long. You choose a time limit for each app, or one global default, and Squeegee tracks each window separately, so an old Finder window closes while the active ones stay open. It sends an ordinary close request, the same as the red button, so save prompts still appear and nothing is force-quit. Closed windows are listed in the menu bar for one-click reopening, and rules can be paused for an hour, until tomorrow or until you resume. It includes suggested rules for common apps and needs no account.

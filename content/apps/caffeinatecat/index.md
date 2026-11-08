@@ -22,6 +22,12 @@ sources:
   - "https://github.com/PremPoddar/CaffeinateCat/blob/main/LICENSE"
   - "https://github.com/PremPoddar/CaffeinateCat/releases"
   - "https://prempoddar.github.io/CaffeinateCat/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/PremPoddar/CaffeinateCat/releases/download/v1.1.0/CaffeinateCat.zip
+    credit: CaffeinateCat contributors
+    license: Apache-2.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 CaffeinateCat is a menu bar app with two keep-awake modes. Keep Screen Awake stops idle and display sleep. Keep Awake on Lid Close also keeps the Mac running with the lid shut, even on battery, by setting the `disablesleep` flag through `pmset`. Both modes support timers and an option to let the display sleep, and the app switches itself off at 20% and 10% battery. It suits builds, downloads, servers and coding agents that must keep running while the laptop is carried in a bag.

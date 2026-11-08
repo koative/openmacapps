@@ -21,6 +21,12 @@ sources:
   - "https://github.com/BySergiMM/OmniMac/blob/main/LICENSE"
   - "https://github.com/BySergiMM/OmniMac/releases"
   - "https://bysergimm.github.io/OmniMac/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/BySergiMM/OmniMac/releases/download/v0.5.9/OmniMac-0.5.9.zip
+    credit: OmniMac contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 OmniMac puts several small Mac utilities in one menu bar process: a notch island, per-app volume with a 10-band equaliser, window tools, an app cleaner that removes leftovers, a helper for disk-image downloads and others. Each module can be switched off, and a switched-off module leaves the menu. It suits people who want these tools without installing a separate app for each. The README reports about 16 MB of memory and very low idle CPU use, measured by the author.

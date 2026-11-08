@@ -21,6 +21,12 @@ sources:
   - "https://github.com/jmcfarlane/notable"
   - "https://github.com/jmcfarlane/notable/blob/main/LICENSE"
   - "https://github.com/jmcfarlane/notable/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/jmcfarlane/notable/releases/download/v0.4.0/notable-v0.4.0.darwin-amd64.zip
+    credit: Notable contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Notable is a small note-taking app that keeps your notes on your own computer. It searches tags, tag prefixes and full text as you type, opens several notes in tabs, autosaves each note, and can encrypt individual notes. It suits people who want a simple, keyboard-friendly notebook rather than a large knowledge base.

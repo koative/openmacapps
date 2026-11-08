@@ -21,6 +21,12 @@ sources:
   - "https://github.com/subhra74/xdm/blob/master/LICENSE"
   - "https://github.com/subhra74/xdm/releases"
   - "https://xtremedownloadmanager.com/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/subhra74/xdm/releases/download/v9.0.9/xdm-app-9.0.9-arm64.dmg
+    credit: Xtreme Download Manager contributors
+    license: GPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Xtreme Download Manager (XDM) splits each download across several connections and resumes broken ones. A browser extension hands downloads and detected videos to the app, and it can save HLS and DASH streams, merging audio and video into an MP4 without ffmpeg. It also has a command-line mode for downloading from a terminal. It suits people who regularly fetch large files or stream videos, on Windows, macOS or Linux.

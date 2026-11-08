@@ -22,6 +22,12 @@ sources:
   - "https://github.com/Alexays/Lilo/blob/main/LICENSE"
   - "https://github.com/Alexays/Lilo/releases"
   - "https://getlilo.app"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Alexays/Lilo/releases/download/v0.17.0/Lilo.dmg
+    credit: Lilo contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Lilo is a Mac browser that keeps Arc's sidebar layout: Spaces with their own profiles, pinned tabs, folders and split view. It runs on WebKit, the engine that ships with macOS, rather than Chromium, and it still installs Chrome Web Store extensions. Terminal tabs sit beside your web pages. A built-in MCP server lets AI agents such as Claude Code or Codex use the browser in their own Space, and the app asks you before an agent sends, pays, deletes or publishes something.

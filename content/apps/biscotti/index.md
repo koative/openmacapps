@@ -26,6 +26,12 @@ sources:
   - "https://github.com/scosman/Biscotti/blob/main/LICENSE.md"
   - "https://github.com/scosman/Biscotti/releases"
   - "https://biscottiapp.com"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/scosman/Biscotti/releases/download/v1.0.0/Biscotti.dmg
+    credit: Biscotti contributors
+    license: PolyForm-Perimeter-1.0.1; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Biscotti records the Mac's microphone and system audio during a meeting, so it works with apps such as Zoom, Teams, Meet, FaceTime and Slack without joining the call as a participant. It turns the recording into a transcript split by speaker, uses your calendar to suggest when to start and to match names, and writes a summary with action items and a meeting title. Notes can be written in Markdown and linked to the moment they were taken. It is for people who want meeting notes that stay on their own Mac.

@@ -25,6 +25,12 @@ sources:
   - "https://github.com/NongKnot/StayUp/blob/main/LICENSE"
   - "https://github.com/NongKnot/StayUp/releases"
   - "https://getstayup.app"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/NongKnot/StayUp/releases/download/v1.4.2/StayUp-1.4.2.dmg
+    credit: StayUp contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 StayUp is a small menu bar app for Apple silicon Macs that keeps the Mac awake while local work is running. Its Auto mode watches sources such as Claude Code, Codex, Cursor, Ollama and LM Studio, keeps the Mac awake while their work is active and lets it sleep after a grace period you set. Its manual mode runs on a timer. It was built for long local agent runs, renders and downloads that should continue with the lid closed, and it also offers a virtual display for remote desktop tools on Macs without a lid.

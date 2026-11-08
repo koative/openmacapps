@@ -22,6 +22,12 @@ featured: false
 added: "2026-11-06"
 verified: "2026-11-08"
 sources: ["https://github.com/gitahead/gitahead", "https://github.com/gitahead/gitahead/blob/master/LICENSE.md", "https://github.com/gitahead/gitahead/releases", "https://gitahead.com", "https://raw.githubusercontent.com/gitahead/gitahead/master/README.md", "https://raw.githubusercontent.com/gitahead/gitahead/master/LICENSE.md", "https://raw.githubusercontent.com/gitahead/gitahead/master/doc/changelog.md", "https://github.com/gitahead/gitahead/releases/tag/v2.7.1", "https://fork.dev/", "https://fork.dev/releasenotes", "https://www.git-tower.com/pricing", "https://www.git-tower.com/release-notes/mac"]
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/gitahead/gitahead/releases/download/v2.7.1/GitAhead-2.7.1.dmg
+    credit: GitAhead contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 GitAhead opens a Git repository as a commit list with a diff view, so you can read how the code got where it is and then stage, commit and merge from the same window. SciTools, the company behind the Understand tool, designed it and later released it as free software.

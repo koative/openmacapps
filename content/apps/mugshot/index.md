@@ -19,6 +19,12 @@ sources:
   - "https://github.com/Lorenzo-Coslado/macos-faceid"
   - "https://github.com/Lorenzo-Coslado/macos-faceid/blob/main/LICENSE"
   - "https://github.com/Lorenzo-Coslado/macos-faceid/releases/latest"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/Lorenzo-Coslado/macos-faceid/releases/download/v1.3.0/Mugshot.dmg
+    credit: Mugshot contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Mugshot checks your face through the webcam when sudo asks for a password. It can also unlock a session that is already logged in and locked. A HUD grows out of the camera notch while it scans and falls back to your password when recognition fails. Recognition runs on the Mac with OpenCV's YuNet and SFace models. Enrolled face data stays in `~/Library/Application Support/faceid`, and camera frames are not uploaded.

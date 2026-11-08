@@ -21,6 +21,12 @@ sources:
   - "https://github.com/hql287/Manta"
   - "https://github.com/hql287/Manta/blob/master/LICENSE"
   - "https://github.com/hql287/Manta/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/hql287/Manta/releases/download/v1.1.4/Manta-1.1.4-mac.zip
+    credit: Manta contributors
+    license: LGPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Manta makes invoices, estimates and receipts from templates you can customize. You can switch fields on and off, save defaults, drag line items into order, add custom statuses, use SVG logos and export PDFs for print or email. It suits freelancers and small sellers who issue invoices now and then and do not want a web account or a bookkeeping suite. The README says it is free and that financial data stays on your machine.

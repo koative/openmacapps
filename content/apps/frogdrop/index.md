@@ -20,6 +20,12 @@ sources:
   - "https://github.com/sarthak-SyntaxSamurai/FrogDrop"
   - "https://github.com/sarthak-SyntaxSamurai/FrogDrop/blob/main/LICENSE"
   - "https://github.com/sarthak-SyntaxSamurai/FrogDrop/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/sarthak-SyntaxSamurai/FrogDrop/releases/download/v2.2.0/FrogDrop.dmg
+    credit: FrogDrop contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 FrogDrop puts several small utilities behind one menu bar icon. It keeps a searchable clipboard history with per-app ignore rules, offers a file shelf that appears when you shake the cursor during a drag, and converts or strips metadata from images. It also does on-device text recognition, merges PDFs, and has a Pomodoro timer with ambient sounds and a short task list. It suits people who want these tools in one app instead of several separate ones.

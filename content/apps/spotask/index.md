@@ -21,6 +21,12 @@ sources:
   - "https://github.com/shiquda/SpotAsk/blob/main/LICENSE"
   - "https://github.com/shiquda/SpotAsk/releases"
   - "https://shiquda.github.io/SpotAsk/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/shiquda/SpotAsk/releases/download/v0.3.4/SpotAsk-0.3.4-arm64.dmg
+    credit: SpotAsk contributors
+    license: AGPL-3.0; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 SpotAsk is a menu bar tool for quick questions. Press Option-Space, type a question and get an answer from the model you configure, or select text in any app and act on it. It can also hand a question off to ChatGPT or a local AI agent. It suits people who want a fast prompt box across apps and bring their own API keys instead of using a hosted account.

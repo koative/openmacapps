@@ -23,6 +23,12 @@ sources:
   - "https://github.com/flickbar/flickbar/blob/main/LICENSE"
   - "https://github.com/flickbar/flickbar/releases"
   - "https://flickbar.github.io/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/flickbar/flickbar/releases/download/v1.1.0/Flickbar-1.1.0.dmg
+    credit: Flickbar contributors
+    license: GPL-3.0-or-later; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Flickbar lets you move windows with the trackpad: two fingers on a title bar snap the window to a half, a third, a quarter, the full screen or the center, and a hold shows a grid to pick a cell from. Swipes on a Dock icon show, hide or cycle an app's windows, and every action can also have a keyboard shortcut. It suits people who keep several windows open on a laptop and would rather gesture than drag. The gesture logic is documented in the README, and the project ships unit and end-to-end tests.

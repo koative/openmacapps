@@ -20,6 +20,12 @@ sources:
   - "https://github.com/arian-shamaei/amtrino"
   - "https://github.com/arian-shamaei/amtrino/blob/main/LICENSE"
   - "https://github.com/arian-shamaei/amtrino/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/arian-shamaei/amtrino/releases/download/v0.3.1/amtrino-0.3.1.zip
+    credit: amtrino contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 amtrino puts a small grid of dots in the menu bar, one for each Claude Code or Codex CLI session on the Mac. Colour tells the sessions apart, motion shows which ones are mid-response, and a finished response flashes the dot and can trigger a notification that jumps to that session's tmux pane. It suits people who run many coding-agent sessions at once and would rather glance at the menu bar than cycle through terminal windows.

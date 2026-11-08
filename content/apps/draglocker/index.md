@@ -20,6 +20,12 @@ sources:
   - "https://github.com/taikun114/DragLocker/blob/main/LICENSE"
   - "https://github.com/taikun114/DragLocker/releases/latest"
   - "https://draglocker.taikun.design/"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/taikun114/DragLocker/releases/download/v1.0.2/DragLocker-v1.0.2.dmg
+    credit: DragLocker contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 macOS has drag lock only for the trackpad, so a drag ends when you release the mouse button. DragLocker keeps the drag going after release for any connected mouse. You choose which buttons (left, right or the scroll-wheel button) trigger the lock, whether a hold time or a drag distance starts it, and whether a small icon near the pointer shows the lock state. Settings can differ per app, so the lock can be limited to some apps or excluded from others. It is for people who drag files or windows with a regular mouse.
