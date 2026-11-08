@@ -139,7 +139,59 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
     ...form.querySelectorAll<HTMLInputElement>('input[name="source"]'),
   ];
   const grid = document.querySelector<HTMLElement>('#results')!;
-  const cards = [...grid.querySelectorAll<HTMLElement>('[data-app]')];
+  // The search text comes from what each card already shows (name, summary,
+  // license) plus its category, tags and the products it replaces, read once.
+  const cards = [...grid.querySelectorAll<HTMLElement>('[data-app]')].map(
+    (element) => {
+      const text = (selector: string) =>
+        element.querySelector(selector)?.textContent?.trim() ?? '';
+      const name = text('h3');
+      const category = element.dataset.category!;
+      const tags = element.dataset.tags!.split(',');
+      return {
+        element,
+        name,
+        category,
+        tags,
+        added: element.dataset.added!,
+        featured: element.dataset.featured !== undefined,
+        source: element.dataset.source ?? 'open-source',
+        haystack: [
+          name,
+          text('.lockup-summary'),
+          category,
+          tags.join(' '),
+          element.dataset.replaces ?? '',
+          text('.fine-print'),
+        ]
+          .join(' ')
+          .toLowerCase(),
+      };
+    },
+  );
+  type Card = (typeof cards)[number];
+  // Sorted lists per sort key; the grid is only reordered when the key changes.
+  const orders = new Map<string, Card[]>();
+  let shownOrder = cards;
+  function ordered() {
+    let list = orders.get(sort.value);
+    if (!list) {
+      list = [...cards].sort((a, b) => {
+        if (sort.value === 'featured' && a.featured !== b.featured)
+          return a.featured ? -1 : 1;
+        if (sort.value === 'newest' && a.added !== b.added)
+          return b.added.localeCompare(a.added);
+        return a.name.localeCompare(b.name);
+      });
+      orders.set(sort.value, list);
+    }
+    if (list !== shownOrder) {
+      if (list.some((card, index) => card !== shownOrder[index]))
+        grid.append(...list.map((card) => card.element));
+      shownOrder = list;
+    }
+    return list;
+  }
   const count = document.querySelector<HTMLElement>('#result-count')!;
   const clear = document.querySelector<HTMLButtonElement>('#clear-filters')!;
   const empty = document.querySelector<HTMLElement>('#empty-state')!;
@@ -185,30 +237,19 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
     let matched = 0;
     // Tag counts follow the other filters, so every tag offered leads to at least one result.
     const tagMatches = new Map<string, number>();
-    const sorted = [...cards].sort((a, b) => {
-      if (
-        sort.value === 'featured' &&
-        a.dataset.featured !== b.dataset.featured
-      )
-        return a.dataset.featured === 'true' ? -1 : 1;
-      if (sort.value === 'newest' && a.dataset.added !== b.dataset.added)
-        return b.dataset.added!.localeCompare(a.dataset.added!);
-      return a.dataset.name!.localeCompare(b.dataset.name!);
-    });
-    for (const card of sorted) {
-      const cardTags = card.dataset.tags!.split(',');
+    for (const card of ordered()) {
       const othersMatch =
-        query.every((term) => card.dataset.search!.includes(term)) &&
-        (!category.value || card.dataset.category === category.value) &&
-        (!source || card.dataset.source === source);
+        query.every((term) => card.haystack.includes(term)) &&
+        (!category.value || card.category === category.value) &&
+        (!source || card.source === source);
       if (othersMatch)
-        for (const cardTag of cardTags)
+        for (const cardTag of card.tags)
           tagMatches.set(cardTag, (tagMatches.get(cardTag) ?? 0) + 1);
       const matches =
-        othersMatch && (!tag.value || cardTags.includes(tag.value));
+        othersMatch && (!tag.value || card.tags.includes(tag.value));
       if (matches) matched++;
-      card.hidden = !matches || matched > visibleLimit;
-      grid.append(card);
+      const hidden = !matches || matched > visibleLimit;
+      if (card.element.hidden !== hidden) card.element.hidden = hidden;
     }
     for (const option of tag.options) {
       if (!option.value) continue;
@@ -287,12 +328,12 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
   clear.addEventListener('click', reset);
   document.querySelector('#reset-search')!.addEventListener('click', reset);
   more.addEventListener('click', () => {
-    const before = new Set(cards.filter((card) => !card.hidden));
+    const before = new Set(cards.filter((card) => !card.element.hidden));
     visibleLimit += pageSize;
     update(false, true);
-    cards
-      .find((card) => !card.hidden && !before.has(card))
-      ?.querySelector<HTMLAnchorElement>('.lockup-link')
+    shownOrder
+      .find((card) => !card.element.hidden && !before.has(card))
+      ?.element.querySelector<HTMLAnchorElement>('.lockup-link')
       ?.focus({ preventScroll: true });
   });
   window.addEventListener('popstate', () => {

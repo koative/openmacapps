@@ -6,10 +6,16 @@ import CategoryGlyph from '../../components/CategoryGlyph.astro';
 import Shelf from '../../components/Shelf.astro';
 import Github from '../../components/GithubIcon.astro';
 import { getApps } from '../../lib/catalog';
-import { getAlternatives, getTopics } from '../../lib/guides';
+import {
+  breadcrumbList,
+  getAlternatives,
+  getTopics,
+  topicForTag,
+} from '../../lib/guides';
 import { categorySlug, licenseLabel } from '../../lib/collections';
 import { appImage } from '../../lib/images';
 import { renderMarkdown } from '../../lib/markdown';
+import { relatedApps } from '../../lib/related';
 import { absoluteUrl, site } from '../../lib/site';
 import { ArrowUpRight, Check, ChevronLeft, Copy } from '@lucide/astro';
 export function getStaticPaths() {
@@ -28,21 +34,18 @@ const metaDescription = `${app.summary} ${restricted ? 'Source available' : 'Ope
 const replaces = getAlternatives().filter((entry) =>
   app.alternativeTo.includes(entry.slug),
 );
-const topics = getTopics().filter((topic) =>
+const allTopics = getTopics();
+const topics = allTopics.filter((topic) =>
   topic.apps.some((other) => other.slug === app.slug),
 );
-const related = getApps()
-  .filter((other) => other.slug !== app.slug)
-  .map((other) => ({
-    app: other,
-    score:
-      (other.category === app.category ? 1 : 0) +
-      other.tags.filter((tag) => app.tags.includes(tag)).length * 3,
-  }))
-  .filter((other) => other.score > 0)
-  .sort((a, b) => b.score - a.score || a.app.name.localeCompare(b.app.name))
-  .map((other) => other.app)
-  .slice(0, 12);
+// A tag chip opens the topic page when one lists every app here with that tag.
+const tagHref = (tag: string) => {
+  const topic = topicForTag(allTopics, tag, app.category);
+  return topic
+    ? `${base}topics/${topic.slug}/`
+    : `${base}search/?tag=${encodeURIComponent(tag)}`;
+};
+const related = relatedApps(app, getApps());
 const descriptionHtml = renderMarkdown(app.body);
 const verifiedDate = new Date(`${app.verified}T00:00:00Z`);
 const verified = verifiedDate.toLocaleDateString('en-US', {
@@ -87,7 +90,8 @@ const brewCommand =
 const brewPage = brewTap
   ? `https://github.com/${brewOwner}/homebrew-${brewTap}`
   : `https://formulae.brew.sh/cask/${app.homebrew}`;
-const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](${absoluteUrl(`apps/${app.slug}/`)})`;
+const pageUrl = absoluteUrl(`apps/${app.slug}/`);
+const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](${pageUrl})`;
 ---
 
 <Layout
@@ -97,46 +101,31 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
   section={categoryHref}
   image={app.screenshots[0]?.url}
   imageAlt={app.screenshots[0]?.alt}
+  datePublished={app.added}
+  lastReviewed={app.verified}
   structuredData={[
     {
       '@type': 'SoftwareApplication',
-      '@id': `${absoluteUrl(`apps/${app.slug}/`)}#app`,
+      '@id': `${pageUrl}#app`,
       name: app.name,
       description: app.summary,
-      url: absoluteUrl(`apps/${app.slug}/`),
+      url: pageUrl,
       operatingSystem: 'macOS',
       applicationCategory: app.category,
       license: app.licenseUrl,
       downloadUrl: app.download,
-      sameAs: [app.website, app.repository],
+      sameAs: [...new Set([app.website, app.repository])].filter(
+        (url) => url !== pageUrl,
+      ),
       ...(app.iconUrl ? { image: absoluteUrl(app.iconUrl) } : {}),
       ...(app.freeDownload === true
         ? { offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } }
         : {}),
     },
-    {
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        {
-          '@type': 'ListItem',
-          position: 1,
-          name: 'Discover',
-          item: absoluteUrl(),
-        },
-        {
-          '@type': 'ListItem',
-          position: 2,
-          name: app.category,
-          item: absoluteUrl(categoryHref),
-        },
-        {
-          '@type': 'ListItem',
-          position: 3,
-          name: app.name,
-          item: absoluteUrl(`apps/${app.slug}/`),
-        },
-      ],
-    },
+    breadcrumbList([
+      [app.category, categoryHref],
+      [app.name, `apps/${app.slug}/`],
+    ]),
   ]}
 >
   <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -232,7 +221,7 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
 
   {app.screenshots.length > 0 && (
     <Shelf id="screenshots" title="Screenshots" variant="shots">
-      {shots.map((shot) => (
+      {shots.map((shot, index) => (
         <figure class="screenshot">
           <a href={shot.url}>
             <img
@@ -240,7 +229,8 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
               srcset={shot.image.srcset}
               sizes="(max-width: 900px) 90vw, 780px"
               alt={shot.alt}
-              loading="lazy"
+              loading={index === 0 ? 'eager' : 'lazy'}
+              fetchpriority={index === 0 ? 'high' : undefined}
               decoding="async"
               width="1000"
               height="625"
@@ -360,7 +350,7 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
         </div>
       )}
       <div>
-        <dt>Evidence checked</dt>
+        <dt>Verified</dt>
         <dd>
           <time datetime={app.verified}>{verified}</time>
         </dd>
@@ -369,10 +359,7 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
         <dt>Tags</dt>
         <dd class="tags">
           {app.tags.map((tag) => (
-            <a
-              class="tag"
-              href={`${base}search/?tag=${encodeURIComponent(tag)}`}
-            >
+            <a class="tag" href={tagHref(tag)}>
               {tag.replaceAll('-', ' ')}
             </a>
           ))}

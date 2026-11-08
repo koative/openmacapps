@@ -30,7 +30,16 @@ interface Props {
   image?: string;
   imageAlt?: string;
   noindex?: boolean;
+  /**
+   * Extra JSON-LD nodes. The page node links to them by type: a
+   * SoftwareApplication (else an ItemList) becomes its `mainEntity`, a
+   * BreadcrumbList its `breadcrumb`; ItemList and BreadcrumbList get ids here.
+   */
   structuredData?: Record<string, unknown>[];
+  /** ISO date the page's subject was first listed. */
+  datePublished?: string;
+  /** ISO date the page's facts were last checked by hand. */
+  lastReviewed?: string;
 }
 const {
   title = site.title,
@@ -41,6 +50,8 @@ const {
   imageAlt = site.title,
   noindex = false,
   structuredData = [],
+  datePublished,
+  lastReviewed,
 } = Astro.props;
 // Search results cut titles near 70 characters; long page names drop the brand suffix first.
 const pageTitle =
@@ -49,6 +60,24 @@ const base = import.meta.env.BASE_URL;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const shareImage = absoluteUrl(image || 'social-card.png');
 const contributeUrl = `${site.repository}/blob/main/CONTRIBUTING.md`;
+const pageId = `${canonical.href}#webpage`;
+const nodes = structuredData.map((node) => {
+  switch (node['@type']) {
+    case 'BreadcrumbList':
+      return { '@id': `${canonical.href}#breadcrumb`, ...node };
+    case 'ItemList':
+      return { '@id': `${canonical.href}#list`, ...node };
+    case 'SoftwareApplication':
+      return { ...node, mainEntityOfPage: { '@id': pageId } };
+    default:
+      return node;
+  }
+});
+const idOf = (type: string) =>
+  nodes.find((node) => node['@type'] === type)?.['@id'] as string | undefined;
+const app = idOf('SoftwareApplication');
+const mainEntity = app ?? idOf('ItemList');
+const breadcrumb = idOf('BreadcrumbList');
 const graph = [
   {
     '@type': 'WebSite',
@@ -66,14 +95,19 @@ const graph = [
   },
   {
     '@type': type,
-    '@id': `${canonical.href}#webpage`,
+    '@id': pageId,
     url: canonical.href,
     name: pageTitle,
     description,
     isPartOf: { '@id': `${site.url}#website` },
     inLanguage: 'en',
+    ...(mainEntity ? { mainEntity: { '@id': mainEntity } } : {}),
+    ...(app ? { about: { '@id': app } } : {}),
+    ...(breadcrumb ? { breadcrumb: { '@id': breadcrumb } } : {}),
+    ...(datePublished ? { datePublished } : {}),
+    ...(lastReviewed ? { lastReviewed } : {}),
   },
-  ...structuredData,
+  ...nodes,
 ];
 const path = Astro.url.pathname;
 const link = (href: string) => ({
@@ -289,26 +323,26 @@ const collectionGlyphs = {
       </header>
       <main id="main" tabindex="-1">
         <slot />
-        <footer class="footer">
-          <nav aria-label="Footer">
-            <a href={`${base}about/`}>About {site.name}</a>
-            <a href={`${base}how-we-verify/`}>How We Verify</a>
-            <a href={contributeUrl}>Contribute</a>
-            <a href={`${site.repository}/issues/new?template=app.yml`}>
-              Suggest an App
-            </a>
-            <a href={site.repository}>Source Code</a>
-            <a href={`${base}catalog.json`}>Catalog JSON</a>
-          </nav>
-          <p>
-            {site.name} is an independent directory. Made by{' '}
-            <a href="https://koative.com/">koative</a>. Downloads come from each
-            project’s official source. App names, icons, and screenshots belong
-            to their owners. Mac and macOS are trademarks of Apple Inc.;{' '}
-            {site.name} is not affiliated with Apple.
-          </p>
-        </footer>
       </main>
+      <footer class="footer">
+        <nav aria-label="Footer">
+          <a href={`${base}about/`}>About {site.name}</a>
+          <a href={`${base}how-we-verify/`}>How We Verify</a>
+          <a href={contributeUrl}>Contribute</a>
+          <a href={`${site.repository}/issues/new?template=app.yml`}>
+            Suggest an App
+          </a>
+          <a href={site.repository}>Source Code</a>
+          <a href={`${base}catalog.json`}>Catalog JSON</a>
+        </nav>
+        <p>
+          {site.name} is an independent directory. Made by{' '}
+          <a href="https://koative.com/">koative</a>. Downloads come from each
+          project’s official source. App names, icons, and screenshots belong to
+          their owners. Mac and macOS are trademarks of Apple Inc.; {site.name}{' '}
+          is not affiliated with Apple.
+        </p>
+      </footer>
       <nav class="tabbar" aria-label="Tabs">
         <a {...link('')}>
           <Star size={22} />

@@ -27,6 +27,19 @@ The writing review in `docs/RESEARCH.md` (Writing review) led to a description s
 - **Other corrections.** UTM's website is `getutm.app` (the old address redirects) and Hammerspoon's points to hammerspoon.org instead of its repository. Seven summaries that used praise words ("considered", "fast", "quick") or an imperative were rewritten.
 
 Checked: `bun run validate`, `bun test` (22 pass), `bun run check`, `bun run build`, `bun run check:links`, `bun run check:generated`.
+## SEO audit fixes — 2026-11-07
+
+A site-wide audit (technical, on-page and content, structured data and AI search, performance) read all 2,066 built pages in `dist/` and made about 60 spaced requests to the live site. It found nothing that blocks indexing: every indexable page has a self-referencing canonical that matches the sitemap, redirects are single 301s, and all 2,064 indexable pages carry valid JSON-LD. The code-level findings are fixed here:
+
+- **Search page weight.** `/search/` dropped from 1,891,129 to 1,436,036 bytes; Googlebot reads only the first 2 MB of a page. Cards no longer carry `data-search` and `data-name`; the script reads the card text once on load and only toggles `hidden` when filters change. `bun run check:links` now fails any page over 1,900,000 bytes. At today's card size that leaves room for about 600 more apps before the search page has to be split.
+- **Structured data.** Page, app, breadcrumb and list nodes are linked by `@id` (`mainEntity`, `breadcrumb`, `about`, `mainEntityOfPage`). App pages state `datePublished` (added) and `lastReviewed` (verified); `sameAs` no longer repeats a URL. Google's app rich result needs ratings or reviews, which the catalog does not have, so it stays out of reach on purpose.
+- **Internal links.** "You Might Also Like" broke ties alphabetically, so apps starting with "a" got about 33 links each against 9 for "v"; a per-page hash now spreads them to about 11–13 for every letter. 1,345 tag chips that a topic page fully covers link to that topic instead of `/search/?tag=`.
+- **Copy that had gone stale.** `llms.txt` said "1,000+" apps and How We Verify "More than 1,000"; both were written when the catalog first passed 1,000 and kept that figure after it reached 1,874. They keep the round style but compute it from the catalog (`hundredsBelow` in `src/lib/catalog.ts`): today "1,800+" and "More than 1,800". About no longer says every listing shows what the app looks like (35 of 1,874 have screenshots). Category titles and descriptions read "Open-source utilities for Mac" instead of "utilities apps". The CCleaner page title no longer says "for Mac" twice.
+- **Alternatives evidence.** Each alternatives page shows the sources and verification date already stored for the product, and states `lastReviewed`.
+- **Loading.** The first screenshot on app pages and the first "See It in Action" card on category pages load eagerly with high priority (they were lazy-loaded LCP images on 41 pages). The footer moved out of `<main>` without a visual change.
+- **Legacy links.** `/?category=<name>` now opens the category page instead of a filtered search.
+
+Checked: `bun run validate`, `bun test` (22 pass), `bun run check` (0 errors), `bun run build` (2,066 pages), `bun run check:links` (179,155 links), `bun run check:generated`. In a browser, the search filters, the sort, the empty state and the legacy redirect behave as before; app pages and the 404 page look the same on desktop and mobile.
 
 ## Old apps that depend on a web service — 2026-11-07
 

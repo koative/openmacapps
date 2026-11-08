@@ -149,6 +149,8 @@ main:focus {
 .shell {
   display: grid;
   grid-template-columns: 260px minmax(0, 1fr);
+  /* Main, then the footer; the footer row takes any spare height so main ends at its content. */
+  grid-template-rows: auto 1fr;
   min-height: 100dvh;
   /* The sticky sidebar is one viewport tall; paint its column for the whole page. */
   background: linear-gradient(
@@ -160,6 +162,7 @@ main:focus {
 }
 
 .sidebar {
+  grid-row: span 2;
   position: sticky;
   top: 0;
   display: flex;
@@ -308,8 +311,9 @@ input[type='search']::-webkit-search-decoration {
 
 main {
   min-width: 0;
-  /* Content caps at 1320px; the padding grows instead so every child shares one column. */
-  padding: 30px max(var(--pad), calc((100% - 1320px) / 2)) 40px;
+  /* Content caps at 1320px; the padding grows instead so every child shares one column.
+     The footer repeats this edge as margin and carries the bottom padding. */
+  padding: 30px max(var(--pad), calc((100% - 1320px) / 2)) 0;
 }
 
 /* Page headings */
@@ -1098,6 +1102,14 @@ main {
   display: none;
 }
 
+/* Search lists every card; those off screen skip layout and paint until they near
+   the viewport, sized meanwhile as the 64px icon row. A card holding focus opts out,
+   so paint containment never clips its focus ring. */
+.lockup[data-app]:not(:focus-within) {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 64px;
+}
+
 .load-more {
   display: flex;
   justify-content: center;
@@ -1615,8 +1627,9 @@ main {
 /* Footer */
 
 .footer {
-  margin-top: 64px;
-  padding-top: 18px;
+  grid-column: 2;
+  margin: 64px max(var(--pad), calc((100% - 1320px) / 2)) 0;
+  padding: 18px 0 40px;
   border-top: 1px solid var(--separator);
   color: var(--label-2);
   font-size: 12px;
@@ -1777,7 +1790,12 @@ main {
   }
 
   main {
-    padding: 20px var(--pad) calc(96px + env(safe-area-inset-bottom));
+    padding: 20px var(--pad) 0;
+  }
+
+  .footer {
+    margin-inline: var(--pad);
+    padding-bottom: calc(96px + env(safe-area-inset-bottom));
   }
 
   .shelf-track {
