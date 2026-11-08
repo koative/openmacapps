@@ -13,13 +13,22 @@ freeDownload: true
 homebrew: "rectangle"
 featured: true
 added: "2026-10-17"
-verified: "2026-10-17"
-sources: ["https://github.com/rxhanson/Rectangle", "https://github.com/rxhanson/Rectangle/blob/main/LICENSE", "https://rectangleapp.com"]
+verified: "2026-11-08"
+sources: ["https://github.com/rxhanson/Rectangle", "https://github.com/rxhanson/Rectangle/blob/main/LICENSE", "https://rectangleapp.com", "https://github.com/rxhanson/Rectangle/blob/main/README.md", "https://github.com/rxhanson/Rectangle/releases", "https://apps.apple.com/us/app/magnet/id441258766"]
 icon: "./assets/icon.png"
 assets: [{"path": "./assets/icon.png", "source": "https://raw.githubusercontent.com/rxhanson/Rectangle/main/Rectangle/Assets.xcassets/AppIcon.appiconset/mac256pts1x.png", "credit": "Rectangle contributors", "license": "MIT; upstream project asset, trademarks retained"}, {"path": "./assets/screenshot.png", "source": "https://github.com/user-attachments/assets/c088d1e2-3661-4041-ac30-95da89ac4a41", "credit": "Rectangle contributors", "license": "MIT; upstream project documentation asset, trademarks retained"}]
 screenshots: [{"src": "./assets/screenshot.png", "alt": "Rectangle shortcut preferences showing window positions and assigned keyboard shortcuts.", "source": "https://github.com/user-attachments/assets/c088d1e2-3661-4041-ac30-95da89ac4a41", "credit": "Rectangle contributors"}]
 ---
 
-Rectangle moves and resizes windows into useful layouts, including halves, thirds and quarters. Set up keyboard shortcuts or drag windows toward screen edges.
+Rectangle moves and resizes the frontmost window with keyboard shortcuts or by dragging it to a screen edge. Each shortcut sends the window to a fixed position, such as the left half, a corner quarter, a third or the full screen.
 
-This entry covers the free, MIT-licensed Rectangle app. The separate Rectangle Pro product has its own feature set and commercial terms.
+Dragging works through snap areas. Pull a window to the left or right edge for a half, to the top to maximise, into a corner for a quarter, or along the bottom edge for thirds. A preview outline shows the target before release.
+
+- Tile in Rows and Tile in Columns arrange every ordinary window on the current display into a grid, and repeated presses cycle through layouts.
+- Cycle stacked windows brings forward each window snapped to the same area in turn.
+- Mouse side buttons can be assigned as shortcuts in place of keys.
+- Ignored apps temporarily release Rectangle's shortcuts while they are frontmost, so their own shortcuts keep working.
+
+Magnet does the same job of snapping windows into halves, thirds and quarters by shortcut or edge drag. Magnet is a paid app, while Rectangle is free under the MIT license and also has the multi-window tiling and stack cycling above. The developer also sells Rectangle Pro, a separate commercial app with its own features; the open-source Rectangle has no paid tier or account.
+
+The current release requires macOS 14 or later. The project keeps older versions for macOS 10.15 to 13 and for 10.13 to 10.14 on its releases page. Downloads come as a DMG, a ZIP or a PKG. The app is a Universal binary for Apple silicon and Intel, signed with a Developer ID and notarized by Apple. Moving windows requires the Accessibility permission in System Settings.

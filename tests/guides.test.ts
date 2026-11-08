@@ -10,6 +10,7 @@ import {
   loadTopics,
   sourceCount,
 } from '../src/lib/guides.ts';
+import { namesReplacedProduct } from '../src/lib/writing.ts';
 
 const temporaryDirectories: string[] = [];
 afterEach(() => {
@@ -143,4 +144,17 @@ test('lists are called free only when every app has a verified free download', (
       ),
       '3 open-source apps',
     );
+});
+
+test('a replaced product counts as named with or without its vendor', () => {
+  const word = { name: 'Microsoft Word', vendor: 'Microsoft' };
+  assert.equal(
+    namesReplacedProduct('Opens files that Word writes.', [word]),
+    true,
+  );
+  assert.equal(
+    namesReplacedProduct('Opens Microsoft Word files.', [word]),
+    true,
+  );
+  assert.equal(namesReplacedProduct('Opens office documents.', [word]), false);
 });

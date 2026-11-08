@@ -284,3 +284,36 @@ test('exposes all actual license notices with deployment-aware links', () => {
   fs.mkdirSync(path.join(folder, 'assets/invalid.txt'));
   assert.throws(() => loadCatalog(directory), /must be a file/);
 });
+
+test('records checked under the writing standard need a full, direct description', () => {
+  const { directory, write } = fixture();
+  const folder = write('example', { ...valid, verified: '2026-11-08' });
+  const index = path.join(folder, 'index.md');
+  const frontmatter = fs.readFileSync(index, 'utf8').split('\n\n')[0];
+  const setBody = (body: string) =>
+    fs.writeFileSync(index, `${frontmatter}\n\n${body}`);
+  const sentence =
+    'Example App keeps a list of recent files in the menu bar and opens any of them with one click. ';
+
+  assert.throws(
+    () => loadCatalog(directory),
+    /has 6 words; write at least 120/,
+  );
+
+  setBody(sentence.repeat(7));
+  assert.equal(loadCatalog(directory).length, 1);
+
+  setBody(`${sentence.repeat(7)}The release I checked is signed.`);
+  assert.throws(
+    () => loadCatalog(directory),
+    /"I checked" describes the review/,
+  );
+
+  setBody(`${sentence.repeat(7)}It suits people who open many files.`);
+  assert.throws(() => loadCatalog(directory), /It suits people who/);
+
+  // Records verified before the standard keep loading until they are rewritten.
+  write('older', { ...valid, repository: 'https://github.com/example/older' });
+  setBody(sentence.repeat(7));
+  assert.equal(loadCatalog(directory).length, 2);
+});

@@ -1,5 +1,16 @@
 # Release verification
 
+## Description standard and 20 rewrites — 2026-11-08
+
+The writing review in `docs/RESEARCH.md` (Writing review) led to a description standard in CONTRIBUTING.md and checks in `src/lib/writing.ts`, applied to every record verified on or after 2026-11-08. The 20 most-installed apps with thin descriptions were rewritten first: LibreOffice, Ghostty, iTerm2, Stats, DBeaver, VLC, Rectangle, Zed, Maccy, Blender, Ollama, Brave, IINA, Bruno, UTM, LocalSend, AltTab, Karabiner-Elements, Ice and Hammerspoon.
+
+- **Length.** Bodies went from 39–55 words to 178–284. Each states what the app does in concrete terms, names a product from `alternativeTo` (or the built-in macOS feature it stands in for) and gives the published requirements: minimum macOS and the chips a build runs on.
+- **Evidence.** Every fact comes from the project's own site, documentation, README, release notes or release files; third-party download sites were used only to see what readers look for. Rectangle, Maccy, LocalSend, AltTab, Karabiner-Elements, Ice and Hammerspoon were downloaded and checked with `lipo` and `spctl`; the others make no notarization claim. A second reviewer re-opened the sources for at least one requirement and one feature per app and removed sentences without primary support.
+- **Licenses re-read.** VLC is `GPL-2.0-or-later` (the README and module headers say "or any later version") and Blender `GPL-3.0-or-later` (blender.org's license page covers the program and its binaries). iTerm2's LICENSE file is GPL version 2 without "only" or "or later", and its source headers could not be read, so `GPL-2.0` stays until they are.
+- **Other corrections.** UTM's website is `getutm.app` (the old address redirects) and Hammerspoon's points to hammerspoon.org instead of its repository. Seven summaries that used praise words ("considered", "fast", "quick") or an imperative were rewritten.
+
+Checked: `bun run validate`, `bun test` (22 pass), `bun run check`, `bun run build`, `bun run check:links`, `bun run check:generated`.
+
 ## Old apps that depend on a web service — 2026-11-07
 
 Eight old apps that call an outside service were traced to the hosts in their source, and each host was probed without credentials; issue trackers were read for recent breakage reports. Two licenses held out earlier were read again.

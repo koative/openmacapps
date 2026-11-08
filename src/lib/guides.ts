@@ -11,6 +11,7 @@ import {
   type CatalogApp,
 } from './catalog';
 import { absoluteUrl } from './site';
+import { namesReplacedProduct, writingStandardSince } from './writing';
 
 /**
  * Rule-based landing pages. Neither lists apps by hand: an alternatives page
@@ -95,12 +96,24 @@ export function loadAlternatives(
 ): Alternative[] {
   const entries = loadEntries(directory, alternativeSchema);
   const known = new Set(entries.map((entry) => entry.slug));
-  for (const app of apps)
+  for (const app of apps) {
     for (const id of app.alternativeTo)
       if (!known.has(id))
         throw new Error(
           `[${app.slug}] alternativeTo "${id}" needs content/alternatives/${id}.md`,
         );
+    if (
+      app.alternativeTo.length &&
+      app.verified >= writingStandardSince &&
+      !namesReplacedProduct(
+        app.body,
+        entries.filter((entry) => app.alternativeTo.includes(entry.slug)),
+      )
+    )
+      throw new Error(
+        `[${app.slug}] the description should name a product it replaces (alternativeTo)`,
+      );
+  }
   return entries
     .map((entry) => {
       const list = apps.filter((app) => app.alternativeTo.includes(entry.slug));
