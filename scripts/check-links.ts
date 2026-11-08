@@ -22,6 +22,9 @@ function inspect(directory: string) {
         errors.push(
           `${file}: ${bytes.toLocaleString('en-US')} bytes exceeds the ${maxPageBytes.toLocaleString('en-US')}-byte page limit`,
         );
+      // The catalog has no reviews or ratings, so structured data must not claim any.
+      if (/"aggregateRating"|"@type":\s*"(?:Review|Rating)"/.test(html))
+        errors.push(`${file}: rating or review markup`);
       for (const match of html.matchAll(
         /\b(href|src|srcset)=(?:"([^"]*)"|'([^']*)')|<loc>([^<]*)<\/loc>|\]\(([^)\s]+)\)/g,
       )) {
