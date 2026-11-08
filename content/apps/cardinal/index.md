@@ -1,6 +1,6 @@
 ---
 name: "Cardinal"
-summary: "A fast file-name search window for macOS with Everything-style query syntax, filters and Quick Look previews."
+summary: "A file-name search window with Everything-style query syntax, filters and Quick Look previews."
 category: "Utilities"
 tags:
   - search
@@ -16,13 +16,16 @@ freeDownload: true
 homebrew: "cardinal-search"
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: '2026-11-08'
 icon: ./assets/icon.png
 sources:
   - https://github.com/cardisoft/cardinal
   - https://github.com/cardisoft/cardinal/blob/master/LICENSE
   - https://github.com/cardisoft/cardinal/releases
   - https://formulae.brew.sh/cask/cardinal-search
+  - https://raw.githubusercontent.com/cardisoft/cardinal/master/README.md
+  - https://github.com/cardisoft/cardinal/blob/master/doc/pub/search-syntax.md
+  - https://github.com/cardisoft/cardinal/releases/tag/v0.1.23
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/cardisoft/cardinal/master/cardinal/mac-icon_1024x1024.png
@@ -30,6 +33,15 @@ assets:
     license: "MIT; upstream project asset, trademarks retained"
 ---
 
-Cardinal indexes the file system and returns matching paths as you type, using a query language modelled on the Windows tool Everything. Spaces combine terms, and operators narrow results by extension, size, folder, Finder tag, or file contents; quoted phrases, regular expressions, and path fragments are also supported.
+Cardinal finds files on your Mac by name. You press Command-Shift-Space from any app, start typing, and the list of matching paths narrows with each key. The query language follows Everything, the Windows search tool, so a space between words means both must match and a semicolon inside a filter means either.
 
-A global hotkey brings the window forward, Space opens a Quick Look preview, and keyboard shortcuts reveal results in Finder or copy their paths. The interface can switch between several languages. Builds for Apple silicon, Intel, and universal Macs are published on GitHub, and Homebrew installs it as the `cardinal-search` cask.
+- `ext:`, `type:` and `*.pdf` limit results to an extension or a group such as pictures, archives or code.
+- `size:>100MB` and `dm:pastyear` filter by size and modification date.
+- `in:` sets the folder to search, `tag:` matches Finder tags, and `content:` looks for a string inside the files.
+- `regex:` takes a regular expression, and `**` searches every subfolder under a path.
+
+Slashes around a word force a prefix, suffix or exact name match, and `Library/Applicat` matches part of a path. A toggle in the window switches case-sensitive matching on and off.
+
+The release page offers DMGs for Apple silicon, Intel and a Universal build. The 0.1.23 Universal DMG is notarized and needs macOS 12 or later. Homebrew installs it as the `cardinal-search` cask.
+
+You work through results from the keyboard. Space shows a Quick Look preview, Command-R reveals the file in Finder, Command-Shift-C copies its path, and the arrow keys in the search field step back through earlier queries. The language switch is in the status bar.

@@ -15,13 +15,15 @@ freeDownload: true
 homebrew: "lyricsx"
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - "https://github.com/ddddxxx/LyricsX"
   - "https://github.com/ddddxxx/LyricsX/blob/master/LICENSE"
   - "https://github.com/ddddxxx/LyricsX/releases"
   - "https://apps.apple.com/app/lyricsx/id1254743014"
+  - "https://raw.githubusercontent.com/ddddxxx/LyricsX/master/README.md"
+  - "https://github.com/ddddxxx/LyricsX/releases/tag/v1.6.3"
 assets:
   - path: ./assets/icon.png
     source: "https://raw.githubusercontent.com/ddddxxx/LyricsX/master/LyricsX/Assets.xcassets/AppIcon.appiconset/icon_256x256.png"
@@ -29,6 +31,17 @@ assets:
     license: "MPL-2.0; upstream app icon, trademarks retained"
 ---
 
-LyricsX follows the track playing in supported music players, searches several lyrics sources automatically, and displays timed lyrics on the desktop or in the menu bar with adjustable font, color and position. Double-clicking a line seeks to that part of the song, and lyrics can be imported or exported by drag and drop.
+LyricsX watches the song playing in your music player, looks up timed lyrics for it and shows the current line on the desktop or in the menu bar. You start a track as usual, and the words follow along without a search on your part.
 
-It is available from GitHub releases, Homebrew and the Mac App Store. The latest GitHub release, 1.6.3, dates from April 2022, so player and source compatibility may lag behind current versions.
+- Lyrics are fetched automatically from several online lyrics sources, listed in the LyricsKit project.
+- The desktop overlay takes your choice of font, color and position.
+- Double-clicking a line jumps playback to that point in the song.
+- If the timing drifts, you correct the offset from the status menu.
+- Dragging a file in or out imports or exports lyrics.
+- The app can open and quit together with your music player.
+
+Supported players are listed in the companion MusicPlayer project. For Chinese songs, LyricsX converts between Traditional and Simplified characters on its own.
+
+Lyrics are saved in LRCX, a format of the developer's that adds per-word timing and translations to plain LRC. Ordinary LRC editors still work on these files, though there is no official LRCX editor yet.
+
+Installation works through Homebrew, the Mac App Store or a ZIP on GitHub. That download, version 1.6.3 from April 2022, is a Universal app for Apple silicon and Intel Macs, needs macOS 10.11 or later and is Developer ID-signed and notarized.

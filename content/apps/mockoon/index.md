@@ -16,7 +16,7 @@ freeDownload: true
 homebrew: "mockoon"
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - https://github.com/mockoon/mockoon
@@ -24,6 +24,8 @@ sources:
   - https://github.com/mockoon/mockoon/releases
   - https://formulae.brew.sh/cask/mockoon
   - https://mockoon.com/download/
+  - https://raw.githubusercontent.com/mockoon/mockoon/main/README.md
+  - https://mockoon.com/features/
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/mockoon/mockoon/main/packages/app/build-res/icon.icns
@@ -31,6 +33,14 @@ assets:
     license: "MIT repository asset; Mockoon name and logo retained by the project"
 ---
 
-Mockoon lets you define fake API endpoints in a desktop app and serve them from your own machine. Routes can match methods and regex paths, return templated JSON, files, custom headers and delays, forward unmatched calls to a real backend, and log every request that arrives.
+Mockoon lets you build a fake version of an API on your own Mac and point your app at it. In the desktop app you create a mock server, add routes, and start it on a local port; requests to that port get the responses you defined.
 
-It works with OpenAPI definitions, and the same mocks can run headless through the Mockoon CLI. Mockoon Pro is a separate paid team offering; the desktop app and CLI are MIT-licensed, with macOS builds on the website, GitHub releases and Homebrew.
+- Route paths can be regular expressions, and routes return a status, custom headers, a file or a JSON body.
+- JSON bodies can be templates that fill in Faker.js data or URL parameters, query strings and request-body values.
+- Rules choose between responses for one route, and delays simulate slow services.
+- A proxy mode forwards routes you have not mocked to the real backend.
+- Every request that arrives or is forwarded is logged, and the app can turn recorded calls into mocks.
+
+You can start from an OpenAPI specification and export a mock back to one. The same mock files run without the desktop app through the Mockoon CLI, which is published on npm and as a Docker image, so a CI job or a shared test server can serve exactly what you designed. HTTPS is supported, and you can run as many local servers and routes as you need.
+
+The desktop app and CLI are free and MIT-licensed, and they need no account. The developer says mock traffic stays on your machine and is not tracked. Mockoon Pro is a separate paid, self-hosted platform for teams. Mac downloads come as Universal, Intel and Apple silicon DMGs.

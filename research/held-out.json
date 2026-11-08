@@ -272,7 +272,7 @@
   {
     "repository": "https://github.com/chattymin/PokeTokenBar",
     "date": "2026-11-06",
-    "reason": "Unofficial Pokémon fan project; trademark risk."
+    "reason": "Unofficial Pok\u00e9mon fan project; trademark risk."
   },
   {
     "repository": "https://github.com/sylearn/AIUsage",
@@ -283,5 +283,15 @@
     "repository": "https://github.com/Xc1Ym/LumaNX",
     "date": "2026-11-06",
     "reason": "Needs the user's own console keys to decrypt game packages."
+  },
+  {
+    "repository": "https://github.com/nikolaeu/numi",
+    "date": "2026-11-08",
+    "reason": "The repository holds only plugins and an Alfred workflow; the Mac app ships under a proprietary EULA with a paid license."
+  },
+  {
+    "repository": "https://github.com/chatboxai/chatbox",
+    "date": "2026-11-08",
+    "reason": "The repository is a GPL Community Edition, but every official Mac download, including the GitHub release, is the commercial build sold under separate license terms."
   }
 ]

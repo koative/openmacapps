@@ -1,6 +1,6 @@
 ---
 name: Übersicht
-summary: Display customizable widgets directly on your desktop.
+summary: "Runs shell commands and shows their output as widgets on the desktop."
 category: Productivity
 tags:
   - widgets
@@ -15,12 +15,13 @@ freeDownload: true
 homebrew: "ubersicht"
 featured: false
 added: 2026-10-17
-verified: 2026-10-17
+verified: "2026-11-08"
 sources:
   - https://github.com/felixhageloh/uebersicht
   - https://github.com/felixhageloh/uebersicht/blob/master/LICENSE
   - https://github.com/felixhageloh/uebersicht/blob/master/README.md
   - https://tracesof.net/uebersicht/
+  - https://raw.githubusercontent.com/felixhageloh/uebersicht/master/README.md
 assets:
   - path: ./assets/icon.png
     source: https://github.com/felixhageloh/uebersicht/blob/859a7d70525949b8bdeec19d69a4766678ca3527/Uebersicht/Images.xcassets/AppIcon.appiconset/256.png
@@ -30,6 +31,10 @@ screenshots: []
 icon: ./assets/icon.png
 ---
 
-Übersicht renders desktop widgets written with web technologies. Use existing widgets or create your own displays for local information, command output, and other data you want to keep visible.
+Übersicht runs shell commands on a timer and draws their output on your desktop as small widgets. A widget can list the three processes using the most memory, or show anything else a command prints, in tables, charts or plain text.
 
-Widget files can be edited locally and refreshed as you work. Writing custom widgets requires familiarity with JavaScript and the project's widget API.
+Each widget is a single `.jsx` file in the widgets folder. It exports a `command` to run and a `refreshFrequency` in milliseconds, one second by default. A `className` holds the CSS that positions and styles it, and a `render` function draws it with React's JSX. Übersicht watches the folder, so saving a file redraws the widget at once and keeps its state.
+
+Bigger widgets can split their code into modules and import node modules. They can also manage state with an `updateState` function, and an `init` function can open a WebSocket instead of polling a command. Older widgets written in CoffeeScript still run. The project's site links a collection of ready-made widgets to start from.
+
+Übersicht needs macOS 12 or later and is free to download. The source is released under GPL-3.0 or later.

@@ -11,7 +11,7 @@ const processLanguage =
 const audienceSlot = /\bIt (?:suits|is for) (?:people|users|anyone) who\b/;
 // Peacock words and stock frames that make catalog copy read as generated (docs/RESEARCH.md, Writing review).
 const bannedWords =
-  /\b(?:seamless(?:ly)?|robust|powerful|leverag\w*|cutting-edge|effortless(?:ly)?|blazing(?:ly)?|ultimate|intuitive|delv\w*|elevat\w*|game-chang\w*|does the same (?:core )?job|not (?:just|only|merely)\b[^.]{0,60}\bbut)\b/i;
+  /\b(?:seamless(?:ly)?|robust|powerful|leverag\w*|cutting-edge|effortless(?:ly)?|blazing(?:ly)?|ultimate|intuitive|delv(?:e|es|ed|ing)|elevat(?:e|es|ed|ing)|game-chang\w*|does the same (?:core )?job|not (?:just|only|merely)\b[^.]{0,60}\bbut)\b/i;
 const attribution =
   /\b(?:developer|project|README|documentation|download page|help center|website)\b[^.]{0,30}\b(?:says|states|lists|names|notes|describes)\b|\bper (?:its|the) \w+|\baccording to\b/gi;
 export const countWords = (text: string) =>
@@ -19,7 +19,7 @@ export const countWords = (text: string) =>
 
 /** Problems with a record's summary and body under the standard; empty when it complies. */
 export function writingProblems(
-  record: { verified: string; summary: string },
+  record: { verified: string; summary: string; name: string },
   body: string,
 ): string[] {
   if (record.verified < writingStandardSince) return [];
@@ -47,7 +47,15 @@ export function writingProblems(
   const banned = body.match(bannedWords);
   if (banned)
     problems.push(`"${banned[0]}" is puffery or a stock frame; say it plainly`);
-  if (/—|!|\*\*/.test(body.replace(/`[^`]*`/g, '')))
+  // An app's own name may contain "!" (osu!); punctuation in the prose may not.
+  if (
+    /—|!|\*\*/.test(
+      body
+        .replace(/`[^`]*`/g, '')
+        .split(record.name)
+        .join(''),
+    )
+  )
     problems.push('no em dashes, exclamation marks or bold in descriptions');
   const attributions = body.match(attribution)?.length ?? 0;
   if (attributions > 2)
