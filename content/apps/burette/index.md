@@ -15,13 +15,16 @@ download: https://github.com/SergeiNikolenko/Burette/releases/latest
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - https://github.com/SergeiNikolenko/Burette
   - https://github.com/SergeiNikolenko/Burette/blob/main/LICENSE
   - https://github.com/SergeiNikolenko/Burette/releases
   - https://burette-landing.vercel.app
+  - https://raw.githubusercontent.com/SergeiNikolenko/Burette/main/README.md
+  - https://raw.githubusercontent.com/SergeiNikolenko/homebrew-burette/main/Casks/burette.rb
+  - https://github.com/SergeiNikolenko/Burette/releases/tag/v2026.10.38
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/SergeiNikolenko/Burette/main/apps/desktop/src-tauri/icons/icon.png
@@ -29,6 +32,14 @@ assets:
     license: "MIT repository asset"
 ---
 
-Burette adds a Finder Quick Look extension for molecular files, so pressing Space on a structure shows an interactive 3D view. The companion desktop workspace opens files in tabs, browses project folders, steps through trajectories, filters compound collections by their properties, and edits molecules in the Ketcher sketcher.
+Burette opens molecular structure files in Finder's Quick Look: select a PDB, CIF, SDF, MOL2 or XYZ file, press Space, and rotate and zoom the structure in an interactive 3D view drawn by Mol*. Open the app itself and the same files load into a workspace with tabs, a project sidebar and a command palette on Command-P.
 
-It is a specialist tool for people working with molecular structures rather than a general-purpose viewer. Current Mac releases require Apple silicon and macOS 12 or later, and are published on GitHub and through the author's Homebrew tap.
+- Compound collections in SDF, SMILES, CSV or TSV open as an RDKit grid you can search, sort and filter with SMARTS patterns.
+- The bundled Ketcher editor sketches small molecules and sends them to the 3D viewer or a grid. Macromolecule editing is not enabled.
+- Trajectory files such as XTC, DCD and TRR play back against their topology with frame controls.
+- Mass spectra in formats like MGF and mzML open in a separate spectrum viewer.
+- A Codex plugin lets an agent open structures, focus a ligand or hide waters in the running workspace.
+
+Quantum chemistry outputs such as CUBE, LOG and VASP are converted to PDB and shown in Mol*, with a local `xyzrender` install as an optional second renderer. A VESTA handoff appears only when VESTA is installed. If previews fail to show, the command palette has a Reset Quick Look action.
+
+Current release bundles need an Apple silicon Mac with macOS 12 or later. Public downloads are ad-hoc signed, so you may have to allow Burette in Privacy & Security settings before it opens the first time. Burette installs from a ZIP or DMG on GitHub or through the author's Homebrew tap. The repository also holds an iPhone viewer you build from source yourself.

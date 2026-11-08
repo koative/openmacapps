@@ -3,6 +3,7 @@ import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
 import { z } from 'zod';
 import { basePath } from './site';
+import { writingProblems } from './writing';
 
 export const categories = [
   'Productivity',
@@ -295,6 +296,8 @@ export function loadCatalog(
           throw new Error(
             'Write an original description below the frontmatter',
           );
+        const problems = writingProblems(data, body);
+        if (problems.length) throw new Error(problems.join('; '));
         const repository = normalizeRepository(data.repository);
         if (repositories.has(repository))
           throw new Error(`Duplicate repository: ${data.repository}`);

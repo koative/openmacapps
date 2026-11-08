@@ -15,12 +15,14 @@ freeDownload: true
 homebrew: "davit"
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: '2026-11-08'
 icon: ./assets/icon.png
 sources:
 - https://github.com/wouterdebie/davit
 - https://github.com/wouterdebie/davit/blob/main/LICENSE
 - https://github.com/wouterdebie/davit/releases
+- https://raw.githubusercontent.com/wouterdebie/davit/main/README.md
+- https://github.com/wouterdebie/davit/releases/tag/v0.1.39
 assets:
 - path: ./assets/icon.png
   source: https://raw.githubusercontent.com/wouterdebie/davit/main/icon/icon_1024.png
@@ -28,6 +30,14 @@ assets:
   license: MIT-licensed repository asset; no separate icon terms stated
 ---
 
-Davit is a graphical front end for Apple's open-source container tool, which runs each Linux container in a lightweight virtual machine. It covers container lifecycle, logs, live resource charts and a file browser, along with image pulls and builds, volumes, networks, registry sign-in and Compose file import, and adds a menu bar extra for quick actions.
+Davit gives Apple's open-source container tool, which runs each Linux container in its own lightweight virtual machine, a window and a menu bar extra. You pull an image, start a container with ports, environment variables and mounts, and then watch its logs, CPU and memory from the same window instead of typing `container` commands.
 
-It talks to the container services directly rather than shelling out to the CLI. The project lists an Apple silicon Mac with macOS 15 or later as the requirement; releases are on GitHub and in the developer's Homebrew tap.
+- Each container has tabs for an overview, streaming logs, live charts, raw JSON and a file browser that can upload and download files.
+- Edit & Recreate opens the run form filled in with a container's settings and replaces it, since containers on this platform cannot be changed in place.
+- Images can be built from a Dockerfile for arm64 or amd64, and a Compose file can be previewed and then started as a stack.
+- Registry sign-in covers Docker Hub, ghcr.io and other registries, and Docker credential helpers are used when configured.
+- Command-K opens a search across containers, images, volumes, networks and machines.
+
+If Apple's platform is missing, Davit offers to download Apple's signed installer and set it up in its own folder without an administrator password. The app talks to the platform's services directly over XPC rather than calling the CLI, and the same binary works as a command-line tool with `run`, `compose`, `build` and `exec` subcommands.
+
+Davit needs an Apple silicon Mac with macOS 15 or later; the project recommends macOS 26. The DMG for version 0.1.39 is arm64-only and is Developer ID-signed and notarized. It is also in the developer's Homebrew tap.

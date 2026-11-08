@@ -1,6 +1,6 @@
 ---
 name: "Expo Orbit"
-summary: "A menu bar app from Expo that installs builds on simulators and devices and launches emulators in one click."
+summary: "Installs Android and iOS Simulator builds from files or Expo's EAS service and launches simulators from the menu bar."
 category: "Developer tools"
 tags:
   - mobile-development
@@ -18,13 +18,15 @@ homebrew: "expo-orbit"
 freeDownload: true
 featured: false
 added: "2026-11-02"
-verified: "2026-11-02"
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - https://github.com/expo/orbit
   - https://github.com/expo/orbit/blob/main/LICENSE
   - https://github.com/expo/orbit/releases
   - https://expo.dev/orbit
+  - https://raw.githubusercontent.com/expo/orbit/main/README.md
+  - https://github.com/expo/orbit/releases/tag/expo-orbit-v2.8.1
 assets:
   - path: ./assets/icon.png
     source: https://github.com/expo/orbit/releases/download/expo-orbit-v2.8.1/expo-orbit.v2.8.1-macos.zip
@@ -32,6 +34,14 @@ assets:
     license: "MIT; official app icon extracted unmodified from the release bundle, trademarks retained"
 ---
 
-Expo Orbit sits in the menu bar and saves mobile developers a few steps when testing apps. Drop an Android `.apk` or an iOS Simulator `.app` onto it, or pick a file, and it installs and opens the build on a running simulator, emulator or connected device. It also lists available iOS simulators and Android emulators and starts them for you, optionally with emulator audio turned off.
+Expo Orbit lives in the menu bar and puts mobile builds on simulators and devices. Drag an Android `.apk` or an iOS Simulator `.app` onto it, or choose one in the file picker, and Orbit installs and launches it. Ad hoc signed apps work too.
 
-If you use Expo's EAS build service, Orbit can also install builds and updates straight from your EAS dashboard, show pinned projects and open Snack examples. The simulators themselves still come from Xcode and the Android SDK. Orbit is also available for Windows and Linux.
+- It lists your iOS simulators and Android emulators and starts any of them, with an option to run Android emulators without audio.
+- Builds from Expo's EAS service install on simulators and real devices in one click.
+- Over-the-air updates go to simulators and real Android devices the same way.
+- Pinned projects from your Expo dashboard appear in the menu, so your latest build is a click away.
+- Snack projects open in a simulator directly.
+
+To have Orbit start at login, open its Settings from the menu bar icon and turn on Launch on Login. The app is built with React Native and Electron, and Expo also publishes it for Windows and Linux.
+
+Version 2.8.1 needs macOS 14 or later. Its macOS ZIP holds a Universal app for Apple silicon and Intel, signed with Expo's Developer ID and notarized. Homebrew installs it as the `expo-orbit` cask, and the code is MIT-licensed.

@@ -12,12 +12,21 @@ freeDownload: true
 homebrew: "iterm2"
 featured: false
 added: "2026-10-17"
-verified: "2026-10-17"
-sources: ["https://github.com/gnachman/iTerm2", "https://github.com/gnachman/iTerm2/blob/master/LICENSE", "https://iterm2.com/downloads.html"]
+verified: "2026-11-08"
+sources: ["https://github.com/gnachman/iTerm2", "https://github.com/gnachman/iTerm2/blob/master/LICENSE", "https://iterm2.com/downloads.html", "https://github.com/gnachman/iTerm2/blob/master/README.md", "https://iterm2.com/documentation-shell-integration.html"]
 assets: [{"path": "./assets/icon.png", "source": "https://github.com/gnachman/iTerm2/blob/master/images/AppIcon.png", "credit": "iTerm2 contributors", "license": "GPL-2.0; project trademarks retained"}]
 icon: "./assets/icon.png"
 ---
 
-iTerm2 gives terminal-heavy workflows a configurable home on macOS. Profiles, split panes, and search help organize multiple shells and revisit their output.
+You run shells in iTerm2's windows, tabs and split panes, organise them with profiles, and use it in place of the built-in Terminal app. Current releases need macOS 13 or later. iTerm2 is free, licensed under the GNU General Public License version 2.
 
-Shell integration and automation features can connect the terminal to a broader development setup. Its many preferences suit people who want to shape how their terminal behaves.
+Many features depend on shell integration. It configures your shell to send special escape codes to iTerm2. With it, iTerm2 knows where each command and prompt starts and which host and directory you are in. It can then mark prompts, keep per-host history, and download files over SCP with a click. Other features include:
+
+- tmux integration, where `tmux -CC` turns tmux windows into ordinary iTerm2 windows and tabs
+- triggers that run an action when output matches a regular expression
+- a hotkey window that drops down over other apps, including full-screen ones
+- inline images through the `imgcat` tool
+- instant replay to scroll back through earlier screen states
+- a Python API for custom status bar items, menu items and automation
+
+Profiles can switch automatically by hostname, user, directory or running command. So a production server can get its own background. An optional AI chat window can read terminal contents, but only when you link it to a session.

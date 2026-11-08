@@ -1,6 +1,6 @@
 ---
 name: "Later"
-summary: "A menu bar app that hides or closes every open app in one click, then restores the session now or on a schedule."
+summary: "Hides or closes every open app in one click from the menu bar, then restores the session with a click or on a schedule."
 category: "Productivity"
 tags:
   - menu-bar
@@ -15,13 +15,16 @@ download: https://github.com/alyssaxuu/later/blob/master/Later.dmg
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
+maintenance: "unmaintained"
+maintenanceNote: "The developer says it is no longer maintained."
 icon: ./assets/icon.png
 sources:
   - https://github.com/alyssaxuu/later
   - https://github.com/alyssaxuu/later/blob/master/LICENSE
   - https://github.com/alyssaxuu/later/blob/master/Later.dmg
   - https://getlater.app
+  - https://raw.githubusercontent.com/alyssaxuu/later/master/README.md
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/alyssaxuu/later/master/xcode/Test/Assets.xcassets/AppIcon.appiconset/256ico.png
@@ -29,6 +32,14 @@ assets:
     license: "MIT repository asset; Later name and icon retained by the author"
 ---
 
-Later clears the desktop by hiding or quitting all open apps at once and remembering them as a session, which can be restored with one click or set to reopen after a chosen delay. Saved sessions show a preview and some metadata, which helps before screen sharing or at the end of a workday.
+Later puts away every open app with one click in the menu bar and remembers them as a session. You choose whether the apps are hidden or closed, and another click brings the whole session back.
 
-The author no longer maintains it and released the code so others can continue it. The download is an unsigned disk image kept in the repository, last updated in July 2022, and it requires macOS 11.6 or later.
+- You can tidy the desktop before sharing your screen in a meeting.
+- Each saved session shows a preview and some metadata.
+- Keyboard shortcuts save and restore a session, and a setting leaves chosen apps out of it.
+- Apps can be scheduled to reopen after a few minutes or several hours.
+- Closing everything before a long trip saves battery, and the session waits until you arrive.
+
+There is no releases page. The download is `Later.dmg`, stored in the repository itself, and it holds version 1.91 as a Universal app for Apple silicon and Intel. It requires macOS 11.6 or later. On first launch macOS shows an alert because Apple cannot scan the app for malware; the README's workaround is to Control-click the app, choose Open and confirm.
+
+Alyssa X built Later and no longer maintains it. The last commit dates from April 2023. The code was opened so that others can change it, improve it or build their own version, and the Xcode project sits in the repository.

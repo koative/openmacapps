@@ -15,11 +15,8 @@ freeDownload: true
 homebrew: "motrix"
 featured: false
 added: 2026-10-17
-verified: 2026-10-17
-sources:
-  - https://github.com/agalwood/Motrix
-  - https://github.com/agalwood/Motrix/blob/main/LICENSE
-  - https://github.com/agalwood/Motrix/releases
+verified: "2026-11-08"
+sources: ["https://github.com/agalwood/Motrix", "https://github.com/agalwood/Motrix/blob/main/LICENSE", "https://github.com/agalwood/Motrix/blob/master/README.md", "https://github.com/agalwood/Motrix/releases", "https://github.com/agalwood/Motrix/releases/tag/v2.4.0", "https://motrix.app"]
 assets:
   - path: ./assets/icon.png
     source: https://github.com/agalwood/Motrix/blob/main/public/app-icon.png
@@ -28,6 +25,16 @@ assets:
 icon: ./assets/icon.png
 ---
 
-Motrix groups downloads into a desktop queue with progress and transfer controls. It supports several download protocols through its underlying download engine.
+Motrix downloads files over HTTP, FTP, BitTorrent and magnet links. Each download runs as a task, and the menu bar icon gives quick access to them.
 
-The release page provides macOS packages for supported architectures. It is useful for managing larger transfers outside a browser's download list.
+The work is done by the aria2 download engine, and Motrix wraps it in an Electron interface.
+
+- Up to 10 downloads run at the same time, and a single download can use up to 64 connections.
+- Torrents let you choose which files to fetch, and the tracker list refreshes every day.
+- UPnP and NAT-PMP open ports on your router automatically.
+- Speed limits cap transfers, and a custom user agent can stand in for a browser.
+- On the Mac the menu bar icon shows the current transfer speed, and the Touch Bar has controls.
+
+A notification arrives when a download finishes. Removing a task can also delete its files if you choose. Dark mode is included, and the interface is translated into several languages.
+
+Motrix 2.4.0 has separate DMG and ZIP builds for Apple silicon and Intel. The Apple silicon build needs macOS 13 or later and is signed with a Developer ID and notarized. Motrix is free under the MIT license.

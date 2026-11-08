@@ -66,6 +66,22 @@ limits. Use your own words rather than copying an upstream README.
 
 Body Markdown supports headings, lists, emphasis, links, quotes, code, and tables. Raw HTML and inline Markdown images are not rendered; add imagery through the attributed screenshot fields. Top-level body headings are demoted so the app name remains the page title.
 
+### Writing the description
+
+The description is the reason to visit the page, so it carries facts a reader cannot get from the summary. Write it as a careful Mac editor who has used the app: plain, exact and unexcited. Aim for 150 to 300 words. On any record verified on or after 2026-11-08, `src/lib/writing.ts` rejects the mechanical failures listed below; older records keep loading until they are rewritten and re-verified.
+
+- **Open with the job.** The first sentence says what the app does and what you do with it: what you open, press or type, and what you get back. Do not open with "{App} is a …", "provides" or "offers", or with a category label.
+- **Shape it to the app.** A sentence or two on the job, a list when there are four or more parallel features, then whatever this app needs: setup, limits, a comparison. Do not end every description on requirements or the license.
+- **Person and tense.** The app is third person, present tense ("Ice hides …"). The reader is "you" ("press Return to paste it"). Never "we" or "I".
+- **Rhythm.** Mix short sentences with longer ones; keep each under 30 words (validation stops at 40) and paragraphs to five sentences. Validation rejects bodies whose sentence lengths are nearly uniform.
+- **Name what it replaces.** When `alternativeTo` lists a product, name at least one and give the one real difference in your own words. No stock frame such as "does the same job", and no prices.
+- **State requirements and limits as facts.** Minimum macOS, Apple silicon or Intel builds and notarization come from the project's download page, release notes or release files; when sources disagree, follow the download or release page. Put each limit next to the feature it limits. Mention cost, accounts or outside services only when a primary source says so.
+- **Attribute sparingly.** Attribute only claims nobody can check from outside, such as privacy or telemetry, with a plain verb ("The developer says …"); validation allows two. Never describe what a source does not say.
+- **Write about the app, not the review.** No "this entry", "I checked" or "at review time", and no "It suits people who …".
+- **Never** use ratings, superlatives or peacock words ("powerful", "seamless", "intuitive", "native" as praise), "not just … but" constructions, em dashes, exclamation marks, bold, or text copied or closely paraphrased from upstream. Leave out what you could not verify instead of hedging it.
+
+Summaries describe the job in one line, starting with a verb or the thing the app is ("Shrinks PDFs, images and videos you drag onto its window"), never with "Native" or "Menu bar app".
+
 All links must use HTTPS. Keep summaries at most 130 characters. Tags must be unique lowercase words separated by hyphens, with one to ten tags per app. Dates must be quoted ISO dates; `verified` records the most recent manual check and cannot precede `added`. It is not a security audit or endorsement.
 
 Categories are `Productivity`, `Developer tools`, `Utilities`, `Media`, `Privacy & security`, `Writing`, `Design`, `Internet`, `Education`, `Games`, and `AI`. Choose one main category; use tags for overlap. The `featured` flag is an editorial choice, not a popularity metric. License values use reviewed SPDX identifiers, with `AND` or `OR` expressions when upstream requires them.

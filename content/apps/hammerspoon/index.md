@@ -1,6 +1,6 @@
 ---
 name: Hammerspoon
-summary: Automate windows, shortcuts, and desktop behavior with Lua scripts.
+summary: Automates windows, shortcuts, and desktop behavior with Lua scripts.
 category: Productivity
 tags:
   - automation
@@ -10,7 +10,7 @@ alternativeTo:
   - keyboard-maestro
   - autohotkey
 repository: https://github.com/Hammerspoon/hammerspoon
-website: https://github.com/Hammerspoon/hammerspoon
+website: https://www.hammerspoon.org/
 license: MIT
 licenseUrl: https://github.com/Hammerspoon/hammerspoon/blob/master/LICENSE
 download: https://github.com/Hammerspoon/hammerspoon/releases
@@ -18,12 +18,14 @@ freeDownload: true
 homebrew: "hammerspoon"
 featured: false
 added: 2026-10-17
-verified: 2026-10-17
+verified: "2026-11-08"
 sources:
   - https://github.com/Hammerspoon/hammerspoon
   - https://github.com/Hammerspoon/hammerspoon/blob/master/LICENSE
   - https://github.com/Hammerspoon/hammerspoon/blob/master/README.md
   - https://github.com/Hammerspoon/hammerspoon/releases
+  - https://www.hammerspoon.org/go/
+  - https://github.com/Hammerspoon/hammerspoon/releases/tag/1.1.1
 assets:
   - path: ./assets/icon.png
     source: https://github.com/Hammerspoon/hammerspoon/blob/23e387e2805a9890066366e0ac96c71b27f0cfd5/Hammerspoon/Images.xcassets/AppIcon.appiconset/256.png
@@ -33,6 +35,10 @@ screenshots: []
 icon: ./assets/icon.png
 ---
 
-Hammerspoon connects a Lua scripting environment to macOS features. Use it to compose your own window layouts, keyboard actions, and responses to changes in your desktop environment.
+Hammerspoon runs Lua scripts that control macOS. Out of the box it does nothing. You write a configuration in ~/.hammerspoon/init.lua, opened from its menu bar icon, that ties events to actions. A hotkey can move and resize a set of windows, and a function can run when the Mac joins a particular Wi-Fi network. An alert can appear when the battery runs low.
 
-It is a configurable automation app rather than a ready-made set of shortcuts: create an init.lua configuration or start with the project's examples.
+Its extensions reach applications, windows, the mouse pointer, files, audio devices, the battery, displays, low-level keyboard and mouse events, the clipboard, location services and Wi-Fi. Scripts can also run AppleScript. Spoons are ready-made Lua plugins you add to a configuration. The project site has a getting-started guide and a full API reference.
+
+Hammerspoon 1.1.1 requires macOS 13 or later; release notes list older versions for earlier systems. It ships as a universal zip for Apple silicon and Intel, signed with a Developer ID and notarized. On first launch it asks for Accessibility access. It is free under the MIT license.
+
+Keyboard Maestro handles similar automation with macros built from its library of actions. In Hammerspoon, every behaviour is code you write or adapt from shared examples. AutoHotkey fills the same scripting role on Windows.

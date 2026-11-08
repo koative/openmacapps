@@ -1,6 +1,6 @@
 ---
 name: "PicList"
-summary: "Upload images to cloud storage or image hosts and manage the files already stored there."
+summary: "Uploads images to cloud storage or image hosts and manages the files already stored there."
 category: "Utilities"
 tags:
   - images
@@ -17,13 +17,16 @@ freeDownload: true
 homebrew: "piclist"
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - https://github.com/Kuingsmile/PicList
   - https://github.com/Kuingsmile/PicList/blob/dev/LICENSE
   - https://github.com/Kuingsmile/PicList/releases
   - https://formulae.brew.sh/cask/piclist
+  - https://piclist.cn/
+  - https://github.com/Kuingsmile/PicList/blob/dev/README.md
+  - https://github.com/Kuingsmile/PicList/releases/tag/v3.6.1
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/Kuingsmile/PicList/dev/build/icons/512x512.png
@@ -31,6 +34,13 @@ assets:
     license: "MIT; upstream project asset, trademarks retained"
 ---
 
-PicList builds on PicGo's upload workflow and adds management of the storage behind it. Besides uploading screenshots and images to get a ready-to-paste link, it can browse, search, rename and delete files in a connected cloud bucket or image host.
+PicList uploads images to a storage service you control and copies a link in the format your editor needs. Drop or paste a screenshot, and it lands on a host such as Cloudflare R2, GitHub or WebDAV, ready as Markdown, HTML, a plain URL, UBB or a custom format. It builds on PicGo's upload workflow and adds management of the storage behind it.
 
-Built-in tools can watermark, compress, resize and convert images before upload, and lifecycle scripts automate custom steps. It works with Typora and Obsidian and with most existing PicGo plugins. Builds for macOS, Windows and Linux are published on GitHub, and a Homebrew cask is available.
+- The cloud manager browses, searches, deletes and batch-renames files already in your buckets.
+- Image tools watermark, compress, resize, rotate and convert files before upload, set per host.
+- Lifecycle scripts automate custom steps without a separate Node.js install.
+- Gallery and settings can sync between computers over WebDAV or Git.
+
+The desktop app is built on Electron for macOS, Windows and Linux, and its documentation site is in Chinese and English. Mac releases come as separate disk images for Apple silicon and Intel.
+
+Typora 1.6 and later can select PicList directly as its uploader. Obsidian connects through the Image Auto Upload plugin and PicList's local endpoint at 127.0.0.1:36677, and a VS Code extension, VS-PicList, does the same for that editor. Most existing PicGo plugins work. The same developer also maintains PicHoro, an Android client, and PicList-Core, the command-line core that runs as a separate upload server in Docker.

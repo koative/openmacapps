@@ -1,6 +1,6 @@
 ---
 name: Zettel
-summary: A minimal notes app that edits one note at a time and stores every note as a local Markdown file.
+summary: Shows one note at a time and saves every note as a plain Markdown file, on the Mac and iPhone.
 category: Writing
 tags:
   - notes
@@ -16,13 +16,15 @@ download: https://apps.apple.com/app/zettel-quick-notes/id6748525244
 freeDownload: false
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: '2026-11-08'
 icon: ./assets/icon.png
 sources:
   - https://github.com/AlexW00/Zettel
   - https://github.com/AlexW00/Zettel/blob/main/LICENSE
   - https://github.com/AlexW00/Zettel/blob/main/README.md
   - https://apps.apple.com/app/zettel-quick-notes/id6748525244
+  - https://apps.apple.com/us/app/zettel-quick-notes/id6748525244
+  - https://github.com/AlexW00/Zettel/blob/main/PRIVACY.md
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/AlexW00/Zettel/main/ZettelMac/zettel.icon/Assets/zettel-icon-note-40.png
@@ -30,6 +32,10 @@ assets:
     license: GPL-3.0 repository asset; Zettel name and logo retained by the author
 ---
 
-Zettel is a small note-taking app for the Mac and iPhone built around a single full-window note rather than a sidebar of documents. Notes are organized with inline hashtags, the interface follows light, dark or system themes, and every note is saved as a plain Markdown file that other editors can open.
+Zettel gives the whole window to one note. There are no tabs and no folders: you write, and the note is saved as a plain Markdown file that other editors can open and that you can sync however you like.
 
-The macOS version requires macOS 26 or later and is distributed through the App Store; the GPL-3.0 source in the repository builds both the iOS and Mac apps.
+Typing a hashtag such as #ideas turns the word into a tag, and tags are how you find a note again later. Search covers your notes, and a note saves itself as you type. The interface follows a light, dark or system theme. On the iPhone, swiping across the screen tears the current note away so you can start a fresh one.
+
+The same app runs on iPhone and Mac. Version 3.2, from April 2026, announced the Mac version, which needs macOS 26 or later. It is sold on the App Store and needs no account. Its App Store privacy label says the developer collects no data.
+
+The full source for both versions is on GitHub under GPL-3.0. A build script compiles either platform once you add your own Apple developer team ID and bundle identifier.

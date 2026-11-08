@@ -15,13 +15,16 @@ download: https://github.com/elfmz/far2l/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - https://github.com/elfmz/far2l
   - https://github.com/elfmz/far2l/blob/master/LICENSE.txt
   - https://github.com/elfmz/far2l/releases
   - https://formulae.brew.sh/cask/far2l
+  - https://github.com/elfmz/far2l/blob/master/README.md
+  - https://github.com/elfmz/far2l/releases/tag/v_2.9.1
+  - https://formulae.brew.sh/formula/far2l-tty
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/elfmz/far2l/master/far2l/DE/Far.icns
@@ -29,6 +32,15 @@ assets:
     license: "GPL-2.0 repository asset; name and logo retained by the project"
 ---
 
-far2l brings the keyboard-driven, two-panel layout of FAR Manager to Unix systems. Alongside file operations it includes a built-in editor and viewer, and plugins for archives, comparison, a calculator, Python scripting, and NetRocks for SFTP, SCP, FTP, SMB, NFS, WebDAV and S3 connections.
+far2l gives you a keyboard-driven, two-panel file manager on Unix systems. It is a fork of FAR Manager v2 for Windows, made for Linux and also working on macOS. You see two folders side by side, copy and move files between them, and open files in the built-in viewer and editor without leaving the panels.
 
-It can run in plain terminal mode or in its own wxWidgets window. The project still labels itself beta, and macOS disk images are attached to its GitHub releases and packaged as a Homebrew cask. The code is GPLv2 with an added exception permitting linking with OpenSSL.
+Much of the work happens in plugins, which the README lists among the working ones:
+
+- NetRocks opens SFTP, SCP, FTP, FTPS, SMB, NFS, WebDAV and AWS S3 locations in a panel.
+- multiarc handles archives, and the experimental arclite can be switched on in the plugin settings.
+- Advanced compare, Calculator, hexitor and ImageViewer cover smaller jobs.
+- An optional Python plugin adds scripting.
+
+far2l runs either inside a terminal or in a window of its own. In a terminal it needs few dependencies, but ordinary terminals pass only the essential key combinations; iTerm2, kitty and far2l's own terminal pass them all. The graphical mode is built on wxWidgets and takes every shortcut.
+
+The project still calls itself beta and says you use it at your own risk. Release 2.9.1 carries two macOS disk images, an Intel build for macOS 10.15 and a Universal one for macOS 11.2, going by their file names. That Universal app is not notarized. A smaller terminal-only version is in Homebrew as far2l-tty, without Python plugins or SMB. The code is GPLv2 with an exception that permits linking with OpenSSL.

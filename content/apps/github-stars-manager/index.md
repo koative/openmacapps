@@ -15,12 +15,14 @@ download: https://github.com/AmintaCCCP/GithubStarsManager/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - https://github.com/AmintaCCCP/GithubStarsManager
   - https://github.com/AmintaCCCP/GithubStarsManager/blob/main/LICENSE
   - https://github.com/AmintaCCCP/GithubStarsManager/releases
+  - https://raw.githubusercontent.com/AmintaCCCP/GithubStarsManager/main/README.md
+  - https://github.com/AmintaCCCP/GithubStarsManager/releases/tag/v0.9.0
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/AmintaCCCP/GithubStarsManager/main/assets/icon.png
@@ -28,6 +30,14 @@ assets:
     license: "MIT (repository license); upstream project asset"
 ---
 
-GitHub Stars Manager turns a long list of starred repositories into a searchable library. With a GitHub token it pulls in every star, then a language model of your choice writes summaries, tags and categories in bulk, with categories you lock left untouched. Searches can match by meaning as well as by keyword.
+Give GitHub Stars Manager a GitHub token and it pulls in every repository you have starred, then has a language model write summaries, tags and categories for them. The analysis runs in bulk, can pause and resume, and never overwrites a category you have locked. Categories can also sync both ways with GitHub Lists.
 
-Repositories can also be subscribed to for release tracking, with asset filters by platform and file type and one-click downloads. The project also runs as a web app; the desktop client for macOS, Windows and Linux is published on GitHub Releases.
+- Vector search finds repositories by meaning and can list starred projects similar to one you pick. It relies on Cloudflare Vectorize and a small Cloudflare Worker that you deploy.
+- Release tracking gathers new versions from subscribed repositories in one timeline, filters assets by platform and file type, and downloads them in one click or through aria2.
+- A question panel answers focused questions about a single repository, tied to one commit and showing its sources.
+- A built-in MCP server lets agents such as Claude Code and Cursor search your enriched stars.
+- Forks and Gists get their own views, with upstream sync and workflow triggers for forks.
+
+Models come from OpenAI, Anthropic, an Ollama server or any OpenAI-compatible endpoint you configure, with your own keys where the provider needs one. WebDAV backup and an HTTP or SOCKS5 proxy are in settings.
+
+The same project also serves a web interface from source or from Docker images, with an optional backend that syncs data between devices. The macOS client ships as DMGs. The 0.9.0 Apple silicon build needs macOS 13 or later, and Gatekeeper rejects it as downloaded.

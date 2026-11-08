@@ -15,12 +15,14 @@ download: https://github.com/wandercn/fmusic/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - https://github.com/wandercn/fmusic
   - https://github.com/wandercn/fmusic/blob/master/LICENSE
   - https://github.com/wandercn/fmusic/releases
+  - https://raw.githubusercontent.com/wandercn/fmusic/master/README.md
+  - https://github.com/wandercn/fmusic/releases/tag/1.1.1
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/wandercn/fmusic/master/Shared/Assets.xcassets/AppIcon.appiconset/512%401x.png
@@ -28,6 +30,14 @@ assets:
     license: "GPL-3.0; upstream project asset, trademarks retained"
 ---
 
-fmusic plays music from folders you import, reading album information and cover art from the files. It handles FLAC, MP3, WAV, M4A and AIFF, offers sequential, repeat and shuffle modes, and searches by title, artist or album.
+fmusic plays music stored on your Mac. Import a folder from the toolbar, the menu or Command-O, and it reads album details and cover art from the files, then sorts each album by track number so songs keep their original order.
 
-Track metadata can be edited and written back to the file, and lyrics can be downloaded and displayed with karaoke-style highlighting when timing tags are present. Playlists are not implemented yet. It requires macOS 11 or later, and signed disk images are on GitHub releases.
+- It plays FLAC, MP3, WAV, M4A, AIFF and M4R files.
+- Playback runs in order, repeats the list or one song, or shuffles.
+- Search matches loosely against song title, artist and album.
+- Right-clicking a song lets you edit its title, album, artist and track number and save them into the file, which works best with FLAC, MP3 and M4A.
+- A file details view shows the path and lets you rename the file.
+
+fmusic requires macOS 11 or later. Version 1.1.1 is a Universal disk image for Apple silicon and Intel, and it is not notarized, so macOS may refuse to open it until you remove the quarantine attribute. The developer notes that the earlier, notarized 1.1.0 runs only on Apple silicon. The README is written in Chinese.
+
+Lyrics are downloaded automatically into `~/Music/Lyrics`, and the lyrics view opens by default. When a lyrics file has timing tags, the current line is highlighted karaoke-style. There is a simple favorites feature, but no playlists; version 1.1.1 removed the unfinished playlist code.

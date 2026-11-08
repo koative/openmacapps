@@ -15,13 +15,16 @@ download: https://github.com/shm11C3/HardwareVisualizer/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - https://github.com/shm11C3/HardwareVisualizer
   - https://github.com/shm11C3/HardwareVisualizer/blob/develop/LICENSE
   - https://github.com/shm11C3/HardwareVisualizer/releases
   - https://hardviz.com
+  - https://github.com/shm11C3/HardwareVisualizer/blob/develop/README.md
+  - https://github.com/shm11C3/HardwareVisualizer/blob/develop/CODE_SIGNING_POLICY.md
+  - https://github.com/shm11C3/HardwareVisualizer/releases/tag/v1.11.3
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/shm11C3/HardwareVisualizer/develop/src-tauri/icons/icon.icns
@@ -29,6 +32,16 @@ assets:
     license: "GPL-3.0-or-later repository asset; name and logo retained by the project"
 ---
 
-HardwareVisualizer shows how your computer's processor, graphics, memory and storage are behaving, using customizable dashboards with live graphs. It also records a history of those readings on your own machine, so you can look back over days or months and spot trends rather than only watching the current moment.
+HardwareVisualizer graphs what your Mac's processor, graphics and memory are doing right now and keeps a record of it. After a long render or game, you can come back and see when the load peaked and which processes were using CPU and memory.
 
-A system specifications page lists the installed hardware. The project ships macOS disk images for Intel and arm64 on its GitHub releases page and official website; available sensors differ between platforms, so not every metric shown on Windows is present on a Mac.
+- The Performance view shows live CPU, memory and GPU gauges and graphs, per-core usage and running processes, laid out as Panels, Compact or Monitor.
+- Insights keeps averages, peaks and lows for up to a year, and process history for up to 30 days.
+- System Specifications lists the CPU, GPU, memory, storage and network hardware and can copy the whole list as a hardware report.
+- Storage Health shows SMART data for each drive once smartmontools is installed.
+- A menu bar readout shows CPU and GPU usage, and the app can keep running there after you close the window.
+
+History goes into a local database, and how long it is kept is a setting. The developer says hardware data stays on the computer and that the app goes online only to look for updates on GitHub.
+
+Separate disk images serve Apple silicon and Intel Macs, and the project lists its Mac builds as signed and notarized. The same Tauri-based app runs on Windows and Linux. The code is GPL-3.0-or-later, while releases up to the 1.10 line remain available under MIT.
+
+Sensor coverage on the Mac is narrower than on Windows. Apple silicon Macs report power draw for the CPU, GPU, Neural Engine and whole package. The Mac build reads no CPU or GPU temperatures and no fans, and Cooling Insight, which compares temperatures against load over time, is missing.

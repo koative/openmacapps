@@ -17,13 +17,15 @@ freeDownload: true
 homebrew: "breaktimer"
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: '2026-11-08'
 icon: ./assets/icon.png
 sources:
   - https://github.com/tom-james-watson/breaktimer-app
   - https://github.com/tom-james-watson/breaktimer-app/blob/master/LICENSE.md
   - https://github.com/tom-james-watson/breaktimer-app/releases
   - https://formulae.brew.sh/cask/breaktimer
+  - https://raw.githubusercontent.com/tom-james-watson/breaktimer-app/master/README.md
+  - https://github.com/tom-james-watson/breaktimer-app/releases/tag/v2.1.0
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/tom-james-watson/breaktimer-app/master/resources/icon.png
@@ -31,6 +33,14 @@ assets:
     license: "GPL-3.0 repository asset; BreakTimer name and icon retained by the author"
 ---
 
-BreakTimer reminds you to step away from the screen at intervals you choose. Each break can be a gentle notification or a fullscreen window, with adjustable length and frequency, custom break messages and working hours outside which it stays quiet.
+BreakTimer interrupts long stretches at the computer with breaks on a schedule you set, to help against RSI and eye strain. You choose how often breaks come and how long they last, and the app runs from the menu bar on the Mac.
 
-It can also reset its countdown when it notices you have been away from the computer. The app runs from the menu bar on macOS and is also available for Windows and Linux; Mac downloads are on GitHub releases and in Homebrew.
+- Each reminder can be a simple notification or a break window that fills the screen.
+- Working hours keep it quiet outside the times you set.
+- A notice before each break lets you skip or snooze it when the timing is bad.
+- The messages and colours shown during a break are yours to change.
+- It can restart the countdown when it sees you have been away from the computer.
+
+The same app also runs on Windows and Linux. On the Mac it comes as a Universal DMG for Apple silicon and Intel, from GitHub releases or the breaktimer Homebrew cask.
+
+If a bug leaves the interface in a state it cannot recover from, quitting the app and deleting `~/Library/Application Support/BreakTimer` resets it. The log for bug reports lives at `~/Library/Logs/BreakTimer/main.log`, and the developer says it holds no personally identifying information. The README also says the project gives no support for enterprise or commercial deployment and is provided as is.

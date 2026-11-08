@@ -17,13 +17,16 @@ homebrew: "iloader"
 freeDownload: true
 featured: false
 added: "2026-11-02"
-verified: "2026-11-02"
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - https://github.com/nab138/iloader
   - https://github.com/nab138/iloader/blob/main/LICENSE
   - https://github.com/nab138/iloader/blob/main/LICENSE-BRANDING
   - https://github.com/nab138/iloader/releases
+  - https://raw.githubusercontent.com/nab138/iloader/main/README.md
+  - https://iloader.app
+  - https://github.com/nab138/iloader/releases/tag/v2.4.1
 assets:
   - path: ./assets/icon.png
     source: https://github.com/nab138/iloader/blob/main/src-tauri/icons/icon.icns
@@ -31,8 +34,13 @@ assets:
     license: "Not covered by the MIT code license; iloader branding notice (LICENSE-BRANDING) allows use with a link to https://iloader.app and no implied endorsement; trademarks retained"
 ---
 
-iloader is a desktop helper for getting SideStore, and optionally LiveContainer, onto an iPhone or iPad. You plug the device in over USB, sign in with an Apple Account, and the app signs and installs SideStore, imports the certificate and places the pairing files it needs. It can also install any other IPA file.
+iloader gets SideStore onto an iPhone or iPad from your Mac. Connect the device by USB, sign in with your Apple Account, and choose an action; for SideStore, iloader installs the app, imports the certificate and places the RPPairing and Lockdown pairing files it needs. It can also install LiveContainer together with SideStore, or any other IPA file.
 
-It manages pairing files for tools such as SideStore and StikDebug, and lists the development certificates and app IDs on your Apple Account so you can revoke old ones. When something fails, it suggests likely fixes and keeps logs you can share.
+- Pairing files can be placed into other apps that need them, such as StikDebug and Protokolle.
+- The development certificates and app IDs on your Apple Account are listed, and you can revoke them.
+- Common errors come with suggested fixes, and a log viewer shows what went wrong, with a Debug level for more detail.
+- The interface is translated into many languages.
 
-You have to give iloader your Apple Account credentials, which it uses to sign apps through Apple's developer services; the project says its GitHub releases and iloader.app are the only official downloads. A universal macOS build is published. The iloader name and artwork are covered by a separate branding notice rather than the MIT code license.
+The tradeoff is your Apple Account password. iloader handles the credentials itself to sign apps, and its developer advises caution with this kind of software. The source is public, and the releases are built by GitHub Actions from that code. Only the GitHub releases and iloader.app are official downloads; the Homebrew cask is maintained by the community.
+
+The current line receives only important bug fixes while a rewrite, iloader-next, is in development. Version 2.4.1 is a Universal DMG for Apple silicon and Intel that needs macOS 10.13 or later, signed with a Developer ID and notarized. The code is MIT-licensed. The iloader name and artwork fall under a separate branding notice.

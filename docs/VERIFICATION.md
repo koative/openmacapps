@@ -1,5 +1,32 @@
 # Release verification
 
+## Every thin description rewritten — 2026-11-08
+
+After the 20-record pilot, every description under 100 words was rewritten to the house style in three waves, most-installed first (Homebrew cask installs over 365 days, then pages that already rank in search). 714 records were rewritten and re-verified (734 with the pilot); 5 were removed. No description in the catalog is now under 100 words.
+
+- **Two passes per record.** A writer re-read the license file, took every fact from the project's own site, README, release notes or release files, ran the copy check against the README and site, and wrote evidence notes. A second reviewer then opened each cited page again and fixed or removed what it did not say. Reviewers found 2–18% of claims wrong or untraced per batch (typically 6–10%): softer upstream wording stated as certain, comparisons that said more about the other product than its own site does, features from older or newer releases, and notarization implied for builds nobody checked. Every one was fixed or removed.
+- **Binary checks.** Notarization and chip claims come from `spctl`, `lipo` and `LSMinimumSystemVersion` on downloaded builds of 150 MB or less, or from the project's own statement, attributed. Bodies name the build that was checked. Downloads over the limit make no notarization claim.
+- **Licenses re-read.** 44 records changed license identifier, nearly all to `-or-later`, where the README notice or source headers say "or any later version" (OBS Studio, Wireshark, GIMP, Blender, VLC, FreeCAD, Zotero, KiCad and others); plain GPLv3 text stays `GPL-3.0`.
+- **Maintenance.** 44 apps gained `maintenance: "unmaintained"`: their README says the project is paused or no longer maintained, or there has been no release and no meaningful commit for two years.
+- **Free downloads.** VoiceInk, SaneHosts, SaneClick and SaneClip are paid after a trial, so `freeDownload` is now `false`.
+- **Homebrew.** Several bodies now say that Homebrew disabled a cask for failing its Gatekeeper check. `bun run homebrew` removed the deprecated `hyper` and `rustcast` casks and added `wallpapermachine`.
+- **Removed (`research/held-out.json`):** Numi (the repository holds only plugins; the app is proprietary), Chatbox (the official Mac download is the commercial build, not the GPL community edition), Orkas (the Mac download is the packaged app with sign-in and closed features), Sapphire (the official build bundles components the public source replaces with placeholders, behind a subscription) and Notarize (it works only through `altool`, which Apple's notary service stopped accepting on 2023-11-01).
+- **Rules into code.** `src/lib/writing.ts` now also rejects review-process wording ("was checked"), summaries written as instructions, puffery and stock frames, more than two attributions, sentences over 40 words, uniform sentence lengths, and a body that does not name a product from `alternativeTo`. Product names may contain "!" (osu!, Fritz!Box).
+
+1,135 records checked before 2026-11-08 and already over 100 words keep their earlier text until they are re-verified.
+
+Checked: `bun run validate` (1,869 apps), `bun test` (22 pass), `bun run check`, `bun run build` (2,061 pages), `bun run check:links` (178,707 links), `bun run check:generated`, `bun run check:homebrew` (571 casks).
+
+## Description standard and 20 rewrites — 2026-11-08
+
+The writing review in `docs/RESEARCH.md` (Writing review) led to a description standard in CONTRIBUTING.md and checks in `src/lib/writing.ts`, applied to every record verified on or after 2026-11-08. The 20 most-installed apps with thin descriptions were rewritten first: LibreOffice, Ghostty, iTerm2, Stats, DBeaver, VLC, Rectangle, Zed, Maccy, Blender, Ollama, Brave, IINA, Bruno, UTM, LocalSend, AltTab, Karabiner-Elements, Ice and Hammerspoon.
+
+- **Length.** Bodies went from 39–55 words to 178–284. Each states what the app does in concrete terms, names a product from `alternativeTo` (or the built-in macOS feature it stands in for) and gives the published requirements: minimum macOS and the chips a build runs on.
+- **Evidence.** Every fact comes from the project's own site, documentation, README, release notes or release files; third-party download sites were used only to see what readers look for. Rectangle, Maccy, LocalSend, AltTab, Karabiner-Elements, Ice and Hammerspoon were downloaded and checked with `lipo` and `spctl`; the others make no notarization claim. A second reviewer re-opened the sources for at least one requirement and one feature per app and removed sentences without primary support.
+- **Licenses re-read.** VLC is `GPL-2.0-or-later` (the README and module headers say "or any later version") and Blender `GPL-3.0-or-later` (blender.org's license page covers the program and its binaries). iTerm2's LICENSE file is GPL version 2 without "only" or "or later", and its source headers could not be read, so `GPL-2.0` stays until they are.
+- **Other corrections.** UTM's website is `getutm.app` (the old address redirects) and Hammerspoon's points to hammerspoon.org instead of its repository. Seven summaries that used praise words ("considered", "fast", "quick") or an imperative were rewritten.
+
+Checked: `bun run validate`, `bun test` (22 pass), `bun run check`, `bun run build`, `bun run check:links`, `bun run check:generated`.
 ## SEO audit fixes — 2026-11-07
 
 A site-wide audit (technical, on-page and content, structured data and AI search, performance) read all 2,066 built pages in `dist/` and made about 60 spaced requests to the live site. It found nothing that blocks indexing: every indexable page has a self-referencing canonical that matches the sitemap, redirects are single 301s, and all 2,064 indexable pages carry valid JSON-LD. The code-level findings are fixed here:

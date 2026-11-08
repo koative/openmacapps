@@ -1,6 +1,6 @@
 ---
 name: "NextAI Translator"
-summary: "Translate, polish or summarize selected text with a language model, from a desktop window or a global shortcut."
+summary: "Translates, polishes or summarizes selected text with a language model, from a desktop window or a global shortcut."
 category: "AI"
 tags:
   - translation
@@ -14,12 +14,14 @@ download: https://github.com/nextai-translator/nextai-translator/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: '2026-11-08'
 icon: ./assets/icon.png
 sources:
   - https://github.com/nextai-translator/nextai-translator
   - https://github.com/nextai-translator/nextai-translator/blob/main/LICENSE
   - https://github.com/nextai-translator/nextai-translator/releases
+  - https://raw.githubusercontent.com/nextai-translator/nextai-translator/main/README.md
+  - https://github.com/nextai-translator/nextai-translator/releases/tag/v0.6.55
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/nextai-translator/nextai-translator/main/src-tauri/icons/icon.icns
@@ -27,6 +29,12 @@ assets:
     license: "AGPL-3.0; upstream project asset, trademarks retained"
 ---
 
-NextAI Translator, previously called OpenAI Translator, sends text to a language model and returns a translation, a polished rewrite or a summary. It covers dozens of languages, streams results as they arrive, can read them aloud, and can translate text captured from a screenshot. A vocabulary book collects words and can generate memory aids for them.
+NextAI Translator sends text to a large language model and gives you back a translation, a polished version or a summary, in any of 55 languages. Select text in another app and press a global shortcut, or type into the app's window. Results stream in as the model writes them, and you can copy them with one click or have them read aloud.
 
-You need your own API key for OpenAI, Azure OpenAI or a compatible provider. The same project offers browser extensions and PopClip integration; the desktop app for macOS, Windows and Linux is published as DMGs on GitHub releases.
+The developer renamed the project after a trademark warning from OpenAI. The author had first written a ChatGPT translation plugin for Bob, a macOS translation app, and started this project for people without a Mac. It began as a Chrome extension before the desktop app arrived.
+
+It can also translate text from a screenshot, and a vocabulary book keeps words you save and can generate memory aids for them. The latest release also carries an extension for PopClip, the macOS text-selection menu.
+
+NextAI Translator does no translation itself. You need an API key for OpenAI, Azure OpenAI, MiniMax, TeamoRouter or another supported provider, and your text is sent to that provider. The README recommends TeamoRouter, a gateway that reaches several model makers through one key.
+
+The desktop app is built with Tauri and also runs on Windows and Linux; Chrome and Firefox extensions are released from the same repository. The latest release offers a DMG for Apple silicon only. The README says macOS may refuse to open the app because the developer cannot be verified, and explains how to allow it in Privacy & Security.

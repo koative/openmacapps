@@ -14,13 +14,16 @@ download: https://github.com/betaflight/betaflight-configurator/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: '2026-11-08'
 icon: ./assets/icon.png
 sources:
   - https://github.com/betaflight/betaflight-configurator
   - https://github.com/betaflight/betaflight-configurator/blob/master/LICENSE
   - https://github.com/betaflight/betaflight-configurator/releases
   - https://app.betaflight.com
+  - https://raw.githubusercontent.com/betaflight/betaflight-configurator/master/README.md
+  - https://betaflight.com
+  - https://github.com/betaflight/betaflight-configurator/releases/tag/2026.6.2
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/betaflight/betaflight-configurator/master/src/images/bf_icon.icns
@@ -28,6 +31,12 @@ assets:
     license: "GPL-3.0 repository asset; Betaflight name and logo retained by the project"
 ---
 
-Betaflight App, formerly Betaflight Configurator, is the companion tool for the Betaflight flight-control firmware. It connects to a flight controller to set up and manage the craft, and the project lists quadcopters, hexacopters, octocopters and fixed-wing aircraft among the supported types.
+Betaflight App connects to a flight controller running the Betaflight firmware, so you can configure and manage a drone or fixed-wing aircraft from a computer. The README names quadcopters, hexacopters, octocopters and fixed-wing aircraft among the supported types. Until its rename it was Betaflight Configurator, and the repository still carries that name.
 
-The project's main distribution is now a progressive web app at app.betaflight.com, but it still publishes standalone builds: GitHub releases carry macOS disk images for Apple Silicon and Intel, alongside Windows, Linux and Android packages. The README explains how to get past macOS reporting the app as damaged on first launch.
+The project now publishes the app mainly as a progressive web app at app.betaflight.com. Standalone builds stay on GitHub releases for macOS, Windows, Linux and Android, and the Betaflight site announces an iPhone version in public beta. A snapshot of the unstable web version is open for testing, and the README warns that it can corrupt flight controller settings.
+
+The interface is translated into several languages. It picks the system language when a translation exists, and you can choose another on the first screen.
+
+Release 2026.6.2 has separate disk images for Apple silicon and Intel, and the Apple silicon one is not notarized. On first launch macOS may call the app damaged, and the README explains how to open it anyway.
+
+The firmware the app configures is used on racing and freestyle quads as well as filming, long-range, micro and wing builds.

@@ -1,6 +1,6 @@
 ---
 name: Knuff
-summary: Send test push notifications to Apple devices through APNs using certificates
+summary: Sends test push notifications to Apple devices through APNs using certificates
   from your keychain.
 category: Developer tools
 tags:
@@ -15,12 +15,17 @@ download: https://github.com/KnuffApp/Knuff/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: "2026-11-08"
+maintenance: "unmaintained"
+maintenanceNote: "No release since May 2020."
 icon: ./assets/icon.png
 sources:
 - https://github.com/KnuffApp/Knuff
 - https://github.com/KnuffApp/Knuff/blob/master/LICENSE
 - https://github.com/KnuffApp/Knuff/releases
+- https://raw.githubusercontent.com/KnuffApp/Knuff/master/README.markdown
+- https://github.com/KnuffApp/Knuff/releases/tag/v1.3
+- https://github.com/KnuffApp/Knuff-Framework
 assets:
 - path: ./assets/icon.png
   source: https://raw.githubusercontent.com/KnuffApp/Knuff/master/Knuff/Images.xcassets/AppIcon.appiconset/icon_256x256%402x.png
@@ -28,6 +33,13 @@ assets:
   license: MIT; upstream project asset, trademarks retained
 ---
 
-Knuff is a debugging tool for iOS and macOS developers who need to send a push notification without writing server code. It loads an APNs certificate from the keychain, detects the development or production environment, and sends a custom JSON payload to a device token; payloads can be saved as documents.
+Knuff sends a test push notification to an app on an Apple device through the Apple Push Notification service (APNs). Pick a certificate from your keychain, enter the device token, write a JSON payload and send it.
 
-The last release dates from 2020 and the project is no longer actively developed. It works with APNs certificates stored in the keychain.
+- It detects whether the certificate belongs to the development or the production environment.
+- Universal certificates work, and APNs error responses are shown.
+- A token and payload can be saved as a document and opened again later.
+- Command-E exports an identity to PEM format.
+
+Knuff talks to APNs over HTTP/2, and the 1.3 app declares macOS 10.12 as its minimum. Version 1.3, from May 2020, is the latest release, and no release or commit has followed it. It is Intel-only. The ZIP holds an app signed with Bowtie AB's Developer ID.
+
+Without help, getting the device token means logging it from your app and copying it over by hand. Add the Knuff-Framework to your iOS app and Knuff picks the token up on its own, which helps most outside sandbox mode. The developers also published an iOS companion app for getting started with APNs.

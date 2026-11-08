@@ -14,12 +14,14 @@ download: https://github.com/romankurnovskii/BrewMate/releases
 freeDownload: true
 featured: false
 added: '2026-10-17'
-verified: '2026-10-17'
+verified: '2026-11-08'
 icon: ./assets/icon.png
 sources:
   - https://github.com/romankurnovskii/BrewMate
   - https://github.com/romankurnovskii/BrewMate/blob/main/LICENSE.md
   - https://github.com/romankurnovskii/BrewMate/releases
+  - https://raw.githubusercontent.com/romankurnovskii/BrewMate/main/README.md
+  - https://github.com/romankurnovskii/BrewMate/releases/tag/1.0.41
 assets:
   - path: ./assets/icon.png
     source: https://raw.githubusercontent.com/romankurnovskii/BrewMate/main/build/icon.icns
@@ -27,6 +29,10 @@ assets:
     license: "MIT repository asset; trademarks retained"
 ---
 
-BrewMate puts a window in front of Homebrew for people who would rather not manage packages from the terminal. It searches formulae and casks, installs, upgrades and uninstalls them with visible logs, lists what is already installed, shows the most-downloaded packages, and can manage brew services. A curated list of extra third-party apps is included as well.
+BrewMate gives Homebrew a window, so you can search formulae and casks, install, upgrade and uninstall them, and read the log of each install or removal without typing `brew` commands. It also lists what is already installed, shows Homebrew's top downloads, and manages brew services.
 
-Homebrew itself must already be installed. The app is built with Electron and also runs on Linux; macOS releases on GitHub are universal DMG and zip builds, and the author maintains a Homebrew tap for installing it.
+Homebrew has to be installed first, because BrewMate drives it. Alongside Homebrew's own catalogue, the app lists third-party apps from the author's awesome-brew tap. Two items on the feature list are still open: adding other third-party taps, and handling apps that ask for a password during installation or removal.
+
+You can install it from the awesome-brew tap with `brew install --cask`, or download it from GitHub releases. The 1.0.41 Mac files are a DMG and a ZIP, both labelled universal, and BrewMate needs macOS 10.15 or later. The README tells you to open the app the first time with the Open command from its context menu, to get past the security warning.
+
+The app is built on Electron and also runs on Linux with Homebrew installed there. Homebrew on Linux is mainly about formulae: BrewMate shows casks where they exist, but many casks are macOS-only and will not install.

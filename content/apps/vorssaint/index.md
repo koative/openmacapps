@@ -6,20 +6,30 @@ tags: ["menu-bar", "window-management", "system-monitoring", "clipboard", "audio
 alternativeTo: ["cleanshot"]
 repository: "https://github.com/vorssaint/vorssaint-utils"
 website: "https://vorssaint.com"
-license: "GPL-3.0"
+license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/vorssaint/vorssaint-utils/blob/main/LICENSE"
 download: "https://github.com/vorssaint/vorssaint-utils/releases"
 freeDownload: true
 homebrew: "vorssaint"
 featured: false
 added: "2026-10-17"
-verified: "2026-10-17"
-sources: ["https://github.com/vorssaint/vorssaint-utils", "https://github.com/vorssaint/vorssaint-utils/blob/main/LICENSE", "https://github.com/vorssaint/vorssaint-utils/releases"]
+verified: "2026-11-08"
+sources: ["https://github.com/vorssaint/vorssaint-utils", "https://github.com/vorssaint/vorssaint-utils/blob/main/LICENSE", "https://github.com/vorssaint/vorssaint-utils/releases", "https://raw.githubusercontent.com/vorssaint/vorssaint-utils/main/README.md", "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.3"]
 icon: "./assets/icon.png"
 assets: [{"path": "./assets/icon.png", "source": "https://raw.githubusercontent.com/vorssaint/vorssaint-utils/main/Resources/Brand/AppIcon-Default.png", "credit": "Vorssaint contributors", "license": "GPL-3.0; upstream project asset, trademarks retained"}]
 screenshots: []
 ---
 
-Vorssaint gathers many small Mac utilities behind one menu bar icon: per-app volume and output routing, a system monitor with fan control, an app switcher, window snapping, Dock previews, clipboard history, text snippets, mouse and scrolling tweaks, and a file shelf, among others.
+Vorssaint puts a long list of small Mac utilities behind one menu bar icon, and you pick which ones to install. Start from a preset or choose features one by one. A removed feature stops loading and vanishes from the interface, and reinstalling it brings its settings back.
 
-Each feature can be installed or removed on its own, and setup asks only for the permissions the chosen features need. With this many components, it is worth enabling only what you will use rather than replacing several dedicated apps at once.
+- Sound: a per-app volume mixer that can push quiet apps past 100%, per-app output routing and a microphone mute shortcut.
+- System: CPU, GPU, memory, temperature and battery readings with history graphs, menu bar readouts and fan control, which is still in beta.
+- Windows: an app switcher with live previews, window snapping by shortcut or screen edge, and Dock previews across desktops.
+- Input: text snippets, smooth or linear scrolling, side-button support and a filter for accidental rapid clicks from a worn mouse.
+- Files and apps: clipboard history, a drag shelf for files and links, an uninstaller, a cache cleaner and a Homebrew manager.
+
+Setup asks only for the permissions your chosen features use. The permissions page shows which feature needs each one and flags any grant nothing uses anymore. The developer says there is no account, analytics or tracking, and that the network is used only for visible actions such as update checks, the speed test and share links.
+
+CleanShot X covers screenshots, annotation and screen recording as a standalone app. Vorssaint's capture module handles scrolling screenshots, text recognition, redaction and recordings with automatic zooms, next to everything else in the same panel.
+
+Vorssaint needs an Apple silicon Mac with macOS 14 Sonoma or later. The DMG holds an arm64-only app, signed with a Developer ID and notarized. The source is GPL 3.0 or later, while the name and icon are trademarks, so forks have to rebrand.
