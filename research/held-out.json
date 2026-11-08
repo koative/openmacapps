@@ -293,5 +293,15 @@
     "repository": "https://github.com/chatboxai/chatbox",
     "date": "2026-11-08",
     "reason": "The repository is a GPL Community Edition, but every official Mac download, including the GitHub release, is the commercial build sold under separate license terms."
+  },
+  {
+    "repository": "https://github.com/Orkas-AI/Orkas",
+    "date": "2026-11-08",
+    "reason": "The Mac downloads are the packaged app, which needs sign-in and adds cloud and publishing features the open-source build does not have."
+  },
+  {
+    "repository": "https://github.com/cshariq/Sapphire",
+    "date": "2026-11-08",
+    "reason": "The official download bundles a camera extension and audio driver that the public source replaces with placeholders, and the app checks for a paid subscription."
   }
 ]
