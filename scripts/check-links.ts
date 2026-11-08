@@ -15,6 +15,9 @@ function inspect(directory: string) {
     else if (/\.(?:html|xml)$|\/llms[\w-]*\.txt$/.test(file)) {
       if (file.endsWith('.html')) pages++;
       const html = fs.readFileSync(file, 'utf8');
+      // The catalog has no reviews or ratings, so structured data must not claim any.
+      if (/"aggregateRating"|"@type":\s*"(?:Review|Rating)"/.test(html))
+        errors.push(`${file}: rating or review markup`);
       for (const match of html.matchAll(
         /\b(href|src|srcset)=(?:"([^"]*)"|'([^']*)')|<loc>([^<]*)<\/loc>|\]\(([^)\s]+)\)/g,
       )) {
