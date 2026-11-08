@@ -1,6 +1,6 @@
 ---
 name: "LibreOffice"
-summary: "Create documents, spreadsheets, presentations, and drawings in an open desktop office suite."
+summary: "Creates documents, spreadsheets, presentations, and drawings in an open desktop office suite."
 category: "Productivity"
 tags: ["office", "documents", "spreadsheets"]
 alternativeTo: ["microsoft-office", "microsoft-word", "microsoft-excel", "microsoft-powerpoint"]

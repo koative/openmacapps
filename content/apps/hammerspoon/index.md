@@ -1,6 +1,6 @@
 ---
 name: Hammerspoon
-summary: Automate windows, shortcuts, and desktop behavior with Lua scripts.
+summary: Automates windows, shortcuts, and desktop behavior with Lua scripts.
 category: Productivity
 tags:
   - automation

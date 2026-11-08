@@ -1,6 +1,6 @@
 ---
 name: Hot
-summary: See CPU temperature and thermal pressure from the menu bar.
+summary: Shows CPU temperature and thermal pressure from the menu bar.
 category: Utilities
 tags:
   - menu-bar

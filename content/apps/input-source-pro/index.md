@@ -1,6 +1,6 @@
 ---
 name: Input Source Pro
-summary: Switch keyboard input sources automatically for different apps and websites.
+summary: Switches keyboard input sources automatically for different apps and websites.
 category: Utilities
 tags:
   - keyboard

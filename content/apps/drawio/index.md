@@ -1,6 +1,6 @@
 ---
 name: draw.io Desktop
-summary: Create flowcharts, architecture diagrams, and other visual documents in
+summary: Creates flowcharts, architecture diagrams, and other visual documents in
   an offline desktop editor.
 category: Design
 tags:

@@ -1,6 +1,6 @@
 ---
 name: Postgres.app
-summary: Run one or more PostgreSQL servers on your Mac from a self-contained app
+summary: Runs one or more PostgreSQL servers on your Mac from a self-contained app
   with a simple start and stop interface.
 category: Developer tools
 tags:

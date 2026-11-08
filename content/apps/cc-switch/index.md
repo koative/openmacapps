@@ -1,6 +1,6 @@
 ---
 name: "CC Switch"
-summary: "Switch API providers and manage MCP servers, skills, and prompts for Claude Code, Codex, Gemini CLI, and more."
+summary: "Switches API providers and manages MCP servers, skills and prompts for Claude Code, Codex, Gemini CLI and more."
 category: "AI"
 tags:
   - coding-agents

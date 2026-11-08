@@ -1,6 +1,6 @@
 ---
 name: "Bruno"
-summary: "Keep API collections in your project, alongside your code."
+summary: "Keeps API collections in your project, alongside your code."
 category: "Developer tools"
 tags: ["api", "local-first", "git", "api-client"]
 alternativeTo: ["postman"]

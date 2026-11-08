@@ -1,6 +1,6 @@
 ---
 name: FlowVision
-summary: Browse folders of images and videos in a waterfall-style grid, with mouse
+summary: Browses folders of images and videos in a waterfall-style grid, with mouse
   gestures for moving between folders.
 category: Media
 tags:

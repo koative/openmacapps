@@ -1,6 +1,6 @@
 ---
 name: "DrawPen"
-summary: "Draw, highlight and point on top of any app during presentations, tutorials and screen shares, with a blank whiteboard mode."
+summary: "Draws, highlights and points on top of any app during presentations and screen shares, with a whiteboard mode."
 category: "Productivity"
 tags:
   - annotation
@@ -18,13 +18,15 @@ homebrew: "drawpen"
 freeDownload: true
 featured: false
 added: "2026-11-02"
-verified: "2026-11-02"
+verified: "2026-11-08"
 icon: ./assets/icon.png
 sources:
   - https://github.com/DmytroVasin/DrawPen
   - https://github.com/DmytroVasin/DrawPen/blob/main/LICENSE
   - https://github.com/DmytroVasin/DrawPen/releases
   - https://drawpen.app
+  - https://github.com/DmytroVasin/DrawPen/blob/main/README.md
+  - https://github.com/DmytroVasin/DrawPen/releases/tag/v0.0.61
 assets:
   - path: ./assets/icon.png
     source: https://github.com/DmytroVasin/DrawPen/blob/main/assets/build/icon.icns
@@ -32,8 +34,13 @@ assets:
     license: "MIT; upstream project asset, trademarks retained"
 ---
 
-DrawPen puts a transparent drawing layer over whatever is on screen, so you can mark up slides, code or a live demo without switching apps. A global shortcut turns drawing on and off, and single keys pick the brush, a fading pen, arrows and shapes, text, a highlighter, a laser pointer or the eraser.
+DrawPen lays a transparent drawing layer over everything on screen, so you can mark up slides, code or a live demo without leaving the app you are showing. Command-Shift-A turns the layer on and off, and single keys choose the tool.
 
-Number keys cycle through colours and stroke widths, the toolbar can be hidden, and another shortcut opens a blank whiteboard for free-form sketches. Everything runs locally.
+- Brush, fading pen, shapes and arrows, text, highlighter, laser pointer and eraser each have a single-key shortcut.
+- Keys 7 and 8 cycle through colors and stroke widths, and the bracket keys change width and text size.
+- Command-E opens a blank whiteboard, and Command-K clears the screen.
+- Pointer Mode keeps a compact control on screen and switches back to drawing in one click.
 
-Apple silicon and Intel builds are published as disk images on GitHub. The version number is still below 1.0.
+Shortcuts, colors, stroke widths and the toolbar position can be changed in settings. Version 0.0.61 added a stamp shape, straight lines with Shift, and duplicate or cut for selected shapes. Drawings cannot be saved from the app. To keep one, take a screenshot with macOS.
+
+The app runs on macOS, Windows and Linux. Mac releases come as separate disk images and ZIPs for Apple silicon and Intel. The 0.0.61 Apple silicon app needs macOS 13 or later and is Developer ID-signed and notarized. The version number is still below 1.0.

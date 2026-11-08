@@ -1,6 +1,6 @@
 ---
 name: "Ollama"
-summary: "Run supported language models on your Mac with a desktop app and local API."
+summary: "Runs supported language models on your Mac with a desktop app and local API."
 category: "AI"
 tags: ["local-ai", "language-models", "chat"]
 alternativeTo: ["lm-studio"]

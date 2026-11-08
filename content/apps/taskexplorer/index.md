@@ -1,6 +1,6 @@
 ---
 name: TaskExplorer
-summary: Explore running processes, signatures, loaded libraries, and network connections.
+summary: "Shows running processes with their signatures, loaded libraries and network connections."
 category: Privacy & security
 tags:
   - processes

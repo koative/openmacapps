@@ -1,6 +1,6 @@
 ---
 name: KnockKnock
-summary: Inspect software configured to persist on your Mac.
+summary: Inspects software configured to persist on your Mac.
 category: Privacy & security
 tags:
   - security

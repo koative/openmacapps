@@ -7,13 +7,15 @@ export const writingStandardSince = '2026-11-08';
 export const minimumBodyWords = 120;
 
 const processLanguage =
-  /\b(?:this (?:entry|record|listing)|I checked|we checked|at review time|does not claim)\b/i;
+  /\b(?:this (?:entry|record|listing)|I checked|we checked|at review time|does not claim|(?:was|were|has not been|have not been|is not|are not) (?:not )?checked)\b/i;
 const audienceSlot = /\bIt (?:suits|is for) (?:people|users|anyone) who\b/;
 // Peacock words and stock frames that make catalog copy read as generated (docs/RESEARCH.md, Writing review).
 const bannedWords =
   /\b(?:seamless(?:ly)?|robust|powerful|leverag\w*|cutting-edge|effortless(?:ly)?|blazing(?:ly)?|ultimate|intuitive|delv(?:e|es|ed|ing)|elevat(?:e|es|ed|ing)|game-chang\w*|does the same (?:core )?job|not (?:just|only|merely)\b[^.]{0,60}\bbut)\b/i;
 const attribution =
   /\b(?:developer|project|README|documentation|download page|help center|website)\b[^.]{0,30}\b(?:says|states|lists|names|notes|describes)\b|\bper (?:its|the) \w+|\baccording to\b/gi;
+const imperativeOpeners =
+  /^(?:Add|Analy[sz]e|Automate|Back up|Browse|Build|Capture|Chat|Check|Clean|Compress|Control|Convert|Copy|Create|Debug|Design|Dictate|Discover|Download|Draw|Edit|Encrypt|Expand|Explore|Export|Find|Generate|Get|Hide|Import|Inspect|Keep|Learn|Limit|Listen|Look|Make|Manage|Map|Monitor|Mount|Move|Open|Organi[sz]e|Paste|Plan|Play|Preview|Read|Record|Remove|Rename|Resize|Rework|Run|Save|Scan|Schedule|Search|See|Send|Share|Show|Snap|Stream|Switch|Sync|Take|Test|Tile|Track|Transcribe|Transfer|Translate|Turn|Type|Use|View|Watch|Write)\b(?!-)/;
 export const countWords = (text: string) =>
   text.match(/[A-Za-z0-9][\w'’.-]*/g)?.length ?? 0;
 
@@ -44,12 +46,17 @@ export function writingProblems(
     problems.push(
       'do not open the summary with "native" or "menu bar app"; start with what the app does',
     );
+  // Summaries describe the app in the third person ("Shrinks …"), not as an instruction ("Shrink …").
+  if (imperativeOpeners.test(record.summary))
+    problems.push(
+      'write the summary in the third person ("Records …"), not as an instruction ("Record …")',
+    );
   const banned = body.match(bannedWords);
   if (banned)
     problems.push(`"${banned[0]}" is puffery or a stock frame; say it plainly`);
-  // An app's own name may contain "!" (osu!); punctuation in the prose may not.
+  // Product names may contain "!" (osu!, Fritz!Box); punctuation in the prose may not.
   if (
-    /—|!|\*\*/.test(
+    /—|!(?![A-Za-z])|\*\*/.test(
       body
         .replace(/`[^`]*`/g, '')
         .split(record.name)

@@ -1,6 +1,6 @@
 ---
 name: "Asset Catalog Tinkerer"
-summary: "Open compiled asset catalog (.car) files to browse the images inside, then copy or export them."
+summary: "Opens compiled asset catalog (.car) files so you can browse the images inside and copy or export them."
 category: "Developer tools"
 tags:
   - xcode

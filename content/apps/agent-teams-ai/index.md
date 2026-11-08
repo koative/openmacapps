@@ -1,6 +1,6 @@
 ---
 name: "Agent Teams AI"
-summary: "Run teams of AI coding agents on a kanban board, with agents messaging and reviewing each other."
+summary: "Runs teams of AI coding agents on a kanban board, where they message each other and review each other's work."
 category: "AI"
 tags: ["coding-agents", "kanban", "cross-platform"]
 repository: "https://github.com/777genius/agent-teams-ai"
@@ -11,13 +11,23 @@ download: "https://github.com/777genius/agent-teams-ai/releases"
 freeDownload: true
 featured: false
 added: "2026-10-17"
-verified: "2026-10-17"
-sources: ["https://github.com/777genius/agent-teams-ai", "https://github.com/777genius/agent-teams-ai/blob/main/LICENSE", "https://github.com/777genius/agent-teams-ai/releases"]
+verified: "2026-11-08"
+sources: ["https://github.com/777genius/agent-teams-ai", "https://github.com/777genius/agent-teams-ai/blob/main/LICENSE", "https://raw.githubusercontent.com/777genius/agent-teams-ai/main/README.md", "https://github.com/777genius/agent-teams-ai/releases", "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.6", "https://agentteams.live"]
 icon: "./assets/icon.png"
 assets: [{"path": "./assets/icon.png", "source": "https://raw.githubusercontent.com/777genius/agent-teams-ai/main/resources/icons/png/256x256.png", "credit": "777genius and Agent Teams AI contributors", "license": "AGPL-3.0; upstream project asset, trademarks retained"}]
 screenshots: []
 ---
 
-Agent Teams AI is a desktop workspace for coordinating several coding agents at once. You assign tasks on a kanban board; agents pick them up, message one another and review each other's output while you follow progress and step in on decisions.
+Agent Teams AI puts several coding agents to work on one project and shows their progress on a kanban board. You pick a project, define the roles and write a provisioning prompt; the agents then create tasks, work through them and review each other's results.
 
-It can drive Claude Code, Codex, OpenCode, Cursor and other agents or providers you connect, and offers a free model option without an account. The macOS download on GitHub releases is built for Apple silicon. Agents act on the selected project folder, so keep work under version control.
+- Agents send each other direct messages, comment on tasks and can talk across teams.
+- Tasks that change code get a diff view where you accept, reject or comment on each hunk.
+- You can let agents run on their own or approve supported tool actions one at a time.
+- Each teammate can work in the main checkout or in its own git worktree, chosen at launch.
+- Token use is broken down by team, agent, task and model, with optional monthly budgets.
+
+The app detects installed Claude Code, Codex and OpenCode runtimes. Cursor, GitHub Copilot, Kiro and other providers connect from the interface with subscriptions or API keys you already have. There is also a free model that needs no sign-up or key.
+
+The developer says the app does not upload your code to its own servers. The agent runtimes you launch still talk to their own providers.
+
+Releases include separate macOS disk images for Apple silicon and Intel, each close to 400 MB. Pull requests are accepted under a contributor agreement that lets the owner also license that code commercially; the public code stays under the AGPL.

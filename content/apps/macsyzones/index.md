@@ -1,6 +1,6 @@
 ---
 name: MacsyZones
-summary: Design custom zone layouts and snap windows into them by dragging, modelled on PowerToys FancyZones.
+summary: "Snaps windows into custom zone layouts you design, by dragging; modelled on PowerToys FancyZones."
 category: Utilities
 tags:
 - window-management

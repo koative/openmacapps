@@ -1,6 +1,6 @@
 ---
 name: "OpenInTerminal"
-summary: "Open the current Finder folder or file in your terminal or editor from the toolbar, menu bar or a shortcut."
+summary: "Opens the current Finder folder or file in your terminal or editor from the toolbar, menu bar or a shortcut."
 category: "Developer tools"
 tags:
   - finder

@@ -1,6 +1,6 @@
 ---
 name: "Mockoon"
-summary: "Design and run mock REST APIs locally, with templating, proxying and request logs, without an account."
+summary: "Designs and runs mock REST APIs locally, with templating, proxying and request logs, without an account."
 category: "Developer tools"
 tags:
   - api
