@@ -1,55 +1,38 @@
-# OpenMacApps
+<p align="center">
+  <a href="https://openmacapps.com/"><img src="public/brand/app-icon-256.png" width="112" height="112" alt="OpenMacApps"></a>
+</p>
 
-**Good software. Open by nature.** A considered collection of open-source macOS apps and clearly labeled source-available alternatives, maintained by [koative](https://github.com/koative).
+<h1 align="center">OpenMacApps</h1>
 
-[Explore the catalog](https://openmacapps.com/) · [Contribute an app](CONTRIBUTING.md) · [Research & inclusion policy](docs/RESEARCH.md)
+<p align="center">
+  Open-source Mac apps, each with its source, license and official download in one place.
+</p>
 
-![OpenMacApps' Discover page: a sidebar store layout, spotlight cards with real app screenshots, and shelves of apps with Get buttons](docs/preview.png)
+<p align="center">
+  <a href="https://openmacapps.com/"><b>Browse the catalog</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://openmacapps.com/how-we-verify/">How we verify</a>
+  &nbsp;·&nbsp;
+  <a href="CONTRIBUTING.md">Add an app</a>
+</p>
 
-OpenMacApps is an app-store-style catalog of open-source Mac software. Browse Discover shelves, collections, and categories, search the whole catalog, and open a product page that puts the source code, license, and official download side by side. Light and dark appearance follow your system. Every entry is a small, reviewable folder, and the website and the category lists below come from the same Markdown source.
+<p align="center">
+  <a href="https://openmacapps.com/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="docs/preview-dark.webp">
+      <img src="docs/preview.webp" width="900" alt="The OpenMacApps Discover page: a Mac-style sidebar, Spotlight cards over real app screenshots and a Recently Added shelf with Get buttons">
+    </picture>
+  </a>
+</p>
 
-## One app, one folder
+## What you get
 
-```text
-content/apps/
-  rectangle/
-    index.md              # Metadata + original Markdown description
-    assets/
-      icon.png            # Official image with recorded provenance
-      screenshot.png
-```
+- **The license from the file, not a guess.** GitHub's license detector reports `NOASSERTION` for Rectangle, Sequel Ace, CotEditor and HandBrake; their license files say MIT, MIT, Apache-2.0 and GPL-2.0. Each listing links the file it was read from and the date it was checked.
+- **Source available, labelled.** Apps whose code comes with extra restrictions (Commons Clause, FSL, CC BY-NC and similar) carry a separate label, explained on their page and easy to filter out. They are never counted as open source.
+- **Official downloads only.** The Get button goes to the project's own release page or website. A Homebrew command is shown only when the cask installs from that same source. Nothing is mirrored or repackaged.
+- **Status you can see.** When a project stops (no release or meaningful commit for about two years, or its README says so), the app carries an Unmaintained label instead of disappearing.
 
-YAML frontmatter describes the app: name, summary, category, tags, the proprietary products it replaces, repository, official website, download page, optional Homebrew cask, source classification, reviewed license, license evidence, verification date, and asset attribution. The Markdown body explains what it does. Screenshots are optional; invented screenshots and unverified compatibility claims are not accepted. Alternatives pages (`content/alternatives/`) and topic pages (`content/topics/`) list apps by those fields and tags, so a new folder appears on them automatically.
-
-This structure keeps assets beside the app, makes pull requests understandable, and avoids one giant JSON file becoming a merge-conflict bottleneck. Generated output is never the editing surface.
-
-## Development
-
-Requires Bun 1.4.3+. Bun installs dependencies, runs TypeScript, executes tests, and runs Astro in development and CI. The static site is served by GitHub Pages.
-
-```sh
-bun install --frozen-lockfile
-bun run dev
-bun run validate
-bun run check
-bun test
-bun run build
-bun run check:links
-```
-
-Open the address printed by the dev server (normally `http://localhost:4321/`). `bun run sync` copies catalog assets for the site and refreshes the generated category lists in [`catalog/`](catalog/). CI checks the data, TypeScript, tests, and production build. Changes pushed to `main` deploy to GitHub Pages.
-
-The [discovery queue](research/README.md) tracks repository leads from eleven directories. Refresh it with `bun run discover`; only independently reviewed app folders enter the store. `bun run homebrew` records Homebrew casks whose download or homepage is the app's own repository or website; see [CONTRIBUTING.md](CONTRIBUTING.md#local-workflow) for the matching rules.
-
-See [how the catalog is maintained](docs/ARCHITECTURE.md) for the data model and editing flow, and [publishing and SEO](docs/PUBLISHING.md) for the shared site configuration, social card, custom domain setup, and sitemap submission.
-
-## Catalog principles
-
-- **Licenses are explicit.** Paid open-source distributions can qualify. Apps with published source and additional restrictions are separately labeled **Source available**, explained on their detail pages, and filterable. Closed-source freeware is excluded.
-- **Evidence travels with every entry.** Source repository, license file, official download, and a dated verification record are required.
-- **Original projects get the credit.** Logos, screenshots, and trademarks belong to their respective owners; each included asset records its source and applicable rights.
-- **A directory is a lead, not proof.** We research multiple lists and verify individual projects. See the [research notes](docs/RESEARCH.md).
-- **No installer mirror.** Download links lead to official sources. Inclusion is not a security audit or an endorsement by Apple or the app authors.
+Inclusion is not a security audit or an endorsement. The [research notes](docs/RESEARCH.md) list every source and every app left out, with the reason.
 
 ## Browse the collection
 
@@ -73,14 +56,42 @@ See [how the catalog is maintained](docs/ARCHITECTURE.md) for the data model and
 
 <!-- catalog:end -->
 
-## Contributing
+## Add or fix an app
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete entry format, image policy, and checks. Small improvements to descriptions, broken links, screenshots, and license evidence are welcome.
+Every app is one folder in [`content/apps`](content/apps). [Suggest an app](https://github.com/koative/openmacapps/issues/new?template=app.yml), [report a listing problem](https://github.com/koative/openmacapps/issues/new?template=listing-problem.yml), or open a pull request. [CONTRIBUTING.md](CONTRIBUTING.md) has the format, the image policy and the checks. Corrections from an app's maintainers are applied first.
+
+## How it works
+
+```text
+content/apps/rectangle/
+  index.md          # metadata and the description
+  assets/
+    icon.png        # official icon, with its source recorded
+    screenshot.png
+```
+
+The YAML frontmatter holds the facts: category, tags, the products an app replaces, repository, website, download, Homebrew cask, license and license evidence, verification date and image credits. Astro builds the site from these folders; a Bun script validates them and generates the category lists above. Alternatives and topic pages pick up new apps through their fields and tags.
+
+### Development
+
+Requires [Bun](https://bun.sh) 1.4.3 or later.
+
+```sh
+bun install --frozen-lockfile
+bun run dev          # local site at http://localhost:4321/
+bun run validate     # check every app record
+bun run check        # TypeScript and Astro
+bun test
+bun run build
+bun run check:links
+```
+
+`bun run sync` copies catalog assets and refreshes the generated lists; commit them with your change. CI runs the same checks, and every merge to `main` deploys to GitHub Pages. The discovery queue and the Homebrew matcher are described in [CONTRIBUTING.md](CONTRIBUTING.md#local-workflow); the data model in [ARCHITECTURE.md](docs/ARCHITECTURE.md), site setup in [PUBLISHING.md](docs/PUBLISHING.md) and project decisions in [DECISIONS.md](docs/DECISIONS.md).
 
 ## Credits and licensing
 
-Built with [Astro](https://astro.build/) and [Lucide](https://lucide.dev/). Text uses each visitor's system fonts; the bundled icon license is preserved in [third-party notices](public/third-party-notices.txt). Discovery sources include [mac-apps](https://github.com/jeffreyjackson/mac-apps), [open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps), and [awesome-mac](https://github.com/jaywcjlove/awesome-mac); the full comparison is in [our research](docs/RESEARCH.md).
+Discovery sources include [mac-apps](https://github.com/jeffreyjackson/mac-apps), [open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) and [awesome-mac](https://github.com/jaywcjlove/awesome-mac); the full comparison is in the [research notes](docs/RESEARCH.md). Built with [Astro](https://astro.build/) and [Lucide](https://lucide.dev/) ([third-party notices](public/third-party-notices.txt)).
 
-OpenMacApps' original code and text are MIT licensed ([LICENSE](LICENSE)). Third-party app icons, screenshots, fonts, and other assets retain their upstream licenses and ownership; each app's asset metadata is in [content/apps](content/apps). App names and trademarks belong to their respective owners. App code licenses are listed for discovery and do not automatically license every visual asset. Mac and macOS are trademarks of Apple Inc.; OpenMacApps is not affiliated with Apple.
+The code and text of OpenMacApps are MIT licensed ([LICENSE](LICENSE)). App icons, screenshots and names belong to their owners; each app records the source and terms of its images in [`content/apps`](content/apps), and an app's code license does not automatically cover its artwork. Mac and macOS are trademarks of Apple Inc.; OpenMacApps is not affiliated with Apple.
 
-Made by [koative](https://koative.com)
+<p align="center">Made by <a href="https://koative.com">koative</a></p>
