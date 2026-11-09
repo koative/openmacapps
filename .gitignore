@@ -17,5 +17,5 @@ PRODUCT.md
 .playwright-cli/
 artifacts/
 
-# Licensed keyword research exports (Semrush); keep local, never commit
+# Licensed keyword research exports; keep local, never commit
 research/semrush/

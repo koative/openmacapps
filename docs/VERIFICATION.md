@@ -215,11 +215,11 @@ The build takes about 10 s. `bun run check:links` passes (86,533 links).
 
 ## Search-data pass: verified "free" wording and Windows-only products — 2026-10-29
 
-**Why.** Semrush US data (kept locally in the ignored `research/semrush/`) showed that "free" searches far outnumber "open source" ones: 7,620 against 610 for Lightroom alternatives, and 37,340 against 1,010 for Photoshop. It also showed high demand for Windows-only tools on the Mac, such as "notepad++ for mac" (3,600) and "rufus mac" (1,300).
+**Why.** US search-volume data (licensed, kept out of Git) showed that "free" searches far outnumber "open source" ones: 7,620 against 610 for Lightroom alternatives, and 37,340 against 1,010 for Photoshop. It also showed high demand for Windows-only tools on the Mac, such as "notepad++ for mac" (3,600) and "rufus mac" (1,300).
 
 **Free downloads.** Every app record now has `freeDownload`, set from evidence: 869 are free and 9 paid.
 - **GitHub release assets (694 apps):** a script found a macOS installer in each app's official GitHub releases.
-- **Agents (184 apps):** checked each official download page or App Store listing.
+- **Official pages (184 apps):** each official download page or App Store listing was checked.
 - **Paid:** Ardour, Fritzing, Automute, AI Dictation, Mac Mouse Fix, Pi Stats, QCAD, Textual and Zettel. Paid binaries, paid store-only builds and trials that must be bought all count as paid.
 - **Wording:** product pages say "Free download" or "Paid download". 130 of 154 guide pages qualify for "Free, open-source" in their titles, because every app they list is free.
 
