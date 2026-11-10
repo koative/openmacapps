@@ -38,7 +38,7 @@ Inclusion is not a security audit or an endorsement. The [research notes](docs/R
 
 <!-- catalog:start -->
 
-1,893 macOS apps: **1,861 open source** and **32 source available**. Source-available apps have additional restrictions and are labeled separately. Each category's list is generated from [content/apps](content/apps); edit the app folders to contribute.
+1,894 macOS apps: **1,862 open source** and **32 source available**. Source-available apps have additional restrictions and are labeled separately. Each category's list is generated from [content/apps](content/apps); edit the app folders to contribute.
 
 | Category | Apps |
 | --- | ---: |
@@ -52,7 +52,7 @@ Inclusion is not a security audit or an endorsement. The [research notes](docs/R
 | [Internet](catalog/internet.md) | 99 |
 | [Education](catalog/education.md) | 29 |
 | [Games](catalog/games.md) | 49 |
-| [AI](catalog/ai.md) | 179 |
+| [AI](catalog/ai.md) | 180 |
 
 <!-- catalog:end -->
 
