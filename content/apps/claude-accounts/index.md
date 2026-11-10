@@ -4,7 +4,6 @@ summary: "Switches the Claude desktop app between saved accounts from the menu b
 category: "AI"
 tags:
   - account-switcher
-  - claude-code
   - sync
   - backup
   - menu-bar
