@@ -1,6 +1,6 @@
 ---
 name: "LumaView"
-summary: "Minimal native image viewer for macOS that steps through a folder's images and PDFs; a universal Intel and Apple silicon build."
+summary: "Lightweight macOS image viewer for browsing folders, with separate Intel and Apple silicon downloads."
 category: "Media"
 tags:
   - images
@@ -31,4 +31,4 @@ assets:
 
 LumaView opens an image or PDF and lets you move through the other files in its folder with the arrow keys. It offers fit, zoom, pan, rotate and print, an information panel with file facts and the EXIF data embedded in the current image, and page-by-page PDF reading. It opens common formats such as JPEG, HEIC, WebP, many camera RAW files and Sketch previews, and it can be set as the default viewer. It suits people who mostly look at photos and documents and want a small, quick viewer rather than an editor.
 
-Requires macOS 12 Monterey or later, on Intel or Apple silicon; the DMG is a universal build. The README describes first-launch steps for when macOS blocks the app, using Open Anyway in Privacy & Security, and the project's release guide says its preview DMGs are not Apple-notarized.
+Requires macOS 12 Monterey or later. Separate DMGs are available for Intel and Apple silicon, each about 2 MB. The README describes first-launch steps for when macOS blocks the app, using Open Anyway in Privacy & Security, and the project's release guide says its preview DMGs are not Apple-notarized.
