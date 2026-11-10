@@ -20,6 +20,12 @@ sources:
   - "https://github.com/jomonkj/claude-accounts"
   - "https://github.com/jomonkj/claude-accounts/blob/main/LICENSE"
   - "https://github.com/jomonkj/claude-accounts/releases"
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/jomonkj/claude-accounts/releases/download/v1.1.2/Claude-Accounts-v1.1.2.zip
+    credit: Claude Accounts contributors
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Claude Accounts moves the Claude desktop app from one signed-in account to another when you click a name in its menu bar panel. You sign in to each account once inside Claude, and the app keeps a copy of that login. A switch quits Claude, saves the current login, loads the chosen one, reopens Claude and checks that the new login works.
