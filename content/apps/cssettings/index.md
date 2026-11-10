@@ -36,4 +36,4 @@ Each apply is preceded by an automatic backup, and any earlier state can be rest
 
 The app can also switch the bottle between Community Shaders and ENB. Each system has its own set of files, and the switch makes a checked backup before it changes anything, so you can go back.
 
-It is the smallest tool of the Skyrim Mac Toolkit and assumes the bottle is already set up. The interface follows your Mac's language among English, French, Spanish and Italian. The app is built with Python and Qt, and the first release, 1.0.0, is an arm64 build for Apple silicon, signed with a Developer ID and notarized.
+It is the smallest tool of the Skyrim Mac Toolkit and assumes the bottle is already set up. The interface follows your Mac's language among English, French, Spanish and Italian. The app is built with Python and Qt and ships as an arm64 build for Apple silicon, signed with a Developer ID and notarized. It checks GitHub for new releases once a day and can install them on its own when you allow it in Settings.
