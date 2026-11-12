@@ -38,16 +38,16 @@ Inclusion is not a security audit or an endorsement. The [research notes](docs/R
 
 <!-- catalog:start -->
 
-1,895 macOS apps: **1,863 open source** and **32 source available**. Source-available apps have additional restrictions and are labeled separately. Each category's list is generated from [content/apps](content/apps); edit the app folders to contribute.
+1,897 macOS apps: **1,865 open source** and **32 source available**. Source-available apps have additional restrictions and are labeled separately. Each category's list is generated from [content/apps](content/apps); edit the app folders to contribute.
 
 | Category | Apps |
 | --- | ---: |
 | [Productivity](catalog/productivity.md) | 291 |
-| [Developer tools](catalog/developer-tools.md) | 330 |
+| [Developer tools](catalog/developer-tools.md) | 331 |
 | [Utilities](catalog/utilities.md) | 577 |
 | [Media](catalog/media.md) | 162 |
 | [Privacy & security](catalog/privacy-security.md) | 63 |
-| [Writing](catalog/writing.md) | 53 |
+| [Writing](catalog/writing.md) | 54 |
 | [Design](catalog/design.md) | 62 |
 | [Internet](catalog/internet.md) | 99 |
 | [Education](catalog/education.md) | 29 |
