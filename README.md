@@ -47,7 +47,7 @@ Inclusion is not a security audit or an endorsement. The [research notes](docs/R
 | [Utilities](catalog/utilities.md) | 576 |
 | [Media](catalog/media.md) | 162 |
 | [Privacy & security](catalog/privacy-security.md) | 63 |
-| [Writing](catalog/writing.md) | 53 |
+| [Writing](catalog/writing.md) | 54 |
 | [Design](catalog/design.md) | 62 |
 | [Internet](catalog/internet.md) | 99 |
 | [Education](catalog/education.md) | 29 |
