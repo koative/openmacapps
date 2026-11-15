@@ -141,6 +141,8 @@ The site is served at the root of `https://openmacapps.com/`. Keep internal link
 
 ## Pull requests
 
-Describe the change and include direct evidence for the source license, macOS downloads, and image reuse. Keep unrelated fixes separate. CI checks data integrity, that the README and category lists are current, meaningful loader tests, Astro types, and the production build. Merges to `main` publish through GitHub Pages.
+Describe the change and include direct evidence for the source license, macOS downloads, and image reuse. Keep unrelated fixes separate.
+
+Titles follow a plain form of [Conventional Commits](https://www.conventionalcommits.org/): `type(scope): what it does`, in English and the imperative, at most 72 characters. Use `content` for catalog data (`content: add example app`, `content(example-app): correct the license link`), `fix` for bugs, `feat` for site features, `docs` for documentation and `ci` or `chore` for tooling. This is preferred, not required: maintainers squash-merge and adjust the title when needed. CI checks data integrity, that the README and category lists are current, meaningful loader tests, Astro types, and the production build. Merges to `main` publish through GitHub Pages.
 
 For an app suggestion without code, use the app suggestion issue form. For a broken link, incorrect license, outdated screenshot, moved repository or removal request, use the listing problem issue form with the affected app and evidence.

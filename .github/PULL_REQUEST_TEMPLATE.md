@@ -1,3 +1,5 @@
+<!-- Title: type(scope): what it does, e.g. "content: add example app" or "fix: broken download link". See CONTRIBUTING.md → Pull requests. -->
+
 ## Change
 
 Describe the app addition, correction, or site improvement.
