@@ -13,10 +13,18 @@ featured: false
 added: "2026-11-15"
 verified: "2026-11-15"
 sources: ["https://github.com/shadowDragons/vsux", "https://github.com/shadowDragons/vsux/blob/main/LICENSE", "https://github.com/shadowDragons/vsux/releases/tag/v0.1.2", "https://vsux.sphrag.com/en/"]
+assets:
+  - path: ./assets/icon.png
+    source: https://github.com/shadowDragons/vsux/blob/main/Resources/AppIcon.icns
+    credit: shadowDragons
+    license: MIT; upstream app icon, trademarks retained
+icon: ./assets/icon.png
 ---
 
 Open vsux when several coding projects need to stay visible in one Mac window. Choose a project workspace, open terminals in tabs or split panes, and keep the file tree, editor, Git changes, saved commands and background services beside them. Layouts, working directories and appearance settings are saved locally, so reopening the app restores the workspace arrangement and starts new shells.
 
-Markdown files can be edited beside a live preview. Git views show changed files, staged content and diffs. A command palette opens common actions, while the terminal runs the shell and tools already installed on your Mac. vsux does not include an AI agent or MCP server, so you keep using the coding tools you already use.
+Markdown files can be edited beside a live preview. Git views show changed files, staged content and diffs. A command palette opens common actions. The terminal is built on Ghostty's engine and runs the shell and tools already installed on your Mac. vsux does not include an AI agent or MCP server, so you keep using the coding tools you already use.
 
-The current v0.1.2 download targets Apple silicon Macs running macOS 14 or later. The DMG is ad-hoc signed and not notarized by Apple; verify the published SHA-256 checksum before opening it. Source code is MIT licensed, and the repository includes build instructions for creating the app from source.
+Quick Tunnel shares a local HTTP service through a temporary Cloudflare link. It needs `cloudflared` installed separately and asks for confirmation first, because anyone with the link can reach the service.
+
+Version 0.1.2 is published as a pre-release for Apple silicon Macs running macOS 14 or later, with English and Simplified Chinese interfaces. The DMG is ad-hoc signed and not notarized, so the first launch has to be allowed in System Settings under Privacy & Security. A SHA-256 checksum is published next to it.
