@@ -11,6 +11,7 @@ website: "https://forge.mograph.life/apps/sidebarfavorites/"
 license: "MIT"
 licenseUrl: "https://github.com/ivg-design/SidebarFavorites/blob/main/LICENSE"
 download: "https://github.com/ivg-design/SidebarFavorites/releases/latest"
+homebrew: "sidebarfavorites-manager"
 freeDownload: true
 featured: false
 added: "2026-11-06"
