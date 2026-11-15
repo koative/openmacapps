@@ -1,18 +1,19 @@
 ---
 name: "Tape"
-summary: "Displays real-time stock and cryptocurrency tickers in the macOS menu bar with sparkline trend charts."
+summary: "Shows your stocks, ETFs, indices and crypto in the empty corner beside the Dock, each name in its logo's colour."
 category: "Utilities"
 tags:
-  - menu-bar
   - finance
   - stocks
   - crypto
-  - trading
+  - dock
+  - ticker
 repository: "https://github.com/Yvsleyen00941/Tape"
-website: "https://yorben.me/tape"
+website: "https://yorben.me/tape/"
 license: "MIT"
 licenseUrl: "https://github.com/Yvsleyen00941/Tape/blob/main/LICENSE"
-download: "https://github.com/Yvsleyen00941/Tape/releases/download/v1.0.0/Tape-macOS-v1.0.0.zip"
+download: "https://github.com/Yvsleyen00941/Tape/releases/latest"
+homebrew: "yvsleyen00941/tap/tape"
 freeDownload: true
 featured: false
 added: "2026-11-15"
@@ -22,16 +23,26 @@ sources:
   - "https://github.com/Yvsleyen00941/Tape"
   - "https://github.com/Yvsleyen00941/Tape/blob/main/LICENSE"
   - "https://github.com/Yvsleyen00941/Tape/releases"
-  - "https://yorben.me/tape"
+  - "https://yorben.me/tape/"
+  - "https://github.com/Yvsleyen00941/homebrew-tap/blob/main/Casks/tape.rb"
 assets:
-  - path: "./assets/icon.png"
-    source: "https://raw.githubusercontent.com/Yvsleyen00941/Tape/main/icon.png"
-    credit: "Yorben Vander Sleyen"
-    license: "MIT; upstream app icon, trademarks retained"
+  - path: ./assets/icon.png
+    source: https://github.com/Yvsleyen00941/Tape/blob/main/icon.png
+    credit: Yorben Vander Sleyen
+    license: MIT; upstream app icon, trademarks retained
 ---
 
-Tape places financial market tickers into the macOS menu bar. It tracks equities, commodities, major market indices, foreign exchange pairs, and digital currencies. Users build personalized watchlists with custom symbols.
+Tape shows your stocks, ETFs, indices and crypto in the empty corner beside the Dock. Each name is drawn in its logo's colour with the price and the day's move in mint or coral, and there is no bar or background behind them. Hover to stop the tape, or click a listing for a card with the logo, the full price and the move.
 
-Clicking any symbol in the menu bar opens a popover window displaying historical sparkline price graphs, percentage shifts, trading volumes, intraday highs, lows, and currency conversions. The update interval is adjustable. Traders can configure desktop alerts when a selected asset crosses a specific price ceiling or floor. The application can launch automatically at system login to keep ticker information visible throughout the trading day.
+Six designs change the whole look and switch live from the menu:
 
-The release archive ships as a native application for macOS 14 Sonoma and later releases. It is ad-hoc signed and operates entirely without account signups, subscriptions, telemetry, or remote dependencies.
+- Liquid, a rail of glass capsules beside the Dock
+- LED, a dot-matrix face on smoked black
+- Paper, printed ticker tape with serif names
+- Aura, Focus and Classic, from floating type to one large listing at a time
+
+Tape follows the Dock as it grows, hides or moves to a side, and stays off full-screen apps. With Accessibility access it reads the Dock's exact frame; without it, it works the Dock out from the Dock's own preferences.
+
+Quotes come from Yahoo Finance's unofficial endpoints, so prices can be up to 15 minutes late and the source can change. Brand colours for names outside its own table come from Parqet and Financial Modeling Prep logos.
+
+It needs macOS 26 or later on Apple silicon or Intel. The build is signed with a Developer ID but not notarized, so the first launch has to be allowed in System Settings under Privacy & Security. It also installs from the developer's Homebrew tap.
