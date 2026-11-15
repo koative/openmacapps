@@ -1,18 +1,18 @@
 ---
 name: "Needle"
-summary: "Anchors live track playback and album artwork beside the macOS Dock for Spotify and Apple Music."
+summary: "Shows the playing track's cover and title in the empty corner beside the Dock, for any app in Now Playing."
 category: "Media"
 tags:
   - music
-  - audio
-  - dock
   - now-playing
-  - media
+  - dock
+  - media-controls
 repository: "https://github.com/Yvsleyen00941/Needle"
-website: "https://yorben.me/needle"
+website: "https://yorben.me/needle/"
 license: "MIT"
 licenseUrl: "https://github.com/Yvsleyen00941/Needle/blob/main/LICENSE"
-download: "https://github.com/Yvsleyen00941/Needle/releases/download/v1.0.0/Needle-macOS-v1.0.0.zip"
+download: "https://github.com/Yvsleyen00941/Needle/releases/latest"
+homebrew: "yvsleyen00941/tap/needle"
 freeDownload: true
 featured: false
 added: "2026-11-15"
@@ -22,16 +22,21 @@ sources:
   - "https://github.com/Yvsleyen00941/Needle"
   - "https://github.com/Yvsleyen00941/Needle/blob/main/LICENSE"
   - "https://github.com/Yvsleyen00941/Needle/releases"
-  - "https://yorben.me/needle"
+  - "https://yorben.me/needle/"
+  - "https://github.com/Yvsleyen00941/homebrew-tap/blob/main/Casks/needle.rb"
 assets:
-  - path: "./assets/icon.png"
-    source: "https://raw.githubusercontent.com/Yvsleyen00941/Needle/main/brand/icon.png"
-    credit: "Yorben Vander Sleyen"
-    license: "MIT; upstream app icon, trademarks retained"
+  - path: ./assets/icon.png
+    source: https://github.com/Yvsleyen00941/Needle/blob/main/brand/icon.png
+    credit: Yorben Vander Sleyen
+    license: MIT; upstream app icon, trademarks retained
 ---
 
-Needle anchors music playback metadata directly beside the macOS Dock. The companion reads track information from Spotify and Apple Music.
+Needle puts what's playing in the empty corner beside the Dock: the album cover, the title in the cover's own colour and the artist underneath, with no bar or background. It works with anything that shows up in Control Center's Now Playing, including Music, Spotify, Podcasts and browsers.
 
-Hovering over the docked window reveals full media controls for scrubbing through song positions, pausing audio streams, skipping forward, and switching between active desktop applications without interruption. Artwork expands on hover. The floating pill tucks neatly against the screen edge. Its visual presentation switches between light and dark appearances according to macOS preferences. Local AppleScript queries retrieve song metadata without transmitting private listening history to external network servers.
+Click the cover to play or pause. Click the title for a larger card with the full title and album, a line you drag to move through the track, previous and next, and a button that opens the playing app. Two fingers or the scroll wheel over the corner skip tracks, and a right-click opens the same menu as the menu bar icon.
 
-The release package ships for macOS 14 Sonoma and later. Initial launch requests automation privileges to query player state from Spotify and Music. The app operates completely offline without tracking, third-party analytics, or background telemetry.
+The layout shrinks with the space the Dock leaves, from cover, title and a small track clock on a wide screen to the cover alone beside a long Dock on a laptop. When the music pauses the corner dims, and after five minutes of quiet it clears.
+
+Since macOS 15.4 the Now Playing service answers only Apple's own programs, so Needle loads a small helper library into the system's perl to read it. The developer says Needle makes no network requests. It shares its placement and design with Tape, the same developer's stock ticker, which sits on the other side of the Dock by default.
+
+It needs macOS 26 or later on Apple silicon or Intel. The build is signed with a Developer ID but not notarized, so the first launch needs Open Anyway in System Settings under Privacy & Security.
