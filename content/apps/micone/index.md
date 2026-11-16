@@ -23,11 +23,20 @@ sources:
   - https://github.com/starbudweiser/MiCONE/releases
   - https://raw.githubusercontent.com/starbudweiser/MiCONE/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/MiCONE/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/MiCONE/releases/download/v2.0.0/MiCONE-2.0.0.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The main window turning a sample star image into a dark macOS 27 icon, with the live preview and actual sizes."
+    source: https://github.com/starbudweiser/MiCONE/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 
 MiCONE converts an image into a macOS icon set. You drop a PNG or another image, choose between an app icon in the rounded square shape or a Finder-style folder icon with an engraved motif, and export an `.icns` file.

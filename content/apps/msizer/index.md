@@ -24,11 +24,20 @@ sources:
   - https://github.com/starbudweiser/mSIZER/releases
   - https://raw.githubusercontent.com/starbudweiser/mSIZER/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mSIZER/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mSIZER/releases/download/v1.2.0/mSIZER-1.2.0.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The main window with six sample photos in the list, a live preview and the resize panel."
+    source: https://github.com/starbudweiser/mSIZER/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 
 mSIZER processes a batch of photos in one pass. Drop photos or folders on the window, pick what to change, and the selected photo shows a live before and after preview.

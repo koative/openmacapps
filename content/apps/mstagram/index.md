@@ -23,11 +23,20 @@ sources:
   - https://github.com/starbudweiser/mSTAGRAM/releases
   - https://raw.githubusercontent.com/starbudweiser/mSTAGRAM/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mSTAGRAM/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mSTAGRAM/releases/download/v1.1.0/mSTAGRAM-1.1.0-macOS.zip
     credit: mSTAGRAM contributors
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The mSTAGRAM iPhone-style window showing a neutral web page in dark mode."
+    source: https://github.com/starbudweiser/mSTAGRAM/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 mSTAGRAM opens instagram.com on your Mac in its phone layout, inside a window drawn as a recent iPhone with its frame, Dynamic Island and status bar. The app presents itself to the site as an iPhone, so the mobile pages are served.
 

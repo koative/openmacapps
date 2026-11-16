@@ -23,11 +23,20 @@ sources:
   - https://github.com/starbudweiser/mPDF/releases
   - https://raw.githubusercontent.com/starbudweiser/mPDF/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mPDF/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mPDF/releases/download/v1.1.9/mPDF-1.1.9-macOS.zip
     credit: mPDF contributors
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "A filled-in event registration form in mPDF, with a highlighted date, a text note, an arrow and a rectangle annotation."
+    source: https://github.com/starbudweiser/mPDF/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 mPDF opens a PDF in a window that takes the shape of the page, so the page fills it from edge to edge. The toolbar stays out of the way. It slides down from the top when you move the pointer there.
 

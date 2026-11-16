@@ -26,11 +26,20 @@ sources:
   - https://github.com/starbudweiser/hdCLEANER/releases
   - https://raw.githubusercontent.com/starbudweiser/hdCLEANER/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/hdCLEANER/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/hdCLEANER/releases/download/v1.4.0/hdCLEANER-1.4.0.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The hdCLEANER Cleaning screen listing junk categories with sizes (trash, logs, developer caches, installer packages) and a Clean button."
+    source: https://github.com/starbudweiser/hdCLEANER/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 
 hdCLEANER scans the usual places where a Mac piles up junk and shows how much each category would free. You tick what to remove and it cleans that, asking for an administrator password only when system items are ticked.

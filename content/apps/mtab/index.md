@@ -23,11 +23,20 @@ sources:
   - https://github.com/starbudweiser/mTAB/releases
   - https://raw.githubusercontent.com/starbudweiser/mTAB/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mTAB/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mTAB/releases/download/v1.0.1/mTAB-1.0.1-macOS.zip
     credit: mTAB contributors
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The mTAB window switcher showing six windows with thumbnails, one selected, with a search field on top."
+    source: https://github.com/starbudweiser/mTAB/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 mTAB shows every open window of every app when you hold its shortcut, ⌘⇥ by default, instead of one entry per app. You move through the list with the keyboard, the mouse or a three-finger swipe, and release to bring the chosen window forward.
 

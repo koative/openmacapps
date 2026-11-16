@@ -26,11 +26,20 @@ sources:
   - https://github.com/starbudweiser/mTAPES/releases
   - https://raw.githubusercontent.com/starbudweiser/mTAPES/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mTAPES/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mTAPES/releases/download/v1.0.0/mTAPES-1.0.0-macOS-arm64.zip
     credit: mTAPES contributors
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The mTAPES library with a take selected, showing its details, export buttons and the editing panel with automatic zooms."
+    source: https://github.com/starbudweiser/mTAPES/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 mTAPES records your screen and edits the result into a demo you can publish. You start a take from the menu bar or with ⌥⌘R, choosing a whole screen, one window, one application or a zone you draw.
 

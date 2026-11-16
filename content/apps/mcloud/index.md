@@ -24,11 +24,20 @@ sources:
   - https://github.com/starbudweiser/mCLOUD/releases
   - https://raw.githubusercontent.com/starbudweiser/mCLOUD/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mCLOUD/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mCLOUD/releases/download/v1.0.6/mCLOUD-1.0.6-macOS.zip
     credit: mCLOUD contributors
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The main window listing four example cloud accounts (Google Drive, Amazon S3, Nextcloud, SFTP) ready to mount."
+    source: https://github.com/starbudweiser/mCLOUD/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 mCLOUD mounts your cloud accounts as drives in the Finder, from an icon in the menu bar. Supported services include Google Drive, Dropbox, OneDrive, iCloud Drive, Box, pCloud, kDrive, MEGA, Nextcloud and Backblaze B2, along with S3, Wasabi, SFTP, FTP and WebDAV servers.
 

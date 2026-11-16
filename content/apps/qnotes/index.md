@@ -24,11 +24,20 @@ sources:
   - https://github.com/starbudweiser/qNOTES/releases
   - https://raw.githubusercontent.com/starbudweiser/qNOTES/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/qNOTES/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/qNOTES/releases/download/v1.0.1/qNOTES.zip
     credit: qNOTES contributors
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The main window with six sample notes, a pinned weekly planning checklist open in the editor."
+    source: https://github.com/starbudweiser/qNOTES/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 qNOTES keeps a set of rich-text notes that you write with headings, styles, colors and alignment. Bulleted, numbered and task lists are supported, along with links, and smart bullets continue a list as you type.
 

@@ -23,11 +23,20 @@ sources:
   - https://github.com/starbudweiser/mSTICK/releases
   - https://raw.githubusercontent.com/starbudweiser/mSTICK/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mSTICK/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mSTICK/releases/download/v1.1.2/mSTICK.zip
     credit: mSTICK contributors
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "Several mSTICK sticky notes on the desktop, including a stacked group, showing checklists, Markdown, Smart Calc and a reminder."
+    source: https://github.com/starbudweiser/mSTICK/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 mSTICK puts notes on your desktop as real windows, each written in Markdown that is styled as you type. Notes can float above other windows, stay glued to the desktop or appear on every desktop, and you can stack them into groups you drag around.
 

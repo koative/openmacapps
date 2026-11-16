@@ -23,11 +23,20 @@ sources:
   - https://github.com/starbudweiser/wCLAUDE/releases
   - https://raw.githubusercontent.com/starbudweiser/wCLAUDE/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/wCLAUDE/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/wCLAUDE/releases/download/v1.3.5/wCLAUDE-1.3.5-macOS-arm64.zip
     credit: wCLAUDE contributors
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The wCLAUDE browser window showing a public example page, with tabs and the iPhone, Keychain, Downloads and Watch toolbar."
+    source: https://github.com/starbudweiser/wCLAUDE/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 wCLAUDE is a browser window that an AI agent drives while you watch. Any agent that speaks MCP, such as Claude Code, Claude Desktop, Cursor or Codex CLI, connects to its built-in server and can open tabs, read pages, click, type and upload files of any size.
 

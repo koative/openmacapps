@@ -23,11 +23,20 @@ sources:
   - https://github.com/starbudweiser/qLOOKS/releases
   - https://raw.githubusercontent.com/starbudweiser/qLOOKS/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/qLOOKS/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/qLOOKS/releases/download/v1.1.1/qLOOKS-1.1.1.zip
     credit: qLOOKS contributors
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The qLOOKS window showing the list of supported formats (video, vector images, 3D models, archives) by version."
+    source: https://github.com/starbudweiser/qLOOKS/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 qLOOKS fills the gaps in Quick Look. Select a file in the Finder, press the space bar, and formats that macOS shows as a blank icon get a real preview and a thumbnail.
 

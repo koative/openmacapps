@@ -25,11 +25,20 @@ sources:
   - https://github.com/starbudweiser/ARCHiVES/releases
   - https://raw.githubusercontent.com/starbudweiser/ARCHiVES/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/ARCHiVES/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/ARCHiVES/releases/download/v1.0.1/ARCHiVES-1.0.1-macOS-arm64.zip
     credit: ARCHiVES contributors
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The ARCHiVES settings window, showing the ZIP/7Z default format and the compression level selector (none, fast, normal, maximum)."
+    source: https://github.com/starbudweiser/ARCHiVES/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 ARCHiVES extracts an archive when you double-click it in the Finder, into a folder named after the file and placed next to it. ZIP, RAR, 7z, TAR, GZ, BZ2 and XZ files are handled, among others.
 

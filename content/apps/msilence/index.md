@@ -23,11 +23,20 @@ sources:
   - https://github.com/starbudweiser/mSILENCE/releases
   - https://raw.githubusercontent.com/starbudweiser/mSILENCE/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mSILENCE/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mSILENCE/releases/download/v1.0.0/mSILENCE.zip
     credit: mSILENCE contributors
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The main window listing five blocked applications, with the firewall switched on."
+    source: https://github.com/starbudweiser/mSILENCE/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 mSILENCE blocks the internet connections of the apps you choose. You drag an app into the list or pick it from your installed apps, and its traffic stops, including the traffic of its helpers and child processes. Connections between devices on your local network stay allowed.
 
