@@ -7,6 +7,7 @@ tags:
   - rsync
   - menu-bar
   - sync
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mBACKUP
 website: https://github.com/starbudweiser/mBACKUP
 license: MIT
@@ -15,18 +16,27 @@ download: https://github.com/starbudweiser/mBACKUP/releases
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/mBACKUP
   - https://github.com/starbudweiser/mBACKUP/blob/main/LICENSE
   - https://github.com/starbudweiser/mBACKUP/releases
   - https://raw.githubusercontent.com/starbudweiser/mBACKUP/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mBACKUP/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mBACKUP/releases/download/v1.0.2/mBACKUP-1.0.2.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The main window with three scheduled backup tasks."
+    source: https://github.com/starbudweiser/mBACKUP/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 
 mBACKUP copies a source folder to a destination on a schedule, from an icon in the menu bar. Each task is a mirror synchronization run by rsync 3, which ships inside the app.

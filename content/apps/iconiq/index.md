@@ -7,6 +7,7 @@ tags:
   - asset-library
   - svg
   - iconjar
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/iCONIQ
 website: https://github.com/starbudweiser/iCONIQ
 license: MIT
@@ -15,18 +16,27 @@ download: https://github.com/starbudweiser/iCONIQ/releases
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/iCONIQ
   - https://github.com/starbudweiser/iCONIQ/blob/main/LICENSE
   - https://github.com/starbudweiser/iCONIQ/releases
   - https://raw.githubusercontent.com/starbudweiser/iCONIQ/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/iCONIQ/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/iCONIQ/releases/download/v1.0.2/iCONIQ.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The iCONIQ main window showing a grid of 60 colourful line icons organised in four collections, with icon portals in the sidebar."
+    source: https://github.com/starbudweiser/iCONIQ/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 
 iCONIQ stores your icons in a library you can search, tag and drag from. You build it by importing IconJar libraries and jars, icon folders, and SVG, PNG or ICNS files.

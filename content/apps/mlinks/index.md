@@ -7,6 +7,7 @@ tags:
   - launcher
   - keyboard-shortcuts
   - bookmarks
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mLINKS
 website: https://github.com/starbudweiser/mLINKS
 license: MIT
@@ -15,18 +16,27 @@ download: https://github.com/starbudweiser/mLINKS/releases
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/mLINKS
   - https://github.com/starbudweiser/mLINKS/blob/main/LICENSE
   - https://github.com/starbudweiser/mLINKS/releases
   - https://raw.githubusercontent.com/starbudweiser/mLINKS/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mLINKS/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mLINKS/releases/download/v1.1.1/mLINKS.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The main window with three link groups (apps, folders, web addresses) and the details panel of the selected link."
+    source: https://github.com/starbudweiser/mLINKS/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 
 mLINKS keeps your apps, folders, files and web addresses in a menu under its menu bar icon. Groups appear as submenus with icons, and holding Option reveals an item in the Finder instead of opening it.

@@ -6,6 +6,7 @@ tags:
   - menu-bar
   - customization
   - separators
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mSPACES
 website: https://github.com/starbudweiser/mSPACES
 license: MIT
@@ -14,7 +15,7 @@ download: https://github.com/starbudweiser/mSPACES/releases
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/mSPACES
   - https://github.com/starbudweiser/mSPACES/blob/main/LICENSE
