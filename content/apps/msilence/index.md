@@ -12,7 +12,7 @@ repository: https://github.com/starbudweiser/mSILENCE
 website: https://github.com/starbudweiser/mSILENCE
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mSILENCE/blob/main/LICENSE
-download: https://github.com/starbudweiser/mSILENCE/releases
+download: "https://github.com/starbudweiser/mSILENCE/releases/latest"
 freeDownload: true
 featured: false
 added: '2026-11-16'
@@ -47,4 +47,4 @@ Blocking is done by a network content filter that runs as a system extension. It
 - the app has to sit in the Applications folder;
 - the filter has to be allowed once in System Settings, under Login Items and Extensions, Network Extensions.
 
-Releases are signed and notarized builds for macOS 14 or later. The interface is in English, French, Spanish and Italian, and updates come from GitHub releases unless you turn them off.
+Releases are signed and notarized universal builds for Apple silicon and Intel Macs running macOS 14 or later. The interface is in English, French, Spanish and Italian, and updates come from GitHub releases unless you turn them off.

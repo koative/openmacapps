@@ -15,7 +15,7 @@ repository: https://github.com/starbudweiser/mTAPES
 website: https://github.com/starbudweiser/mTAPES
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mTAPES/blob/main/LICENSE
-download: https://github.com/starbudweiser/mTAPES/releases
+download: "https://github.com/starbudweiser/mTAPES/releases/latest"
 freeDownload: true
 featured: false
 added: '2026-11-16'

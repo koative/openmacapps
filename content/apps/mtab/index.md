@@ -12,7 +12,7 @@ repository: https://github.com/starbudweiser/mTAB
 website: https://github.com/starbudweiser/mTAB
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mTAB/blob/main/LICENSE
-download: https://github.com/starbudweiser/mTAB/releases
+download: "https://github.com/starbudweiser/mTAB/releases/latest"
 freeDownload: true
 featured: false
 added: '2026-11-16'

@@ -14,7 +14,7 @@ repository: https://github.com/starbudweiser/ARCHiVES
 website: https://github.com/starbudweiser/ARCHiVES
 license: MIT
 licenseUrl: https://github.com/starbudweiser/ARCHiVES/blob/main/LICENSE
-download: https://github.com/starbudweiser/ARCHiVES/releases
+download: "https://github.com/starbudweiser/ARCHiVES/releases/latest"
 freeDownload: true
 featured: false
 added: '2026-11-16'

@@ -12,7 +12,7 @@ repository: https://github.com/starbudweiser/wCLAUDE
 website: https://github.com/starbudweiser/wCLAUDE
 license: MIT
 licenseUrl: https://github.com/starbudweiser/wCLAUDE/blob/main/LICENSE
-download: https://github.com/starbudweiser/wCLAUDE/releases
+download: "https://github.com/starbudweiser/wCLAUDE/releases/latest"
 freeDownload: true
 featured: false
 added: '2026-11-16'

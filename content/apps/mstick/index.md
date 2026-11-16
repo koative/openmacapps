@@ -12,7 +12,7 @@ repository: https://github.com/starbudweiser/mSTICK
 website: https://github.com/starbudweiser/mSTICK
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mSTICK/blob/main/LICENSE
-download: https://github.com/starbudweiser/mSTICK/releases
+download: "https://github.com/starbudweiser/mSTICK/releases/latest"
 freeDownload: true
 featured: false
 added: '2026-11-16'

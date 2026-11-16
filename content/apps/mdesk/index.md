@@ -23,20 +23,11 @@ sources:
   - https://github.com/starbudweiser/mDESK/releases
   - https://raw.githubusercontent.com/starbudweiser/mDESK/main/README.md
 assets:
-  - path: ./assets/screenshot.png
-    source: https://github.com/starbudweiser/mDESK/blob/main/docs/screenshot.png
-    credit: Starbudweiser
-    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mDESK/releases/download/v1.0/DeSKSTAY-1.0-macOS-arm64.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
-screenshots:
-  - src: ./assets/screenshot.png
-    alt: "The mDESK About window, showing the app icon, version 1.0.1 and the DESKTOP MAC TOOLKIT collection."
-    source: https://github.com/starbudweiser/mDESK/blob/main/docs/screenshot.png
-    credit: Starbudweiser
 ---
 
 mDESK remembers where desktop icons and windows sit on your screens and puts them back. It keeps one arrangement per combination of connected displays and picks the matching one on its own.
@@ -48,5 +39,3 @@ For windows, you choose app by app which windows to track. Finder windows and ap
 Nothing happens automatically by default. Restoring when the displays change, when the Mac wakes or when the app launches are separate options you turn on.
 
 The app merges the ideas of Desktop Icon Manager and Stay and is not affiliated with their authors. On first use macOS asks for two permissions: Automation, to control the Finder, and Accessibility, to move application windows. Arrangements are kept in a JSON file in Application Support. Releases are arm64 builds for macOS 14 or later, notarized, with the interface in English, French, Spanish and Italian. Since version 1.0.2 the app checks GitHub once a day and installs signed updates, never during a restore, and the menu turns automatic installs off.
-
-It belongs to the Desktop Mac Toolkit, a set of free Mac apps by the same developer that share one design and update the same way.

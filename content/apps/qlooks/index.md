@@ -12,7 +12,7 @@ repository: https://github.com/starbudweiser/qLOOKS
 website: https://github.com/starbudweiser/qLOOKS
 license: MIT
 licenseUrl: https://github.com/starbudweiser/qLOOKS/blob/main/LICENSE
-download: https://github.com/starbudweiser/qLOOKS/releases
+download: "https://github.com/starbudweiser/qLOOKS/releases/latest"
 freeDownload: true
 featured: false
 added: '2026-11-16'

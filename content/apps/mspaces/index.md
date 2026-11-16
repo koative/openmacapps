@@ -22,20 +22,11 @@ sources:
   - https://github.com/starbudweiser/mSPACES/releases
   - https://raw.githubusercontent.com/starbudweiser/mSPACES/main/README.md
 assets:
-  - path: ./assets/screenshot.png
-    source: https://github.com/starbudweiser/mSPACES/blob/main/docs/screenshot.png
-    credit: Starbudweiser
-    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mSPACES/releases/download/1.0.0/mSPACES.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
-screenshots:
-  - src: ./assets/screenshot.png
-    alt: "The About window of mSPACES, a menu bar app that groups menu bar icons with separators."
-    source: https://github.com/starbudweiser/mSPACES/blob/main/docs/screenshot.png
-    credit: Starbudweiser
 ---
 
 mSPACES adds separators to the menu bar so you can split its icons into groups. Related items, such as sync tools on one side and system controls on the other, end up between two separators instead of one long row.
@@ -47,5 +38,3 @@ Each separator has its own style. It can be a plain space, a tab, a dot, a bar o
 The app does one thing and stays out of the way. It does not hide icons or move them behind a menu, which is what dedicated menu bar managers do. Updates come from GitHub releases.
 
 The interface is in English, French, Spanish and Italian, following the system language. Releases are arm64 builds for macOS 13 or later, signed with a Developer ID and notarized. The code is MIT-licensed.
-
-It belongs to the Desktop Mac Toolkit, a set of free Mac apps by the same developer that share one design and update the same way.

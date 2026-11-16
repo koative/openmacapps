@@ -13,7 +13,7 @@ repository: https://github.com/starbudweiser/mCLOUD
 website: https://github.com/starbudweiser/mCLOUD
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mCLOUD/blob/main/LICENSE
-download: https://github.com/starbudweiser/mCLOUD/releases
+download: "https://github.com/starbudweiser/mCLOUD/releases/latest"
 freeDownload: true
 featured: false
 added: '2026-11-16'

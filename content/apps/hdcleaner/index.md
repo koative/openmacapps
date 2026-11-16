@@ -55,5 +55,3 @@ Other tabs:
 - Security, a YARA scanner fed with Apple's XProtect rules.
 
 Compared with CleanMyMac, everything here is free and open source, and there is no account. Some folders need Full Disk Access, and the app says so. Releases are arm64 builds for macOS 14 or later, notarized, in four languages.
-
-It belongs to the Desktop Mac Toolkit, a set of free Mac apps by the same developer that share one design and update the same way.

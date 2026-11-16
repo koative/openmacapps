@@ -13,7 +13,7 @@ repository: https://github.com/starbudweiser/qNOTES
 website: https://github.com/starbudweiser/qNOTES
 license: MIT
 licenseUrl: https://github.com/starbudweiser/qNOTES/blob/main/LICENSE
-download: https://github.com/starbudweiser/qNOTES/releases
+download: "https://github.com/starbudweiser/qNOTES/releases/latest"
 freeDownload: true
 featured: false
 added: '2026-11-16'
