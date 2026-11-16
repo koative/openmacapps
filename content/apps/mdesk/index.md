@@ -27,7 +27,16 @@ assets:
     source: https://github.com/starbudweiser/mDESK/releases/download/v1.0/DeSKSTAY-1.0-macOS-arm64.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mDESK/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The mDESK menu open under its menu bar icon, with the active arrangement \"Studio\" for two displays and the commands to save and restore desktop icons and windows."
+    source: https://github.com/starbudweiser/mDESK/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 
 mDESK remembers where desktop icons and windows sit on your screens and puts them back. It keeps one arrangement per combination of connected displays and picks the matching one on its own.
