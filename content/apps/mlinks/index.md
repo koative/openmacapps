@@ -7,6 +7,7 @@ tags:
   - launcher
   - keyboard-shortcuts
   - bookmarks
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mLINKS
 website: https://github.com/starbudweiser/mLINKS
 license: MIT
@@ -15,7 +16,7 @@ download: https://github.com/starbudweiser/mLINKS/releases
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/mLINKS
   - https://github.com/starbudweiser/mLINKS/blob/main/LICENSE
@@ -43,3 +44,5 @@ The manager window is where you build the menu:
 The import reads QuickLinks data without modifying it and creates no duplicates when run again. mLINKS rebuilds the idea of QuickLinks by Appyogi from scratch and shares none of its code. It has no Dock icon and can open at login.
 
 Links are stored in a JSON file in Application Support. Updates are checked once a day, with the Developer ID signature verified before installing, and can be turned off. Releases are arm64 builds for macOS 14 or later, notarized, in four languages.
+
+It belongs to the Desktop Mac Toolkit, a set of free Mac apps by the same developer that share one design and update the same way.

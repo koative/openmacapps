@@ -7,6 +7,7 @@ tags:
   - asset-library
   - svg
   - iconjar
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/iCONIQ
 website: https://github.com/starbudweiser/iCONIQ
 license: MIT
@@ -15,7 +16,7 @@ download: https://github.com/starbudweiser/iCONIQ/releases
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/iCONIQ
   - https://github.com/starbudweiser/iCONIQ/blob/main/LICENSE
@@ -43,3 +44,5 @@ Finding and using icons:
 The app links with MiCONE. Every icon exported from MiCONE lands in a MiCONE collection, and exporting it again updates it in place wherever it was filed.
 
 iCONIQ is inspired by IconJar and not affiliated with its authors. Data lives in Application Support. Updates come from GitHub releases with a Developer ID signature check. Releases are arm64 builds for macOS 14 or later, notarized, with the interface in English, French, Spanish and Italian.
+
+It belongs to the Desktop Mac Toolkit, a set of free Mac apps by the same developer that share one design and update the same way.

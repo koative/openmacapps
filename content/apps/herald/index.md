@@ -8,6 +8,7 @@ tags:
   - modding
   - social-media
   - analytics
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/hERALD
 website: https://github.com/starbudweiser/hERALD
 license: MIT
@@ -16,7 +17,7 @@ download: https://github.com/starbudweiser/hERALD/releases
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/hERALD
   - https://github.com/starbudweiser/hERALD/blob/main/LICENSE
@@ -44,3 +45,5 @@ What else it keeps:
 An AI agent is optional and off by default. When enabled, each task gets a chat with Claude Code, Codex or an OpenAI-compatible API. Its proposed edits show as a card you apply or undo, and it can never mark a post published.
 
 Data stays in a local JSON file, and API keys go in the Keychain. Builds are universal, for macOS 14 or later, and an example campaign is offered at first launch.
+
+It belongs to the Desktop Mac Toolkit, a set of free Mac apps by the same developer that share one design and update the same way.

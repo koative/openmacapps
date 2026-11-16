@@ -7,6 +7,7 @@ tags:
   - memory
   - monitoring
   - maintenance
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mCLEAN
 website: https://github.com/starbudweiser/mCLEAN
 license: MIT
@@ -15,7 +16,7 @@ download: https://github.com/starbudweiser/mCLEAN/releases
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/mCLEAN
   - https://github.com/starbudweiser/mCLEAN/blob/main/LICENSE
@@ -36,3 +37,5 @@ Clean frees the file cache. The app asks the kernel for memory in 0.5 GB steps, 
 Deep clean also runs `purge`, which asks for your administrator password, and reclaims part of the app memory. An automatic clean can run when available memory falls below a threshold, with a minimum delay between runs. It never runs under high pressure, which macOS handles on its own.
 
 The panel also lists apps you have not used for a while, with a Quit button. The app is modeled on AppYogi's Memory Cleaner and not affiliated with it. Releases are arm64 builds for macOS 14 or later, notarized, with daily update checks and four languages.
+
+It belongs to the Desktop Mac Toolkit, a set of free Mac apps by the same developer that share one design and update the same way.

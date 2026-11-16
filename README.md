@@ -38,21 +38,21 @@ Inclusion is not a security audit or an endorsement. The [research notes](docs/R
 
 <!-- catalog:start -->
 
-1,903 macOS apps: **1,871 open source** and **32 source available**. Source-available apps have additional restrictions and are labeled separately. Each category's list is generated from [content/apps](content/apps); edit the app folders to contribute.
+1,914 macOS apps: **1,882 open source** and **32 source available**. Source-available apps have additional restrictions and are labeled separately. Each category's list is generated from [content/apps](content/apps); edit the app folders to contribute.
 
 | Category | Apps |
 | --- | ---: |
-| [Productivity](catalog/productivity.md) | 292 |
+| [Productivity](catalog/productivity.md) | 294 |
 | [Developer tools](catalog/developer-tools.md) | 332 |
-| [Utilities](catalog/utilities.md) | 578 |
-| [Media](catalog/media.md) | 164 |
-| [Privacy & security](catalog/privacy-security.md) | 63 |
-| [Writing](catalog/writing.md) | 54 |
+| [Utilities](catalog/utilities.md) | 582 |
+| [Media](catalog/media.md) | 165 |
+| [Privacy & security](catalog/privacy-security.md) | 64 |
+| [Writing](catalog/writing.md) | 55 |
 | [Design](catalog/design.md) | 62 |
-| [Internet](catalog/internet.md) | 99 |
+| [Internet](catalog/internet.md) | 100 |
 | [Education](catalog/education.md) | 29 |
 | [Games](catalog/games.md) | 49 |
-| [AI](catalog/ai.md) | 181 |
+| [AI](catalog/ai.md) | 182 |
 
 <!-- catalog:end -->
 

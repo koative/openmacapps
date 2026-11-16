@@ -7,6 +7,7 @@ tags:
   - rsync
   - menu-bar
   - sync
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mBACKUP
 website: https://github.com/starbudweiser/mBACKUP
 license: MIT
@@ -15,7 +16,7 @@ download: https://github.com/starbudweiser/mBACKUP/releases
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/mBACKUP
   - https://github.com/starbudweiser/mBACKUP/blob/main/LICENSE
@@ -38,3 +39,5 @@ Versioned copies are optional. When they are on, replaced or deleted files go to
 The app is a simplified take on Get Backup Pro, inspired by it and not affiliated with BeLight Software. It makes mirror copies, not full system backups, so Time Machine still has a place.
 
 Protected folders such as iCloud Drive need Full Disk Access. The app opens at login, and the interface is in English, French, Spanish and Italian. Releases are arm64 builds for macOS 15 or later, notarized.
+
+It belongs to the Desktop Mac Toolkit, a set of free Mac apps by the same developer that share one design and update the same way.

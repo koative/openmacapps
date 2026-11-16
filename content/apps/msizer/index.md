@@ -8,6 +8,7 @@ tags:
   - image-converter
   - watermark
   - resize
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mSIZER
 website: https://github.com/starbudweiser/mSIZER
 license: MIT
@@ -16,7 +17,7 @@ download: https://github.com/starbudweiser/mSIZER/releases
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/mSIZER
   - https://github.com/starbudweiser/mSIZER/blob/main/LICENSE
@@ -45,3 +46,5 @@ Output can be JPEG, PNG, WebP, HEIC, AVIF, TIFF, PSD, PDF and several more, with
 Results go to a subfolder or another folder. If you choose to replace originals, they go to the Trash, and existing files are never overwritten. Filters run on the GPU through Core Image.
 
 The app is modeled on Photo Bulk Editor and not affiliated with it. It runs on Apple silicon only, needs macOS 15 or later, and is notarized.
+
+It belongs to the Desktop Mac Toolkit, a set of free Mac apps by the same developer that share one design and update the same way.

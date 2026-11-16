@@ -7,6 +7,7 @@ tags:
   - icns
   - image-converter
   - command-line
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/MiCONE
 website: https://github.com/starbudweiser/MiCONE
 license: MIT
@@ -15,7 +16,7 @@ download: https://github.com/starbudweiser/MiCONE/releases
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/MiCONE
   - https://github.com/starbudweiser/MiCONE/blob/main/LICENSE
@@ -38,3 +39,5 @@ Background removal is automatic. It uses a flood fill for images that already si
 Generating an icon from a text prompt is optional. It goes through Pollinations, Hugging Face, Gemini or OpenAI, and API keys stay in the Keychain. There is also a command line, for example `MiCONE --cli image.png --png`, for batches.
 
 The app checks GitHub once a day and verifies the SHA-256, bundle identifier and Developer ID signature before replacing itself, never while an image is loaded. Releases are arm64 builds for macOS 14 or later, notarized, in four languages.
+
+It belongs to the Desktop Mac Toolkit, a set of free Mac apps by the same developer that share one design and update the same way.
