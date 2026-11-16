@@ -47,6 +47,6 @@ For windows, you choose app by app which windows to track. Finder windows and ap
 
 Nothing happens automatically by default. Restoring when the displays change, when the Mac wakes or when the app launches are separate options you turn on.
 
-The app merges the ideas of Desktop Icon Manager and Stay and is not affiliated with their authors. On first use macOS asks for two permissions: Automation, to control the Finder, and Accessibility, to move application windows. Arrangements are kept in a JSON file in Application Support. Releases are arm64 builds for macOS 14 or later, notarized, with the interface in English, French, Spanish and Italian.
+The app merges the ideas of Desktop Icon Manager and Stay and is not affiliated with their authors. On first use macOS asks for two permissions: Automation, to control the Finder, and Accessibility, to move application windows. Arrangements are kept in a JSON file in Application Support. Releases are arm64 builds for macOS 14 or later, notarized, with the interface in English, French, Spanish and Italian. Since version 1.0.2 the app checks GitHub once a day and installs signed updates, never during a restore, and the menu turns automatic installs off.
 
 It belongs to the Desktop Mac Toolkit, a set of free Mac apps by the same developer that share one design and update the same way.
