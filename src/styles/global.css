@@ -784,6 +784,77 @@ main {
   font-size: 12px;
 }
 
+/* Screenshot lightbox */
+
+.lightbox {
+  width: 100vw;
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.lightbox[open] {
+  display: grid;
+  place-items: center;
+}
+
+.lightbox::backdrop {
+  background: rgb(0 0 0 / 0.82);
+  backdrop-filter: blur(6px);
+}
+
+.lightbox img {
+  max-width: min(92vw, 1600px);
+  max-height: 86dvh;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.lightbox-button {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 0.14);
+  color: #fff;
+  cursor: pointer;
+}
+
+.lightbox-button:hover {
+  background: rgb(255 255 255 / 0.24);
+}
+
+.lightbox-button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.lightbox-button.close {
+  top: 16px;
+  right: 16px;
+}
+
+.lightbox-button.prev,
+.lightbox-button.next {
+  top: 50%;
+  translate: 0 -50%;
+}
+
+.lightbox-button.prev {
+  left: 16px;
+}
+
+.lightbox-button.next {
+  right: 16px;
+}
+
 /* Categories */
 
 .category-grid {
