@@ -8,6 +8,8 @@ website: "https://github.com/hydrogen-music/hydrogen"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/hydrogen-music/hydrogen/blob/main/COPYING"
 download: "https://github.com/hydrogen-music/hydrogen/releases"
+macos: "10.14"
+arch: intel
 freeDownload: true
 featured: false
 added: "2026-10-17"

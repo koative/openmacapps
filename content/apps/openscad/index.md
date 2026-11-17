@@ -11,6 +11,9 @@ website: https://openscad.org/
 license: GPL-2.0-or-later
 licenseUrl: https://github.com/openscad/openscad/blob/master/COPYING
 download: https://openscad.org/downloads.html
+macos: "12"
+arch: intel
+notarized: true
 freeDownload: true
 featured: false
 added: 2026-10-17

@@ -11,6 +11,8 @@ website: "https://sidhantsinha.com/apps/pixtamer"
 license: "MIT"
 licenseUrl: "https://github.com/heysidhant/pixtamer/blob/main/LICENSE"
 download: "https://github.com/heysidhant/pixtamer/releases/latest"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

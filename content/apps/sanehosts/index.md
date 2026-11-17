@@ -10,6 +10,9 @@ sourceAvailability: "source-available"
 licenseNotes: "PolyForm Shield 1.0.0 lets you use and modify the source but prohibits using it to provide a product or service that competes with SaneHosts, including free alternatives."
 licenseUrl: "https://github.com/sane-apps/SaneHosts/blob/main/LICENSE"
 download: "https://github.com/sane-apps/SaneHosts/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: false
 featured: false
 added: "2026-10-17"

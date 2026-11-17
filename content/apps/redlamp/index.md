@@ -14,6 +14,9 @@ website: https://redlamp.app
 license: "MPL-2.0"
 licenseUrl: https://github.com/pdcgomes/redlamp/blob/main/LICENSE
 download: https://github.com/pdcgomes/redlamp/releases
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

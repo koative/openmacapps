@@ -13,6 +13,9 @@ website: "https://www.planetable.xyz/"
 license: "MIT"
 licenseUrl: "https://github.com/Planetable/Planet/blob/main/LICENSE"
 download: "https://www.planetable.xyz/"
+macos: "12"
+arch: both
+notarized: true
 homebrew: "planet"
 freeDownload: true
 featured: false

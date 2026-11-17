@@ -13,6 +13,7 @@ website: "https://knutigro.github.io/apps/app-reviews/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/knutigro/AppReviews/blob/develop/LICENSE"
 download: "https://github.com/knutigro/AppReviews/releases/latest"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

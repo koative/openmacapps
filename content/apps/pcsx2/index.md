@@ -8,6 +8,9 @@ website: "https://pcsx2.net"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/PCSX2/pcsx2/blob/master/COPYING.GPLv3"
 download: "https://pcsx2.net/downloads"
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "pcsx2"
 featured: false

@@ -11,6 +11,9 @@ website: "https://github.com/kageroumado/rocuronium"
 license: "MIT"
 licenseUrl: "https://github.com/kageroumado/rocuronium/blob/main/LICENSE"
 download: "https://github.com/kageroumado/rocuronium/releases/latest"
+macos: "26.5"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

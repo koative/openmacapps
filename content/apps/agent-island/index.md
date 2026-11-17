@@ -12,6 +12,9 @@ website: "https://agentisland.in"
 license: "MIT"
 licenseUrl: "https://github.com/Tiwari1999/Agent-Island/blob/main/LICENSE"
 download: "https://github.com/Tiwari1999/Agent-Island/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

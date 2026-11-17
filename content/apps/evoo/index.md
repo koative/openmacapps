@@ -14,6 +14,9 @@ website: "https://chndr-prksh.github.io/evoo/"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/chndr-prksh/evoo/blob/main/LICENSE"
 download: "https://github.com/chndr-prksh/evoo/releases/latest/download/Evoo.zip"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

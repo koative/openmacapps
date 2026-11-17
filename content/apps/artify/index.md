@@ -11,6 +11,7 @@ website: "https://github.com/NghiaTranUIT/artify-macos"
 license: "LGPL-3.0"
 licenseUrl: "https://github.com/NghiaTranUIT/artify-macos/blob/master/LICENSE"
 download: "https://github.com/NghiaTranUIT/artify-macos/releases"
+macos: "10.11"
 freeDownload: true
 featured: false
 added: "2026-11-06"

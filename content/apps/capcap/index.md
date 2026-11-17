@@ -13,6 +13,9 @@ website: https://capcap.skyrin.fun
 license: "MIT"
 licenseUrl: https://github.com/realskyrin/capcap/blob/main/LICENSE
 download: https://github.com/realskyrin/capcap/releases
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

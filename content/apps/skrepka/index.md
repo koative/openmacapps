@@ -14,6 +14,9 @@ website: "https://www.soldunov.dev/skrepka"
 license: "MIT"
 licenseUrl: "https://github.com/psoldunov/skrepka/blob/master/LICENSE"
 download: "https://github.com/psoldunov/skrepka/releases"
+macos: "26"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -14,6 +14,8 @@ website: https://pairpods.app
 license: "MIT"
 licenseUrl: https://github.com/wozniakpawel/PairPods/blob/main/LICENSE
 download: https://github.com/wozniakpawel/PairPods/releases
+macos: "13.5"
+arch: both
 homebrew: "pairpods"
 freeDownload: true
 featured: false

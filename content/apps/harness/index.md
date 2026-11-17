@@ -12,6 +12,9 @@ website: "https://awizemann.github.io/harness/"
 license: "MIT"
 licenseUrl: "https://github.com/awizemann/harness/blob/main/LICENSE"
 download: "https://github.com/awizemann/harness/releases/download/v0.8.4/Harness-v0.8.4-Universal.zip"
+macos: "14"
+arch: both
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

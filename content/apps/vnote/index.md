@@ -8,6 +8,8 @@ website: "https://github.com/vnotex/vnote"
 license: "LGPL-3.0"
 licenseUrl: "https://github.com/vnotex/vnote/blob/master/COPYING.LESSER"
 download: "https://github.com/vnotex/vnote/releases"
+macos: "13"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

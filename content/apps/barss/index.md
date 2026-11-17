@@ -12,6 +12,9 @@ website: https://github.com/relikd/baRSS
 license: "MIT"
 licenseUrl: https://github.com/relikd/baRSS/blob/main/LICENSE
 download: https://github.com/relikd/baRSS/releases
+macos: "10.13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

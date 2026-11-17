@@ -14,6 +14,9 @@ website: "https://rcourtman.github.io/presspeech/"
 license: "MIT"
 licenseUrl: "https://github.com/rcourtman/presspeech/blob/main/LICENSE"
 download: "https://github.com/rcourtman/presspeech/releases"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

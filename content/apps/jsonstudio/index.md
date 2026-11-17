@@ -11,6 +11,9 @@ website: "https://jsonstudio.js.org/"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/sundegan/JsonStudio/blob/main/LICENSE"
 download: "https://github.com/sundegan/JsonStudio/releases"
+macos: "10.13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

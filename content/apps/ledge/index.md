@@ -11,6 +11,8 @@ website: "https://ledgeapp.dev"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/egemertbalcik/Ledge/blob/main/LICENSE"
 download: "https://github.com/egemertbalcik/Ledge/releases/download/v1.2.5/Ledge-1.2.5.dmg"
+macos: "26"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

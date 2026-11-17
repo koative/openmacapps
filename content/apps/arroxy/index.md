@@ -15,6 +15,8 @@ website: https://arroxy.com/
 license: "GPL-3.0"
 licenseUrl: https://github.com/antonio-orionus/Arroxy/blob/main/LICENSE
 download: https://github.com/antonio-orionus/Arroxy/releases
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-29'

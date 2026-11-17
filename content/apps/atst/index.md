@@ -11,6 +11,8 @@ website: "https://github.com/itaober/atst"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/itaober/atst/blob/main/LICENSE"
 download: "https://github.com/itaober/atst/releases/latest"
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

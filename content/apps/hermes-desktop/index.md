@@ -12,6 +12,9 @@ website: "https://dodo-reach.github.io/hermes-desktop/"
 license: "MIT"
 licenseUrl: "https://github.com/dodo-reach/hermes-desktop/blob/main/LICENSE"
 download: "https://github.com/dodo-reach/hermes-desktop/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

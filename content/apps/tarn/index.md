@@ -12,6 +12,9 @@ website: "https://antelislabs.com"
 license: "MIT"
 licenseUrl: "https://github.com/jakeantelis/Tarn/blob/main/LICENSE"
 download: "https://github.com/jakeantelis/Tarn/releases/latest/download/Tarn.dmg"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

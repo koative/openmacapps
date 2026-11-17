@@ -14,6 +14,9 @@ website: "https://macperformancemonitor.com"
 license: "MIT"
 licenseUrl: "https://github.com/Zesty0wl/mac-performance-monitor/blob/main/LICENSE"
 download: "https://github.com/Zesty0wl/mac-performance-monitor/releases"
+macos: "15"
+arch: both
+notarized: true
 homebrew: "mac-performance-monitor"
 freeDownload: true
 featured: false

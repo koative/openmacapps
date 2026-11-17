@@ -8,6 +8,9 @@ website: "https://github.com/SubtitleEdit/subtitleedit"
 license: "MIT"
 licenseUrl: "https://github.com/SubtitleEdit/subtitleedit/blob/main/LICENSE"
 download: "https://github.com/SubtitleEdit/subtitleedit/releases"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "subtitle-edit"
 featured: false

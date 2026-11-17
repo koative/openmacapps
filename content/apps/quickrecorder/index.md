@@ -12,6 +12,9 @@ website: https://lihaoyun6.github.io/quickrecorder/
 license: AGPL-3.0
 licenseUrl: https://github.com/lihaoyun6/QuickRecorder/blob/main/LICENSE
 download: https://github.com/lihaoyun6/QuickRecorder/releases
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: 2026-10-17

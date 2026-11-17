@@ -12,6 +12,8 @@ website: https://keepingyouawake.app
 license: MIT
 licenseUrl: https://github.com/newmarcel/KeepingYouAwake/blob/main/LICENSE
 download: https://github.com/newmarcel/KeepingYouAwake/releases
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "keepingyouawake"
 featured: false

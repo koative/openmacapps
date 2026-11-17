@@ -3,6 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  # Daily rebuild so stars, releases and archive state stay current between merges.
+  schedule:
+    - cron: '23 5 * * *'
   workflow_dispatch:
 
 permissions:
@@ -25,6 +28,9 @@ jobs:
       - run: bun run check:generated
       - run: bun test
       - run: bun run check
+      - run: bun run github
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: bun run build
       - run: bun run check:links
       - uses: actions/upload-pages-artifact@v5

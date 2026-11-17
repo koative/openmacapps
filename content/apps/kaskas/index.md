@@ -11,6 +11,9 @@ website: "https://github.com/ramazanberkozbek/kaskas"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/ramazanberkozbek/kaskas/blob/main/LICENSE"
 download: "https://github.com/ramazanberkozbek/kaskas/releases/latest"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

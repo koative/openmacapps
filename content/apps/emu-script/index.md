@@ -12,6 +12,8 @@ website: "https://sylvain-pearson.github.io/EMU-Script/Doc/User-Manual.html"
 license: "MIT"
 licenseUrl: "https://github.com/sylvain-pearson/EMU-Script/blob/main/LICENSE"
 download: "https://github.com/sylvain-pearson/EMU-Script/releases/latest"
+macos: "26"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -13,6 +13,8 @@ website: "https://github.com/Vladimir-Podgornyi/LidAwake"
 license: "MIT"
 licenseUrl: "https://github.com/Vladimir-Podgornyi/LidAwake/blob/main/LICENSE"
 download: "https://github.com/Vladimir-Podgornyi/LidAwake/releases/latest"
+macos: "13"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

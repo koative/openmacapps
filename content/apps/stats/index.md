@@ -9,6 +9,7 @@ website: "https://mac-stats.com"
 license: "MIT"
 licenseUrl: "https://github.com/exelban/stats/blob/master/LICENSE"
 download: "https://github.com/exelban/stats/releases"
+macos: "12"
 freeDownload: true
 homebrew: "stats"
 featured: false

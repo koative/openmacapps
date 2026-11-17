@@ -8,6 +8,7 @@ website: "https://proton.me/mail/bridge"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/ProtonMail/proton-bridge/blob/master/LICENSE"
 download: "https://proton.me/mail/bridge"
+arch: both
 homebrew: "proton-mail-bridge"
 featured: false
 added: "2026-11-02"

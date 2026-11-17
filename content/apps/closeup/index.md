@@ -11,6 +11,9 @@ website: "https://github.com/oomol-lab/CloseUp"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/oomol-lab/CloseUp/blob/main/LICENSE"
 download: "https://github.com/oomol-lab/CloseUp/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

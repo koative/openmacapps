@@ -12,6 +12,9 @@ website: "https://github.com/KJeon10/BannerHither"
 license: "MIT"
 licenseUrl: "https://github.com/KJeon10/BannerHither/blob/main/LICENSE"
 download: "https://github.com/KJeon10/BannerHither/releases/download/v0.2.0/BannerHither-0.2.0.dmg"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

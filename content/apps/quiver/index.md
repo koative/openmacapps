@@ -12,6 +12,9 @@ website: "https://github.com/tirrth/Quiver"
 license: "GPL-3.0-only"
 licenseUrl: "https://github.com/tirrth/Quiver/blob/master/LICENSE.md"
 download: "https://github.com/tirrth/Quiver/releases/latest"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,8 @@ website: "https://juicemount.com"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/lelanddutcher/juicemount/blob/main/LICENSE"
 download: "https://github.com/lelanddutcher/juicemount/releases/download/v0.5.0/JuiceMount.zip"
+macos: "26"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

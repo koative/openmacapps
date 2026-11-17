@@ -11,6 +11,9 @@ website: https://www.moamenbasel.com/ConsoleMini/
 license: MIT
 licenseUrl: https://github.com/momenbasel/ConsoleMini/blob/main/LICENSE
 download: https://github.com/momenbasel/ConsoleMini/releases
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

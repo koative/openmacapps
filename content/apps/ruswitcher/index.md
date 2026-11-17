@@ -14,6 +14,8 @@ website: https://ruswitcher.app
 license: "MIT"
 licenseUrl: https://github.com/rashn/RuSwitcher/blob/main/LICENSE
 download: https://ruswitcher.app/en/download/
+macos: "13"
+arch: both
 homebrew: "ruswitcher"
 freeDownload: true
 featured: false

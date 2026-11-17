@@ -13,6 +13,9 @@ website: https://skyrimtools.com
 license: GPL-3.0
 licenseUrl: https://github.com/starbudweiser/mORTEX/blob/main/LICENSE.md
 download: https://github.com/starbudweiser/mORTEX/releases
+macos: "13"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-11-10'

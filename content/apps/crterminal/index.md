@@ -11,6 +11,8 @@ website: "https://crterm.ai"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/mbcltd/CRTerminal/blob/main/LICENSE"
 download: "https://github.com/mbcltd/CRTerminal/releases/latest/download/CRTerminal.dmg"
+macos: "26"
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

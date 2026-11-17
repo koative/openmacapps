@@ -13,6 +13,9 @@ website: https://github.com/yujitach/MenuMeters
 license: GPL-2.0
 licenseUrl: https://github.com/yujitach/MenuMeters/blob/main/LICENSE
 download: https://github.com/yujitach/MenuMeters/releases
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "menumeters"
 featured: false

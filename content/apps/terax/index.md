@@ -13,6 +13,9 @@ website: https://terax.app
 license: "Apache-2.0"
 licenseUrl: https://github.com/crynta/terax-ai/blob/main/LICENSE
 download: https://github.com/crynta/terax-ai/releases
+macos: "13"
+arch: both
+notarized: true
 homebrew: "terax"
 freeDownload: true
 featured: false

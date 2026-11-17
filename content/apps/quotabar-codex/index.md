@@ -12,6 +12,8 @@ website: "https://roketrp.github.io/QuotaBar/"
 license: "MIT"
 licenseUrl: "https://github.com/RoketrP/QuotaBar/blob/main/LICENSE"
 download: "https://github.com/RoketrP/QuotaBar/releases/download/v1.2.0/QuotaBar-v1.2.0-macOS-arm64.zip"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

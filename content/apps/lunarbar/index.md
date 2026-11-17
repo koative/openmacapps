@@ -10,6 +10,9 @@ website: https://github.com/LunarBar-app/LunarBar
 license: "MIT"
 licenseUrl: https://github.com/LunarBar-app/LunarBar/blob/main/LICENSE
 download: https://github.com/LunarBar-app/LunarBar/releases
+macos: "26"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "lunarbar"
 featured: false

@@ -16,6 +16,8 @@ website: https://muesli.works
 license: "MIT"
 licenseUrl: https://github.com/Muesli-HQ/muesli/blob/main/LICENSE
 download: https://github.com/Muesli-HQ/muesli/releases
+macos: "14.2"
+arch: apple-silicon
 homebrew: "muesli"
 freeDownload: true
 featured: false

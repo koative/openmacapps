@@ -16,6 +16,7 @@ website: https://github.com/idawnlight/ShichiZip
 license: "LGPL-2.1"
 licenseUrl: https://github.com/idawnlight/ShichiZip/blob/main/LICENSE
 download: https://github.com/idawnlight/ShichiZip/releases
+arch: both
 homebrew: "shichizip"
 freeDownload: true
 featured: false

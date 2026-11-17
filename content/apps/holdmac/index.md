@@ -11,6 +11,8 @@ website: "https://github.com/Funnyrz/HoldMac"
 license: "MIT"
 licenseUrl: "https://github.com/Funnyrz/HoldMac/blob/main/LICENSE"
 download: "https://github.com/Funnyrz/HoldMac/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

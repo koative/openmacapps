@@ -12,6 +12,8 @@ website: "https://desktopctl.com"
 license: "MIT"
 licenseUrl: "https://github.com/yaroshevych/desktopctl/blob/main/LICENSE.txt"
 download: "https://github.com/yaroshevych/desktopctl/releases"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

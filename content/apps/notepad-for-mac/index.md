@@ -12,6 +12,8 @@ website: "https://github.com/SimonSmb30/notepad_for_mac"
 license: "MIT"
 licenseUrl: "https://github.com/SimonSmb30/notepad_for_mac/blob/main/LICENSE"
 download: "https://github.com/SimonSmb30/notepad_for_mac/releases"
+macos: "15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,9 @@ website: https://v2rayn.2dust.link
 license: GPL-3.0
 licenseUrl: https://github.com/2dust/v2rayN/blob/master/LICENSE
 download: https://github.com/2dust/v2rayN/releases
+macos: "13.6"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

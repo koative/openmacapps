@@ -12,6 +12,8 @@ website: https://folder-forge.vercel.app/
 license: "MIT"
 licenseUrl: https://github.com/KeplSiv/FolderForge/blob/main/LICENSE
 download: https://github.com/KeplSiv/FolderForge/releases
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-29'

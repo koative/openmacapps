@@ -11,6 +11,7 @@ website: "https://arayofsunshine.dev/littleclean"
 license: "MIT"
 licenseUrl: "https://github.com/leibnizli/LittleClean/blob/main/LICENSE"
 download: "https://github.com/leibnizli/LittleClean/releases/download/1.9.1/LittleClean.zip"
+macos: "14"
 freeDownload: true
 featured: false
 added: "2026-11-06"

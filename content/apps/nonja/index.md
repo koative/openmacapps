@@ -11,6 +11,9 @@ website: "https://nonja.kkweb.io"
 license: "MIT"
 licenseUrl: "https://github.com/piro0919/nonja/blob/main/LICENSE"
 download: "https://github.com/piro0919/nonja/releases"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

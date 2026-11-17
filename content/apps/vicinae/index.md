@@ -9,6 +9,9 @@ website: "https://vicinae.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/vicinaehq/vicinae/blob/main/LICENSE"
 download: "https://docs.vicinae.com/install/macos"
+macos: "14.4"
+arch: apple-silicon
+notarized: true
 homebrew: "vicinae"
 freeDownload: true
 featured: false

@@ -11,6 +11,9 @@ website: "https://github.com/MaxSphinx/FaceLock"
 license: "MIT"
 licenseUrl: "https://github.com/MaxSphinx/FaceLock/blob/main/LICENSE"
 download: "https://github.com/MaxSphinx/FaceLock/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

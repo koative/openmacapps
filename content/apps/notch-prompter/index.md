@@ -11,6 +11,9 @@ website: https://notchprompter.com
 license: LicenseRef-NotchPrompter
 licenseUrl: https://github.com/jpomykala/NotchPrompter/blob/main/LICENSE
 download: https://github.com/jpomykala/NotchPrompter/releases
+macos: "14.6"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: 2026-10-17

@@ -11,6 +11,7 @@ website: https://www.zotero.org/
 license: "AGPL-3.0-or-later"
 licenseUrl: https://github.com/zotero/zotero/blob/main/COPYING
 download: https://www.zotero.org/download/
+macos: "10.15"
 freeDownload: true
 homebrew: "zotero"
 featured: false

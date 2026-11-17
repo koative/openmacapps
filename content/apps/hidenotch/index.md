@@ -11,6 +11,8 @@ website: "https://hidenotch.app"
 license: "MIT"
 licenseUrl: "https://github.com/niklasravnsborg/HideNotch/blob/main/LICENSE"
 download: "https://github.com/niklasravnsborg/HideNotch/releases/latest"
+macos: "26"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

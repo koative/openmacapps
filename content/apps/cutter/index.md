@@ -13,6 +13,8 @@ website: https://cutter.re
 license: "GPL-3.0"
 licenseUrl: https://github.com/rizinorg/cutter/blob/dev/COPYING
 download: https://github.com/rizinorg/cutter/releases/latest
+arch: both
+notarized: false
 homebrew: "cutter"
 freeDownload: true
 featured: false

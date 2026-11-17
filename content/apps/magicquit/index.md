@@ -10,6 +10,9 @@ website: https://github.com/BigBerny/magicquit
 license: "GPL-3.0"
 licenseUrl: https://github.com/BigBerny/magicquit/blob/main/LICENSE
 download: https://github.com/BigBerny/magicquit/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

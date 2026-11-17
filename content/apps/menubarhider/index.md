@@ -12,6 +12,8 @@ website: "https://github.com/happy666End/MenuBarHider"
 license: "MIT"
 licenseUrl: "https://github.com/happy666End/MenuBarHider/blob/main/LICENSE"
 download: "https://github.com/happy666End/MenuBarHider/releases/latest"
+macos: "27"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

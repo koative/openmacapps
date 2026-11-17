@@ -14,6 +14,9 @@ website: "https://commitplus.app"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/Commit-Plus/commit-plus/blob/main/LICENSE"
 download: "https://github.com/Commit-Plus/commit-plus/releases/latest"
+macos: "26.2"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

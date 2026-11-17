@@ -12,6 +12,7 @@ website: "https://pintonotes.com"
 license: "MIT"
 licenseUrl: "https://github.com/pinto-notes/pinto-notes/blob/main/LICENSE"
 download: "https://pintonotes.com/download"
+macos: "26"
 freeDownload: true
 featured: false
 added: "2026-11-06"

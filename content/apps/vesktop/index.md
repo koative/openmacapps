@@ -13,6 +13,7 @@ website: https://vesktop.dev
 license: "GPL-3.0"
 licenseUrl: https://github.com/Vencord/Vesktop/blob/main/LICENSE
 download: https://vesktop.dev/install/mac/
+arch: both
 homebrew: "vesktop"
 freeDownload: true
 featured: false

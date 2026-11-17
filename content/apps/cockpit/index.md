@@ -12,6 +12,8 @@ website: "https://yorben.me"
 license: "MIT"
 licenseUrl: "https://github.com/Yvsleyen00941/Cockpit/blob/main/LICENSE"
 download: "https://github.com/Yvsleyen00941/Cockpit/releases/download/v1.0.0/Cockpit-macOS-v1.0.0.zip"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

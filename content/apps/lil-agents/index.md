@@ -12,6 +12,9 @@ website: "https://lilagents.xyz"
 license: "MIT"
 licenseUrl: "https://github.com/ryanstephen/lil-agents/blob/main/LICENSE"
 download: "https://github.com/ryanstephen/lil-agents/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

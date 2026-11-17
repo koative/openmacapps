@@ -14,6 +14,9 @@ website: "https://nathan-poncet.github.io/whisk/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/nathan-poncet/whisk/blob/main/LICENSE"
 download: "https://github.com/nathan-poncet/whisk/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

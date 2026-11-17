@@ -13,6 +13,8 @@ website: https://86box.net
 license: "GPL-2.0"
 licenseUrl: https://github.com/86Box/86Box/blob/master/COPYING
 download: https://github.com/86Box/86Box/releases
+macos: "10.14"
+arch: both
 homebrew: "86box"
 freeDownload: true
 featured: false

@@ -12,6 +12,8 @@ website: https://gpodder.github.io
 license: GPL-3.0-or-later
 licenseUrl: https://github.com/gpodder/gpodder/blob/master/COPYING
 download: https://github.com/gpodder/gpodder/releases
+arch: intel
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

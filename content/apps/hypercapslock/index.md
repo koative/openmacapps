@@ -12,6 +12,9 @@ website: "https://github.com/XueshiQiao/HyperCapslock"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/XueshiQiao/HyperCapslock/blob/main/LICENSE"
 download: "https://github.com/XueshiQiao/HyperCapslock/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

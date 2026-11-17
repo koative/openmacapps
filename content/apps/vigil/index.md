@@ -12,6 +12,9 @@ website: "https://butterlatte-zhang.github.io/vigil/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/butterlatte-zhang/vigil/blob/main/LICENSE"
 download: "https://github.com/butterlatte-zhang/vigil/releases/latest/download/Vigil-macos.dmg"
+macos: "14"
+arch: apple-silicon
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

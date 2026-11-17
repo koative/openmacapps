@@ -14,6 +14,8 @@ website: "https://mimer.hasanjafri.com/"
 license: "MIT"
 licenseUrl: "https://github.com/hasanjafri/Mimer/blob/main/LICENSE"
 download: "https://github.com/hasanjafri/Mimer/releases/latest"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

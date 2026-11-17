@@ -11,6 +11,9 @@ website: https://mikkelmalmberg.com/apps
 license: MIT
 licenseUrl: https://github.com/mikker/LeaderKey/blob/main/LICENSE
 download: https://github.com/mikker/LeaderKey/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "leader-key"
 featured: false

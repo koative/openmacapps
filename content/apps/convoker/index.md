@@ -11,6 +11,8 @@ website: "https://github.com/varie-ai/convoker"
 license: "MIT"
 licenseUrl: "https://github.com/varie-ai/convoker/blob/main/LICENSE"
 download: "https://github.com/varie-ai/convoker/releases/download/v0.5.0/Convoker-0.5.0.dmg"
+macos: "14"
+arch: both
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

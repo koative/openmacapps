@@ -13,6 +13,9 @@ sourceAvailability: "source-available"
 licenseNotes: "Swifty Download Manager uses the Functional Source License 1.1 with an MIT future license. You may use, study, change and redistribute the code for any permitted purpose, but not offer it as a competing commercial product or service. Each version becomes available under the MIT license two years after it is made available. The app name, icons and visual identity are excluded from the code license and remain reserved by the author."
 licenseUrl: "https://github.com/Kyle-Ye/SwiftyDownloadManager/blob/main/LICENSE.md"
 download: "https://github.com/Kyle-Ye/SwiftyDownloadManager/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

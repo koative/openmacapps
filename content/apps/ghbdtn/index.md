@@ -12,6 +12,8 @@ website: "https://github.com/achubnet/Ghbdtn"
 license: "MIT"
 licenseUrl: "https://github.com/achubnet/Ghbdtn/blob/main/LICENSE"
 download: "https://github.com/achubnet/Ghbdtn/releases/download/v1.1/Ghbdtn-1.1.dmg"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

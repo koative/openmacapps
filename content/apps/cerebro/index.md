@@ -9,6 +9,9 @@ website: "https://www.cerebroapp.com"
 license: "MIT"
 licenseUrl: "https://github.com/cerebroapp/cerebro/blob/master/LICENSE"
 download: "https://github.com/cerebroapp/cerebro/releases"
+macos: "10.13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

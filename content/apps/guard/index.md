@@ -12,6 +12,8 @@ website: "https://guard-app.net"
 license: "MIT"
 licenseUrl: "https://github.com/FaisalFehad/Guard/blob/main/LICENSE"
 download: "https://github.com/FaisalFehad/Guard/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

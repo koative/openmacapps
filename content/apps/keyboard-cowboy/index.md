@@ -14,6 +14,9 @@ website: https://github.com/zenangst/KeyboardCowboy
 license: MIT
 licenseUrl: https://github.com/zenangst/KeyboardCowboy/blob/main/LICENSE.md
 download: https://github.com/zenangst/KeyboardCowboy/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "keyboard-cowboy"
 featured: false

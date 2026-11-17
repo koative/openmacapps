@@ -12,6 +12,8 @@ website: "https://github.com/Ljove02/AIT-AiTranscribe-MacOS"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/Ljove02/AIT-AiTranscribe-MacOS/blob/main/LICENSE"
 download: "https://github.com/Ljove02/AIT-AiTranscribe-MacOS/releases/latest"
+macos: "13"
+notarized: false
 freeDownload: false
 featured: false
 added: "2026-11-06"

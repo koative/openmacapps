@@ -11,6 +11,9 @@ website: "https://www.finchgram.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/FinchGram/FinchGram/blob/main/LICENSE"
 download: "https://github.com/FinchGram/FinchGram/releases/latest"
+macos: "12"
+arch: apple-silicon
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

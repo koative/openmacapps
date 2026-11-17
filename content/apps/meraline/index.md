@@ -12,6 +12,7 @@ website: "https://github.com/Meldiron/meraline"
 license: "MIT"
 licenseUrl: "https://github.com/Meldiron/meraline/blob/main/LICENSE"
 download: "https://github.com/Meldiron/meraline/releases/latest"
+macos: "26"
 freeDownload: true
 featured: false
 added: "2026-11-06"

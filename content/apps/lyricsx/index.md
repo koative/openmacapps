@@ -11,6 +11,9 @@ website: "https://github.com/ddddxxx/LyricsX"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/ddddxxx/LyricsX/blob/master/LICENSE"
 download: "https://github.com/ddddxxx/LyricsX/releases"
+macos: "10.11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "lyricsx"
 featured: false

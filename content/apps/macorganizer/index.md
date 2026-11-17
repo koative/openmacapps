@@ -11,6 +11,9 @@ website: "https://github.com/shubhambatra3019/macOrganizer"
 license: "MIT"
 licenseUrl: "https://github.com/shubhambatra3019/macOrganizer/blob/master/LICENSE.md"
 download: "https://github.com/shubhambatra3019/macOrganizer/releases/download/v1.0/macOrganizer.zip"
+macos: "10.13"
+arch: both
+notarized: false
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No commit since July 2018 (checked 2026-11-06)."

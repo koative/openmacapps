@@ -12,6 +12,8 @@ website: https://sanesales.com
 license: MIT
 licenseUrl: https://github.com/sane-apps/SaneSales/blob/main/LICENSE
 download: https://sanesales.com
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

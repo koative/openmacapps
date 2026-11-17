@@ -9,6 +9,8 @@ website: "https://www.blender.org/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/blender/blender/blob/main/doc/license/GPL3-license.txt"
 download: "https://www.blender.org/download/"
+macos: "13"
+arch: both
 freeDownload: true
 homebrew: "blender"
 featured: false

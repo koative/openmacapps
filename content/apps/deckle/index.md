@@ -12,6 +12,9 @@ website: https://kelvanic.com/products/deckle/
 license: "MIT"
 licenseUrl: https://github.com/Kelvanic/deckle/blob/dev/LICENSE
 download: https://github.com/Kelvanic/deckle/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

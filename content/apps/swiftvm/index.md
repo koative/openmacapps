@@ -14,6 +14,8 @@ website: "https://swiftvm.app"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/swiftvm-app/swiftvm/blob/main/LICENSE"
 download: "https://github.com/swiftvm-app/swiftvm/releases"
+macos: "27"
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

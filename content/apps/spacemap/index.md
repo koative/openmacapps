@@ -13,6 +13,9 @@ website: "https://github.com/renkagod/spacemap"
 license: "MIT"
 licenseUrl: "https://github.com/renkagod/spacemap/blob/main/LICENSE"
 download: "https://github.com/renkagod/spacemap/releases/latest/download/SpaceMap-macOS.zip"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

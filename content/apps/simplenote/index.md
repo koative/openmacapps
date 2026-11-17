@@ -16,6 +16,7 @@ website: https://simplenote.com
 license: "GPL-2.0"
 licenseUrl: https://github.com/Automattic/simplenote-macos/blob/trunk/LICENSE.md
 download: https://apps.apple.com/us/app/simplenote/id692867256
+macos: "12"
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -8,6 +8,8 @@ website: "https://www.freeplane.org/"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/freeplane/freeplane/blob/1.13.x/license.txt"
 download: "https://github.com/freeplane/freeplane/releases"
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

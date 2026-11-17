@@ -15,6 +15,8 @@ website: https://github.com/tidiemme/monitorbar
 license: "MIT"
 licenseUrl: https://github.com/tidiemme/monitorbar/blob/main/LICENSE
 download: https://github.com/tidiemme/monitorbar/releases
+macos: "12"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

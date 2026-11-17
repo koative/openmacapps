@@ -9,6 +9,8 @@ website: "https://iina.io"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/iina/iina/blob/develop/LICENSE"
 download: "https://github.com/iina/iina/releases"
+macos: "12"
+arch: both
 freeDownload: true
 homebrew: "iina"
 featured: true

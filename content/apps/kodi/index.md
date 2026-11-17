@@ -9,6 +9,9 @@ website: "https://kodi.tv"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/xbmc/xbmc/blob/master/LICENSE.md"
 download: "https://kodi.tv/download/macos"
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "kodi"
 featured: false

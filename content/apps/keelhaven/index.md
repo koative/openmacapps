@@ -12,6 +12,9 @@ website: "https://keelhaven.app"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/shenxianpeng/keelhaven/blob/main/LICENSE"
 download: "https://github.com/shenxianpeng/keelhaven/releases/download/v0.9.2/Keelhaven-0.9.2.dmg"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

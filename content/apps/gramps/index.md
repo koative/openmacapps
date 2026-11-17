@@ -12,6 +12,9 @@ website: https://gramps-project.org
 license: GPL-2.0-or-later
 licenseUrl: https://github.com/gramps-project/gramps/blob/maintenance/gramps61/COPYING
 download: https://github.com/gramps-project/gramps/releases
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "gramps"
 featured: false

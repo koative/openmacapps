@@ -9,6 +9,8 @@ website: "https://github.com/emgeorrk/pulse"
 license: "MIT"
 licenseUrl: "https://github.com/emgeorrk/pulse/blob/main/LICENSE"
 download: "https://github.com/emgeorrk/pulse/releases"
+macos: "13"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

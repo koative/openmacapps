@@ -14,6 +14,9 @@ sourceAvailability: "source-available"
 licenseNotes: "CC BY-NC-SA 4.0, a Creative Commons licence written for content rather than software. You may use, share and adapt the code for noncommercial purposes if you give credit and license your adaptations under the same terms. Commercial use is not allowed."
 licenseUrl: "https://github.com/sonor-studio/VisorPro/blob/main/LICENSE.txt"
 download: "https://github.com/sonor-studio/VisorPro/releases"
+macos: "14"
+arch: both
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

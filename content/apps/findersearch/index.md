@@ -12,6 +12,9 @@ website: "https://github.com/zeusinsight/FinderSearch"
 license: "MIT"
 licenseUrl: "https://github.com/zeusinsight/FinderSearch/blob/main/LICENSE"
 download: "https://github.com/zeusinsight/FinderSearch/releases"
+macos: "15"
+arch: both
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

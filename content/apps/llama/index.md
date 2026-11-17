@@ -14,6 +14,8 @@ website: https://llama.app
 license: "MIT"
 licenseUrl: https://github.com/ggml-org/Llama-macOS/blob/main/LICENSE
 download: https://github.com/ggml-org/Llama-macOS/releases
+macos: "15"
+arch: apple-silicon
 homebrew: "llama-app"
 freeDownload: true
 featured: false

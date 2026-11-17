@@ -15,6 +15,7 @@ website: https://www.browseros.com
 license: "AGPL-3.0"
 licenseUrl: https://github.com/browseros-ai/BrowserOS/blob/main/LICENSE
 download: https://github.com/browseros-ai/BrowserOS/releases
+arch: both
 homebrew: "browseros"
 freeDownload: true
 featured: false

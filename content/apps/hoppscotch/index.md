@@ -9,6 +9,8 @@ website: "https://hoppscotch.io"
 license: "MIT"
 licenseUrl: "https://github.com/hoppscotch/hoppscotch/blob/main/LICENSE"
 download: "https://docs.hoppscotch.io/documentation/clients/desktop/overview#download-hoppscotch-desktop-app"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-10-17"

@@ -12,6 +12,9 @@ website: "https://github.com/nbolar/PlayStatus"
 license: "MIT"
 licenseUrl: "https://github.com/nbolar/PlayStatus/blob/master/LICENSE"
 download: "https://github.com/nbolar/PlayStatus/releases/latest"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -12,6 +12,7 @@ website: "https://wongsiufool.github.io/sidekey/"
 license: "MIT"
 licenseUrl: "https://github.com/wongsiufool/sidekey/blob/main/LICENSE.txt"
 download: "https://github.com/wongsiufool/sidekey/releases/download/v1.1.0/Sidekey-macOS.dmg"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

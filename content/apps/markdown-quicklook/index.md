@@ -12,6 +12,9 @@ website: "https://github.com/ruspg/markdown-quicklook"
 license: "MIT"
 licenseUrl: "https://github.com/ruspg/markdown-quicklook/blob/main/LICENSE"
 download: "https://github.com/ruspg/markdown-quicklook/releases/download/v2.1.0/markdown-quicklook-v2.1.0-macos-universal.zip"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

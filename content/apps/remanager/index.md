@@ -8,6 +8,7 @@ website: "https://remanager.io"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/rmitchellscott/reManager/blob/main/LICENSE"
 download: "https://github.com/rmitchellscott/reManager/releases"
+arch: both
 homebrew: "remanager"
 freeDownload: true
 featured: false

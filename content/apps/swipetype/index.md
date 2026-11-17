@@ -11,6 +11,9 @@ website: "https://swipetype.zimengxiong.com"
 license: "MIT"
 licenseUrl: "https://github.com/ZimengXiong/swipeType/blob/master/LICENSE"
 download: "https://github.com/ZimengXiong/swipeType/releases"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

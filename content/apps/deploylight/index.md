@@ -12,6 +12,9 @@ website: "https://deploylight.akim.workers.dev/"
 license: "MIT"
 licenseUrl: "https://github.com/andrewk17/deploylight/blob/main/LICENSE"
 download: "https://github.com/andrewk17/deploylight/releases"
+macos: "13"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

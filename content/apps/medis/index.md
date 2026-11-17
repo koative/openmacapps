@@ -8,6 +8,8 @@ website: "https://getmedis.com"
 license: "MIT"
 licenseUrl: "https://github.com/luin/medis/blob/master/LICENSE"
 download: "https://github.com/luin/medis/releases"
+macos: "12"
+arch: intel
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release since February 2017."

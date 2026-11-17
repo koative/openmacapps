@@ -11,6 +11,7 @@ website: "https://future-os.cn"
 license: "MIT"
 licenseUrl: "https://github.com/futuregene/future-os/blob/main/LICENSE"
 download: "https://github.com/futuregene/future-os/releases/download/v2.0.1/FutureOS_2.0.1_aarch64.dmg"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

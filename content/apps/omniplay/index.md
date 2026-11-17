@@ -13,6 +13,8 @@ website: "https://github.com/nandieling/OmniPlay"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/nandieling/OmniPlay/blob/main/LICENSE"
 download: "https://github.com/nandieling/OmniPlay/releases/download/1.10/OmniPlay-1.10-mac-arm64.dmg"
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

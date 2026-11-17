@@ -15,6 +15,8 @@ website: https://www.dayflow.so/
 license: MIT
 licenseUrl: https://github.com/JerryZLiu/Dayflow/blob/main/LICENSE
 download: https://github.com/JerryZLiu/Dayflow/releases
+macos: "14"
+arch: apple-silicon
 freeDownload: true
 homebrew: "dayflow"
 featured: false

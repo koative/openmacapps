@@ -14,6 +14,9 @@ website: "https://sameerbajaj.com/tools/macyt/"
 license: "MIT"
 licenseUrl: "https://github.com/sameerbajaj/MacYT/blob/main/LICENSE"
 download: "https://github.com/sameerbajaj/MacYT/releases/latest"
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

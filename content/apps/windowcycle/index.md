@@ -12,6 +12,9 @@ website: "https://github.com/WhiteMinds/window-cycle"
 license: "MIT"
 licenseUrl: "https://github.com/WhiteMinds/window-cycle/blob/main/LICENSE"
 download: "https://github.com/WhiteMinds/window-cycle/releases/download/v0.2.0/WindowCycle-0.2.0.dmg"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

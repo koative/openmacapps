@@ -11,6 +11,7 @@ website: https://www.kicad.org/
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/KiCad/kicad-source-mirror/blob/master/LICENSE
 download: https://www.kicad.org/download/macos/
+macos: "12"
 freeDownload: true
 homebrew: "kicad"
 featured: false

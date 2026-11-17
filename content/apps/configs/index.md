@@ -12,6 +12,9 @@ website: https://github.com/iHongRen/configEditor
 license: "Apache-2.0"
 licenseUrl: https://github.com/iHongRen/configEditor/blob/main/LICENSE
 download: https://github.com/iHongRen/configEditor/releases
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -16,6 +16,9 @@ website: "https://kernel-hunter.github.io/boost/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Kernel-Hunter/boost/blob/main/LICENSE"
 download: "https://github.com/Kernel-Hunter/boost/releases/download/v1.5.0/Boost.zip"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

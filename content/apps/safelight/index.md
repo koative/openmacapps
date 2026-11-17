@@ -13,6 +13,9 @@ website: "https://github.com/mopfaff/Safelight"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/mopfaff/Safelight/blob/main/LICENSE"
 download: "https://github.com/mopfaff/Safelight/releases/latest"
+macos: "15.5"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

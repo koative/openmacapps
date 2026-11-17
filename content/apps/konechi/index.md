@@ -11,6 +11,9 @@ website: "https://konechi.kkweb.io/"
 license: "MIT"
 licenseUrl: "https://github.com/piro0919/konechi/blob/main/LICENSE"
 download: "https://github.com/piro0919/konechi/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

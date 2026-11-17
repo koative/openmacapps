@@ -11,6 +11,8 @@ website: https://www.prusa3d.com/page/prusaslicer_424/
 license: AGPL-3.0
 licenseUrl: https://github.com/prusa3d/PrusaSlicer/blob/master/LICENSE
 download: https://github.com/prusa3d/PrusaSlicer/releases
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "prusaslicer"
 featured: false

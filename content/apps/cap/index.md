@@ -17,6 +17,9 @@ website: https://cap.so
 license: AGPL-3.0
 licenseUrl: https://github.com/CapSoftware/Cap/blob/main/LICENSE
 download: https://cap.so/download
+macos: "13.1"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "cap"
 icon: ./assets/icon.png

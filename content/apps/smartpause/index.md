@@ -12,6 +12,9 @@ website: "https://smartpause.yasinozmeen.me"
 license: "MIT"
 licenseUrl: "https://github.com/yasinozmeen/smartpause/blob/main/LICENSE"
 download: "https://github.com/yasinozmeen/smartpause/releases/latest"
+macos: "14.2"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

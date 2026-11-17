@@ -11,6 +11,8 @@ website: https://xbarapp.com
 license: MIT
 licenseUrl: https://github.com/matryer/xbar/blob/main/LICENSE.txt
 download: https://github.com/matryer/xbar/releases
+arch: both
+notarized: true
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release since October 2021 and no commit since September 2024."

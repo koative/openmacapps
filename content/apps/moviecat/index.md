@@ -12,6 +12,7 @@ website: "https://moviecat.org"
 license: "MIT"
 licenseUrl: "https://github.com/FredrikBorgstrom/moviecat/blob/main/LICENSE"
 download: "https://github.com/FredrikBorgstrom/moviecat/releases/latest/download/MovieCat-macos.zip"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,8 @@ website: "https://chang-07.github.io/rascal/"
 license: "MIT"
 licenseUrl: "https://github.com/chang-07/rascal/blob/main/LICENSE"
 download: "https://github.com/chang-07/rascal/releases/latest"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

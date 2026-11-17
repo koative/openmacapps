@@ -136,6 +136,16 @@ export const appSchema = z
     maintenanceNote: z.string().trim().min(10).optional(),
     licenseUrl: httpsUrl,
     download: httpsUrl,
+    // Requirements of the current official download, as checked in the bundle or stated upstream; omit when unknown.
+    macos: z
+      .string()
+      .regex(
+        /^(?:10\.\d{1,2}|(?:1[1-9]|2\d)(?:\.\d{1,2})?)$/,
+        'Use the minimum macOS version, quoted: "14", "13.5" or "10.15"',
+      )
+      .optional(),
+    arch: z.enum(['apple-silicon', 'intel', 'both']).optional(),
+    notarized: z.boolean().optional(),
     // True once the official macOS download has been checked and costs nothing; false when it is paid.
     freeDownload: z.boolean().optional(),
     // Kept by `bun run homebrew`: only casks pointing at this app's repository or website.

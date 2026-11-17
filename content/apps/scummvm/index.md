@@ -8,6 +8,8 @@ website: "https://www.scummvm.org"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/scummvm/scummvm/blob/master/COPYING"
 download: "https://www.scummvm.org/downloads"
+macos: "10.13"
+arch: both
 freeDownload: true
 homebrew: "scummvm-app"
 featured: false

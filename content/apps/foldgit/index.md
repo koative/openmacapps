@@ -14,6 +14,9 @@ website: "https://foldgit.com"
 license: "MIT"
 licenseUrl: "https://github.com/dufu1991/foldgit/blob/main/LICENSE"
 download: "https://github.com/dufu1991/foldgit/releases/download/v0.5.0/FoldGit-macOS-arm64.dmg"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,8 @@ website: "https://ops-manual.akakika.com"
 license: "MIT"
 licenseUrl: "https://github.com/aka-kika/personal-ops-manual/blob/main/LICENSE"
 download: "https://github.com/aka-kika/personal-ops-manual/releases/latest"
+macos: "26"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

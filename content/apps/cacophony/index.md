@@ -11,6 +11,8 @@ website: "https://github.com/stonerl/cacophony"
 license: "MIT"
 licenseUrl: "https://github.com/stonerl/cacophony/blob/main/LICENSE"
 download: "https://github.com/stonerl/cacophony/releases/latest"
+macos: "26"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

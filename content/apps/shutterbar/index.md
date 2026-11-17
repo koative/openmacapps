@@ -14,6 +14,8 @@ website: "https://github.com/mucahitimre/Shutterbar"
 license: "MIT"
 licenseUrl: "https://github.com/mucahitimre/Shutterbar/blob/main/LICENSE"
 download: "https://github.com/mucahitimre/Shutterbar/releases/latest"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

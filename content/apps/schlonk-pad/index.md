@@ -11,6 +11,9 @@ website: "https://github.com/crux/schlonk-pad"
 license: "MIT"
 licenseUrl: "https://github.com/crux/schlonk-pad/blob/main/LICENSE"
 download: "https://github.com/crux/schlonk-pad/releases"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

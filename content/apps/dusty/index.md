@@ -16,6 +16,9 @@ website: "https://toprak.sh/dusty"
 license: "MIT"
 licenseUrl: "https://github.com/yagcioglutoprak/dusty/blob/main/LICENSE"
 download: "https://github.com/yagcioglutoprak/dusty/releases"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

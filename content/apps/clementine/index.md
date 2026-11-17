@@ -8,6 +8,9 @@ website: "https://www.clementine-player.org/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/clementine-player/Clementine/blob/master/COPYING"
 download: "https://github.com/clementine-player/Clementine/releases"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 homebrew: "clementine"
 featured: false

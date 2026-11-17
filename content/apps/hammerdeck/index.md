@@ -12,6 +12,9 @@ website: "https://hammerdeck.peach-studio.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/kouxing2000/hammerdeck/blob/master/LICENSE"
 download: "https://github.com/kouxing2000/hammerdeck/releases/download/v0.3.2/Hammerdeck-0.3.2.dmg"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

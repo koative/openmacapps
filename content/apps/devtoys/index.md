@@ -8,6 +8,9 @@ website: "https://devtoys.app"
 license: "MIT"
 licenseUrl: "https://github.com/DevToys-app/DevToys/blob/main/LICENSE.md"
 download: "https://devtoys.app/download"
+macos: "12"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "devtoys"
 featured: false

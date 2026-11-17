@@ -12,6 +12,9 @@ website: "https://ixiehao.github.io/LumaView/"
 license: "MIT"
 licenseUrl: "https://github.com/ixiehao/LumaView/blob/main/LICENSE"
 download: "https://github.com/ixiehao/LumaView/releases"
+macos: "12"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

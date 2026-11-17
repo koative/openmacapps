@@ -13,6 +13,9 @@ website: "https://yorben.me/tape/"
 license: "MIT"
 licenseUrl: "https://github.com/Yvsleyen00941/Tape/blob/main/LICENSE"
 download: "https://github.com/Yvsleyen00941/Tape/releases/latest"
+macos: "26"
+arch: both
+notarized: false
 homebrew: "yvsleyen00941/tap/tape"
 freeDownload: true
 featured: false

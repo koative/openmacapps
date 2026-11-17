@@ -9,6 +9,9 @@ website: "https://pdfsam.org/"
 license: "AGPL-3.0-or-later"
 licenseUrl: "https://github.com/torakiki/pdfsam/blob/master/LICENSE"
 download: "https://github.com/torakiki/pdfsam/releases"
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "pdfsam-basic"
 featured: false

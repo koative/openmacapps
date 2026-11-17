@@ -14,6 +14,8 @@ website: "https://yalqen.com"
 license: "MIT"
 licenseUrl: "https://github.com/YSamed/yalqen/blob/main/LICENSE"
 download: "https://github.com/YSamed/yalqen/releases/download/v0.3.86/Yalqen-0.3.86-arm64.dmg"
+macos: "13"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

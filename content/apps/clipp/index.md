@@ -12,6 +12,9 @@ website: "https://github.com/martona/clipp"
 license: "MIT"
 licenseUrl: "https://github.com/martona/clipp/blob/master/LICENSE.md"
 download: "https://github.com/martona/clipp/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -14,6 +14,9 @@ website: "https://github.com/fexxdev/Mystral"
 license: "MIT"
 licenseUrl: "https://github.com/fexxdev/Mystral/blob/main/LICENSE"
 download: "https://github.com/fexxdev/Mystral/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

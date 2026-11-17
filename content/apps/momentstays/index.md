@@ -12,6 +12,9 @@ website: "https://momentstays.linofish.com/"
 license: "GPL-3.0-only"
 licenseUrl: "https://github.com/LinoFish/MomentStays/blob/main/LICENSE"
 download: "https://github.com/LinoFish/MomentStays/releases"
+macos: "12"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

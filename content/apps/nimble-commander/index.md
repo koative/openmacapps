@@ -11,6 +11,8 @@ website: https://magnumbytes.com
 license: "GPL-3.0"
 licenseUrl: https://github.com/mikekazakov/nimble-commander/blob/main/LICENSE.md
 download: https://github.com/mikekazakov/nimble-commander/releases
+macos: "12"
+notarized: true
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "The developer says it is no longer actively maintained; the last release, 1.9.0, came out in November 2026."

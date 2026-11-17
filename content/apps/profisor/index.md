@@ -12,6 +12,8 @@ website: "https://github.com/yefga/Profisor"
 license: "MIT"
 licenseUrl: "https://github.com/yefga/Profisor/blob/main/LICENSE"
 download: "https://github.com/yefga/Profisor/releases"
+macos: "12"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

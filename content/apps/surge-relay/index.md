@@ -11,6 +11,8 @@ website: "https://github.com/EEliberto/SurgeRelay-macOS"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/EEliberto/SurgeRelay-macOS/blob/main/LICENSE"
 download: "https://github.com/EEliberto/SurgeRelay-macOS/releases/latest"
+macos: "26"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -9,6 +9,9 @@ website: "https://protonvpn.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/ProtonVPN/ios-mac-app/blob/develop/LICENSE"
 download: "https://protonvpn.com/download-macos"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "protonvpn"
 featured: false

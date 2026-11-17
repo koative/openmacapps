@@ -12,6 +12,8 @@ website: "https://jazzyalex.github.io/stargazer-bar/"
 license: "BSD-3-Clause"
 licenseUrl: "https://github.com/jazzyalex/stargazer-bar/blob/main/LICENSE"
 download: "https://github.com/jazzyalex/stargazer-bar/releases/download/v0.7.1/Stargazer-Bar-0.7.1.dmg"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -8,6 +8,8 @@ website: "https://stellarium.org/"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/Stellarium/stellarium/blob/master/COPYING"
 download: "https://github.com/Stellarium/stellarium/releases"
+macos: "11"
+arch: both
 freeDownload: true
 homebrew: "stellarium"
 featured: false

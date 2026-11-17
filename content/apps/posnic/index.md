@@ -13,6 +13,7 @@ license: "AGPL-3.0-only"
 licenseNotes: "Posnic's own source is AGPL-3.0-only. Desktop packages also bundle MongoDB Community Server under SSPL-1.0. The bundled frontend includes amCharts 4, which is commercially licensed, and icon sets under CC BY-SA (Dripicons and Typicons artwork); see THIRD-PARTY-NOTICES.md."
 licenseUrl: "https://github.com/Posnic/POS/blob/develop/LICENSE"
 download: "https://github.com/Posnic/POS/releases/download/v1.9.0/Posnic-1.9.0-macos-arm64.dmg"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

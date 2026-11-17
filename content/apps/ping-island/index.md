@@ -12,6 +12,7 @@ website: https://erha19.github.io/ping-island/
 license: "Apache-2.0"
 licenseUrl: https://github.com/erha19/ping-island/blob/main/LICENSE.md
 download: https://github.com/erha19/ping-island/releases/latest
+macos: "14"
 homebrew: "ping-island"
 freeDownload: true
 featured: false

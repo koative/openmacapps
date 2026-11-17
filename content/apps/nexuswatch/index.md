@@ -13,6 +13,8 @@ website: https://skyrimtools.com
 license: MIT
 licenseUrl: https://github.com/starbudweiser/nEXUSWATCH/blob/main/LICENSE
 download: https://github.com/starbudweiser/nEXUSWATCH/releases
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-11-10'

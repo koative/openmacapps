@@ -12,6 +12,8 @@ website: "https://stepanblaha.github.io/Refill/"
 license: "MIT"
 licenseUrl: "https://github.com/StepanBlaha/Refill/blob/main/LICENSE"
 download: "https://github.com/StepanBlaha/Refill/releases"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

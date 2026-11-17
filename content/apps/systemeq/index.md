@@ -8,6 +8,9 @@ website: "https://denzam.github.io/SystemEQ-for-Mac/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/denzam/SystemEQ-for-Mac/blob/main/LICENSE"
 download: "https://github.com/denzam/SystemEQ-for-Mac/releases"
+macos: "14.4"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-10-17"

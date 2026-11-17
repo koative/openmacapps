@@ -11,6 +11,8 @@ website: "https://github.com/nsriram/KubeSwitch"
 license: "MIT"
 licenseUrl: "https://github.com/nsriram/KubeSwitch/blob/master/LICENSE"
 download: "https://github.com/nsriram/KubeSwitch/releases/download/v1.0.1/KubeSwitch.app.zip"
+macos: "10.13"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

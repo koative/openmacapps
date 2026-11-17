@@ -14,6 +14,8 @@ website: https://github.com/mattDavo/Yippy
 license: MIT
 licenseUrl: https://github.com/mattDavo/Yippy/blob/master/LICENSE
 download: https://github.com/mattDavo/Yippy/releases
+macos: "10.13"
+arch: both
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release since June 2021."

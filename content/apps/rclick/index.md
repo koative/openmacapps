@@ -8,6 +8,9 @@ website: "https://github.com/wflixu/RClick"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/wflixu/RClick/blob/main/LICENSE"
 download: "https://github.com/wflixu/RClick/releases"
+macos: "15.6"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-10-17"

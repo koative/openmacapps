@@ -9,6 +9,8 @@ website: "https://mullvad.net"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/mullvad/mullvadvpn-app/blob/main/LICENSE.md"
 download: "https://mullvad.net/download/vpn/macos"
+macos: "15"
+notarized: true
 freeDownload: true
 homebrew: "mullvad-vpn"
 featured: false

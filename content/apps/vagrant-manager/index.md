@@ -13,6 +13,8 @@ licenseUrl: "https://github.com/lanayotech/vagrant-manager/blob/develop/LICENSE.
 maintenance: "unmaintained"
 maintenanceNote: "No release since December 2019 (checked November 2026)."
 download: "https://github.com/lanayotech/vagrant-manager/releases"
+arch: intel
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

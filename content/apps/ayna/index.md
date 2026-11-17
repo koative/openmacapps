@@ -12,6 +12,9 @@ website: "https://github.com/sozercan/ayna"
 license: "MIT"
 licenseUrl: "https://github.com/sozercan/ayna/blob/main/LICENSE"
 download: "https://github.com/sozercan/ayna/releases/latest"
+macos: "26"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

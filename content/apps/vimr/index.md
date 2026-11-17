@@ -12,6 +12,9 @@ website: https://github.com/qvacua/vimr
 license: "MIT"
 licenseUrl: https://github.com/qvacua/vimr/blob/master/LICENSE
 download: https://github.com/qvacua/vimr/releases
+macos: "14.6"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "vimr"
 featured: false

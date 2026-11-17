@@ -13,6 +13,8 @@ website: "https://github.com/pkhorenyan/termstead"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/pkhorenyan/termstead/blob/main/LICENSE"
 download: "https://github.com/pkhorenyan/termstead/releases/download/v0.8.1/Termstead.dmg"
+macos: "14"
+arch: both
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

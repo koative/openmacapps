@@ -1,0 +1,46 @@
+---
+import { Check, Copy } from '@lucide/astro';
+interface Props {
+  text: string;
+  label: string;
+  /** Shows the full text on hover when the line is cut off. */
+  title?: boolean;
+}
+const { text, label, title = false } = Astro.props;
+---
+
+<div class="brew">
+  <code title={title ? text : undefined}>{text}</code>
+  <button
+    class="brew-copy"
+    type="button"
+    data-copy={text}
+    aria-label={label}
+    hidden
+  >
+    <Copy class="brew-copy-idle" size={15} />
+    <Check class="brew-copy-done" size={15} />
+  </button>
+  <span class="sr-only" role="status"></span>
+</div>
+<script>
+  // Without JavaScript the command stays selectable; the copy button needs the Clipboard API.
+  for (const button of document.querySelectorAll<HTMLButtonElement>(
+    '.brew-copy',
+  )) {
+    if (!navigator.clipboard) continue;
+    const status = button.nextElementSibling!;
+    let reset: ReturnType<typeof setTimeout>;
+    button.hidden = false;
+    button.addEventListener('click', async () => {
+      await navigator.clipboard.writeText(button.dataset.copy!);
+      button.classList.add('copied');
+      status.textContent = 'Copied';
+      clearTimeout(reset);
+      reset = setTimeout(() => {
+        button.classList.remove('copied');
+        status.textContent = '';
+      }, 1600);
+    });
+  }
+</script>

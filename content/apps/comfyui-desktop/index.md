@@ -8,6 +8,7 @@ website: "https://www.comfy.org"
 license: "AGPL-3.0-or-later"
 licenseUrl: "https://github.com/Comfy-Org/Comfy-Desktop/blob/main/LICENSE"
 download: "https://www.comfy.org/download"
+arch: apple-silicon
 freeDownload: true
 homebrew: "comfy"
 featured: false

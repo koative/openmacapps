@@ -11,6 +11,9 @@ website: https://github.com/johnste/finicky
 license: MIT
 licenseUrl: https://github.com/johnste/finicky/blob/main/LICENSE
 download: https://github.com/johnste/finicky/releases
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "finicky"
 featured: false

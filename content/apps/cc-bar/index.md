@@ -11,6 +11,8 @@ website: "https://github.com/nanvon/cc-bar"
 license: "MIT"
 licenseUrl: "https://github.com/nanvon/cc-bar/blob/main/LICENSE"
 download: "https://github.com/nanvon/cc-bar/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

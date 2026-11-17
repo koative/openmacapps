@@ -11,6 +11,9 @@ website: https://github.com/sbmpost/AutoRaise
 license: GPL-3.0
 licenseUrl: https://github.com/sbmpost/AutoRaise/blob/master/LICENSE.md
 download: https://github.com/sbmpost/AutoRaise/releases
+macos: "10.15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: 2026-10-17

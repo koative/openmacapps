@@ -13,6 +13,8 @@ website: https://textream.net
 license: MIT
 licenseUrl: https://github.com/f/textream/blob/master/LICENSE
 download: https://github.com/f/textream/releases
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "textream"
 featured: false

@@ -9,6 +9,7 @@ website: "https://amical.ai"
 license: "MIT"
 licenseUrl: "https://github.com/amicalhq/amical/blob/main/LICENSE"
 download: "https://github.com/amicalhq/amical/releases/latest"
+macos: "15"
 homebrew: "amical"
 freeDownload: true
 featured: false

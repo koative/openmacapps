@@ -12,6 +12,9 @@ website: "https://arunprakaash.github.io/mac-tv/"
 license: "MIT"
 licenseUrl: "https://github.com/Arunprakaash/mac-tv/blob/main/LICENSE"
 download: "https://github.com/Arunprakaash/mac-tv/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

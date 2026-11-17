@@ -12,6 +12,9 @@ website: "https://ronaldo-avalos.github.io/Maya/"
 license: "MIT"
 licenseUrl: "https://github.com/ronaldo-avalos/Maya/blob/main/LICENSE"
 download: "https://github.com/ronaldo-avalos/Maya/releases"
+macos: "26.3"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

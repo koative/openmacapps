@@ -11,6 +11,9 @@ website: "https://accountycat.com"
 license: "MIT"
 licenseUrl: "https://github.com/strjonas/AccountyCat/blob/main/LICENSE"
 download: "https://accountycat.com/download"
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

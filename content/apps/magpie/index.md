@@ -12,6 +12,8 @@ website: https://usemagpie.ai
 license: "MIT"
 licenseUrl: https://github.com/yetone/magpie/blob/main/LICENSE
 download: https://github.com/yetone/magpie/releases
+macos: "12"
+notarized: true
 homebrew: "magpie"
 freeDownload: true
 featured: false

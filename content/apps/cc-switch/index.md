@@ -11,6 +11,9 @@ website: "https://ccswitch.io"
 license: "MIT"
 licenseUrl: "https://github.com/farion1231/cc-switch/blob/main/LICENSE"
 download: "https://github.com/farion1231/cc-switch/releases"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "cc-switch"
 featured: false

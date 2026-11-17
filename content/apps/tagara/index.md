@@ -15,6 +15,9 @@ website: "https://mateusfonsek.github.io/tagara/"
 license: "MIT"
 licenseUrl: "https://github.com/mateusfonsek/tagara/blob/main/LICENSE"
 download: "https://github.com/mateusfonsek/tagara/releases"
+macos: "15"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

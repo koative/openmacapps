@@ -9,6 +9,8 @@ website: "https://www.mowglii.com/itsycal/"
 license: "MIT"
 licenseUrl: "https://github.com/sfsam/Itsycal/blob/master/LICENSE.txt"
 download: "https://www.mowglii.com/itsycal/"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "itsycal"
 featured: false

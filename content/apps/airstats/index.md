@@ -9,6 +9,9 @@ website: "https://airstats.app"
 license: "MIT"
 licenseUrl: "https://github.com/byrencheema/airstats/blob/main/LICENSE"
 download: "https://github.com/byrencheema/airstats/releases"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "airstats"
 featured: false

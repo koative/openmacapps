@@ -12,6 +12,8 @@ website: "https://stablebar.app"
 license: "MIT"
 licenseUrl: "https://github.com/Seb-GRAF/StableBar/blob/main/LICENSE"
 download: "https://github.com/Seb-GRAF/StableBar/releases/latest"
+macos: "14"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

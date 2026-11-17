@@ -12,6 +12,9 @@ website: "https://liuzhao1225.github.io/codex-account-switcher/"
 license: "MIT"
 licenseUrl: "https://github.com/liuzhao1225/codex-account-switcher/blob/main/LICENSE"
 download: "https://github.com/liuzhao1225/codex-account-switcher/releases/download/v0.1.27/Codex-Account-Switcher-macos-arm64.dmg"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

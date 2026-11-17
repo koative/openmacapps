@@ -13,6 +13,7 @@ website: https://avogadro.cc
 license: "BSD-3-Clause"
 licenseUrl: https://github.com/OpenChemistry/avogadroapp/blob/master/LICENSE
 download: https://avogadro.cc/install/
+arch: both
 homebrew: "avogadro"
 freeDownload: true
 featured: false

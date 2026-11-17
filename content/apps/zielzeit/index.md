@@ -12,6 +12,9 @@ website: "https://mannafee.github.io/zielzeit-scalable-capital/"
 license: "MIT"
 licenseUrl: "https://github.com/Mannafee/zielzeit-scalable-capital/blob/main/LICENSE"
 download: "https://github.com/Mannafee/zielzeit-scalable-capital/releases/latest"
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

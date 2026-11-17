@@ -12,6 +12,8 @@ website: "https://transcriber.teconomix.net/en/"
 license: "MIT"
 licenseUrl: "https://github.com/teconomix/local-transcriber/blob/main/LICENSE"
 download: "https://github.com/teconomix/local-transcriber/releases/latest"
+macos: "14"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

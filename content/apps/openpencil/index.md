@@ -13,6 +13,8 @@ website: https://openpencil.dev
 license: "MIT"
 licenseUrl: https://github.com/open-pencil/open-pencil/blob/master/LICENSE
 download: https://github.com/open-pencil/open-pencil/releases/latest
+macos: "13"
+arch: both
 homebrew: "openpencil"
 freeDownload: true
 featured: false

@@ -11,6 +11,8 @@ website: https://teebe.io
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/klein-t/teebe/blob/dev/LICENSE
 download: https://github.com/klein-t/teebe/releases
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

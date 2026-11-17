@@ -15,6 +15,9 @@ website: https://samirpatil2000.github.io/products/buffer
 license: "MIT"
 licenseUrl: https://github.com/samirpatil2000/Buffer/blob/main/LICENSE
 download: https://github.com/samirpatil2000/Buffer/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

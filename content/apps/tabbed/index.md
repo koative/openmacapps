@@ -11,6 +11,8 @@ website: "https://github.com/ZimengXiong/tabbed"
 license: "MIT"
 licenseUrl: "https://github.com/ZimengXiong/tabbed/blob/main/LICENSE"
 download: "https://github.com/ZimengXiong/tabbed/releases/download/v0.1.2/Tabbed.app.zip"
+macos: "14"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

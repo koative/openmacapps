@@ -13,6 +13,8 @@ licenseUrl: "https://github.com/aahung/Unshaky/blob/master/LICENSE"
 maintenance: "unmaintained"
 maintenanceNote: "No release since December 2020 and no push since November 2023 (checked November 2026)."
 download: "https://github.com/aahung/Unshaky/releases"
+arch: both
+notarized: true
 homebrew: "unshaky"
 freeDownload: true
 featured: false

@@ -15,6 +15,7 @@ website: https://filezilla-project.org
 license: "GPL-3.0-or-later"
 licenseUrl: https://filezilla-project.org/license.php
 download: https://filezilla-project.org/download.php?platform=osx
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-29'

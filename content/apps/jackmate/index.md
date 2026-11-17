@@ -11,6 +11,9 @@ website: "https://jackmate.app"
 license: "MIT"
 licenseUrl: "https://github.com/zinc75/JackMate/blob/main/LICENSE"
 download: "https://github.com/zinc75/JackMate/releases/download/v2.1.1/JackMate-2.1.1-Installer.dmg"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

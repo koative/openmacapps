@@ -14,6 +14,9 @@ website: "https://github.com/pballada/shinyMac"
 license: "MIT"
 licenseUrl: "https://github.com/pballada/shinyMac/blob/main/LICENSE"
 download: "https://github.com/pballada/shinyMac/releases/download/v0.4.0/ShinyMac-0.4.0.zip"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

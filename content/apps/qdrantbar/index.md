@@ -12,6 +12,9 @@ website: "https://github.com/fr3on/qdrantbar"
 license: "MIT"
 licenseUrl: "https://github.com/fr3on/qdrantbar/blob/main/LICENSE"
 download: "https://github.com/fr3on/qdrantbar/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

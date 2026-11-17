@@ -14,6 +14,9 @@ website: "https://github.com/slawek19926/Vitals"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/slawek19926/Vitals/blob/main/LICENSE"
 download: "https://github.com/slawek19926/Vitals/releases"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,7 @@ website: "https://github.com/echosoar/openmac"
 license: "MIT"
 licenseUrl: "https://github.com/echosoar/openmac/blob/main/LICENSE"
 download: "https://github.com/echosoar/openmac/releases/download/v0.4/openmac-0.4.zip"
+macos: "15"
 freeDownload: true
 featured: false
 added: "2026-11-06"

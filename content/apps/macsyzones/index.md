@@ -14,6 +14,9 @@ website: https://macsyzones.com/
 license: GPL-3.0
 licenseUrl: https://github.com/rohanrhu/MacsyZones/blob/main/LICENSE
 download: https://github.com/rohanrhu/MacsyZones/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "macsyzones"
 featured: false

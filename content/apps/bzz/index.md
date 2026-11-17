@@ -13,6 +13,8 @@ website: "https://zlopixatel.github.io/bzz/"
 license: "MIT"
 licenseUrl: "https://github.com/zlopixatel/bzz/blob/main/LICENSE"
 download: "https://github.com/zlopixatel/bzz/releases"
+macos: "10.15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -13,6 +13,8 @@ website: https://frigade.com/yap
 license: MIT
 licenseUrl: https://github.com/FrigadeHQ/yap/blob/main/LICENSE
 download: https://github.com/FrigadeHQ/yap/releases
+macos: "26"
+notarized: true
 freeDownload: true
 homebrew: "yap-app"
 featured: false

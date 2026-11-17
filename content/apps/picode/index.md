@@ -11,6 +11,7 @@ website: "https://github.com/hieunc229/Pie"
 license: "MIT"
 licenseUrl: "https://github.com/hieunc229/Pie/blob/main/LICENSE"
 download: "https://github.com/hieunc229/Pie/releases/download/1.5.1/Pie-1.5.1.zip"
+macos: "14"
 freeDownload: true
 featured: false
 added: "2026-11-06"

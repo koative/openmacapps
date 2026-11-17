@@ -8,6 +8,9 @@ website: "https://sozercan.github.io/kaset/"
 license: "MIT"
 licenseUrl: "https://github.com/sozercan/kaset/blob/main/LICENSE"
 download: "https://github.com/sozercan/kaset/releases"
+macos: "15.4"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

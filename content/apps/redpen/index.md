@@ -12,6 +12,8 @@ website: "https://redpen.ramihmd.com"
 license: "MIT"
 licenseUrl: "https://github.com/HMDRAMS-DEV/redpen/blob/main/LICENSE"
 download: "https://github.com/HMDRAMS-DEV/redpen/releases/latest/download/Redpen.dmg"
+macos: "15"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

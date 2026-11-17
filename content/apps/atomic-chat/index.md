@@ -14,6 +14,8 @@ website: https://atomic.chat/
 license: "Apache-2.0"
 licenseUrl: https://github.com/AtomicBot-ai/Atomic-Chat/blob/main/LICENSE
 download: https://github.com/AtomicBot-ai/Atomic-Chat/releases/latest
+macos: "13.6"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

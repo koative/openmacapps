@@ -12,6 +12,8 @@ website: "https://priyans-hu.github.io/tokenmeter/"
 license: "MIT"
 licenseUrl: "https://github.com/Priyans-hu/tokenmeter/blob/main/LICENSE"
 download: "https://github.com/Priyans-hu/tokenmeter/releases"
+macos: "14"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

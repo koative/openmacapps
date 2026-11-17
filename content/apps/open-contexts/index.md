@@ -12,6 +12,9 @@ website: "https://opencontexts.app/"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/zshnb/open-contexts/blob/main/LICENSE"
 download: "https://github.com/zshnb/open-contexts/releases"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

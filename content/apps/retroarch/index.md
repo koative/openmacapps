@@ -8,6 +8,8 @@ website: "https://www.retroarch.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/libretro/RetroArch/blob/master/COPYING"
 download: "https://www.retroarch.com/?page=platforms"
+macos: "10.13"
+arch: both
 freeDownload: true
 homebrew: "retroarch"
 featured: false

@@ -14,6 +14,7 @@ website: https://www.virtualbox.org
 license: "GPL-3.0-only"
 licenseUrl: https://github.com/VirtualBox/virtualbox/blob/main/COPYING
 download: https://www.virtualbox.org/wiki/Downloads
+arch: both
 freeDownload: true
 homebrew: "virtualbox"
 featured: false

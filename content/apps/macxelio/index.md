@@ -12,6 +12,9 @@ website: "https://dalirnet.github.io/macxelio/"
 license: "MIT"
 licenseUrl: "https://github.com/dalirnet/macxelio/blob/main/LICENSE"
 download: "https://github.com/dalirnet/macxelio/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

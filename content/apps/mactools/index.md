@@ -13,6 +13,7 @@ website: https://mactools.ggbond.app
 license: "GPL-3.0-only"
 licenseUrl: https://github.com/mactools-app/MacTools/blob/main/LICENSE
 download: https://github.com/mactools-app/MacTools/releases
+macos: "14"
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -13,6 +13,9 @@ website: "https://quant-agency.ru/besplatno.html"
 license: "MIT"
 licenseUrl: "https://github.com/avklyuev79-hash/quant-keyboard/blob/main/LICENSE"
 download: "https://github.com/avklyuev79-hash/quant-keyboard/releases/latest"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,9 @@ website: "https://finddiskkiller.com"
 license: "MIT"
 licenseUrl: "https://github.com/jianyintang/find-disk-killer/blob/main/LICENSE"
 download: "https://finddiskkiller.com/en/download/"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

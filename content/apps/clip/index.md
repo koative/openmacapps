@@ -14,6 +14,9 @@ website: "https://chengffei.github.io/clip/"
 license: "MIT"
 licenseUrl: "https://github.com/chengffei/clip/blob/main/LICENSE"
 download: "https://github.com/chengffei/clip/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

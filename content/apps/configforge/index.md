@@ -11,6 +11,8 @@ website: "https://github.com/samzong/ConfigForge"
 license: "MIT"
 licenseUrl: "https://github.com/samzong/ConfigForge/blob/main/LICENSE"
 download: "https://github.com/samzong/ConfigForge/releases/latest"
+macos: "10.15"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

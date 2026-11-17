@@ -12,6 +12,8 @@ website: "https://github.com/yourarnav/CodexReserve"
 license: "MIT"
 licenseUrl: "https://github.com/yourarnav/CodexReserve/blob/main/LICENSE"
 download: "https://github.com/yourarnav/CodexReserve/releases"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

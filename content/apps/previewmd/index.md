@@ -12,6 +12,9 @@ website: "https://github.com/ychani/PreviewMD"
 license: "MIT"
 licenseUrl: "https://github.com/ychani/PreviewMD/blob/develop/LICENSE"
 download: "https://github.com/ychani/PreviewMD/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -14,6 +14,7 @@ website: https://opencode.ai
 license: "MIT"
 licenseUrl: https://github.com/anomalyco/opencode/blob/dev/LICENSE
 download: https://opencode.ai/download
+arch: both
 freeDownload: true
 homebrew: "opencode-desktop"
 featured: false

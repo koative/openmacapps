@@ -8,6 +8,7 @@ website: "https://siliconscope.calidalab.ai"
 license: "MIT"
 licenseUrl: "https://github.com/kennss/SiliconScope/blob/main/LICENSE"
 download: "https://github.com/kennss/SiliconScope/releases"
+macos: "14"
 freeDownload: true
 homebrew: "siliconscope"
 featured: false

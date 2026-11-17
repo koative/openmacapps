@@ -13,6 +13,8 @@ website: "https://github.com/shaozhengmao/TapBuddy"
 license: "MIT"
 licenseUrl: "https://github.com/shaozhengmao/TapBuddy/blob/main/LICENSE"
 download: "https://github.com/shaozhengmao/TapBuddy/releases"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

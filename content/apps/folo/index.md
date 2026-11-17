@@ -14,6 +14,9 @@ website: https://folo.is
 license: "AGPL-3.0"
 licenseUrl: https://github.com/RSSNext/Folo/blob/dev/LICENSE
 download: https://folo.is/download
+macos: "13"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "folo"
 featured: false

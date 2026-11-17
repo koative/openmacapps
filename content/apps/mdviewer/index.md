@@ -12,6 +12,8 @@ website: "https://mmmikael.github.io/mdviewer/"
 license: "MIT"
 licenseUrl: "https://github.com/mmmikael/mdviewer/blob/main/LICENSE"
 download: "https://github.com/mmmikael/mdviewer/releases/download/v0.3.2/MDViewer_0.3.2_universal.dmg"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

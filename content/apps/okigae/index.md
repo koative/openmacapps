@@ -12,6 +12,9 @@ website: "https://okigae.kkweb.io"
 license: "MIT"
 licenseUrl: "https://github.com/piro0919/okigae/blob/main/LICENSE"
 download: "https://github.com/piro0919/okigae/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

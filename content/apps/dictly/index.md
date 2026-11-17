@@ -13,6 +13,9 @@ website: https://github.com/vlr-code/dictly
 license: "MIT"
 licenseUrl: https://github.com/vlr-code/dictly/blob/main/LICENSE
 download: https://github.com/vlr-code/dictly/releases
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

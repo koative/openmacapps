@@ -12,6 +12,9 @@ website: "https://github.com/yassersutojoyo/audiosync"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/yassersutojoyo/audiosync/blob/main/LICENSE"
 download: "https://github.com/yassersutojoyo/audiosync/releases"
+macos: "15"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,8 @@ website: "https://alptugan.github.io/icns-creator/"
 license: "MIT"
 licenseUrl: "https://github.com/alptugan/icns-creator/blob/main/LICENSE.md"
 download: "https://github.com/alptugan/icns-creator/releases"
+macos: "11"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

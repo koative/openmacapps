@@ -14,6 +14,7 @@ license: "BSD-3-Clause"
 licenseNotes: "BSD-3-Clause covers the Dao-owned source code and documentation. Chromium and third-party dependencies keep their own licenses. Dao's names, logos and icons are not licensed for use in derived products."
 licenseUrl: "https://github.com/msgbyte/dao-browser/blob/main/LICENSE"
 download: "https://github.com/msgbyte/dao-browser/releases/latest"
+arch: apple-silicon
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

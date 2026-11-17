@@ -12,6 +12,7 @@ website: https://standlock.app
 license: "MIT"
 licenseUrl: https://github.com/yagizdo/standlock/blob/main/LICENSE
 download: https://github.com/yagizdo/standlock/releases
+macos: "13"
 freeDownload: true
 featured: false
 added: '2026-10-17'

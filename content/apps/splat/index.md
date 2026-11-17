@@ -14,6 +14,9 @@ website: "https://github.com/sventmueller/splat"
 license: "Apache-2.0 OR MIT"
 licenseUrl: "https://github.com/sventmueller/splat/blob/main/LICENSE-APACHE"
 download: "https://raw.githubusercontent.com/sventmueller/splat/main/dist/Splat-1.0.8.dmg"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

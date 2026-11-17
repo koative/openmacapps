@@ -8,6 +8,9 @@ website: "https://sw.kovidgoyal.net/kitty"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/kovidgoyal/kitty/blob/master/LICENSE"
 download: "https://sw.kovidgoyal.net/kitty/binary"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "kitty"
 featured: false

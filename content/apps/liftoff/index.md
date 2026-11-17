@@ -12,6 +12,9 @@ website: "https://firstfu.github.io/Liftoff/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/firstfu/Liftoff/blob/main/LICENSE"
 download: "https://github.com/firstfu/Liftoff/releases"
+macos: "26"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

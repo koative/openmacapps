@@ -12,6 +12,9 @@ website: https://ianyh.com/amethyst/
 license: MIT
 licenseUrl: https://github.com/ianyh/Amethyst/blob/development/LICENSE.md
 download: https://github.com/ianyh/Amethyst/releases
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "amethyst"
 featured: false

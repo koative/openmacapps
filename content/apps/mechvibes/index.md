@@ -12,6 +12,8 @@ website: https://mechvibes.com
 license: "MIT"
 licenseUrl: https://github.com/hainguyents13/mechvibes/blob/main/LICENSE
 download: https://github.com/hainguyents13/mechvibes/releases
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

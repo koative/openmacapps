@@ -12,6 +12,7 @@ website: https://github.com/bsharper/atv-desktop-remote
 license: "MIT"
 licenseUrl: https://github.com/bsharper/atv-desktop-remote/blob/main/LICENSE
 download: https://github.com/bsharper/atv-desktop-remote/releases
+arch: both
 homebrew: "atv-remote"
 freeDownload: true
 featured: false

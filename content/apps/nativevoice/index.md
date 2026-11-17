@@ -14,6 +14,9 @@ website: "https://nativevoice.trustbe.com"
 license: "MIT"
 licenseUrl: "https://github.com/trustbe/nativevoice/blob/main/LICENSE"
 download: "https://github.com/trustbe/nativevoice/releases/latest"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

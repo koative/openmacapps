@@ -12,6 +12,9 @@ website: "https://github.com/msvisser/AnnePro-mac"
 license: "MIT"
 licenseUrl: "https://github.com/msvisser/AnnePro-mac/blob/master/LICENSE"
 download: "https://github.com/msvisser/AnnePro-mac/releases/download/v0.3/AnnePro.app.zip"
+macos: "10.12"
+arch: both
+notarized: false
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No commit since November 2018 (checked 2026-11-06)."

@@ -12,6 +12,8 @@ website: "https://shiquda.github.io/SpotAsk/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/shiquda/SpotAsk/blob/main/LICENSE"
 download: "https://github.com/shiquda/SpotAsk/releases/download/v0.3.4/SpotAsk-0.3.4-arm64.dmg"
+macos: "15"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

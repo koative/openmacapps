@@ -11,6 +11,8 @@ website: "https://github.com/sallliisa/Airwave"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/sallliisa/Airwave/blob/main/LICENSE"
 download: "https://github.com/sallliisa/Airwave/releases/latest"
+macos: "15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

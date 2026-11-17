@@ -11,6 +11,8 @@ website: "https://github.com/onmyway133/GifCapture"
 license: "MIT"
 licenseUrl: "https://github.com/onmyway133/GifCapture/blob/master/LICENSE.md"
 download: "https://github.com/onmyway133/GifCapture/releases/download/1.1.0/GifCapture.zip"
+macos: "10.11"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

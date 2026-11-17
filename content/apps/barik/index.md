@@ -13,6 +13,9 @@ licenseUrl: "https://github.com/mocki-toki/barik/blob/main/LICENSE"
 maintenance: "unmaintained"
 maintenanceNote: "Author no longer has time to maintain it actively; last release February 2025 (checked 2026-11-06)."
 download: "https://github.com/mocki-toki/barik/releases"
+macos: "14.6"
+arch: both
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

@@ -13,6 +13,7 @@ website: https://nheko-reborn.github.io
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/Nheko-Reborn/nheko/blob/master/COPYING
 download: https://github.com/Nheko-Reborn/nheko/releases
+arch: both
 homebrew: "nheko"
 freeDownload: true
 featured: false

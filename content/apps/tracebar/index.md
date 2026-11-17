@@ -11,6 +11,7 @@ website: "https://tracebar.app"
 license: "MIT"
 licenseUrl: "https://github.com/tracebar-app/tracebar/blob/main/LICENSE"
 download: "https://github.com/tracebar-app/tracebar/releases/download/1.2.5/TraceBar-1.2.5.dmg"
+macos: "14.6"
 freeDownload: true
 featured: false
 added: "2026-11-06"

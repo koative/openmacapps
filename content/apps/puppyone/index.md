@@ -12,6 +12,7 @@ website: "https://www.puppyone.ai"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/puppyone-ai/puppyone/blob/main/LICENSE"
 download: "https://github.com/puppyone-ai/puppyone/releases/download/v0.4.2/puppyone-0.4.2-arm64.dmg"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

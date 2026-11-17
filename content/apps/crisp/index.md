@@ -12,6 +12,8 @@ website: https://crispmac.app/
 license: "MIT"
 licenseUrl: https://github.com/didriksg/Crisp/blob/main/LICENSE
 download: https://github.com/didriksg/Crisp/releases/latest
+macos: "14"
+notarized: true
 freeDownload: true
 homebrew: "crisp"
 featured: false

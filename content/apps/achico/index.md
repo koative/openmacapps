@@ -11,6 +11,9 @@ website: "https://github.com/nuance-dev/achico"
 license: "MIT"
 licenseUrl: "https://github.com/nuance-dev/achico/blob/master/LICENSE"
 download: "https://github.com/nuance-dev/achico/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

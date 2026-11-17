@@ -14,6 +14,9 @@ website: "https://rss.1leaf.cc"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/ohmyangboy/PaperRss/blob/main/LICENSE"
 download: "https://github.com/ohmyangboy/PaperRss/releases/download/v1.5.2/PaperRss-v1.5.2.dmg"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://luke-fairbanks.github.io/BatteryHog/"
 license: "MIT"
 licenseUrl: "https://github.com/luke-fairbanks/BatteryHog/blob/main/LICENSE"
 download: "https://github.com/luke-fairbanks/BatteryHog/releases/download/v1.5.0/BatteryHog-1.5.0.dmg"
+macos: "11"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -8,6 +8,9 @@ website: "https://kagerou.glass/adrafinil/"
 license: "MIT"
 licenseUrl: "https://github.com/kageroumado/adrafinil/blob/main/LICENSE"
 download: "https://github.com/kageroumado/adrafinil/releases"
+macos: "26.4"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "adrafinil"
 featured: false

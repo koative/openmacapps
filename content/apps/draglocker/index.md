@@ -11,6 +11,8 @@ website: "https://draglocker.taikun.design/"
 license: "MIT"
 licenseUrl: "https://github.com/taikun114/DragLocker/blob/main/LICENSE"
 download: "https://github.com/taikun114/DragLocker/releases/latest"
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

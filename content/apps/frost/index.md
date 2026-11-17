@@ -13,6 +13,9 @@ website: "https://github.com/frostbar/frost"
 license: "MIT"
 licenseUrl: "https://github.com/frostbar/frost/blob/main/LICENSE"
 download: "https://github.com/frostbar/frost/releases"
+macos: "26"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

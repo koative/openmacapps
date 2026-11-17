@@ -14,6 +14,9 @@ website: "https://github.com/mortenbrudvik/loadstone"
 license: "MIT"
 licenseUrl: "https://github.com/mortenbrudvik/loadstone/blob/main/LICENSE"
 download: "https://github.com/mortenbrudvik/loadstone/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

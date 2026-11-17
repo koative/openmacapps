@@ -14,6 +14,8 @@ website: https://abdenasser.github.io/neohtop/
 license: MIT
 licenseUrl: https://github.com/Abdenasser/neohtop/blob/main/LICENSE
 download: https://github.com/Abdenasser/neohtop/releases
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "neohtop"
 featured: false

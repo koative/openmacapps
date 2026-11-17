@@ -14,6 +14,8 @@ website: https://runnativ.ai/
 license: "MIT"
 licenseUrl: https://github.com/Neywa-Labs/nativ/blob/main/LICENSE
 download: https://github.com/Neywa-Labs/nativ/releases
+macos: "26"
+arch: apple-silicon
 freeDownload: true
 homebrew: "nativ"
 featured: false

@@ -8,6 +8,7 @@ website: "https://ghostty.org"
 license: "MIT"
 licenseUrl: "https://github.com/ghostty-org/ghostty/blob/main/LICENSE"
 download: "https://ghostty.org/download"
+arch: both
 freeDownload: true
 homebrew: "ghostty"
 featured: false

@@ -11,6 +11,9 @@ website: "https://github.com/DPatrikI/voleq-community"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/DPatrikI/voleq-community/blob/master/LICENSE"
 download: "https://github.com/DPatrikI/voleq-community/releases/latest"
+macos: "14.2"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

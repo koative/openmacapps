@@ -13,6 +13,9 @@ website: "https://cnd.demiao.cc"
 license: "MIT"
 licenseUrl: "https://github.com/demiaochen/caffeinate-disablesleep/blob/main/LICENSE"
 download: "https://github.com/demiaochen/caffeinate-disablesleep/releases/download/v1.1.0/caffeinate-disablesleep-1.1.dmg"
+macos: "14"
+arch: both
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

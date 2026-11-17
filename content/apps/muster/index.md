@@ -12,6 +12,9 @@ website: "https://agentmuster.app"
 license: "MIT"
 licenseUrl: "https://github.com/josefchen/muster/blob/main/LICENSE"
 download: "https://github.com/josefchen/muster/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

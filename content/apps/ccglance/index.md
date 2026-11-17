@@ -12,6 +12,8 @@ website: "https://github.com/hatoya/ccglance"
 license: "MIT"
 licenseUrl: "https://github.com/hatoya/ccglance/blob/main/LICENSE"
 download: "https://github.com/hatoya/ccglance/releases/latest/download/ccglance.zip"
+macos: "12"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

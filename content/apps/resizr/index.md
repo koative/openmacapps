@@ -13,6 +13,9 @@ website: "https://github.com/onurgenes/Resizr"
 license: "MIT"
 licenseUrl: "https://github.com/onurgenes/Resizr/blob/master/LICENSE"
 download: "https://github.com/onurgenes/Resizr/releases/latest"
+macos: "10.13"
+arch: intel
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

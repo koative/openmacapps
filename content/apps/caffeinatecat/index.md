@@ -13,6 +13,7 @@ website: "https://prempoddar.github.io/CaffeinateCat/"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/PremPoddar/CaffeinateCat/blob/main/LICENSE"
 download: "https://github.com/PremPoddar/CaffeinateCat/releases/latest"
+macos: "12"
 freeDownload: true
 featured: false
 added: "2026-11-06"

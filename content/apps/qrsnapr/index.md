@@ -12,6 +12,9 @@ website: "https://github.com/daggy1234/QrSnapr"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/daggy1234/QrSnapr/blob/main/LICENSE"
 download: "https://github.com/daggy1234/QrSnapr/releases/latest"
+macos: "13.5"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

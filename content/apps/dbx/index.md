@@ -9,6 +9,7 @@ website: "https://dbxio.com"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/t8y2/dbx/blob/main/LICENSE"
 download: "https://github.com/t8y2/dbx/releases/latest"
+arch: both
 homebrew: "dbx"
 freeDownload: true
 featured: false

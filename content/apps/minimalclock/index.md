@@ -12,6 +12,8 @@ website: "https://mattiarossini.github.io/MinimalClock/"
 license: "MIT"
 licenseUrl: "https://github.com/mattiarossini/MinimalClock/blob/master/LICENSE"
 download: "https://github.com/mattiarossini/MinimalClock/releases/download/v1.0/MinimalClock.saver.zip"
+arch: both
+notarized: false
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No commit since January 2022 (checked 2026-11-06)."

@@ -8,6 +8,9 @@ website: "https://hovancik.net/stretchly"
 license: "BSD-2-Clause"
 licenseUrl: "https://github.com/hovancik/stretchly/blob/trunk/LICENSE"
 download: "https://github.com/hovancik/stretchly/releases"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

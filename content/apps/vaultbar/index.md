@@ -12,6 +12,9 @@ website: "https://apps.roypadina.synology.me/apps/vaultbar/"
 license: "MIT"
 licenseUrl: "https://github.com/roypadina/VaultBar/blob/main/LICENSE"
 download: "https://github.com/roypadina/VaultBar/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

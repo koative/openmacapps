@@ -12,6 +12,8 @@ website: "https://github.com/ananmouaz/claudometer"
 license: "MIT"
 licenseUrl: "https://github.com/ananmouaz/claudometer/blob/main/LICENSE"
 download: "https://github.com/ananmouaz/claudometer/releases"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

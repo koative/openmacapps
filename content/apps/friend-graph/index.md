@@ -12,6 +12,9 @@ website: "https://github.com/Zesty0wl/friend-graph"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/Zesty0wl/friend-graph/blob/main/LICENSE"
 download: "https://github.com/Zesty0wl/friend-graph/releases/latest"
+macos: "27"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-11"

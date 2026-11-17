@@ -11,6 +11,8 @@ website: https://github.com/samhenrigold/LidAngleSensor
 license: "Apache-2.0"
 licenseUrl: https://github.com/samhenrigold/LidAngleSensor/blob/main/LICENSE
 download: https://github.com/samhenrigold/LidAngleSensor/releases
+arch: both
+notarized: true
 homebrew: "lidanglesensor"
 freeDownload: true
 featured: false

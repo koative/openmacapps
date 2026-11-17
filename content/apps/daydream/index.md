@@ -12,6 +12,9 @@ website: "https://getdaydream.app"
 license: "MIT"
 licenseUrl: "https://github.com/getnorthlight/daydream/blob/main/LICENSE"
 download: "https://github.com/getnorthlight/daydream/releases/latest"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

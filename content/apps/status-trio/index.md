@@ -13,6 +13,9 @@ website: "https://statustrio.lingai.net/"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/lingyired/status-trio/blob/main/LICENSE"
 download: "https://github.com/lingyired/status-trio/releases/latest"
+macos: "13"
+arch: both
+notarized: true
 homebrew: "status-trio"
 freeDownload: true
 featured: false

@@ -11,6 +11,9 @@ website: "https://github.com/deseven/iCanHazShortcut"
 license: "Unlicense"
 licenseUrl: "https://github.com/deseven/iCanHazShortcut/blob/master/LICENSE"
 download: "https://github.com/deseven/iCanHazShortcut/releases"
+macos: "13"
+arch: both
+notarized: true
 homebrew: "icanhazshortcut"
 featured: false
 added: "2026-11-06"

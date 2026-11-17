@@ -12,6 +12,9 @@ website: "https://luchi0208.github.io/Poli/"
 license: "MIT"
 licenseUrl: "https://github.com/luchi0208/Poli/blob/main/LICENSE"
 download: "https://github.com/luchi0208/Poli/releases/latest"
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -15,6 +15,8 @@ licenseUrl: "https://github.com/egoist/eme/blob/dev/LICENSE"
 maintenance: "unmaintained"
 maintenanceNote: "No release since July 2020 and no push since December 2022 (checked November 2026)."
 download: "https://github.com/egoist/eme/releases"
+macos: "10.10"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

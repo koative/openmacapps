@@ -12,6 +12,8 @@ website: "https://browseroute.terrifiedbug.com"
 license: "MIT"
 licenseUrl: "https://github.com/TerrifiedBug/browseroute/blob/main/LICENSE"
 download: "https://github.com/TerrifiedBug/browseroute/releases/latest"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

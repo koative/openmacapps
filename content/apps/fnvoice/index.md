@@ -14,6 +14,8 @@ website: "https://github.com/MhmdEssB/fnvoice"
 license: "MIT"
 licenseUrl: "https://github.com/MhmdEssB/fnvoice/blob/main/LICENSE"
 download: "https://github.com/MhmdEssB/fnvoice/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

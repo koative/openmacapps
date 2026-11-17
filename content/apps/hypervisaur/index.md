@@ -17,6 +17,8 @@ website: "https://github.com/Zesty0wl/hypervisaur"
 license: "BSD-2-Clause"
 licenseUrl: "https://github.com/Zesty0wl/hypervisaur/blob/main/LICENSE"
 download: "https://github.com/Zesty0wl/hypervisaur/releases/latest"
+macos: "14"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-11"

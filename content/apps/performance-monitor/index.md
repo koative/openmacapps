@@ -13,6 +13,8 @@ website: "https://perfmon.knhome.nl"
 license: "MIT"
 licenseUrl: "https://github.com/inequitas/performancemonitor/blob/main/LICENSE"
 download: "https://github.com/inequitas/performancemonitor/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

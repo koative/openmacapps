@@ -15,6 +15,9 @@ website: https://super-productivity.com
 license: MIT
 licenseUrl: https://github.com/super-productivity/super-productivity/blob/master/LICENSE
 download: https://github.com/super-productivity/super-productivity/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "super-productivity"
 featured: false

@@ -13,6 +13,7 @@ website: "https://github.com/insidegui/VirtualBuddy"
 license: "BSD-2-Clause"
 licenseUrl: "https://github.com/insidegui/VirtualBuddy/blob/main/LICENSE"
 download: "https://github.com/insidegui/VirtualBuddy/releases/latest"
+macos: "12"
 freeDownload: true
 homebrew: "virtualbuddy"
 featured: false

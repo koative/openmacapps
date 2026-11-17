@@ -12,6 +12,9 @@ website: "https://kevinabouhanna.github.io/NetworkMonitor/"
 license: "MIT"
 licenseUrl: "https://github.com/kevinabouhanna/NetworkMonitor/blob/main/LICENSE"
 download: "https://github.com/kevinabouhanna/NetworkMonitor/releases/latest"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://scrollwheelmissioncontrol.bavrk.com"
 license: "MIT"
 licenseUrl: "https://github.com/enso-works/Macbook-scroll-wheel-mission-control/blob/main/LICENSE"
 download: "https://github.com/enso-works/Macbook-scroll-wheel-mission-control/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

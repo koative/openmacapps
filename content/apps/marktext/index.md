@@ -9,6 +9,7 @@ website: "https://github.com/marktext/marktext"
 license: "MIT"
 licenseUrl: "https://github.com/marktext/marktext/blob/develop/LICENSE"
 download: "https://github.com/marktext/marktext/releases"
+macos: "13"
 freeDownload: true
 featured: false
 added: "2026-10-17"

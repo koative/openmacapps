@@ -9,6 +9,9 @@ website: "https://xournalpp.github.io/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/xournalpp/xournalpp/blob/master/LICENSE"
 download: "https://github.com/xournalpp/xournalpp/releases"
+macos: "10.15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

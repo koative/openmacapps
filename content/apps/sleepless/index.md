@@ -9,6 +9,9 @@ website: "https://aboudjem.github.io/Sleepless/"
 license: "MIT"
 licenseUrl: "https://github.com/Aboudjem/Sleepless/blob/main/LICENSE"
 download: "https://github.com/Aboudjem/Sleepless/releases"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

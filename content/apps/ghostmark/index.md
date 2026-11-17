@@ -12,6 +12,9 @@ website: "https://nosleeplab.com/apps/ghostmark"
 license: "MIT"
 licenseUrl: "https://github.com/markksantos/Ghostmark/blob/main/LICENSE"
 download: "https://github.com/markksantos/Ghostmark/releases"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

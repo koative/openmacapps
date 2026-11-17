@@ -12,6 +12,7 @@ website: https://amiberry.com
 license: "GPL-3.0"
 licenseUrl: https://github.com/BlitterStudio/amiberry/blob/master/LICENSE
 download: https://github.com/BlitterStudio/amiberry/releases/latest
+arch: both
 homebrew: "amiberry"
 freeDownload: true
 featured: false

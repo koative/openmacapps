@@ -12,6 +12,9 @@ website: "https://dimkeys.com"
 license: "MIT"
 licenseUrl: "https://github.com/dmartoon/MacBook-Keyboard-Backlight-Limiter/blob/main/LICENSE"
 download: "https://github.com/dmartoon/MacBook-Keyboard-Backlight-Limiter/releases/latest"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

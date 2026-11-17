@@ -15,6 +15,9 @@ license: "GPL-3.0"
 licenseNotes: "App code is GPL-3.0. Wallpapers stay under their creators' licenses (NASA, ESA/Webb, ESO, Wikimedia, Pixabay). Apple Aerials are never bundled or redistributed."
 licenseUrl: "https://github.com/jedbrnth-eng/lucid-live-wallpaper/blob/main/LICENSE"
 download: "https://github.com/jedbrnth-eng/lucid-live-wallpaper/releases/latest/download/Lucid.zip"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

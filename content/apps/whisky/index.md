@@ -8,6 +8,9 @@ website: "https://frankea.github.io/Whisky/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/frankea/Whisky/blob/main/LICENSE"
 download: "https://github.com/frankea/Whisky/releases"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-10-17"

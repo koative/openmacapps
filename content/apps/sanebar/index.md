@@ -13,6 +13,8 @@ website: https://sanebar.com/
 license: "MIT"
 licenseUrl: https://github.com/sane-apps/SaneBar/blob/main/LICENSE
 download: https://sanebar.com/
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -11,6 +11,7 @@ website: "https://github.com/EthanYoQ/Pagekin"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/EthanYoQ/Pagekin/blob/master/LICENSE"
 download: "https://github.com/EthanYoQ/Pagekin/releases/latest"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

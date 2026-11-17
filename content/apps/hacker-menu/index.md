@@ -11,6 +11,7 @@ website: "https://github.com/owenthereal/hacker-menu"
 license: "MIT"
 licenseUrl: "https://github.com/owenthereal/hacker-menu/blob/master/LICENSE"
 download: "https://github.com/owenthereal/hacker-menu/releases/download/v1.1.5/hacker-menu-mac.zip"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

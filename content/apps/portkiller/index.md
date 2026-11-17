@@ -12,6 +12,9 @@ website: https://github.com/productdevbook/port-killer
 license: "MIT"
 licenseUrl: https://github.com/productdevbook/port-killer/blob/main/LICENSE
 download: https://github.com/productdevbook/port-killer/releases
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "portkiller"
 featured: false

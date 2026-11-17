@@ -11,6 +11,7 @@ website: https://www.ganttproject.biz
 license: "GPL-3.0"
 licenseUrl: https://github.com/bardsoftware/ganttproject/blob/master/LICENSE
 download: https://github.com/bardsoftware/ganttproject/releases
+arch: both
 homebrew: "ganttproject"
 freeDownload: true
 featured: false

@@ -16,6 +16,9 @@ website: https://sol.ospfranco.com
 license: MIT
 licenseUrl: https://github.com/ospfranco/sol/blob/main/LICENSE
 download: https://github.com/ospfranco/sol/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "sol"
 featured: false

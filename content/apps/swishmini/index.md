@@ -12,6 +12,9 @@ website: "https://github.com/jzb1006/SwishMini"
 license: "MIT"
 licenseUrl: "https://github.com/jzb1006/SwishMini/blob/main/LICENSE"
 download: "https://github.com/jzb1006/SwishMini/releases"
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

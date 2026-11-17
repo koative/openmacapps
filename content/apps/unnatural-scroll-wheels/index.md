@@ -11,6 +11,9 @@ website: https://github.com/ther0n/UnnaturalScrollWheels
 license: GPL-3.0
 licenseUrl: https://github.com/ther0n/UnnaturalScrollWheels/blob/main/LICENSE
 download: https://github.com/ther0n/UnnaturalScrollWheels/releases
+macos: "10.13"
+arch: both
+notarized: false
 freeDownload: true
 homebrew: "unnaturalscrollwheels"
 featured: false

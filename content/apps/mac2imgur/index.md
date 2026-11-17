@@ -11,6 +11,8 @@ website: "https://github.com/mileswd/mac2imgur"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/mileswd/mac2imgur/blob/master/LICENSE"
 download: "https://github.com/mileswd/mac2imgur/releases/download/b226/mac2imgur.zip"
+arch: intel
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

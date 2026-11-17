@@ -11,6 +11,9 @@ website: "https://github.com/mikker/Fst"
 license: "MIT"
 licenseUrl: "https://github.com/mikker/Fst/blob/main/LICENSE"
 download: "https://github.com/mikker/Fst/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

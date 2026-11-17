@@ -11,6 +11,9 @@ website: https://dotcomjack.com/nocturne
 license: "MIT"
 licenseUrl: https://github.com/dotcomjack/nocturne/blob/main/LICENSE
 download: https://github.com/dotcomjack/nocturne/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

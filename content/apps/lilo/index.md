@@ -13,6 +13,7 @@ website: "https://getlilo.app"
 license: "MIT"
 licenseUrl: "https://github.com/Alexays/Lilo/blob/main/LICENSE"
 download: "https://github.com/Alexays/Lilo/releases/download/v0.16.1/Lilo.dmg"
+macos: "26"
 freeDownload: true
 featured: false
 added: "2026-11-06"

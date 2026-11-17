@@ -12,6 +12,8 @@ website: "https://github.com/Kitround/Darki"
 license: "MIT"
 licenseUrl: "https://github.com/Kitround/Darki/blob/main/LICENSE"
 download: "https://github.com/Kitround/Darki/releases"
+macos: "14.6"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

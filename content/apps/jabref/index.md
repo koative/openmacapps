@@ -11,6 +11,7 @@ website: https://www.jabref.org/
 license: MIT
 licenseUrl: https://github.com/JabRef/jabref/blob/main/LICENSE
 download: https://github.com/JabRef/jabref/releases
+arch: apple-silicon
 freeDownload: true
 homebrew: "jabref"
 featured: false

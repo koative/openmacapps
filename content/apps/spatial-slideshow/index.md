@@ -11,6 +11,8 @@ website: "https://github.com/elliotttate/SpatialSlideshow"
 license: "MIT"
 licenseUrl: "https://github.com/elliotttate/SpatialSlideshow/blob/main/LICENSE"
 download: "https://github.com/elliotttate/SpatialSlideshow/releases"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

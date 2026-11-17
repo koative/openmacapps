@@ -14,6 +14,7 @@ website: https://github.com/wojciech-kulik/FlashSpace
 license: "GPL-3.0"
 licenseUrl: https://github.com/wojciech-kulik/FlashSpace/blob/main/LICENSE
 download: https://github.com/wojciech-kulik/FlashSpace/releases
+macos: "14"
 homebrew: "flashspace"
 freeDownload: true
 featured: false

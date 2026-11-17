@@ -8,6 +8,9 @@ website: "https://switchhosts.app"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/oldj/SwitchHosts/blob/master/LICENSE"
 download: "https://github.com/oldj/SwitchHosts/releases"
+macos: "10.15"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "switchhosts"
 featured: false

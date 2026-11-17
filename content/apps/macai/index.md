@@ -12,6 +12,9 @@ website: https://macai.chat
 license: "Apache-2.0"
 licenseUrl: https://github.com/Renset/macai/blob/main/LICENSE.md
 download: https://github.com/Renset/macai/releases
+macos: "14"
+arch: both
+notarized: true
 homebrew: "macai"
 freeDownload: true
 featured: false

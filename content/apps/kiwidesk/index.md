@@ -13,6 +13,9 @@ sourceAvailability: "source-available"
 licenseNotes: "Business Source License 1.1, not an open-source license. You may read, change and run KiwiDesk, including in production at work, but you may not offer, sell, bundle or host it, or a derivative, as a product or service without a commercial license from the licensor. Each version becomes available under the MIT License four years after it is first published; versions before 1.3.0 were always MIT."
 licenseUrl: "https://github.com/KiwiCanopy/KiwiDesk/blob/main/LICENSE"
 download: "https://github.com/KiwiCanopy/KiwiDesk/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: true
 homebrew: "kiwidesk"
 featured: false
 added: "2026-11-06"

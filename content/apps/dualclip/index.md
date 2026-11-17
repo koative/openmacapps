@@ -12,6 +12,9 @@ website: "https://rakkunn.github.io/DualClip/"
 license: "MIT"
 licenseUrl: "https://github.com/RAKKUNN/DualClip/blob/main/LICENSE"
 download: "https://github.com/RAKKUNN/DualClip/releases/latest"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://quosparr.com"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/Licoy/Quosparr/blob/main/LICENSE"
 download: "https://github.com/Licoy/Quosparr/releases"
+macos: "12"
+arch: apple-silicon
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

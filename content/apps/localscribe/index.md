@@ -12,6 +12,9 @@ website: "https://lixinchen.ca/docs/localscribe/"
 license: "MIT"
 licenseUrl: "https://github.com/maddylaneeee/ShengJi/blob/main/LICENSE"
 download: "https://github.com/maddylaneeee/ShengJi/releases/latest/download/LocalScribe-macOS-arm64.dmg"
+macos: "15.5"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

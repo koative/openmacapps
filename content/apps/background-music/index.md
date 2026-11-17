@@ -13,6 +13,8 @@ website: https://github.com/kyleneideck/BackgroundMusic
 license: "GPL-2.0-or-later"
 licenseUrl: https://github.com/kyleneideck/BackgroundMusic/blob/master/LICENSE
 download: https://github.com/kyleneideck/BackgroundMusic/releases
+macos: "10.13"
+notarized: true
 freeDownload: true
 homebrew: "background-music"
 featured: false

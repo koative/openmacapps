@@ -14,6 +14,8 @@ website: "https://dopamine.33rd.pro"
 license: "MIT"
 licenseUrl: "https://github.com/UniversalSDK/Dopamine/blob/main/LICENSE"
 download: "https://github.com/UniversalSDK/Dopamine/releases/latest/download/Dopamine.dmg"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

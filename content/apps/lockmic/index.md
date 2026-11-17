@@ -13,6 +13,8 @@ website: "https://github.com/oochernyshev/lockmic"
 license: "MIT"
 licenseUrl: "https://github.com/oochernyshev/lockmic/blob/main/LICENSE"
 download: "https://github.com/oochernyshev/lockmic/releases"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

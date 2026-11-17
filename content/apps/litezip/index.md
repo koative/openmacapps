@@ -14,6 +14,9 @@ website: "https://litezip.app"
 license: "MIT"
 licenseUrl: "https://github.com/gentpan/LiteZip/blob/main/LICENSE"
 download: "https://github.com/gentpan/LiteZip/releases/latest"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

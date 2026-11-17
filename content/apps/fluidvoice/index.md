@@ -15,6 +15,8 @@ website: https://altic.dev/fluid
 license: "GPL-3.0"
 licenseUrl: https://github.com/altic-dev/FluidVoice/blob/main/LICENSE
 download: https://github.com/altic-dev/FluidVoice/releases/latest
+macos: "15"
+arch: intel
 homebrew: "fluidvoice"
 freeDownload: true
 featured: false

@@ -11,6 +11,9 @@ website: "https://github.com/L1cardo/String-Studio"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/L1cardo/String-Studio/blob/main/LICENSE"
 download: "https://github.com/L1cardo/String-Studio/releases/latest"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://cornetta.stellakamikaze.org/en/"
 license: "MIT"
 licenseUrl: "https://github.com/stellakamikaze/cornetta/blob/master/LICENSE"
 download: "https://github.com/stellakamikaze/cornetta/releases"
+macos: "14.4"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

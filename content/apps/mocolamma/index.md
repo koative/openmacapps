@@ -11,6 +11,8 @@ website: "https://mocolamma.taikun.design/"
 license: "MIT"
 licenseUrl: "https://github.com/taikun114/Mocolamma/blob/main/LICENSE"
 download: "https://github.com/taikun114/Mocolamma/releases/latest"
+macos: "15"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

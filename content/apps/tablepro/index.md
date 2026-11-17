@@ -9,6 +9,9 @@ website: "https://tablepro.app"
 license: "AGPL-3.0-or-later"
 licenseUrl: "https://github.com/TableProApp/TablePro/blob/main/LICENSE"
 download: "https://github.com/TableProApp/TablePro/releases"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "tablepro"
 featured: false

@@ -15,6 +15,9 @@ website: https://trace.techulus.xyz/
 license: MIT
 licenseUrl: https://github.com/arjunkomath/trace/blob/main/LICENSE
 download: https://github.com/arjunkomath/trace/releases
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

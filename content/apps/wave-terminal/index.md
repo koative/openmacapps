@@ -14,6 +14,8 @@ website: https://www.waveterm.dev
 license: "Apache-2.0"
 licenseUrl: https://github.com/wavetermdev/waveterm/blob/main/LICENSE
 download: https://www.waveterm.dev/download
+macos: "11"
+arch: both
 freeDownload: true
 homebrew: "wave"
 featured: false

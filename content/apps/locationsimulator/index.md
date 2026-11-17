@@ -11,6 +11,9 @@ website: "https://locationsimulator.net"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Schlaubischlump/LocationSimulator/blob/master/LICENSE"
 download: "https://github.com/Schlaubischlump/LocationSimulator/releases"
+macos: "10.15"
+arch: both
+notarized: true
 homebrew: "locationsimulator"
 freeDownload: true
 featured: false

@@ -11,6 +11,8 @@ website: "https://profiley.topc.social"
 license: "MIT"
 licenseUrl: "https://github.com/kamal0808/profiley/blob/main/LICENSE"
 download: "https://github.com/kamal0808/profiley/releases/latest/download/Profiley.zip"
+macos: "12"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

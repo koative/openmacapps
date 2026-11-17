@@ -11,6 +11,9 @@ website: "https://github.com/kamenlevi/MagHue"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/kamenlevi/MagHue/blob/main/LICENSE"
 download: "https://github.com/kamenlevi/MagHue/releases"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

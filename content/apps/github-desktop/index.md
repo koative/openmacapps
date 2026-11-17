@@ -9,6 +9,8 @@ website: "https://github.com/apps/desktop"
 license: "MIT"
 licenseUrl: "https://github.com/desktop/desktop/blob/development/LICENSE"
 download: "https://desktop.github.com/download"
+macos: "12"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

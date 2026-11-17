@@ -12,6 +12,8 @@ website: "https://github.com/WinShell-Bhanu/Clipsync"
 license: "MIT"
 licenseUrl: "https://github.com/WinShell-Bhanu/Clipsync/blob/main/LICENSE"
 download: "https://github.com/WinShell-Bhanu/Clipsync/releases/download/v3.0.0/ClipSync.v3.0.0.zip"
+macos: "14.6"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

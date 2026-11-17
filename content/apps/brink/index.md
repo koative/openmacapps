@@ -11,6 +11,8 @@ website: "https://brinknotch.site"
 license: "MIT"
 licenseUrl: "https://github.com/StepanBlaha/Brink/blob/main/LICENSE"
 download: "https://github.com/StepanBlaha/Brink/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

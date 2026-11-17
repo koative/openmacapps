@@ -12,6 +12,9 @@ website: https://omniwm.app
 license: GPL-2.0
 licenseUrl: https://github.com/OmniNull/OmniWM/blob/main/LICENSE
 download: https://github.com/OmniNull/OmniWM/releases
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "omniwm"
 featured: false

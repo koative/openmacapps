@@ -11,6 +11,8 @@ website: https://objective-see.org/products/reikey.html
 license: GPL-3.0
 licenseUrl: https://github.com/objective-see/ReiKey/blob/master/LICENSE.md
 download: https://objective-see.org/products/reikey.html
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "reikey"
 featured: false

@@ -13,6 +13,9 @@ licenseUrl: https://github.com/soffes/Clock.saver/blob/main/LICENSE
 maintenance: "unmaintained"
 maintenanceNote: "No release since June 2023."
 download: https://github.com/soffes/Clock.saver/releases
+macos: "10.14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "clocksaver"
 featured: false

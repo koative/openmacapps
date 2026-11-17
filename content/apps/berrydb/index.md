@@ -13,6 +13,9 @@ website: "https://db.berryhub.app"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/berry-apps/berrydb-desktop/blob/main/LICENSE"
 download: "https://github.com/berry-apps/berrydb-desktop/releases/latest"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

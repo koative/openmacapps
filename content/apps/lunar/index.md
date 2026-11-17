@@ -11,6 +11,9 @@ website: https://lunar.fyi
 license: MIT
 licenseUrl: https://github.com/alin23/Lunar/blob/master/LICENSE
 download: https://github.com/alin23/Lunar/releases
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "lunar"
 featured: false

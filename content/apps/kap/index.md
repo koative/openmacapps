@@ -8,6 +8,9 @@ website: "https://getkap.co"
 license: "MIT"
 licenseUrl: "https://github.com/wulkano/Kap/blob/main/LICENSE.md"
 download: "https://github.com/wulkano/Kap/releases"
+macos: "12"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "kap"
 featured: false

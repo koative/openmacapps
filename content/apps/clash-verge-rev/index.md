@@ -12,6 +12,8 @@ website: https://www.clashverge.dev
 license: "GPL-3.0"
 licenseUrl: https://github.com/clash-verge-rev/clash-verge-rev/blob/dev/LICENSE
 download: https://github.com/clash-verge-rev/clash-verge-rev/releases
+macos: "11"
+arch: both
 freeDownload: true
 homebrew: "clash-verge-rev"
 featured: false

@@ -12,6 +12,9 @@ website: "https://meow.huangy.top"
 license: "MIT"
 licenseUrl: "https://github.com/huangy7/MeowOut/blob/main/LICENSE"
 download: "https://github.com/huangy7/MeowOut/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -14,6 +14,9 @@ website: "https://reed.w20.ai"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/w20labs/reed/blob/main/LICENSE"
 download: "https://github.com/w20labs/reed/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -13,6 +13,9 @@ website: https://iloader.app
 license: "MIT"
 licenseUrl: https://github.com/nab138/iloader/blob/main/LICENSE
 download: https://github.com/nab138/iloader/releases/latest
+macos: "10.13"
+arch: both
+notarized: true
 homebrew: "iloader"
 freeDownload: true
 featured: false

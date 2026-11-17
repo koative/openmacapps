@@ -8,6 +8,9 @@ website: "https://dolphin-emu.org"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/dolphin-emu/dolphin/blob/master/COPYING"
 download: "https://dolphin-emu.org/download"
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "dolphin"
 featured: false

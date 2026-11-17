@@ -12,6 +12,9 @@ website: "https://yorben.me/needle/"
 license: "MIT"
 licenseUrl: "https://github.com/Yvsleyen00941/Needle/blob/main/LICENSE"
 download: "https://github.com/Yvsleyen00941/Needle/releases/latest"
+macos: "26"
+arch: both
+notarized: false
 homebrew: "yvsleyen00941/tap/needle"
 freeDownload: true
 featured: false

@@ -9,6 +9,9 @@ website: "https://objective-see.org/products/lulu.html"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/objective-see/LuLu/blob/master/LICENSE.md"
 download: "https://github.com/objective-see/LuLu/releases"
+macos: "10.15"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "lulu"
 featured: false

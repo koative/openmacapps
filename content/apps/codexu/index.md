@@ -12,6 +12,9 @@ website: "https://shanggqm.github.io/codexU-site/"
 license: "MIT"
 licenseUrl: "https://github.com/shanggqm/codexU/blob/main/LICENSE"
 download: "https://github.com/shanggqm/codexU/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

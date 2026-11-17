@@ -13,6 +13,9 @@ website: https://github.com/starbudweiser/wCLAUDE
 license: MIT
 licenseUrl: https://github.com/starbudweiser/wCLAUDE/blob/main/LICENSE
 download: "https://github.com/starbudweiser/wCLAUDE/releases/latest"
+macos: "13"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-11-16'

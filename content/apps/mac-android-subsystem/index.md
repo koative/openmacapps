@@ -12,6 +12,8 @@ website: https://harkhowalia-1.github.io/MacSubsystemForAndroid/
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/harkhowalia-1/MacSubsystemForAndroid/blob/main/LICENSE
 download: https://github.com/harkhowalia-1/MacSubsystemForAndroid/releases
+macos: "15"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: '2026-10-29'

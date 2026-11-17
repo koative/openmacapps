@@ -13,6 +13,8 @@ website: "https://turhe123.github.io/clip-recall-bar/"
 license: "MIT"
 licenseUrl: "https://github.com/turhe123/clip-recall-bar/blob/main/LICENSE"
 download: "https://github.com/turhe123/clip-recall-bar/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

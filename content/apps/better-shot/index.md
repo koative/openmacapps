@@ -18,6 +18,8 @@ website: "https://www.bettershot.site"
 license: "BSD-3-Clause"
 licenseUrl: "https://github.com/KartikLabhshetwar/better-shot/blob/main/LICENSE"
 download: "https://github.com/KartikLabhshetwar/better-shot/releases/latest"
+macos: "14"
+arch: both
 freeDownload: true
 homebrew: "bettershot"
 featured: false

@@ -11,6 +11,9 @@ website: "https://github.com/zenangst/Syncalicious"
 license: "MIT"
 licenseUrl: "https://github.com/zenangst/Syncalicious/blob/master/LICENSE.md"
 download: "https://github.com/zenangst/Syncalicious/releases/download/0.0.6/Syncalicious.zip"
+macos: "10.14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

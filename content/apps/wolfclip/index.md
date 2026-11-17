@@ -13,6 +13,8 @@ website: "https://rakushkatop.github.io/wolfclip/"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/RakushkaTOP/wolfclip/blob/main/LICENSE"
 download: "https://github.com/RakushkaTOP/wolfclip/releases/latest/download/WolfClip-macOS.zip"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

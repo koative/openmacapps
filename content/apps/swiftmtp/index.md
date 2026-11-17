@@ -13,6 +13,8 @@ website: "https://neighbor-z.github.io/swiftmtp-website"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/Neighbor-Z/SwiftMTP/blob/main/LICENSE"
 download: "https://github.com/Neighbor-Z/SwiftMTP/releases/latest"
+macos: "12"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

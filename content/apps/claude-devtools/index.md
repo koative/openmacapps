@@ -13,6 +13,7 @@ website: https://claude-dev.tools
 license: "MIT"
 licenseUrl: https://github.com/matt1398/claude-devtools/blob/main/LICENSE
 download: https://github.com/matt1398/claude-devtools/releases
+notarized: false
 homebrew: "claude-devtools"
 freeDownload: true
 featured: false

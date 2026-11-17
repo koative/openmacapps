@@ -12,6 +12,9 @@ website: "https://gocci.kkweb.io/"
 license: "MIT"
 licenseUrl: "https://github.com/piro0919/gocci/blob/main/LICENSE"
 download: "https://github.com/piro0919/gocci/releases"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

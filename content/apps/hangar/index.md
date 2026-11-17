@@ -12,6 +12,8 @@ website: "https://github.com/0fuz/hangar"
 license: "MIT"
 licenseUrl: "https://github.com/0fuz/hangar/blob/main/LICENSE"
 download: "https://github.com/0fuz/hangar/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

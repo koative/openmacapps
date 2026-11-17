@@ -11,6 +11,8 @@ website: "https://github.com/tofa84/berth"
 license: "MIT"
 licenseUrl: "https://github.com/tofa84/berth/blob/main/LICENSE"
 download: "https://github.com/tofa84/berth/releases/latest"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

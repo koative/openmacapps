@@ -11,6 +11,7 @@ website: "https://github.com/Studio3T/robomongo"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Studio3T/robomongo/blob/master/LICENSE"
 download: "https://github.com/Studio3T/robomongo/releases"
+arch: intel
 freeDownload: true
 featured: false
 added: "2026-11-06"

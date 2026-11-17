@@ -12,6 +12,8 @@ website: "https://github.com/lucasmullikin/ModelStatus"
 license: "MIT"
 licenseUrl: "https://github.com/lucasmullikin/ModelStatus/blob/main/LICENSE"
 download: "https://github.com/lucasmullikin/ModelStatus/releases"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

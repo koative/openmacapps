@@ -14,6 +14,9 @@ website: "https://www.piedol.top/photon/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/piedol/photon/blob/main/LICENSE"
 download: "https://github.com/piedol/photon/releases/download/v0.2.3/Photon-macOS-arm64.zip"
+macos: "15"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

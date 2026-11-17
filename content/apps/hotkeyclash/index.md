@@ -11,6 +11,9 @@ website: https://hotkeyclash.com
 license: GPL-2.0
 licenseUrl: https://github.com/Wunderlandmedia/HotkeyClash/blob/main/LICENSE
 download: https://github.com/Wunderlandmedia/HotkeyClash/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "hotkeyclash"
 featured: false

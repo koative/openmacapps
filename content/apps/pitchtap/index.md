@@ -11,6 +11,9 @@ website: "https://gkudva96.github.io/pitchtap/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/gkudva96/pitchtap/blob/main/LICENSE"
 download: "https://github.com/gkudva96/pitchtap/releases/latest"
+macos: "14.4"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

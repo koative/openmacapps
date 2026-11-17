@@ -13,6 +13,8 @@ website: https://aiqino.netlify.app
 license: MIT
 licenseUrl: https://github.com/sopaco/saga-reader/blob/main/LICENSE
 download: https://github.com/sopaco/saga-reader/releases
+macos: "10.15"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -11,6 +11,7 @@ website: "https://github.com/raphaelhanneken/apple-juice"
 license: "MIT"
 licenseUrl: "https://github.com/raphaelhanneken/apple-juice/blob/master/LICENSE"
 download: "https://github.com/raphaelhanneken/apple-juice/releases/download/2020.12.0/Apple.Juice.dmg"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

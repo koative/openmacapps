@@ -8,6 +8,9 @@ website: "https://tungstenedge.app"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/moonbai-studio/tungsten-edge/blob/master/LICENSE"
 download: "https://tungstenedge.app"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "tungsten-edge"
 featured: false

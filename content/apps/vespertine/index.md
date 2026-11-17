@@ -11,6 +11,9 @@ website: "https://vespertineapp.com"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/szeremeta1/Vespertine/blob/main/LICENSE"
 download: "https://github.com/szeremeta1/Vespertine/releases/latest"
+macos: "14.4"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

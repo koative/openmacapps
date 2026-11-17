@@ -13,6 +13,8 @@ website: "https://github.com/timurverevkin/Piletto"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/timurverevkin/Piletto/blob/main/LICENSE"
 download: "https://github.com/timurverevkin/Piletto/releases"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

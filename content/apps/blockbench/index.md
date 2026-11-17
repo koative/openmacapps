@@ -8,6 +8,9 @@ website: "https://www.blockbench.net/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/JannisX11/blockbench/blob/master/LICENSE.MD"
 download: "https://github.com/JannisX11/blockbench/releases"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "blockbench"
 featured: false

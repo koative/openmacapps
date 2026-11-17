@@ -12,6 +12,7 @@ website: https://github.com/shaojiankui/ProfilesManager
 license: "MIT"
 licenseUrl: https://github.com/shaojiankui/ProfilesManager/blob/master/LICENSE
 download: https://github.com/shaojiankui/ProfilesManager/releases
+arch: both
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release or commit since September 2024."

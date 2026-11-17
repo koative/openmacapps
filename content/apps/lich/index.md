@@ -12,6 +12,7 @@ website: https://lichdotdev.github.io/lich/
 license: "AGPL-3.0-only"
 licenseUrl: https://github.com/lichdotdev/lich/blob/main/LICENSE
 download: https://github.com/lichdotdev/lich/releases
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

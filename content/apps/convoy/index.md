@@ -11,6 +11,9 @@ website: "https://thedynamicpunk.github.io"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/TheDynamicPunk/Convoy/blob/main/LICENSE"
 download: "https://github.com/TheDynamicPunk/Convoy/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

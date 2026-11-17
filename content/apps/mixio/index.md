@@ -12,6 +12,9 @@ website: https://github.com/RadixIV/Mixio
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/RadixIV/Mixio/blob/main/LICENSE
 download: https://github.com/RadixIV/Mixio/releases
+macos: "26"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

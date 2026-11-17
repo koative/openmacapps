@@ -13,6 +13,9 @@ website: "https://nasadunadu.github.io/screen-capture-macos/"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/nasadunadu/screen-capture-macos/blob/main/LICENSE"
 download: "https://github.com/nasadunadu/screen-capture-macos/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

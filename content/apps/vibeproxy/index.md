@@ -12,6 +12,8 @@ website: https://github.com/automazeio/vibeproxy
 license: "MIT"
 licenseUrl: https://github.com/automazeio/vibeproxy/blob/main/LICENSE
 download: https://github.com/automazeio/vibeproxy/releases
+macos: "13"
+arch: both
 freeDownload: true
 homebrew: "vibeproxy"
 featured: false

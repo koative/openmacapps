@@ -13,6 +13,9 @@ website: "https://elapen.github.io/tilqos/"
 license: "MIT"
 licenseUrl: "https://github.com/elapen/tilqos/blob/main/LICENSE"
 download: "https://github.com/elapen/tilqos/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

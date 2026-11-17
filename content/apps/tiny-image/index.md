@@ -8,6 +8,8 @@ website: "https://github.com/kyleduo/TinyPNG4Mac"
 license: "MIT"
 licenseUrl: "https://github.com/kyleduo/TinyPNG4Mac/blob/master/LICENSE"
 download: "https://github.com/kyleduo/TinyPNG4Mac/releases"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

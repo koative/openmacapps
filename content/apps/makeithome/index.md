@@ -12,6 +12,8 @@ website: https://github.com/Geckos-Ink/MakeItHome
 license: "MPL-2.0"
 licenseUrl: https://github.com/Geckos-Ink/MakeItHome/blob/main/LICENSE
 download: https://github.com/Geckos-Ink/MakeItHome/releases
+macos: "12.3"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

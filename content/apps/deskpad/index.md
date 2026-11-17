@@ -12,6 +12,7 @@ website: https://github.com/Stengo/DeskPad
 license: "MIT"
 licenseUrl: https://github.com/Stengo/DeskPad/blob/main/LICENSE.md
 download: https://github.com/Stengo/DeskPad/releases
+macos: "13"
 homebrew: "deskpad"
 freeDownload: true
 featured: false

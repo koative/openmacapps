@@ -11,6 +11,9 @@ website: "https://github.com/runtime-org/runtime"
 license: "MIT"
 licenseUrl: "https://github.com/runtime-org/runtime/blob/main/LICENSE"
 download: "https://github.com/runtime-org/runtime/releases/download/v0.1.1/runtime_latest.dmg"
+macos: "10.13"
+arch: both
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

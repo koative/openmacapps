@@ -11,6 +11,9 @@ website: https://github.com/nuance-dev/medio
 license: "MIT"
 licenseUrl: https://github.com/nuance-dev/medio/blob/main/LICENSE
 download: https://github.com/nuance-dev/medio/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

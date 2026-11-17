@@ -8,6 +8,9 @@ website: "https://github.com/xykong/flux-markdown"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/xykong/flux-markdown/blob/master/LICENSE"
 download: "https://github.com/xykong/flux-markdown/releases"
+macos: "11"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

@@ -8,6 +8,9 @@ website: "https://rustdesk.com"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/rustdesk/rustdesk/blob/master/LICENCE"
 download: "https://github.com/rustdesk/rustdesk/releases"
+macos: "12.3"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "rustdesk"
 featured: false

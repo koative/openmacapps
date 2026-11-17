@@ -15,6 +15,8 @@ website: https://rawtherapee.com/
 license: GPL-3.0
 licenseUrl: https://github.com/RawTherapee/RawTherapee/blob/dev/LICENSE
 download: https://rawtherapee.com/downloads/
+macos: "26"
+arch: both
 freeDownload: true
 homebrew: "rawtherapee"
 featured: false

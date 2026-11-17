@@ -11,6 +11,9 @@ website: "https://coworkosapp.com"
 license: "MIT"
 licenseUrl: "https://github.com/CoWork-OS/CoWork-OS/blob/main/LICENSE"
 download: "https://github.com/CoWork-OS/CoWork-OS/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -13,6 +13,8 @@ website: https://github.com/jupyterlab/jupyterlab-desktop
 license: "BSD-3-Clause"
 licenseUrl: https://github.com/jupyterlab/jupyterlab-desktop/blob/master/LICENSE
 download: https://github.com/jupyterlab/jupyterlab-desktop/releases
+macos: "12"
+arch: both
 homebrew: "jupyterlab-app"
 freeDownload: true
 featured: false

@@ -17,6 +17,9 @@ website: "https://macshot.io"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/sw33tLie/macshot/blob/main/LICENSE"
 download: "https://github.com/sw33tLie/macshot/releases"
+macos: "12.3"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "macshot"
 featured: false

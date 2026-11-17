@@ -12,6 +12,7 @@ website: "https://xtremedownloadmanager.com/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/subhra74/xdm/blob/master/LICENSE"
 download: "https://github.com/subhra74/xdm/releases"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

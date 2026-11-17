@@ -15,6 +15,9 @@ website: "https://typeno.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/marswaveai/TypeNo/blob/main/LICENSE"
 download: "https://github.com/marswaveai/TypeNo/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,9 @@ website: "https://github.com/owenzhao/DeepSeekStatus"
 license: "MIT"
 licenseUrl: "https://github.com/owenzhao/DeepSeekStatus/blob/main/LICENSE"
 download: "https://github.com/owenzhao/DeepSeekStatus/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

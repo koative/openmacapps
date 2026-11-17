@@ -14,6 +14,8 @@ website: https://github.com/NickvisionApps/Parabolic
 license: "MIT"
 licenseUrl: https://github.com/NickvisionApps/Parabolic/blob/main/LICENSE
 download: https://github.com/NickvisionApps/Parabolic/releases
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

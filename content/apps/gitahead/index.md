@@ -16,6 +16,7 @@ licenseUrl: "https://github.com/gitahead/gitahead/blob/master/LICENSE.md"
 maintenance: "unmaintained"
 maintenanceNote: "No release since December 2023 (checked November 2026), and the README says the project is no longer under active development."
 download: "https://github.com/gitahead/gitahead/releases"
+notarized: true
 freeDownload: true
 homebrew: "gitahead"
 featured: false

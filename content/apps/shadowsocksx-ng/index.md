@@ -11,6 +11,9 @@ website: "https://github.com/shadowsocks/ShadowsocksX-NG"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/shadowsocks/ShadowsocksX-NG/blob/develop/LICENSE"
 download: "https://github.com/shadowsocks/ShadowsocksX-NG/releases"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

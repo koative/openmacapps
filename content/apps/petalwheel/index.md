@@ -12,6 +12,9 @@ website: "https://github.com/TheAlexRay/petalwheel"
 license: "MIT"
 licenseUrl: "https://github.com/TheAlexRay/petalwheel/blob/main/LICENSE"
 download: "https://github.com/TheAlexRay/petalwheel/releases/download/v1.2.0/Petalwheel-1.2.0.dmg"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

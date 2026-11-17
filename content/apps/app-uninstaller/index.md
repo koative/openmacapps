@@ -14,6 +14,8 @@ website: "https://github.com/kamjin3086/AppUninstaller"
 license: "MIT"
 licenseUrl: "https://github.com/kamjin3086/AppUninstaller/blob/main/LICENSE"
 download: "https://github.com/kamjin3086/AppUninstaller/releases/download/v1.0.2/AppUninstaller-v1.0.2-macOS.zip"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

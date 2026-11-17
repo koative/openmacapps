@@ -11,6 +11,8 @@ website: "https://github.com/itsabhishekolkha/AlwaysOnTop"
 license: "MIT"
 licenseUrl: "https://github.com/itsabhishekolkha/AlwaysOnTop/blob/main/LICENSE"
 download: "https://github.com/itsabhishekolkha/AlwaysOnTop/releases/latest"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

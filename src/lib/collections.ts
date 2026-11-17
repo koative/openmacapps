@@ -58,6 +58,21 @@ export const collections = [
       'musescore',
     ],
   },
+  {
+    id: 'design',
+    name: 'The design studio',
+    description: 'Draw, lay out, and build in 3D.',
+    apps: [
+      'openpencil',
+      'inkscape',
+      'gimp',
+      'pika',
+      'scribus',
+      'drawio',
+      'blender',
+      'freecad',
+    ],
+  },
 ] as const;
 
 /** Discover spotlights: editorial headlines over each app's real screenshot. A byline discloses our own apps. */
@@ -103,6 +118,33 @@ export const categorySlug = (category: string) =>
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
+
+/** One Homebrew command for casks; third-party taps (owner/tap/token) are trusted first. */
+export const brewCommand = (casks: string[]) => {
+  const taps = [
+    ...new Set(
+      casks.flatMap((cask) =>
+        cask.includes('/') ? [cask.split('/').slice(0, 2).join('/')] : [],
+      ),
+    ),
+  ];
+  return [
+    ...taps.map((tap) => `brew trust ${tap}`),
+    `brew install --cask ${casks.join(' ')}`,
+  ].join(' && ');
+};
+
+export const archLabels = {
+  both: 'Apple silicon and Intel',
+  'apple-silicon': 'Apple silicon only',
+  intel: 'Intel only',
+} as const;
+
+/** Sortable number for a macOS version string: "10.15" → 1015, "14" → 1400. */
+export const macosRank = (version: string) => {
+  const [major, minor = 0] = version.split('.').map(Number);
+  return major * 100 + minor;
+};
 
 /** Short license text for lockups and the info strip; restricted terms always read "Source available". */
 export const licenseLabel = (app: {

@@ -12,6 +12,8 @@ website: "https://chengffei.github.io/leaf/"
 license: "MIT"
 licenseUrl: "https://github.com/chengffei/leaf/blob/main/LICENSE"
 download: "https://github.com/chengffei/leaf/releases"
+macos: "15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

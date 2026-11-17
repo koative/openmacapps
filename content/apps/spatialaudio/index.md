@@ -11,6 +11,9 @@ website: "https://github.com/vladsboev-web/SpatialAudio"
 license: "MIT"
 licenseUrl: "https://github.com/vladsboev-web/SpatialAudio/blob/main/LICENSE"
 download: "https://github.com/vladsboev-web/SpatialAudio/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

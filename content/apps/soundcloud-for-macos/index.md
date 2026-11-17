@@ -11,6 +11,8 @@ website: "https://github.com/jettsba/SoundCloud-for-macOS"
 license: "MIT"
 licenseUrl: "https://github.com/jettsba/SoundCloud-for-macOS/blob/main/LICENSE"
 download: "https://github.com/jettsba/SoundCloud-for-macOS/releases/download/v1.1.0/SoundCloud.dmg"
+macos: "15.2"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

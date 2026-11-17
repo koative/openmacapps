@@ -11,6 +11,8 @@ website: "https://gwenn-ha-dev.github.io/Siliconed/"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/gwenn-ha-dev/Siliconed/blob/main/LICENSE"
 download: "https://github.com/gwenn-ha-dev/Siliconed/releases/latest"
+macos: "26"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

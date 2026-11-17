@@ -8,6 +8,9 @@ website: "https://ptsochantaris.github.io/trailer/"
 license: "MIT"
 licenseUrl: "https://github.com/ptsochantaris/trailer/blob/main/LICENSE.txt"
 download: "https://github.com/ptsochantaris/trailer/releases"
+macos: "15.6"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "trailer"
 featured: false

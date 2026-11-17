@@ -8,6 +8,7 @@ website: "https://airi.moeru.ai"
 license: "MIT"
 licenseUrl: "https://github.com/moeru-ai/airi/blob/main/LICENSE"
 download: "https://github.com/moeru-ai/airi/releases"
+arch: both
 homebrew: "airi"
 freeDownload: true
 featured: false

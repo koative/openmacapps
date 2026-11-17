@@ -8,6 +8,9 @@ website: "https://vsux.sphrag.com/en/"
 license: "MIT"
 licenseUrl: "https://github.com/shadowDragons/vsux/blob/main/LICENSE"
 download: "https://github.com/shadowDragons/vsux/releases/tag/v0.1.2"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-15"

@@ -13,6 +13,8 @@ website: https://capd.jxd.dev
 license: MIT
 licenseUrl: https://github.com/jamiedavenport/capd/blob/main/LICENSE
 download: https://github.com/jamiedavenport/capd/releases
+macos: "26"
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

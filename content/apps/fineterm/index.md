@@ -11,6 +11,8 @@ website: "https://github.com/achendev/FineTerm"
 license: "MIT"
 licenseUrl: "https://github.com/achendev/FineTerm/blob/master/LICENSE"
 download: "https://github.com/achendev/FineTerm/releases/latest"
+macos: "12"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

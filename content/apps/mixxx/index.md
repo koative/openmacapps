@@ -8,6 +8,9 @@ website: "https://mixxx.org/"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/mixxxdj/mixxx/blob/main/LICENSE"
 download: "https://mixxx.org/download/"
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "mixxx"
 featured: false

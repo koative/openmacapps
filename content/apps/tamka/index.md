@@ -14,6 +14,9 @@ website: "https://www.piedol.top/tamka/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/piedol/tamka/blob/main/LICENSE"
 download: "https://github.com/piedol/tamka/releases/download/v0.1.4/Tamka-macOS-arm64.zip"
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

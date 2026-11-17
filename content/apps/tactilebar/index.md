@@ -12,6 +12,8 @@ website: "https://github.com/tr0drigues/TactileBar"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/tr0drigues/TactileBar/blob/main/LICENSE"
 download: "https://github.com/tr0drigues/TactileBar/releases"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

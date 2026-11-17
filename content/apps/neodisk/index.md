@@ -13,6 +13,9 @@ website: https://neodisk.app
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/tkslucas/Neodisk/blob/main/LICENSE
 download: https://github.com/tkslucas/Neodisk/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "neodisk"
 featured: false

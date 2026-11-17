@@ -12,6 +12,9 @@ website: "https://tapflow.work"
 license: "MIT"
 licenseUrl: "https://github.com/Alienwang1980/tapflow/blob/main/LICENSE"
 download: "https://github.com/Alienwang1980/tapflow/releases/download/v1.0.10/Tapflow-1.0.10.dmg"
+macos: "15"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

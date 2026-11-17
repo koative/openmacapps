@@ -16,6 +16,9 @@ website: https://syi0808.github.io/screenize/
 license: Apache-2.0
 licenseUrl: https://github.com/syi0808/screenize/blob/main/LICENSE
 download: https://github.com/syi0808/screenize/releases
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 maintenance: "unmaintained"

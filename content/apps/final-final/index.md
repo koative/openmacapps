@@ -11,6 +11,8 @@ website: "https://finalfinalapp.cc/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/kerim/finalfinal/blob/main/LICENSE"
 download: "https://github.com/kerim/finalfinal/releases/latest"
+macos: "15"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

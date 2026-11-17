@@ -11,6 +11,9 @@ website: "https://sarthakchhabra.com/castbar/"
 license: "MIT"
 licenseUrl: "https://github.com/itssarthak/castbar/blob/main/LICENSE"
 download: "https://github.com/itssarthak/castbar/releases/latest"
+macos: "11"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

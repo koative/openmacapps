@@ -12,6 +12,8 @@ website: "https://github.com/happyjake/ClipZilla"
 license: "MIT"
 licenseUrl: "https://github.com/happyjake/ClipZilla/blob/main/LICENSE"
 download: "https://github.com/happyjake/ClipZilla/releases"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -14,6 +14,9 @@ sourceAvailability: "source-available"
 licenseNotes: "Tempo is licensed under CC BY-NC 4.0. You may copy, share and adapt it for noncommercial purposes with credit to Crows-Storm. Commercial use needs separate permission, and the license grants no trademark or patent rights."
 licenseUrl: "https://github.com/Crows-Storm/Tempo/blob/master/LICENSE"
 download: "https://github.com/Crows-Storm/Tempo/releases/latest"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -17,6 +17,8 @@ licenseNotes: "The custom MMF License restricts publishing derived executables:
   license."
 licenseUrl: https://github.com/noah-nuebling/mac-mouse-fix/blob/master/License
 download: https://macmousefix.com
+arch: both
+notarized: true
 freeDownload: false
 homebrew: "mac-mouse-fix"
 icon: ./assets/icon.png

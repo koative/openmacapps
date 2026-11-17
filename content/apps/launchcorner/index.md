@@ -11,6 +11,7 @@ website: "https://github.com/wenujacodes/LaunchCorner"
 license: "MIT"
 licenseUrl: "https://github.com/wenujacodes/LaunchCorner/blob/main/LICENSE"
 download: "https://github.com/wenujacodes/LaunchCorner/releases/latest"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

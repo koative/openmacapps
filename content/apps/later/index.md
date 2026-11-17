@@ -12,6 +12,8 @@ website: https://getlater.app
 license: "MIT"
 licenseUrl: https://github.com/alyssaxuu/later/blob/master/LICENSE
 download: https://github.com/alyssaxuu/later/blob/master/Later.dmg
+macos: "11.6"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

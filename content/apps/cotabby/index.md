@@ -12,6 +12,9 @@ website: "https://cotabby.app"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/FuJacob/cotabby/blob/main/LICENSE"
 download: "https://github.com/FuJacob/cotabby/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

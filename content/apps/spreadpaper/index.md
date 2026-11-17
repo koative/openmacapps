@@ -12,6 +12,9 @@ website: https://spreadpaper.app
 license: "MIT"
 licenseUrl: https://github.com/spreadpaper/SpreadPaper/blob/main/LICENSE
 download: https://github.com/spreadpaper/SpreadPaper/releases
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-29'

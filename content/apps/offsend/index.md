@@ -12,6 +12,8 @@ website: "https://offsend.io"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/Offsend/Offsend/blob/main/LICENSE"
 download: "https://github.com/Offsend/Offsend/releases"
+macos: "13"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

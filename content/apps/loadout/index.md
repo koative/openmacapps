@@ -11,6 +11,7 @@ website: https://loadout.migsilva.dev
 license: MIT
 licenseUrl: https://github.com/migsilva89/loadout/blob/main/LICENSE
 download: https://github.com/migsilva89/loadout/releases
+macos: "15"
 freeDownload: true
 featured: false
 added: '2026-10-17'

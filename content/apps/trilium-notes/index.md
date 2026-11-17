@@ -9,6 +9,7 @@ website: "https://triliumnotes.org/"
 license: "AGPL-3.0-or-later"
 licenseUrl: "https://github.com/TriliumNext/Trilium/blob/main/LICENSE"
 download: "https://github.com/TriliumNext/Trilium/releases"
+arch: both
 freeDownload: true
 homebrew: "trilium-notes"
 featured: false

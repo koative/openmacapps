@@ -12,6 +12,9 @@ website: https://www.openusage.ai
 license: "MIT"
 licenseUrl: https://github.com/robinebers/openusage/blob/main/LICENSE
 download: https://github.com/robinebers/openusage/releases
+macos: "15"
+arch: both
+notarized: true
 homebrew: "openusage"
 freeDownload: true
 featured: false

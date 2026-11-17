@@ -12,6 +12,7 @@ website: "https://github.com/zorth64/KeyboardOverlay"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/zorth64/KeyboardOverlay/blob/main/LICENSE"
 download: "https://github.com/zorth64/KeyboardOverlay/releases/latest"
+macos: "14"
 freeDownload: true
 featured: false
 added: "2026-11-06"

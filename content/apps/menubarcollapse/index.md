@@ -13,6 +13,8 @@ website: "https://turhe123.github.io/menu-bar-collapse/"
 license: "MIT"
 licenseUrl: "https://github.com/turhe123/menu-bar-collapse/blob/main/LICENSE"
 download: "https://github.com/turhe123/menu-bar-collapse/releases/latest/download/MenuBarCollapse-macOS.zip"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

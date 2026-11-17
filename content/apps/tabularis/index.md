@@ -14,6 +14,8 @@ website: https://tabularis.dev
 license: "Apache-2.0"
 licenseUrl: https://github.com/TabularisDB/tabularis/blob/main/LICENSE
 download: https://tabularis.dev/download
+arch: both
+notarized: true
 homebrew: "tabularis"
 freeDownload: true
 featured: false

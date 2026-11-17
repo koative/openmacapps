@@ -9,6 +9,9 @@ website: "https://yaak.app"
 license: "MIT"
 licenseUrl: "https://github.com/mountain-loop/yaak/blob/main/LICENSE"
 download: "https://yaak.app/download"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "yaak"
 featured: false

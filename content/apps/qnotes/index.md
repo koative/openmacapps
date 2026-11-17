@@ -14,6 +14,9 @@ website: https://github.com/starbudweiser/qNOTES
 license: MIT
 licenseUrl: https://github.com/starbudweiser/qNOTES/blob/main/LICENSE
 download: "https://github.com/starbudweiser/qNOTES/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-11-16'

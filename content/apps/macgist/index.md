@@ -11,6 +11,9 @@ website: "https://github.com/Bunn/macGist"
 license: "MIT"
 licenseUrl: "https://github.com/Bunn/macGist/blob/master/LICENSE"
 download: "https://github.com/Bunn/macGist/releases/download/1.5/macGist.app.zip"
+macos: "10.12"
+arch: intel
+notarized: false
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No commit since March 2020 (checked 2026-11-06)."

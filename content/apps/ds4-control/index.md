@@ -12,6 +12,9 @@ website: "https://github.com/notatestuser/ds4-control"
 license: "MIT"
 licenseUrl: "https://github.com/notatestuser/ds4-control/blob/main/LICENSE"
 download: "https://github.com/notatestuser/ds4-control/releases"
+macos: "15"
+arch: apple-silicon
+notarized: true
 homebrew: "ds4-control"
 freeDownload: true
 featured: false

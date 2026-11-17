@@ -11,6 +11,9 @@ website: "https://github.com/Funnyrz/ClickMate"
 license: "MIT"
 licenseUrl: "https://github.com/Funnyrz/ClickMate/blob/main/LICENSE"
 download: "https://github.com/Funnyrz/ClickMate/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

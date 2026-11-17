@@ -8,6 +8,9 @@ website: "https://godotengine.org"
 license: "MIT"
 licenseUrl: "https://github.com/godotengine/godot/blob/master/LICENSE.txt"
 download: "https://godotengine.org/download/macos/"
+macos: "10.13"
+arch: both
+notarized: true
 homebrew: "godot"
 freeDownload: true
 featured: false

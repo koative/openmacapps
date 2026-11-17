@@ -8,6 +8,8 @@ website: "https://h3pdesign.github.io/Neon-Vision-Editor/"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/h3pdesign/Neon-Vision-Editor/blob/main/LICENSE"
 download: "https://github.com/h3pdesign/Neon-Vision-Editor/releases"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "neon-vision-editor"
 featured: false

@@ -11,6 +11,9 @@ website: "https://app.snaix.homes/iconchanger/"
 license: "MIT"
 licenseUrl: "https://github.com/Bengerthelorf/macIconChanger/blob/main/LICENSE"
 download: "https://github.com/Bengerthelorf/macIconChanger/releases"
+macos: "13"
+arch: both
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-08"

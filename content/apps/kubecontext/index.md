@@ -10,6 +10,9 @@ website: https://github.com/turkenh/KubeContext
 license: "Apache-2.0"
 licenseUrl: https://github.com/turkenh/KubeContext/blob/master/LICENSE
 download: https://github.com/turkenh/KubeContext/releases/latest
+macos: "11.1"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "kubecontext"
 featured: false

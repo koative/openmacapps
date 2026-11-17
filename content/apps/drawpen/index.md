@@ -14,6 +14,9 @@ website: https://drawpen.app
 license: "MIT"
 licenseUrl: https://github.com/DmytroVasin/DrawPen/blob/main/LICENSE
 download: https://github.com/DmytroVasin/DrawPen/releases/latest
+macos: "13"
+arch: both
+notarized: true
 homebrew: "drawpen"
 freeDownload: true
 featured: false
