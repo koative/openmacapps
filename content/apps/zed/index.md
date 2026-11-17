@@ -9,6 +9,8 @@ website: "https://zed.dev"
 license: "GPL-3.0-or-later AND Apache-2.0"
 licenseUrl: "https://github.com/zed-industries/zed/blob/main/LICENSE-GPL"
 download: "https://zed.dev/download"
+macos: "12"
+arch: both
 freeDownload: true
 homebrew: "zed"
 featured: false

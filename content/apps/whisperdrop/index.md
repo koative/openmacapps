@@ -12,6 +12,9 @@ website: "https://github.com/Zer0codestuff/whisperdrop-2"
 license: "MIT"
 licenseUrl: "https://github.com/Zer0codestuff/whisperdrop-2/blob/main/LICENSE"
 download: "https://github.com/Zer0codestuff/whisperdrop-2/releases"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

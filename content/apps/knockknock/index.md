@@ -11,6 +11,9 @@ website: https://objective-see.org/products/knockknock.html
 license: GPL-3.0
 licenseUrl: https://github.com/objective-see/KnockKnock/blob/main/LICENSE
 download: https://github.com/objective-see/KnockKnock/releases
+macos: "10.15"
+arch: both
+notarized: false
 freeDownload: true
 homebrew: "knockknock"
 featured: false

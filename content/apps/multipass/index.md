@@ -11,6 +11,8 @@ website: https://canonical.com/multipass
 license: "GPL-3.0"
 licenseUrl: https://github.com/canonical/multipass/blob/main/LICENSE
 download: https://github.com/canonical/multipass/releases/latest
+macos: "14"
+arch: both
 freeDownload: true
 homebrew: "multipass"
 featured: false

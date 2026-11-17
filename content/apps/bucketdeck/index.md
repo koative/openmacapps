@@ -14,6 +14,7 @@ website: https://bucketdeck.com
 license: GPL-3.0-only
 licenseUrl: https://github.com/koative/bucketdeck/blob/main/LICENSE
 download: https://github.com/koative/bucketdeck/releases/latest
+macos: "26"
 freeDownload: true
 homebrew: "koative/tap/bucketdeck"
 featured: false

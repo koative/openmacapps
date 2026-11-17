@@ -11,6 +11,7 @@ website: https://satelliteeyes.tomtaylor.co.uk
 license: "Apache-2.0"
 licenseUrl: https://github.com/tomtaylor/satellite-eyes/blob/main/LICENSE
 download: https://satelliteeyes.tomtaylor.co.uk
+macos: "13"
 freeDownload: true
 homebrew: "satellite-eyes"
 featured: false

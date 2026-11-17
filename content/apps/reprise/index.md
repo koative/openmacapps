@@ -12,6 +12,9 @@ website: "https://github.com/nikiomori/reprise"
 license: "MIT"
 licenseUrl: "https://github.com/nikiomori/reprise/blob/main/LICENSE"
 download: "https://github.com/nikiomori/reprise/releases"
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

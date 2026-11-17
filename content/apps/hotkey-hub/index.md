@@ -12,6 +12,9 @@ website: "https://github.com/hunters1431/MACKey"
 license: "MIT"
 licenseUrl: "https://github.com/hunters1431/MACKey/blob/main/LICENSE"
 download: "https://github.com/hunters1431/MACKey/releases"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

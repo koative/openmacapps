@@ -13,6 +13,8 @@ website: "https://purr.arunbrahma.com"
 license: "MIT"
 licenseUrl: "https://github.com/iamarunbrahma/purr/blob/main/LICENSE"
 download: "https://github.com/iamarunbrahma/purr/releases/download/v0.0.2/Purr.dmg"
+macos: "14"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

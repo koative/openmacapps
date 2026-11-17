@@ -12,6 +12,9 @@ website: https://openchamber.dev
 license: "MIT"
 licenseUrl: https://github.com/openchamber/openchamber/blob/main/LICENSE
 download: https://github.com/openchamber/openchamber/releases/latest
+macos: "13"
+arch: both
+notarized: true
 homebrew: "openchamber"
 freeDownload: true
 featured: false

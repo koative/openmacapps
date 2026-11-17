@@ -12,6 +12,9 @@ website: "https://gadak.dev"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/midagedev/gadak/blob/main/LICENSE"
 download: "https://github.com/midagedev/gadak/releases/download/v0.24.3/Gadak-0.24.3-arm64.dmg"
+macos: "12"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,8 @@ website: "https://amperebattery.app/"
 license: "MIT"
 licenseUrl: "https://github.com/az-code-lab/ampere/blob/master/LICENSE"
 download: "https://github.com/az-code-lab/ampere/releases/latest"
+macos: "15"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

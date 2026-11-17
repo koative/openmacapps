@@ -11,6 +11,9 @@ website: "https://v2macapp.github.io/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/v2macapp/v2mac/blob/main/LICENSE"
 download: "https://github.com/v2macapp/v2mac/releases"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

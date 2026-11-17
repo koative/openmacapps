@@ -12,6 +12,9 @@ website: https://feuerbacher.me/projects/launchy
 license: AGPL-3.0
 licenseUrl: https://github.com/Punshnut/macos-launchy/blob/dev/LICENSE
 download: https://github.com/Punshnut/macos-launchy/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -12,6 +12,8 @@ website: "https://github.com/kotique123/FnKeyboard"
 license: "MIT"
 licenseUrl: "https://github.com/kotique123/FnKeyboard/blob/main/LICENSE"
 download: "https://github.com/kotique123/FnKeyboard/releases"
+macos: "13"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

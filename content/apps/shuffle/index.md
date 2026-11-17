@@ -13,6 +13,9 @@ website: "https://shuffleapp.co"
 license: "MIT"
 licenseUrl: "https://github.com/WizenPainter/shuffle/blob/master/LICENSE"
 download: "https://github.com/WizenPainter/shuffle/releases"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

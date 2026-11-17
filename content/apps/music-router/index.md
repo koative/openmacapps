@@ -12,6 +12,7 @@ website: "https://github.com/drumandbytes/music-router"
 license: "MIT"
 licenseUrl: "https://github.com/drumandbytes/music-router/blob/main/LICENSE"
 download: "https://github.com/drumandbytes/music-router/releases"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

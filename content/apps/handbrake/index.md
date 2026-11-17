@@ -8,6 +8,9 @@ website: "https://handbrake.fr"
 license: "GPL-2.0-only"
 licenseUrl: "https://github.com/HandBrake/HandBrake/blob/master/LICENSE"
 download: "https://handbrake.fr/downloads.php"
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "handbrake-app"
 featured: false

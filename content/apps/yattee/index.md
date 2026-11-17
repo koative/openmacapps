@@ -13,6 +13,8 @@ website: https://docs.yattee.stream
 license: "AGPL-3.0"
 licenseUrl: https://github.com/yattee/yattee/blob/main/LICENSE
 download: https://github.com/yattee/yattee/releases
+macos: "15"
+notarized: true
 homebrew: "yattee"
 freeDownload: true
 featured: false

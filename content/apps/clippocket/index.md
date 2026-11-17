@@ -14,6 +14,9 @@ website: "https://github.com/Dhahd/ClipPocket"
 license: "MIT"
 licenseUrl: "https://github.com/Dhahd/ClipPocket/blob/main/LICENSE"
 download: "https://github.com/Dhahd/ClipPocket/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

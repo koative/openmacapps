@@ -15,6 +15,7 @@ website: https://santosh7017.github.io/AndroidFileSync/
 license: "GPL-3.0"
 licenseUrl: https://github.com/Santosh7017/AndroidFileSync/blob/main/LICENSE
 download: https://github.com/Santosh7017/AndroidFileSync/releases
+macos: "13"
 freeDownload: true
 featured: false
 added: '2026-10-29'

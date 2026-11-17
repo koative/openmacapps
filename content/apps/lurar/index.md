@@ -12,6 +12,7 @@ website: https://lurar.app
 license: "MIT"
 licenseUrl: https://github.com/lsjoberg/lurar/blob/main/LICENSE
 download: https://lurar.app
+macos: "14.2"
 freeDownload: true
 featured: false
 added: '2026-10-17'

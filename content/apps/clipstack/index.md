@@ -14,6 +14,8 @@ website: "https://clipstack.chiranjeeb.dev"
 license: "MIT"
 licenseUrl: "https://github.com/chiranjeebhub/ClipStack/blob/main/LICENSE"
 download: "https://github.com/chiranjeebhub/ClipStack/releases"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

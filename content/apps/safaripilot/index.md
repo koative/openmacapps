@@ -13,6 +13,9 @@ website: "https://github.com/johnsusek/SafariPilotMCP"
 license: "MIT"
 licenseUrl: "https://github.com/johnsusek/SafariPilotMCP/blob/main/LICENSE"
 download: "https://github.com/johnsusek/SafariPilotMCP/releases/latest"
+macos: "26"
+arch: both
+notarized: true
 homebrew: "johnsusek/tap/safaripilot"
 freeDownload: true
 featured: false

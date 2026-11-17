@@ -11,6 +11,9 @@ website: "https://www.containerdesk.dev"
 license: "MIT"
 licenseUrl: "https://github.com/MacHatter1/ContainerDesk/blob/main/LICENSE"
 download: "https://github.com/MacHatter1/ContainerDesk/releases/latest"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -15,6 +15,9 @@ website: https://www.wallpapermachine.app
 license: "GPL-3.0-only"
 licenseUrl: https://github.com/MMFoundation/WallpaperMachine/blob/main/LICENSE
 download: https://www.wallpapermachine.app/download
+macos: "15"
+arch: apple-silicon
+notarized: false
 homebrew: "wallpapermachine"
 freeDownload: true
 featured: false

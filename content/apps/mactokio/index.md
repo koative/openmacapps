@@ -11,6 +11,9 @@ website: "https://github.com/dalirnet/mactokio"
 license: "MIT"
 licenseUrl: "https://github.com/dalirnet/mactokio/blob/main/LICENSE"
 download: "https://github.com/dalirnet/mactokio/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

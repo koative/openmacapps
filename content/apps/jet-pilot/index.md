@@ -13,6 +13,7 @@ website: "https://www.jet-pilot.app"
 license: "MIT"
 licenseUrl: "https://github.com/unxsist/jet-pilot/blob/main/LICENSE"
 download: "https://github.com/unxsist/jet-pilot/releases/latest"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -12,6 +12,7 @@ website: https://ferdium.org
 license: "Apache-2.0"
 licenseUrl: https://github.com/ferdium/ferdium-app/blob/develop/LICENSE.md
 download: https://ferdium.org/download
+arch: both
 freeDownload: true
 homebrew: "ferdium"
 featured: false

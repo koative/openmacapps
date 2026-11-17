@@ -11,6 +11,7 @@ website: "https://aiswitcher.dev"
 license: "MIT"
 licenseUrl: "https://github.com/burakdede/aisw-desktop/blob/main/LICENSE"
 download: "https://github.com/burakdede/aisw-desktop/releases"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -13,6 +13,9 @@ website: https://flowvision.app
 license: GPL-3.0
 licenseUrl: https://github.com/netdcy/FlowVision/blob/main/LICENSE
 download: https://github.com/netdcy/FlowVision/releases
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "flowvision"
 featured: false

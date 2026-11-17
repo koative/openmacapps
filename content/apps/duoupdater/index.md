@@ -11,6 +11,9 @@ website: "https://duoupdater.app"
 license: "MIT"
 licenseUrl: "https://github.com/jizhi0v0/duo-updater/blob/main/LICENSE"
 download: "https://github.com/jizhi0v0/duo-updater/releases"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

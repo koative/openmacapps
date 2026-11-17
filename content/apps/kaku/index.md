@@ -12,6 +12,8 @@ website: https://kaku.fun
 license: MIT
 licenseUrl: https://github.com/tw93/Kaku/blob/main/LICENSE.md
 download: https://github.com/tw93/Kaku/releases
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "kaku"
 featured: false

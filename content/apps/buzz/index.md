@@ -8,6 +8,7 @@ website: "https://chidiwilliams.github.io/buzz"
 license: "MIT"
 licenseUrl: "https://github.com/chidiwilliams/buzz/blob/main/LICENSE"
 download: "https://sourceforge.net/projects/buzz-captions/files/"
+arch: apple-silicon
 freeDownload: true
 homebrew: "buzz"
 featured: false

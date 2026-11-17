@@ -13,6 +13,8 @@ website: https://prismdl.site/
 license: "MIT"
 licenseUrl: https://github.com/FortoGraphy/prism-download-manager/blob/main/LICENSE
 download: https://github.com/FortoGraphy/prism-download-manager/releases
+macos: "11"
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-29'

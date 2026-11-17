@@ -37,6 +37,9 @@ website: https://example.org
 license: MIT
 licenseUrl: https://github.com/example/example-app/blob/main/LICENSE
 download: https://github.com/example/example-app/releases
+macos: '14'
+arch: both
+notarized: true
 homebrew: example-app
 featured: false
 added: '2026-10-17'
@@ -96,6 +99,8 @@ Two kinds of landing pages fill themselves from app records, so a new app appear
 
 - **Alternatives** (`/alternatives/<id>/`). An app lists the proprietary products it genuinely replaces in `alternativeTo`, for example `alternativeTo: ["bartender"]`, placed after `tags`. Each id needs `content/alternatives/<id>.md`: frontmatter with the product's `name`, `vendor`, official `website`, `category`, a 15–160 character `summary` of what it does in your own words, `sources` (the official page) and a quoted `verified` date, then a short original introduction. A product gets a page if it is closed source (paid or free), or if it has no macOS version at all; mark the second kind `onMac: false` (Notepad++, PuTTY), which frames the page as "{name} for Mac". List an app only when it does the same core job, not a related one. Directories such as AlternativeTo are useful leads but their pairings are loose, so check each one against the product's site and the app's README. A page is published once at least two apps list it; validation rejects unknown ids and pages with fewer apps. Source-available apps may be listed: their lockups say so, and the page counts them separately. Never include prices, ratings or logos of the proprietary product.
 - **Topics** (`/topics/<slug>/`). `content/topics/<slug>.md` has a plural `title` (for example "Clipboard managers"), a 50–160 character meta `description`, the `tags` that place an app in the topic (any one is enough) and an optional `category` to narrow it, followed by an original introduction. Give a new app the topic's precise tag (such as `clipboard-manager`) and it joins the page. A topic needs at least three matching apps, and every tag it names must exist.
+
+`macos`, `arch` and `notarized` describe the current official download, so readers can filter by the Mac they have. `macos` is the quoted minimum version (`'14'`, `'13.5'`, `'10.15'`), from the bundle's `LSMinimumSystemVersion` or the project's stated requirement. `arch` is `both`, `apple-silicon` or `intel`, from `lipo -archs` or the release assets; separate Apple silicon and Intel downloads count as `both`. `notarized` is `true` when Gatekeeper accepts the app as notarized (`spctl -a -vv`), and `false` for ad-hoc signed, unsigned or un-notarized builds, which get a first-launch note on the page. Put them right after `download`, and leave out any you have not checked; the description should state the same facts.
 
 `freeDownload` records whether the official macOS download costs nothing (`true`) or must be bought, including pay-what-you-want minimums and paid store-only builds (`false`). Put it right after `download`, and leave it out until you have checked. Pages say "free" only when every app they list has `freeDownload: true`, so an unchecked new app keeps the wording at "open-source".
 

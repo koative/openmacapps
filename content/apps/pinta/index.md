@@ -15,6 +15,7 @@ website: https://www.pinta-project.com
 license: "MIT"
 licenseUrl: https://github.com/PintaProject/Pinta/blob/master/license-mit.txt
 download: https://www.pinta-project.com/releases/
+arch: both
 homebrew: "pinta"
 freeDownload: true
 featured: false

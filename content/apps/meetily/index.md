@@ -15,6 +15,7 @@ website: https://meetily.ai
 license: "MIT"
 licenseUrl: https://github.com/Zackriya-Solutions/meetily/blob/main/LICENSE.md
 download: https://github.com/Zackriya-Solutions/meetily/releases
+arch: apple-silicon
 homebrew: "meetily"
 freeDownload: true
 featured: false

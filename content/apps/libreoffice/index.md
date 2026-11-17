@@ -9,6 +9,8 @@ website: "https://www.libreoffice.org/"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/LibreOffice/core/blob/master/COPYING.MPL"
 download: "https://www.libreoffice.org/download/"
+macos: "11"
+arch: both
 freeDownload: true
 homebrew: "libreoffice"
 featured: false

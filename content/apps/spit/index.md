@@ -14,6 +14,9 @@ website: "https://getspit.app"
 license: "MIT"
 licenseUrl: "https://github.com/Draxo-io/spit/blob/main/LICENSE"
 download: "https://github.com/Draxo-io/spit/releases/latest"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

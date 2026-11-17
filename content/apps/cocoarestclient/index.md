@@ -14,6 +14,9 @@ licenseUrl: https://github.com/mmattozzi/cocoa-rest-client/blob/master/LICENSE.t
 maintenance: "unmaintained"
 maintenanceNote: "No release since August 2021."
 download: https://github.com/mmattozzi/cocoa-rest-client/releases
+macos: "10.14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "cocoarestclient"
 featured: false

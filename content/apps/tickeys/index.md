@@ -11,6 +11,7 @@ website: "https://yingdev.com/projects/tickeys"
 license: "MIT"
 licenseUrl: "https://github.com/yingDev/Tickeys/blob/master/LICENSE"
 download: "https://github.com/yingDev/Tickeys/releases/download/0.5.0/Tickeys-0.5.0-yosemite.dmg"
+notarized: true
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No release since February 2016 and no commit since July 2020, as checked on 2026-11-06."

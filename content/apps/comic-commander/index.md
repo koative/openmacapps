@@ -11,6 +11,8 @@ website: "https://github.com/krocon/comic-commander-tauri"
 license: "MIT"
 licenseUrl: "https://github.com/krocon/comic-commander-tauri/blob/main/LICENSE"
 download: "https://github.com/krocon/comic-commander-tauri/releases/latest"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

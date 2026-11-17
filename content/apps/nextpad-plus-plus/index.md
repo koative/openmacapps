@@ -13,6 +13,9 @@ website: https://nextpad.org
 license: "GPL-3.0"
 licenseUrl: https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos/blob/main/LICENSE
 download: https://nextpad.org/download/
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "nextpad++"
 featured: false

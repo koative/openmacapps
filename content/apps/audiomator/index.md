@@ -11,6 +11,7 @@ website: "https://github.com/ChrisLloydME/AudioMator"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/ChrisLloydME/AudioMator/blob/main/LICENSE"
 download: "https://github.com/ChrisLloydME/AudioMator/releases/latest"
+macos: "15"
 freeDownload: true
 featured: false
 added: "2026-11-06"

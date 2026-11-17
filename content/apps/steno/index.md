@@ -13,6 +13,9 @@ website: "https://www.majores.store/"
 license: "MIT"
 licenseUrl: "https://github.com/Thesimpleex/steno/blob/main/LICENSE"
 download: "https://github.com/Thesimpleex/steno/releases/latest"
+macos: "14.2"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

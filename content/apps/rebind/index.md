@@ -11,6 +11,9 @@ website: "https://rebind.moduix.dev"
 license: "MIT"
 licenseUrl: "https://github.com/Blinks44/rebind/blob/main/LICENSE"
 download: "https://github.com/Blinks44/rebind/releases/latest/download/Rebind.dmg"
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

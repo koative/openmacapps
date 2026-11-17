@@ -11,6 +11,9 @@ website: https://github.com/keycastr/keycastr
 license: BSD-3-Clause
 licenseUrl: https://github.com/keycastr/keycastr/blob/main/LICENSE.md
 download: https://github.com/keycastr/keycastr/releases
+macos: "10.15"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "keycastr"
 featured: false

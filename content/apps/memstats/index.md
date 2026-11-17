@@ -12,6 +12,9 @@ website: "https://memstats.chungxon.dev"
 license: "MIT"
 licenseUrl: "https://github.com/sown-oss/MemStats/blob/main/LICENSE"
 download: "https://github.com/sown-oss/MemStats/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

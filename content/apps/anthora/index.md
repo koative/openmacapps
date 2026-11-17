@@ -12,6 +12,9 @@ website: "https://barryanders.github.io/anthora/"
 license: "MIT"
 licenseUrl: "https://github.com/barryanders/Anthora/blob/main/LICENSE"
 download: "https://github.com/barryanders/Anthora/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

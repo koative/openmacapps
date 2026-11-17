@@ -11,6 +11,8 @@ website: "https://writronic.com/lefthandy/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/writronic/LeftHandy/blob/main/LICENSE"
 download: "https://github.com/writronic/LeftHandy/releases/latest/download/LeftHandy.dmg"
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

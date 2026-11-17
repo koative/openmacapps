@@ -11,6 +11,9 @@ website: "https://github.com/iosrxwy/MacAssistant"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/iosrxwy/MacAssistant/blob/master/LICENSE"
 download: "https://github.com/iosrxwy/MacAssistant/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

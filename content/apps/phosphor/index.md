@@ -14,6 +14,9 @@ website: "https://github.com/Kirusshenkin/terminalOs"
 license: "MIT"
 licenseUrl: "https://github.com/Kirusshenkin/terminalOs/blob/main/LICENSE"
 download: "https://github.com/Kirusshenkin/terminalOs/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

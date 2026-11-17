@@ -12,6 +12,9 @@ website: "https://github.com/Avazbek22/DevProjex"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/Avazbek22/DevProjex/blob/master/LICENSE"
 download: "https://github.com/Avazbek22/DevProjex/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

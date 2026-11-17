@@ -11,6 +11,9 @@ website: "https://github.com/nilava/TabType"
 license: "MIT"
 licenseUrl: "https://github.com/nilava/TabType/blob/main/LICENSE"
 download: "https://github.com/nilava/TabType/releases/download/v2.1.0/TabType-2.1.0.dmg"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

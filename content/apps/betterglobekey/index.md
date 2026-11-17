@@ -13,6 +13,8 @@ website: https://github.com/Serpentiel/betterglobekey
 license: MIT
 licenseUrl: https://github.com/Serpentiel/betterglobekey/blob/main/LICENSE.md
 download: https://github.com/Serpentiel/betterglobekey/releases
+macos: "13"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

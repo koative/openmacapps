@@ -14,6 +14,8 @@ website: "https://clipward.dev"
 license: "MIT"
 licenseUrl: "https://github.com/ypankovych/clipward/blob/main/LICENSE"
 download: "https://github.com/ypankovych/clipward/releases"
+macos: "10.13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

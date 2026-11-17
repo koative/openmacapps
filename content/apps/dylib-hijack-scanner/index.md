@@ -11,6 +11,9 @@ website: https://objective-see.org/products/dhs.html
 license: GPL-3.0
 licenseUrl: https://github.com/objective-see/DylibHijackScanner/blob/main/LICENSE
 download: https://github.com/objective-see/DylibHijackScanner/releases
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "dhs"
 featured: false

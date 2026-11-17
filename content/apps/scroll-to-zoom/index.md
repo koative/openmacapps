@@ -12,6 +12,8 @@ website: "https://github.com/alphaArgon/ScrollToZoom"
 license: "MIT"
 licenseUrl: "https://github.com/alphaArgon/ScrollToZoom/blob/main/LICENSE"
 download: "https://github.com/alphaArgon/ScrollToZoom/releases/latest"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

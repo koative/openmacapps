@@ -8,6 +8,8 @@ website: "https://mgba.io"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/mgba-emu/mgba/blob/master/LICENSE"
 download: "https://mgba.io/downloads.html"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "mgba-app"
 featured: false

@@ -11,6 +11,9 @@ website: "https://firstfu.github.io/DockLens-app/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/firstfu/DockLens-app/blob/main/LICENSE"
 download: "https://github.com/firstfu/DockLens-app/releases/download/v1.0.12/DockLens.zip"
+macos: "26"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

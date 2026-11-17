@@ -11,6 +11,7 @@ website: "https://sakura-github-io.vercel.app/Sakurawallpaper.html"
 license: "MIT"
 licenseUrl: "https://github.com/yueseqaz/SakuraWallpaper/blob/main/LICENSE"
 download: "https://github.com/yueseqaz/SakuraWallpaper/releases/latest"
+macos: "12"
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -13,6 +13,9 @@ website: https://gd.xychr.com/
 license: "GPL-3.0"
 licenseUrl: https://github.com/XiaoYouChR/Ghost-Downloader-3/blob/main/LICENSE
 download: https://github.com/XiaoYouChR/Ghost-Downloader-3/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "ghost-downloader"
 featured: false

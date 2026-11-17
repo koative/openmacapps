@@ -11,6 +11,7 @@ website: https://www.creality.com/pages/download-software
 license: "AGPL-3.0"
 licenseUrl: https://github.com/CrealityOfficial/CrealityPrint/blob/master/LICENSE.txt
 download: https://github.com/CrealityOfficial/CrealityPrint/releases/latest
+arch: both
 homebrew: "creality-print"
 freeDownload: true
 featured: false

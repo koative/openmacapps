@@ -16,6 +16,8 @@ website: https://peel.tuguidragos.com
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/TuguiDragos/Peel/blob/main/LICENSE
 download: https://github.com/TuguiDragos/Peel/releases
+macos: "26"
+notarized: true
 homebrew: "peel"
 freeDownload: true
 featured: false

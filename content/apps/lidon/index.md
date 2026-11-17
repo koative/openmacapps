@@ -14,6 +14,9 @@ website: "https://jayden0903.github.io/LidOn/"
 license: "MIT"
 licenseUrl: "https://github.com/jayden0903/LidOn/blob/main/LICENSE"
 download: "https://github.com/jayden0903/LidOn/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

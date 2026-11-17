@@ -12,6 +12,9 @@ website: "https://r2drop.com"
 license: "MIT"
 licenseUrl: "https://github.com/superhumancorp/r2drop/blob/main/LICENSE"
 download: "https://github.com/superhumancorp/r2drop/releases/download/v0.1.1/R2Drop-0.1.1-aarch64.dmg"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

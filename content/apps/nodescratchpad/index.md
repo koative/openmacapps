@@ -11,6 +11,9 @@ website: "https://github.com/vsaravind007/nodeScratchpad"
 license: "MIT"
 licenseUrl: "https://github.com/vsaravind007/nodeScratchpad/blob/master/LICENSE"
 download: "https://github.com/vsaravind007/nodeScratchpad/releases/download/rel-1.1/nodeScratchpad.1.1.dmg"
+macos: "10.11"
+arch: both
+notarized: false
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No commit since January 2020 (checked 2026-11-06)."

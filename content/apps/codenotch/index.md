@@ -13,6 +13,8 @@ website: "https://github.com/vinzdg/codenotch"
 license: "MIT"
 licenseUrl: "https://github.com/vinzdg/codenotch/blob/main/LICENSE"
 download: "https://github.com/vinzdg/codenotch/releases/latest"
+macos: "15"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

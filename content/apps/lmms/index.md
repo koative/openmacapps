@@ -9,6 +9,8 @@ website: "https://lmms.io/"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/LMMS/lmms/blob/master/LICENSE.txt"
 download: "https://github.com/LMMS/lmms/releases"
+macos: "11"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

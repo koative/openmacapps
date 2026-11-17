@@ -14,6 +14,9 @@ sourceAvailability: "source-available"
 licenseNotes: "PolyForm Noncommercial License 1.0.0. Noncommercial use is permitted, including viewing, modifying and sharing under the licence terms. Selling the software or any other commercial use is not permitted. This is not an open-source licence."
 licenseUrl: "https://github.com/wzz6423/zisla/blob/main/LICENSE.md"
 download: "https://github.com/wzz6423/zisla/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -8,6 +8,7 @@ website: "https://gqrx.dk"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/gqrx-sdr/gqrx/blob/master/COPYING"
 download: "https://github.com/gqrx-sdr/gqrx/releases/latest"
+arch: both
 homebrew: "gqrx"
 freeDownload: true
 featured: false

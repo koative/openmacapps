@@ -16,6 +16,8 @@ website: https://noah-code.com/docs/look
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/kunkka19xx/look/blob/main/LICENSE
 download: https://github.com/kunkka19xx/look/releases
+macos: "15"
+notarized: true
 freeDownload: true
 homebrew: "look"
 featured: false

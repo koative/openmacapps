@@ -8,6 +8,9 @@ website: "https://www.codeedit.app"
 license: "MIT"
 licenseUrl: "https://github.com/CodeEditApp/CodeEdit/blob/main/LICENSE.md"
 download: "https://github.com/CodeEditApp/CodeEdit/releases"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "codeedit"
 featured: false

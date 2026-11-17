@@ -12,6 +12,7 @@ website: "https://github.com/ololx/quick-symlink"
 license: "MIT"
 licenseUrl: "https://github.com/ololx/quick-symlink/blob/main/LICENSE"
 download: "https://github.com/ololx/quick-symlink/releases/latest"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

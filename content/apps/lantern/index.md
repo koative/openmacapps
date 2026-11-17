@@ -8,6 +8,9 @@ website: "https://lantern.io"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/getlantern/lantern/blob/main/LICENSE"
 download: "https://github.com/getlantern/lantern/releases"
+macos: "10.15"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "lantern"
 featured: false

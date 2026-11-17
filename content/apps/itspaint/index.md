@@ -13,6 +13,9 @@ website: https://itspaintmac.com/
 license: "MIT"
 licenseUrl: https://github.com/joshlin2201/itspaint/blob/main/LICENSE
 download: https://github.com/joshlin2201/itspaint/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

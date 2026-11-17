@@ -8,6 +8,8 @@ website: "https://www.openttd.org"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/OpenTTD/OpenTTD/blob/master/COPYING.md"
 download: "https://www.openttd.org/downloads/openttd-releases/latest"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "openttd"
 featured: false

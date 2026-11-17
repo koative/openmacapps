@@ -11,6 +11,8 @@ website: https://github.com/Lakr233/NotchDrop
 license: MIT
 licenseUrl: https://github.com/Lakr233/NotchDrop/blob/main/LICENSE
 download: https://apps.apple.com/app/notchdrop/id6529528324
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: 2026-10-17

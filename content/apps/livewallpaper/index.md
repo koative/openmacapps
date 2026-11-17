@@ -14,6 +14,9 @@ website: https://thusvill.github.io/LiveWallpaperMacOS/
 license: GPL-3.0-or-later
 licenseUrl: https://github.com/thusvill/LiveWallpaperMacOS/blob/SwiftUI/LICENSE
 download: https://github.com/thusvill/LiveWallpaperMacOS/releases
+macos: "14.6"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -12,6 +12,9 @@ website: "https://github.com/Zer0codestuff/OpenNaga"
 license: "MIT"
 licenseUrl: "https://github.com/Zer0codestuff/OpenNaga/blob/main/LICENSE"
 download: "https://github.com/Zer0codestuff/OpenNaga/releases/download/v2.7.0/OpenNaga-v2.7.0.dmg"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

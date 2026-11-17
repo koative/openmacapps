@@ -14,6 +14,9 @@ website: "https://earnote.dev"
 license: "MIT"
 licenseUrl: "https://github.com/louiskl/Earnote/blob/main/LICENSE"
 download: "https://github.com/louiskl/Earnote/releases/latest"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

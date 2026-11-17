@@ -12,6 +12,8 @@ website: "https://github.com/tuhage/Cellar"
 license: "MIT"
 licenseUrl: "https://github.com/tuhage/Cellar/blob/main/LICENSE"
 download: "https://github.com/tuhage/Cellar/releases/latest"
+macos: "15"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

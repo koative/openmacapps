@@ -13,6 +13,8 @@ website: https://zedis.net
 license: "Apache-2.0"
 licenseUrl: https://github.com/vicanso/zedis/blob/main/LICENSE
 download: https://github.com/vicanso/zedis/releases
+arch: both
+notarized: true
 homebrew: "zedis"
 freeDownload: true
 featured: false

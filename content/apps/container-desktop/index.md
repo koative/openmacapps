@@ -13,6 +13,9 @@ website: "https://sembsa.github.io/ContainerDesktop/"
 license: "MIT"
 licenseUrl: "https://github.com/sembsa/ContainerDesktop/blob/main/LICENSE"
 download: "https://github.com/sembsa/ContainerDesktop/releases/latest"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

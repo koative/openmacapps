@@ -12,6 +12,9 @@ website: "https://github.com/dy1945/FreeMic"
 license: "MIT"
 licenseUrl: "https://github.com/dy1945/FreeMic/blob/master/LICENSE"
 download: "https://github.com/dy1945/FreeMic/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

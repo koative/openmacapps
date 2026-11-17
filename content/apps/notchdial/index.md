@@ -12,6 +12,9 @@ website: "https://github.com/kkssoswag/NotchDial"
 license: "MIT"
 licenseUrl: "https://github.com/kkssoswag/NotchDial/blob/main/LICENSE"
 download: "https://github.com/kkssoswag/NotchDial/releases/latest"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

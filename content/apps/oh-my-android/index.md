@@ -8,6 +8,8 @@ website: "https://royan.se/work/oh-my-android/"
 license: "MIT"
 licenseUrl: "https://github.com/ateymoori/oh-my-android/blob/main/LICENSE"
 download: "https://github.com/ateymoori/oh-my-android/releases"
+macos: "26"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-05"

@@ -11,6 +11,8 @@ website: "https://nullplayer.fyi"
 license: "GPL-3.0-only"
 licenseUrl: "https://github.com/ad-repo/nullplayer/blob/main/LICENSE"
 download: "https://github.com/ad-repo/nullplayer/releases/latest/download/NullPlayer.dmg"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,9 @@ website: "https://sideterminal.eu.cc"
 license: "MIT"
 licenseUrl: "https://github.com/bunnysayzz/sideterminal/blob/main/LICENSE"
 download: "https://github.com/bunnysayzz/sideterminal/releases"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

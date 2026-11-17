@@ -12,6 +12,8 @@ website: "https://github.com/siraj-bd/Safe-Drive-Ejector-macOS"
 license: "MIT"
 licenseUrl: "https://github.com/siraj-bd/Safe-Drive-Ejector-macOS/blob/main/LICENSE"
 download: "https://github.com/siraj-bd/Safe-Drive-Ejector-macOS/releases"
+macos: "12"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

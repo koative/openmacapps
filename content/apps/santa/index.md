@@ -11,6 +11,9 @@ website: "https://northpole.dev"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/northpolesec/santa/blob/main/LICENSE"
 download: "https://github.com/northpolesec/santa/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "santa"
 featured: false

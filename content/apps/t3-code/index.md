@@ -12,6 +12,7 @@ website: https://t3.codes
 license: "MIT"
 licenseUrl: https://github.com/pingdotgg/t3code/blob/main/LICENSE
 download: https://github.com/pingdotgg/t3code/releases
+arch: both
 homebrew: "t3-code"
 freeDownload: true
 featured: false

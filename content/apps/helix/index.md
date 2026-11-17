@@ -13,6 +13,9 @@ website: "https://www.helix-desktop.com"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/mickaphd/Helix/blob/main/LICENSE"
 download: "https://github.com/mickaphd/Helix/releases"
+macos: "13.3"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

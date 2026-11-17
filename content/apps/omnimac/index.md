@@ -12,6 +12,9 @@ website: "https://bysergimm.github.io/OmniMac/"
 license: "MIT"
 licenseUrl: "https://github.com/BySergiMM/OmniMac/blob/main/LICENSE"
 download: "https://github.com/BySergiMM/OmniMac/releases/download/v0.5.9/OmniMac.pkg"
+macos: "14.2"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

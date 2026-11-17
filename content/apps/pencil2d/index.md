@@ -9,6 +9,9 @@ website: "https://www.pencil2d.org/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/pencil2d/pencil/blob/master/LICENSE.TXT"
 download: "https://github.com/pencil2d/pencil/releases"
+macos: "10.14"
+arch: intel
+notarized: true
 freeDownload: true
 homebrew: "pencil2d"
 featured: false

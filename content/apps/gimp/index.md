@@ -9,6 +9,8 @@ website: "https://www.gimp.org/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/GNOME/gimp/blob/master/COPYING"
 download: "https://www.gimp.org/downloads/"
+macos: "11"
+arch: both
 freeDownload: true
 homebrew: "gimp"
 featured: false

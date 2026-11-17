@@ -15,6 +15,9 @@ website: "https://sheepterm.com"
 license: "MIT"
 licenseUrl: "https://github.com/bestonehxh/SheepTerm/blob/main/LICENSE"
 download: "https://github.com/bestonehxh/SheepTerm/releases/latest"
+macos: "26.4"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

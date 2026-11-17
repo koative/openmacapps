@@ -12,6 +12,9 @@ website: "https://toma.felipebasurto.com"
 license: "MIT"
 licenseUrl: "https://github.com/felipebasurto/toma/blob/main/LICENSE"
 download: "https://github.com/felipebasurto/toma/releases/latest"
+macos: "26"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

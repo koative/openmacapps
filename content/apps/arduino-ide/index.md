@@ -13,6 +13,7 @@ website: https://www.arduino.cc/en/software
 license: "AGPL-3.0"
 licenseUrl: https://github.com/arduino/arduino-ide/blob/main/LICENSE.txt
 download: https://www.arduino.cc/en/software
+arch: both
 homebrew: "arduino-ide"
 freeDownload: true
 featured: false

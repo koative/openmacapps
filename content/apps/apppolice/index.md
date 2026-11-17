@@ -11,6 +11,7 @@ website: https://github.com/AppPolice/AppPolice
 license: GPL-2.0
 licenseUrl: https://github.com/AppPolice/AppPolice/blob/master/LICENSE
 download: https://github.com/AppPolice/AppPolice/releases
+arch: intel
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: No release since February 2016.

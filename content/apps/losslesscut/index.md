@@ -8,6 +8,7 @@ website: "https://losslesscut.app"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/mifi/lossless-cut/blob/master/LICENSE"
 download: "https://github.com/mifi/lossless-cut/releases"
+arch: both
 freeDownload: true
 homebrew: "losslesscut"
 featured: false

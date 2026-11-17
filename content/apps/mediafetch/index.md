@@ -14,6 +14,8 @@ website: "https://github.com/jyps1090013-stack/MediaFetch"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/jyps1090013-stack/MediaFetch/blob/main/LICENSE"
 download: "https://github.com/jyps1090013-stack/MediaFetch/releases"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

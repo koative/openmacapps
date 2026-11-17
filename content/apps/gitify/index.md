@@ -12,6 +12,7 @@ website: https://gitify.io
 license: "MIT"
 licenseUrl: https://github.com/gitify-app/gitify/blob/main/LICENSE
 download: https://gitify.io
+arch: both
 freeDownload: true
 homebrew: "gitify"
 featured: false

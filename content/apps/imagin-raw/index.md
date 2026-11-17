@@ -11,6 +11,9 @@ website: "https://github.com/cristibaluta/Imagin-Raw"
 license: "MIT"
 licenseUrl: "https://github.com/cristibaluta/Imagin-Raw/blob/main/LICENSE"
 download: "https://github.com/cristibaluta/Imagin-Raw/releases/download/v1.1.1/Imagin.Raw.zip"
+macos: "14.6"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

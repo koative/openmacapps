@@ -14,6 +14,9 @@ website: https://getfanbar.com
 license: "GPL-3.0"
 licenseUrl: https://github.com/helson-lin/FanBar/blob/main/LICENSE
 download: https://github.com/helson-lin/FanBar/releases
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

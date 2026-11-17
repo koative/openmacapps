@@ -12,6 +12,9 @@ website: "https://apps.roypadina.synology.me/apps/meetalert/"
 license: "MIT"
 licenseUrl: "https://github.com/roypadina/MeetAlert/blob/main/LICENSE"
 download: "https://github.com/roypadina/MeetAlert/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

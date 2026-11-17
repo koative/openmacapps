@@ -9,6 +9,7 @@ website: "https://lite-xl.com"
 license: "MIT"
 licenseUrl: "https://github.com/lite-xl/lite-xl/blob/master/LICENSE"
 download: "https://github.com/lite-xl/lite-xl/releases"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

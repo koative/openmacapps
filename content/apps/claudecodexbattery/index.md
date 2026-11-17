@@ -11,6 +11,7 @@ website: "https://github.com/dennykim123/claude-codex-battery"
 license: "MIT"
 licenseUrl: "https://github.com/dennykim123/claude-codex-battery/blob/main/LICENSE"
 download: "https://github.com/dennykim123/claude-codex-battery/releases/download/v2.6.3/ClaudeCodexBattery-v2.6.3.dmg"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

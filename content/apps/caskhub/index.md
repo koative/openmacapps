@@ -12,6 +12,9 @@ website: https://caskhub.app
 license: MIT
 licenseUrl: https://github.com/alielsokary/CaskHub/blob/master/LICENSE
 download: https://github.com/alielsokary/CaskHub/releases
+macos: "15.6"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "caskhub"
 featured: false

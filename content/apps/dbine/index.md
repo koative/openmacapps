@@ -13,6 +13,8 @@ website: "https://dbine.com"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/addlayer-io/dbine/blob/main/LICENSE"
 download: "https://github.com/addlayer-io/dbine/releases/latest"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

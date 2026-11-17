@@ -11,6 +11,9 @@ website: "https://github.com/iHongRen/AgentConfig"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/iHongRen/AgentConfig/blob/main/LICENSE"
 download: "https://github.com/iHongRen/AgentConfig/releases"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

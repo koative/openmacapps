@@ -14,6 +14,9 @@ website: "https://tern.carrot-soft.tech"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/your-moon/tern/blob/main/LICENSE"
 download: "https://github.com/your-moon/tern/releases/download/v0.1.3/tern-0.1.3-macos-arm64.dmg"
+macos: "11"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

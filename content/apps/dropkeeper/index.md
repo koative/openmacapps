@@ -12,6 +12,9 @@ website: "https://direcat.github.io/dropkeeper/"
 license: "MIT"
 licenseUrl: "https://github.com/direcat/dropkeeper/blob/master/LICENSE"
 download: "https://github.com/direcat/dropkeeper/releases/latest"
+macos: "15"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

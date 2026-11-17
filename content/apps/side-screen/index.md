@@ -12,6 +12,9 @@ website: "https://www.sidescreen.dev/"
 license: "MIT"
 licenseUrl: "https://github.com/tranvuongquocdat/SideScreen/blob/main/LICENSE"
 download: "https://github.com/tranvuongquocdat/SideScreen/releases"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,8 @@ website: "https://github.com/jaskirat1616/AirPoise"
 license: "MIT"
 licenseUrl: "https://github.com/jaskirat1616/AirPoise/blob/main/LICENSE"
 download: "https://github.com/jaskirat1616/AirPoise/releases/download/v1.0.0/AirPoise-1.0.0.dmg"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

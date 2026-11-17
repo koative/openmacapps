@@ -11,6 +11,7 @@ website: https://simplex.chat
 license: AGPL-3.0
 licenseUrl: https://github.com/simplex-chat/simplex-chat/blob/stable/LICENSE
 download: https://github.com/simplex-chat/simplex-chat/releases
+arch: both
 freeDownload: true
 homebrew: "simplex"
 featured: false

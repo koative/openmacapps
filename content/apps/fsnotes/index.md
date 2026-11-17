@@ -9,6 +9,9 @@ website: "https://fsnot.es"
 license: "MIT"
 licenseUrl: "https://github.com/glushchenko/fsnotes/blob/master/LICENSE"
 download: "https://github.com/glushchenko/fsnotes/releases"
+macos: "12.4"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "fsnotes"
 featured: false

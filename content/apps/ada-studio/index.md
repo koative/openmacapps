@@ -12,6 +12,7 @@ website: "https://adaengine.org"
 license: "MIT"
 licenseUrl: "https://github.com/AdaEngine/Ada/blob/main/LICENSE"
 download: "https://github.com/AdaEngine/Ada/releases/download/editor-v1.0.0-20261013/AdaEngine-1.0.0-20261013-macOS.zip"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

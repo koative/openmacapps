@@ -12,6 +12,9 @@ website: "https://github.com/alpha2xyz/unfd"
 license: "MIT"
 licenseUrl: "https://github.com/alpha2xyz/unfd/blob/main/LICENSE"
 download: "https://github.com/alpha2xyz/unfd/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

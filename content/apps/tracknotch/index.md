@@ -12,6 +12,9 @@ website: "https://github.com/manojacharix/tracknotch"
 license: "MIT"
 licenseUrl: "https://github.com/manojacharix/tracknotch/blob/main/LICENSE"
 download: "https://github.com/manojacharix/tracknotch/releases"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

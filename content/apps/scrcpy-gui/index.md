@@ -11,6 +11,8 @@ website: https://github.com/GeorgeEnglezos/Scrcpy-GUI
 license: AGPL-3.0
 licenseUrl: https://github.com/GeorgeEnglezos/Scrcpy-GUI/blob/main/LICENSE
 download: https://github.com/GeorgeEnglezos/Scrcpy-GUI/releases
+macos: "12"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

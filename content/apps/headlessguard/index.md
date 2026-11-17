@@ -12,6 +12,9 @@ website: "https://github.com/study8677/HeadlessGuard"
 license: "MIT"
 licenseUrl: "https://github.com/study8677/HeadlessGuard/blob/main/LICENSE"
 download: "https://github.com/study8677/HeadlessGuard/releases"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

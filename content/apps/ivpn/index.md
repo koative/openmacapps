@@ -9,6 +9,9 @@ website: "https://www.ivpn.net"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/ivpn/desktop-app/blob/development/LICENSE.md"
 download: "https://www.ivpn.net/apps-macos"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-10-17"

@@ -13,6 +13,8 @@ website: "https://github.com/ShiinaLabs/Kipless"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/ShiinaLabs/Kipless/blob/main/LICENSE"
 download: "https://github.com/ShiinaLabs/Kipless/releases/latest"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -8,6 +8,8 @@ website: "https://gyroflow.xyz"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/gyroflow/gyroflow/blob/master/LICENSE"
 download: "https://github.com/gyroflow/gyroflow/releases"
+macos: "10.15"
+arch: both
 homebrew: "gyroflow"
 freeDownload: true
 featured: false

@@ -11,6 +11,9 @@ website: "https://kernel-hunter.github.io/mudroom/"
 license: "MIT"
 licenseUrl: "https://github.com/Kernel-Hunter/mudroom/blob/main/LICENSE"
 download: "https://github.com/Kernel-Hunter/mudroom/releases/latest"
+macos: "26"
+arch: intel
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

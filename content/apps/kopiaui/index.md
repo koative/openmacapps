@@ -14,6 +14,7 @@ website: https://kopia.io
 license: "Apache-2.0"
 licenseUrl: https://github.com/kopia/kopia/blob/master/LICENSE
 download: https://kopia.io/docs/installation/
+arch: both
 homebrew: "kopiaui"
 freeDownload: true
 featured: false

@@ -11,6 +11,8 @@ website: https://clashmi.app
 license: "GPL-3.0"
 licenseUrl: https://github.com/KaringX/clashmi/blob/main/LICENSE
 download: https://clashmi.app/download
+macos: "12"
+arch: both
 homebrew: "clash-mi"
 freeDownload: true
 featured: false

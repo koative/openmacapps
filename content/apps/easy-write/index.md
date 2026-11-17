@@ -11,6 +11,9 @@ website: "https://www.onekapisch.com/products/easy-write/"
 license: "MIT"
 licenseUrl: "https://github.com/onekapisch/easy-write/blob/main/LICENSE"
 download: "https://www.onekapisch.com/products/easy-write/"
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,9 @@ website: https://github.com/gbammc/Thor
 license: "MIT"
 licenseUrl: https://github.com/gbammc/Thor/blob/master/LICENSE
 download: https://github.com/gbammc/Thor/releases/latest
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release or commit since September 2024."

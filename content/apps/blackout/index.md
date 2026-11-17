@@ -11,6 +11,7 @@ website: "https://norgera.github.io/blackout/"
 license: "MIT"
 licenseUrl: "https://github.com/norgera/Blackout/blob/main/LICENSE"
 download: "https://github.com/norgera/Blackout/releases"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://github.com/ganeshmshetty/openclip"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/ganeshmshetty/openclip/blob/main/LICENSE"
 download: "https://github.com/ganeshmshetty/openclip/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "openclip"
 featured: false

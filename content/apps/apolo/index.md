@@ -12,6 +12,9 @@ website: "https://apolo.webcafeina.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/webcafeina/Apolo/blob/main/LICENSE"
 download: "https://github.com/webcafeina/Apolo/releases/latest"
+macos: "11"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

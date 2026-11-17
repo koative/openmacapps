@@ -12,6 +12,9 @@ website: "https://chaiwithcode.github.io/Loom/"
 license: "MIT"
 licenseUrl: "https://github.com/chaiwithcode/Loom/blob/main/LICENSE"
 download: "https://github.com/chaiwithcode/Loom/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

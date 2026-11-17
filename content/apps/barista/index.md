@@ -13,6 +13,9 @@ website: "https://github.com/ClementTsang/Barista"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/ClementTsang/Barista/blob/main/LICENSE"
 download: "https://github.com/ClementTsang/Barista/releases/latest"
+macos: "13.6"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

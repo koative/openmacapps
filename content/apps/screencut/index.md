@@ -14,6 +14,8 @@ website: "https://github.com/hlyIOS/ScreenCut"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/hlyIOS/ScreenCut/blob/main/LICENSE"
 download: "https://github.com/hlyIOS/ScreenCut/releases/latest"
+macos: "15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

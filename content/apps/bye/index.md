@@ -11,6 +11,8 @@ website: https://github.com/designsbymuzeer/Bye-Mac-App
 license: GPL-3.0
 licenseUrl: https://github.com/designsbymuzeer/Bye-Mac-App/blob/main/LICENSE
 download: https://github.com/designsbymuzeer/Bye-Mac-App/releases
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

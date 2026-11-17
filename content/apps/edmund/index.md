@@ -13,6 +13,9 @@ website: https://edmund.md
 license: "Apache-2.0"
 licenseUrl: https://github.com/I7T5/Edmund/blob/main/LICENSE
 download: https://github.com/I7T5/Edmund/releases
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

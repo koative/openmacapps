@@ -12,6 +12,9 @@ website: "https://midzai.github.io/aman_check/"
 license: "MIT"
 licenseUrl: "https://github.com/MidZai/aman_check/blob/main/LICENSE"
 download: "https://github.com/MidZai/aman_check/releases"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

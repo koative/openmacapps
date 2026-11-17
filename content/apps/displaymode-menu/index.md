@@ -11,6 +11,8 @@ website: "https://github.com/peaz/displaymodemenu"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/peaz/displaymodemenu/blob/main/LICENSE.txt"
 download: "https://github.com/peaz/displaymodemenu/releases/latest"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

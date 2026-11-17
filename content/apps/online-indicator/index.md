@@ -11,6 +11,9 @@ website: "https://bornexplorer.in/online-indicator"
 license: "MIT"
 licenseUrl: "https://github.com/bornexplorer/OnlineIndicator/blob/main/LICENSE"
 download: "https://github.com/bornexplorer/OnlineIndicator/releases/latest"
+macos: "14.6"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

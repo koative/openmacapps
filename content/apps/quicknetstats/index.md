@@ -11,6 +11,9 @@ website: https://github.com/FI-153/QuickNetStats
 license: "MIT"
 licenseUrl: https://github.com/FI-153/QuickNetStats/blob/main/LICENSE
 download: https://github.com/FI-153/QuickNetStats/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

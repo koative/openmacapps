@@ -14,6 +14,9 @@ sourceAvailability: "source-available"
 licenseNotes: "PolyForm Noncommercial License 1.0.0. The source is visible and may be used, changed and shared for noncommercial purposes. Commercial use needs a separate licence; the repository's SOURCE_AVAILABLE.md describes that boundary. This is not an open-source licence."
 licenseUrl: "https://github.com/TREAFREE/Metrune/blob/main/LICENSE.md"
 download: "https://github.com/TREAFREE/Metrune/releases/latest"
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

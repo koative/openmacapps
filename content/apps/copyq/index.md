@@ -9,6 +9,9 @@ website: "https://hluk.github.io/CopyQ/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/hluk/CopyQ/blob/master/LICENSE"
 download: "https://github.com/hluk/CopyQ/releases"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

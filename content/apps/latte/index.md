@@ -14,6 +14,9 @@ website: "https://github.com/arinltte/latte"
 license: "MIT"
 licenseUrl: "https://github.com/arinltte/latte/blob/main/LICENSE"
 download: "https://github.com/arinltte/latte/releases/download/v0.3.1/latte-macOS-v031.dmg"
+macos: "14"
+arch: both
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

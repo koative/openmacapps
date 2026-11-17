@@ -12,6 +12,9 @@ website: "https://github.com/braedonsaunders/lucid"
 license: "MIT"
 licenseUrl: "https://github.com/braedonsaunders/lucid/blob/main/LICENSE"
 download: "https://github.com/braedonsaunders/lucid/releases/download/v1.0.2/Lucid-1.0.2-Apple-Silicon.dmg"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

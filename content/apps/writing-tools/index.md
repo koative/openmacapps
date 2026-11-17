@@ -13,6 +13,9 @@ website: "https://github.com/theJayTea/WritingTools"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/theJayTea/WritingTools/blob/main/LICENSE"
 download: "https://github.com/theJayTea/WritingTools/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

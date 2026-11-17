@@ -8,6 +8,9 @@ website: "https://codexisland.com"
 license: "MIT"
 licenseUrl: "https://github.com/ericjypark/codex-island/blob/main/LICENSE"
 download: "https://github.com/ericjypark/codex-island/releases"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

@@ -12,6 +12,8 @@ website: https://skillsmanager.dev
 license: "MIT"
 licenseUrl: https://github.com/xingkongliang/skills-manager/blob/main/LICENSE
 download: https://github.com/xingkongliang/skills-manager/releases
+arch: both
+notarized: true
 homebrew: "skills-manager"
 freeDownload: true
 featured: false

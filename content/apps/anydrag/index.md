@@ -11,6 +11,8 @@ website: "https://xueshi.dev/anydrag"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/XueshiQiao/AnyDrag/blob/main/LICENSE"
 download: "https://github.com/XueshiQiao/AnyDrag/releases"
+macos: "13"
+notarized: true
 homebrew: "anydrag"
 featured: false
 added: "2026-11-06"

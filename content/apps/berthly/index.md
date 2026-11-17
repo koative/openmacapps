@@ -11,6 +11,9 @@ website: https://berthly.net
 license: Apache-2.0
 licenseUrl: https://github.com/henrywang/Berthly/blob/main/LICENSE
 download: https://github.com/henrywang/Berthly/releases
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

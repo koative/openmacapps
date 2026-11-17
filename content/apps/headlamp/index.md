@@ -14,6 +14,7 @@ website: https://headlamp.dev
 license: "Apache-2.0"
 licenseUrl: https://github.com/kubernetes-sigs/headlamp/blob/main/LICENSE
 download: https://headlamp.dev/docs/latest/installation/desktop/mac-installation
+arch: both
 homebrew: "headlamp"
 freeDownload: true
 featured: false

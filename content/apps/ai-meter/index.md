@@ -12,6 +12,9 @@ website: "https://guruhat.com/apps/ai-meter/"
 license: "MIT"
 licenseUrl: "https://github.com/getguruhat/ai-meter/blob/main/LICENSE"
 download: "https://github.com/getguruhat/ai-meter/releases"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

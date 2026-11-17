@@ -11,6 +11,9 @@ website: "https://itsytv.app"
 license: "MIT"
 licenseUrl: "https://github.com/nickustinov/itsytv-macos/blob/main/LICENSE"
 download: "https://github.com/nickustinov/itsytv-macos/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "itsytv"
 featured: false

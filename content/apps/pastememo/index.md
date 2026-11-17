@@ -14,6 +14,8 @@ website: https://www.lifedever.com/PasteMemo/
 license: "GPL-3.0"
 licenseUrl: https://github.com/lifedever/PasteMemo-app/blob/develop/LICENSE
 download: https://github.com/lifedever/PasteMemo-app/releases
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

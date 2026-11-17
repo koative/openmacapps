@@ -12,6 +12,8 @@ website: https://github.com/Mortennn/Dozer
 license: MPL-2.0
 licenseUrl: https://github.com/Mortennn/Dozer/blob/master/LICENSE
 download: https://github.com/Mortennn/Dozer/releases
+macos: "10.13"
+arch: both
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: No release since July 2020.

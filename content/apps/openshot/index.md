@@ -9,6 +9,7 @@ website: "https://www.openshot.org/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/OpenShot/openshot-qt/blob/develop/COPYING"
 download: "https://github.com/OpenShot/openshot-qt/releases"
+arch: intel
 freeDownload: true
 homebrew: "openshot-video-editor"
 featured: false

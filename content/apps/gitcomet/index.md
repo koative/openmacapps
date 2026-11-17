@@ -9,6 +9,8 @@ website: "https://gitcomet.dev"
 license: "AGPL-3.0-only"
 licenseUrl: "https://github.com/Auto-Explore/GitComet/blob/dev/LICENSE-AGPL-3.0"
 download: "https://github.com/Auto-Explore/GitComet/releases"
+macos: "13"
+arch: both
 homebrew: "gitcomet"
 freeDownload: true
 featured: false

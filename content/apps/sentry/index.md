@@ -12,6 +12,8 @@ website: "https://github.com/Lakr233/Sentry"
 license: "MIT"
 licenseUrl: "https://github.com/Lakr233/Sentry/blob/main/LICENSE"
 download: "https://github.com/Lakr233/Sentry/releases/download/1.3.13/Sentry-v1.3.13.zip"
+macos: "13"
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

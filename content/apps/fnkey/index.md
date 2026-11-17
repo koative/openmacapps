@@ -12,6 +12,8 @@ website: https://github.com/evoleinik/fnkey
 license: GPL-3.0
 licenseUrl: https://github.com/evoleinik/fnkey/blob/main/LICENSE
 download: https://github.com/evoleinik/fnkey/releases
+macos: "11"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -11,6 +11,9 @@ website: "https://keyameleon.app/"
 license: "MIT"
 licenseUrl: "https://github.com/mastro993/Keyameleon/blob/main/LICENSE"
 download: "https://github.com/mastro993/Keyameleon/releases/latest"
+macos: "26"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

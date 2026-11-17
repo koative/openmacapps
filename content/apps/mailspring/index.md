@@ -12,6 +12,7 @@ website: "https://www.getmailspring.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Foundry376/Mailspring/blob/master/LICENSE.md"
 download: "https://www.getmailspring.com/download"
+arch: both
 freeDownload: true
 homebrew: "mailspring"
 featured: false

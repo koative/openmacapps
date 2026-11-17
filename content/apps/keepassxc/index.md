@@ -9,6 +9,9 @@ website: "https://keepassxc.org/"
 license: "GPL-2.0-only OR GPL-3.0-only"
 licenseUrl: "https://github.com/keepassxreboot/keepassxc/blob/develop/COPYING"
 download: "https://github.com/keepassxreboot/keepassxc/releases"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "keepassxc"
 featured: false

@@ -12,6 +12,9 @@ website: "https://bitmatchapp.github.io"
 license: "MIT"
 licenseUrl: "https://github.com/BitmatchApp/Bitmatch/blob/main/LICENSE"
 download: "https://github.com/BitmatchApp/Bitmatch/releases/download/v0.2.11/BitMatch-0.2.11.dmg"
+macos: "15.5"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

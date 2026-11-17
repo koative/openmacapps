@@ -8,6 +8,8 @@ website: "https://jasp-stats.org/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/jasp-stats/jasp-desktop/blob/development/COPYING.txt"
 download: "https://github.com/jasp-stats/jasp-desktop/releases"
+macos: "15"
+arch: both
 freeDownload: true
 homebrew: "jasp"
 featured: false

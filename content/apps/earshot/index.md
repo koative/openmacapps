@@ -12,6 +12,9 @@ website: "https://github.com/Bouliw/earshot"
 license: "MIT"
 licenseUrl: "https://github.com/Bouliw/earshot/blob/main/LICENSE"
 download: "https://github.com/Bouliw/earshot/releases/latest/download/Earshot.dmg"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

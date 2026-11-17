@@ -11,6 +11,9 @@ website: "https://eleven.chizi.app"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/Zfinix/eleven/blob/main/LICENSE"
 download: "https://github.com/Zfinix/eleven/releases/download/v0.1.13/Eleven-0.1.13-arm64.zip"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

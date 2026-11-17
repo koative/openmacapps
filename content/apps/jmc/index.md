@@ -11,6 +11,7 @@ website: "https://github.com/jcm93/jmc"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/jcm93/jmc/blob/master/LICENSE.txt"
 download: "https://github.com/jcm93/jmc/releases/download/v0.3-beta/jmc.app.zip"
+macos: "10.15"
 freeDownload: true
 featured: false
 added: "2026-11-06"

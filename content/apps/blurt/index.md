@@ -12,6 +12,9 @@ website: https://www.assemblyai.com/blurt
 license: "MIT"
 licenseUrl: https://github.com/AssemblyAI/blurt/blob/main/LICENSE
 download: https://github.com/AssemblyAI/blurt/releases/latest
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

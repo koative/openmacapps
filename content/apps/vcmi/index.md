@@ -14,6 +14,8 @@ website: https://vcmi.eu
 license: "GPL-2.0"
 licenseUrl: https://github.com/vcmi/vcmi/blob/develop/license.txt
 download: https://github.com/vcmi/vcmi/releases/latest
+arch: both
+notarized: false
 homebrew: "vcmi"
 freeDownload: true
 featured: false

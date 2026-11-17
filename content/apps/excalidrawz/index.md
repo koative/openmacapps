@@ -13,6 +13,9 @@ website: https://excalidrawz.chocoford.com
 license: MIT
 licenseUrl: https://github.com/chocoford/ExcalidrawZ/blob/main/LICENSE
 download: https://github.com/chocoford/ExcalidrawZ/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "excalidrawz"
 featured: false

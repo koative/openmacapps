@@ -12,6 +12,8 @@ website: "https://tobymarks.github.io/esp32-ai-monitor/"
 license: "MIT"
 licenseUrl: "https://github.com/tobymarks/esp32-ai-monitor/blob/main/LICENSE"
 download: "https://github.com/tobymarks/esp32-ai-monitor/releases/download/app-v1.32.0/AIMonitor.dmg"
+macos: "14"
+arch: both
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

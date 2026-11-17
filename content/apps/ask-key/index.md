@@ -12,6 +12,8 @@ website: "https://askkey.sudohg.com/"
 license: "MIT"
 licenseUrl: "https://github.com/sudoHG/AskKey/blob/main/LICENSE"
 download: "https://github.com/sudoHG/AskKey/releases/latest"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

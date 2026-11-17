@@ -12,6 +12,7 @@ website: "https://github.com/mierau/hotline"
 license: "MIT"
 licenseUrl: "https://github.com/mierau/hotline/blob/main/LICENSE.md"
 download: "https://github.com/mierau/hotline/releases"
+macos: "26"
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

@@ -8,6 +8,8 @@ website: "https://bitcoincore.org"
 license: "MIT"
 licenseUrl: "https://github.com/bitcoin/bitcoin/blob/master/COPYING"
 download: "https://bitcoincore.org/en/download"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "bitcoin-core"
 featured: false

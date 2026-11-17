@@ -14,6 +14,7 @@ website: "https://github.com/gostonx/uninstally"
 license: "MIT"
 licenseUrl: "https://github.com/gostonx/uninstally/blob/main/LICENSE"
 download: "https://github.com/gostonx/uninstally/releases"
+macos: "14"
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

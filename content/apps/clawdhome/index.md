@@ -11,6 +11,9 @@ website: https://clawdhome.app
 license: "Apache-2.0"
 licenseUrl: https://github.com/ThinkInAIXYZ/clawdhome/blob/main/LICENSE
 download: https://github.com/ThinkInAIXYZ/clawdhome/releases/latest
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

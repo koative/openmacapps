@@ -8,6 +8,7 @@ website: "https://calibre-ebook.com/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/kovidgoyal/calibre/blob/master/LICENSE"
 download: "https://github.com/kovidgoyal/calibre/releases"
+macos: "14"
 freeDownload: true
 homebrew: "calibre"
 featured: false

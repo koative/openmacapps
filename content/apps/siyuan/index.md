@@ -9,6 +9,7 @@ website: "https://b3log.org/siyuan/en/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/siyuan-note/siyuan/blob/master/LICENSE"
 download: "https://github.com/siyuan-note/siyuan/releases"
+arch: both
 freeDownload: true
 homebrew: "siyuan"
 featured: false

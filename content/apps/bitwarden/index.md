@@ -9,6 +9,7 @@ website: "https://bitwarden.com"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/bitwarden/clients/blob/main/LICENSE.txt"
 download: "https://github.com/bitwarden/clients/releases"
+arch: both
 freeDownload: true
 homebrew: "bitwarden"
 featured: false

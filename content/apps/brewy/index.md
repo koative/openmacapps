@@ -8,6 +8,8 @@ website: "https://github.com/starhaven-io/Brewy"
 license: "AGPL-3.0-only"
 licenseUrl: "https://github.com/starhaven-io/Brewy/blob/main/LICENSE"
 download: "https://github.com/starhaven-io/Brewy/releases/latest"
+macos: "15"
+arch: apple-silicon
 homebrew: "brewy"
 freeDownload: true
 featured: false

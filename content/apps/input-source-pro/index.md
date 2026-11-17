@@ -12,6 +12,9 @@ website: https://inputsource.pro
 license: GPL-3.0
 licenseUrl: https://github.com/runjuu/InputSourcePro/blob/main/LICENSE
 download: https://github.com/runjuu/InputSourcePro/releases
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "input-source-pro"
 featured: false

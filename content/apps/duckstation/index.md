@@ -8,6 +8,9 @@ website: "https://www.duckstation.org"
 license: "CC-BY-NC-ND-4.0"
 licenseUrl: "https://github.com/stenzek/duckstation/blob/master/LICENSE"
 download: "https://github.com/stenzek/duckstation/releases/tag/latest"
+macos: "13.3"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

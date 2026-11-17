@@ -12,6 +12,9 @@ website: "https://mktechvn.com/en/satf"
 license: "MIT"
 licenseUrl: "https://github.com/tran-minh-khoi/SATF/blob/main/LICENSE"
 download: "https://github.com/tran-minh-khoi/SATF/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

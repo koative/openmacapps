@@ -11,6 +11,8 @@ website: "https://browbro.tiagomoraes.cloud"
 license: "MIT"
 licenseUrl: "https://github.com/tiagomoraes/browbro/blob/develop/LICENSE"
 download: "https://github.com/tiagomoraes/browbro/releases/download/v0.1.7/BrowBro.dmg"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

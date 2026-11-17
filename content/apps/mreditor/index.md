@@ -12,6 +12,7 @@ website: https://mrktools.app/editor/
 license: "MIT"
 licenseUrl: https://github.com/MR-TABATA/MrEditor/blob/main/LICENSE
 download: https://github.com/MR-TABATA/MrEditor/releases/latest
+macos: "13"
 freeDownload: true
 featured: false
 added: '2026-10-17'

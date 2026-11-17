@@ -11,6 +11,9 @@ website: https://mos.caldis.me/
 license: CC-BY-NC-4.0
 licenseUrl: https://github.com/Caldis/Mos/blob/master/LICENSE
 download: https://github.com/Caldis/Mos/releases
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "mos"
 featured: false

@@ -12,6 +12,9 @@ website: "https://touchgrassbar.com/"
 license: "MIT"
 licenseUrl: "https://github.com/FabienGreard/TouchGrassBar/blob/main/LICENSE"
 download: "https://github.com/FabienGreard/TouchGrassBar/releases"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

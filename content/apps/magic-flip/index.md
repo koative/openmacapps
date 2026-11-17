@@ -12,6 +12,8 @@ website: "https://github.com/svekl/magic-flip"
 license: "MIT"
 licenseUrl: "https://github.com/svekl/magic-flip/blob/main/LICENSE"
 download: "https://github.com/svekl/magic-flip/releases"
+macos: "26"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -13,6 +13,7 @@ website: https://docs.tagstud.io/
 license: "GPL-3.0-only"
 licenseUrl: https://github.com/TagStudioDev/TagStudio/blob/main/LICENSE
 download: https://github.com/TagStudioDev/TagStudio/releases
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-29'

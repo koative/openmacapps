@@ -12,6 +12,9 @@ website: "https://glyph.fru.dev/studio"
 license: "GPL-3.0-only"
 licenseUrl: "https://github.com/fru-dev3/glyph-studio/blob/main/LICENSE"
 download: "https://github.com/fru-dev3/glyph-studio/releases/latest/download/Glyph-Studio-mac-arm64.dmg"
+macos: "13"
+arch: apple-silicon
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

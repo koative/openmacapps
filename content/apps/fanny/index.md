@@ -11,6 +11,7 @@ website: "https://www.fannywidget.com/"
 license: "MIT"
 licenseUrl: "https://github.com/DanielStormApps/Fanny/blob/master/LICENSE"
 download: "https://github.com/DanielStormApps/Fanny/releases/download/2.3.0/FannyWidget.zip"
+notarized: true
 homebrew: "fanny"
 freeDownload: true
 featured: false

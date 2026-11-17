@@ -14,6 +14,9 @@ website: "https://macmonitor-app.pages.dev"
 license: "MIT"
 licenseUrl: "https://github.com/Ahmadjondev/MacMonitor/blob/main/LICENSE"
 download: "https://github.com/Ahmadjondev/MacMonitor/releases/download/v1.0.0/MacMonitor.dmg"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

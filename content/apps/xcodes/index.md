@@ -8,6 +8,9 @@ website: "https://xcodes.app"
 license: "MIT"
 licenseUrl: "https://github.com/XcodesOrg/XcodesApp/blob/main/LICENSE"
 download: "https://github.com/XcodesOrg/XcodesApp/releases"
+macos: "14.6"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "xcodes-app"
 featured: false

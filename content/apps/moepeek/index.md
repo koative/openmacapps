@@ -8,6 +8,7 @@ website: "https://github.com/cosZone/MoePeek"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/cosZone/MoePeek/blob/main/LICENSE"
 download: "https://github.com/cosZone/MoePeek/releases"
+macos: "15"
 freeDownload: true
 featured: false
 added: "2026-10-17"

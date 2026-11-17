@@ -11,6 +11,8 @@ website: "https://segue.npearce.me"
 license: "MIT"
 licenseUrl: "https://github.com/pearcenuk/Segue/blob/main/LICENSE"
 download: "https://github.com/pearcenuk/Segue/releases/download/v1.0.2/Segue-1.0.2.zip"
+macos: "26"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

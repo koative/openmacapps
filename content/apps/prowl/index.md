@@ -14,6 +14,8 @@ sourceAvailability: "source-available"
 licenseNotes: "FSL-1.1-ALv2: you may use, change and redistribute Prowl for any purpose except a Competing Use, meaning a commercial product or service that substitutes for Prowl or offers substantially similar functionality. Each release becomes available under the Apache-2.0 license two years after it is published. No trademark rights are granted."
 licenseUrl: "https://github.com/onevcat/Prowl/blob/main/LICENSE"
 download: "https://github.com/onevcat/Prowl/releases/latest/download/Prowl.dmg"
+macos: "26"
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

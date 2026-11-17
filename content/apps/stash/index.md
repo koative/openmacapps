@@ -13,6 +13,8 @@ website: "https://github.com/brentc22/stash"
 license: "MIT"
 licenseUrl: "https://github.com/brentc22/stash/blob/main/LICENSE"
 download: "https://github.com/brentc22/stash/releases/latest"
+macos: "27"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

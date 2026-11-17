@@ -11,6 +11,9 @@ website: "https://github.com/gonzaroman/RainDesktop"
 license: "MIT"
 licenseUrl: "https://github.com/gonzaroman/RainDesktop/blob/main/LICENSE"
 download: "https://github.com/gonzaroman/RainDesktop/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

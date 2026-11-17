@@ -8,6 +8,9 @@ website: "https://github.com/insidegui/WWDC"
 license: "BSD-2-Clause"
 licenseUrl: "https://github.com/insidegui/WWDC/blob/master/LICENSE"
 download: "https://github.com/insidegui/WWDC/releases"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "wwdc"
 featured: false

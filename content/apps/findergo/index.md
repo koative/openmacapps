@@ -11,6 +11,8 @@ website: "https://github.com/onmyway133/FinderGo"
 license: "MIT"
 licenseUrl: "https://github.com/onmyway133/FinderGo/blob/master/LICENSE.md"
 download: "https://github.com/onmyway133/FinderGo/releases/download/1.4.0/FinderGo.zip"
+arch: intel
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

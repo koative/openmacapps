@@ -14,6 +14,9 @@ website: https://jely2002.github.io/youtube-dl-gui/
 license: "AGPL-3.0"
 licenseUrl: https://github.com/jely2002/youtube-dl-gui/blob/main/LICENSE
 download: https://github.com/jely2002/youtube-dl-gui/releases
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "open-video-downloader"
 featured: false

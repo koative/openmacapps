@@ -11,6 +11,8 @@ website: "https://github.com/sigma-prog/lockin"
 license: "MIT"
 licenseUrl: "https://github.com/sigma-prog/lockin/blob/main/LICENSE"
 download: "https://github.com/sigma-prog/lockin/releases/latest"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

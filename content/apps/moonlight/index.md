@@ -8,6 +8,9 @@ website: "https://moonlight-stream.org"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/moonlight-stream/moonlight-qt/blob/master/LICENSE"
 download: "https://github.com/moonlight-stream/moonlight-qt/releases"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "moonlight"
 featured: false

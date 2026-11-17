@@ -12,6 +12,8 @@ website: https://osaurus.ai
 license: "MIT"
 licenseUrl: https://github.com/osaurus-ai/osaurus/blob/main/LICENSE
 download: https://github.com/osaurus-ai/osaurus/releases
+macos: "15.5"
+arch: apple-silicon
 freeDownload: true
 homebrew: "osaurus"
 featured: false

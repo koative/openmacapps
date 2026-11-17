@@ -12,6 +12,9 @@ website: "https://sorcererapp.dev"
 license: "MIT"
 licenseUrl: "https://github.com/gbrasil720/sorcerer/blob/main/LICENSE"
 download: "https://github.com/gbrasil720/sorcerer/releases/latest"
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

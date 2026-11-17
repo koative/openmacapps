@@ -13,6 +13,9 @@ website: "https://github.com/prabch/Mac-SysData-Cleaner"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/prabch/Mac-SysData-Cleaner/blob/main/LICENSE"
 download: "https://github.com/prabch/Mac-SysData-Cleaner/releases/latest"
+macos: "12.4"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

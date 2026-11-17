@@ -12,6 +12,8 @@ website: "https://github.com/owenzhao/Better-Switch"
 license: "MIT"
 licenseUrl: "https://github.com/owenzhao/Better-Switch/blob/main/LICENSE"
 download: "https://github.com/owenzhao/Better-Switch/releases"
+macos: "15"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -9,6 +9,9 @@ website: "https://shotcut.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/mltframework/shotcut/blob/master/COPYING"
 download: "https://github.com/mltframework/shotcut/releases"
+macos: "12"
+arch: both
+notarized: false
 freeDownload: true
 homebrew: "shotcut"
 featured: false

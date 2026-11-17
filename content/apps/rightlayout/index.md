@@ -14,6 +14,8 @@ website: "https://alexchernysh.com/rightlayout"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/chernistry/RightLayout/blob/main/LICENSE"
 download: "https://github.com/chernistry/RightLayout/releases/latest"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

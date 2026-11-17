@@ -13,6 +13,9 @@ website: https://github.com/thompsonate/Shifty
 license: GPL-3.0
 licenseUrl: https://github.com/thompsonate/Shifty/blob/master/LICENSE
 download: https://github.com/thompsonate/Shifty/releases
+macos: "10.12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "shifty"
 featured: false

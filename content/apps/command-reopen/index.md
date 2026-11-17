@@ -11,6 +11,8 @@ website: "https://commandreopen.com"
 license: "MIT"
 licenseUrl: "https://github.com/Feng6611/mac-command-reopen/blob/main/LICENSE"
 download: "https://github.com/Feng6611/mac-command-reopen/releases/download/1.2.1/Command.Reopen.zip"
+macos: "13"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

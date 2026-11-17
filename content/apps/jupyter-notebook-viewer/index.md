@@ -11,6 +11,9 @@ website: https://github.com/tuxu/nbviewer-app
 license: "MIT"
 licenseUrl: https://github.com/tuxu/nbviewer-app/blob/master/LICENSE.md
 download: https://github.com/tuxu/nbviewer-app/releases
+macos: "10.15"
+arch: both
+notarized: false
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release since December 2023."

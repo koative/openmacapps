@@ -13,6 +13,9 @@ website: https://kasper.github.io/phoenix/
 license: "MIT"
 licenseUrl: https://github.com/kasper/phoenix/blob/master/LICENSE.md
 download: https://github.com/kasper/phoenix/releases
+macos: "10.14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "phoenix"
 featured: false

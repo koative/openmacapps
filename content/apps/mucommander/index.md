@@ -11,6 +11,7 @@ website: https://www.mucommander.com
 license: "GPL-3.0"
 licenseUrl: https://github.com/mucommander/mucommander/blob/master/LICENSE
 download: https://github.com/mucommander/mucommander/releases/latest
+arch: both
 freeDownload: true
 homebrew: "mucommander"
 featured: false

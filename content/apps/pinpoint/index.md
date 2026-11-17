@@ -12,6 +12,9 @@ website: "https://pinpoint-ashy.vercel.app"
 license: "MIT"
 licenseUrl: "https://github.com/croustibat/Pinpoint/blob/main/LICENSE"
 download: "https://github.com/croustibat/Pinpoint/releases"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -28,6 +28,8 @@ const filters = searchable
           ? undefined
           : app.sourceAvailability,
       'data-replaces': replaces.length ? replaces.join(' ') : undefined,
+      'data-macos': app.macos,
+      'data-arch': app.arch,
     }
   : {};
 ---

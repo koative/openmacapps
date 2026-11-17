@@ -11,6 +11,9 @@ website: "https://finderright.erhutech.com/"
 license: "MIT"
 licenseUrl: "https://github.com/funny-dog/FinderRight/blob/main/LICENSE"
 download: "https://github.com/funny-dog/FinderRight/releases/download/v1.12.4/FinderRight.dmg"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

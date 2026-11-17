@@ -11,6 +11,7 @@ website: "https://github.com/jcranokc/app-monitor"
 license: "MIT"
 licenseUrl: "https://github.com/jcranokc/app-monitor/blob/main/LICENSE"
 download: "https://github.com/jcranokc/app-monitor/releases"
+macos: "14"
 freeDownload: true
 featured: false
 added: "2026-11-06"

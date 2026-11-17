@@ -9,6 +9,8 @@ website: "https://rectangleapp.com"
 license: "MIT"
 licenseUrl: "https://github.com/rxhanson/Rectangle/blob/main/LICENSE"
 download: "https://github.com/rxhanson/Rectangle/releases"
+macos: "14"
+arch: both
 freeDownload: true
 homebrew: "rectangle"
 featured: true

@@ -12,6 +12,9 @@ website: "https://forel-app.github.io"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/lab421/forel/blob/main/LICENSE"
 download: "https://github.com/lab421/forel/releases"
+macos: "14"
+arch: both
+notarized: true
 homebrew: "forel"
 freeDownload: true
 featured: false

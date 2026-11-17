@@ -9,6 +9,7 @@ website: "https://www.zettlr.com/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Zettlr/Zettlr/blob/develop/LICENSE"
 download: "https://github.com/Zettlr/Zettlr/releases"
+arch: both
 freeDownload: true
 homebrew: "zettlr"
 featured: false

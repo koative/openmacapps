@@ -11,6 +11,8 @@ website: "https://github.com/maxthegray/Perch"
 license: "MIT"
 licenseUrl: "https://github.com/maxthegray/Perch/blob/main/LICENSE"
 download: "https://github.com/maxthegray/Perch/releases/latest"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

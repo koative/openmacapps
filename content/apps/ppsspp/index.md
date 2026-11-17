@@ -8,6 +8,8 @@ website: "https://www.ppsspp.org"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/hrydgard/ppsspp/blob/master/LICENSE.TXT"
 download: "https://www.ppsspp.org/download"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "ppsspp-emulator"
 featured: false

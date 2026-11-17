@@ -12,6 +12,9 @@ website: "https://qzz0518.github.io/Charker/"
 license: "MIT"
 licenseUrl: "https://github.com/qzz0518/Charker/blob/main/LICENSE"
 download: "https://github.com/qzz0518/Charker/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

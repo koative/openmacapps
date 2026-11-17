@@ -12,6 +12,8 @@ website: "https://github.com/Bearbobs/PaperScreen"
 license: "MIT"
 licenseUrl: "https://github.com/Bearbobs/PaperScreen/blob/main/LICENSE"
 download: "https://github.com/Bearbobs/PaperScreen/releases/latest"
+macos: "15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

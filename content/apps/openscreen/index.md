@@ -16,6 +16,8 @@ website: https://getopenscreen.com
 license: MIT
 licenseUrl: https://github.com/getopenscreen/openscreen/blob/main/LICENSE
 download: https://github.com/getopenscreen/openscreen/releases
+arch: both
+notarized: true
 homebrew: "openscreen"
 freeDownload: true
 featured: false

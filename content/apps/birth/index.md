@@ -12,6 +12,9 @@ website: "https://github.com/iAmCorey/birth"
 license: "MIT"
 licenseUrl: "https://github.com/iAmCorey/birth/blob/main/LICENSE"
 download: "https://github.com/iAmCorey/birth/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

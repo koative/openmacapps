@@ -9,6 +9,9 @@ website: "https://miaoyan.app"
 license: "MIT"
 licenseUrl: "https://github.com/tw93/MiaoYan/blob/main/LICENSE"
 download: "https://github.com/tw93/MiaoYan/releases"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "miaoyan"
 featured: false

@@ -13,6 +13,7 @@ website: https://actualbudget.org
 license: "MIT"
 licenseUrl: https://github.com/actualbudget/actual/blob/master/LICENSE.txt
 download: https://actualbudget.org/download/
+arch: both
 homebrew: "actual"
 freeDownload: true
 featured: false

@@ -12,6 +12,9 @@ website: "https://geiserx.github.io/VPN-Bypass/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/GeiserX/VPN-Bypass/blob/main/LICENSE"
 download: "https://github.com/GeiserX/VPN-Bypass/releases"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

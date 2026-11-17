@@ -11,6 +11,8 @@ website: "https://github.com/erdaltoprak/ContainerUtility"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/erdaltoprak/ContainerUtility/blob/main/LICENSE.md"
 download: "https://github.com/erdaltoprak/ContainerUtility/releases/latest"
+macos: "26.2"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

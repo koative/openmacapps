@@ -11,6 +11,9 @@ website: https://github.com/heysem-useinsider/Stringz
 license: GPL-3.0
 licenseUrl: https://github.com/heysem-useinsider/Stringz/blob/main/LICENSE
 download: https://github.com/heysem-useinsider/Stringz/releases
+macos: "10.15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

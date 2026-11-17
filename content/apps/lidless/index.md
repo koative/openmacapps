@@ -11,6 +11,8 @@ website: "https://github.com/nghialuong/Lidless"
 license: "MIT"
 licenseUrl: "https://github.com/nghialuong/Lidless/blob/main/LICENSE"
 download: "https://github.com/nghialuong/Lidless/releases/latest"
+macos: "13"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

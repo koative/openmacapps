@@ -13,6 +13,7 @@ website: https://ente.com/auth/
 license: "AGPL-3.0"
 licenseUrl: https://github.com/ente/ente/blob/main/LICENSE
 download: https://github.com/ente/ente/releases?q=tag%3Aauth-v4
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-02"

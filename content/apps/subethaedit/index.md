@@ -8,6 +8,9 @@ website: "https://subethaedit.net"
 license: "MIT"
 licenseUrl: "https://github.com/subethaedit/SubEthaEdit/blob/develop/LICENSE.txt"
 download: "https://github.com/subethaedit/SubEthaEdit/releases"
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "subethaedit"
 featured: false

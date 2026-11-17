@@ -11,6 +11,9 @@ website: "https://github.com/dengshenkk/purelyTab"
 license: "MIT"
 licenseUrl: "https://github.com/dengshenkk/purelyTab/blob/main/LICENSE"
 download: "https://github.com/dengshenkk/purelyTab/releases/latest"
+macos: "12"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

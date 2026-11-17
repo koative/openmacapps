@@ -8,6 +8,8 @@ website: "https://www.cakebrew.com"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/brunophilipe/Cakebrew/blob/main/LICENSE"
 download: "https://github.com/brunophilipe/Cakebrew/releases"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-10-17"

@@ -14,6 +14,9 @@ website: "https://tameo.ati-mirai.co.jp"
 license: "MIT"
 licenseUrl: "https://github.com/supergodak/tameo/blob/main/LICENSE"
 download: "https://github.com/supergodak/tameo/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

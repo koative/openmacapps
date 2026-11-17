@@ -11,6 +11,7 @@ website: "https://browsync.ct106.com/"
 license: "MIT"
 licenseUrl: "https://github.com/chentao1006/BrowSync/blob/main/LICENSE"
 download: "https://github.com/chentao1006/BrowSync/releases/download/v1.3.1/BrowSync.dmg"
+macos: "14"
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://github.com/erik/github-notify"
 license: "MIT"
 licenseUrl: "https://github.com/erik/github-notify/blob/master/LICENSE"
 download: "https://github.com/erik/github-notify/releases/latest"
+macos: "10.10"
+arch: both
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-08"

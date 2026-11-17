@@ -12,6 +12,9 @@ website: "https://www.homerec.app"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/melissa-pereira-deel/home-rec/blob/main/LICENSE"
 download: "https://github.com/melissa-pereira-deel/home-rec/releases/latest/download/HomeRec.dmg"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

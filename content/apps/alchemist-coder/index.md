@@ -11,6 +11,8 @@ website: "https://coder.alekla.com"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/Alekla0126/alchemist-coder/blob/main/LICENSE"
 download: "https://github.com/Alekla0126/alchemist-coder/releases/latest"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

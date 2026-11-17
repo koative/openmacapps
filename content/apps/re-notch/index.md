@@ -11,6 +11,7 @@ website: "https://github.com/yosaiy/renotch"
 license: "MIT"
 licenseUrl: "https://github.com/yosaiy/renotch/blob/main/LICENSE.md"
 download: "https://github.com/yosaiy/renotch/releases/download/v1.8.0/Re-notch-1.8.0.dmg"
+macos: "13"
 freeDownload: true
 featured: false
 added: "2026-11-06"

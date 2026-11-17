@@ -12,6 +12,9 @@ website: "https://royzhao1991.github.io/LingShu/"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/RoyZhao1991/LingShu/blob/main/LICENSE"
 download: "https://github.com/RoyZhao1991/LingShu/releases/tag/v0.1.0-alpha.9"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

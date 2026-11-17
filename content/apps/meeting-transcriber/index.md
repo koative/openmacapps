@@ -14,6 +14,9 @@ website: "https://meetingtranscriber.app"
 license: "MIT"
 licenseUrl: "https://github.com/pasrom/meeting-transcriber/blob/main/LICENSE"
 download: "https://github.com/pasrom/meeting-transcriber/releases/latest"
+macos: "14.2"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

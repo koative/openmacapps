@@ -9,6 +9,7 @@ website: "https://zen-browser.app"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/zen-browser/desktop/blob/dev/LICENSE"
 download: "https://zen-browser.app/download"
+arch: both
 freeDownload: true
 homebrew: "zen"
 featured: false

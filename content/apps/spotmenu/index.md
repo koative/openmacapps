@@ -11,6 +11,9 @@ website: https://kmikiy.github.io/SpotMenu/
 license: "MIT"
 licenseUrl: https://github.com/kmikiy/SpotMenu/blob/master/LICENSE
 download: https://github.com/kmikiy/SpotMenu/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "spotmenu"
 featured: false

@@ -12,6 +12,8 @@ website: "https://github.com/marcelrgberger/auto-brew"
 license: "MIT"
 licenseUrl: "https://github.com/marcelrgberger/auto-brew/blob/main/LICENSE"
 download: "https://github.com/marcelrgberger/auto-brew/releases/latest"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

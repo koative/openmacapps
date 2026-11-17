@@ -11,6 +11,9 @@ website: https://subler.org/
 license: GPL-2.0
 licenseUrl: https://github.com/SublerApp/Subler/blob/main/LICENSE
 download: https://github.com/SublerApp/Subler/releases
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "subler"
 featured: false

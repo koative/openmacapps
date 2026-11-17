@@ -8,6 +8,9 @@ website: "https://openrocket.info/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/openrocket/openrocket/blob/unstable/LICENSE.TXT"
 download: "https://github.com/openrocket/openrocket/releases"
+macos: "10.15"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "openrocket"
 featured: false

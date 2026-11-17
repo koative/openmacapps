@@ -11,6 +11,7 @@ website: "https://openpets.sh"
 license: "MIT"
 licenseUrl: "https://github.com/alterhq/openpets/blob/main/LICENSE"
 download: "https://github.com/alterhq/openpets/releases/download/v0.7.2/OpenPets-0.7.2.dmg"
+macos: "14"
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import AppLockup from '../components/AppLockup.astro';
 import { PackageOpen, Search, X } from '@lucide/astro';
 import { getApps, categories } from '../lib/catalog';
+import { macosRank } from '../lib/collections';
 import { getAlternatives } from '../lib/guides';
 import { site } from '../lib/site';
 const apps = getApps();
@@ -14,6 +15,20 @@ const tagCounts = new Map<string, number>();
 for (const tag of apps.flatMap((app) => app.tags))
   tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
 const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
+// Newest first; a choice keeps apps whose recorded minimum is at or below it.
+const macosOptions = [
+  ...new Set(
+    apps.flatMap((app) =>
+      app.macos
+        ? [
+            app.macos.split('.')[0] === '10'
+              ? app.macos
+              : app.macos.split('.')[0],
+          ]
+        : [],
+    ),
+  ),
+].sort((a, b) => macosRank(b) - macosRank(a));
 ---
 
 <Layout
@@ -71,6 +86,23 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
               {tag.replaceAll('-', ' ')} ({tagCounts.get(tag)})
             </option>
           ))}
+        </select>
+      </label>
+      <label class="select">
+        <span class="sr-only">Your macOS version</span>
+        <select id="macos-filter" name="macos">
+          <option value="">Any macOS</option>
+          {macosOptions.map((version) => (
+            <option value={version}>Runs on macOS {version}</option>
+          ))}
+        </select>
+      </label>
+      <label class="select">
+        <span class="sr-only">Your Mac's chip</span>
+        <select id="chip-filter" name="chip">
+          <option value="">Any Chip</option>
+          <option value="apple-silicon">Runs on Apple Silicon</option>
+          <option value="intel">Runs on Intel</option>
         </select>
       </label>
       <label class="select">
@@ -134,6 +166,12 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
   const category =
     document.querySelector<HTMLSelectElement>('#category-filter')!;
   const tag = document.querySelector<HTMLSelectElement>('#tag-filter')!;
+  const macos = document.querySelector<HTMLSelectElement>('#macos-filter')!;
+  const chip = document.querySelector<HTMLSelectElement>('#chip-filter')!;
+  const rank = (version: string) => {
+    const [major, minor = 0] = version.split('.').map(Number);
+    return major * 100 + minor;
+  };
   const sort = document.querySelector<HTMLSelectElement>('#sort')!;
   const sources = [
     ...form.querySelectorAll<HTMLInputElement>('input[name="source"]'),
@@ -156,6 +194,8 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
         added: element.dataset.added!,
         featured: element.dataset.featured !== undefined,
         source: element.dataset.source ?? 'open-source',
+        macos: element.dataset.macos ? rank(element.dataset.macos) : null,
+        arch: element.dataset.arch,
         haystack: [
           name,
           text('.lockup-summary'),
@@ -213,6 +253,8 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
     for (const [select, fallback] of [
       [category, ''],
       [tag, ''],
+      [macos, ''],
+      [chip, ''],
       [sort, 'name'],
     ] as const) {
       select.value = params.get(select.name) || fallback;
@@ -234,6 +276,19 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
       .split(/\s+/)
       .filter(Boolean);
     const source = sources.find((input) => input.checked)!.value;
+    // A major version covers its point releases: "14" keeps apps that need 14.5.
+    const macosLimit = macos.value
+      ? rank(macos.value) + (macos.value.includes('.') ? 0 : 99)
+      : null;
+    // Apps without recorded requirements drop out once either filter is set.
+    // Intel builds run on Apple silicon through Rosetta 2.
+    const runs = (card: Card) =>
+      (macosLimit === null ||
+        (card.macos !== null && card.macos <= macosLimit)) &&
+      (!chip.value ||
+        (chip.value === 'intel'
+          ? card.arch === 'intel' || card.arch === 'both'
+          : !!card.arch));
     let matched = 0;
     // Tag counts follow the other filters, so every tag offered leads to at least one result.
     const tagMatches = new Map<string, number>();
@@ -241,7 +296,8 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
       const othersMatch =
         query.every((term) => card.haystack.includes(term)) &&
         (!category.value || card.category === category.value) &&
-        (!source || card.source === source);
+        (!source || card.source === source) &&
+        runs(card);
       if (othersMatch)
         for (const cardTag of card.tags)
           tagMatches.set(cardTag, (tagMatches.get(cardTag) ?? 0) + 1);
@@ -270,13 +326,22 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
     more.textContent = `Show ${Math.min(pageSize, matched - shown)} More`;
     empty.hidden = matched > 0;
     grid.hidden = matched === 0;
-    clear.hidden = !(search.value || category.value || tag.value || source);
+    clear.hidden = !(
+      search.value ||
+      category.value ||
+      tag.value ||
+      macos.value ||
+      chip.value ||
+      source
+    );
     if (writeUrl) {
       const url = new URL(location.href);
       for (const [key, value] of [
         ['q', search.value.trim()],
         ['category', category.value],
         ['tag', tag.value],
+        ['macos', macos.value],
+        ['chip', chip.value],
         ['source', source],
         ['sort', sort.value === 'name' ? '' : sort.value],
       ]) {
@@ -313,13 +378,15 @@ const tags = [...tagCounts.keys()].sort((a, b) => a.localeCompare(b));
     search.value = sidebarSearch.value;
     update();
   });
-  [category, tag, sort, ...sources].forEach((element) =>
+  [category, tag, macos, chip, sort, ...sources].forEach((element) =>
     element.addEventListener('change', () => update('push')),
   );
   function reset() {
     search.value = sidebarSearch.value = '';
     category.value = '';
     tag.value = '';
+    macos.value = '';
+    chip.value = '';
     sort.value = 'name';
     sources[0].checked = true;
     update('push');

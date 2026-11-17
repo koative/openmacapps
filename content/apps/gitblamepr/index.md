@@ -12,6 +12,9 @@ website: "https://github.com/maoyama/GitBlamePR"
 license: "MIT"
 licenseUrl: "https://github.com/maoyama/GitBlamePR/blob/master/LICENSE"
 download: "https://github.com/maoyama/GitBlamePR/releases"
+macos: "10.15"
+arch: intel
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -14,6 +14,9 @@ website: "https://ciromaciel.click/tools/speech-to-text"
 license: "MIT"
 licenseUrl: "https://github.com/ciro-maciel/speech-to-text/blob/main/LICENSE"
 download: "https://github.com/ciro-maciel/speech-to-text/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

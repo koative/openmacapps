@@ -12,6 +12,9 @@ website: "https://cmux.com"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/manaflow-ai/cmux/blob/main/LICENSE"
 download: "https://github.com/manaflow-ai/cmux/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 homebrew: "cmux"
 freeDownload: true
 featured: false

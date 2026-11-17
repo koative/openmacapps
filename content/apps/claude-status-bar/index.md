@@ -8,6 +8,8 @@ website: "https://github.com/m1ckc3s/claude-status-bar"
 license: "MIT"
 licenseUrl: "https://github.com/m1ckc3s/claude-status-bar/blob/main/LICENSE"
 download: "https://github.com/m1ckc3s/claude-status-bar/releases/latest"
+macos: "12"
+notarized: true
 homebrew: "claude-status-bar"
 freeDownload: true
 featured: false

@@ -14,6 +14,9 @@ website: "https://evilirving.github.io/light-stats/"
 license: "MIT"
 licenseUrl: "https://github.com/EvilIrving/light-stats/blob/main/LICENSE"
 download: "https://github.com/EvilIrving/light-stats/releases/latest"
+macos: "14.6"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

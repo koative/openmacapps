@@ -11,6 +11,7 @@ website: "https://github.com/hreinssondev/AnyPiP"
 license: "MIT"
 licenseUrl: "https://github.com/hreinssondev/AnyPiP/blob/main/LICENSE"
 download: "https://github.com/hreinssondev/AnyPiP/releases/latest"
+macos: "26.4"
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://github.com/hasanzadee/convertino"
 license: "MIT"
 licenseUrl: "https://github.com/hasanzadee/convertino/blob/main/LICENSE"
 download: "https://github.com/hasanzadee/convertino/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

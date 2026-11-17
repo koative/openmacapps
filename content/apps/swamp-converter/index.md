@@ -12,6 +12,9 @@ website: "https://github.com/aansonsa/swamp-converter"
 license: "MIT"
 licenseUrl: "https://github.com/aansonsa/swamp-converter/blob/main/LICENSE"
 download: "https://github.com/aansonsa/swamp-converter/releases"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

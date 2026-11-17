@@ -12,6 +12,9 @@ website: "https://geezery.github.io/DockFlip/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/geezery/DockFlip/blob/main/LICENSE"
 download: "https://github.com/geezery/DockFlip/releases"
+macos: "26"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

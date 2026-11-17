@@ -12,6 +12,9 @@ website: "https://github.com/daveleone/mousip"
 license: "MIT"
 licenseUrl: "https://github.com/daveleone/mousip/blob/main/LICENSE"
 download: "https://github.com/daveleone/mousip/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -8,6 +8,8 @@ website: "https://www.goldencheetah.org/"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/GoldenCheetah/GoldenCheetah/blob/master/COPYING"
 download: "https://github.com/GoldenCheetah/GoldenCheetah/releases"
+macos: "15"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

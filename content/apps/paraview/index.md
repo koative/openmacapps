@@ -8,6 +8,9 @@ website: "https://www.paraview.org/"
 license: "BSD-3-Clause"
 licenseUrl: "https://github.com/Kitware/ParaView/blob/master/Copyright.txt"
 download: "https://www.paraview.org/download/"
+macos: "11"
+arch: both
+notarized: false
 freeDownload: true
 homebrew: "paraview"
 featured: false

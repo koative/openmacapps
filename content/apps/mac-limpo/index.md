@@ -15,6 +15,8 @@ website: "https://alexkads.github.io/MAC-LIMPO/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/alexkads/MAC-LIMPO/blob/main/LICENSE"
 download: "https://github.com/alexkads/MAC-LIMPO/releases/download/v1.3.30/MAC-LIMPO-1.3.30.pkg"
+macos: "26.6"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

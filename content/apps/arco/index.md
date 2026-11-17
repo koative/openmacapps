@@ -13,6 +13,8 @@ sourceAvailability: "source-available"
 licenseNotes: "Arco uses the Functional Source License 1.1 with an MIT future license. You may use, change and share it for any purpose other than a Competing Use, meaning a commercial product or service that substitutes for Arco or for other products the author offers with it. Each release converts to the MIT license two years after it is published. The license grants no trademark rights."
 licenseUrl: "https://github.com/loomi-labs/arco/blob/main/LICENSE"
 download: "https://github.com/loomi-labs/arco/releases/latest/download/Arco-Installer.pkg"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

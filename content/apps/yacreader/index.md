@@ -11,6 +11,7 @@ website: https://www.yacreader.com
 license: "GPL-3.0"
 licenseUrl: https://github.com/YACReader/yacreader/blob/develop/COPYING.txt
 download: https://www.yacreader.com/downloads
+arch: both
 homebrew: "yacreader"
 freeDownload: true
 featured: false

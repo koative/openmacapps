@@ -11,6 +11,9 @@ website: "https://github.com/nodemt/DotQuit"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/nodemt/DotQuit/blob/main/LICENSE"
 download: "https://github.com/nodemt/DotQuit/releases"
+macos: "14"
+arch: both
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

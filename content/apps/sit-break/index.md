@@ -14,6 +14,9 @@ website: "https://github.com/yuexiaoliang/sit-break"
 license: "MIT"
 licenseUrl: "https://github.com/yuexiaoliang/sit-break/blob/main/LICENSE"
 download: "https://github.com/yuexiaoliang/sit-break/releases/latest"
+macos: "12"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-12"

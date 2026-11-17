@@ -9,6 +9,9 @@ website: "https://solvespace.com/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/solvespace/solvespace/blob/master/COPYING.txt"
 download: "https://github.com/solvespace/solvespace/releases"
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "solvespace"
 featured: false

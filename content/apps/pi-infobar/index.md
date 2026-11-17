@@ -12,6 +12,9 @@ website: "https://github.com/phun333/pi-infobar"
 license: "MIT"
 licenseUrl: "https://github.com/phun333/pi-infobar/blob/main/LICENSE"
 download: "https://github.com/phun333/pi-infobar/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

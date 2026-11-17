@@ -11,6 +11,9 @@ website: "https://www.littleguys.dev"
 license: "MIT"
 licenseUrl: "https://github.com/herval/littleguys/blob/main/LICENSE"
 download: "https://github.com/herval/littleguys/releases/latest"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

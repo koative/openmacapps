@@ -9,6 +9,8 @@ website: "https://freelens.app"
 license: "MIT"
 licenseUrl: "https://github.com/freelensapp/freelens/blob/main/LICENSE"
 download: "https://github.com/freelensapp/freelens/releases"
+macos: "13"
+arch: both
 homebrew: "freelens"
 freeDownload: true
 featured: false

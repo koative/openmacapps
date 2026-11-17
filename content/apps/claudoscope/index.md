@@ -12,6 +12,9 @@ website: "https://claudoscope.com"
 license: "MIT"
 licenseUrl: "https://github.com/cordwainersmith/Claudoscope/blob/master/LICENSE"
 download: "https://github.com/cordwainersmith/Claudoscope/releases"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "claudoscope"
 featured: false

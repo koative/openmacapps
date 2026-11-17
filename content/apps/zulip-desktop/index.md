@@ -14,6 +14,9 @@ website: https://zulip.com/apps/
 license: "Apache-2.0"
 licenseUrl: https://github.com/zulip/zulip-desktop/blob/main/LICENSE
 download: https://zulip.com/help/desktop-app-install-guide
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "zulip"
 featured: false

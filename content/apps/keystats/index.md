@@ -13,6 +13,9 @@ website: https://keystats.vercel.app
 license: "MIT"
 licenseUrl: https://github.com/debugtheworldbot/keyStats/blob/main/LICENSE
 download: https://github.com/debugtheworldbot/keyStats/releases
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

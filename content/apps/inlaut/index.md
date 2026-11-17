@@ -14,6 +14,9 @@ website: "https://inlaut.de"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/tobymarks/inlaut/blob/main/LICENSE"
 download: "https://github.com/tobymarks/inlaut/releases/download/v0.6.0/Inlaut-0.6.0-en.dmg"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

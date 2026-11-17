@@ -12,6 +12,8 @@ website: "https://omlahore.github.io/bodycam/"
 license: "MIT"
 licenseUrl: "https://github.com/omlahore/bodycam/blob/main/LICENSE"
 download: "https://github.com/omlahore/bodycam/releases"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

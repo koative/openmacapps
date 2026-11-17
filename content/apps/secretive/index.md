@@ -13,6 +13,7 @@ website: https://secretive.dev
 license: "MIT"
 licenseUrl: https://github.com/maxgoedjen/secretive/blob/main/LICENSE
 download: https://github.com/maxgoedjen/secretive/releases
+macos: "15"
 homebrew: "secretive"
 freeDownload: true
 featured: false

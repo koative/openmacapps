@@ -14,6 +14,9 @@ licenseUrl: https://github.com/dyerc/Doughnut/blob/master/LICENSE
 maintenance: "unmaintained"
 maintenanceNote: "No release since October 2022."
 download: https://github.com/dyerc/Doughnut/releases
+macos: "10.15"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "doughnut"
 featured: false

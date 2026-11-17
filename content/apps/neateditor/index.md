@@ -12,6 +12,9 @@ website: "https://github.com/NeatMacApps/NeatEditor"
 license: "MIT"
 licenseUrl: "https://github.com/NeatMacApps/NeatEditor/blob/main/LICENSE"
 download: "https://github.com/NeatMacApps/NeatEditor/releases"
+macos: "26"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

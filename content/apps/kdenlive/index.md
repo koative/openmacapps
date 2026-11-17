@@ -9,6 +9,8 @@ website: "https://kdenlive.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/KDE/kdenlive/blob/master/COPYING"
 download: "https://kdenlive.org/download/"
+macos: "13"
+notarized: true
 freeDownload: true
 homebrew: "kdenlive"
 featured: false

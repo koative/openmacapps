@@ -14,6 +14,8 @@ website: https://shiyin.weibuilds.com/en/
 license: "MIT"
 licenseUrl: https://github.com/juinwei7/Shiyin/blob/main/LICENSE
 download: https://github.com/juinwei7/Shiyin/releases
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-29'

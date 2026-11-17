@@ -12,6 +12,9 @@ website: https://skyrimtools.com
 license: MIT
 licenseUrl: https://github.com/starbudweiser/fCLEANER/blob/main/LICENSE
 download: https://github.com/starbudweiser/fCLEANER/releases
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-11-10'

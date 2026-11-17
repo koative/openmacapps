@@ -14,6 +14,8 @@ website: "https://github.com/iamdadzilla/Macsomnia"
 license: "MIT"
 licenseUrl: "https://github.com/iamdadzilla/Macsomnia/blob/main/LICENSE"
 download: "https://github.com/iamdadzilla/Macsomnia/releases/latest"
+macos: "13"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

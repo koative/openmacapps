@@ -11,6 +11,8 @@ website: "https://github.com/viktorkpkn/ImageCanvas"
 license: "MIT"
 licenseUrl: "https://github.com/viktorkpkn/ImageCanvas/blob/main/LICENSE"
 download: "https://github.com/viktorkpkn/ImageCanvas/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -13,6 +13,7 @@ sourceAvailability: "source-available"
 licenseNotes: "License.txt says VeraCrypt is multi-licensed under the Apache License 2.0 and the TrueCrypt License version 3.0, with both texts included. The TrueCrypt License allows use and redistribution, but a modified version may not use the TrueCrypt name or confusingly similar names. A modified version must also remove TrueCrypt names, logos and graphics, carry the TrueCrypt attribution notice, and keep its complete source publicly available. The VeraCrypt name, logo and trademarks are not licensed. The combined terms are not an OSI open-source licence."
 licenseUrl: "https://github.com/veracrypt/VeraCrypt/blob/master/License.txt"
 download: "https://github.com/veracrypt/VeraCrypt/releases/latest"
+notarized: true
 homebrew: "veracrypt"
 freeDownload: true
 featured: false

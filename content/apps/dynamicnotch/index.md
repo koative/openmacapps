@@ -12,6 +12,7 @@ website: https://github.com/jackson-storm/DynamicNotch
 license: GPL-3.0
 licenseUrl: https://github.com/jackson-storm/DynamicNotch/blob/main/LICENSE
 download: https://github.com/jackson-storm/DynamicNotch/releases
+macos: "14.6"
 freeDownload: true
 featured: false
 added: '2026-10-17'

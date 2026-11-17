@@ -10,6 +10,8 @@ website: https://github.com/sozercan/OpenInCode
 license: "MIT"
 licenseUrl: https://github.com/sozercan/OpenInCode/blob/master/LICENSE
 download: https://github.com/sozercan/OpenInCode/releases
+macos: "13"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

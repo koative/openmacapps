@@ -11,6 +11,9 @@ website: "https://diavolezza.github.io/wortuhr/"
 license: "MIT"
 licenseUrl: "https://github.com/Diavolezza/wortuhr/blob/main/LICENSE"
 download: "https://github.com/Diavolezza/wortuhr/releases/latest"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

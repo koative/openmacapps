@@ -11,6 +11,7 @@ website: "https://mojito.wells.ee"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/wr/mojito/blob/main/LICENSE"
 download: "https://github.com/wr/mojito/releases/download/v1.10.1/Mojito.dmg"
+macos: "14"
 freeDownload: true
 featured: false
 added: "2026-11-06"

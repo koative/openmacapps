@@ -8,6 +8,7 @@ website: "https://companion.home-assistant.io"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/home-assistant/iOS/blob/main/LICENSE.md"
 download: "https://apps.apple.com/us/app/home-assistant/id1099568401"
+macos: "13.3"
 homebrew: "home-assistant"
 freeDownload: true
 featured: false

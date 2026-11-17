@@ -11,6 +11,8 @@ website: "https://coronatracker.samabox.com/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/mhdhejazi/CoronaTracker/blob/master/LICENSE"
 download: "https://github.com/mhdhejazi/CoronaTracker/releases/download/v1.7.2/CoronaTracker-macOS.zip"
+arch: intel
+notarized: true
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No release since August 2020 and no commit since October 2020, as checked on 2026-11-06."

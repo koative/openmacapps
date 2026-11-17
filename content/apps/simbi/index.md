@@ -13,6 +13,9 @@ website: "https://getsimbi.app"
 license: "MIT"
 licenseUrl: "https://github.com/predict-woo/simbi/blob/main/LICENSE"
 download: "https://download.getsimbi.app/darwin-arm64"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: https://paretosecurity.com
 license: GPL-3.0
 licenseUrl: https://github.com/ParetoSecurity/pareto-mac/blob/main/LICENSE
 download: https://github.com/ParetoSecurity/pareto-mac/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "pareto-security"
 featured: false

@@ -10,6 +10,9 @@ website: https://github.com/Homebrew/BrewUI
 license: AGPL-3.0
 licenseUrl: https://github.com/Homebrew/BrewUI/blob/main/LICENSE
 download: https://github.com/Homebrew/BrewUI/releases
+macos: "26.2"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "homebrew-app"
 featured: false

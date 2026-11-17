@@ -11,6 +11,9 @@ website: https://switch-dev.sanyamgarg.com
 license: FSL-1.1-MIT
 licenseUrl: https://github.com/Sanyam-G/switch/blob/main/LICENSE.md
 download: https://github.com/Sanyam-G/switch/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-10-17"

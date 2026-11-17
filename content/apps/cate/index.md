@@ -12,6 +12,7 @@ website: "https://cate.cero-ai.com"
 license: "MIT"
 licenseUrl: "https://github.com/0-AI-UG/cate/blob/main/LICENSE"
 download: "https://github.com/0-AI-UG/cate/releases"
+arch: both
 freeDownload: true
 homebrew: "cate"
 featured: false

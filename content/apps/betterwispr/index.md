@@ -14,6 +14,9 @@ website: "https://betterwispr.com"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/opennookorg/betterwispr/blob/main/LICENSE"
 download: "https://github.com/opennookorg/betterwispr/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

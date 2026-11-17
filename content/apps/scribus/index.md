@@ -9,6 +9,8 @@ website: "https://www.scribus.net/"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/scribusproject/scribus/blob/master/COPYING"
 download: "https://sourceforge.net/projects/scribus/files/scribus/"
+macos: "12"
+arch: both
 freeDownload: true
 homebrew: "scribus"
 featured: false

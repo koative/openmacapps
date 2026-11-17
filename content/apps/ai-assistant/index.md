@@ -11,6 +11,9 @@ website: "https://ai.assistant.community/"
 license: "MIT"
 licenseUrl: "https://github.com/Joaov41/Aiassistant/blob/main/LICENSE"
 download: "https://github.com/Joaov41/Aiassistant/releases/latest"
+macos: "27"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://claudecodenotify.narlei.com"
 license: "MIT"
 licenseUrl: "https://github.com/narlei/claudecodenotify/blob/main/LICENSE"
 download: "https://github.com/narlei/claudecodenotify/releases/latest"
+macos: "12"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

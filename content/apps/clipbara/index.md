@@ -15,6 +15,8 @@ website: "https://github.com/mobrava/Clipbara"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/mobrava/Clipbara/blob/main/LICENSE"
 download: "https://github.com/mobrava/Clipbara/releases"
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

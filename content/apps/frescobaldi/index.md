@@ -13,6 +13,7 @@ website: https://www.frescobaldi.org
 license: "GPL-2.0-or-later"
 licenseUrl: https://github.com/frescobaldi/frescobaldi/blob/master/LICENSE
 download: https://github.com/frescobaldi/frescobaldi/releases
+arch: both
 homebrew: "frescobaldi"
 freeDownload: true
 featured: false

@@ -9,6 +9,9 @@ website: "https://snapzy.app"
 license: "BSD-3-Clause"
 licenseUrl: "https://github.com/duongductrong/Snapzy/blob/master/LICENSE"
 download: "https://github.com/duongductrong/Snapzy/releases"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "snapzy"
 featured: false

@@ -12,6 +12,9 @@ website: https://nikitabobko.github.io/AeroSpace/guide
 license: MIT
 licenseUrl: https://github.com/nikitabobko/AeroSpace/blob/main/LICENSE.txt
 download: https://github.com/nikitabobko/AeroSpace/releases
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: 2026-10-17

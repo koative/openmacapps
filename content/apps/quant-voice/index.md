@@ -12,6 +12,8 @@ website: "https://github.com/avklyuev79-hash/quant-voice"
 license: "MIT"
 licenseUrl: "https://github.com/avklyuev79-hash/quant-voice/blob/main/LICENSE"
 download: "https://github.com/avklyuev79-hash/quant-voice/releases"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

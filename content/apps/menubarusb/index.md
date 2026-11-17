@@ -12,6 +12,7 @@ website: "https://github.com/rafaelSwi/MenuBarUSB"
 license: "MIT"
 licenseUrl: "https://github.com/rafaelSwi/MenuBarUSB/blob/main/LICENSE"
 download: "https://github.com/rafaelSwi/MenuBarUSB/releases"
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

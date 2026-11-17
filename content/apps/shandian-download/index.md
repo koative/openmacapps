@@ -12,6 +12,9 @@ website: "https://github.com/chenmozhe008/shandian-download"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/chenmozhe008/shandian-download/blob/master/LICENSE"
 download: "https://github.com/chenmozhe008/shandian-download/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

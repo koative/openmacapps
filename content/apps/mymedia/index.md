@@ -14,6 +14,9 @@ website: https://github.com/photangralenphie/MyMedia
 license: "MIT"
 licenseUrl: https://github.com/photangralenphie/MyMedia/blob/main/LICENSE
 download: https://github.com/photangralenphie/MyMedia/releases
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

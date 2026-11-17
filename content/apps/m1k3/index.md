@@ -14,6 +14,9 @@ sourceAvailability: "source-available"
 licenseNotes: "Functional Source License 1.1 with an Apache-2.0 future licence. Any purpose except a Competing Use is permitted; internal use, non-commercial education and research, and professional services for a licensee are specifically included. A Competing Use, meaning a commercial product or service that substitutes for M1K3 or offers substantially similar functionality, is not. Each version converts to Apache-2.0 two years after it is published; the build published on 2026-11-06 converts on 2028-11-06. Revisions published before 2026-09-09 remain under Apache-2.0. The M1K3 name, mark, icon and voice are trademarks and are not licensed."
 licenseUrl: "https://github.com/Round-Tower/M1K3/blob/master/LICENSE"
 download: "https://github.com/Round-Tower/M1K3/releases/latest/download/M1K3.dmg"
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

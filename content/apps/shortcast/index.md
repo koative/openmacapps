@@ -12,6 +12,9 @@ website: "https://github.com/mutonby/shortcast"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/mutonby/shortcast/blob/main/LICENSE"
 download: "https://github.com/mutonby/shortcast/releases/download/v1.0.0/Shortcast.dmg"
+macos: "15"
+arch: apple-silicon
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

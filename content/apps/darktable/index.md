@@ -18,6 +18,8 @@ website: https://www.darktable.org/
 license: GPL-3.0-or-later
 licenseUrl: https://github.com/darktable-org/darktable/blob/master/LICENSE
 download: https://www.darktable.org/install/
+macos: "13.5"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: 2026-10-17

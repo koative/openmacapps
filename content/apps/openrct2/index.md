@@ -8,6 +8,8 @@ website: "https://openrct2.io"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/OpenRCT2/OpenRCT2/blob/develop/licence.txt"
 download: "https://openrct2.io/download"
+macos: "10.14"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

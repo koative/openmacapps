@@ -14,6 +14,9 @@ website: https://openoats.com
 license: "MIT"
 licenseUrl: https://github.com/yazinsai/OpenOats/blob/main/LICENSE
 download: https://github.com/yazinsai/OpenOats/releases
+macos: "14.2"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

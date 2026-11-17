@@ -12,6 +12,9 @@ website: "https://github.com/polyackiy/MacCam"
 license: "MIT"
 licenseUrl: "https://github.com/polyackiy/MacCam/blob/main/LICENSE"
 download: "https://github.com/polyackiy/MacCam/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -14,6 +14,8 @@ website: https://karabiner-elements.pqrs.org/
 license: Unlicense
 licenseUrl: https://github.com/pqrs-org/Karabiner-Elements/blob/main/LICENSE.md
 download: https://github.com/pqrs-org/Karabiner-Elements/releases
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "karabiner-elements"
 featured: false

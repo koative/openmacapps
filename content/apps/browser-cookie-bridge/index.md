@@ -11,6 +11,9 @@ website: "https://cookiebridge.apoorvdarshan.com"
 license: "MIT"
 licenseUrl: "https://github.com/apoorvdarshan/browser-cookie-bridge/blob/main/LICENSE"
 download: "https://github.com/apoorvdarshan/browser-cookie-bridge/releases/download/v1.5.10/Browser-Cookie-Bridge-arm64.dmg"
+macos: "13.5"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

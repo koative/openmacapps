@@ -14,6 +14,8 @@ website: "https://github.com/saihgupr/SmartClipboard"
 license: "MIT"
 licenseUrl: "https://github.com/saihgupr/SmartClipboard/blob/main/LICENSE"
 download: "https://github.com/saihgupr/SmartClipboard/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

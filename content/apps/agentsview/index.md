@@ -13,6 +13,9 @@ website: https://www.agentsview.io
 license: "MIT"
 licenseUrl: https://github.com/kenn-io/agentsview/blob/main/LICENSE
 download: https://github.com/kenn-io/agentsview/releases
+macos: "11"
+arch: apple-silicon
+notarized: true
 homebrew: "agentsview"
 freeDownload: true
 featured: false

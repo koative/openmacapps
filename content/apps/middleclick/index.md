@@ -11,6 +11,9 @@ website: https://wheelclick.app
 license: GPL-3.0
 licenseUrl: https://github.com/artginzburg/MiddleClick/blob/main/LICENSE
 download: https://github.com/artginzburg/MiddleClick/releases
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "middleclick"
 featured: false

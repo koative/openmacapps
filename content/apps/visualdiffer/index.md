@@ -12,6 +12,8 @@ website: https://visualdiffer.com
 license: "GPL-3.0"
 licenseUrl: https://github.com/visualdiffer/visualdiffer/blob/main/LICENSE
 download: https://github.com/visualdiffer/visualdiffer/releases/latest
+macos: "13.5"
+notarized: true
 homebrew: "visualdiffer"
 freeDownload: true
 featured: false

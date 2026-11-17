@@ -10,6 +10,8 @@ website: https://amaxwell.github.io/tlutility/
 license: "BSD-3-Clause"
 licenseUrl: https://github.com/amaxwell/tlutility/blob/master/LICENSE
 download: https://github.com/amaxwell/tlutility/releases
+macos: "10.9"
+arch: both
 homebrew: "tex-live-utility"
 freeDownload: true
 featured: false

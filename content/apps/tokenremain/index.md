@@ -12,6 +12,9 @@ website: "https://tokenremain.com"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/Carstin520/token-remain/blob/main/LICENSE"
 download: "https://github.com/Carstin520/token-remain/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

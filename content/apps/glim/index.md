@@ -11,6 +11,8 @@ website: "https://glimapp.github.io/"
 license: "MIT"
 licenseUrl: "https://github.com/glimapp/glim/blob/main/LICENSE"
 download: "https://github.com/glimapp/glim/releases/latest"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

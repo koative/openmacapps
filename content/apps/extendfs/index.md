@@ -11,6 +11,9 @@ website: https://apps.kpchew.com/extendfs/
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/kthchew/ExtendFS/blob/main/LICENSE.md
 download: https://github.com/kthchew/ExtendFS/releases
+macos: "15.6"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

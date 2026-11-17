@@ -8,6 +8,7 @@ website: "https://freeter.io"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/FreeterApp/Freeter/blob/master/COPYING"
 download: "https://freeter.io/download"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

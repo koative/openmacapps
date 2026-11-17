@@ -12,6 +12,9 @@ website: "https://itsypin.app"
 license: "MIT"
 licenseUrl: "https://github.com/nickustinov/itsypin-macos/blob/main/LICENSE"
 download: "https://github.com/nickustinov/itsypin-macos/releases/latest"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

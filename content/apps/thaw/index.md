@@ -13,6 +13,8 @@ website: https://www.getthaw.app
 license: GPL-3.0
 licenseUrl: https://github.com/thaw-app/Thaw/blob/development/LICENSE
 download: https://github.com/thaw-app/Thaw/releases
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "thaw"
 featured: false

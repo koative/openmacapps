@@ -11,6 +11,9 @@ website: "https://github.com/LaluIman/Memo"
 license: "MIT"
 licenseUrl: "https://github.com/LaluIman/Memo/blob/main/LICENSE"
 download: "https://github.com/LaluIman/Memo/releases/latest"
+macos: "27"
+arch: apple-silicon
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

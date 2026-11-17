@@ -11,6 +11,9 @@ website: "https://halo.github.io/LinkLiar/"
 license: "MIT"
 licenseUrl: "https://github.com/halo/LinkLiar/blob/master/LICENSE.txt"
 download: "https://github.com/halo/LinkLiar/releases/download/3.0.3/LinkLiar.app.zip"
+macos: "10.12"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -19,6 +19,9 @@ website: "https://electerm.org"
 license: "MIT"
 licenseUrl: "https://github.com/electerm/electerm/blob/master/LICENSE"
 download: "https://github.com/electerm/electerm/releases"
+macos: "13"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "electerm"
 featured: false

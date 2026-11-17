@@ -10,6 +10,9 @@ website: "https://github.com/inderdhir/DatWeatherDoe"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/inderdhir/DatWeatherDoe/blob/main/LICENSE"
 download: "https://github.com/inderdhir/DatWeatherDoe/releases"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "datweatherdoe"
 featured: false

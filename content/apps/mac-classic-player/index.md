@@ -14,6 +14,9 @@ website: https://mcp.kkweb.io/
 license: "MIT"
 licenseUrl: https://github.com/piro0919/mac-classic-player/blob/main/LICENSE
 download: https://github.com/piro0919/mac-classic-player/releases/latest
+macos: "11"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

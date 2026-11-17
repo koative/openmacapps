@@ -11,6 +11,8 @@ website: "https://github.com/FirenzeLor/gemini-collector"
 license: "AGPL-3.0-only"
 licenseUrl: "https://github.com/FirenzeLor/gemini-collector/blob/main/LICENSE"
 download: "https://github.com/FirenzeLor/gemini-collector/releases/latest"
+macos: "12"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: '2026-10-17'

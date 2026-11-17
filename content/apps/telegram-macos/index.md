@@ -8,6 +8,7 @@ website: "https://macos.telegram.org"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/TelegramMessenger/telegram-macos/blob/master/LICENSE"
 download: "https://macos.telegram.org"
+macos: "10.13"
 freeDownload: true
 homebrew: "telegram"
 featured: false

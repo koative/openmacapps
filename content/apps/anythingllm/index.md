@@ -8,6 +8,7 @@ website: "https://anythingllm.com"
 license: "MIT"
 licenseUrl: "https://github.com/Mintplex-Labs/anything-llm/blob/master/LICENSE"
 download: "https://anythingllm.com/download"
+arch: both
 freeDownload: true
 homebrew: "anythingllm"
 featured: false

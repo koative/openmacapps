@@ -11,6 +11,8 @@ website: "https://github.com/appledragon/everythingByMdfind"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/appledragon/everythingByMdfind/blob/master/LICENSE.md"
 download: "https://github.com/appledragon/everythingByMdfind/releases"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

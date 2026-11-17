@@ -12,6 +12,8 @@ website: "https://kabrapratik28.github.io/Everest/"
 license: "MIT"
 licenseUrl: "https://github.com/kabrapratik28/Everest/blob/main/LICENSE"
 download: "https://github.com/kabrapratik28/Everest/releases/latest"
+macos: "15"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

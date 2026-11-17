@@ -12,6 +12,9 @@ website: "https://github.com/Mikeli7666/DuoBar"
 license: "MIT"
 licenseUrl: "https://github.com/Mikeli7666/DuoBar/blob/main/LICENSE"
 download: "https://github.com/Mikeli7666/DuoBar/releases/download/v1.4.0/DuoBar-1.4.0.dmg"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,8 @@ website: "https://ironsmith.app"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Jeidoban/Ironsmith/blob/main/LICENSE"
 download: "https://github.com/Jeidoban/Ironsmith/releases"
+macos: "26"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

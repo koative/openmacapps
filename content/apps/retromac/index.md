@@ -11,6 +11,9 @@ website: "https://myretromac.app"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/klotzbrocken/RetroMac/blob/main/LICENSE"
 download: "https://github.com/klotzbrocken/RetroMac/releases/download/v3.0.2/RetroMac.dmg"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

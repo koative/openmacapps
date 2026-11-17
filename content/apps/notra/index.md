@@ -13,6 +13,9 @@ website: "https://github.com/akopulko/notra"
 license: "MIT"
 licenseUrl: "https://github.com/akopulko/notra/blob/master/LICENSE"
 download: "https://github.com/akopulko/notra/releases/latest"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

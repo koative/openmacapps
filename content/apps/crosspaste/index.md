@@ -16,6 +16,8 @@ website: https://crosspaste.com/en/
 license: "AGPL-3.0"
 licenseUrl: https://github.com/CrossPaste/crosspaste-desktop/blob/main/LICENSE
 download: https://crosspaste.com/en/download
+macos: "14"
+arch: both
 homebrew: "crosspaste"
 freeDownload: true
 featured: false

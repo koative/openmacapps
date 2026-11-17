@@ -8,6 +8,7 @@ website: "https://github.com/dmarcotte/easy-move-resize"
 license: "MIT"
 licenseUrl: "https://github.com/dmarcotte/easy-move-resize/blob/main/LICENSE.txt"
 download: "https://github.com/dmarcotte/easy-move-resize/releases"
+notarized: true
 homebrew: "easy-move+resize"
 freeDownload: true
 featured: false

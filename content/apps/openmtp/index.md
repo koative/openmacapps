@@ -14,6 +14,9 @@ website: https://openmtp.ganeshrvel.com
 license: "MIT"
 licenseUrl: https://github.com/ganeshrvel/openmtp/blob/master/LICENSE
 download: https://github.com/ganeshrvel/openmtp/releases/latest
+macos: "10.14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "openmtp"
 featured: false

@@ -8,6 +8,9 @@ website: "https://museeks.io"
 license: "MIT"
 licenseUrl: "https://github.com/martpie/museeks/blob/master/LICENSE"
 download: "https://github.com/martpie/museeks/releases"
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "museeks"
 featured: false

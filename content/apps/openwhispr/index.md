@@ -17,6 +17,7 @@ website: https://openwhispr.com
 license: "MIT"
 licenseUrl: https://github.com/OpenWhispr/openwhispr/blob/main/LICENSE
 download: https://github.com/OpenWhispr/openwhispr/releases/latest
+arch: both
 homebrew: "openwhispr"
 freeDownload: true
 featured: false

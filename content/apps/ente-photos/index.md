@@ -14,6 +14,7 @@ website: https://ente.com
 license: "AGPL-3.0"
 licenseUrl: https://github.com/ente/ente/blob/main/LICENSE
 download: https://ente.com/download
+arch: both
 freeDownload: true
 featured: false
 added: '2026-11-02'

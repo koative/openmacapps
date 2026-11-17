@@ -11,6 +11,8 @@ website: "https://codexresets.org"
 license: "MIT"
 licenseUrl: "https://github.com/boyso/codex-reset/blob/main/LICENSE"
 download: "https://github.com/boyso/codex-reset/releases"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,7 @@ website: https://glidewm.org
 license: "Apache-2.0 OR MIT"
 licenseUrl: https://github.com/tmandry/glide/blob/main/LICENSE-APACHE
 download: https://github.com/tmandry/glide/releases/latest
+arch: both
 homebrew: "glide"
 freeDownload: true
 featured: false

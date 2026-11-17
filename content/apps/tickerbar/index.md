@@ -11,6 +11,9 @@ website: "https://tickerbar.terrifiedbug.com"
 license: "MIT"
 licenseUrl: "https://github.com/TerrifiedBug/tickerbar/blob/master/LICENSE"
 download: "https://github.com/TerrifiedBug/tickerbar/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

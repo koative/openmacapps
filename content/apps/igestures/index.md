@@ -11,6 +11,9 @@ website: "https://igestures.techkoala.net/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/ron159/iGestures/blob/main/LICENSE"
 download: "https://github.com/ron159/iGestures/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

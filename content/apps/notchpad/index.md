@@ -13,6 +13,8 @@ website: "https://github.com/BirdyTheDev/notchpad"
 license: "MIT"
 licenseUrl: "https://github.com/BirdyTheDev/notchpad/blob/main/LICENSE"
 download: "https://github.com/BirdyTheDev/notchpad/releases"
+macos: "14"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

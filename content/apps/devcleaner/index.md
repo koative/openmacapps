@@ -13,6 +13,9 @@ website: https://github.com/vashpan/xcode-dev-cleaner
 license: "GPL-3.0"
 licenseUrl: https://github.com/vashpan/xcode-dev-cleaner/blob/master/LICENSE
 download: https://github.com/vashpan/xcode-dev-cleaner/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "devcleaner"
 featured: false

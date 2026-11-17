@@ -9,6 +9,9 @@ website: "https://jan.ai"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/janhq/jan/blob/main/LICENSE"
 download: "https://jan.ai/download"
+macos: "13.6"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "jan"
 featured: false

@@ -12,6 +12,9 @@ website: "https://perfecto-web.com"
 license: "MIT"
 licenseUrl: "https://github.com/PerfectoWeb/Gibson/blob/main/LICENSE"
 download: "https://github.com/PerfectoWeb/Gibson/releases/latest/download/Gibson.saver.zip"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

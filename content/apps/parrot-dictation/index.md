@@ -14,6 +14,7 @@ website: "https://parrot.ramihmd.com"
 license: "MIT"
 licenseUrl: "https://github.com/HMDRAMS-DEV/parrot/blob/main/LICENSE"
 download: "https://github.com/HMDRAMS-DEV/parrot/releases/latest/download/Parrot.dmg"
+macos: "26"
 freeDownload: true
 featured: false
 added: "2026-11-06"

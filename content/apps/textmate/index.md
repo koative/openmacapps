@@ -9,6 +9,9 @@ website: "https://macromates.com"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/textmate/textmate/blob/master/LICENSE"
 download: "https://macromates.com/download"
+macos: "10.12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "textmate"
 featured: false

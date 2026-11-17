@@ -12,6 +12,8 @@ website: https://github.com/ayangweb/BongoCat
 license: 'Apache-2.0'
 licenseUrl: https://github.com/ayangweb/BongoCat/blob/master/LICENSE
 download: https://github.com/ayangweb/BongoCat/releases
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

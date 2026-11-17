@@ -14,6 +14,8 @@ website: https://muxy.app
 license: "Apache-2.0"
 licenseUrl: https://github.com/muxy-app/muxy/blob/main/LICENSE
 download: https://github.com/muxy-app/muxy/releases
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

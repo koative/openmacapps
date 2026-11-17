@@ -12,6 +12,9 @@ website: "https://reminal.app"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/harshalgajjar/Reminal/blob/main/LICENSE"
 download: "https://github.com/harshalgajjar/Reminal/releases"
+macos: "12.3"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

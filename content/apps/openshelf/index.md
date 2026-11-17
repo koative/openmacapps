@@ -11,6 +11,9 @@ website: "https://openshelf.space"
 license: "MIT"
 licenseUrl: "https://github.com/Manan-Santoki/OpenShelf/blob/main/LICENSE"
 download: "https://github.com/Manan-Santoki/OpenShelf/releases/download/v1.9.0/OpenShelf-1.9.0.dmg"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

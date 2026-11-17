@@ -12,6 +12,9 @@ website: "https://github.com/Wooden-Robot/ActionHalo"
 license: "MIT"
 licenseUrl: "https://github.com/Wooden-Robot/ActionHalo/blob/main/LICENSE"
 download: "https://github.com/Wooden-Robot/ActionHalo/releases/latest"
+macos: "12"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

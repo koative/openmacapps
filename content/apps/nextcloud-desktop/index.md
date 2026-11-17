@@ -14,6 +14,7 @@ website: https://nextcloud.com
 license: "GPL-2.0-or-later"
 licenseUrl: https://github.com/nextcloud/desktop/blob/master/COPYING
 download: https://nextcloud.com/install/#install-clients
+macos: "13"
 homebrew: "nextcloud"
 freeDownload: true
 featured: false

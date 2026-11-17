@@ -12,6 +12,8 @@ website: "https://github.com/askuksov/kombucha"
 license: "MIT"
 licenseUrl: "https://github.com/askuksov/kombucha/blob/main/LICENSE"
 download: "https://github.com/askuksov/kombucha/releases/latest"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

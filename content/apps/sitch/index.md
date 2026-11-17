@@ -12,6 +12,9 @@ website: "https://phalladar.github.io/Sitch/"
 license: "MIT"
 licenseUrl: "https://github.com/phalladar/Sitch/blob/main/LICENSE"
 download: "https://github.com/phalladar/Sitch/releases"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

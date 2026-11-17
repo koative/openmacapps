@@ -11,6 +11,9 @@ website: https://github.com/tombonez/noTunes
 license: MIT
 licenseUrl: https://github.com/tombonez/noTunes/blob/master/LICENSE
 download: https://github.com/tombonez/noTunes/releases
+macos: "10.14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "notunes"
 featured: false

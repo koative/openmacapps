@@ -8,6 +8,9 @@ website: "https://silvertree2010.github.io/ApolloShell/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/Silvertree2010/ApolloShell/blob/main/LICENSE"
 download: "https://github.com/Silvertree2010/ApolloShell/releases"
+macos: "26"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

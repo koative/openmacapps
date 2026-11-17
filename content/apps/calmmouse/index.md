@@ -11,6 +11,8 @@ website: "https://calmmouse.malikzhang.com"
 license: "MIT"
 licenseUrl: "https://github.com/Malik1942/CalmMouse/blob/main/LICENSE"
 download: "https://github.com/Malik1942/CalmMouse/releases/latest"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,8 @@ website: "https://horita.app"
 license: "MIT"
 licenseUrl: "https://github.com/cordwainersmith/horita/blob/main/LICENSE"
 download: "https://github.com/cordwainersmith/horita/releases/download/v0.2.0/Horita.dmg"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

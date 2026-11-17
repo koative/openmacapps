@@ -16,6 +16,8 @@ sourceAvailability: "source-available"
 licenseNotes: "PolyForm Perimeter 1.0.1: any purpose is permitted except providing others with a product or service that competes with Biscotti, including a product that substitutes for its functionality, even when it is provided free of charge. You may read, change and share the source under those terms."
 licenseUrl: "https://github.com/scosman/Biscotti/blob/main/LICENSE.md"
 download: "https://github.com/scosman/Biscotti/releases/latest/download/Biscotti.dmg"
+macos: "15"
+arch: apple-silicon
 homebrew: "biscotti"
 freeDownload: true
 featured: false

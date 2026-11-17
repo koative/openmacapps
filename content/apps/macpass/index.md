@@ -15,6 +15,9 @@ website: https://macpass.app
 license: GPL-3.0-or-later
 licenseUrl: https://github.com/MacPass/MacPass/blob/master/LICENSE.txt
 download: https://github.com/MacPass/MacPass/releases
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "macpass"
 featured: false

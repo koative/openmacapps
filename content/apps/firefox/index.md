@@ -9,6 +9,8 @@ website: "https://www.firefox.com"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/mozilla-firefox/firefox/blob/main/toolkit/content/licenses/mpl.html"
 download: "https://www.firefox.com/en-US/download/all/"
+macos: "10.15"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

@@ -15,6 +15,7 @@ website: https://textus.catvinci.com
 license: "MIT"
 licenseUrl: https://github.com/CatVinci-Studio/Textus/blob/main/LICENSE
 download: https://github.com/CatVinci-Studio/Textus/releases
+arch: both
 homebrew: "textus"
 freeDownload: true
 featured: false

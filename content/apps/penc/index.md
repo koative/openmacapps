@@ -16,6 +16,9 @@ licenseUrl: https://github.com/dgurkaynak/Penc/blob/master/LICENSE
 maintenance: "unmaintained"
 maintenanceNote: "No release since July 2021."
 download: https://github.com/dgurkaynak/Penc/releases
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "penc"
 featured: false

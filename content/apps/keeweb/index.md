@@ -15,6 +15,8 @@ website: "https://keeweb.info"
 license: "MIT"
 licenseUrl: "https://github.com/keeweb/keeweb/blob/master/LICENSE"
 download: "https://github.com/keeweb/keeweb/releases"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "keeweb"
 featured: false

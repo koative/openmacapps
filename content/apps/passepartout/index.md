@@ -14,6 +14,8 @@ website: https://partout.io/passepartout/
 license: "GPL-3.0"
 licenseUrl: https://github.com/partout-io/passepartout/blob/master/LICENSE
 download: https://partout.io/passepartout/
+macos: "14"
+notarized: true
 homebrew: "passepartout"
 freeDownload: true
 featured: false

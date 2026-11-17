@@ -12,6 +12,9 @@ website: https://github.com/MochiDiffusion/MochiDiffusion
 license: "GPL-3.0"
 licenseUrl: https://github.com/MochiDiffusion/MochiDiffusion/blob/main/LICENSE
 download: https://github.com/MochiDiffusion/MochiDiffusion/releases
+macos: "15.6"
+arch: apple-silicon
+notarized: true
 homebrew: "mochi-diffusion"
 freeDownload: true
 featured: false

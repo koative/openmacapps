@@ -8,6 +8,9 @@ website: "https://github.com/rkbhochalya/grayscale-mode"
 license: "MIT"
 licenseUrl: "https://github.com/rkbhochalya/grayscale-mode/blob/master/LICENSE"
 download: "https://github.com/rkbhochalya/grayscale-mode/releases"
+macos: "10.14"
+arch: intel
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-10-17"

@@ -14,6 +14,8 @@ website: "https://github.com/CorvidLabs/MacNTop"
 license: "MIT"
 licenseUrl: "https://github.com/CorvidLabs/MacNTop/blob/main/LICENSE"
 download: "https://github.com/CorvidLabs/MacNTop/releases/download/0.1.0/MacNTop-0.1.0.zip"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

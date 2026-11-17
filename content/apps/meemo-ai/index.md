@@ -14,6 +14,9 @@ website: "https://meemo-ai.app"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/QuAppStudio/meemo-ai/blob/master/LICENSE"
 download: "https://github.com/QuAppStudio/meemo-ai/releases"
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

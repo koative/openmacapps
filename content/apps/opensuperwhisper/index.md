@@ -14,6 +14,7 @@ website: https://github.com/Starmel/OpenSuperWhisper
 license: "MIT"
 licenseUrl: https://github.com/Starmel/OpenSuperWhisper/blob/develop/LICENSE
 download: https://github.com/Starmel/OpenSuperWhisper/releases
+macos: "14"
 homebrew: "opensuperwhisper"
 freeDownload: true
 featured: false

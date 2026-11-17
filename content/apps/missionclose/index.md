@@ -12,6 +12,8 @@ website: "https://beqaabu.github.io/MissionClose/"
 license: "MIT"
 licenseUrl: "https://github.com/beqaabu/MissionClose/blob/main/LICENSE"
 download: "https://github.com/beqaabu/MissionClose/releases"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,9 @@ website: "https://github.com/vishaltelangre/bindPDF"
 license: "MIT"
 licenseUrl: "https://github.com/vishaltelangre/bindPDF/blob/master/LICENSE"
 download: "https://github.com/vishaltelangre/bindPDF/releases/download/v1.0.0/bindPDF-1.0.0.dmg"
+macos: "10.14"
+arch: both
+notarized: false
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No commit since October 2019 (checked 2026-11-06)."
