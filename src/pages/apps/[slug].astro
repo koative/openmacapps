@@ -24,13 +24,7 @@ import { appImage } from '../../lib/images';
 import { renderMarkdown } from '../../lib/markdown';
 import { relatedApps } from '../../lib/related';
 import { absoluteUrl, site } from '../../lib/site';
-import {
-  Archive,
-  ArrowUpRight,
-  ChevronLeft,
-  ShieldAlert,
-  Star,
-} from '@lucide/astro';
+import { Archive, ArrowUpRight, ChevronLeft, ShieldAlert } from '@lucide/astro';
 export function getStaticPaths() {
   return getApps().map((app) => ({
     params: { slug: app.slug },
@@ -214,21 +208,23 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
       <dd class="info-caption">{app.category}</dd>
     </div>
     <div>
-      <dt>Source</dt>
       {stripStars !== null ? (
-        <dd
-          class="info-value stars"
-          aria-label={`${stripStars.toLocaleString('en-US')} GitHub stars`}
-        >
-          <Star size={17} stroke-width={2.4} aria-hidden="true" />
-          {formatStars(stripStars)}
-        </dd>
+        <>
+          <dt>GitHub Stars</dt>
+          <dd
+            class="info-value"
+            aria-label={`${stripStars.toLocaleString('en-US')} stars`}
+          >
+            {formatStars(stripStars)}
+          </dd>
+        </>
       ) : (
-        <dd class="info-value">{host}</dd>
+        <>
+          <dt>Source</dt>
+          <dd class="info-value">{host}</dd>
+        </>
       )}
-      <dd class="info-caption">
-        {stripStars !== null ? `${owner} on GitHub` : owner}
-      </dd>
+      <dd class="info-caption">{owner}</dd>
     </div>
     <div>
       <dt>Verified</dt>
