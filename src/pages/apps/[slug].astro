@@ -96,6 +96,12 @@ const brewPage = brewTap
   : `https://formulae.brew.sh/cask/${app.homebrew}`;
 const macosLabel = app.macos && `macOS ${app.macos} or later`;
 const archLabel = app.arch && archLabels[app.arch];
+// Short enough for the info strip on a phone.
+const chipShort = {
+  both: 'Any Mac',
+  'apple-silicon': 'Apple silicon',
+  intel: 'Intel only',
+} as const;
 const github = githubStats(app.slug);
 const archived = !unmaintained && !!github?.archived;
 // Brand-new projects keep the host here; their count stays under Information.
@@ -189,24 +195,19 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
   </header>
 
   <dl class="info-strip">
-    <div>
-      <dt>License</dt>
-      <dd class:list={['info-value', { long: app.license.length > 12 }]}>
-        {app.license.replaceAll('-only', '')}
-      </dd>
-      <dd class:list={['info-caption', { restricted }]}>
-        {restricted ? 'Source available' : 'Open source'}
-      </dd>
-    </div>
-    <div>
-      <dt>Category</dt>
-      <dd class="info-value">
-        <a href={`${base}${categoryHref}`} aria-label={app.category}>
-          <CategoryGlyph category={app.category} size={30} />
-        </a>
-      </dd>
-      <dd class="info-caption">{app.category}</dd>
-    </div>
+    {(app.macos || app.arch) && (
+      <div>
+        <dt>{app.macos ? 'macOS' : 'Runs on'}</dt>
+        <dd class="info-value">
+          {app.macos ? `${app.macos}+` : chipShort[app.arch!]}
+        </dd>
+        {app.macos && (
+          <dd class="info-caption">
+            {app.arch ? chipShort[app.arch] : 'Chip unknown'}
+          </dd>
+        )}
+      </div>
+    )}
     <div>
       {stripStars !== null ? (
         <>
@@ -227,6 +228,15 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
       <dd class="info-caption">{owner}</dd>
     </div>
     <div>
+      <dt>License</dt>
+      <dd class:list={['info-value', { long: app.license.length > 9 }]}>
+        {app.license.replaceAll('-only', '')}
+      </dd>
+      <dd class:list={['info-caption', { restricted }]}>
+        {restricted ? 'Source available' : 'Open source'}
+      </dd>
+    </div>
+    <div>
       <dt>Verified</dt>
       <dd class="info-value">
         <time datetime={app.verified}>
@@ -239,23 +249,15 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
       </dd>
       <dd class="info-caption">{app.verified.slice(0, 4)}</dd>
     </div>
-    {(app.macos || app.arch) && (
-      <div>
-        <dt>Requires</dt>
-        <dd class="info-value">
-          {app.macos
-            ? `macOS ${app.macos}+`
-            : {
-                both: 'Any Mac',
-                'apple-silicon': 'Apple silicon',
-                intel: 'Intel',
-              }[app.arch!]}
-        </dd>
-        <dd class="info-caption">
-          {app.macos ? (archLabel ?? 'Chip not stated') : 'Version not stated'}
-        </dd>
-      </div>
-    )}
+    <div>
+      <dt>Category</dt>
+      <dd class="info-value">
+        <a href={`${base}${categoryHref}`} aria-label={app.category}>
+          <CategoryGlyph category={app.category} size={30} />
+        </a>
+      </dd>
+      <dd class="info-caption">{app.category}</dd>
+    </div>
   </dl>
 
   {app.screenshots.length > 0 && (
