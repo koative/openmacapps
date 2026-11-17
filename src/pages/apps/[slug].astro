@@ -5,6 +5,7 @@ import AppLockup from '../../components/AppLockup.astro';
 import CategoryGlyph from '../../components/CategoryGlyph.astro';
 import Shelf from '../../components/Shelf.astro';
 import Github from '../../components/GithubIcon.astro';
+import CopyCommand from '../../components/CopyCommand.astro';
 import { getApps } from '../../lib/catalog';
 import {
   breadcrumbList,
@@ -12,13 +13,18 @@ import {
   getTopics,
   topicForTag,
 } from '../../lib/guides';
-import { archLabels, categorySlug, licenseLabel } from '../../lib/collections';
+import {
+  archLabels,
+  brewCommand as brewInstall,
+  categorySlug,
+  licenseLabel,
+} from '../../lib/collections';
 import { formatStars, githubStats } from '../../lib/github';
 import { appImage } from '../../lib/images';
 import { renderMarkdown } from '../../lib/markdown';
 import { relatedApps } from '../../lib/related';
 import { absoluteUrl, site } from '../../lib/site';
-import { ArrowUpRight, Check, ChevronLeft, Copy } from '@lucide/astro';
+import { ArrowUpRight, ChevronLeft } from '@lucide/astro';
 export function getStaticPaths() {
   return getApps().map((app) => ({
     params: { slug: app.slug },
@@ -81,13 +87,10 @@ const shots = await Promise.all(
     image: await appImage(app.slug, shot.src, shot.url, [800, 1600]),
   })),
 );
-// Third-party taps (owner/tap/token) must be trusted before Homebrew will load them.
 const [brewOwner, brewTap] = app.homebrew?.includes('/')
   ? app.homebrew.split('/')
   : [];
-const brewCommand =
-  app.homebrew &&
-  `${brewTap ? `brew trust ${brewOwner}/${brewTap} && ` : ''}brew install --cask ${app.homebrew}`;
+const brewCommand = app.homebrew && brewInstall([app.homebrew]);
 const brewPage = brewTap
   ? `https://github.com/${brewOwner}/homebrew-${brewTap}`
   : `https://formulae.brew.sh/cask/${app.homebrew}`;
@@ -165,20 +168,7 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
           View Source
         </a>
         {brewCommand && (
-          <div class="brew">
-            <code title={brewCommand}>{brewCommand}</code>
-            <button
-              class="brew-copy"
-              type="button"
-              data-copy={brewCommand}
-              aria-label="Copy Homebrew command"
-              hidden
-            >
-              <Copy class="brew-copy-idle" size={15} />
-              <Check class="brew-copy-done" size={15} />
-            </button>
-            <span class="sr-only" role="status" />
-          </div>
+          <CopyCommand text={brewCommand} label="Copy Homebrew command" title />
         )}
       </div>
       <p
@@ -504,20 +494,7 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
       width="171"
       height="20"
     />
-    <div class="brew">
-      <code>{badgeMarkdown}</code>
-      <button
-        class="brew-copy"
-        type="button"
-        data-copy={badgeMarkdown}
-        aria-label="Copy badge Markdown"
-        hidden
-      >
-        <Copy class="brew-copy-idle" size={15} />
-        <Check class="brew-copy-done" size={15} />
-      </button>
-      <span class="sr-only" role="status" />
-    </div>
+    <CopyCommand text={badgeMarkdown} label="Copy badge Markdown" />
   </section>
 
   {related.length > 0 && (
@@ -532,24 +509,3 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
     </Shelf>
   )}
 </Layout>
-<script>
-  // Without JavaScript the command stays selectable; the copy button needs the Clipboard API.
-  for (const button of document.querySelectorAll<HTMLButtonElement>(
-    '.brew-copy',
-  )) {
-    if (!navigator.clipboard) continue;
-    const status = button.nextElementSibling!;
-    let reset: ReturnType<typeof setTimeout>;
-    button.hidden = false;
-    button.addEventListener('click', async () => {
-      await navigator.clipboard.writeText(button.dataset.copy!);
-      button.classList.add('copied');
-      status.textContent = 'Copied';
-      clearTimeout(reset);
-      reset = setTimeout(() => {
-        button.classList.remove('copied');
-        status.textContent = '';
-      }, 1600);
-    });
-  }
-</script>
