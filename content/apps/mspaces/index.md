@@ -29,7 +29,16 @@ assets:
     source: https://github.com/starbudweiser/mSPACES/releases/download/1.0.0/mSPACES.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mSPACES/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "Menu bar icons grouped by mSPACES separators, with the menu of one separator open to add or remove a separator and pick its style."
+    source: https://github.com/starbudweiser/mSPACES/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 
 mSPACES adds separators to the menu bar so you can split its icons into groups. Related items, such as sync tools on one side and system controls on the other, end up between two separators instead of one long row.
