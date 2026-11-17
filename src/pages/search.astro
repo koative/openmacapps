@@ -4,9 +4,11 @@ import AppLockup from '../components/AppLockup.astro';
 import { PackageOpen, Search, X } from '@lucide/astro';
 import { getApps, categories } from '../lib/catalog';
 import { macosRank } from '../lib/collections';
+import { githubStats } from '../lib/github';
 import { getAlternatives } from '../lib/guides';
 import { site } from '../lib/site';
 const apps = getApps();
+const hasStars = apps.some((app) => githubStats(app.slug));
 // Product names each app replaces, so searching "bartender" finds its alternatives.
 const replaces = new Map(
   getAlternatives().map((entry) => [entry.slug, entry.name]),
@@ -111,6 +113,7 @@ const macosOptions = [
           <option value="name">Name</option>
           <option value="featured">{site.name} Picks First</option>
           <option value="newest">Recently Added</option>
+          {hasStars && <option value="stars">Most GitHub Stars</option>}
         </select>
       </label>
     </div>
@@ -159,6 +162,7 @@ const macosOptions = [
   </div>
 </Layout>
 <script>
+  import { macosRank as rank } from '../lib/collections';
   const form = document.querySelector<HTMLFormElement>('#search-controls')!;
   const search = document.querySelector<HTMLInputElement>('#search')!;
   const sidebarSearch =
@@ -168,10 +172,6 @@ const macosOptions = [
   const tag = document.querySelector<HTMLSelectElement>('#tag-filter')!;
   const macos = document.querySelector<HTMLSelectElement>('#macos-filter')!;
   const chip = document.querySelector<HTMLSelectElement>('#chip-filter')!;
-  const rank = (version: string) => {
-    const [major, minor = 0] = version.split('.').map(Number);
-    return major * 100 + minor;
-  };
   const sort = document.querySelector<HTMLSelectElement>('#sort')!;
   const sources = [
     ...form.querySelectorAll<HTMLInputElement>('input[name="source"]'),
@@ -196,6 +196,7 @@ const macosOptions = [
         source: element.dataset.source ?? 'open-source',
         macos: element.dataset.macos ? rank(element.dataset.macos) : null,
         arch: element.dataset.arch,
+        stars: Number(element.dataset.stars ?? -1),
         haystack: [
           name,
           text('.lockup-summary'),
@@ -221,6 +222,8 @@ const macosOptions = [
           return a.featured ? -1 : 1;
         if (sort.value === 'newest' && a.added !== b.added)
           return b.added.localeCompare(a.added);
+        if (sort.value === 'stars' && a.stars !== b.stars)
+          return b.stars - a.stars;
         return a.name.localeCompare(b.name);
       });
       orders.set(sort.value, list);

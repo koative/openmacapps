@@ -13,6 +13,7 @@ import {
   topicForTag,
 } from '../../lib/guides';
 import { archLabels, categorySlug, licenseLabel } from '../../lib/collections';
+import { formatStars, githubStats } from '../../lib/github';
 import { appImage } from '../../lib/images';
 import { renderMarkdown } from '../../lib/markdown';
 import { relatedApps } from '../../lib/related';
@@ -92,6 +93,14 @@ const brewPage = brewTap
   : `https://formulae.brew.sh/cask/${app.homebrew}`;
 const macosLabel = app.macos && `macOS ${app.macos} or later`;
 const archLabel = app.arch && archLabels[app.arch];
+const github = githubStats(app.slug);
+const shortDate = (date: string) =>
+  new Date(`${date}T00:00:00Z`).toLocaleDateString('en-US', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
 const pageUrl = absoluteUrl(`apps/${app.slug}/`);
 const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](${pageUrl})`;
 ---
@@ -274,6 +283,16 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
     </section>
   )}
 
+  {github?.archived && !unmaintained && (
+    <section class="maintenance-note" aria-labelledby="archived-note-title">
+      <h2 id="archived-note-title">Repository archived</h2>
+      <p>
+        The developer has archived the repository on GitHub, so no further
+        updates are expected.
+      </p>
+    </section>
+  )}
+
   {app.notarized === false && (
     <section class="maintenance-note" aria-labelledby="gatekeeper-note-title">
       <h2 id="gatekeeper-note-title">Not notarized by Apple</h2>
@@ -329,6 +348,31 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
           </a>
         </dd>
       </div>
+      {github && (
+        <div>
+          <dt>GitHub stars</dt>
+          <dd>{formatStars(github.stars)}</dd>
+        </div>
+      )}
+      {github?.release && (
+        <div>
+          <dt>Latest release</dt>
+          <dd>
+            {github.release.tag} ·{' '}
+            <time datetime={github.release.date}>
+              {shortDate(github.release.date)}
+            </time>
+          </dd>
+        </div>
+      )}
+      {github && (
+        <div>
+          <dt>Last commit</dt>
+          <dd>
+            <time datetime={github.pushed}>{shortDate(github.pushed)}</time>
+          </dd>
+        </div>
+      )}
       {macosLabel && (
         <div>
           <dt>Requires</dt>

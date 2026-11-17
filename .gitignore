@@ -19,3 +19,4 @@ artifacts/
 
 # Licensed keyword research exports; keep local, never commit
 research/semrush/
+public/github.json

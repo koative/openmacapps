@@ -2,6 +2,7 @@
 import AppIcon from './AppIcon.astro';
 import type { CatalogApp } from '../lib/catalog';
 import { licenseLabel } from '../lib/collections';
+import { githubStats } from '../lib/github';
 interface Props {
   app: CatalogApp;
   /** Adds the data attributes the search page filters on that the card does not show as text. */
@@ -30,6 +31,7 @@ const filters = searchable
       'data-replaces': replaces.length ? replaces.join(' ') : undefined,
       'data-macos': app.macos,
       'data-arch': app.arch,
+      'data-stars': githubStats(app.slug)?.stars,
     }
   : {};
 ---
