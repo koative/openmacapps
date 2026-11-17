@@ -12,6 +12,7 @@ website: https://itsyconnect.com
 license: MIT
 licenseUrl: https://github.com/nickustinov/itsyconnect-macos/blob/main/LICENSE
 download: https://github.com/nickustinov/itsyconnect-macos/releases
+macos: "11"
 freeDownload: true
 featured: false
 added: '2026-10-17'

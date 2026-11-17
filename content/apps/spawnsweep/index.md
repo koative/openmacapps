@@ -12,6 +12,9 @@ website: "https://samirmaikap.github.io/spawnsweep/"
 license: "MIT"
 licenseUrl: "https://github.com/samirmaikap/spawnsweep/blob/main/LICENSE"
 download: "https://github.com/samirmaikap/spawnsweep/releases/download/v0.2.3/SpawnSweep.zip"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

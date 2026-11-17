@@ -15,6 +15,9 @@ website: "https://koru.do"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/koruworks/mono/blob/main/LICENSE"
 download: "https://github.com/koruworks/mono/releases"
+macos: "12"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

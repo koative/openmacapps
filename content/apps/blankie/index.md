@@ -13,6 +13,8 @@ website: https://blankie.rest
 license: "MIT"
 licenseUrl: https://github.com/codybrom/Blankie/blob/main/LICENSE
 download: https://apps.apple.com/us/app/blankie/id6740096581
+macos: "26"
+notarized: true
 homebrew: "blankie"
 freeDownload: true
 featured: false

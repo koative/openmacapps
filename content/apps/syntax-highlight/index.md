@@ -11,6 +11,9 @@ website: https://sbarex.github.io/SourceCodeSyntaxHighlight/
 license: GPL-3.0
 licenseUrl: https://github.com/sbarex/SourceCodeSyntaxHighlight/blob/master/LICENSE.txt
 download: https://github.com/sbarex/SourceCodeSyntaxHighlight/releases
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "syntax-highlight"
 featured: false

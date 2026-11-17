@@ -14,6 +14,9 @@ website: "https://flickbar.github.io/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/flickbar/flickbar/blob/main/LICENSE"
 download: "https://github.com/flickbar/flickbar/releases/download/v1.1.0/Flickbar-1.1.0.dmg"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

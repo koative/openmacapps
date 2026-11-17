@@ -14,6 +14,7 @@ website: "https://tree-map-landing-page.vercel.app/"
 license: "MIT"
 licenseUrl: "https://github.com/Prithvi-Web/TreeMap-Disk-Visualizer/blob/main/LICENSE"
 download: "https://github.com/Prithvi-Web/TreeMap-Disk-Visualizer/releases"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

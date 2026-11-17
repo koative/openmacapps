@@ -8,6 +8,7 @@ website: "https://orangedatamining.com/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/biolab/orange3/blob/master/LICENSE"
 download: "https://orangedatamining.com/download/"
+arch: both
 freeDownload: true
 homebrew: "orange"
 featured: false

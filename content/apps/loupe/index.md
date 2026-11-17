@@ -12,6 +12,9 @@ website: https://britchie4.github.io/Loupe/
 license: "MIT"
 licenseUrl: https://github.com/britchie4/Loupe/blob/main/LICENSE
 download: https://github.com/britchie4/Loupe/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

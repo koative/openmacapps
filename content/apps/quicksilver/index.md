@@ -13,6 +13,9 @@ website: https://github.com/quicksilver/Quicksilver
 license: Apache-2.0
 licenseUrl: https://github.com/quicksilver/Quicksilver/blob/main/LICENSE
 download: https://github.com/quicksilver/Quicksilver/releases
+macos: "10.14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "quicksilver"
 featured: false

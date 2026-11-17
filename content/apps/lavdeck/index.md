@@ -12,6 +12,9 @@ website: "https://www.piedol.top/lavdeck/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/piedol/lavdeck/blob/main/LICENSE"
 download: "https://github.com/piedol/lavdeck/releases/latest/download/Lavdeck-macOS-arm64.zip"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

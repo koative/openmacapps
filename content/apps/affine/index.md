@@ -17,6 +17,8 @@ website: https://affine.pro
 license: "MIT AND MPL-2.0"
 licenseUrl: https://github.com/toeverything/AFFiNE/blob/canary/LICENSE
 download: https://affine.pro/download
+macos: "11"
+arch: both
 homebrew: "affine"
 freeDownload: true
 featured: false

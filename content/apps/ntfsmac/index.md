@@ -13,6 +13,9 @@ website: https://github.com/khr898/ntfsmac
 license: "MIT"
 licenseUrl: https://github.com/khr898/ntfsmac/blob/main/LICENSE
 download: https://github.com/khr898/ntfsmac/releases
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-29'

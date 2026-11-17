@@ -11,6 +11,7 @@ website: "https://usageboard.may.ltd/"
 license: "MIT"
 licenseUrl: "https://github.com/marsmay/UsageBoard/blob/main/LICENSE"
 download: "https://github.com/marsmay/UsageBoard/releases/download/v1.0.13/UsageBoard-1.0.13.zip"
+macos: "13"
 freeDownload: true
 featured: false
 added: "2026-11-06"

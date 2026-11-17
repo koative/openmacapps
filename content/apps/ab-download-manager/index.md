@@ -11,6 +11,8 @@ website: https://abdownloadmanager.com
 license: "Apache-2.0"
 licenseUrl: https://github.com/amir1376/ab-download-manager/blob/master/LICENSE
 download: https://github.com/amir1376/ab-download-manager/releases
+macos: "10.13"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

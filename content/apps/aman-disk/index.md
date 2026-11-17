@@ -12,6 +12,9 @@ website: "https://github.com/MidZai/aman_disk"
 license: "MIT"
 licenseUrl: "https://github.com/MidZai/aman_disk/blob/main/LICENSE"
 download: "https://github.com/MidZai/aman_disk/releases/download/v1.0.1/Aman-Disk-1.0.1.dmg"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

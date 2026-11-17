@@ -11,6 +11,9 @@ website: https://github.com/DamascenoRafael/reminders-menubar
 license: GPL-3.0
 licenseUrl: https://github.com/DamascenoRafael/reminders-menubar/blob/master/LICENSE
 download: https://github.com/DamascenoRafael/reminders-menubar/releases
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "reminders-menubar"
 featured: false

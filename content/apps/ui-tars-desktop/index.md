@@ -11,6 +11,7 @@ website: https://github.com/bytedance/UI-TARS-desktop
 license: "Apache-2.0"
 licenseUrl: https://github.com/bytedance/UI-TARS-desktop/blob/main/LICENSE
 download: https://github.com/bytedance/UI-TARS-desktop/releases/tag/v0.2.4
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-02"

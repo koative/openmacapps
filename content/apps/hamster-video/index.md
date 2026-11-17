@@ -15,6 +15,9 @@ website: "https://spookspectrum.github.io/hamster-video/"
 license: "MIT"
 licenseUrl: "https://github.com/SpookSpectrum/hamster-video/blob/main/LICENSE"
 download: "https://github.com/SpookSpectrum/hamster-video/releases/latest"
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-15"

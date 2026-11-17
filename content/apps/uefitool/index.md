@@ -12,6 +12,9 @@ website: https://github.com/LongSoft/UEFITool
 license: "BSD-2-Clause"
 licenseUrl: https://github.com/LongSoft/UEFITool/blob/new_engine/LICENSE.md
 download: https://github.com/LongSoft/UEFITool/releases
+macos: "11"
+arch: both
+notarized: true
 homebrew: "uefitool"
 freeDownload: true
 featured: false

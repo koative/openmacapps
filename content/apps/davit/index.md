@@ -11,6 +11,9 @@ website: https://github.com/wouterdebie/davit
 license: MIT
 licenseUrl: https://github.com/wouterdebie/davit/blob/main/LICENSE
 download: https://github.com/wouterdebie/davit/releases
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "davit"
 featured: false

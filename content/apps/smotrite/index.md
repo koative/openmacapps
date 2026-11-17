@@ -11,6 +11,7 @@ website: "https://github.com/Lukentui/smotrite-app"
 license: "MIT"
 licenseUrl: "https://github.com/Lukentui/smotrite-app/blob/main/LICENSE"
 download: "https://github.com/Lukentui/smotrite-app/releases/latest"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,8 @@ website: https://selfcontrolapp.com/
 license: GPL-3.0
 licenseUrl: https://github.com/SelfControlApp/selfcontrol/blob/master/COPYING
 download: https://selfcontrolapp.com/
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "selfcontrol"
 featured: false

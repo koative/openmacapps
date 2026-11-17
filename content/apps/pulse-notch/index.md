@@ -11,6 +11,9 @@ website: "https://jsattler.github.io/Pulse"
 license: "MIT"
 licenseUrl: "https://github.com/jsattler/Pulse/blob/main/LICENSE"
 download: "https://github.com/jsattler/Pulse/releases"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

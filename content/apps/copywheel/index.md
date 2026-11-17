@@ -12,6 +12,7 @@ website: "https://github.com/weselski/copywheel"
 license: "MIT"
 licenseUrl: "https://github.com/weselski/copywheel/blob/main/LICENSE"
 download: "https://github.com/weselski/copywheel/releases/latest"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

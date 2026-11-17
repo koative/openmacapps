@@ -12,6 +12,9 @@ website: "https://ixiehao.github.io/MP4Flow/"
 license: "MIT"
 licenseUrl: "https://github.com/ixiehao/MP4Flow/blob/main/LICENSE"
 download: "https://github.com/ixiehao/MP4Flow/releases/download/v1.5.0/MP4Flow-1.5.0.dmg"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -14,6 +14,9 @@ sourceAvailability: "source-available"
 licenseNotes: "Functional Source License 1.1 with an MIT future license: you may use, change and redistribute the software for any purpose except a Competing Use, meaning a commercial product or service that substitutes for GraphCode or offers substantially similar functionality. Each release becomes available under the MIT license two years after it is published. GraphcodeKit and graphcode-cli are MIT-licensed."
 licenseUrl: "https://github.com/scgopi/GraphCode/blob/main/LICENSE"
 download: "https://github.com/scgopi/GraphCode/releases/latest/download/graphcode-macos-arm64.dmg"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

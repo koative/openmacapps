@@ -12,6 +12,8 @@ website: https://dupeguru.voltaicideas.net
 license: "GPL-3.0"
 licenseUrl: https://github.com/arsenetar/dupeguru/blob/master/LICENSE
 download: https://github.com/arsenetar/dupeguru/releases/tag/4.3.1
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

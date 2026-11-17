@@ -12,6 +12,9 @@ website: "https://github.com/burakgon/stop-stutter"
 license: "MIT"
 licenseUrl: "https://github.com/burakgon/stop-stutter/blob/main/LICENSE"
 download: "https://github.com/burakgon/stop-stutter/releases/download/v0.1.0/StopStutter-0.1.0-universal.zip"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

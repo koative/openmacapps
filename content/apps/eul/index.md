@@ -14,6 +14,9 @@ website: https://github.com/gao-sun/eul
 license: MIT
 licenseUrl: https://github.com/gao-sun/eul/blob/master/LICENSE
 download: https://github.com/gao-sun/eul/releases
+macos: "10.15"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "eul"
 maintenance: "unmaintained"

@@ -11,6 +11,9 @@ website: "https://notchmuse.com"
 license: "MIT"
 licenseUrl: "https://github.com/Xiye88/NotchMuse/blob/main/LICENSE"
 download: "https://github.com/Xiye88/NotchMuse/releases"
+macos: "14"
+arch: both
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

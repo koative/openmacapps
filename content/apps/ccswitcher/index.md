@@ -12,6 +12,8 @@ website: "https://github.com/XueshiQiao/CCSwitcher"
 license: "MIT"
 licenseUrl: "https://github.com/XueshiQiao/CCSwitcher/blob/main/LICENSE"
 download: "https://github.com/XueshiQiao/CCSwitcher/releases/latest"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

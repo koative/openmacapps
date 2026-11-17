@@ -11,6 +11,8 @@ website: "https://timescroll.muzhen.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/XInTheDark/TimeScrollApp/blob/main/LICENSE"
 download: "https://github.com/XInTheDark/TimeScrollApp/releases/download/v2.2.1/TimeScroll-2.2.1.zip"
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

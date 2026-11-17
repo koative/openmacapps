@@ -12,6 +12,9 @@ website: "https://github.com/x0c/HandySwitch"
 license: "MIT"
 licenseUrl: "https://github.com/x0c/HandySwitch/blob/main/LICENSE"
 download: "https://github.com/x0c/HandySwitch/releases/download/v1.0.21/HandySwitch-1.0.21.dmg"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

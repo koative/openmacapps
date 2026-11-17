@@ -12,6 +12,8 @@ website: "https://pacer.ramihmd.com"
 license: "MIT"
 licenseUrl: "https://github.com/HMDRAMS-DEV/pacer/blob/main/LICENSE"
 download: "https://github.com/HMDRAMS-DEV/pacer/releases/latest/download/Pacer.dmg"
+macos: "15"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

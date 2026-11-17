@@ -11,6 +11,9 @@ website: https://lx2026.github.io/RelayBar/
 license: MIT
 licenseUrl: https://github.com/lx2026/RelayBar/blob/main/LICENSE
 download: https://github.com/lx2026/RelayBar/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

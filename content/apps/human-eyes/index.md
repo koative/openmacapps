@@ -12,6 +12,9 @@ website: "https://github.com/neural-beat/human-eyes"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/neural-beat/human-eyes/blob/main/LICENSE"
 download: "https://github.com/neural-beat/human-eyes/releases/latest"
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

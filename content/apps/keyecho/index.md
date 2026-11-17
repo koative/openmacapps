@@ -12,6 +12,7 @@ website: https://keyecho.app
 license: "AGPL-3.0"
 licenseUrl: https://github.com/ZacharyL2/KeyEcho/blob/main/LICENSE
 download: https://github.com/ZacharyL2/KeyEcho/releases
+arch: both
 homebrew: "keyecho"
 freeDownload: true
 featured: false

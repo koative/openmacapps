@@ -14,6 +14,8 @@ website: "https://github.com/ibuhs/Lekh-flow"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/ibuhs/Lekh-flow/blob/main/LICENSE"
 download: "https://github.com/ibuhs/Lekh-flow/releases"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

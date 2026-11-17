@@ -14,6 +14,8 @@ website: https://openclaw.ai
 license: "MIT"
 licenseUrl: https://github.com/openclaw/openclaw/blob/main/LICENSE
 download: https://docs.openclaw.ai/platforms/macos
+macos: "26.2"
+arch: both
 homebrew: "openclaw"
 freeDownload: true
 featured: false

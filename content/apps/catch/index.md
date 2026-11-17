@@ -8,6 +8,8 @@ website: "https://github.com/mipstian/catch"
 license: "MIT"
 licenseUrl: "https://github.com/mipstian/catch/blob/main/LICENSE.txt"
 download: "https://github.com/mipstian/catch/releases"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "catch"
 featured: false

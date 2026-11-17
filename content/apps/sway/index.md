@@ -11,6 +11,9 @@ website: "https://github.com/gusalvestavo/sway"
 license: "MIT"
 licenseUrl: "https://github.com/gusalvestavo/sway/blob/main/LICENSE"
 download: "https://github.com/gusalvestavo/sway/releases"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

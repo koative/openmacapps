@@ -14,6 +14,8 @@ website: https://cyberduck.io
 license: GPL-3.0
 licenseUrl: https://github.com/iterate-ch/cyberduck/blob/master/LICENSE.txt
 download: https://github.com/iterate-ch/cyberduck/releases
+macos: "10.13"
+arch: both
 freeDownload: true
 homebrew: "cyberduck"
 featured: false

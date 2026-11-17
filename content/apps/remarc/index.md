@@ -12,6 +12,8 @@ website: "https://remarc.app"
 license: "MIT"
 licenseUrl: "https://github.com/metedata/Remarc/blob/main/LICENSE"
 download: "https://github.com/metedata/Remarc/releases/latest"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

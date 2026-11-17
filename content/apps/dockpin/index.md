@@ -12,6 +12,8 @@ website: "https://kangaroo-demo.github.io/DockPin/"
 license: "MIT"
 licenseUrl: "https://github.com/kangaroo-demo/DockPin/blob/main/LICENSE"
 download: "https://github.com/kangaroo-demo/DockPin/releases/latest"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

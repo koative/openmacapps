@@ -15,6 +15,9 @@ website: https://tinycast.dev
 license: AGPL-3.0-or-later
 licenseUrl: https://github.com/abue-ammar/tinycast/blob/main/LICENSE
 download: https://github.com/abue-ammar/tinycast/releases
+macos: "26"
+arch: both
+notarized: true
 homebrew: "tinycast"
 freeDownload: true
 featured: false

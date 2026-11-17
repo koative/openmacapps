@@ -5,6 +5,7 @@ import AppLockup from '../../components/AppLockup.astro';
 import CategoryGlyph from '../../components/CategoryGlyph.astro';
 import Shelf from '../../components/Shelf.astro';
 import Github from '../../components/GithubIcon.astro';
+import CopyCommand from '../../components/CopyCommand.astro';
 import { getApps } from '../../lib/catalog';
 import {
   breadcrumbList,
@@ -12,12 +13,25 @@ import {
   getTopics,
   topicForTag,
 } from '../../lib/guides';
-import { categorySlug, licenseLabel } from '../../lib/collections';
+import {
+  archLabels,
+  brewCommand as brewInstall,
+  categorySlug,
+  licenseLabel,
+} from '../../lib/collections';
+import { formatStars, githubStats } from '../../lib/github';
 import { appImage } from '../../lib/images';
 import { renderMarkdown } from '../../lib/markdown';
 import { relatedApps } from '../../lib/related';
 import { absoluteUrl, site } from '../../lib/site';
-import { ArrowUpRight, Check, ChevronLeft, Copy } from '@lucide/astro';
+import {
+  Archive,
+  ArrowUpRight,
+  ChevronLeft,
+  ChevronRight,
+  ShieldAlert,
+  X,
+} from '@lucide/astro';
 export function getStaticPaths() {
   return getApps().map((app) => ({
     params: { slug: app.slug },
@@ -80,16 +94,32 @@ const shots = await Promise.all(
     image: await appImage(app.slug, shot.src, shot.url, [800, 1600]),
   })),
 );
-// Third-party taps (owner/tap/token) must be trusted before Homebrew will load them.
 const [brewOwner, brewTap] = app.homebrew?.includes('/')
   ? app.homebrew.split('/')
   : [];
-const brewCommand =
-  app.homebrew &&
-  `${brewTap ? `brew trust ${brewOwner}/${brewTap} && ` : ''}brew install --cask ${app.homebrew}`;
+const brewCommand = app.homebrew && brewInstall([app.homebrew]);
 const brewPage = brewTap
   ? `https://github.com/${brewOwner}/homebrew-${brewTap}`
   : `https://formulae.brew.sh/cask/${app.homebrew}`;
+const macosLabel = app.macos && `macOS ${app.macos} or later`;
+const archLabel = app.arch && archLabels[app.arch];
+// Short enough for the info strip on a phone.
+const chipShort = {
+  both: 'Any Mac',
+  'apple-silicon': 'Apple silicon',
+  intel: 'Intel only',
+} as const;
+const github = githubStats(app.slug);
+const archived = !unmaintained && !!github?.archived;
+// Brand-new projects keep the host here; their count stays under Information.
+const stripStars = github && github.stars >= 10 ? github.stars : null;
+const shortDate = (date: string) =>
+  new Date(`${date}T00:00:00Z`).toLocaleDateString('en-US', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
 const pageUrl = absoluteUrl(`apps/${app.slug}/`);
 const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](${pageUrl})`;
 ---
@@ -110,7 +140,8 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
       name: app.name,
       description: app.summary,
       url: pageUrl,
-      operatingSystem: 'macOS',
+      operatingSystem: macosLabel || 'macOS',
+      ...(archLabel ? { processorRequirements: archLabel } : {}),
       applicationCategory: app.category,
       license: app.licenseUrl,
       downloadUrl: app.download,
@@ -153,26 +184,16 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
           View Source
         </a>
         {brewCommand && (
-          <div class="brew">
-            <code title={brewCommand}>{brewCommand}</code>
-            <button
-              class="brew-copy"
-              type="button"
-              data-copy={brewCommand}
-              aria-label="Copy Homebrew command"
-              hidden
-            >
-              <Copy class="brew-copy-idle" size={15} />
-              <Check class="brew-copy-done" size={15} />
-            </button>
-            <span class="sr-only" role="status" />
-          </div>
+          <CopyCommand text={brewCommand} label="Copy Homebrew command" title />
         )}
       </div>
       <p
-        class:list={['fine-print', { restricted: restricted && !unmaintained }]}
+        class:list={[
+          'fine-print',
+          { restricted: restricted && !unmaintained && !archived },
+        ]}
       >
-        {licenseLabel(app)}
+        {archived ? 'Archived' : licenseLabel(app)}
         {app.freeDownload === true && ' · Free download'}
         {app.freeDownload === false && ' · Paid download'} · Downloads from{' '}
         {downloadHost}
@@ -181,28 +202,46 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
   </header>
 
   <dl class="info-strip">
+    {(app.macos || app.arch) && (
+      <div>
+        <dt>{app.macos ? 'macOS' : 'Runs on'}</dt>
+        <dd class="info-value">
+          {app.macos ? `${app.macos}+` : chipShort[app.arch!]}
+        </dd>
+        {app.macos && (
+          <dd class="info-caption">
+            {app.arch ? chipShort[app.arch] : 'Chip unknown'}
+          </dd>
+        )}
+      </div>
+    )}
+    <div>
+      {stripStars !== null ? (
+        <>
+          <dt>GitHub Stars</dt>
+          <dd
+            class="info-value"
+            aria-label={`${stripStars.toLocaleString('en-US')} stars`}
+          >
+            {formatStars(stripStars)}
+          </dd>
+        </>
+      ) : (
+        <>
+          <dt>Source</dt>
+          <dd class="info-value">{host}</dd>
+        </>
+      )}
+      <dd class="info-caption">{owner}</dd>
+    </div>
     <div>
       <dt>License</dt>
-      <dd class:list={['info-value', { long: app.license.length > 12 }]}>
+      <dd class:list={['info-value', { long: app.license.length > 9 }]}>
         {app.license.replaceAll('-only', '')}
       </dd>
       <dd class:list={['info-caption', { restricted }]}>
         {restricted ? 'Source available' : 'Open source'}
       </dd>
-    </div>
-    <div>
-      <dt>Category</dt>
-      <dd class="info-value">
-        <a href={`${base}${categoryHref}`} aria-label={app.category}>
-          <CategoryGlyph category={app.category} size={30} />
-        </a>
-      </dd>
-      <dd class="info-caption">{app.category}</dd>
-    </div>
-    <div>
-      <dt>Source</dt>
-      <dd class="info-value">{host}</dd>
-      <dd class="info-caption">{owner}</dd>
     </div>
     <div>
       <dt>Verified</dt>
@@ -216,6 +255,15 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
         </time>
       </dd>
       <dd class="info-caption">{app.verified.slice(0, 4)}</dd>
+    </div>
+    <div>
+      <dt>Category</dt>
+      <dd class="info-value">
+        <a href={`${base}${categoryHref}`} aria-label={app.category}>
+          <CategoryGlyph category={app.category} size={30} />
+        </a>
+      </dd>
+      <dd class="info-caption">{app.category}</dd>
     </div>
   </dl>
 
@@ -244,6 +292,32 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
       ))}
     </Shelf>
   )}
+  {shots.length > 0 && (
+    <dialog class="lightbox" aria-label="Screenshot">
+      <img alt="" />
+      <button class="lightbox-button close" type="button" aria-label="Close">
+        <X size={20} stroke-width={2.4} />
+      </button>
+      {shots.length > 1 && (
+        <>
+          <button
+            class="lightbox-button prev"
+            type="button"
+            aria-label="Previous screenshot"
+          >
+            <ChevronLeft size={22} stroke-width={2.4} />
+          </button>
+          <button
+            class="lightbox-button next"
+            type="button"
+            aria-label="Next screenshot"
+          >
+            <ChevronRight size={22} stroke-width={2.4} />
+          </button>
+        </>
+      )}
+    </dialog>
+  )}
 
   {restricted && (
     <section class="license-note" aria-labelledby="license-note-title">
@@ -259,6 +333,35 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
     <section class="maintenance-note" aria-labelledby="maintenance-note-title">
       <h2 id="maintenance-note-title">Unmaintained</h2>
       <p>{app.maintenanceNote}</p>
+    </section>
+  )}
+
+  {archived && (
+    <section class="maintenance-note" aria-labelledby="archived-note-title">
+      <h2 id="archived-note-title">
+        <Archive size={16} stroke-width={2.2} aria-hidden="true" />
+        Archived on GitHub
+      </h2>
+      <p>
+        The developer archived the repository, so {app.name} will not get fixes
+        or updates. The last commit was on{' '}
+        <time datetime={github!.pushed}>{shortDate(github!.pushed)}</time>. The
+        current download may still work.
+      </p>
+    </section>
+  )}
+
+  {app.notarized === false && (
+    <section class="maintenance-note" aria-labelledby="gatekeeper-note-title">
+      <h2 id="gatekeeper-note-title">
+        <ShieldAlert size={16} stroke-width={2.2} aria-hidden="true" />
+        Not notarized by Apple
+      </h2>
+      <p>
+        macOS blocks the first launch of apps that Apple has not checked. Open{' '}
+        {app.name} once, then choose Open Anyway in System Settings under
+        Privacy &amp; Security. Do this only if you trust the download source.
+      </p>
     </section>
   )}
 
@@ -306,6 +409,49 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
           </a>
         </dd>
       </div>
+      {github && (
+        <div>
+          <dt>GitHub stars</dt>
+          <dd>{formatStars(github.stars)}</dd>
+        </div>
+      )}
+      {github?.release && (
+        <div>
+          <dt>Latest release</dt>
+          <dd>
+            {github.release.tag} ·{' '}
+            <time datetime={github.release.date}>
+              {shortDate(github.release.date)}
+            </time>
+          </dd>
+        </div>
+      )}
+      {github && (
+        <div>
+          <dt>Last commit</dt>
+          <dd>
+            <time datetime={github.pushed}>{shortDate(github.pushed)}</time>
+          </dd>
+        </div>
+      )}
+      {macosLabel && (
+        <div>
+          <dt>Requires</dt>
+          <dd>{macosLabel}</dd>
+        </div>
+      )}
+      {archLabel && (
+        <div>
+          <dt>Runs on</dt>
+          <dd>{archLabel}</dd>
+        </div>
+      )}
+      {app.notarized !== undefined && (
+        <div>
+          <dt>Gatekeeper</dt>
+          <dd>{app.notarized ? 'Notarized by Apple' : 'Not notarized'}</dd>
+        </div>
+      )}
       {app.homebrew && (
         <div>
           <dt>Homebrew</dt>
@@ -367,10 +513,12 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
       </div>
     </dl>
     <p class="note">
-      {site.name} links to each project’s official download. Check its release
-      notes for macOS version and Apple silicon support. The verification date
-      records our license and source review, not a security audit. Read{' '}
-      <a href={`${base}how-we-verify/`}>how we verify</a>.
+      {site.name} links to each project’s official download.{' '}
+      {app.macos && app.arch
+        ? 'Requirements are for the current release and can change with the next one.'
+        : 'Check its release notes for the macOS version and Apple silicon support.'}{' '}
+      The verification date records our license and source review, not a
+      security audit. Read <a href={`${base}how-we-verify/`}>how we verify</a>.
     </p>
     <details class="evidence">
       <summary>Sources and image credits</summary>
@@ -417,20 +565,7 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
       width="171"
       height="20"
     />
-    <div class="brew">
-      <code>{badgeMarkdown}</code>
-      <button
-        class="brew-copy"
-        type="button"
-        data-copy={badgeMarkdown}
-        aria-label="Copy badge Markdown"
-        hidden
-      >
-        <Copy class="brew-copy-idle" size={15} />
-        <Check class="brew-copy-done" size={15} />
-      </button>
-      <span class="sr-only" role="status" />
-    </div>
+    <CopyCommand text={badgeMarkdown} label="Copy badge Markdown" />
   </section>
 
   {related.length > 0 && (
@@ -446,23 +581,45 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
   )}
 </Layout>
 <script>
-  // Without JavaScript the command stays selectable; the copy button needs the Clipboard API.
-  for (const button of document.querySelectorAll<HTMLButtonElement>(
-    '.brew-copy',
-  )) {
-    if (!navigator.clipboard) continue;
-    const status = button.nextElementSibling!;
-    let reset: ReturnType<typeof setTimeout>;
-    button.hidden = false;
-    button.addEventListener('click', async () => {
-      await navigator.clipboard.writeText(button.dataset.copy!);
-      button.classList.add('copied');
-      status.textContent = 'Copied';
-      clearTimeout(reset);
-      reset = setTimeout(() => {
-        button.classList.remove('copied');
-        status.textContent = '';
-      }, 1600);
+  // Opens screenshots over the page; without JavaScript each link still opens the full-size file.
+  const dialog = document.querySelector<HTMLDialogElement>('.lightbox');
+  const links = [
+    ...document.querySelectorAll<HTMLAnchorElement>('.screenshot > a'),
+  ];
+  if (dialog && links.length) {
+    const image = dialog.querySelector('img')!;
+    let index = 0;
+    const show = (next: number) => {
+      index = (next + links.length) % links.length;
+      image.src = links[index].href;
+      image.alt = links[index].querySelector('img')?.alt ?? '';
+    };
+    links.forEach((link, i) =>
+      link.addEventListener('click', (event) => {
+        if (event.metaKey || event.ctrlKey || event.shiftKey) return;
+        event.preventDefault();
+        show(i);
+        dialog.showModal();
+      }),
+    );
+    dialog
+      .querySelector('.close')!
+      .addEventListener('click', () => dialog.close());
+    dialog
+      .querySelector('.prev')
+      ?.addEventListener('click', () => show(index - 1));
+    dialog
+      .querySelector('.next')
+      ?.addEventListener('click', () => show(index + 1));
+    // A click outside the image, on the backdrop, closes it.
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) dialog.close();
     });
+    dialog.addEventListener('keydown', (event) => {
+      if (links.length < 2) return;
+      if (event.key === 'ArrowLeft') show(index - 1);
+      if (event.key === 'ArrowRight') show(index + 1);
+    });
+    dialog.addEventListener('close', () => image.removeAttribute('src'));
   }
 </script>

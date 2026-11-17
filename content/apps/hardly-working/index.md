@@ -12,6 +12,8 @@ website: "https://blazmad.github.io/hardly-working/"
 license: "MIT"
 licenseUrl: "https://github.com/Blazmad/hardly-working/blob/main/LICENSE"
 download: "https://github.com/Blazmad/hardly-working/releases/latest"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: https://ostapondo.github.io/Plonk/
 license: "MIT"
 licenseUrl: https://github.com/ostapondo/Plonk/blob/main/LICENSE
 download: https://github.com/ostapondo/Plonk/releases
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

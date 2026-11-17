@@ -11,6 +11,8 @@ website: "https://github.com/stevenselcuk/Pomosh-macOS"
 license: "MIT"
 licenseUrl: "https://github.com/stevenselcuk/Pomosh-macOS/blob/master/LICENSE"
 download: "https://github.com/stevenselcuk/Pomosh-macOS/releases/tag/v.1.0.7"
+macos: "15.6"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

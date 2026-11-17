@@ -11,6 +11,9 @@ website: "https://sulemaanhamza.github.io/wisp-landing/"
 license: "MIT"
 licenseUrl: "https://github.com/sulemaanhamza/wisp/blob/main/LICENSE"
 download: "https://github.com/sulemaanhamza/wisp/releases/download/v0.1.46/Wisp-0.1.46.zip"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

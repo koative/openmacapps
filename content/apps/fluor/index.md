@@ -11,6 +11,9 @@ website: https://github.com/Pyroh/Fluor
 license: "MIT"
 licenseUrl: https://github.com/Pyroh/Fluor/blob/main/LICENSE
 download: https://github.com/Pyroh/Fluor/releases
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "fluor"
 featured: false

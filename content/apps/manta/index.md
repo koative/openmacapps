@@ -11,6 +11,7 @@ website: "https://github.com/hql287/Manta"
 license: "LGPL-3.0"
 licenseUrl: "https://github.com/hql287/Manta/blob/master/LICENSE"
 download: "https://github.com/hql287/Manta/releases"
+macos: "10.9"
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release since March 2018."

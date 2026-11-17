@@ -11,6 +11,9 @@ website: "https://sayheymate.vercel.app"
 license: "MIT"
 licenseUrl: "https://github.com/UmarSiddiqui/heymate/blob/main/LICENSE"
 download: "https://github.com/UmarSiddiqui/heymate/releases/latest/download/HeyMate.dmg"
+macos: "14.2"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,7 @@ website: https://runelite.net
 license: "BSD-2-Clause"
 licenseUrl: https://github.com/runelite/runelite/blob/master/LICENSE
 download: https://runelite.net
+arch: both
 homebrew: "runelite"
 freeDownload: true
 featured: false

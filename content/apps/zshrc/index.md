@@ -12,6 +12,9 @@ website: "https://github.com/iHongRen/zshrc"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/iHongRen/zshrc/blob/main/LICENSE"
 download: "https://github.com/iHongRen/zshrc/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

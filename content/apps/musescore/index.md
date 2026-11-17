@@ -8,6 +8,7 @@ website: "https://musescore.org/"
 license: "GPL-3.0-only"
 licenseUrl: "https://github.com/musescore/MuseScore/blob/main/LICENSE.txt"
 download: "https://github.com/musescore/MuseScore/releases"
+macos: "12"
 freeDownload: true
 homebrew: "musescore"
 featured: false

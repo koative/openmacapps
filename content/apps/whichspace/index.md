@@ -12,6 +12,7 @@ website: https://github.com/gechr/WhichSpace
 license: "MIT"
 licenseUrl: https://github.com/gechr/WhichSpace/blob/main/LICENSE
 download: https://github.com/gechr/WhichSpace/releases/latest
+macos: "14"
 homebrew: "whichspace"
 freeDownload: true
 featured: false

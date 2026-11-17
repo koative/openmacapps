@@ -14,6 +14,9 @@ website: https://javis-ai.com/token-monitor/
 license: "MIT"
 licenseUrl: https://github.com/Javis603/token-monitor/blob/main/LICENSE
 download: https://github.com/Javis603/token-monitor/releases
+macos: "14"
+arch: both
+notarized: true
 homebrew: "token-monitor"
 freeDownload: true
 featured: false

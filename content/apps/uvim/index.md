@@ -12,6 +12,8 @@ website: "https://uvim.app"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/celve/uvim/blob/main/LICENSE"
 download: "https://github.com/celve/uvim/releases/latest"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

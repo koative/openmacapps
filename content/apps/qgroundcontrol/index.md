@@ -8,6 +8,9 @@ website: "https://qgroundcontrol.com"
 license: "Apache-2.0 OR GPL-3.0-only"
 licenseUrl: "https://github.com/mavlink/qgroundcontrol/blob/master/.github/COPYING.md"
 download: "https://github.com/mavlink/qgroundcontrol/releases/latest"
+macos: "14.4"
+arch: both
+notarized: true
 homebrew: "qgroundcontrol"
 freeDownload: true
 featured: false

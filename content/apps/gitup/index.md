@@ -9,6 +9,9 @@ website: "https://gitup.co"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/git-up/GitUp/blob/master/LICENSE"
 download: "https://github.com/git-up/GitUp/releases"
+macos: "12.4"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "gitup-app"
 featured: false

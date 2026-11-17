@@ -11,6 +11,7 @@ website: https://openrefine.org
 license: "BSD-3-Clause"
 licenseUrl: https://github.com/OpenRefine/OpenRefine/blob/master/LICENSE.txt
 download: https://openrefine.org/download
+notarized: true
 homebrew: "openrefine"
 freeDownload: true
 featured: false

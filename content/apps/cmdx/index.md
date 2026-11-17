@@ -11,6 +11,9 @@ website: "https://github.com/YONN2222/cmdX"
 license: "MIT"
 licenseUrl: "https://github.com/YONN2222/cmdX/blob/main/LICENSE"
 download: "https://github.com/YONN2222/cmdX/releases/latest"
+macos: "14.6"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

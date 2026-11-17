@@ -11,6 +11,7 @@ website: "https://github.com/Schrotty74/HealthAtlas"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Schrotty74/HealthAtlas/blob/main/LICENSE"
 download: "https://github.com/Schrotty74/HealthAtlas/releases/latest"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

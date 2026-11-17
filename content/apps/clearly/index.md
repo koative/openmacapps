@@ -16,6 +16,9 @@ sourceAvailability: "source-available"
 licenseNotes: "Clearly uses the Functional Source License 1.1 with an MIT future license. You may use, change and share it for any purpose except a Competing Use, which means offering a commercial product or service that replaces Clearly or provides much the same features. Each release becomes available under the MIT license two years after it is published. The license grants no trademark rights."
 licenseUrl: "https://github.com/Shpigford/clearly/blob/main/LICENSE"
 download: "https://github.com/Shpigford/clearly/releases"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

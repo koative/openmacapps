@@ -11,6 +11,9 @@ website: "https://github.com/Aaru1801/TinyTask-macOS"
 license: "MIT"
 licenseUrl: "https://github.com/Aaru1801/TinyTask-macOS/blob/main/LICENSE"
 download: "https://github.com/Aaru1801/TinyTask-macOS/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -13,6 +13,9 @@ website: https://transmissionbt.com
 license: GPL-2.0-only OR GPL-3.0-only
 licenseUrl: https://github.com/transmission/transmission/blob/main/COPYING
 download: https://github.com/transmission/transmission/releases
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "transmission"
 featured: false

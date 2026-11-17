@@ -12,6 +12,8 @@ website: "https://leeleelee3264.github.io/spyhop/"
 license: "MIT"
 licenseUrl: "https://github.com/leeleelee3264/spyhop/blob/main/LICENSE"
 download: "https://github.com/leeleelee3264/spyhop/releases/latest"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

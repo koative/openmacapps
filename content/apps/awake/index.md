@@ -14,6 +14,8 @@ website: "https://pistachionet.github.io/awake/"
 license: "MIT"
 licenseUrl: "https://github.com/pistachionet/awake/blob/main/LICENSE"
 download: "https://github.com/pistachionet/awake/releases"
+macos: "13"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

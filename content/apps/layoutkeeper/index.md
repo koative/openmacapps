@@ -8,6 +8,8 @@ website: "https://github.com/tumingke0/LayoutKeeper"
 license: "GPL-3.0-only"
 licenseUrl: "https://github.com/tumingke0/LayoutKeeper/blob/main/LICENSE"
 download: "https://github.com/tumingke0/LayoutKeeper/releases"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-10-30"

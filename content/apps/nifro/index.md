@@ -12,6 +12,9 @@ license: "MIT"
 licenseUrl: "https://github.com/PathGao/Nifro/blob/main/license"
 licenseNotes: "The LICENSE copyright line names Sindre Sorhus, author of Plash, which the README credits as inspiration, rather than the repository owner."
 download: "https://github.com/PathGao/Nifro/releases/latest"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

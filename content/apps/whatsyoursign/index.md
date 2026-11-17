@@ -11,6 +11,9 @@ website: https://github.com/objective-see/WhatsYourSign
 license: GPL-3.0
 licenseUrl: https://github.com/objective-see/WhatsYourSign/blob/master/License.md
 download: https://github.com/objective-see/WhatsYourSign/releases
+macos: "10.15"
+arch: both
+notarized: false
 freeDownload: true
 homebrew: "whatsyoursign"
 featured: false

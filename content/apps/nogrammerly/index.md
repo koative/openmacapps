@@ -12,6 +12,9 @@ website: "https://github.com/gaurabh-pei/nogrammerly"
 license: "MIT"
 licenseUrl: "https://github.com/gaurabh-pei/nogrammerly/blob/main/LICENSE"
 download: "https://github.com/gaurabh-pei/nogrammerly/releases/latest/download/Nogrammerly-Installer.dmg"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

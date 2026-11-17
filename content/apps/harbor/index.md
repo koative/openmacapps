@@ -11,6 +11,9 @@ website: "https://thsnkhn.github.io/harbor/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/thsnkhn/harbor/blob/main/LICENSE"
 download: "https://github.com/thsnkhn/harbor/releases"
+macos: "15.6"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

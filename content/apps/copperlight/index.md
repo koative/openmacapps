@@ -14,6 +14,9 @@ website: "https://copperlight.app"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/robsonpbr/copperlight/blob/main/LICENSE"
 download: "https://github.com/robsonpbr/copperlight/releases"
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

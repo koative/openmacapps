@@ -13,6 +13,9 @@ website: "https://github.com/Reedtrullz/Vifty"
 license: "MIT"
 licenseUrl: "https://github.com/Reedtrullz/Vifty/blob/main/LICENSE"
 download: "https://github.com/Reedtrullz/Vifty/releases/latest"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

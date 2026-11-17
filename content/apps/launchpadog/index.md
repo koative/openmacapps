@@ -11,6 +11,8 @@ website: "https://github.com/SKbarbon/LaunchpadOG"
 license: "MIT"
 licenseUrl: "https://github.com/SKbarbon/LaunchpadOG/blob/main/LICENCE"
 download: "https://github.com/SKbarbon/LaunchpadOG/releases/latest"
+macos: "26"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

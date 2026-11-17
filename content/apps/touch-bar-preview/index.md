@@ -11,6 +11,9 @@ website: "https://touchbar.github.io"
 license: "MIT"
 licenseUrl: "https://github.com/touchbar/Touch-Bar-Preview/blob/master/LICENSE"
 download: "https://github.com/touchbar/Touch-Bar-Preview/releases/latest"
+macos: "10.12"
+arch: intel
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,8 @@ website: "https://github.com/mmathys/noswoosh"
 license: "MIT"
 licenseUrl: "https://github.com/mmathys/noswoosh/blob/main/LICENSE"
 download: "https://github.com/mmathys/noswoosh/releases/latest"
+macos: "26.6"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

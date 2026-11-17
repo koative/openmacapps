@@ -12,6 +12,8 @@ website: https://thockapp.com
 license: MIT
 licenseUrl: https://github.com/kamillobinski/thock/blob/main/LICENSE
 download: https://github.com/kamillobinski/thock/releases
+macos: "13.5"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

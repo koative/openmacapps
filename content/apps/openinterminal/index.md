@@ -11,6 +11,7 @@ website: https://github.com/Ji4n1ng/OpenInTerminal
 license: "MIT"
 licenseUrl: https://github.com/Ji4n1ng/OpenInTerminal/blob/master/LICENSE
 download: https://github.com/Ji4n1ng/OpenInTerminal/releases
+macos: "15"
 freeDownload: true
 homebrew: "openinterminal"
 featured: false

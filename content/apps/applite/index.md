@@ -8,6 +8,9 @@ website: "https://applite.app"
 license: "MIT"
 licenseUrl: "https://github.com/milanvarady/Applite/blob/main/LICENSE.txt"
 download: "https://github.com/milanvarady/Applite/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "applite"
 featured: false

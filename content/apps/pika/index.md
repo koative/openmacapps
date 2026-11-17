@@ -11,6 +11,9 @@ website: "https://superhighfives.com/pika"
 license: "MIT"
 licenseUrl: "https://github.com/superhighfives/pika/blob/main/LICENSE.md"
 download: "https://superhighfives.com/pika"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "pika"
 featured: false

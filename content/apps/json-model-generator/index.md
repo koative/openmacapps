@@ -11,6 +11,9 @@ website: https://github.com/chanonly123/Json-Model-Generator
 license: "MIT"
 licenseUrl: https://github.com/chanonly123/Json-Model-Generator/blob/master/LICENSE
 download: https://github.com/chanonly123/Json-Model-Generator/releases
+macos: "10.13"
+arch: both
+notarized: false
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release or commit since December 2021."

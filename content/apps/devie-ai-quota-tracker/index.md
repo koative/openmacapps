@@ -11,6 +11,8 @@ website: "https://github.com/mathdevie/devie-ai-quota-tracker"
 license: "MIT"
 licenseUrl: "https://github.com/mathdevie/devie-ai-quota-tracker/blob/main/LICENSE"
 download: "https://github.com/mathdevie/devie-ai-quota-tracker/releases/latest"
+macos: "12"
+arch: apple-silicon
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

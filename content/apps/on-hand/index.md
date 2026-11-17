@@ -14,6 +14,9 @@ website: "https://onhandformac.com"
 license: "MIT"
 licenseUrl: "https://github.com/coreyhaines31/onhand/blob/cf/development/LICENSE"
 download: "https://github.com/coreyhaines31/onhand/releases/latest/download/OnHand.zip"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://flowpeek.github.io/flowpeek/"
 license: "MIT"
 licenseUrl: "https://github.com/FlowPeek/flowpeek/blob/main/LICENSE"
 download: "https://github.com/FlowPeek/flowpeek/releases/download/v0.27.0/FlowPeek-0.27.0.dmg"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

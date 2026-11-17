@@ -12,6 +12,8 @@ website: "https://github.com/adrbn/haze"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/adrbn/haze/blob/main/LICENSE"
 download: "https://github.com/adrbn/haze/releases/download/v0.1.9/Haze.dmg"
+macos: "15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -9,6 +9,9 @@ website: "https://github.com/syncthing/syncthing-macos"
 license: "MIT"
 licenseUrl: "https://github.com/syncthing/syncthing-macos/blob/v2/LICENSE"
 download: "https://github.com/syncthing/syncthing-macos/releases"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "syncthing-app"
 featured: false

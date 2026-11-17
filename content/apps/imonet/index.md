@@ -11,6 +11,9 @@ website: "https://github.com/wflixu/iMonet"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/wflixu/iMonet/blob/main/LICENSE"
 download: "https://github.com/wflixu/iMonet/releases/latest"
+macos: "15.6"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

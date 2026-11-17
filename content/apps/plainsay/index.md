@@ -15,6 +15,9 @@ license: "MIT"
 licenseNotes: "The README calls this the MIT-licensed client. Plainsay Cloud, the optional hosted transcription and polishing service at US$4 per month, is a separate paid service."
 licenseUrl: "https://github.com/conrader/plainsay/blob/main/LICENSE"
 download: "https://github.com/conrader/plainsay/releases/download/v0.2.38/Plainsay-0.2.38.dmg"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

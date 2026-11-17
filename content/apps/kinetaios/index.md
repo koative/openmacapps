@@ -12,6 +12,8 @@ website: "https://phinn.github.io/KinetAios/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/phinn/KinetAios/blob/main/LICENSE"
 download: "https://github.com/phinn/KinetAios/releases/download/v4.0.7/KinetAios-4.0.7-arm64.dmg"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

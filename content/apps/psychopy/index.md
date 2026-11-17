@@ -12,6 +12,7 @@ website: https://www.psychopy.org
 license: "GPL-3.0"
 licenseUrl: https://github.com/psychopy/psychopy/blob/dev/LICENSE
 download: https://www.psychopy.org/download.html
+arch: both
 homebrew: "psychopy"
 freeDownload: true
 featured: false

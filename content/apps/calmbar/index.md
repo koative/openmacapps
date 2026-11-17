@@ -12,6 +12,9 @@ website: "https://calmbar.bujic.cc"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/chao-eng/CalmBar/blob/main/LICENSE"
 download: "https://github.com/chao-eng/CalmBar/releases"
+macos: "14"
+arch: both
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

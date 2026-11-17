@@ -12,6 +12,9 @@ website: "https://github.com/nad-bit/Mino"
 license: "MIT"
 licenseUrl: "https://github.com/nad-bit/Mino/blob/main/LICENSE"
 download: "https://github.com/nad-bit/Mino/releases"
+macos: "12"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

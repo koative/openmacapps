@@ -12,6 +12,9 @@ website: "https://feather.rxmos.dev"
 license: "MIT"
 licenseUrl: "https://github.com/yurirxmos/feather/blob/main/LICENSE"
 download: "https://feather.rxmos.dev/download"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

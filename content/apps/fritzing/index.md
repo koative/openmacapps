@@ -8,6 +8,7 @@ website: "https://fritzing.org/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/fritzing/fritzing-app/blob/develop/LICENSE.GPL3"
 download: "https://fritzing.org/download/"
+arch: both
 freeDownload: false
 featured: false
 added: "2026-10-17"

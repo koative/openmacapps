@@ -13,6 +13,9 @@ website: "https://mac-mtp.vercel.app"
 license: "MIT"
 licenseUrl: "https://github.com/kalabhaftu/MacMTP/blob/main/LICENSE"
 download: "https://github.com/kalabhaftu/MacMTP/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

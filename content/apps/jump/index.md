@@ -12,6 +12,8 @@ website: "https://alvaldes.github.io/jump/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/alvaldes/jump/blob/main/LICENSE"
 download: "https://github.com/alvaldes/jump/releases"
+macos: "26"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

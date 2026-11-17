@@ -12,6 +12,9 @@ website: "https://stanczykwyatt.github.io/who-stole-my-focus/"
 license: "MIT"
 licenseUrl: "https://github.com/stanczykwyatt/who-stole-my-focus/blob/main/LICENSE"
 download: "https://github.com/stanczykwyatt/who-stole-my-focus/releases"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

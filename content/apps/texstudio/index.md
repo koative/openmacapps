@@ -8,6 +8,8 @@ website: "https://www.texstudio.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/texstudio-org/texstudio/blob/master/COPYING"
 download: "https://github.com/texstudio-org/texstudio/releases"
+macos: "14.4"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

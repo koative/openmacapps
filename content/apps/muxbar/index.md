@@ -12,6 +12,8 @@ website: "https://github.com/1989v/muxbar"
 license: "MIT"
 licenseUrl: "https://github.com/1989v/muxbar/blob/main/LICENSE"
 download: "https://github.com/1989v/muxbar/releases/download/v0.4.2/muxbar-0.4.2.dmg"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

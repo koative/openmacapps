@@ -12,6 +12,8 @@ website: "https://fratayaydn.github.io/capsnow/"
 license: "MIT"
 licenseUrl: "https://github.com/fratayaydn/capsnow/blob/main/LICENSE"
 download: "https://github.com/fratayaydn/capsnow/releases/latest"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

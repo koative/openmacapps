@@ -12,6 +12,8 @@ website: "https://github.com/birdyzzz/FilePilot"
 license: "MIT"
 licenseUrl: "https://github.com/birdyzzz/FilePilot/blob/main/LICENSE"
 download: "https://github.com/birdyzzz/FilePilot/releases/latest"
+macos: "15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

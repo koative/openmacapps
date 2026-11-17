@@ -9,6 +9,7 @@ website: "https://natrongithub.github.io/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/NatronGitHub/Natron/blob/RB-2.6/LICENSE.txt"
 download: "https://github.com/NatronGitHub/Natron/releases"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

@@ -9,6 +9,8 @@ website: "https://floorp.app"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/Floorp-Projects/Floorp/blob/main/LICENSE"
 download: "https://github.com/Floorp-Projects/Floorp/releases"
+macos: "10.15"
+arch: both
 freeDownload: true
 homebrew: "floorp"
 featured: false

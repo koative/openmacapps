@@ -11,6 +11,9 @@ website: "https://github.com/fus3r/lemma"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/fus3r/lemma/blob/main/LICENSE"
 download: "https://github.com/fus3r/lemma/releases/latest/download/Lemma.dmg"
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

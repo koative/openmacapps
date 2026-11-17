@@ -11,6 +11,8 @@ website: "https://getvolt.dev"
 license: "MIT"
 licenseUrl: "https://github.com/LeulAria/volt/blob/main/LICENSE.txt"
 download: "https://github.com/LeulAria/volt/releases/download/v0.0.6/volt-stable-0.0.6-darwin-universal.dmg"
+arch: both
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

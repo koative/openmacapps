@@ -14,6 +14,8 @@ website: "https://readest.com"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/readest/readest/blob/main/LICENSE"
 download: "https://github.com/readest/readest/releases"
+macos: "12"
+arch: both
 freeDownload: true
 homebrew: "readest"
 featured: false

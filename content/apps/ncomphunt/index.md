@@ -12,6 +12,7 @@ website: "https://ncomphunt.nhannht.me"
 license: "MIT"
 licenseUrl: "https://github.com/nhannht/ncomphunt/blob/master/LICENSE"
 download: "https://github.com/nhannht/ncomphunt/releases"
+macos: "26"
 freeDownload: true
 featured: false
 added: "2026-11-06"

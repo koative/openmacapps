@@ -14,6 +14,9 @@ website: "https://github.com/gitx/gitx"
 license: "GPL-2.0-only"
 licenseUrl: "https://github.com/gitx/gitx/blob/master/COPYING"
 download: "https://github.com/gitx/gitx/releases"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "gitx"
 featured: false

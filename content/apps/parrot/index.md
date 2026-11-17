@@ -14,6 +14,8 @@ website: "https://perroquet.xyz"
 license: "MIT"
 licenseUrl: "https://github.com/humanitas-labs/parrot/blob/master/LICENSE"
 download: "https://github.com/humanitas-labs/parrot/releases"
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

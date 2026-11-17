@@ -14,6 +14,8 @@ website: "https://tryspeaktype.com"
 license: "MIT"
 licenseUrl: "https://github.com/karansinghgit/speaktype/blob/main/LICENSE"
 download: "https://github.com/karansinghgit/speaktype/releases"
+macos: "13"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

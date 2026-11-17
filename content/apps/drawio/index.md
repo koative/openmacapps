@@ -12,6 +12,8 @@ website: https://www.drawio.com/
 license: GPL-3.0
 licenseUrl: https://github.com/jgraph/drawio-desktop/blob/dev/LICENSE
 download: https://github.com/jgraph/drawio-desktop/releases
+macos: "13"
+notarized: true
 freeDownload: true
 homebrew: "drawio"
 featured: false

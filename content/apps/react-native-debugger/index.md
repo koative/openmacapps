@@ -11,6 +11,7 @@ website: "https://github.com/jhen0409/react-native-debugger"
 license: "MIT"
 licenseUrl: "https://github.com/jhen0409/react-native-debugger/blob/master/LICENSE.md"
 download: "https://github.com/jhen0409/react-native-debugger/releases"
+arch: both
 freeDownload: true
 homebrew: "react-native-debugger"
 featured: false

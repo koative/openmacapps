@@ -11,6 +11,9 @@ website: "https://github.com/arinltte/kevMac"
 license: "MIT"
 licenseUrl: "https://github.com/arinltte/kevMac/blob/main/LICENSE"
 download: "https://github.com/arinltte/kevMac/releases/latest"
+macos: "14.6"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

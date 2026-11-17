@@ -8,6 +8,9 @@ website: "https://electrum.org"
 license: "MIT"
 licenseUrl: "https://github.com/spesmilo/electrum/blob/master/LICENCE"
 download: "https://electrum.org/#download"
+macos: "11"
+arch: intel
+notarized: true
 freeDownload: true
 homebrew: "electrum"
 featured: false

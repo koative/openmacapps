@@ -15,6 +15,7 @@ website: https://tryradix.app
 license: "MIT"
 licenseUrl: https://github.com/colinvkim/Radix/blob/main/LICENSE
 download: https://github.com/colinvkim/Radix/releases/latest
+macos: "14"
 homebrew: "radix"
 freeDownload: true
 featured: false

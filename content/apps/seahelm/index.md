@@ -12,6 +12,8 @@ website: "https://www.seahelm.dev"
 license: "MIT"
 licenseUrl: "https://github.com/BetaYao/seahelm/blob/main/LICENSE"
 download: "https://github.com/BetaYao/seahelm/releases/latest"
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

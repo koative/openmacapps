@@ -11,6 +11,9 @@ website: "https://github.com/scosman/Squeegee"
 license: "MIT"
 licenseUrl: "https://github.com/scosman/Squeegee/blob/main/LICENSE"
 download: "https://github.com/scosman/Squeegee/releases/latest/download/Squeegee.dmg"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

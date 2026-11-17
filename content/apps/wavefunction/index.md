@@ -11,6 +11,9 @@ website: "https://www.wavefunction.si"
 license: "MIT"
 licenseUrl: "https://github.com/stoyan-stoyanov/wavefunction/blob/main/LICENSE"
 download: "https://github.com/stoyan-stoyanov/wavefunction/releases/latest"
+macos: "11"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

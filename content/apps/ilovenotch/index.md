@@ -12,6 +12,7 @@ website: "https://niyamvora.github.io/ILoveNotch/"
 license: "MIT"
 licenseUrl: "https://github.com/niyamvora/ILoveNotch/blob/main/LICENSE"
 download: "https://github.com/niyamvora/ILoveNotch/releases/download/v1.5.0/ILoveNotch.dmg"
+macos: "14.6"
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -8,6 +8,8 @@ website: "https://freetubeapp.io/"
 license: "AGPL-3.0-or-later"
 licenseUrl: "https://github.com/FreeTubeApp/FreeTube/blob/development/LICENSE"
 download: "https://github.com/FreeTubeApp/FreeTube/releases"
+macos: "13"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

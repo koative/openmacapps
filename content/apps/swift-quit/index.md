@@ -10,6 +10,9 @@ website: https://github.com/onebadidea/swiftquit
 license: GPL-3.0
 licenseUrl: https://github.com/onebadidea/swiftquit/blob/main/LICENSE
 download: https://github.com/onebadidea/swiftquit/releases
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "swift-quit"
 featured: false

@@ -11,6 +11,9 @@ website: "https://github.com/hakanotal/FreeAudio"
 license: "MIT"
 licenseUrl: "https://github.com/hakanotal/FreeAudio/blob/main/LICENSE"
 download: "https://github.com/hakanotal/FreeAudio/releases/latest"
+macos: "27"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -19,6 +19,7 @@ website: https://github.com/fayazara/Screendrop
 license: CC0-1.0
 licenseUrl: https://github.com/fayazara/Screendrop/blob/main/LICENSE
 download: https://github.com/fayazara/Screendrop/releases
+macos: "26.4"
 homebrew: "screendrop"
 freeDownload: true
 featured: false

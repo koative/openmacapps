@@ -14,6 +14,9 @@ website: "https://nicoleyangcoding.github.io/UMST-UltimateMacSchedulingTool/"
 license: "MIT"
 licenseUrl: "https://github.com/nicoleyangcoding/UMST-UltimateMacSchedulingTool/blob/main/LICENSE"
 download: "https://github.com/nicoleyangcoding/UMST-UltimateMacSchedulingTool/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

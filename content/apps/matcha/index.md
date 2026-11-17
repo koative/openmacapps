@@ -14,6 +14,9 @@ website: "https://github.com/jakeantelis/Matcha"
 license: "MIT"
 licenseUrl: "https://github.com/jakeantelis/Matcha/blob/main/LICENSE"
 download: "https://github.com/jakeantelis/Matcha/releases/latest"
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

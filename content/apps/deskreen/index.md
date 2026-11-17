@@ -11,6 +11,7 @@ website: https://deskreen.com
 license: "AGPL-3.0"
 licenseUrl: https://github.com/pavlobu/deskreen/blob/master/LICENSE
 download: https://github.com/pavlobu/deskreen/releases
+arch: both
 homebrew: "deskreen"
 freeDownload: true
 featured: false

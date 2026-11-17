@@ -12,6 +12,8 @@ website: https://github.com/saihgupr/GoogleDriveSync
 license: "MIT"
 licenseUrl: https://github.com/saihgupr/GoogleDriveSync/blob/main/LICENSE
 download: https://github.com/saihgupr/GoogleDriveSync/releases
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

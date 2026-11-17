@@ -9,6 +9,9 @@ website: "https://icemenubar.app"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/jordanbaird/Ice/blob/main/LICENSE"
 download: "https://github.com/jordanbaird/Ice/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "jordanbaird-ice"
 featured: true

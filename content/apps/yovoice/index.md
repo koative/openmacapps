@@ -13,6 +13,8 @@ website: https://yovoice.leemysw.com
 license: Apache-2.0
 licenseUrl: https://github.com/leemysw/yovoice/blob/main/LICENSE
 download: https://github.com/leemysw/yovoice/releases
+macos: "14"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: '2026-10-17'

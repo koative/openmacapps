@@ -12,6 +12,9 @@ website: "https://shunmeicho.github.io/cmd-ime/"
 license: "MIT"
 licenseUrl: "https://github.com/ShunmeiCho/cmd-ime/blob/main/LICENSE"
 download: "https://github.com/ShunmeiCho/cmd-ime/releases"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

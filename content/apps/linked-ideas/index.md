@@ -11,6 +11,9 @@ website: "https://github.com/fespinoza/LinkedIdeas"
 license: "MIT"
 licenseUrl: "https://github.com/fespinoza/LinkedIdeas/blob/master/LICENSE"
 download: "https://github.com/fespinoza/LinkedIdeas/releases/download/v0.6.6/LinkedIdeas.app.zip"
+macos: "10.11"
+arch: intel
+notarized: false
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No release since September 2017."

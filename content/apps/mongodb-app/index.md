@@ -10,6 +10,8 @@ website: https://gcollazo.com/mongodb-app/
 license: "MIT"
 licenseUrl: https://github.com/gcollazo/mongodbapp/blob/master/LICENSE
 download: https://github.com/gcollazo/mongodbapp/releases
+macos: "11"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

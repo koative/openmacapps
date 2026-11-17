@@ -8,6 +8,9 @@ website: "https://hyper.is"
 license: "MIT"
 licenseUrl: "https://github.com/vercel/hyper/blob/canary/LICENSE"
 download: "https://github.com/vercel/hyper/releases"
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release since January 2023; the repository is archived."

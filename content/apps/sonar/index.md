@@ -12,6 +12,8 @@ website: "https://github.com/can4hou6joeng4/Sonar"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/can4hou6joeng4/Sonar/blob/main/LICENSE"
 download: "https://github.com/can4hou6joeng4/Sonar/releases/download/v1.0.1/SonarMac.dmg"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

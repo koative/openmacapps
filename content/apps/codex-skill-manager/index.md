@@ -11,6 +11,9 @@ website: "https://github.com/Dimillian/CodexSkillManager"
 license: "MIT"
 licenseUrl: "https://github.com/Dimillian/CodexSkillManager/blob/main/LICENSE"
 download: "https://github.com/Dimillian/CodexSkillManager/releases"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

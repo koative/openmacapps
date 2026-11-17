@@ -13,6 +13,9 @@ website: "https://github.com/NeatMacApps/NeatPaste"
 license: "MIT"
 licenseUrl: "https://github.com/NeatMacApps/NeatPaste/blob/main/LICENSE"
 download: "https://github.com/NeatMacApps/NeatPaste/releases/latest"
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

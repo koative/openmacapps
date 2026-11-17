@@ -7,26 +7,39 @@ tags:
   - memory
   - monitoring
   - maintenance
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mCLEAN
 website: https://github.com/starbudweiser/mCLEAN
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mCLEAN/blob/main/LICENSE
 download: https://github.com/starbudweiser/mCLEAN/releases
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/mCLEAN
   - https://github.com/starbudweiser/mCLEAN/blob/main/LICENSE
   - https://github.com/starbudweiser/mCLEAN/releases
   - https://raw.githubusercontent.com/starbudweiser/mCLEAN/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mCLEAN/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/mCLEAN/releases/download/v1.3.1/mCLEAN-1.3.1.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The mCLEAN menu bar panel showing available memory, a memory breakdown, the biggest apps and inactive apps, with Clean and Deep buttons."
+    source: https://github.com/starbudweiser/mCLEAN/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 
 mCLEAN puts a ring in the menu bar with the share of memory in use, turning orange or red under memory pressure. Click it for a panel with app memory, wired, compressed, file cache and free memory, plus swap, a short history and the apps using the most.

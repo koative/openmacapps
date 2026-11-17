@@ -12,6 +12,9 @@ website: "https://github.com/jedbrnth-eng/rave-live"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/jedbrnth-eng/rave-live/blob/main/LICENSE"
 download: "https://github.com/jedbrnth-eng/rave-live/releases"
+macos: "12"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

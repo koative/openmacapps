@@ -11,6 +11,9 @@ website: "https://github.com/jordanpainter/rookie"
 license: "GPL-3.0-only"
 licenseUrl: "https://github.com/jordanpainter/rookie/blob/main/LICENSE"
 download: "https://github.com/jordanpainter/rookie/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

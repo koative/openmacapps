@@ -11,6 +11,8 @@ website: "https://zeetabit.github.io/Hertzwise/"
 license: "MIT"
 licenseUrl: "https://github.com/zeetabit/Hertzwise/blob/main/LICENSE"
 download: "https://github.com/zeetabit/Hertzwise/releases/download/v1.0.3/Hertzwise-1.0.3.dmg"
+macos: "15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://capathenotch.tech/en/"
 license: "MIT"
 licenseUrl: "https://github.com/maximfakel/capa-the-notch/blob/main/LICENSE"
 download: "https://github.com/maximfakel/capa-the-notch/releases"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

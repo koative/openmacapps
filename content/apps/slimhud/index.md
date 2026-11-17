@@ -11,6 +11,8 @@ website: https://alexperathoner.github.io/SlimHUD
 license: GPL-3.0
 licenseUrl: https://github.com/AlexPerathoner/SlimHUD/blob/develop/LICENSE.md
 download: https://github.com/AlexPerathoner/SlimHUD/releases
+macos: "10.14"
+arch: both
 freeDownload: true
 featured: false
 added: 2026-10-17

@@ -12,6 +12,9 @@ website: "https://github.com/Luminoid/Tethersnap"
 license: "MIT"
 licenseUrl: "https://github.com/Luminoid/Tethersnap/blob/main/LICENSE"
 download: "https://github.com/Luminoid/Tethersnap/releases/latest"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

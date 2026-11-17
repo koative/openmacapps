@@ -13,6 +13,8 @@ website: "https://github.com/aralozaltin/sshfire"
 license: "MIT"
 licenseUrl: "https://github.com/aralozaltin/sshfire/blob/main/LICENSE"
 download: "https://github.com/aralozaltin/sshfire/releases/download/v0.1.9/SSHFire-macOS-AppleSilicon.dmg"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

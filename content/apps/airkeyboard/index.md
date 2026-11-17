@@ -12,6 +12,8 @@ website: "https://github.com/dendyelo/air-keyboard"
 license: "MIT"
 licenseUrl: "https://github.com/dendyelo/air-keyboard/blob/main/LICENSE"
 download: "https://github.com/dendyelo/air-keyboard/releases/latest"
+macos: "10.15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

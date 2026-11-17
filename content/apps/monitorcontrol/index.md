@@ -8,6 +8,9 @@ website: "https://monitorcontrol.app"
 license: "MIT"
 licenseUrl: "https://github.com/MonitorControl/MonitorControl/blob/main/License.txt"
 download: "https://github.com/MonitorControl/MonitorControl/releases"
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "monitorcontrol"
 featured: false

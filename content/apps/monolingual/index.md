@@ -12,6 +12,9 @@ website: https://ingmarstein.github.io/Monolingual
 license: GPL-3.0
 licenseUrl: https://github.com/IngmarStein/Monolingual/blob/main/LICENSE.txt
 download: https://github.com/IngmarStein/Monolingual/releases
+macos: "27"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "monolingual"
 featured: false

@@ -12,6 +12,8 @@ website: "https://perchapp.dev"
 license: "MIT"
 licenseUrl: "https://github.com/asafofer/perch/blob/main/LICENSE"
 download: "https://github.com/asafofer/perch-releases/releases/latest/download/Perch.dmg"
+macos: "15"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

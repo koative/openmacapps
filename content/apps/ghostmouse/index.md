@@ -14,6 +14,9 @@ website: "https://joeystdio.github.io/GhostMouse/"
 license: "MIT"
 licenseUrl: "https://github.com/joeystdio/GhostMouse/blob/main/LICENSE"
 download: "https://github.com/joeystdio/GhostMouse/releases/latest/download/GhostMouse.dmg"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,8 @@ website: "https://chengffei.github.io/uptick/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/chengffei/uptick/blob/main/LICENSE"
 download: "https://github.com/chengffei/uptick/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,8 @@ website: "https://github.com/timurverevkin/Melingo"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/timurverevkin/Melingo/blob/main/LICENSE"
 download: "https://github.com/timurverevkin/Melingo/releases/latest"
+macos: "15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

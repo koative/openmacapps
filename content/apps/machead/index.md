@@ -11,6 +11,8 @@ website: "https://headlessmac.com"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/ox01024/MacHead/blob/main/LICENSE"
 download: "https://github.com/ox01024/MacHead/releases"
+macos: "12"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

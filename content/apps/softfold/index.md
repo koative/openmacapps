@@ -12,6 +12,8 @@ license: "MIT"
 licenseNotes: "Copyright (c) 2026 Noveum.ai (Hinge, the project Softfold was forked from) appears in the MIT license file alongside Reff Wu's copyright."
 licenseUrl: "https://github.com/ReffWu/softfold/blob/main/LICENSE"
 download: "https://github.com/ReffWu/softfold/releases/download/v1.19/Softfold.dmg"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

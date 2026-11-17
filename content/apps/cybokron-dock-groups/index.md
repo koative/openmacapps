@@ -11,6 +11,9 @@ website: "https://cybokron.com/products/dock-groups/"
 license: "MIT"
 licenseUrl: "https://github.com/ercanatay/cybokron-dock-groups/blob/main/LICENSE"
 download: "https://github.com/ercanatay/cybokron-dock-groups/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

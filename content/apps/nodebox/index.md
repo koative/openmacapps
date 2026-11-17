@@ -13,6 +13,9 @@ website: https://www.nodebox.net
 license: "GPL-2.0"
 licenseUrl: https://github.com/nodebox/nodebox/blob/master/LICENSE.txt
 download: https://github.com/nodebox/nodebox/releases/latest
+macos: "12"
+arch: both
+notarized: true
 homebrew: "nodebox"
 freeDownload: true
 featured: false

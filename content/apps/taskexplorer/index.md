@@ -13,6 +13,9 @@ website: https://objective-see.com/products/taskexplorer.html
 license: GPL-3.0
 licenseUrl: https://github.com/objective-see/TaskExplorer/blob/main/LICENSE
 download: https://github.com/objective-see/TaskExplorer/releases
+macos: "26"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "taskexplorer"
 featured: false

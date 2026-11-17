@@ -14,6 +14,9 @@ website: "https://github.com/kshah00/zipper"
 license: "MIT"
 licenseUrl: "https://github.com/kshah00/zipper/blob/main/LICENSE"
 download: "https://github.com/kshah00/zipper/releases"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

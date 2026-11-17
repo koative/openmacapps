@@ -11,6 +11,7 @@ website: https://github.com/Ryan-the-hito/Raspberry
 license: "GPL-3.0"
 licenseUrl: https://github.com/Ryan-the-hito/Raspberry/blob/main/LICENSE
 download: https://github.com/Ryan-the-hito/Raspberry/releases/latest
+macos: "15"
 freeDownload: true
 featured: false
 added: '2026-10-17'

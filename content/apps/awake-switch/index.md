@@ -13,6 +13,9 @@ website: "https://github.com/xiaozi/awake-app"
 license: "MIT"
 licenseUrl: "https://github.com/xiaozi/awake-app/blob/master/LICENSE"
 download: "https://github.com/xiaozi/awake-app/releases/download/1.5.2/Awake.app.zip"
+macos: "10.10"
+arch: both
+notarized: false
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No commit since November 2021 and no release since May 2015 (checked 2026-11-06)."

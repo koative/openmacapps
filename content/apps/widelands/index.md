@@ -11,6 +11,8 @@ website: https://www.widelands.org
 license: "GPL-2.0-or-later"
 licenseUrl: https://github.com/widelands/widelands/blob/master/COPYING
 download: https://www.widelands.org/wiki/Download/
+macos: "12"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

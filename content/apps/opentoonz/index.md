@@ -9,6 +9,7 @@ website: "https://opentoonz.github.io/e/"
 license: "BSD-3-Clause"
 licenseUrl: "https://github.com/opentoonz/opentoonz/blob/master/LICENSE.txt"
 download: "https://github.com/opentoonz/opentoonz/releases"
+arch: intel
 freeDownload: true
 featured: false
 added: "2026-10-17"

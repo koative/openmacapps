@@ -11,6 +11,9 @@ website: "https://agentpet.thenightwatcher.online"
 license: "MIT"
 licenseUrl: "https://github.com/ntd4996/agentpet/blob/main/LICENSE"
 download: "https://github.com/ntd4996/agentpet/releases"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

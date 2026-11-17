@@ -11,6 +11,7 @@ website: "https://github.com/jmcfarlane/notable"
 license: "MIT"
 licenseUrl: "https://github.com/jmcfarlane/notable/blob/main/LICENSE"
 download: "https://github.com/jmcfarlane/notable/releases"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

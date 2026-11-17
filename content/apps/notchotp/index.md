@@ -12,6 +12,9 @@ website: "https://github.com/Photon94/NotchOTP"
 license: "MIT"
 licenseUrl: "https://github.com/Photon94/NotchOTP/blob/main/LICENSE"
 download: "https://github.com/Photon94/NotchOTP/releases/download/v0.3.1/NotchOTP-v0.3.1-macOS-arm64.dmg"
+macos: "13"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

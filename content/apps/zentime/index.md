@@ -11,6 +11,8 @@ website: "https://github.com/PatpateePhangern/ZenTime"
 license: "MIT"
 licenseUrl: "https://github.com/PatpateePhangern/ZenTime/blob/main/LICENSE"
 download: "https://github.com/PatpateePhangern/ZenTime/releases"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

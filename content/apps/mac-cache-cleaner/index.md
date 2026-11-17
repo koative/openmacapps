@@ -11,6 +11,8 @@ website: "https://github.com/kaunteya/MacCacheCleaner"
 license: "MIT"
 licenseUrl: "https://github.com/kaunteya/MacCacheCleaner/blob/master/LICENSE"
 download: "https://github.com/kaunteya/MacCacheCleaner/releases/latest/download/Mac.Cache.Cleaner.zip"
+macos: "10.13"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

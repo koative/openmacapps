@@ -12,6 +12,9 @@ website: https://macduo.dhananjaytech.app/
 license: MIT
 licenseUrl: https://github.com/DhananjayBhosale/MacDuo/blob/main/LICENSE
 download: https://github.com/DhananjayBhosale/MacDuo/releases
+macos: "13"
+arch: intel
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

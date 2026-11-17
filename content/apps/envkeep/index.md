@@ -12,6 +12,7 @@ website: "https://jackofshadowz.github.io/envkeep/"
 license: "MIT"
 licenseUrl: "https://github.com/jackofshadowz/envkeep/blob/main/LICENSE"
 download: "https://github.com/jackofshadowz/envkeep/releases/latest"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

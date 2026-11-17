@@ -9,6 +9,9 @@ website: "https://coteditor.com"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/coteditor/CotEditor/blob/main/LICENSE"
 download: "https://github.com/coteditor/CotEditor/releases"
+macos: "26"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "coteditor"
 featured: false

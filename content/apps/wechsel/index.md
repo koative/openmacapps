@@ -11,6 +11,7 @@ website: https://github.com/friedrichweise/wechsel
 license: GPL-3.0
 licenseUrl: https://github.com/friedrichweise/wechsel/blob/master/LICENSE.md
 download: https://github.com/friedrichweise/wechsel/releases
+notarized: false
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release since May 2022; the repository is archived."

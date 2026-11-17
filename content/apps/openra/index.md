@@ -13,6 +13,7 @@ website: https://www.openra.net
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/OpenRA/OpenRA/blob/bleed/COPYING
 download: https://www.openra.net/download/
+macos: "10.11"
 homebrew: "openra"
 freeDownload: true
 featured: false

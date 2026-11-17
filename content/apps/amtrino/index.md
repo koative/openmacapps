@@ -12,6 +12,8 @@ website: "https://github.com/arian-shamaei/amtrino"
 license: "MIT"
 licenseUrl: "https://github.com/arian-shamaei/amtrino/blob/main/LICENSE"
 download: "https://github.com/arian-shamaei/amtrino/releases"
+macos: "13"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

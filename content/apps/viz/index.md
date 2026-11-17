@@ -13,6 +13,9 @@ sourceAvailability: "source-available"
 licenseNotes: "Viz is licensed under Apache 2.0 with the Commons Clause. The Commons Clause bars selling Viz, or a product or service whose value comes substantially from it, for a fee or other consideration. Everything else in Apache 2.0 applies, so the source can be used, changed and shared for other purposes."
 licenseUrl: "https://github.com/alienator88/Viz/blob/main/LICENSE.md"
 download: "https://github.com/alienator88/Viz/releases"
+macos: "13"
+arch: both
+notarized: true
 homebrew: "viz"
 featured: false
 added: "2026-11-06"

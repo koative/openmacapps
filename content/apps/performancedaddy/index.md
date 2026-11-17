@@ -12,6 +12,9 @@ website: "https://performance.daddyrad.com"
 license: "MIT"
 licenseUrl: "https://github.com/Significant-Hobbies/performancedaddy/blob/main/LICENSE"
 download: "https://github.com/Significant-Hobbies/performancedaddy/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

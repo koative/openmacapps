@@ -9,6 +9,9 @@ website: "https://www.qcad.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/qcad/qcad/blob/master/LICENSE.txt"
 download: "https://www.qcad.org/en/download/"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: false
 homebrew: "qcad"
 featured: false

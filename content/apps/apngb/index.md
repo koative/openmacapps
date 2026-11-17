@@ -11,6 +11,9 @@ website: "https://github.com/shgodoroja/APNGb"
 license: "MIT AND Zlib"
 licenseUrl: "https://github.com/shgodoroja/APNGb/blob/master/LICENSE"
 download: "https://github.com/shgodoroja/APNGb/releases/download/v2.0.1/APNGb-v2.0.1.app.zip"
+macos: "10.11"
+arch: intel
+notarized: false
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No release since November 2017."

@@ -8,6 +8,9 @@ website: "https://github.com/MaddTheSane/Simple-Comic"
 license: "MIT"
 licenseUrl: "https://github.com/MaddTheSane/Simple-Comic/blob/arc/license.txt"
 download: "https://github.com/MaddTheSane/Simple-Comic/releases"
+macos: "11.5"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "simple-comic"
 featured: false

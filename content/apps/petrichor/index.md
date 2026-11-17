@@ -8,6 +8,9 @@ website: "https://petrichor.page"
 license: "MIT"
 licenseUrl: "https://github.com/kushalpandya/Petrichor/blob/main/LICENSE"
 download: "https://github.com/kushalpandya/Petrichor/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "petrichor"
 featured: false

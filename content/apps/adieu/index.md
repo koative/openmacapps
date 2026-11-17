@@ -13,6 +13,9 @@ website: "https://adieu.lijunyu.com.cn"
 license: "MIT"
 licenseUrl: "https://github.com/lijunyu726/adieu/blob/main/LICENSE"
 download: "https://github.com/lijunyu726/adieu/releases"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

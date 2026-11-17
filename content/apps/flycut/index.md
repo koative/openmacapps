@@ -14,6 +14,9 @@ website: https://github.com/TermiT/Flycut
 license: MIT
 licenseUrl: https://github.com/TermiT/Flycut/blob/master/license.txt
 download: https://github.com/TermiT/Flycut/releases
+macos: "10.14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "flycut"
 featured: false

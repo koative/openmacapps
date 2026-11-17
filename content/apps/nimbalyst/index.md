@@ -14,6 +14,8 @@ website: https://nimbalyst.com
 license: "MIT"
 licenseUrl: https://github.com/nimbalyst/nimbalyst/blob/main/LICENSE
 download: https://github.com/nimbalyst/nimbalyst/releases
+macos: "12"
+arch: both
 homebrew: "nimbalyst"
 freeDownload: true
 featured: false

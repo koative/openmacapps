@@ -13,6 +13,9 @@ website: "https://seeknull.com/dontsleepmac"
 license: "MIT"
 licenseUrl: "https://github.com/seeknull/DontSleepMac/blob/main/LICENSE"
 download: "https://github.com/seeknull/DontSleepMac/releases"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

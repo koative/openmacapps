@@ -11,6 +11,9 @@ website: https://hexfiend.com/
 license: "BSD-2-Clause"
 licenseUrl: https://github.com/HexFiend/HexFiend/blob/master/License.txt
 download: https://github.com/HexFiend/HexFiend/releases
+macos: "10.14"
+arch: both
+notarized: false
 freeDownload: true
 homebrew: "hex-fiend"
 featured: false

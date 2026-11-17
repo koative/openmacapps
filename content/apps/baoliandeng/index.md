@@ -12,6 +12,7 @@ website: "https://madeye.github.io/BaoLianDeng/"
 license: "MIT"
 licenseUrl: "https://github.com/madeye/BaoLianDeng/blob/main/LICENSE"
 download: "https://github.com/madeye/BaoLianDeng/releases"
+macos: "14"
 homebrew: "baoliandeng"
 featured: false
 added: "2026-11-06"

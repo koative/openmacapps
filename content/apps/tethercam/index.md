@@ -13,6 +13,7 @@ license: "MIT AND GPL-2.0-or-later"
 licenseNotes: "The OBS plugin under obs-plugin/ is GPL-2.0-or-later because it links against libobs. The Mac app and the shared code are MIT."
 licenseUrl: "https://github.com/Kanevry/tethercam/blob/main/LICENSE"
 download: "https://github.com/Kanevry/tethercam/releases/latest/download/TetherCam-mac.dmg"
+macos: "14"
 freeDownload: true
 featured: false
 added: "2026-11-06"

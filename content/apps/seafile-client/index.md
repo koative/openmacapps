@@ -14,6 +14,7 @@ website: https://www.seafile.com
 license: "Apache-2.0"
 licenseUrl: https://github.com/haiwen/seafile-client/blob/master/LICENSE
 download: https://www.seafile.com/en/download/
+macos: "11"
 homebrew: "seafile-client"
 freeDownload: true
 featured: false

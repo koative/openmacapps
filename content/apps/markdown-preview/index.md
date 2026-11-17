@@ -11,6 +11,9 @@ website: https://markdownpreview.app
 license: MIT
 licenseUrl: https://github.com/pluk-inc/markdown-preview/blob/main/LICENSE
 download: https://github.com/pluk-inc/markdown-preview/releases
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "markdown-preview"
 featured: false

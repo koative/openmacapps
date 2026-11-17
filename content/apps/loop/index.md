@@ -13,6 +13,9 @@ website: https://github.com/mrkai77/Loop
 license: GPL-3.0
 licenseUrl: https://github.com/mrkai77/Loop/blob/develop/LICENSE
 download: https://github.com/mrkai77/Loop/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "loop"
 featured: false

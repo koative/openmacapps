@@ -14,6 +14,9 @@ website: https://webtorrent.io/desktop/
 license: "MIT"
 licenseUrl: https://github.com/webtorrent/webtorrent-desktop/blob/master/LICENSE
 download: https://webtorrent.io/desktop/
+macos: "10.10"
+arch: intel
+notarized: true
 freeDownload: true
 homebrew: "webtorrent"
 featured: false

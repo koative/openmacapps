@@ -12,6 +12,9 @@ website: "https://macvisiontools.pages.dev/"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/christofilojohn/MacVisionTools/blob/main/LICENSE"
 download: "https://github.com/christofilojohn/MacVisionTools/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

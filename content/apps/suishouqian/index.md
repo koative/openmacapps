@@ -12,6 +12,9 @@ website: "https://github.com/xfanchuang-dot/suishouqian"
 license: "MIT"
 licenseUrl: "https://github.com/xfanchuang-dot/suishouqian/blob/main/LICENSE"
 download: "https://github.com/xfanchuang-dot/suishouqian/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

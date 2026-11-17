@@ -11,6 +11,8 @@ website: "https://github.com/nico81/iContainer"
 license: "MIT"
 licenseUrl: "https://github.com/nico81/iContainer/blob/main/LICENSE"
 download: "https://github.com/nico81/iContainer/releases/latest"
+macos: "26"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

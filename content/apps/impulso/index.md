@@ -11,6 +11,7 @@ website: "https://github.com/nuance-dev/impulso"
 license: "MIT"
 licenseUrl: "https://github.com/nuance-dev/impulso/blob/main/LICENSE"
 download: "https://github.com/nuance-dev/impulso/releases/latest"
+macos: "14.5"
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No release since November 2024."

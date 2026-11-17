@@ -8,6 +8,9 @@ website: "https://macvim.org"
 license: "Vim"
 licenseUrl: "https://github.com/macvim-dev/macvim/blob/master/LICENSE"
 download: "https://github.com/macvim-dev/macvim/releases"
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "macvim-app"
 featured: false

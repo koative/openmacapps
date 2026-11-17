@@ -12,6 +12,9 @@ website: "https://samzong.github.io/MacMusicPlayer/"
 license: "MIT"
 licenseUrl: "https://github.com/samzong/MacMusicPlayer/blob/main/LICENSE"
 download: "https://github.com/samzong/MacMusicPlayer/releases"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

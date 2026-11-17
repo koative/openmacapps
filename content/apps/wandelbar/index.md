@@ -11,6 +11,7 @@ website: "https://github.com/alexiosus/WandelBar"
 license: "GPL-3.0-only"
 licenseUrl: "https://github.com/alexiosus/WandelBar/blob/master/LICENSE"
 download: "https://github.com/alexiosus/WandelBar/releases/download/v0.2.0/WandelBar-0.2.0-macOS-arm64.dmg"
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://github.com/steve228uk/YouTube-Music"
 license: "MIT"
 licenseUrl: https://github.com/steve228uk/YouTube-Music/blob/master/LICENSE
 download: https://github.com/steve228uk/YouTube-Music/releases
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "yt-music"
 featured: false

@@ -12,6 +12,9 @@ website: "https://ciromaciel.click/tools/voice-assistant"
 license: "MIT"
 licenseUrl: "https://github.com/ciro-maciel/voice-assistant/blob/main/LICENSE"
 download: "https://github.com/ciro-maciel/voice-assistant/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

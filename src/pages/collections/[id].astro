@@ -3,7 +3,8 @@ import Layout from '../../layouts/Layout.astro';
 import AppLockup from '../../components/AppLockup.astro';
 import CollectionLink from '../../components/CollectionLink.astro';
 import { getApps, type CatalogApp } from '../../lib/catalog';
-import { collections } from '../../lib/collections';
+import { brewCommand, collections } from '../../lib/collections';
+import CopyCommand from '../../components/CopyCommand.astro';
 import { appItemList, breadcrumbList } from '../../lib/guides';
 import { site } from '../../lib/site';
 export function getStaticPaths() {
@@ -17,6 +18,8 @@ const bySlug = new Map(getApps().map((app) => [app.slug, app]));
 const appsOf = (slugs: readonly string[]): CatalogApp[] =>
   slugs.flatMap((slug) => bySlug.get(slug) ?? []);
 const apps = appsOf(collection.apps);
+const casks = apps.flatMap((app) => (app.homebrew ? [app.homebrew] : []));
+const install = casks.length > 1 && brewCommand(casks);
 const others = collections.filter((entry) => entry.id !== collection.id);
 const base = import.meta.env.BASE_URL;
 ---
@@ -39,6 +42,17 @@ const base = import.meta.env.BASE_URL;
       <AppLockup app={app} />
     ))}
   </div>
+  {install && (
+    <section class="section badge" aria-labelledby="install-all">
+      <h2 id="install-all">Install with Homebrew</h2>
+      <p class="note">
+        {casks.length === apps.length
+          ? `One command installs all ${apps.length} apps.`
+          : `One command installs the ${casks.length} of ${apps.length} apps that have a Homebrew cask.`}
+      </p>
+      <CopyCommand text={install} label="Copy Homebrew command" />
+    </section>
+  )}
   <section class="section" aria-labelledby="more-collections">
     <header class="shelf-head">
       <div>

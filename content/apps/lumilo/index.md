@@ -12,6 +12,8 @@ website: "https://github.com/kotuke/lumilo"
 license: "MIT"
 licenseUrl: "https://github.com/kotuke/lumilo/blob/main/LICENSE"
 download: "https://github.com/kotuke/lumilo/releases/download/v0.4.2/Lumilo.0.4.2.arm64.dmg"
+macos: "12"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://codseus.github.io/NotchMore/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Codseus/NotchMore/blob/main/LICENSE"
 download: "https://github.com/Codseus/NotchMore/releases"
+macos: "15.4"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -13,6 +13,7 @@ website: https://qmk.fm/toolbox
 license: "MIT"
 licenseUrl: https://github.com/qmk/qmk_toolbox/blob/master/LICENSE.md
 download: https://github.com/qmk/qmk_toolbox/releases
+macos: "12"
 homebrew: "qmk-toolbox"
 freeDownload: true
 featured: false

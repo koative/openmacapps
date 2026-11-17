@@ -13,6 +13,8 @@ website: https://github.com/asmvik/yabai
 license: MIT
 licenseUrl: https://github.com/asmvik/yabai/blob/master/LICENSE.txt
 download: https://github.com/asmvik/yabai/releases
+macos: "11"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -11,6 +11,7 @@ website: https://github.com/dteoh/devdocs-macos
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/dteoh/devdocs-macos/blob/master/LICENSE.txt
 download: https://github.com/dteoh/devdocs-macos/releases/latest
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

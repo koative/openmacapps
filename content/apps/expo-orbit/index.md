@@ -14,6 +14,9 @@ website: https://expo.dev/orbit
 license: "MIT"
 licenseUrl: https://github.com/expo/orbit/blob/main/LICENSE
 download: https://github.com/expo/orbit/releases
+macos: "14"
+arch: both
+notarized: false
 homebrew: "expo-orbit"
 freeDownload: true
 featured: false

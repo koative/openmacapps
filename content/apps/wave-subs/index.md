@@ -12,6 +12,9 @@ website: "https://wavesubs.com"
 license: "MIT"
 licenseUrl: "https://github.com/jason-jm/wavesubs/blob/main/LICENSE"
 download: "https://github.com/jason-jm/wavesubs/releases"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

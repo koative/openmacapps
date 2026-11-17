@@ -11,6 +11,8 @@ website: "https://raphaelhanneken.com/iconizer/"
 license: "MIT"
 licenseUrl: "https://github.com/raphaelhanneken/iconizer/blob/master/LICENSE"
 download: "https://github.com/raphaelhanneken/Iconizer/releases/download/2020.11.0/Iconizer.dmg"
+macos: "10.10"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

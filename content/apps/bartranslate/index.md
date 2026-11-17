@@ -11,6 +11,9 @@ website: https://apps.thijmendam.nl/bartranslate
 license: "GPL-3.0"
 licenseUrl: https://github.com/ThijmenDam/BarTranslate/blob/master/LICENSE
 download: https://github.com/ThijmenDam/BarTranslate/releases
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -18,6 +18,7 @@ website: https://www.openoffice.org
 license: "Apache-2.0"
 licenseUrl: https://github.com/apache/openoffice/blob/trunk/LICENSE
 download: https://www.openoffice.org/download/
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-29'

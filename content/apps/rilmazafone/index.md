@@ -8,6 +8,9 @@ website: "https://github.com/kageroumado/rilmazafone"
 license: "MIT"
 licenseUrl: "https://github.com/kageroumado/rilmazafone/blob/main/LICENSE"
 download: "https://github.com/kageroumado/rilmazafone/releases"
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-10-17"

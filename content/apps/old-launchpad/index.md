@@ -11,6 +11,8 @@ website: "https://github.com/netsvetaev/Old-Launchpad"
 license: "BSD-3-Clause"
 licenseUrl: "https://github.com/netsvetaev/Old-Launchpad/blob/main/LICENSE"
 download: "https://github.com/netsvetaev/Old-Launchpad/releases"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -8,6 +8,8 @@ website: "https://wezterm.org"
 license: "MIT"
 licenseUrl: "https://github.com/wezterm/wezterm/blob/main/LICENSE.md"
 download: "https://wezterm.org/install/macos.html"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "wezterm"
 featured: false

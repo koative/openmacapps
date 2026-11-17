@@ -11,6 +11,8 @@ website: "https://github.com/hanayik/CAM"
 license: "MIT"
 licenseUrl: "https://github.com/hanayik/CAM/blob/master/LICENSE"
 download: "https://github.com/hanayik/CAM/releases/download/1.0.15/CAM-darwin-x64.zip"
+macos: "10.9"
+arch: intel
 freeDownload: true
 featured: false
 added: "2026-11-06"

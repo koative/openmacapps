@@ -11,6 +11,9 @@ website: "https://github.com/michalstrnadel/AgentBar"
 license: "MIT"
 licenseUrl: "https://github.com/michalstrnadel/AgentBar/blob/main/LICENSE"
 download: "https://github.com/michalstrnadel/AgentBar/releases/latest"
+macos: "12"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

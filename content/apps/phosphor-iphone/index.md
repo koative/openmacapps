@@ -12,6 +12,7 @@ website: "https://momenbasel.github.io/Phosphor/"
 license: "MIT"
 licenseUrl: "https://github.com/momenbasel/Phosphor/blob/main/LICENSE"
 download: "https://github.com/momenbasel/Phosphor/releases"
+macos: "14"
 freeDownload: true
 featured: false
 added: "2026-11-06"

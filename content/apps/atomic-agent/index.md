@@ -11,6 +11,7 @@ website: "https://atomicagent.io"
 license: "MIT"
 licenseUrl: "https://github.com/AtomicBot-ai/atomic-agent/blob/main/LICENSE"
 download: "https://github.com/AtomicBot-ai/atomic-agent/releases"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,8 @@ website: https://xiaoyifang.github.io/goldendict-ng/
 license: GPL-3.0-or-later
 licenseUrl: https://github.com/xiaoyifang/goldendict-ng/blob/staged/LICENSE.txt
 download: https://github.com/xiaoyifang/goldendict-ng/releases
+macos: "13"
+arch: both
 freeDownload: true
 featured: false
 added: 2026-10-17

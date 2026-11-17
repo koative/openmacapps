@@ -11,6 +11,8 @@ website: "https://www.yestoall.com/tics/en"
 license: "MIT"
 licenseUrl: "https://github.com/yestoall/tics/blob/main/LICENSE"
 download: "https://github.com/yestoall/tics/releases/latest/download/TICS.dmg"
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

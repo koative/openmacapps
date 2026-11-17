@@ -12,6 +12,8 @@ website: "https://joeystdio.github.io/PortRadar/"
 license: "MIT"
 licenseUrl: "https://github.com/joeystdio/PortRadar/blob/main/LICENSE"
 download: "https://github.com/joeystdio/PortRadar/releases"
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

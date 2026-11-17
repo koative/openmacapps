@@ -11,6 +11,8 @@ website: "https://github.com/jordan-edai/codex-reset-watcher"
 license: "MIT"
 licenseUrl: "https://github.com/jordan-edai/codex-reset-watcher/blob/main/LICENSE"
 download: "https://github.com/jordan-edai/codex-reset-watcher/releases/download/v0.4.4/Codex.Reset.Watcher.v0.4.4.zip"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

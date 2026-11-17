@@ -13,6 +13,9 @@ website: "https://litemd.app"
 license: "MIT"
 licenseUrl: "https://github.com/gentpan/LiteMD/blob/main/LICENSE"
 download: "https://github.com/gentpan/LiteMD/releases/latest"
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

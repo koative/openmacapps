@@ -12,6 +12,9 @@ website: "https://github.com/camguillory/Audio-Priority-Bar"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/camguillory/Audio-Priority-Bar/blob/develop/LICENSE"
 download: "https://github.com/camguillory/Audio-Priority-Bar/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

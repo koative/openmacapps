@@ -11,6 +11,7 @@ website: "https://github.com/hieunc229/mailflare-macos"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/hieunc229/mailflare-macos/blob/main/LICENSE"
 download: "https://github.com/hieunc229/mailflare-macos/releases/download/1.6/Mailflare-v1.6.zip"
+macos: "15.3"
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,9 @@ website: "https://turbokiller.nicotech.cc"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/nicotech-studio/turbo-killer/blob/main/LICENSE"
 download: "https://github.com/nicotech-studio/turbo-killer/releases/latest"
+macos: "13"
+arch: intel
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

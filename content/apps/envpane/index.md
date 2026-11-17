@@ -11,6 +11,9 @@ website: "https://github.com/hschmidt/EnvPane"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/hschmidt/EnvPane/blob/master/LICENSE"
 download: "https://github.com/hschmidt/EnvPane/releases/download/releases%2F0.8/EnvPane-0.8.dmg"
+macos: "12"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

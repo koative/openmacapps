@@ -9,6 +9,8 @@ website: "https://getutm.app"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/utmapp/UTM/blob/main/LICENSE"
 download: "https://github.com/utmapp/UTM/releases"
+macos: "12"
+arch: apple-silicon
 freeDownload: true
 homebrew: "utm"
 featured: false

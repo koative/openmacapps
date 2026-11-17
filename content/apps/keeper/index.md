@@ -12,6 +12,8 @@ website: "https://keeper.ramihmd.com"
 license: "MIT"
 licenseUrl: "https://github.com/HMDRAMS-DEV/keeper/blob/main/LICENSE"
 download: "https://github.com/HMDRAMS-DEV/keeper/releases/latest"
+macos: "15"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

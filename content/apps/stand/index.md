@@ -11,6 +11,8 @@ website: "https://a35hie.me/work/stand"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/a35hie/Stand/blob/main/LICENSE"
 download: "https://github.com/a35hie/Stand/releases"
+macos: "13.5"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

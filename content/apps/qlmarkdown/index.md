@@ -11,6 +11,9 @@ website: https://github.com/sbarex/QLMarkdown
 license: GPL-3.0
 licenseUrl: https://github.com/sbarex/QLMarkdown/blob/main/LICENSE.txt
 download: https://github.com/sbarex/QLMarkdown/releases
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "qlmarkdown"
 featured: false

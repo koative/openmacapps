@@ -12,6 +12,9 @@ website: "https://github.com/mkbula/HideMyData"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/mkbula/HideMyData/blob/master/LICENSE"
 download: "https://github.com/mkbula/HideMyData/releases/download/v0.2.0/HideMyData-0.2.0.dmg"
+macos: "26"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,8 @@ website: "https://github.com/onmyway133/IconGenerator"
 license: "MIT"
 licenseUrl: "https://github.com/onmyway133/IconGenerator/blob/master/LICENSE.md"
 download: "https://github.com/onmyway133/IconGenerator/releases/download/1.2.0/IconGenerator.zip"
+macos: "10.9"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

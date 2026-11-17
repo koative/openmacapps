@@ -14,6 +14,9 @@ website: "https://vocula.app"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/vitaly-kashtalyan/vocula/blob/main/LICENSE"
 download: "https://vocula.app"
+macos: "26"
+arch: both
+notarized: true
 freeDownload: false
 featured: false
 added: "2026-11-06"

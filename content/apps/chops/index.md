@@ -14,6 +14,9 @@ sourceAvailability: source-available
 licenseNotes: "Chops uses the Functional Source License 1.1 with an MIT future license. Using, changing or redistributing a version for a competing commercial product or service is not permitted; each version also becomes available under MIT two years after its release."
 licenseUrl: https://github.com/Shpigford/chops/blob/main/LICENSE
 download: https://github.com/Shpigford/chops/releases
+macos: "15"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

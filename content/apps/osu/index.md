@@ -12,6 +12,8 @@ website: https://osu.ppy.sh
 license: "MIT"
 licenseUrl: https://github.com/ppy/osu/blob/master/LICENCE
 download: https://osu.ppy.sh/home/download
+macos: "12"
+arch: both
 homebrew: "osu"
 freeDownload: true
 featured: false

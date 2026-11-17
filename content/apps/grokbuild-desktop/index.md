@@ -11,6 +11,8 @@ website: "https://rimusz.net/grokbuild-desktop-the-native-macos-home-your-grok-b
 license: "Apache-2.0"
 licenseUrl: "https://github.com/rimusz/grok-build-desktop/blob/main/LICENSE"
 download: "https://github.com/rimusz/grok-build-desktop/releases/latest"
+macos: "26"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

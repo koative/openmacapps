@@ -12,6 +12,7 @@ website: https://elasticvue.com
 license: "MIT"
 licenseUrl: https://github.com/cars10/elasticvue/blob/master/LICENSE
 download: https://github.com/cars10/elasticvue/releases
+arch: both
 homebrew: "elasticvue"
 freeDownload: true
 featured: false

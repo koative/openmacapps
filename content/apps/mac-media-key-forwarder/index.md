@@ -12,6 +12,8 @@ website: https://github.com/quentinlesceller/macmediakeyforwarder
 license: 'Unlicense'
 licenseUrl: https://github.com/quentinlesceller/macmediakeyforwarder/blob/master/LICENSE
 download: https://github.com/quentinlesceller/macmediakeyforwarder/releases
+macos: "26"
+notarized: true
 freeDownload: true
 homebrew: "macmediakeyforwarder"
 featured: false

@@ -13,6 +13,8 @@ website: "https://github.com/michaelh03/ClipAi"
 license: "MIT"
 licenseUrl: "https://github.com/michaelh03/ClipAi/blob/master/LICENSE"
 download: "https://github.com/michaelh03/ClipAi/releases"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

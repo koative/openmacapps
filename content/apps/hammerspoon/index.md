@@ -14,6 +14,9 @@ website: https://www.hammerspoon.org/
 license: MIT
 licenseUrl: https://github.com/Hammerspoon/hammerspoon/blob/master/LICENSE
 download: https://github.com/Hammerspoon/hammerspoon/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "hammerspoon"
 featured: false

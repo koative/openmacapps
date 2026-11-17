@@ -12,6 +12,7 @@ website: "https://slapss-app.com"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/theshiver/slapss-app/blob/main/LICENSE"
 download: "https://apps.apple.com/app/id6767488326"
+macos: "15"
 freeDownload: true
 featured: false
 added: "2026-11-06"

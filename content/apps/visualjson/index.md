@@ -11,6 +11,7 @@ website: "https://github.com/youknowone/VisualJSON"
 license: "BSD-2-Clause"
 licenseUrl: "https://github.com/youknowone/VisualJSON/blob/master/LICENSE"
 download: "https://github.com/youknowone/VisualJSON/releases"
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

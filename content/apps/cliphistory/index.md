@@ -14,6 +14,8 @@ website: "https://weiykong.github.io/ClipHistory/"
 license: "MIT"
 licenseUrl: "https://github.com/weiykong/ClipHistory/blob/main/LICENSE"
 download: "https://github.com/weiykong/ClipHistory/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://codevetter.com"
 license: "MIT"
 licenseUrl: "https://github.com/Codevetter/codevetter/blob/main/LICENSE"
 download: "https://github.com/Codevetter/codevetter/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

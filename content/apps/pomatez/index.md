@@ -13,6 +13,7 @@ website: https://zidoro.github.io/pomatez/
 license: "MIT"
 licenseUrl: https://github.com/zidoro/pomatez/blob/master/LICENSE
 download: https://github.com/zidoro/pomatez/releases/latest
+arch: both
 homebrew: "pomatez"
 freeDownload: true
 featured: false

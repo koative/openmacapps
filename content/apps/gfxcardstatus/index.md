@@ -11,6 +11,8 @@ website: https://gfx.io
 license: "BSD-3-Clause"
 licenseUrl: https://github.com/codykrieger/gfxCardStatus/blob/master/LICENSE
 download: https://github.com/codykrieger/gfxCardStatus/releases
+arch: intel
+notarized: true
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release since December 2020."

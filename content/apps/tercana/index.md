@@ -12,6 +12,9 @@ website: "https://rumpony.github.io/Tercana/"
 license: "MIT"
 licenseUrl: "https://github.com/rumpony/Tercana/blob/main/LICENSE"
 download: "https://github.com/rumpony/Tercana/releases/latest"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

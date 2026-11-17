@@ -11,6 +11,8 @@ website: "https://github.com/Lennolium/swiftGuard"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/Lennolium/swiftGuard/blob/main/LICENSE"
 download: "https://github.com/Lennolium/swiftGuard/releases/latest"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

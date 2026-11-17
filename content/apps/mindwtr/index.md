@@ -16,6 +16,7 @@ website: https://mindwtr.app
 license: "AGPL-3.0"
 licenseUrl: https://github.com/dongdongbh/Mindwtr/blob/main/LICENSE
 download: https://docs.mindwtr.app/start/desktop-installation
+arch: both
 homebrew: "mindwtr"
 freeDownload: true
 featured: false

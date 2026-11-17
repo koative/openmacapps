@@ -12,6 +12,9 @@ website: "https://ixiehao.github.io/ShotMap/"
 license: "MIT"
 licenseUrl: "https://github.com/ixiehao/ShotMap/blob/main/LICENSE"
 download: "https://github.com/ixiehao/ShotMap/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

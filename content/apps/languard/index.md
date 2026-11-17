@@ -12,6 +12,9 @@ website: "https://apps.roypadina.synology.me/apps/languard/"
 license: "MIT"
 licenseUrl: "https://github.com/roypadina/LanGuard/blob/main/LICENSE"
 download: "https://github.com/roypadina/LanGuard/releases/download/v1.3.2/LanGuard.zip"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

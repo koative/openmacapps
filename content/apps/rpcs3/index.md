@@ -8,6 +8,9 @@ website: "https://rpcs3.net"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/RPCS3/rpcs3/blob/master/LICENSE"
 download: "https://rpcs3.net/download"
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-10-17"

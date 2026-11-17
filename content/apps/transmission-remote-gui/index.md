@@ -12,6 +12,7 @@ website: https://epaxpax.github.io/transmission-remote-gui/
 license: MIT
 licenseUrl: https://github.com/epaxpax/transmission-remote-gui/blob/main/LICENSE
 download: https://github.com/epaxpax/transmission-remote-gui/releases
+macos: "14"
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -12,6 +12,8 @@ website: https://gethighball.com/
 license: GPL-3.0
 licenseUrl: https://github.com/gauthierpiarrette/highball/blob/main/LICENSE
 download: https://github.com/gauthierpiarrette/highball/releases
+macos: "14"
+arch: apple-silicon
 freeDownload: true
 homebrew: "highball"
 featured: false

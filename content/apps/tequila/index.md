@@ -12,6 +12,8 @@ website: "https://github.com/caiyuyou1227-glitch/tequila"
 license: "MIT"
 licenseUrl: "https://github.com/caiyuyou1227-glitch/tequila/blob/main/LICENSE"
 download: "https://github.com/caiyuyou1227-glitch/tequila/releases/latest"
+macos: "15.2"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -14,6 +14,9 @@ website: "https://acerola-1.github.io/hagimi-monitor/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/Acerola-1/hagimi-monitor/blob/main/LICENSE"
 download: "https://github.com/Acerola-1/hagimi-monitor/releases"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "hagimimonitordirect"
 featured: false

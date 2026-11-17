@@ -13,6 +13,9 @@ website: "https://itsypad.app"
 license: "MIT"
 licenseUrl: "https://github.com/nickustinov/itsypad-macos/blob/main/LICENSE"
 download: "https://github.com/nickustinov/itsypad-macos/releases"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "itsypad"
 featured: false

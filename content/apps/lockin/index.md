@@ -11,6 +11,8 @@ website: "https://github.com/HumbleBee14/LockIn"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/HumbleBee14/LockIn/blob/main/LICENSE"
 download: "https://github.com/HumbleBee14/LockIn/releases/latest"
+macos: "13"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,9 @@ website: "https://iconcraft.co"
 license: "MIT"
 licenseUrl: "https://github.com/gshipman223/IconCraft/blob/main/LICENSE"
 download: "https://github.com/gshipman223/IconCraft/releases/download/v0.14.1/IconCraft-Mac-0.14.1.dmg"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

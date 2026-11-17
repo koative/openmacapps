@@ -10,6 +10,9 @@ website: https://max.codes/latest
 license: GPL-3.0
 licenseUrl: https://github.com/mangerlahn/Latest/blob/main/LICENSE.md
 download: https://github.com/mangerlahn/Latest/releases
+macos: "10.15"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "latest"
 featured: false

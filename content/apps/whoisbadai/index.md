@@ -11,6 +11,8 @@ website: "https://github.com/pavloshargan/whoisbadai"
 license: "MIT"
 licenseUrl: "https://github.com/pavloshargan/whoisbadai/blob/main/LICENSE"
 download: "https://github.com/pavloshargan/whoisbadai/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

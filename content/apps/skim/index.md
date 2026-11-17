@@ -16,6 +16,7 @@ website: https://skim-app.sourceforge.io
 license: "BSD-3-Clause"
 licenseUrl: https://sourceforge.net/p/skim-app/code/HEAD/tree/trunk/LICENSE
 download: https://skim-app.sourceforge.io
+macos: "10.13"
 homebrew: "skim"
 freeDownload: true
 featured: false

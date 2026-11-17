@@ -12,6 +12,8 @@ website: https://halloy.chat
 license: "GPL-3.0"
 licenseUrl: https://github.com/squidowl/halloy/blob/main/LICENSE
 download: https://halloy.chat/installation.html
+arch: both
+notarized: true
 homebrew: "halloy"
 freeDownload: true
 featured: false

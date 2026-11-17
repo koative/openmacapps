@@ -11,6 +11,9 @@ website: https://github.com/objective-see/BlockBlock
 license: GPL-3.0
 licenseUrl: https://github.com/objective-see/BlockBlock/blob/master/LICENSE.md
 download: https://github.com/objective-see/BlockBlock/releases
+macos: "10.15"
+arch: both
+notarized: false
 freeDownload: true
 homebrew: "blockblock"
 featured: false

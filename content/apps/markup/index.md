@@ -14,6 +14,8 @@ website: "https://github.com/oratis/Markup"
 license: "MIT"
 licenseUrl: "https://github.com/oratis/Markup/blob/main/LICENSE"
 download: "https://github.com/oratis/Markup/releases/download/v1.1.0/Markup_1.1.0_apple-silicon.dmg"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

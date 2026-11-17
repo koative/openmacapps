@@ -11,6 +11,8 @@ website: "https://github.com/umutcetinkaya/live-translator"
 license: "MIT"
 licenseUrl: "https://github.com/umutcetinkaya/live-translator/blob/main/LICENSE"
 download: "https://github.com/umutcetinkaya/live-translator/releases/download/v0.1.0/LiveTranslator-v0.1.0-macOS.dmg"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

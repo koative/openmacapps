@@ -8,6 +8,9 @@ website: "https://github.com/ronitsingh10/FineTune"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/ronitsingh10/FineTune/blob/main/LICENSE"
 download: "https://github.com/ronitsingh10/FineTune/releases"
+macos: "15.4"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "finetune"
 featured: false

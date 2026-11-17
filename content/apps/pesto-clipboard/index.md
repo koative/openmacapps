@@ -14,6 +14,7 @@ website: "https://pestoclipboard.com"
 license: "MIT"
 licenseUrl: "https://github.com/matthewpick/pesto-clipboard/blob/main/LICENSE"
 download: "https://github.com/matthewpick/pesto-clipboard/releases/latest"
+macos: "14"
 freeDownload: true
 featured: false
 added: "2026-11-06"

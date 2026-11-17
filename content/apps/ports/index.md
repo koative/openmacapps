@@ -12,6 +12,7 @@ website: "https://github.com/CorvidLabs/Ports"
 license: "MIT"
 licenseUrl: "https://github.com/CorvidLabs/Ports/blob/main/LICENSE"
 download: "https://github.com/CorvidLabs/Ports/releases/latest"
+macos: "13"
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -9,6 +9,8 @@ website: "https://rancherdesktop.io"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/rancher-sandbox/rancher-desktop/blob/main/LICENSE"
 download: "https://rancherdesktop.io"
+macos: "13"
+arch: both
 freeDownload: true
 homebrew: "rancher"
 featured: false

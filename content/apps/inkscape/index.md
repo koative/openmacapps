@@ -9,6 +9,7 @@ website: "https://inkscape.org/"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://gitlab.com/inkscape/inkscape/-/blob/master/COPYING"
 download: "https://inkscape.org/release/"
+arch: both
 freeDownload: true
 homebrew: "inkscape"
 featured: false

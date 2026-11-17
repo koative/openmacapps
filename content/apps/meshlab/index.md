@@ -8,6 +8,8 @@ website: "https://www.meshlab.net/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/cnr-isti-vclab/meshlab/blob/main/LICENSE.txt"
 download: "https://github.com/cnr-isti-vclab/meshlab/releases"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "meshlab"
 featured: false

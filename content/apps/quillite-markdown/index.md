@@ -14,6 +14,9 @@ website: "https://qm.ssssa.cn/"
 license: "MIT"
 licenseUrl: "https://github.com/liuhang798/quillite-markdown/blob/main/LICENSE"
 download: "https://github.com/liuhang798/quillite-markdown/releases/download/v3.1.0/quillite-markdown-3.1.0-macos-universal.dmg"
+macos: "10.13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

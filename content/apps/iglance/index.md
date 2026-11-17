@@ -15,6 +15,9 @@ licenseUrl: "https://github.com/iglance/iGlance/blob/master/LICENSE"
 maintenance: "unmaintained"
 maintenanceNote: "No release since October 2020 and no push since August 2023 (checked November 2026)."
 download: "https://github.com/iglance/iGlance/releases"
+macos: "10.12"
+arch: intel
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

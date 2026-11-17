@@ -13,6 +13,8 @@ website: "https://notnaki.github.io/vane/"
 license: "MIT"
 licenseUrl: "https://github.com/notnaki/vane/blob/main/LICENSE"
 download: "https://github.com/notnaki/vane/releases/latest"
+macos: "26"
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

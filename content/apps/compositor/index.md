@@ -13,6 +13,9 @@ website: "https://robbietilton.com/compositor"
 license: "MIT"
 licenseUrl: "https://github.com/robbietilton/Compositor/blob/main/LICENSE"
 download: "https://github.com/robbietilton/Compositor/releases"
+macos: "26"
+arch: apple-silicon
+notarized: true
 homebrew: "robbietilton-compositor"
 freeDownload: true
 featured: false

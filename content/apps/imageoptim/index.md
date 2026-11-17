@@ -11,6 +11,9 @@ website: https://imageoptim.com/mac
 license: GPL-2.0-or-later
 licenseUrl: https://github.com/ImageOptim/ImageOptim/blob/main/LICENSE
 download: https://imageoptim.com/mac
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "imageoptim"
 featured: false

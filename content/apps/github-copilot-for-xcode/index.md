@@ -11,6 +11,7 @@ website: https://github.com/github/CopilotForXcode
 license: "MIT"
 licenseUrl: https://github.com/github/CopilotForXcode/blob/main/LICENSE.txt
 download: https://github.com/github/CopilotForXcode/releases/latest
+macos: "13"
 homebrew: "github-copilot-for-xcode"
 freeDownload: true
 featured: false

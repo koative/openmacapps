@@ -8,6 +8,9 @@ website: "https://www.minisim.app"
 license: "MIT"
 licenseUrl: "https://github.com/okwasniewski/MiniSim/blob/main/LICENSE"
 download: "https://github.com/okwasniewski/MiniSim/releases"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "minisim"
 featured: false

@@ -12,6 +12,8 @@ website: "https://github.com/corral-dev/corral-apple"
 license: "GPL-3.0-only"
 licenseUrl: "https://github.com/corral-dev/corral-apple/blob/main/LICENSE"
 download: "https://github.com/corral-dev/corral-apple/releases/latest"
+macos: "26"
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

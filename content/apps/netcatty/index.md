@@ -19,6 +19,7 @@ website: https://netcatty.app
 license: "GPL-3.0"
 licenseUrl: https://github.com/binaricat/Netcatty/blob/main/LICENSE
 download: https://github.com/binaricat/Netcatty/releases/latest
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-29'

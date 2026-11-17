@@ -11,6 +11,9 @@ website: "https://shahrukhalid.github.io/nexonic-download-manager/"
 license: "MIT OR Apache-2.0"
 licenseUrl: "https://github.com/Shahrukhalid/nexonic-download-manager/blob/main/LICENSE"
 download: "https://github.com/Shahrukhalid/nexonic-download-manager/releases/latest"
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

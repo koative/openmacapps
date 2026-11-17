@@ -15,6 +15,7 @@ website: https://macdown.uranusjr.com
 license: MIT
 licenseUrl: https://github.com/MacDownApp/macdown/blob/master/LICENSE/macdown.txt
 download: https://github.com/MacDownApp/macdown/releases
+arch: both
 freeDownload: true
 maintenance: "unmaintained"
 maintenanceNote: "No release since February 2020 and no commit since April 2021."

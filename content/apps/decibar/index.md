@@ -12,6 +12,8 @@ website: "https://github.com/gostonx/DeciBar"
 license: "MIT"
 licenseUrl: "https://github.com/gostonx/DeciBar/blob/main/LICENSE"
 download: "https://github.com/gostonx/DeciBar/releases"
+macos: "15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

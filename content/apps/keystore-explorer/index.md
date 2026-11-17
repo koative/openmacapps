@@ -8,6 +8,7 @@ website: "https://keystore-explorer.org"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/kaikramer/keystore-explorer/blob/main/LICENSE"
 download: "https://keystore-explorer.org/downloads.html"
+arch: both
 homebrew: "keystore-explorer"
 freeDownload: true
 featured: false

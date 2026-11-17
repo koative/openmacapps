@@ -12,6 +12,7 @@ website: "https://repobar.app/"
 license: "MIT"
 licenseUrl: "https://github.com/steipete/RepoBar/blob/main/LICENSE"
 download: "https://github.com/steipete/RepoBar/releases/latest"
+macos: "15"
 freeDownload: true
 homebrew: "repobar"
 featured: false

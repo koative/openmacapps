@@ -11,6 +11,9 @@ website: "https://claudeusagebar.com"
 license: "MIT"
 licenseUrl: "https://github.com/Artzainnn/ClaudeUsageBar/blob/main/LICENSE"
 download: "https://github.com/Artzainnn/ClaudeUsageBar/releases/download/v1.3.5/ClaudeUsageBar-Installer.dmg"
+macos: "12"
+arch: both
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

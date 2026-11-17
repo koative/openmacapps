@@ -16,6 +16,9 @@ website: https://friction.graphics
 license: "GPL-3.0-only"
 licenseUrl: https://github.com/friction2d/friction/blob/main/LICENSE.md
 download: https://friction.graphics/download.html
+macos: "11"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-29'

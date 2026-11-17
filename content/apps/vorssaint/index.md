@@ -9,6 +9,8 @@ website: "https://vorssaint.com"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/vorssaint/vorssaint-utils/blob/main/LICENSE"
 download: "https://github.com/vorssaint/vorssaint-utils/releases"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 homebrew: "vorssaint"
 featured: false

@@ -14,6 +14,9 @@ website: https://www.moamenbasel.com/puresnitch/
 license: "MIT"
 licenseUrl: https://github.com/momenbasel/puresnitch/blob/main/LICENSE
 download: https://github.com/momenbasel/puresnitch/releases
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -13,6 +13,9 @@ website: "https://rustcast.app/"
 license: "MIT"
 licenseUrl: "https://github.com/MystikoLab/rustcast/blob/master/LICENSE.md"
 download: "https://github.com/MystikoLab/rustcast/releases/download/v0.8.5/rustcast.dmg"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

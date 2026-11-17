@@ -11,6 +11,9 @@ website: "https://coincide.dev"
 license: "MIT"
 licenseUrl: "https://github.com/apoorvdarshan/coincide/blob/main/LICENSE"
 download: "https://github.com/apoorvdarshan/coincide/releases/latest/download/Coincide.dmg"
+macos: "26"
+arch: both
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

@@ -13,6 +13,8 @@ licenseUrl: "https://github.com/beagleeditor/legacy/blob/main/LICENSE"
 maintenance: "unmaintained"
 maintenanceNote: "Superseded by beagleeditor/editor (checked 2026-11-06)."
 download: "https://github.com/beagleeditor/legacy/releases/latest"
+arch: apple-silicon
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-08"

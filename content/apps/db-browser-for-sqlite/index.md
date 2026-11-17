@@ -8,6 +8,8 @@ website: "https://sqlitebrowser.org"
 license: "MPL-2.0 OR GPL-3.0-or-later"
 licenseUrl: "https://github.com/sqlitebrowser/sqlitebrowser/blob/master/LICENSE"
 download: "https://sqlitebrowser.org/dl/#macos"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "db-browser-for-sqlite"
 featured: false

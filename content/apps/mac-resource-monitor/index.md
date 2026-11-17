@@ -11,6 +11,9 @@ website: "https://github.com/x0c/MacResourceMonitor"
 license: "MIT"
 licenseUrl: "https://github.com/x0c/MacResourceMonitor/blob/main/LICENSE"
 download: "https://github.com/x0c/MacResourceMonitor/releases/latest"
+macos: "26"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

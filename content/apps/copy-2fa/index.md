@@ -12,6 +12,8 @@ website: "https://stanczykwyatt.github.io/copy-2fa/"
 license: "MIT"
 licenseUrl: "https://github.com/stanczykwyatt/copy-2fa/blob/main/LICENSE"
 download: "https://github.com/stanczykwyatt/copy-2fa/releases/download/v0.4.0/Copy-2FA.zip"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

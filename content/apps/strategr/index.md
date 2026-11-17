@@ -11,6 +11,8 @@ website: "https://khrykin.github.io/strategr"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/khrykin/StrategrDesktop/blob/master/LICENSE"
 download: "https://github.com/khrykin/StrategrDesktop/releases/download/v0.1.0/Strategr.v0.1.0.dmg"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

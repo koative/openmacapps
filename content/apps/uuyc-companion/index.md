@@ -11,6 +11,8 @@ website: "https://github.com/aoyamashou/UUyc-companion"
 license: "MIT"
 licenseUrl: "https://github.com/aoyamashou/UUyc-companion/blob/master/LICENSE"
 download: "https://github.com/aoyamashou/UUyc-companion/releases/download/v1.1.3/UUyc-companion-1.1.3.zip"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -12,6 +12,7 @@ website: https://mockoon.com
 license: "MIT"
 licenseUrl: https://github.com/mockoon/mockoon/blob/main/LICENSE.md
 download: https://mockoon.com/download/
+arch: both
 freeDownload: true
 homebrew: "mockoon"
 featured: false

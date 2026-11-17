@@ -8,6 +8,8 @@ website: "https://moneymanagerex.org/"
 license: "GPL-2.0"
 licenseUrl: "https://github.com/moneymanagerex/moneymanagerex/blob/master/LICENSE"
 download: "https://github.com/moneymanagerex/moneymanagerex/releases"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "mmex"
 featured: false

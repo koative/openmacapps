@@ -14,6 +14,9 @@ website: "https://chayapats.github.io/oliv/"
 license: "MIT"
 licenseUrl: "https://github.com/chayapats/oliv/blob/main/LICENSE"
 download: "https://github.com/chayapats/oliv/releases/download/v0.2.2/OLIV-0.2.2.dmg"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -9,6 +9,8 @@ website: "https://www.thunderbird.net"
 license: "MPL-2.0"
 licenseUrl: "https://github.com/thunderbird/thunderbird-desktop/blob/main/mail/app/nsMailApp.cpp"
 download: "https://www.thunderbird.net/en-US/download/"
+macos: "10.15"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-10-17"

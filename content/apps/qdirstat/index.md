@@ -15,6 +15,7 @@ website: https://github.com/jesusha123/qdirstat-macos
 license: "GPL-2.0"
 licenseUrl: https://github.com/shundhammer/qdirstat/blob/master/LICENSE
 download: https://github.com/jesusha123/qdirstat-macos/releases
+notarized: true
 homebrew: "qdirstat"
 freeDownload: true
 featured: false

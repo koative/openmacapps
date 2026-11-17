@@ -13,6 +13,8 @@ website: "https://github.com/niyongsheng/PinShell"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/niyongsheng/PinShell/blob/main/LICENSE"
 download: "https://github.com/niyongsheng/PinShell/releases"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

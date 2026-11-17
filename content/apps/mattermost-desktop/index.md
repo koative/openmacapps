@@ -14,6 +14,8 @@ website: https://mattermost.com
 license: "Apache-2.0"
 licenseUrl: https://github.com/mattermost/desktop/blob/master/LICENSE.txt
 download: https://mattermost.com/apps/
+macos: "14"
+arch: both
 homebrew: "mattermost"
 freeDownload: true
 featured: false

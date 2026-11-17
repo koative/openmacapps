@@ -12,6 +12,9 @@ website: "https://bcourbage.github.io/unison-ui-mac/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/bcourbage/unison-ui-mac/blob/main/LICENSE"
 download: "https://github.com/bcourbage/unison-ui-mac/releases/latest"
+macos: "15"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

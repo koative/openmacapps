@@ -8,6 +8,7 @@ tags:
   - uninstaller
   - maintenance
   - malware-scanner
+  - desktop-mac-toolkit
 alternativeTo:
   - cleanmymac
 repository: https://github.com/starbudweiser/hdCLEANER
@@ -15,21 +16,33 @@ website: https://github.com/starbudweiser/hdCLEANER
 license: MIT
 licenseUrl: https://github.com/starbudweiser/hdCLEANER/blob/main/LICENSE
 download: https://github.com/starbudweiser/hdCLEANER/releases
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/hdCLEANER
   - https://github.com/starbudweiser/hdCLEANER/blob/main/LICENSE
   - https://github.com/starbudweiser/hdCLEANER/releases
   - https://raw.githubusercontent.com/starbudweiser/hdCLEANER/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/hdCLEANER/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/hdCLEANER/releases/download/v1.4.0/hdCLEANER-1.4.0.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The hdCLEANER Cleaning screen listing junk categories with sizes (trash, logs, developer caches, installer packages) and a Clean button."
+    source: https://github.com/starbudweiser/hdCLEANER/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 
 hdCLEANER scans the usual places where a Mac piles up junk and shows how much each category would free. You tick what to remove and it cleans that, asking for an administrator password only when system items are ticked.

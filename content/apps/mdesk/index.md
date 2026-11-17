@@ -7,15 +7,19 @@ tags:
   - window-management
   - desktop
   - displays
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mDESK
 website: https://github.com/starbudweiser/mDESK
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mDESK/blob/main/LICENSE
 download: https://github.com/starbudweiser/mDESK/releases
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/mDESK
   - https://github.com/starbudweiser/mDESK/blob/main/LICENSE
@@ -26,7 +30,16 @@ assets:
     source: https://github.com/starbudweiser/mDESK/releases/download/v1.0/DeSKSTAY-1.0-macOS-arm64.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/mDESK/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The mDESK menu open under its menu bar icon, with the active arrangement \"Studio\" for two displays and the commands to save and restore desktop icons and windows."
+    source: https://github.com/starbudweiser/mDESK/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 
 mDESK remembers where desktop icons and windows sit on your screens and puts them back. It keeps one arrangement per combination of connected displays and picks the matching one on its own.
@@ -37,4 +50,4 @@ For windows, you choose app by app which windows to track. Finder windows and ap
 
 Nothing happens automatically by default. Restoring when the displays change, when the Mac wakes or when the app launches are separate options you turn on.
 
-The app merges the ideas of Desktop Icon Manager and Stay and is not affiliated with their authors. On first use macOS asks for two permissions: Automation, to control the Finder, and Accessibility, to move application windows. Arrangements are kept in a JSON file in Application Support. Releases are arm64 builds for macOS 14 or later, notarized, with the interface in English, French, Spanish and Italian.
+The app merges the ideas of Desktop Icon Manager and Stay and is not affiliated with their authors. On first use macOS asks for two permissions: Automation, to control the Finder, and Accessibility, to move application windows. Arrangements are kept in a JSON file in Application Support. Releases are arm64 builds for macOS 14 or later, notarized, with the interface in English, French, Spanish and Italian. Since version 1.0.2 the app checks GitHub once a day and installs signed updates, never during a restore, and the menu turns automatic installs off.

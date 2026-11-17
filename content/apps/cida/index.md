@@ -11,6 +11,8 @@ website: "https://cida.xuanwo.io"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/Xuanwo/cida/blob/main/LICENSE"
 download: "https://cida-releases.xuanwo.io/latest/Cida.dmg"
+macos: "15"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

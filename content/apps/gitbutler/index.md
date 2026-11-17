@@ -8,6 +8,8 @@ website: "https://gitbutler.com"
 license: "FSL-1.1-MIT"
 licenseUrl: "https://github.com/gitbutlerapp/gitbutler/blob/master/LICENSE.md"
 download: "https://gitbutler.com/downloads"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "gitbutler"
 featured: false

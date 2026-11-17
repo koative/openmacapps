@@ -8,6 +8,7 @@ website: "https://gephi.org/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/gephi/gephi/blob/master/LICENSE.md"
 download: "https://github.com/gephi/gephi/releases"
+arch: both
 freeDownload: true
 homebrew: "gephi"
 featured: false

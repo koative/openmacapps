@@ -13,6 +13,7 @@ website: https://github.com/Nongfsq/ftop
 license: "MIT"
 licenseUrl: https://github.com/Nongfsq/ftop/blob/main/LICENSE
 download: https://github.com/Nongfsq/ftop/releases
+arch: apple-silicon
 homebrew: "ftop"
 freeDownload: true
 featured: false

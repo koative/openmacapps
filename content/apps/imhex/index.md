@@ -12,6 +12,7 @@ website: https://imhex.werwolv.net
 license: GPL-2.0-only AND LGPL-2.1
 licenseUrl: https://github.com/WerWolv/ImHex/blob/master/LICENSE
 download: https://imhex.download
+macos: "15"
 freeDownload: true
 featured: false
 added: '2026-10-17'

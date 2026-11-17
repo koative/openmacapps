@@ -11,6 +11,7 @@ website: https://github.com/farouqaldori/vibe-notch
 license: "Apache-2.0"
 licenseUrl: https://github.com/farouqaldori/vibe-notch/blob/main/LICENSE.md
 download: https://github.com/farouqaldori/vibe-notch/releases
+macos: "15.6"
 freeDownload: true
 homebrew: "vibe-notch"
 featured: false

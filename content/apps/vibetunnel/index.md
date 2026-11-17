@@ -12,6 +12,8 @@ website: https://vibetunnel.sh
 license: "MIT"
 licenseUrl: https://github.com/amantus-ai/vibetunnel/blob/main/LICENSE
 download: https://github.com/amantus-ai/vibetunnel/releases
+macos: "14"
+arch: both
 homebrew: "vibetunnel"
 freeDownload: true
 featured: false

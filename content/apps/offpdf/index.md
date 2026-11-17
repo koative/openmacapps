@@ -17,6 +17,8 @@ website: https://offpdf.com
 license: MIT
 licenseUrl: https://github.com/McanKul/offpdf/blob/main/LICENSE
 download: https://github.com/McanKul/offpdf/releases
+macos: "11"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

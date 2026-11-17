@@ -12,6 +12,9 @@ website: "https://equinoxmac.com"
 license: "MIT"
 licenseUrl: "https://github.com/rlxone/Equinox/blob/main/LICENSE"
 download: "https://github.com/rlxone/Equinox/releases"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "equinox"
 featured: false

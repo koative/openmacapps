@@ -14,6 +14,8 @@ website: "https://dictamelo.com"
 license: "MIT"
 licenseUrl: "https://github.com/sarrazola/dictamelo/blob/main/LICENSE"
 download: "https://github.com/sarrazola/dictamelo/releases/latest"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

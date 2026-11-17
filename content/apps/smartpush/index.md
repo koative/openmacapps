@@ -12,6 +12,7 @@ website: https://github.com/shaojiankui/SmartPush
 license: MIT
 licenseUrl: https://github.com/shaojiankui/SmartPush/blob/master/LICENSE
 download: https://github.com/shaojiankui/SmartPush/releases
+arch: both
 freeDownload: true
 featured: false
 added: '2026-10-17'

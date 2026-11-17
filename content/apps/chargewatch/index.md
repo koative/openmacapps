@@ -11,6 +11,9 @@ website: "https://github.com/TY-teo/ChargeWatching"
 license: "MIT"
 licenseUrl: "https://github.com/TY-teo/ChargeWatching/blob/main/LICENSE"
 download: "https://github.com/TY-teo/ChargeWatching/releases"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

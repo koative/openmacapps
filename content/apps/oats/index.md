@@ -14,6 +14,9 @@ website: https://ariso.ai/oats
 license: "MIT"
 licenseUrl: https://github.com/ariso-ai/oats/blob/main/LICENSE
 download: https://ariso.ai/oats
+macos: "14.4"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

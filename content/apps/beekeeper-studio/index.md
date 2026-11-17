@@ -9,6 +9,7 @@ website: "https://www.beekeeperstudio.io"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/beekeeper-studio/beekeeper-studio/blob/master/LICENSE.md"
 download: "https://github.com/beekeeper-studio/beekeeper-studio/releases"
+arch: both
 freeDownload: true
 homebrew: "beekeeper-studio"
 featured: false

@@ -11,6 +11,9 @@ website: "https://openaso.thirdtechapps.com/"
 license: "MIT"
 licenseUrl: "https://github.com/hubab1/OpenASO/blob/main/LICENSE"
 download: "https://github.com/hubab1/OpenASO/releases"
+macos: "15"
+arch: both
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

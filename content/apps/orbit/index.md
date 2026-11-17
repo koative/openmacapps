@@ -14,6 +14,8 @@ sourceAvailability: "source-available"
 licenseNotes: "PolyForm Noncommercial 1.0.0: noncommercial use only, such as personal use, study, research, hobby projects and nonprofit work. Commercial use and commercial versions are not permitted without a separate license from the author. Copies and derivatives must keep the NOTICE file and the license text."
 licenseUrl: "https://github.com/yuzeguitarist/Orbit/blob/main/LICENSE"
 download: "https://github.com/yuzeguitarist/Orbit/releases/latest/download/Orbit.dmg"
+macos: "14.6"
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

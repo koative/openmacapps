@@ -12,6 +12,8 @@ website: "https://matteogilioli.github.io/porter-for-claude-desktop/"
 license: "MIT"
 licenseUrl: "https://github.com/matteogilioli/porter-for-claude-desktop/blob/main/LICENSE"
 download: "https://github.com/matteogilioli/porter-for-claude-desktop/releases/latest/download/Porter.dmg"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

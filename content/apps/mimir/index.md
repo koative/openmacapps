@@ -11,6 +11,9 @@ website: "https://milowda.com/apps/mimir"
 license: "MIT"
 licenseUrl: "https://github.com/erayendes/mimir/blob/main/LICENSE"
 download: "https://github.com/erayendes/mimir/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

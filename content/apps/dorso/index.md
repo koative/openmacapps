@@ -11,6 +11,9 @@ website: https://github.com/tldev/dorso
 license: MIT
 licenseUrl: https://github.com/tldev/dorso/blob/main/LICENSE
 download: https://github.com/tldev/dorso/releases
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "dorso"
 featured: false

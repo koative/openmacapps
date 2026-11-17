@@ -12,6 +12,9 @@ website: "https://yangzichao.github.io/JustSessions/"
 license: "MIT"
 licenseUrl: "https://github.com/yangzichao/JustSessions/blob/main/LICENSE"
 download: "https://github.com/yangzichao/JustSessions/releases/latest"
+macos: "14"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

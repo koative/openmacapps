@@ -8,6 +8,8 @@ website: "https://neovide.dev"
 license: "MIT"
 licenseUrl: "https://github.com/neovide/neovide/blob/main/LICENSE"
 download: "https://github.com/neovide/neovide/releases"
+arch: both
+notarized: true
 homebrew: "neovide-app"
 freeDownload: true
 featured: false

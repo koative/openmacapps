@@ -9,6 +9,7 @@ website: "https://tabby.sh"
 license: "MIT"
 licenseUrl: "https://github.com/Eugeny/tabby/blob/master/LICENSE"
 download: "https://github.com/Eugeny/tabby/releases"
+arch: both
 freeDownload: true
 homebrew: "tabby"
 featured: false

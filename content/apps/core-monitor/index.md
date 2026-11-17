@@ -16,6 +16,9 @@ website: https://xnu.is-a.dev/
 license: "GPL-3.0"
 licenseUrl: https://github.com/offyotto/Core-Monitor/blob/main/LICENSE
 download: https://github.com/offyotto/Core-Monitor/releases
+macos: "13"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

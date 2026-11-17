@@ -14,6 +14,9 @@ website: "https://getopenstats.com"
 license: "MIT"
 licenseUrl: "https://github.com/gentpan/OpenStats/blob/main/LICENSE"
 download: "https://github.com/gentpan/OpenStats/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

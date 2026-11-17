@@ -11,6 +11,7 @@ website: https://github.com/actuallymentor/battery
 license: "MIT"
 licenseUrl: https://github.com/actuallymentor/battery/blob/main/LICENSE
 download: https://github.com/actuallymentor/battery/releases
+arch: apple-silicon
 homebrew: "battery"
 freeDownload: true
 featured: false

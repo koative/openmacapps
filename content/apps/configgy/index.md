@@ -14,6 +14,8 @@ sourceAvailability: "source-available"
 licenseNotes: "CC BY-NC-SA 4.0, a Creative Commons licence written for content rather than software. You may use, share and adapt the code for noncommercial purposes if you give credit and license your adaptations under the same terms. Commercial use is not allowed."
 licenseUrl: "https://github.com/rocavence/Configgy-app/blob/main/LICENSE"
 download: "https://github.com/rocavence/Configgy-app/releases/latest"
+macos: "14"
+notarized: false
 featured: false
 added: "2026-11-06"
 verified: "2026-11-06"

@@ -14,6 +14,9 @@ website: "https://leoanimesh.github.io/OpenClean/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/leoAnimesh/OpenClean/blob/main/LICENSE"
 download: "https://github.com/leoAnimesh/OpenClean/releases/latest"
+macos: "14"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,9 @@ website: "https://wink.aixie.de"
 license: "MIT"
 licenseUrl: "https://github.com/hey-yvan/Wink/blob/main/LICENSE"
 download: "https://github.com/hey-yvan/Wink/releases/latest"
+macos: "15"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

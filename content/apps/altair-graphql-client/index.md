@@ -13,6 +13,7 @@ website: https://altairgraphql.dev
 license: "MIT"
 licenseUrl: https://github.com/altair-graphql/altair/blob/master/LICENSE
 download: https://github.com/altair-graphql/altair/releases
+arch: both
 homebrew: "altair-graphql-client"
 freeDownload: true
 featured: false

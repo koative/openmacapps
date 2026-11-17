@@ -8,6 +8,8 @@ website: "https://prismlauncher.org"
 license: "GPL-3.0-only"
 licenseUrl: "https://github.com/PrismLauncher/PrismLauncher/blob/develop/LICENSE"
 download: "https://github.com/PrismLauncher/PrismLauncher/releases"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "prismlauncher"
 featured: false

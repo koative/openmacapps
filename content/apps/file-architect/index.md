@@ -11,6 +11,7 @@ website: https://filearchitect.com
 license: MIT
 licenseUrl: https://github.com/filearchitect/app/blob/main/LICENSE
 download: https://github.com/filearchitect/app/releases
+macos: "10.15"
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -14,6 +14,9 @@ website: "https://noahelhadedy.com"
 license: "MIT"
 licenseUrl: "https://github.com/noahelhadedy/double-shot/blob/main/LICENSE"
 download: "https://github.com/noahelhadedy/double-shot/releases/latest"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

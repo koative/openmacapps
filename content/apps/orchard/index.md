@@ -9,6 +9,9 @@ website: "https://orchard.andon.dev"
 license: "MIT"
 licenseUrl: "https://github.com/andrew-waters/orchard/blob/main/LICENSE"
 download: "https://github.com/andrew-waters/orchard/releases/latest"
+macos: "26"
+arch: apple-silicon
+notarized: true
 homebrew: "orchard"
 freeDownload: true
 featured: false

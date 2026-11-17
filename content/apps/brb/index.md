@@ -12,6 +12,8 @@ website: "https://usebrb.github.io"
 license: "MIT"
 licenseUrl: "https://github.com/usebrb/brb/blob/main/LICENSE"
 download: "https://github.com/usebrb/brb/releases/latest/download/brb.app.zip"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

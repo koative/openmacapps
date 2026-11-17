@@ -12,6 +12,9 @@ website: "https://github.com/ksterx/MenubarCC"
 license: "MIT"
 licenseUrl: "https://github.com/ksterx/MenubarCC/blob/main/LICENSE"
 download: "https://github.com/ksterx/MenubarCC/releases/download/v2.8.0/MenubarCC-2.8.0.dmg"
+macos: "13"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

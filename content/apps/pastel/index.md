@@ -12,6 +12,8 @@ website: https://github.com/EEliberto/Pastel-macOS
 license: 'Apache-2.0'
 licenseUrl: https://github.com/EEliberto/Pastel-macOS/blob/main/LICENSE
 download: https://github.com/EEliberto/Pastel-macOS/releases
+macos: "26"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: '2026-10-17'

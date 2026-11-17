@@ -12,6 +12,9 @@ website: "https://zachealy1.github.io/orchestrator/"
 license: "MIT"
 licenseUrl: "https://github.com/zachealy1/orchestrator/blob/main/LICENSE"
 download: "https://github.com/zachealy1/orchestrator/releases/download/v0.2.0-beta.3/Orchestrator_aarch64.dmg"
+macos: "15"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

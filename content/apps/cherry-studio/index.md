@@ -8,6 +8,7 @@ website: "https://cherryai.com"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/CherryHQ/cherry-studio/blob/main/LICENSE"
 download: "https://github.com/CherryHQ/cherry-studio/releases"
+arch: both
 freeDownload: true
 homebrew: "cherry-studio"
 featured: false

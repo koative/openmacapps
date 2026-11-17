@@ -13,6 +13,9 @@ website: "https://apps.roypadina.synology.me/apps/smarthiddenbar/"
 license: "MIT"
 licenseUrl: "https://github.com/roypadina/SmartHiddenBar/blob/main/LICENSE"
 download: "https://github.com/roypadina/SmartHiddenBar/releases/latest"
+macos: "27"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

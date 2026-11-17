@@ -12,6 +12,8 @@ website: "https://frinsen.github.io/whereamip/"
 license: "MIT"
 licenseUrl: "https://github.com/frinsen/whereamip/blob/main/LICENSE"
 download: "https://github.com/frinsen/whereamip/releases/latest"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

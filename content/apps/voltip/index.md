@@ -14,6 +14,9 @@ website: "https://voltip.firlab.app/"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/sunerpy/voltip/blob/main/LICENSE"
 download: "https://github.com/sunerpy/voltip/releases"
+macos: "11"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

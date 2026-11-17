@@ -12,6 +12,9 @@ website: https://xs-labs.com/en/apps/hot/
 license: MIT
 licenseUrl: https://github.com/macmade/Hot/blob/main/LICENSE
 download: https://github.com/macmade/Hot/releases
+macos: "10.13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "hot"
 featured: false

@@ -8,26 +8,38 @@ tags:
   - modding
   - social-media
   - analytics
+  - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/hERALD
 website: https://github.com/starbudweiser/hERALD
 license: MIT
 licenseUrl: https://github.com/starbudweiser/hERALD/blob/main/LICENSE
 download: https://github.com/starbudweiser/hERALD/releases
+macos: "14"
+arch: both
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-10'
+verified: '2026-11-16'
 sources:
   - https://github.com/starbudweiser/hERALD
   - https://github.com/starbudweiser/hERALD/blob/main/LICENSE
   - https://github.com/starbudweiser/hERALD/releases
   - https://raw.githubusercontent.com/starbudweiser/hERALD/main/README.md
 assets:
+  - path: ./assets/screenshot.png
+    source: https://github.com/starbudweiser/hERALD/blob/main/docs/screenshot.png
+    credit: Starbudweiser
+    license: MIT
   - path: ./assets/icon.png
     source: https://github.com/starbudweiser/hERALD/releases/download/v1.0.0/hERALD-1.0.0-macOS-arm64.zip
     credit: Starbudweiser
     license: MIT; upstream app icon, trademarks retained
 icon: ./assets/icon.png
+screenshots:
+  - src: ./assets/screenshot.png
+    alt: "The main window showing a sample mod-launch campaign with twelve planned posts."
+    source: https://github.com/starbudweiser/hERALD/blob/main/docs/screenshot.png
+    credit: Starbudweiser
 ---
 
 hERALD organizes the posts around a release, such as a mod launch, and tracks how each one does once it is out. It never publishes anything. You copy the text and post it yourself.

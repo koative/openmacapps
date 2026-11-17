@@ -12,6 +12,9 @@ website: "https://lumi.loomtable.com"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/loomtable/lumi/blob/main/LICENSE"
 download: "https://github.com/loomtable/lumi/releases/latest"
+macos: "26"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

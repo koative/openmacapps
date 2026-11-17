@@ -14,6 +14,9 @@ website: "https://amanu.me"
 license: "MIT"
 licenseUrl: "https://github.com/gsamat/amanu/blob/master/LICENSE"
 download: "https://github.com/gsamat/amanu/releases/download/v0.6.5/amanu-v0.6.5-macos-universal.dmg"
+macos: "14.2"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

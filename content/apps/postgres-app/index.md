@@ -13,6 +13,9 @@ website: https://postgresapp.com
 license: PostgreSQL
 licenseUrl: https://github.com/PostgresApp/PostgresApp/blob/master/LICENSE
 download: https://postgresapp.com/downloads.html
+macos: "10.15"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "postgres-app"
 featured: false

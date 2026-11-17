@@ -13,6 +13,8 @@ website: "https://rekurt.github.io/Mac-Coffee/"
 license: "MIT"
 licenseUrl: "https://github.com/rekurt/Mac-Coffee/blob/main/LICENSE"
 download: "https://github.com/rekurt/Mac-Coffee/releases/latest"
+macos: "13"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

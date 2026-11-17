@@ -12,6 +12,9 @@ website: https://claudegod.app
 license: "MIT"
 licenseUrl: https://github.com/Lcharvol/Claude-God/blob/main/LICENSE
 download: https://github.com/Lcharvol/Claude-God/releases
+macos: "13"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

@@ -12,6 +12,8 @@ website: "https://pullo.jrdan.dev"
 license: "MIT"
 licenseUrl: "https://github.com/jordan-cod/pullo/blob/main/LICENSE"
 download: "https://github.com/jordan-cod/pullo/releases"
+macos: "14"
+arch: apple-silicon
 freeDownload: true
 featured: false
 added: "2026-11-06"

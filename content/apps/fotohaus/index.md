@@ -12,6 +12,8 @@ website: "https://aelnagish.github.io/Fotohaus/"
 license: "GPL-3.0-or-later"
 licenseUrl: "https://github.com/aelnagish/Fotohaus/blob/main/LICENSE"
 download: "https://github.com/aelnagish/Fotohaus/releases/download/v1.0.1/Fotohaus-1.0.1-arm64.dmg"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

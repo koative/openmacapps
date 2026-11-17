@@ -9,6 +9,9 @@ website: "https://vscodium.com"
 license: "MIT"
 licenseUrl: "https://github.com/VSCodium/vscodium/blob/master/LICENSE"
 download: "https://github.com/VSCodium/vscodium/releases"
+macos: "12"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "vscodium"
 featured: false

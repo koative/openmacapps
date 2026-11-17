@@ -11,6 +11,8 @@ website: "https://github.com/Aybavs/KV-Studio"
 license: "MIT"
 licenseUrl: "https://github.com/Aybavs/KV-Studio/blob/main/LICENSE"
 download: "https://github.com/Aybavs/KV-Studio/releases/latest/download/KVStudio.dmg"
+macos: "14"
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,9 @@ website: "https://github.com/jpadilla/redisapp"
 license: "MIT"
 licenseUrl: "https://github.com/jpadilla/redisapp/blob/master/LICENSE"
 download: "https://github.com/jpadilla/redisapp/releases/download/4.0.2-build.1/Redis.zip"
+macos: "10.10"
+arch: both
+notarized: true
 freeDownload: true
 maintenance: unmaintained
 maintenanceNote: "No release since November 2017."

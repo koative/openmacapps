@@ -14,6 +14,8 @@ website: "https://github.com/akira82-ai/echo-app"
 license: "MIT"
 licenseUrl: "https://github.com/akira82-ai/echo-app/blob/main/LICENSE"
 download: "https://github.com/akira82-ai/echo-app/releases/latest"
+macos: "13"
+arch: both
 freeDownload: true
 featured: false
 added: "2026-11-06"

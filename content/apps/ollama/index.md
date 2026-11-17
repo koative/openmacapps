@@ -9,6 +9,8 @@ website: "https://ollama.com"
 license: "MIT"
 licenseUrl: "https://github.com/ollama/ollama/blob/main/LICENSE"
 download: "https://ollama.com/download/mac"
+macos: "14"
+arch: both
 freeDownload: true
 homebrew: "ollama-app"
 featured: false

@@ -11,6 +11,8 @@ website: "https://github.com/0xzerolight/anki_miner"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/0xzerolight/anki_miner/blob/main/LICENSE"
 download: "https://github.com/0xzerolight/anki_miner/releases/download/v3.11.0/AnkiMiner-3.11.0-macOS-arm64.dmg"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -13,6 +13,7 @@ website: https://emdash.com
 license: "Apache-2.0"
 licenseUrl: https://github.com/generalaction/emdash/blob/main/LICENSE.md
 download: https://github.com/generalaction/emdash/releases
+arch: both
 homebrew: "emdash"
 freeDownload: true
 featured: false

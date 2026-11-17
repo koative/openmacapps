@@ -10,6 +10,9 @@ website: https://mowglii.com/snk/
 license: MIT
 licenseUrl: https://github.com/sfsam/snk/blob/master/LICENSE.md
 download: https://mowglii.com/snk/
+macos: "11"
+arch: both
+notarized: true
 freeDownload: true
 featured: false
 added: '2026-10-17'

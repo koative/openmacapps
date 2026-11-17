@@ -11,6 +11,8 @@ website: "https://getlume.org"
 license: "AGPL-3.0"
 licenseUrl: "https://github.com/bilipp/Lume/blob/main/LICENSE"
 download: "https://github.com/bilipp/Lume/releases"
+macos: "15"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

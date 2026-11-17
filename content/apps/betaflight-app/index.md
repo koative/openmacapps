@@ -11,6 +11,8 @@ website: https://betaflight.com
 license: "GPL-3.0"
 licenseUrl: https://github.com/betaflight/betaflight-configurator/blob/master/LICENSE
 download: https://github.com/betaflight/betaflight-configurator/releases
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

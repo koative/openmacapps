@@ -14,6 +14,9 @@ website: "https://larryxiao.github.io/openquack/"
 license: "MIT"
 licenseUrl: "https://github.com/larryxiao/openquack/blob/main/LICENSE"
 download: "https://github.com/larryxiao/openquack/releases"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: '2026-10-17'

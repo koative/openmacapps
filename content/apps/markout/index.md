@@ -14,6 +14,9 @@ website: "https://github.com/maxmilian/markout"
 license: "MIT"
 licenseUrl: "https://github.com/maxmilian/markout/blob/main/LICENSE"
 download: "https://github.com/maxmilian/markout/releases/download/v0.3.0/Markout-v0.3.0.dmg"
+macos: "14"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

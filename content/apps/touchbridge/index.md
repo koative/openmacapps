@@ -11,6 +11,9 @@ website: "https://hmakt99.github.io/UnTouchID/"
 license: "MIT"
 licenseUrl: "https://github.com/HMAKT99/UnTouchID/blob/main/LICENSE"
 download: "https://github.com/HMAKT99/UnTouchID/releases/download/v2.0.1/TouchBridge-2.0.1.dmg"
+macos: "13"
+arch: apple-silicon
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

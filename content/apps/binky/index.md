@@ -12,6 +12,9 @@ website: "https://binkyfiles.com"
 license: "MIT"
 licenseUrl: "https://github.com/heyderekj/binky/blob/main/LICENSE"
 download: "https://github.com/heyderekj/binky/releases/download/v1.7.0/Binky-1.7.0.dmg"
+macos: "14"
+arch: both
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

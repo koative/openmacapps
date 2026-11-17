@@ -12,6 +12,9 @@ website: "https://github.com/alichtman/deadbolt"
 license: "MIT"
 licenseUrl: "https://github.com/alichtman/deadbolt/blob/main/LICENSE"
 download: "https://github.com/alichtman/deadbolt/releases"
+macos: "10.15"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "deadbolt"
 featured: false

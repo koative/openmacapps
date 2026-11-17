@@ -8,6 +8,9 @@ website: "https://picard.musicbrainz.org/"
 license: "GPL-2.0-or-later"
 licenseUrl: "https://github.com/metabrainz/picard/blob/master/COPYING.txt"
 download: "https://github.com/metabrainz/picard/releases"
+macos: "13"
+arch: both
+notarized: true
 freeDownload: true
 homebrew: "musicbrainz-picard"
 featured: false

@@ -15,6 +15,8 @@ website: "https://stealthdev-labs.github.io/disksage/"
 license: "MIT"
 licenseUrl: "https://github.com/stealthdev-labs/disksage/blob/main/LICENSE"
 download: "https://github.com/stealthdev-labs/disksage/releases/latest"
+macos: "14"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

@@ -11,6 +11,8 @@ website: https://apps.ankiweb.net/
 license: AGPL-3.0-or-later
 licenseUrl: https://github.com/ankitects/anki/blob/main/LICENSE
 download: https://github.com/ankitects/anki/releases
+macos: "13"
+arch: both
 freeDownload: true
 homebrew: "anki"
 featured: false

@@ -11,6 +11,8 @@ website: "https://github.com/mstcvk/mc-download-manager"
 license: "MIT"
 licenseUrl: "https://github.com/mstcvk/mc-download-manager/blob/main/LICENSE"
 download: "https://github.com/mstcvk/mc-download-manager/releases"
+macos: "13"
+notarized: false
 freeDownload: true
 featured: false
 added: "2026-11-06"

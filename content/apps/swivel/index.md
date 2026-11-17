@@ -11,6 +11,8 @@ website: "https://jonathanlotan.github.io/Swivel/"
 license: "MIT"
 licenseUrl: "https://github.com/jonathanlotan/Swivel/blob/main/LICENSE"
 download: "https://github.com/jonathanlotan/Swivel/releases/latest/download/Swivel.dmg"
+arch: apple-silicon
+notarized: true
 freeDownload: true
 featured: false
 added: "2026-11-06"
