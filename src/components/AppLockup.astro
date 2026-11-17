@@ -13,6 +13,8 @@ interface Props {
 const { app, searchable = false, replaces = [] } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const unmaintained = app.maintenance === 'unmaintained';
+// An archived repository reads like Unmaintained, which the record states with its own note.
+const archived = !unmaintained && !!githubStats(app.slug)?.archived;
 const restricted =
   !unmaintained && app.sourceAvailability === 'source-available';
 // Search reads the name, summary and license from the card's text; only the
@@ -52,6 +54,8 @@ const filters = searchable
     >
       Get
     </a>
-    <span class:list={['fine-print', { restricted }]}>{licenseLabel(app)}</span>
+    <span class:list={['fine-print', { restricted: restricted && !archived }]}>
+      {archived ? 'Archived' : licenseLabel(app)}
+    </span>
   </div>
 </article>

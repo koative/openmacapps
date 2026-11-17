@@ -24,7 +24,7 @@ import { appImage } from '../../lib/images';
 import { renderMarkdown } from '../../lib/markdown';
 import { relatedApps } from '../../lib/related';
 import { absoluteUrl, site } from '../../lib/site';
-import { ArrowUpRight, ChevronLeft } from '@lucide/astro';
+import { Archive, ArrowUpRight, ChevronLeft, ShieldAlert } from '@lucide/astro';
 export function getStaticPaths() {
   return getApps().map((app) => ({
     params: { slug: app.slug },
@@ -97,6 +97,7 @@ const brewPage = brewTap
 const macosLabel = app.macos && `macOS ${app.macos} or later`;
 const archLabel = app.arch && archLabels[app.arch];
 const github = githubStats(app.slug);
+const archived = !unmaintained && !!github?.archived;
 const shortDate = (date: string) =>
   new Date(`${date}T00:00:00Z`).toLocaleDateString('en-US', {
     day: 'numeric',
@@ -172,9 +173,12 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
         )}
       </div>
       <p
-        class:list={['fine-print', { restricted: restricted && !unmaintained }]}
+        class:list={[
+          'fine-print',
+          { restricted: restricted && !unmaintained && !archived },
+        ]}
       >
-        {licenseLabel(app)}
+        {archived ? 'Archived' : licenseLabel(app)}
         {app.freeDownload === true && ' · Free download'}
         {app.freeDownload === false && ' · Paid download'} · Downloads from{' '}
         {downloadHost}
@@ -223,9 +227,17 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
       <div>
         <dt>Requires</dt>
         <dd class="info-value">
-          {app.macos ? `macOS ${app.macos}+` : 'macOS'}
+          {app.macos
+            ? `macOS ${app.macos}+`
+            : {
+                both: 'Any Mac',
+                'apple-silicon': 'Apple silicon',
+                intel: 'Intel',
+              }[app.arch!]}
         </dd>
-        <dd class="info-caption">{archLabel ?? 'Chip not stated'}</dd>
+        <dd class="info-caption">
+          {app.macos ? (archLabel ?? 'Chip not stated') : 'Version not stated'}
+        </dd>
       </div>
     )}
   </dl>
@@ -273,19 +285,27 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
     </section>
   )}
 
-  {github?.archived && !unmaintained && (
+  {archived && (
     <section class="maintenance-note" aria-labelledby="archived-note-title">
-      <h2 id="archived-note-title">Repository archived</h2>
+      <h2 id="archived-note-title">
+        <Archive size={16} stroke-width={2.2} aria-hidden="true" />
+        Archived on GitHub
+      </h2>
       <p>
-        The developer has archived the repository on GitHub, so no further
-        updates are expected.
+        The developer archived the repository, so {app.name} will not get fixes
+        or updates. The last commit was on{' '}
+        <time datetime={github!.pushed}>{shortDate(github!.pushed)}</time>. The
+        current download may still work.
       </p>
     </section>
   )}
 
   {app.notarized === false && (
     <section class="maintenance-note" aria-labelledby="gatekeeper-note-title">
-      <h2 id="gatekeeper-note-title">Not notarized by Apple</h2>
+      <h2 id="gatekeeper-note-title">
+        <ShieldAlert size={16} stroke-width={2.2} aria-hidden="true" />
+        Not notarized by Apple
+      </h2>
       <p>
         macOS blocks the first launch of apps that Apple has not checked. Open{' '}
         {app.name} once, then choose Open Anyway in System Settings under
