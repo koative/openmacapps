@@ -1,6 +1,6 @@
 ---
 name: qLOOKS
-summary: "Adds Quick Look previews and Finder thumbnails for formats macOS skips, from alpha MOV and MKV to SVG, archives and 3D models."
+summary: "Adds Quick Look previews and Finder thumbnails for formats macOS skips, from alpha MOV and WebM to AVI, SVG and 3D models."
 category: Utilities
 tags:
   - quick-look
@@ -18,7 +18,7 @@ arch: apple-silicon
 freeDownload: true
 featured: false
 added: '2026-11-16'
-verified: '2026-11-16'
+verified: '2026-11-17'
 sources:
   - https://github.com/starbudweiser/qLOOKS
   - https://github.com/starbudweiser/qLOOKS/blob/main/LICENSE
@@ -44,9 +44,11 @@ qLOOKS fills the gaps in Quick Look. Select a file in the Finder, press the spac
 
 It began with QuickTime movies that carry transparency, in ProRes 4444, PNG or Animation codecs. A video decoder extension plays the PNG and Animation codecs, which recent macOS versions no longer decode, and the preview bar switches between a checkerboard, dark or light background with looped playback.
 
-Coverage now includes:
+Version 1.2.0 adds video containers that Apple never supported. WebM, AVI, Windows Media, Flash Video, Ogg Video, RealMedia, MXF and DivX files, and MKV files with older codecs such as MPEG-4 or VP8, get a thumbnail and a preview. A reduced build of FFmpeg under the LGPL decodes them in software. You see the picture only, without sound.
 
-- MKV video, SVG, EPS and Illustrator files;
+Coverage also includes:
+
+- MKV video with H.264, HEVC, VP9 or AV1, plus SVG, EPS and Illustrator files;
 - folders and archives;
 - Markdown and source code;
 - application bundles, GPX tracks on a map and 3D models.
