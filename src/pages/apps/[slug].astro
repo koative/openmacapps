@@ -24,7 +24,13 @@ import { appImage } from '../../lib/images';
 import { renderMarkdown } from '../../lib/markdown';
 import { relatedApps } from '../../lib/related';
 import { absoluteUrl, site } from '../../lib/site';
-import { Archive, ArrowUpRight, ChevronLeft, ShieldAlert } from '@lucide/astro';
+import {
+  Archive,
+  ArrowUpRight,
+  ChevronLeft,
+  ShieldAlert,
+  Star,
+} from '@lucide/astro';
 export function getStaticPaths() {
   return getApps().map((app) => ({
     params: { slug: app.slug },
@@ -98,6 +104,8 @@ const macosLabel = app.macos && `macOS ${app.macos} or later`;
 const archLabel = app.arch && archLabels[app.arch];
 const github = githubStats(app.slug);
 const archived = !unmaintained && !!github?.archived;
+// Brand-new projects keep the host here; their count stays under Information.
+const stripStars = github && github.stars >= 10 ? github.stars : null;
 const shortDate = (date: string) =>
   new Date(`${date}T00:00:00Z`).toLocaleDateString('en-US', {
     day: 'numeric',
@@ -207,8 +215,20 @@ const badgeMarkdown = `[![Listed on ${site.name}](${absoluteUrl('badge.svg')})](
     </div>
     <div>
       <dt>Source</dt>
-      <dd class="info-value">{host}</dd>
-      <dd class="info-caption">{owner}</dd>
+      {stripStars !== null ? (
+        <dd
+          class="info-value stars"
+          aria-label={`${stripStars.toLocaleString('en-US')} GitHub stars`}
+        >
+          <Star size={17} stroke-width={2.4} aria-hidden="true" />
+          {formatStars(stripStars)}
+        </dd>
+      ) : (
+        <dd class="info-value">{host}</dd>
+      )}
+      <dd class="info-caption">
+        {stripStars !== null ? `${owner} on GitHub` : owner}
+      </dd>
     </div>
     <div>
       <dt>Verified</dt>

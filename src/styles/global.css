@@ -1337,6 +1337,16 @@ main {
   border-top: 0;
 }
 
+.info-value.stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.info-value.stars svg {
+  color: var(--label-2);
+}
+
 .license-note {
   max-width: 820px;
   margin-top: 32px;
