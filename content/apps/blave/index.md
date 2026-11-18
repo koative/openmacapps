@@ -12,6 +12,7 @@ website: "https://blave.org"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/Blave-TW/blave-agent/blob/main/LICENSE"
 download: "https://github.com/Blave-TW/blave-agent/releases"
+homebrew: "blave"
 macos: "13"
 arch: both
 notarized: true
