@@ -15,6 +15,7 @@ website: "https://searchbrowser.app"
 license: "MIT"
 licenseUrl: "https://github.com/driceroland/Search/blob/main/LICENSE"
 download: "https://searchbrowser.app"
+homebrew: "search-browser"
 macos: "14"
 arch: both
 freeDownload: true

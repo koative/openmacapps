@@ -1,12 +1,14 @@
 ---
 name: mSIZER
-summary: "Resizes, crops, retouches, watermarks, renames and converts photos in batches, with a live before and after preview."
+summary: "Resizes, retouches, renames and converts photos in batches, and turns RAW files into DNG with a culling viewer."
 category: Media
 tags:
   - photos
   - batch-processing
   - image-converter
   - watermark
+  - raw
+  - dng
   - resize
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mSIZER
@@ -20,7 +22,7 @@ notarized: true
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-16'
+verified: '2026-11-17'
 sources:
   - https://github.com/starbudweiser/mSIZER
   - https://github.com/starbudweiser/mSIZER/blob/main/LICENSE
@@ -54,6 +56,8 @@ Operations you can combine:
 - renaming with a pattern such as `{name}`, `{n}` or `{date}`.
 
 Output can be JPEG, PNG, WebP, HEIC, AVIF, TIFF, PSD, PDF and several more, with a quality slider or a maximum file size the app reaches by adjusting quality. Metadata can be kept, stripped of GPS location only, or erased. Presets cover the web, email and social networks such as Instagram, YouTube or Discord.
+
+A separate RAW to DNG mode converts camera RAW files in bulk, including Panasonic RW2, Canon, Nikon, Sony, Fujifilm and Olympus. The conversion is lossless, with the sensor data kept as is, and an option re-reads each DNG and compares every pixel with the RAW. RAW files are decoded with LibRaw under the CDDL-1.0. DNG is the open format that Lightroom and Bridge read, and another option embeds the original RAW. A built-in viewer with a filmstrip, histogram, star ratings and pick or reject flags helps you sort a shoot before converting, and rejected files can go to the Trash.
 
 Results go to a subfolder or another folder. If you choose to replace originals, they go to the Trash, and existing files are never overwritten. Filters run on the GPU through Core Image.
 
