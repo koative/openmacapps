@@ -4,11 +4,11 @@ summary: "Hides the menu bar icons you rarely need behind an arrow that you clic
 category: "Utilities"
 tags: ["menu-bar", "minimal", "native"]
 alternativeTo: ["bartender"]
-repository: "https://github.com/dwarvesf/hidden"
-website: "https://github.com/dwarvesf/hidden"
+repository: "https://github.com/consolelabs/hidden"
+website: "https://github.com/consolelabs/hidden"
 license: "MIT"
-licenseUrl: "https://github.com/dwarvesf/hidden/blob/develop/LICENSE"
-download: "https://github.com/dwarvesf/hidden/releases"
+licenseUrl: "https://github.com/consolelabs/hidden/blob/develop/LICENSE"
+download: "https://github.com/consolelabs/hidden/releases"
 macos: "13"
 arch: both
 notarized: true
@@ -17,10 +17,10 @@ homebrew: "hiddenbar"
 featured: false
 added: "2026-10-17"
 verified: "2026-11-08"
-sources: ["https://github.com/dwarvesf/hidden", "https://github.com/dwarvesf/hidden/blob/develop/LICENSE", "https://raw.githubusercontent.com/dwarvesf/hidden/develop/README.md", "https://raw.githubusercontent.com/dwarvesf/hidden/develop/docs/MANUAL.md", "https://github.com/dwarvesf/hidden/releases/tag/v1.11.1", "https://www.macbartender.com"]
+sources: ["https://github.com/consolelabs/hidden", "https://github.com/consolelabs/hidden/blob/develop/LICENSE", "https://raw.githubusercontent.com/consolelabs/hidden/develop/README.md", "https://raw.githubusercontent.com/consolelabs/hidden/develop/docs/MANUAL.md", "https://github.com/consolelabs/hidden/releases/tag/v1.11.1", "https://www.macbartender.com"]
 icon: "./assets/icon.png"
-screenshots: [{"src": "./assets/screenshot.png", "alt": "Hidden Bar menu bar divider and application icons.", "source": "https://raw.githubusercontent.com/dwarvesf/hidden/develop/img/screen1.png", "credit": "Hidden Bar contributors"}]
-assets: [{"path": "./assets/icon.png", "source": "https://raw.githubusercontent.com/dwarvesf/hidden/develop/hidden/Assets.xcassets/AppIcon.appiconset/icon_256%401x.png", "credit": "Hidden Bar contributors", "license": "MIT; upstream project asset, trademarks retained"}, {"path": "./assets/screenshot.png", "source": "https://raw.githubusercontent.com/dwarvesf/hidden/develop/img/screen1.png", "credit": "Hidden Bar contributors", "license": "MIT; upstream project asset, trademarks retained"}]
+screenshots: [{"src": "./assets/screenshot.png", "alt": "Hidden Bar menu bar divider and application icons.", "source": "https://raw.githubusercontent.com/consolelabs/hidden/207a89dad680ec76c461bba4739d546900ce95da/img/screen1.png", "credit": "Hidden Bar contributors"}]
+assets: [{"path": "./assets/icon.png", "source": "https://raw.githubusercontent.com/consolelabs/hidden/develop/hidden/Assets.xcassets/AppIcon.appiconset/icon_256%401x.png", "credit": "Hidden Bar contributors", "license": "MIT; upstream project asset, trademarks retained"}, {"path": "./assets/screenshot.png", "source": "https://raw.githubusercontent.com/consolelabs/hidden/207a89dad680ec76c461bba4739d546900ce95da/img/screen1.png", "credit": "Hidden Bar contributors", "license": "MIT; upstream project asset, trademarks retained"}]
 ---
 
 Hidden Bar adds an arrow to the menu bar. Hold Command and drag the icons you rarely use to its left, then click the arrow to collapse them out of sight or bring them back.
