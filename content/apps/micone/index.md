@@ -19,7 +19,7 @@ notarized: true
 freeDownload: true
 featured: false
 added: '2026-11-10'
-verified: '2026-11-16'
+verified: '2026-11-17'
 sources:
   - https://github.com/starbudweiser/MiCONE
   - https://github.com/starbudweiser/MiCONE/blob/main/LICENSE
@@ -48,6 +48,6 @@ Recent versions of macOS draw a white plate behind transparent or non-square ico
 
 Background removal is automatic. It uses a flood fill for images that already sit on a plate and Apple's Vision framework for the rest, all on your Mac. Apply to a folder sets the result straight on a folder in the Finder.
 
-Generating an icon from a text prompt is optional. It goes through Pollinations, Hugging Face, Gemini or OpenAI, and API keys stay in the Keychain. There is also a command line, for example `MiCONE --cli image.png --png`, for batches.
+Generating an icon from a text prompt is optional. It goes through Pollinations, Hugging Face, Gemini or OpenAI, and API keys stay in the Keychain. There is also a command line, for example `MiCONE --cli image.png --png`, for batches; it can set the folder colour, keep the motif in colour instead of engraved, remove the background and apply the icon to a folder.
 
 The app checks GitHub once a day and verifies the SHA-256, bundle identifier and Developer ID signature before replacing itself, never while an image is loaded. Releases are arm64 builds for macOS 14 or later, notarized, in four languages.
