@@ -15,13 +15,13 @@ freeDownload: true
 featured: false
 added: "2026-11-21"
 verified: "2026-11-21"
-sources: ["https://github.com/starbudweiser/mHUB", "https://github.com/starbudweiser/mHUB/blob/main/LICENSE", "https://github.com/starbudweiser/mHUB/releases/tag/v1.1.1", "https://github.com/starbudweiser/mHUB/blob/main/README.md"]
+sources: ["https://github.com/starbudweiser/mHUB", "https://github.com/starbudweiser/mHUB/blob/main/LICENSE", "https://github.com/starbudweiser/mHUB/releases/tag/v1.1.2", "https://github.com/starbudweiser/mHUB/blob/main/README.md"]
 screenshots: [{"src": "./assets/screenshot.png", "alt": "The mHUB library window: toolkit apps as cards with their update status and Open and Settings buttons, categories in the sidebar, and the details of the selected app on the right.", "source": "https://github.com/starbudweiser/mHUB/blob/main/docs/screenshot.png", "credit": "mHUB authors"}]
 assets: [{"path": "./assets/screenshot.png", "source": "https://github.com/starbudweiser/mHUB/blob/main/docs/screenshot.png", "credit": "mHUB authors", "license": "MIT (mHUB repository)"}, {"path": "./assets/icon.png", "source": "https://github.com/starbudweiser/mHUB/blob/main/assets/icon-1024.png", "credit": "mHUB authors", "license": "MIT (mHUB repository)"}]
 icon: ./assets/icon.png
 ---
 
-mHUB gathers the apps of the DESKTOP MAC TOOLKIT, the author's collection of Mac utilities, behind one menu bar icon and one window. The library shows each app from its catalogue with a short description, the installed and latest versions, and buttons to open it or bring up its settings. A red dot on the menu bar icon means updates are waiting.
+mHUB gathers the apps of the DESKTOP MAC TOOLKIT, the author's collection of Mac utilities, behind one menu bar icon and one window. The catalogue lists 28 apps in version 1.1.2. The library shows each one with a short description, the installed and latest versions, and buttons to open it or bring up its settings. A red dot on the menu bar icon means updates are waiting.
 
 Installing or updating an app downloads its release from the app's public GitHub repository. Before anything is replaced, mHUB verifies the code signature, requires the expected Developer ID team and runs a Gatekeeper check. It never replaces an app that is open. Apps are installed in ~/Applications/Applications Personnelles.
 
