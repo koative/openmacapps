@@ -9,7 +9,7 @@ tags:
   - fallout
   - localization
 repository: https://github.com/starbudweiser/mTRANSLATOR
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#mTRANSLATOR"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mTRANSLATOR/blob/main/LICENSE
 download: https://github.com/starbudweiser/mTRANSLATOR/releases

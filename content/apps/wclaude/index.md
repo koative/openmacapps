@@ -9,7 +9,7 @@ tags:
   - automation
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/wCLAUDE
-website: https://github.com/starbudweiser/wCLAUDE
+website: "https://starbudweiser.github.io/wshowcase/#wCLAUDE"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/wCLAUDE/blob/main/LICENSE
 download: "https://github.com/starbudweiser/wCLAUDE/releases/latest"

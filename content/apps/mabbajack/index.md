@@ -9,7 +9,7 @@ tags:
   - modlists
   - nexus-mods
 repository: https://github.com/starbudweiser/mABBAJACK
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#mABBAJACK"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mABBAJACK/blob/main/LICENSE
 download: https://github.com/starbudweiser/mABBAJACK/releases

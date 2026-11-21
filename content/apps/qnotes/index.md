@@ -10,7 +10,7 @@ tags:
   - icloud
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/qNOTES
-website: https://github.com/starbudweiser/qNOTES
+website: "https://starbudweiser.github.io/wshowcase/#qNOTES"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/qNOTES/blob/main/LICENSE
 download: "https://github.com/starbudweiser/qNOTES/releases/latest"

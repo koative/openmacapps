@@ -9,7 +9,7 @@ tags:
   - bookmarks
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mLINKS
-website: https://github.com/starbudweiser/mLINKS
+website: "https://starbudweiser.github.io/wshowcase/#mLINKS"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mLINKS/blob/main/LICENSE
 download: https://github.com/starbudweiser/mLINKS/releases

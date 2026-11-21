@@ -9,7 +9,7 @@ tags:
   - network-extension
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mSILENCE
-website: https://github.com/starbudweiser/mSILENCE
+website: "https://starbudweiser.github.io/wshowcase/#mSILENCE"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mSILENCE/blob/main/LICENSE
 download: "https://github.com/starbudweiser/mSILENCE/releases/latest"

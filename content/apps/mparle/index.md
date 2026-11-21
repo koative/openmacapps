@@ -4,7 +4,7 @@ summary: "Menu bar translator for text selected in any Mac app, with one shortcu
 category: "Productivity"
 tags: ["translation", "menu-bar", "shortcut", "offline", "text-selection", "services"]
 repository: "https://github.com/starbudweiser/mPARLE"
-website: "https://github.com/starbudweiser/mPARLE"
+website: "https://starbudweiser.github.io/wshowcase/#mPARLE"
 license: "MIT"
 licenseUrl: "https://github.com/starbudweiser/mPARLE/blob/main/LICENSE"
 download: "https://github.com/starbudweiser/mPARLE/releases/latest"

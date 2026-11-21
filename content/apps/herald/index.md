@@ -10,7 +10,7 @@ tags:
   - analytics
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/hERALD
-website: https://github.com/starbudweiser/hERALD
+website: "https://starbudweiser.github.io/wshowcase/#hERALD"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/hERALD/blob/main/LICENSE
 download: https://github.com/starbudweiser/hERALD/releases

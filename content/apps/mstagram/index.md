@@ -9,7 +9,7 @@ tags:
   - social-media
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mSTAGRAM
-website: https://github.com/starbudweiser/mSTAGRAM
+website: "https://starbudweiser.github.io/wshowcase/#mSTAGRAM"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mSTAGRAM/blob/main/LICENSE
 download: "https://github.com/starbudweiser/mSTAGRAM/releases/latest"
