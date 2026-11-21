@@ -4,7 +4,7 @@ summary: "Installs, updates and opens the DESKTOP MAC TOOLKIT apps from one menu
 category: "Utilities"
 tags: ["app-management", "updates", "menu-bar", "code-signing", "launcher"]
 repository: "https://github.com/starbudweiser/mHUB"
-website: "https://github.com/starbudweiser/mHUB"
+website: "https://starbudweiser.github.io/wshowcase/#mHUB"
 license: "MIT"
 licenseUrl: "https://github.com/starbudweiser/mHUB/blob/main/LICENSE"
 download: "https://github.com/starbudweiser/mHUB/releases/latest"

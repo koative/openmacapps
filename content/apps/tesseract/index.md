@@ -4,7 +4,7 @@ summary: "Creates and runs macOS, Linux and Windows 11 Arm virtual machines, wit
 category: "Developer tools"
 tags: ["virtual-machines", "virtualization", "linux", "menu-bar", "mcp"]
 repository: "https://github.com/starbudweiser/TESSERaCT"
-website: "https://github.com/starbudweiser/TESSERaCT"
+website: "https://starbudweiser.github.io/wshowcase/#TESSERaCT"
 license: "Apache-2.0"
 licenseUrl: "https://github.com/starbudweiser/TESSERaCT/blob/main/LICENSE"
 download: "https://github.com/starbudweiser/TESSERaCT/releases/latest"

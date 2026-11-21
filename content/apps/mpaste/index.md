@@ -4,7 +4,7 @@ summary: "Makes Command-V paste plain text in every app, stripping link trackers
 category: "Utilities"
 tags: ["clipboard", "plain-text", "menu-bar", "keyboard-shortcuts", "privacy"]
 repository: "https://github.com/starbudweiser/mPASTE"
-website: "https://github.com/starbudweiser/mPASTE"
+website: "https://starbudweiser.github.io/wshowcase/#mPASTE"
 license: "MIT"
 licenseUrl: "https://github.com/starbudweiser/mPASTE/blob/main/LICENSE"
 download: "https://github.com/starbudweiser/mPASTE/releases/latest"

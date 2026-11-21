@@ -4,7 +4,7 @@ summary: "Runs live review sessions with a client on video, images and PDFs, wit
 category: "Media"
 tags: ["annotation", "collaboration", "video", "peer-to-peer", "encryption", "self-hosted"]
 repository: "https://github.com/starbudweiser/mFRAMES"
-website: "https://github.com/starbudweiser/mFRAMES"
+website: "https://starbudweiser.github.io/wshowcase/#mFRAMES"
 license: "MIT"
 licenseUrl: "https://github.com/starbudweiser/mFRAMES/blob/main/LICENSE"
 download: "https://github.com/starbudweiser/mFRAMES/releases/latest"

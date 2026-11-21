@@ -4,7 +4,7 @@ summary: "Opens a ring menu under the pointer to launch apps, switch between the
 category: "Productivity"
 tags: ["launcher", "app-switcher", "keyboard-shortcuts", "mouse", "music", "menu-bar"]
 repository: "https://github.com/starbudweiser/mPIE"
-website: "https://github.com/starbudweiser/mPIE"
+website: "https://starbudweiser.github.io/wshowcase/#mPIE"
 license: "MIT"
 licenseUrl: "https://github.com/starbudweiser/mPIE/blob/main/LICENSE"
 download: "https://github.com/starbudweiser/mPIE/releases/latest"

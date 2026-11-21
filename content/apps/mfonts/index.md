@@ -4,7 +4,7 @@ summary: "Organizes fonts into libraries, collections and smart lists, activates
 category: "Design"
 tags: ["fonts", "library", "tagging", "previews", "organization", "menu-bar"]
 repository: "https://github.com/starbudweiser/mFONTS"
-website: "https://github.com/starbudweiser/mFONTS"
+website: "https://starbudweiser.github.io/wshowcase/#mFONTS"
 license: "MIT"
 licenseUrl: "https://github.com/starbudweiser/mFONTS/blob/main/LICENSE"
 download: "https://github.com/starbudweiser/mFONTS/releases/latest"

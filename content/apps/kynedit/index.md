@@ -4,7 +4,7 @@ summary: "Browses, tags and transcodes video footage, copies camera cards with c
 category: "Media"
 tags: ["video", "video-converter", "metadata", "tagging", "trimming", "backup"]
 repository: "https://github.com/starbudweiser/KyNEDIT"
-website: "https://github.com/starbudweiser/KyNEDIT"
+website: "https://starbudweiser.github.io/wshowcase/#kYNEDIT"
 license: "MIT"
 licenseUrl: "https://github.com/starbudweiser/KyNEDIT/blob/main/LICENSE"
 download: "https://github.com/starbudweiser/KyNEDIT/releases/latest"

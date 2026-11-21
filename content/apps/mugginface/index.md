@@ -4,7 +4,7 @@ summary: "Ranks Hugging Face models by how well they fit your Mac's chip, memory
 category: "AI"
 tags: ["language-models", "downloads", "agents", "monitoring", "notifications"]
 repository: "https://github.com/starbudweiser/mUGGINFACE"
-website: "https://github.com/starbudweiser/mUGGINFACE"
+website: "https://starbudweiser.github.io/wshowcase/#mUGGINFACE"
 license: "MIT"
 licenseUrl: "https://github.com/starbudweiser/mUGGINFACE/blob/main/LICENSE"
 download: "https://github.com/starbudweiser/mUGGINFACE/releases/latest"
