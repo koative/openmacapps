@@ -9,7 +9,7 @@ tags:
   - notifications
   - bug-tracking
 repository: https://github.com/starbudweiser/nEXUSWATCH
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#nEXUSWATCH"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/nEXUSWATCH/blob/main/LICENSE
 download: https://github.com/starbudweiser/nEXUSWATCH/releases

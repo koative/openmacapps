@@ -9,7 +9,7 @@ tags:
   - maintenance
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mCLEAN
-website: https://github.com/starbudweiser/mCLEAN
+website: "https://starbudweiser.github.io/wshowcase/#mCLEAN"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mCLEAN/blob/main/LICENSE
 download: https://github.com/starbudweiser/mCLEAN/releases

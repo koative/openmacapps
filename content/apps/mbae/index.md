@@ -9,7 +9,7 @@ tags:
   - fallout
   - extractor
 repository: https://github.com/starbudweiser/mBAE
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#mBAE"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mBAE/blob/main/LICENSE
 download: https://github.com/starbudweiser/mBAE/releases

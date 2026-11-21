@@ -8,7 +8,7 @@ tags:
   - cleanup
   - files
 repository: https://github.com/starbudweiser/fCLEANER
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#fCLEANER"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/fCLEANER/blob/main/LICENSE
 download: https://github.com/starbudweiser/fCLEANER/releases

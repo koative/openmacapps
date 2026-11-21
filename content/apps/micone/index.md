@@ -9,7 +9,7 @@ tags:
   - command-line
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/MiCONE
-website: https://github.com/starbudweiser/MiCONE
+website: "https://starbudweiser.github.io/wshowcase/#MiCONE"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/MiCONE/blob/main/LICENSE
 download: https://github.com/starbudweiser/MiCONE/releases

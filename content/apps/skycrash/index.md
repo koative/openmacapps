@@ -9,7 +9,7 @@ tags:
   - troubleshooting
   - crossover
 repository: https://github.com/starbudweiser/sKYCRASH
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#sKYCRASH"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/sKYCRASH/blob/main/LICENSE
 download: https://github.com/starbudweiser/sKYCRASH/releases

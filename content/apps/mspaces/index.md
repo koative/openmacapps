@@ -8,7 +8,7 @@ tags:
   - separators
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mSPACES
-website: https://github.com/starbudweiser/mSPACES
+website: "https://starbudweiser.github.io/wshowcase/#mSPACES"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mSPACES/blob/main/LICENSE
 download: https://github.com/starbudweiser/mSPACES/releases

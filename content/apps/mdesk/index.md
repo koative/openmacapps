@@ -9,7 +9,7 @@ tags:
   - displays
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mDESK
-website: https://github.com/starbudweiser/mDESK
+website: "https://starbudweiser.github.io/wshowcase/#mDESK"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mDESK/blob/main/LICENSE
 download: https://github.com/starbudweiser/mDESK/releases

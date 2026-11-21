@@ -12,7 +12,7 @@ tags:
 alternativeTo:
   - cleanmymac
 repository: https://github.com/starbudweiser/hdCLEANER
-website: https://github.com/starbudweiser/hdCLEANER
+website: "https://starbudweiser.github.io/wshowcase/#hdCLEANER"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/hdCLEANER/blob/main/LICENSE
 download: https://github.com/starbudweiser/hdCLEANER/releases

@@ -9,7 +9,7 @@ tags:
   - sync
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mBACKUP
-website: https://github.com/starbudweiser/mBACKUP
+website: "https://starbudweiser.github.io/wshowcase/#mBACKUP"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mBACKUP/blob/main/LICENSE
 download: https://github.com/starbudweiser/mBACKUP/releases

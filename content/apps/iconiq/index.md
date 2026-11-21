@@ -9,7 +9,7 @@ tags:
   - iconjar
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/iCONIQ
-website: https://github.com/starbudweiser/iCONIQ
+website: "https://starbudweiser.github.io/wshowcase/#iCONIQ"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/iCONIQ/blob/main/LICENSE
 download: https://github.com/starbudweiser/iCONIQ/releases

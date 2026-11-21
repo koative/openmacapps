@@ -8,7 +8,7 @@ tags:
   - merge
   - modding
 repository: https://github.com/starbudweiser/fOLDERFUSE
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#fOLDERFUSE"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/fOLDERFUSE/blob/main/LICENSE
 download: https://github.com/starbudweiser/fOLDERFUSE/releases
