@@ -8,7 +8,7 @@ tags:
   - plugins
   - editor
 repository: https://github.com/starbudweiser/pLUGINSLENS
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#pLUGINSLENS"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/pLUGINSLENS/blob/main/LICENSE
 download: https://github.com/starbudweiser/pLUGINSLENS/releases

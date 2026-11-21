@@ -12,7 +12,7 @@ tags:
 alternativeTo:
   - screen-studio
 repository: https://github.com/starbudweiser/mTAPES
-website: https://github.com/starbudweiser/mTAPES
+website: "https://starbudweiser.github.io/wshowcase/#mTAPES"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mTAPES/blob/main/LICENSE
 download: "https://github.com/starbudweiser/mTAPES/releases/latest"

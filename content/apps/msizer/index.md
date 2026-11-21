@@ -12,7 +12,7 @@ tags:
   - resize
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mSIZER
-website: https://github.com/starbudweiser/mSIZER
+website: "https://starbudweiser.github.io/wshowcase/#mSIZER"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mSIZER/blob/main/LICENSE
 download: https://github.com/starbudweiser/mSIZER/releases

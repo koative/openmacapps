@@ -9,7 +9,7 @@ tags:
   - crossover
   - nexus-mods
 repository: https://github.com/starbudweiser/mORTEX
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#mORTEX"
 license: GPL-3.0
 licenseUrl: https://github.com/starbudweiser/mORTEX/blob/main/LICENSE.md
 download: https://github.com/starbudweiser/mORTEX/releases

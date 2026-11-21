@@ -9,7 +9,7 @@ tags:
   - forms
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mPDF
-website: https://github.com/starbudweiser/mPDF
+website: "https://starbudweiser.github.io/wshowcase/#mPDF"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mPDF/blob/main/LICENSE
 download: "https://github.com/starbudweiser/mPDF/releases/latest"

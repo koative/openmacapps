@@ -9,7 +9,7 @@ tags:
   - crossover
   - presets
 repository: https://github.com/starbudweiser/csSETTINGS
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#csSETTINGS"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/csSETTINGS/blob/main/LICENSE
 download: https://github.com/starbudweiser/csSETTINGS/releases

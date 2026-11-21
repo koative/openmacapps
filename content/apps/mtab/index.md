@@ -9,7 +9,7 @@ tags:
   - productivity
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mTAB
-website: https://github.com/starbudweiser/mTAB
+website: "https://starbudweiser.github.io/wshowcase/#mTAB"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mTAB/blob/main/LICENSE
 download: "https://github.com/starbudweiser/mTAB/releases/latest"

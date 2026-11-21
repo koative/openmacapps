@@ -8,7 +8,7 @@ tags:
   - skyrim
   - installers
 repository: https://github.com/starbudweiser/fOMOD_SIM
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#fOMODSIM"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/fOMOD_SIM/blob/main/LICENSE
 download: https://github.com/starbudweiser/fOMOD_SIM/releases

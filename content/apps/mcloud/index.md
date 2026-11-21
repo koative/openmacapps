@@ -10,7 +10,7 @@ tags:
   - menu-bar
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/mCLOUD
-website: https://github.com/starbudweiser/mCLOUD
+website: "https://starbudweiser.github.io/wshowcase/#mCLOUD"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mCLOUD/blob/main/LICENSE
 download: "https://github.com/starbudweiser/mCLOUD/releases/latest"

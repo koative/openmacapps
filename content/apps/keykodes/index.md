@@ -8,7 +8,7 @@ tags:
   - keyboard
   - key-codes
 repository: https://github.com/starbudweiser/kEYKODES
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#kEYKODES"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/kEYKODES/blob/main/LICENSE
 download: https://github.com/starbudweiser/kEYKODES/releases

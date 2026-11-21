@@ -8,7 +8,7 @@ tags:
   - mod-organizer
   - crossover
 repository: https://github.com/starbudweiser/mO2FLATTENER
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#mO2FLATTENER"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/mO2FLATTENER/blob/main/LICENSE
 download: https://github.com/starbudweiser/mO2FLATTENER/releases

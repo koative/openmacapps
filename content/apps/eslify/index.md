@@ -8,7 +8,7 @@ tags:
   - plugins
   - load-order
 repository: https://github.com/starbudweiser/eSLIFY
-website: https://skyrimtools.com
+website: "https://starbudweiser.github.io/wshowcase/#eSLIFY"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/eSLIFY/blob/main/LICENSE
 download: https://github.com/starbudweiser/eSLIFY/releases

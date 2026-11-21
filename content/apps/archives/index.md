@@ -11,7 +11,7 @@ tags:
 alternativeTo:
   - the-unarchiver
 repository: https://github.com/starbudweiser/ARCHiVES
-website: https://github.com/starbudweiser/ARCHiVES
+website: "https://starbudweiser.github.io/wshowcase/#ARCHiVES"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/ARCHiVES/blob/main/LICENSE
 download: "https://github.com/starbudweiser/ARCHiVES/releases/latest"

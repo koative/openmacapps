@@ -9,7 +9,7 @@ tags:
   - video
   - desktop-mac-toolkit
 repository: https://github.com/starbudweiser/qLOOKS
-website: https://github.com/starbudweiser/qLOOKS
+website: "https://starbudweiser.github.io/wshowcase/#qLOOKS"
 license: MIT
 licenseUrl: https://github.com/starbudweiser/qLOOKS/blob/main/LICENSE
 download: "https://github.com/starbudweiser/qLOOKS/releases/latest"
