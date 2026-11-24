@@ -6,6 +6,8 @@ tags:
   - images
   - reference
   - moodboard
+alternativeTo:
+  - linger
 repository: "https://github.com/viktorkpkn/ImageCanvas"
 website: "https://github.com/viktorkpkn/ImageCanvas"
 license: "MIT"
@@ -29,6 +31,6 @@ assets:
 icon: ./assets/icon.png
 ---
 
-ImageCanvas shows images from folders or dropped files on a zoomable canvas. They can be arranged as a tiled grid, a cascading column grid or a grid at native resolution, and you can pan, rotate, flip and resize them and add text objects. Files are referenced where they already are and are never modified. Boards are saved locally, and a snapshot of a board can be copied or saved to Pictures. Pen drawings last only for the session. It suits moodboards and quick reviews of large download folders.
+ImageCanvas shows images from folders or dropped files on a zoomable canvas. They can be arranged as a tiled grid, a cascading column grid or a grid at native resolution, and you can pan, rotate, flip and resize them and add text objects. Files are referenced where they already are and are never modified. Boards are saved locally, and a snapshot of a board can be copied or saved to Pictures. Pen drawings last only for the session. ImageCanvas arranges existing files directly from your folders. Linger imports copies into a library with notes and source links. It suits moodboards and quick reviews of large download folders.
 
 Requires macOS 14 or later. Releases are neither notarized nor signed with a Developer ID, so macOS may block the first launch. The README asks you to check the archive's SHA-256 against the release page and then use System Settings → Privacy & Security → Open Anyway. The built-in update check runs only when you request it, and it verifies GitHub's published digest, which is integrity checking rather than publisher authentication. Building from source requires Xcode 27 beta 3 or later.
