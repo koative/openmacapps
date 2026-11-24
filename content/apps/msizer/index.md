@@ -51,7 +51,8 @@ Operations you can combine:
 
 - resizing by long side, width, height or percentage, or to fit or fill a box, never enlarging;
 - cropping to a ratio with an anchor, or by hand with handles on the preview;
-- rotating, flipping and auto enhance, brightness, contrast, saturation and sharpness;
+- rotating, flipping, auto enhance and basic adjustments;
+- removing the background with the subject detected by Apple's Vision framework (transparent, white, black, a color or a blur), and cropping centered on a face for profile pictures;
 - text or logo watermarks in nine positions;
 - renaming with a pattern such as `{name}`, `{n}` or `{date}`.
 
