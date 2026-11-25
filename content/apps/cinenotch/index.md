@@ -9,7 +9,7 @@ tags:
   - safari
   - google-chrome
 repository: "https://github.com/NikOneZ1/cinenotch"
-website: "https://cinenotch.cam/?ref=gh-koative-openmacapps"
+website: "https://cinenotch.cam/"
 license: "GPL-3.0"
 licenseUrl: "https://github.com/NikOneZ1/cinenotch/blob/main/LICENSE"
 download: "https://github.com/NikOneZ1/cinenotch/releases/latest"
