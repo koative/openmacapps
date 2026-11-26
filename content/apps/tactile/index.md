@@ -12,6 +12,7 @@ website: https://tactile.masn.studio
 license: MIT
 licenseUrl: https://github.com/Mason363/Tactile/blob/main/LICENSE
 download: https://github.com/Mason363/Tactile/releases
+homebrew: "tactile"
 macos: "14.6"
 arch: both
 notarized: true

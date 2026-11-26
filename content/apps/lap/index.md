@@ -14,6 +14,7 @@ website: https://julyx10.github.io/lap/
 license: "GPL-3.0-or-later"
 licenseUrl: https://github.com/julyx10/lap/blob/main/LICENSE
 download: https://github.com/julyx10/lap/releases
+homebrew: "lap"
 arch: both
 notarized: true
 freeDownload: true

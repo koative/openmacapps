@@ -14,10 +14,10 @@ website: "https://paradev.com"
 license: "MIT"
 licenseUrl: "https://github.com/ParadevAI/Paradev/blob/main/LICENSE.md"
 download: "https://github.com/ParadevAI/Paradev/releases/latest"
+homebrew: "paradev"
 macos: "13"
 arch: both
 notarized: true
-homebrew: "superset"
 freeDownload: true
 featured: false
 added: "2026-11-23"
