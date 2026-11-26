@@ -34,6 +34,6 @@ assets:
 icon: ./assets/icon.png
 ---
 
-Yalqen is a browser for developers built on Chromium. It offers vertical tabs, a command bar, an AI panel and built-in blocking of ads and trackers, and it does not require a browser account. The release notes say it updates itself: when an update is ready, the update button in the toolbar restarts the app, installs the update and restores your tabs.
+Yalqen is a browser for developers built on Chromium. Like Arc, it offers vertical tabs and a command bar, and it adds an AI panel and built-in blocking of ads and trackers. Unlike Google Chrome, it does not require a browser account. Extensions from the Chrome Web Store work: the developer has tested Bitwarden, uBlock Origin Lite and Dark Reader on the Mac. Widevine DRM is included, so the Spotify web player plays music. The release notes say it updates itself: when an update is ready, the update button in the toolbar restarts the app, installs the update and restores your tabs.
 
 Per the release notes, the DMG requires macOS 13 or later on Apple silicon; it contains an arm64 build only. Versions 0.2.0 and earlier cannot update themselves, so install a current version by hand once. The app is signed with a Developer ID and notarized.
