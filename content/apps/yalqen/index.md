@@ -13,7 +13,7 @@ repository: "https://github.com/YSamed/yalqen"
 website: "https://yalqen.com"
 license: "MIT"
 licenseUrl: "https://github.com/YSamed/yalqen/blob/main/LICENSE"
-download: "https://github.com/YSamed/yalqen/releases/download/v0.3.86/Yalqen-0.3.86-arm64.dmg"
+download: "https://github.com/YSamed/yalqen/releases/latest"
 macos: "13"
 arch: apple-silicon
 freeDownload: true
@@ -35,4 +35,4 @@ icon: ./assets/icon.png
 
 Yalqen is a browser for developers built on Chromium. It offers vertical tabs, a command bar, an AI panel and built-in blocking of ads and trackers, and it does not require a browser account. The release notes say it updates itself: when an update is ready, the update button in the toolbar restarts the app, installs the update and restores your tabs.
 
-Per the release notes, the DMG requires macOS 13 or later on Apple silicon; it contains an arm64 build only. Versions 0.2.0 and earlier cannot update themselves, so install a current version by hand once. The project is at version 0.3.x.
+Per the release notes, the DMG requires macOS 13 or later on Apple silicon; it contains an arm64 build only. Versions 0.2.0 and earlier cannot update themselves, so install a current version by hand once.
